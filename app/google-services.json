@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "950854451750",
+    "firebase_url": "https://aphro-ab90c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "aphro-ab90c",
+    "storage_bucket": "aphro-ab90c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950854451750:android:f11da34faa02a6476cdce7",
+        "android_client_info": {
+          "package_name": "com.projectd.aphroapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950854451750-qktdlqol9mu6ajc733kd75kt8i17top4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projectd.aphroapp",
+            "certificate_hash": "8a7f9f7d6805a187129d182935ff600ab0a64f5d"
+          }
+        },
+        {
+          "client_id": "950854451750-09n9g9hp03qlfbglghgvphndptdcjbr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRHJ3HRyTQaVYECBa5eDn-dXjfpROaf64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950854451750-09n9g9hp03qlfbglghgvphndptdcjbr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

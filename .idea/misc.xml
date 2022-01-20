@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable/border_edittext.xml" value="0.2703125" />
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_login.xml" value="0.22509057971014493" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_main.xml" value="0.2341485507246377" />
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
       </map>
     </option>
   </component>
