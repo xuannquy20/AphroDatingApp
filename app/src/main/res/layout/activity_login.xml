@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="30dp"
+    android:background="@drawable/background_login"
     tools:context=".LoginActivity">
 
     <LinearLayout
@@ -24,36 +25,16 @@
             android:layout_height="50dp"
             android:layout_marginBottom="50dp"
             app:srcCompat="@drawable/logo" />
-
-        <EditText
-            android:id="@+id/editTextTextPersonName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/border_edittext"
-            android:ems="10"
-            android:hint="Username"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:paddingLeft="10dp" />
-
-        <EditText
-            android:id="@+id/editTextTextPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/border_edittext"
-            android:ems="10"
-            android:hint="Password"
-            android:inputType="textPassword"
-            android:minHeight="48dp"
-            android:paddingLeft="10dp" />
-
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:text="Login" />
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/ripple_button"
+            android:textSize="15dp"
+            android:drawableLeft="@drawable/logo_google"
+            android:paddingLeft="20dp"
+            android:textColor="#545454"
+            android:text="Đăng nhập bằng Google" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
