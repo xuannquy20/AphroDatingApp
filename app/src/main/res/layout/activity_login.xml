@@ -26,7 +26,7 @@
             android:layout_marginBottom="50dp"
             app:srcCompat="@drawable/logo" />
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button"
+            android:id="@+id/btnGoogleSignIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
@@ -36,5 +36,17 @@
             android:paddingLeft="20dp"
             android:textColor="#545454"
             android:text="Đăng nhập bằng Google" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFacebookSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/ripple_button"
+            android:textSize="15dp"
+            android:drawableLeft="@drawable/logo_facebook"
+            android:paddingLeft="20dp"
+            android:textColor="#545454"
+            android:text="Đăng nhập bằng Facebook"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

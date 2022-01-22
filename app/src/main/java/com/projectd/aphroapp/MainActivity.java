@@ -4,12 +4,21 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.ValueAnimator;
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Base64;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.ImageView;
+import android.widget.TextView;
+
+import java.security.MessageDigest;
 
 public class MainActivity extends AppCompatActivity {
     private ImageView imgLogo;
@@ -18,11 +27,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         imgLogo = findViewById(R.id.logoView);
         animationIntro(imgLogo, 0f, 0.8f, 0);
         animationIntro(imgLogo, 0f, 0.8f, 1);
-
         Handler handler = new Handler();
         Intent i = new Intent(this, LoginActivity.class);
         handler.postDelayed(new Runnable(){
