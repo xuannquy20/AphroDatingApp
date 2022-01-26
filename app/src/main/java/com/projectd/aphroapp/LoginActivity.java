@@ -1,16 +1,20 @@
 package com.projectd.aphroapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.animation.ValueAnimator;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.SpannableString;
+import android.text.style.UnderlineSpan;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
 
-import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -18,13 +22,19 @@ import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
 import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
-import com.facebook.login.widget.LoginButton;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+import com.projectd.aphroapp.model.User;
 
 import java.util.Arrays;
+import java.util.Date;
 
 public class LoginActivity extends AppCompatActivity {
     private LinearLayout layoutMain;
@@ -32,11 +42,47 @@ public class LoginActivity extends AppCompatActivity {
     private Button btnGoogleSignIn;
     private Button btnFacebookSignIn;
     private CallbackManager callbackManager;
+    private TextView ruleLink, txtRule;
+    private LinearLayout layoutLogo;
+    final FirebaseDatabase database = FirebaseDatabase.getInstance();
 
     public void bindingView(){
         layoutMain = findViewById(R.id.LayoutLogin);
         btnGoogleSignIn = findViewById(R.id.btnGoogleSignIn);
         btnFacebookSignIn = findViewById(R.id.btnFacebookSignIn);
+        ruleLink = findViewById(R.id.textView3);
+        layoutLogo = findViewById(R.id.layoutLogo);
+        txtRule = findViewById(R.id.txtRule);
+        SpannableString content = new SpannableString("Nhấn vào đây để đọc");
+        content.setSpan(new UnderlineSpan(), 0, content.length(), 0);
+        ruleLink.setText(content);
+    }
+
+    public void bindingActionListener(){
+        btnFacebookSignIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                LoginManager.getInstance().logInWithReadPermissions(LoginActivity.this, Arrays.asList("public_profile"));
+            }
+        });
+        ruleLink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
+            }
+        });
+        txtRule.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
+            }
+        });
+        btnGoogleSignIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                signInGoogle();
+            }
+        });
     }
 
     @Override
@@ -47,54 +93,66 @@ public class LoginActivity extends AppCompatActivity {
         GoogleSignInOptions googleSignIn = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail().build();
         mGoogleSignInClient = GoogleSignIn.getClient(this, googleSignIn);
-        btnGoogleSignIn.setOnClickListener(new View.OnClickListener() {
+
+        User u = new User(1, "Nguyen thi b", 16);
+        DatabaseReference ref = database.getReference().child("/user/");
+//        ref.setValue(u);
+
+        ref.addValueEventListener(new ValueEventListener() {
             @Override
-            public void onClick(View view) {
-                signInGoogle();
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                Log.i("checkData", Long.toString(snapshot.getChildrenCount()));
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
             }
         });
+
         FacebookSdk.sdkInitialize(getApplicationContext());
         AppEventsLogger.activateApp(this);
-
         callbackManager = CallbackManager.Factory.create();
         LoginManager.getInstance().registerCallback(callbackManager,
                 new FacebookCallback<LoginResult>() {
                     @Override
                     public void onSuccess(LoginResult loginResult) {
-                        // App code
+                        Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+                        startActivity(i);
                     }
 
                     @Override
                     public void onCancel() {
-                        // App code
+                        Toast.makeText(LoginActivity.this, "Huỷ đăng nhập", Toast.LENGTH_SHORT);
                     }
 
                     @Override
                     public void onError(FacebookException exception) {
-                        // App code
+                        Toast.makeText(LoginActivity.this, "Lỗi hệ thống", Toast.LENGTH_SHORT);
                     }
                 });
-        btnFacebookSignIn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                LoginManager.getInstance().logInWithReadPermissions(LoginActivity.this, Arrays.asList("public_profile"));
-            }
-        });
+
+        bindingActionListener();
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        callbackManager.onActivityResult(requestCode, resultCode, data);
         super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == 1){
+            Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+            startActivity(i);
+        }
+        else {
+            callbackManager.onActivityResult(requestCode, resultCode, data);
+        }
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        animationIntro(layoutMain);
-        GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
-        AccessToken accessToken = AccessToken.getCurrentAccessToken();
-        boolean isLoggedIn = accessToken != null && !accessToken.isExpired();
+        animationIntro(layoutMain, 1000, 0);
+        animationIntro(layoutLogo, -1000, 0);
+
     }
 
     private void signInGoogle() {
@@ -102,8 +160,8 @@ public class LoginActivity extends AppCompatActivity {
         startActivityForResult(signInIntent, 1);
     }
 
-    private void animationIntro(View view){
-        ValueAnimator move = ValueAnimator.ofFloat(1500, 1);
+    private void animationIntro(View view, int positionFirst, int positionLast){
+        ValueAnimator move = ValueAnimator.ofFloat(positionFirst, positionLast);
         move.setInterpolator(new AccelerateDecelerateInterpolator());
         move.setDuration(1000);
         move.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
