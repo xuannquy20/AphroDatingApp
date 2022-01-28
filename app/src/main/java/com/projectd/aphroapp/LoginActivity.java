@@ -15,6 +15,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -94,22 +95,6 @@ public class LoginActivity extends AppCompatActivity {
                 .requestEmail().build();
         mGoogleSignInClient = GoogleSignIn.getClient(this, googleSignIn);
 
-        User u = new User(1, "Nguyen thi b", 16);
-        DatabaseReference ref = database.getReference().child("/user/");
-//        ref.setValue(u);
-
-        ref.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                Log.i("checkData", Long.toString(snapshot.getChildrenCount()));
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        });
-
         FacebookSdk.sdkInitialize(getApplicationContext());
         AppEventsLogger.activateApp(this);
         callbackManager = CallbackManager.Factory.create();
@@ -119,6 +104,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onSuccess(LoginResult loginResult) {
                         Intent i = new Intent(LoginActivity.this, HomeActivity.class);
                         startActivity(i);
+                        MainActivity.userId = AccessToken.getCurrentAccessToken().getUserId();
                     }
 
                     @Override
@@ -141,9 +127,12 @@ public class LoginActivity extends AppCompatActivity {
         if(requestCode == 1){
             Intent i = new Intent(LoginActivity.this, HomeActivity.class);
             startActivity(i);
+            GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(LoginActivity.this);
+            MainActivity.userId = account.getId();
         }
         else {
             callbackManager.onActivityResult(requestCode, resultCode, data);
+
         }
     }
 
