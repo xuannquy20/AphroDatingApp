@@ -12,15 +12,18 @@ import android.widget.ImageView;
 import com.facebook.AccessToken;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
     private ImageView imgLogo;
-    static String userId;
+    public static String CURRENT_USER_ID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         imgLogo = findViewById(R.id.logoView);
         animationIntro(imgLogo, 0f, 0.8f, 0);
         animationIntro(imgLogo, 0f, 0.8f, 1);
@@ -40,10 +43,10 @@ public class MainActivity extends AppCompatActivity {
 
                         if(account != null || isFacebookLoggedIn()){
                             if(account != null){
-                                userId = account.getId();
+                                CURRENT_USER_ID = account.getId();
                             }
                             else{
-                                userId = AccessToken.getCurrentAccessToken().getUserId();
+                                CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
                             }
                             Intent i = new Intent(MainActivity.this, HomeActivity.class);
                             startActivity(i);

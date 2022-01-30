@@ -104,7 +104,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onSuccess(LoginResult loginResult) {
                         Intent i = new Intent(LoginActivity.this, HomeActivity.class);
                         startActivity(i);
-                        MainActivity.userId = AccessToken.getCurrentAccessToken().getUserId();
+                        MainActivity.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
                     }
 
                     @Override
@@ -117,7 +117,6 @@ public class LoginActivity extends AppCompatActivity {
                         Toast.makeText(LoginActivity.this, "Lỗi hệ thống", Toast.LENGTH_SHORT);
                     }
                 });
-
         bindingActionListener();
     }
 
@@ -128,7 +127,7 @@ public class LoginActivity extends AppCompatActivity {
             Intent i = new Intent(LoginActivity.this, HomeActivity.class);
             startActivity(i);
             GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(LoginActivity.this);
-            MainActivity.userId = account.getId();
+            MainActivity.CURRENT_USER_ID = account.getId();
         }
         else {
             callbackManager.onActivityResult(requestCode, resultCode, data);
