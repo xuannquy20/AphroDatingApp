@@ -32,6 +32,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.projectd.aphroapp.dao.UserDAO;
 import com.projectd.aphroapp.model.User;
 
 import java.util.Arrays;
@@ -104,7 +105,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onSuccess(LoginResult loginResult) {
                         Intent i = new Intent(LoginActivity.this, HomeActivity.class);
                         startActivity(i);
-                        MainActivity.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
+                        UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
                     }
 
                     @Override
@@ -127,7 +128,7 @@ public class LoginActivity extends AppCompatActivity {
             Intent i = new Intent(LoginActivity.this, HomeActivity.class);
             startActivity(i);
             GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(LoginActivity.this);
-            MainActivity.CURRENT_USER_ID = account.getId();
+            UserDAO.CURRENT_USER_ID = account.getId();
         }
         else {
             callbackManager.onActivityResult(requestCode, resultCode, data);

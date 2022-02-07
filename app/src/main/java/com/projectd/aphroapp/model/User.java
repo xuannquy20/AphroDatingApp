@@ -1,9 +1,11 @@
 package com.projectd.aphroapp.model;
 
+import java.util.Date;
+
 public class User {
-    String id;
-    String name;
-    int age;
+    private String id, name, idSoulmate, address;
+    int age, passwordSearch;
+    Date birthDate;
 
     public User(){}
 
