@@ -3,7 +3,7 @@ package com.projectd.aphroapp.model;
 import java.util.Date;
 
 public class User {
-    private String id, name, idSoulmate, address;
+    private String id, name, idSoulmate, quan, huyen, city;
     int age, passwordSearch;
     Date birthDate;
 
