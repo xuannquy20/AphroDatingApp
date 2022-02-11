@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/love"
+    android:background="@drawable/background_first"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -17,7 +17,7 @@
         android:gravity="center"
         android:text="APHRO"
         android:textColor="@color/white"
-        android:textSize="60sp" />
+        android:textSize="70sp" />
 
     <TextView
         android:id="@+id/textView2"
