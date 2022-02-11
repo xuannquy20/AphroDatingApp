@@ -70,7 +70,7 @@ public class LoginActivity extends AppCompatActivity {
         ruleLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
+                startActivity(new Intent(LoginActivity.this, ChatListActivity.class));
             }
         });
         txtRule.setOnClickListener(new View.OnClickListener() {

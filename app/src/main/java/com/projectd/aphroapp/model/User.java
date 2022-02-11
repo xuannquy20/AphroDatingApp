@@ -3,9 +3,9 @@ package com.projectd.aphroapp.model;
 import java.util.Date;
 
 public class User {
-    private String id, name, idSoulmate, quan, huyen, city;
-    int age, passwordSearch;
-    Date birthDate;
+    private String id, name;//, idSoulmate, quan, huyen, city;
+    int age;//, passwordSearch;
+    //Date birthDate;
 
     public User(){}
 
@@ -39,4 +39,12 @@ public class User {
         return age;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

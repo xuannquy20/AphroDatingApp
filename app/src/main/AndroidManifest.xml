@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AphroApp">
         <activity
+            android:name=".ChatListActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
