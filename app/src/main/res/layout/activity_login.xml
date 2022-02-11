@@ -27,7 +27,7 @@
             android:text="APHRO"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="34sp"
+            android:textSize="48sp"
             android:textStyle="bold" />
 
         <TextView
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/rocksalt"
             android:padding="10dp"
-            android:text="Love every moment"
+            android:text="Love every moment..."
             android:textColor="@color/white"
             android:textSize="16sp" />
     </LinearLayout>
