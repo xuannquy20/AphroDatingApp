@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button btnGoogleSignIn;
     private Button btnFacebookSignIn;
     private CallbackManager callbackManager;
-    private TextView ruleLink, txtRule;
+    private TextView ruleLink;
     private LinearLayout layoutLogo;
     final FirebaseDatabase database = FirebaseDatabase.getInstance();
 
@@ -54,8 +54,7 @@ public class LoginActivity extends AppCompatActivity {
         btnFacebookSignIn = findViewById(R.id.btnFacebookSignIn);
         ruleLink = findViewById(R.id.textView3);
         layoutLogo = findViewById(R.id.layoutLogo);
-        txtRule = findViewById(R.id.txtRule);
-        SpannableString content = new SpannableString("Nhấn vào đây để đọc");
+        SpannableString content = new SpannableString("Điều khoản và dịch vụ");
         content.setSpan(new UnderlineSpan(), 0, content.length(), 0);
         ruleLink.setText(content);
     }
@@ -71,12 +70,6 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(LoginActivity.this, ChatListActivity.class));
-            }
-        });
-        txtRule.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
             }
         });
         btnGoogleSignIn.setOnClickListener(new View.OnClickListener() {

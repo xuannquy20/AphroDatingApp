@@ -19,21 +19,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="100dp"
-            android:layout_height="50dp"
-            app:srcCompat="@drawable/logo" />
-
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/logo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Aphro"
+            android:fontFamily="@font/rocksalt"
+            android:text="APHRO"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="34sp"
             android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/slogan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rocksalt"
+            android:padding="10dp"
+            android:text="Love every moment"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -71,25 +76,15 @@
             android:textSize="15dp" />
 
         <TextView
-            android:id="@+id/txtRule"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:text="Đăng nhập đồng nghĩa với việc bạn chấp nhận với Điều khoản của chúng tôi."
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            android:textStyle="bold" />
-
-        <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nhấn vào đây để đọc"
+            android:text="Điều khoản và dịch vụ"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold" />
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

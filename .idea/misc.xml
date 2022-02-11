@@ -13,12 +13,15 @@
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable/logo_facebook.xml" value="0.17083333333333334" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable/logo_google.xml" value="0.2046875" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable/ripple_button.xml" value="0.2703125" />
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/font/aclonica.xml" value="0.16197916666666667" />
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/font/rock_salt.xml" value="0.16197916666666667" />
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/font/yeseva_one.xml" value="0.16197916666666667" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_chat_box.xml" value="0.24818840579710144" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_chat_item.xml" value="0.24818840579710144" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_chat_list.xml" value="0.2" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_login.xml" value="0.2" />
-        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_main.xml" value="0.2341485507246377" />
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_main2.xml" value="0.1640625" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register.xml" value="0.264" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_rule.xml" value="0.25416666666666665" />
