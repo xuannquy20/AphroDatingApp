@@ -47,6 +47,7 @@ public class LoginActivity extends AppCompatActivity {
     private TextView ruleLink;
     private LinearLayout layoutLogo;
     final FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference ref = database.getReference().child("user");
 
     public void bindingView(){
         layoutMain = findViewById(R.id.LayoutLogin);
@@ -69,7 +70,7 @@ public class LoginActivity extends AppCompatActivity {
         ruleLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(LoginActivity.this, ChatListActivity.class));
+                startActivity(new Intent(LoginActivity.this, RegisterAdressActivity.class));
             }
         });
         btnGoogleSignIn.setOnClickListener(new View.OnClickListener() {
@@ -96,11 +97,15 @@ public class LoginActivity extends AppCompatActivity {
                 new FacebookCallback<LoginResult>() {
                     @Override
                     public void onSuccess(LoginResult loginResult) {
-                        Intent i = new Intent(LoginActivity.this, HomeActivity.class);
-                        startActivity(i);
                         UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
-                    }
+                        if(checkData()){
+                            Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+                            startActivity(i);
+                        }
+                        else{
 
+                        }
+                    }
                     @Override
                     public void onCancel() {
                         Toast.makeText(LoginActivity.this, "Huỷ đăng nhập", Toast.LENGTH_SHORT);
@@ -112,6 +117,22 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 });
         bindingActionListener();
+    }
+
+    protected boolean checkData(){
+        final boolean[] check = {false};
+        ref.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                check[0] = snapshot.hasChild(UserDAO.CURRENT_USER_ID);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+        return check[0];
     }
 
     @Override

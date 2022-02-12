@@ -13,10 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AphroApp">
         <activity
+            android:name=".RegisterAdressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterBirthDayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterGenderActivity"
+            android:exported="false" />
+        <activity
             android:name=".ChatListActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".RegisterNameActivity"
             android:exported="false" />
         <activity
             android:name=".RuleActivity"

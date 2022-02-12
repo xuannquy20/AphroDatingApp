@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.projectd.aphroapp.model.User;
 import java.util.LinkedList;
 
-public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordViewHolder> {
+public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordViewHolder> {
     private LinkedList<User> wordList;
     private LayoutInflater mInflater;
     int speedAni = 300;
@@ -31,7 +31,7 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
         }
     }
 
-    public WordListAdapter(Context context, LinkedList<User> wordList) {
+    public ChatListAdapter(Context context, LinkedList<User> wordList) {
         mInflater = LayoutInflater.from(context);
         this.wordList = wordList;
     }
