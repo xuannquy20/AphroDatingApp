@@ -4,19 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:padding="20dp"
-    tools:context=".RegisterNameActivity">
+    tools:context=".RegisterBirthDateActivity">
 
     <TextView
         android:id="@+id/txtInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="8"
-        android:gravity="center_vertical"
+        android:lines="2"
         android:paddingHorizontal="15dp"
         android:paddingVertical="30dp"
-        android:text="Tên của bạn"
+        android:text="Ngày sinh của bạn"
         android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -25,41 +23,79 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
+        android:id="@+id/select_birthdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.994"
+        android:gravity="center"
         android:orientation="vertical"
+        android:paddingBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.9" />
+            android:text="Ngày/Tháng/Năm"
+            android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/inputName"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
-            android:backgroundTint="@color/black"
-            android:hint="Tên của bạn"
-            android:inputType="textPersonName"
-            android:paddingHorizontal="15dp"
-            android:textSize="28sp" />
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_spinner">
+
+                <Spinner
+                    android:id="@+id/day"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/border_spinner">
+
+                <Spinner
+                    android:id="@+id/month"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+                android:background="@drawable/border_spinner">
+
+                <Spinner
+                    android:id="@+id/year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp" />
+            </RelativeLayout>
+        </LinearLayout>
 
         <TextView
-            android:id="@+id/bannerName"
+            android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="5"
-            android:paddingHorizontal="15dp"
-            android:text="Tên này sẽ được hiển thị trên Aphro"
-            android:textColor="#B5B5B5"
+            android:gravity="center"
+            android:padding="10dp"
+
+            android:text="Tuổi của bạn sẽ được hiển thị công khai"
             android:textSize="16sp" />
+
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -75,5 +111,4 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,6 @@
 package com.projectd.aphroapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.ValueAnimator;
@@ -16,6 +17,9 @@ import android.widget.Toast;
 import com.facebook.AccessToken;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.projectd.aphroapp.dao.InternetDAO;
@@ -52,11 +56,14 @@ public class MainActivity extends AppCompatActivity {
                             GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(MainActivity.this);
 
                             if (account != null || isFacebookLoggedIn()) {
+                                FirebaseDatabase database = FirebaseDatabase.getInstance();
+                                DatabaseReference ref = database.getReference().child("user/"+account.getId()+"/profile");
                                 if (account != null) {
                                     UserDAO.CURRENT_USER_ID = account.getId();
                                 } else {
                                     UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
                                 }
+                                ref.get().addOnCompleteListener(task -> UserDAO.CURRENT_USER = task.getResult().getValue(User.class));
                                 Intent i = new Intent(MainActivity.this, HomeActivity.class);
                                 startActivity(i);
                             } else {

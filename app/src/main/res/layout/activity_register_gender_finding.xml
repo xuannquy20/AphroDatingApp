@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    tools:context=".RegisterBirthDayActivity">
+    tools:context=".RegisterGenderFindingActivity">
 
     <TextView
         android:id="@+id/txtInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:lines="2"
+        android:layout_weight="8"
+        android:gravity="center_vertical"
         android:paddingHorizontal="15dp"
         android:paddingVertical="30dp"
-        android:text="Ngày sinh của bạn"
+        android:text="Bạn muốn tìm kiếm"
         android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -25,73 +26,53 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_weight="0.995"
         android:orientation="vertical"
-        android:paddingBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
+        <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="0dp"
+            android:layout_margin="50dp"
+            android:layout_weight="0.994"
+            android:gravity="center">
 
-            <EditText
-                android:id="@+id/editTextNumber"
-                android:layout_width="wrap_content"
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:ems="10"
-                android:hint="Ngày"
-                android:inputType="number"
-                android:maxLength="2"
+                android:background="@drawable/custom_radio"
+                android:button="@null"
+                android:checked="false"
+                android:gravity="center"
                 android:padding="20dp"
-                android:textSize="20sp" />
+                android:text="NAM"
+                android:textColor="@drawable/text_checked_radio"
+                android:textSize="24sp" />
 
-            <EditText
-                android:id="@+id/editTextNumber2"
-                android:layout_width="wrap_content"
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:ems="10"
-                android:hint="Tháng"
-                android:inputType="number"
-                android:maxLength="2"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/custom_radio"
+                android:button="@null"
+                android:gravity="center"
                 android:padding="20dp"
-                android:textSize="20sp" />
-
-            <EditText
-                android:id="@+id/editTextNumber3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.7"
-                android:ems="10"
-                android:hint="Năm"
-                android:inputType="number"
-                android:maxLength="4"
-                android:padding="20dp"
-                android:textSize="20sp" />
-
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="10dp"
-
-            android:text="Tuổi của bạn sẽ được công khai"
-            android:textSize="16sp" />
-
+                android:text="NỮ"
+                android:textColor="@drawable/text_checked_radio"
+                android:textSize="24sp" />
+        </RadioGroup>
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0.005"
         android:background="@drawable/ripple_button_background"
         android:fontFamily="sans-serif-medium"
         android:text="Tiếp tục"

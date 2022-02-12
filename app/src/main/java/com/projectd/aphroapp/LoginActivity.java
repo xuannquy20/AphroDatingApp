@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.SpannableString;
 import android.text.style.UnderlineSpan;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
@@ -27,6 +26,8 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -36,7 +37,6 @@ import com.projectd.aphroapp.dao.UserDAO;
 import com.projectd.aphroapp.model.User;
 
 import java.util.Arrays;
-import java.util.Date;
 
 public class LoginActivity extends AppCompatActivity {
     private LinearLayout layoutMain;
@@ -61,24 +61,9 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void bindingActionListener(){
-        btnFacebookSignIn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                LoginManager.getInstance().logInWithReadPermissions(LoginActivity.this, Arrays.asList("public_profile"));
-            }
-        });
-        ruleLink.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(LoginActivity.this, RegisterAdressActivity.class));
-            }
-        });
-        btnGoogleSignIn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                signInGoogle();
-            }
-        });
+        btnFacebookSignIn.setOnClickListener(view -> LoginManager.getInstance().logInWithReadPermissions(LoginActivity.this, Arrays.asList("public_profile")));
+        ruleLink.setOnClickListener(view -> startActivity(new Intent(LoginActivity.this, RegisterNameActivity.class)));
+        btnGoogleSignIn.setOnClickListener(view -> signInGoogle());
     }
 
     @Override
@@ -99,21 +84,23 @@ public class LoginActivity extends AppCompatActivity {
                     public void onSuccess(LoginResult loginResult) {
                         UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
                         if(checkData()){
+                            ref.get().addOnCompleteListener(task -> UserDAO.CURRENT_USER = task.getResult().getValue(User.class));
                             Intent i = new Intent(LoginActivity.this, HomeActivity.class);
                             startActivity(i);
                         }
                         else{
-
+                            Intent i = new Intent(LoginActivity.this, RegisterNameActivity.class);
+                            startActivity(i);
                         }
                     }
                     @Override
                     public void onCancel() {
-                        Toast.makeText(LoginActivity.this, "Huỷ đăng nhập", Toast.LENGTH_SHORT);
+                        Toast.makeText(LoginActivity.this, "Huỷ đăng nhập", Toast.LENGTH_SHORT).show();
                     }
 
                     @Override
                     public void onError(FacebookException exception) {
-                        Toast.makeText(LoginActivity.this, "Lỗi hệ thống", Toast.LENGTH_SHORT);
+                        Toast.makeText(LoginActivity.this, "Lỗi hệ thống", Toast.LENGTH_SHORT).show();
                     }
                 });
         bindingActionListener();
@@ -167,12 +154,9 @@ public class LoginActivity extends AppCompatActivity {
         ValueAnimator move = ValueAnimator.ofFloat(positionFirst, positionLast);
         move.setInterpolator(new AccelerateDecelerateInterpolator());
         move.setDuration(1000);
-        move.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
-            @Override
-            public void onAnimationUpdate(ValueAnimator animation) {
-                float progress = (float) animation.getAnimatedValue();
-                view.setTranslationY(progress);
-            }
+        move.addUpdateListener(animation -> {
+            float progress = (float) animation.getAnimatedValue();
+            view.setTranslationY(progress);
         });
         move.start();
     }
