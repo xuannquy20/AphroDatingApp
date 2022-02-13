@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
     private LinearLayout layoutLogo;
     final FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference ref = database.getReference().child("user");
-
+    private int a;
     public void bindingView(){
         layoutMain = findViewById(R.id.LayoutLogin);
         btnGoogleSignIn = findViewById(R.id.btnGoogleSignIn);
