@@ -32,10 +32,10 @@ public class RegisterGenderActivity extends AppCompatActivity {
         try{
             selectGender.setOnCheckedChangeListener((group, checkedId) -> {
                 if(selectGender.getCheckedRadioButtonId() == R.id.male){
-                    selectGenderId = "male";
+                    selectGenderId = "nam";
                 }
                 else {
-                    selectGenderId = "female";
+                    selectGenderId = "nu";
                 }
                 btnNext.setEnabled(true);
             });

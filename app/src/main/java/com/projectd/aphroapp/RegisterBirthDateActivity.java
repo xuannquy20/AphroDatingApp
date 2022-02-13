@@ -3,6 +3,7 @@ package com.projectd.aphroapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.ValueAnimator;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
@@ -12,7 +13,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -53,7 +53,6 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
     }
 
     protected void bindingAction(){
-
             selectDay.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                 @Override
                 public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -63,6 +62,10 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
                             if(i+1 != 2) {
                                 listMonth.add(Integer.toString(i + 1));
                             }
+                        }
+                        listYear.clear();
+                        for(int i = 1950; i<=Calendar.getInstance().get(Calendar.YEAR); i++){
+                            listYear.add(Integer.toString(i));
                         }
                     }
                     else if(Integer.parseInt(selectDay.getSelectedItem().toString()) == 31){
@@ -79,6 +82,10 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
                         listMonth.clear();
                         for(int i = 0; i<12; i++){
                             listMonth.add(Integer.toString(i + 1));
+                        }
+                        listYear.clear();
+                        for(int i = 1950; i<=Calendar.getInstance().get(Calendar.YEAR); i++){
+                            listYear.add(Integer.toString(i));
                         }
                     }
                 }
@@ -100,8 +107,8 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
                         }
                     }
                     else if(Integer.parseInt(selectMonth.getSelectedItem().toString()) == 2){
-                        listDay.clear();
                         if(Integer.parseInt(selectYear.getSelectedItem().toString()) % 4 == 0){
+                            listDay.clear();
                             if((Integer.parseInt(selectYear.getSelectedItem().toString()) % 100 == 0
                                     && Integer.parseInt(selectYear.getSelectedItem().toString()) % 400 == 0)
                                     || (Integer.parseInt(selectYear.getSelectedItem().toString()) % 100 != 0)){
@@ -115,7 +122,19 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
                                 }
                             }
                         }
+                        else if(Integer.parseInt(selectDay.getSelectedItem().toString()) == 29){
+                            listYear.clear();
+                            for(int i = 1950; i<=Calendar.getInstance().get(Calendar.YEAR); i++){
+                                if(i % 4 == 0){
+                                    if(i%100!=0 || (i%100==0 && i%400==0)){
+                                        listYear.add(Integer.toString(i));
+                                    }
+                                }
+                            }
+                            selectYear.setSelection(1, true);
+                        }
                         else{
+                            listDay.clear();
                             for (int i = 0; i < 28; i++){
                                 listDay.add(Integer.toString(i+1));
                             }
@@ -153,7 +172,8 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
                         }
                     }
                     else{
-                        for (int i = 0; i < 28; i++){
+                        listDay.clear();
+                        for (int i = 0; i < 31; i++){
                             listDay.add(Integer.toString(i+1));
                         }
                     }
@@ -161,6 +181,17 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
                 @Override
                 public void onNothingSelected(AdapterView<?> parent) {
                 }
+            });
+
+            btnNext.setOnClickListener(v -> {
+                Intent gender = getIntent();
+                Intent date = new Intent(this, RegisterAddressActivity.class);
+                date.putExtra("name", gender.getStringExtra("name"));
+                date.putExtra("gender", gender.getStringExtra("gender"));
+                date.putExtra("day", selectDay.getSelectedItem().toString());
+                date.putExtra("month", selectMonth.getSelectedItem().toString());
+                date.putExtra("year", selectYear.getSelectedItem().toString());
+                startActivity(date);
             });
     }
 

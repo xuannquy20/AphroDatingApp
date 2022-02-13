@@ -22,7 +22,7 @@
             android:name=".RegisterImageActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterAdressActivity"
+            android:name=".RegisterAddressActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
