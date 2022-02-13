@@ -26,21 +26,16 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
     private List<String> listYear, listMonth, listDay;
 
     protected void bindingView(){
-        try {
-            txtInfo = findViewById(R.id.txtInfo);
-            selectBirthDate = findViewById(R.id.select_birthdate);
-            selectDay = findViewById(R.id.day);
-            selectMonth = findViewById(R.id.month);
-            selectYear = findViewById(R.id.year);
-            btnNext = findViewById(R.id.btnNext);
+        txtInfo = findViewById(R.id.txtInfo);
+        selectBirthDate = findViewById(R.id.select_birthdate);
+        selectDay = findViewById(R.id.day);
+        selectMonth = findViewById(R.id.month);
+        selectYear = findViewById(R.id.year);
+        btnNext = findViewById(R.id.btnNext);
 
-            listYear = addListData(1900, 2022);
-            listMonth = addListData(1, 12);
-            listDay = addListData(1, 31);
-        }
-        catch (Exception e){
-            Toast.makeText(this, "Loi view", Toast.LENGTH_LONG).show();
-        }
+        listYear = addListData(1950, 2022);
+        listMonth = addListData(1, 12);
+        listDay = addListData(1, 31);
     }
 
     protected void addDataSpinner(Spinner v, List<String> list){
@@ -58,30 +53,115 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
     }
 
     protected void bindingAction(){
-        try {
+
             selectDay.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                 @Override
                 public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                     if(Integer.parseInt(selectDay.getSelectedItem().toString()) == 30){
                         listMonth.clear();
-                        listMonth.add("4");
-                        listMonth.add("6");
-                        listMonth.add("9");
-                        listMonth.add("11");
-                        ArrayAdapter<String> adapterMonth = new ArrayAdapter<>(RegisterBirthDateActivity.this, android.R.layout.simple_spinner_item, listMonth);
-                        adapterMonth.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                        selectMonth.setAdapter(adapterMonth);
+                        for(int i = 0; i<12; i++){
+                            if(i+1 != 2) {
+                                listMonth.add(Integer.toString(i + 1));
+                            }
+                        }
+                    }
+                    else if(Integer.parseInt(selectDay.getSelectedItem().toString()) == 31){
                         listMonth.clear();
+                        listMonth.add("1");
+                        listMonth.add("3");
+                        listMonth.add("5");
+                        listMonth.add("7");
+                        listMonth.add("8");
+                        listMonth.add("10");
+                        listMonth.add("12");
+                    }
+                    else{
+                        listMonth.clear();
+                        for(int i = 0; i<12; i++){
+                            listMonth.add(Integer.toString(i + 1));
+                        }
                     }
                 }
                 @Override
                 public void onNothingSelected(AdapterView<?> parent) {
                 }
             });
-        }
-        catch (Exception e){
-            Toast.makeText(this, "Loi action", Toast.LENGTH_LONG).show();
-        }
+
+            selectMonth.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                @Override
+                public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                    if(Integer.parseInt(selectMonth.getSelectedItem().toString()) == 4 ||
+                            Integer.parseInt(selectMonth.getSelectedItem().toString()) == 6 ||
+                            Integer.parseInt(selectMonth.getSelectedItem().toString()) == 9 ||
+                            Integer.parseInt(selectMonth.getSelectedItem().toString()) == 11){
+                        listDay.clear();
+                        for(int i = 0; i < 30; i++){
+                            listDay.add(Integer.toString(i+1));
+                        }
+                    }
+                    else if(Integer.parseInt(selectMonth.getSelectedItem().toString()) == 2){
+                        listDay.clear();
+                        if(Integer.parseInt(selectYear.getSelectedItem().toString()) % 4 == 0){
+                            if((Integer.parseInt(selectYear.getSelectedItem().toString()) % 100 == 0
+                                    && Integer.parseInt(selectYear.getSelectedItem().toString()) % 400 == 0)
+                                    || (Integer.parseInt(selectYear.getSelectedItem().toString()) % 100 != 0)){
+                                for(int i = 0; i < 29; i++){
+                                    listDay.add(Integer.toString(i+1));
+                                }
+                            }
+                            else{
+                                for (int i = 0; i < 28; i++){
+                                    listDay.add(Integer.toString(i+1));
+                                }
+                            }
+                        }
+                        else{
+                            for (int i = 0; i < 28; i++){
+                                listDay.add(Integer.toString(i+1));
+                            }
+                        }
+                    }
+                    else{
+                        listDay.clear();
+                        for(int i = 0; i < 31; i++){
+                            listDay.add(Integer.toString(i+1));
+                        }
+                    }
+                }
+                @Override
+                public void onNothingSelected(AdapterView<?> parent) {
+                }
+            });
+
+            selectYear.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                @Override
+                public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                    if(Integer.parseInt(selectYear.getSelectedItem().toString()) % 4 == 0 &&
+                            Integer.parseInt(selectMonth.getSelectedItem().toString()) == 2){
+                        listDay.clear();
+                        if((Integer.parseInt(selectYear.getSelectedItem().toString()) % 100 == 0
+                                && Integer.parseInt(selectYear.getSelectedItem().toString()) % 400 == 0)
+                                || (Integer.parseInt(selectYear.getSelectedItem().toString()) % 100 != 0)){
+                            for(int i = 0; i < 29; i++){
+                                listDay.add(Integer.toString(i+1));
+                            }
+                        }
+                        else{
+                            for (int i = 0; i < 28; i++){
+                                listDay.add(Integer.toString(i+1));
+                            }
+                        }
+                    }
+                    else{
+                        for (int i = 0; i < 28; i++){
+                            listDay.add(Integer.toString(i+1));
+                        }
+                    }
+                }
+                @Override
+                public void onNothingSelected(AdapterView<?> parent) {
+                }
+            });
     }
 
     @Override
