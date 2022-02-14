@@ -1,5 +1,5 @@
 {
-    "24343": {
+    "xa":[ {
         "name": "Krông Năng",
         "type": "thi-tran",
         "slug": "krong-nang",
@@ -9,7 +9,7 @@
         "code": "24343",
         "parent_code": "650"
     },
-    "24346": {
+     {
         "name": "ĐLiê Ya",
         "type": "xa",
         "slug": "dlie-ya",
@@ -19,7 +19,7 @@
         "code": "24346",
         "parent_code": "650"
     },
-    "24349": {
+     {
         "name": "Ea Tóh",
         "type": "xa",
         "slug": "ea-toh",
@@ -29,7 +29,7 @@
         "code": "24349",
         "parent_code": "650"
     },
-    "24352": {
+     {
         "name": "Ea Tam",
         "type": "xa",
         "slug": "ea-tam",
@@ -39,7 +39,7 @@
         "code": "24352",
         "parent_code": "650"
     },
-    "24355": {
+     {
         "name": "Phú Lộc",
         "type": "xa",
         "slug": "phu-loc",
@@ -49,7 +49,7 @@
         "code": "24355",
         "parent_code": "650"
     },
-    "24358": {
+     {
         "name": "Tam Giang",
         "type": "xa",
         "slug": "tam-giang",
@@ -59,7 +59,7 @@
         "code": "24358",
         "parent_code": "650"
     },
-    "24359": {
+     {
         "name": "Ea Puk",
         "type": "xa",
         "slug": "ea-puk",
@@ -69,7 +69,7 @@
         "code": "24359",
         "parent_code": "650"
     },
-    "24360": {
+     {
         "name": "Ea Dăh",
         "type": "xa",
         "slug": "ea-dah",
@@ -79,7 +79,7 @@
         "code": "24360",
         "parent_code": "650"
     },
-    "24361": {
+     {
         "name": "Ea Hồ",
         "type": "xa",
         "slug": "ea-ho",
@@ -89,7 +89,7 @@
         "code": "24361",
         "parent_code": "650"
     },
-    "24364": {
+     {
         "name": "Phú Xuân",
         "type": "xa",
         "slug": "phu-xuan",
@@ -99,7 +99,7 @@
         "code": "24364",
         "parent_code": "650"
     },
-    "24367": {
+     {
         "name": "Cư Klông",
         "type": "xa",
         "slug": "cu-klong",
@@ -109,7 +109,7 @@
         "code": "24367",
         "parent_code": "650"
     },
-    "24370": {
+     {
         "name": "Ea Tân",
         "type": "xa",
         "slug": "ea-tan",
@@ -119,4 +119,4 @@
         "code": "24370",
         "parent_code": "650"
     }
-}
+]}

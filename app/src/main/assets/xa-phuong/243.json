@@ -1,5 +1,5 @@
 {
-    "08707": {
+    "xa":[ {
         "name": "Tích Sơn",
         "type": "phuong",
         "slug": "tich-son",
@@ -9,7 +9,7 @@
         "code": "08707",
         "parent_code": "243"
     },
-    "08710": {
+     {
         "name": "Liên Bảo",
         "type": "phuong",
         "slug": "lien-bao",
@@ -19,7 +19,7 @@
         "code": "08710",
         "parent_code": "243"
     },
-    "08713": {
+     {
         "name": "Hội Hợp",
         "type": "phuong",
         "slug": "hoi-hop",
@@ -29,7 +29,7 @@
         "code": "08713",
         "parent_code": "243"
     },
-    "08716": {
+     {
         "name": "Đống Đa",
         "type": "phuong",
         "slug": "dong-da",
@@ -39,7 +39,7 @@
         "code": "08716",
         "parent_code": "243"
     },
-    "08719": {
+     {
         "name": "Ngô Quyền",
         "type": "phuong",
         "slug": "ngo-quyen",
@@ -49,7 +49,7 @@
         "code": "08719",
         "parent_code": "243"
     },
-    "08722": {
+     {
         "name": "Đồng Tâm",
         "type": "phuong",
         "slug": "dong-tam",
@@ -59,7 +59,7 @@
         "code": "08722",
         "parent_code": "243"
     },
-    "08725": {
+     {
         "name": "Định Trung",
         "type": "xa",
         "slug": "dinh-trung",
@@ -69,7 +69,7 @@
         "code": "08725",
         "parent_code": "243"
     },
-    "08728": {
+     {
         "name": "Khai Quang",
         "type": "phuong",
         "slug": "khai-quang",
@@ -79,7 +79,7 @@
         "code": "08728",
         "parent_code": "243"
     },
-    "08731": {
+     {
         "name": "Thanh Trù",
         "type": "xa",
         "slug": "thanh-tru",
@@ -89,4 +89,4 @@
         "code": "08731",
         "parent_code": "243"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "15187": {
+    "xa":[ {
         "name": "Kim Tân",
         "type": "thi-tran",
         "slug": "kim-tan",
@@ -9,7 +9,7 @@
         "code": "15187",
         "parent_code": "391"
     },
-    "15190": {
+     {
         "name": "Vân Du",
         "type": "thi-tran",
         "slug": "van-du",
@@ -19,7 +19,7 @@
         "code": "15190",
         "parent_code": "391"
     },
-    "15196": {
+     {
         "name": "Thạch Lâm",
         "type": "xa",
         "slug": "thach-lam",
@@ -29,7 +29,7 @@
         "code": "15196",
         "parent_code": "391"
     },
-    "15199": {
+     {
         "name": "Thạch Quảng",
         "type": "xa",
         "slug": "thach-quang",
@@ -39,7 +39,7 @@
         "code": "15199",
         "parent_code": "391"
     },
-    "15202": {
+     {
         "name": "Thạch Tượng",
         "type": "xa",
         "slug": "thach-tuong",
@@ -49,7 +49,7 @@
         "code": "15202",
         "parent_code": "391"
     },
-    "15205": {
+     {
         "name": "Thạch Cẩm",
         "type": "xa",
         "slug": "thach-cam",
@@ -59,7 +59,7 @@
         "code": "15205",
         "parent_code": "391"
     },
-    "15208": {
+     {
         "name": "Thạch Sơn",
         "type": "xa",
         "slug": "thach-son",
@@ -69,7 +69,7 @@
         "code": "15208",
         "parent_code": "391"
     },
-    "15211": {
+     {
         "name": "Thạch Bình",
         "type": "xa",
         "slug": "thach-binh",
@@ -79,7 +79,7 @@
         "code": "15211",
         "parent_code": "391"
     },
-    "15214": {
+     {
         "name": "Thạch Định",
         "type": "xa",
         "slug": "thach-dinh",
@@ -89,7 +89,7 @@
         "code": "15214",
         "parent_code": "391"
     },
-    "15217": {
+     {
         "name": "Thạch Đồng",
         "type": "xa",
         "slug": "thach-dong",
@@ -99,7 +99,7 @@
         "code": "15217",
         "parent_code": "391"
     },
-    "15220": {
+     {
         "name": "Thạch Long",
         "type": "xa",
         "slug": "thach-long",
@@ -109,7 +109,7 @@
         "code": "15220",
         "parent_code": "391"
     },
-    "15223": {
+     {
         "name": "Thành Mỹ",
         "type": "xa",
         "slug": "thanh-my",
@@ -119,7 +119,7 @@
         "code": "15223",
         "parent_code": "391"
     },
-    "15226": {
+     {
         "name": "Thành Yên",
         "type": "xa",
         "slug": "thanh-yen",
@@ -129,7 +129,7 @@
         "code": "15226",
         "parent_code": "391"
     },
-    "15229": {
+     {
         "name": "Thành Vinh",
         "type": "xa",
         "slug": "thanh-vinh",
@@ -139,7 +139,7 @@
         "code": "15229",
         "parent_code": "391"
     },
-    "15232": {
+     {
         "name": "Thành Minh",
         "type": "xa",
         "slug": "thanh-minh",
@@ -149,7 +149,7 @@
         "code": "15232",
         "parent_code": "391"
     },
-    "15235": {
+     {
         "name": "Thành Công",
         "type": "xa",
         "slug": "thanh-cong",
@@ -159,7 +159,7 @@
         "code": "15235",
         "parent_code": "391"
     },
-    "15238": {
+     {
         "name": "Thành Tân",
         "type": "xa",
         "slug": "thanh-tan",
@@ -169,7 +169,7 @@
         "code": "15238",
         "parent_code": "391"
     },
-    "15241": {
+     {
         "name": "Thành Trực",
         "type": "xa",
         "slug": "thanh-truc",
@@ -179,7 +179,7 @@
         "code": "15241",
         "parent_code": "391"
     },
-    "15247": {
+     {
         "name": "Thành Tâm",
         "type": "xa",
         "slug": "thanh-tam",
@@ -189,7 +189,7 @@
         "code": "15247",
         "parent_code": "391"
     },
-    "15250": {
+     {
         "name": "Thành An",
         "type": "xa",
         "slug": "thanh-an",
@@ -199,7 +199,7 @@
         "code": "15250",
         "parent_code": "391"
     },
-    "15253": {
+     {
         "name": "Thành Thọ",
         "type": "xa",
         "slug": "thanh-tho",
@@ -209,7 +209,7 @@
         "code": "15253",
         "parent_code": "391"
     },
-    "15256": {
+     {
         "name": "Thành Tiến",
         "type": "xa",
         "slug": "thanh-tien",
@@ -219,7 +219,7 @@
         "code": "15256",
         "parent_code": "391"
     },
-    "15259": {
+     {
         "name": "Thành Long",
         "type": "xa",
         "slug": "thanh-long",
@@ -229,7 +229,7 @@
         "code": "15259",
         "parent_code": "391"
     },
-    "15265": {
+     {
         "name": "Thành Hưng",
         "type": "xa",
         "slug": "thanh-hung",
@@ -239,7 +239,7 @@
         "code": "15265",
         "parent_code": "391"
     },
-    "15268": {
+     {
         "name": "Ngọc Trạo",
         "type": "xa",
         "slug": "ngoc-trao",
@@ -249,4 +249,4 @@
         "code": "15268",
         "parent_code": "391"
     }
-}
+]}

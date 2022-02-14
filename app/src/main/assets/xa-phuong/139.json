@@ -1,5 +1,5 @@
 {
-    "04585": {
+    "xa":[ {
         "name": "Trạm Tấu",
         "type": "thi-tran",
         "slug": "tram-tau",
@@ -9,7 +9,7 @@
         "code": "04585",
         "parent_code": "139"
     },
-    "04588": {
+     {
         "name": "Túc Đán",
         "type": "xa",
         "slug": "tuc-dan",
@@ -19,7 +19,7 @@
         "code": "04588",
         "parent_code": "139"
     },
-    "04591": {
+     {
         "name": "Pá Lau",
         "type": "xa",
         "slug": "pa-lau",
@@ -29,7 +29,7 @@
         "code": "04591",
         "parent_code": "139"
     },
-    "04594": {
+     {
         "name": "Xà Hồ",
         "type": "xa",
         "slug": "xa-ho",
@@ -39,7 +39,7 @@
         "code": "04594",
         "parent_code": "139"
     },
-    "04597": {
+     {
         "name": "Phình Hồ",
         "type": "xa",
         "slug": "phinh-ho",
@@ -49,7 +49,7 @@
         "code": "04597",
         "parent_code": "139"
     },
-    "04600": {
+     {
         "name": "Trạm Tấu",
         "type": "xa",
         "slug": "tram-tau",
@@ -59,7 +59,7 @@
         "code": "04600",
         "parent_code": "139"
     },
-    "04603": {
+     {
         "name": "Tà Si Láng",
         "type": "xa",
         "slug": "ta-si-lang",
@@ -69,7 +69,7 @@
         "code": "04603",
         "parent_code": "139"
     },
-    "04606": {
+     {
         "name": "Pá Hu",
         "type": "xa",
         "slug": "pa-hu",
@@ -79,7 +79,7 @@
         "code": "04606",
         "parent_code": "139"
     },
-    "04609": {
+     {
         "name": "Làng Nhì",
         "type": "xa",
         "slug": "lang-nhi",
@@ -89,7 +89,7 @@
         "code": "04609",
         "parent_code": "139"
     },
-    "04612": {
+     {
         "name": "Bản Công",
         "type": "xa",
         "slug": "ban-cong",
@@ -99,7 +99,7 @@
         "code": "04612",
         "parent_code": "139"
     },
-    "04615": {
+     {
         "name": "Bản Mù",
         "type": "xa",
         "slug": "ban-mu",
@@ -109,7 +109,7 @@
         "code": "04615",
         "parent_code": "139"
     },
-    "04618": {
+     {
         "name": "Hát Lìu",
         "type": "xa",
         "slug": "hat-liu",
@@ -119,4 +119,4 @@
         "code": "04618",
         "parent_code": "139"
     }
-}
+]}

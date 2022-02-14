@@ -1,5 +1,5 @@
 {
-    "18001": {
+    "xa":[ {
         "name": "Hưng Nguyên",
         "type": "thi-tran",
         "slug": "hung-nguyen",
@@ -9,7 +9,7 @@
         "code": "18001",
         "parent_code": "431"
     },
-    "18004": {
+     {
         "name": "Hưng Trung",
         "type": "xa",
         "slug": "hung-trung",
@@ -19,7 +19,7 @@
         "code": "18004",
         "parent_code": "431"
     },
-    "18007": {
+     {
         "name": "Hưng Yên",
         "type": "xa",
         "slug": "hung-yen",
@@ -29,7 +29,7 @@
         "code": "18007",
         "parent_code": "431"
     },
-    "18008": {
+     {
         "name": "Hưng Yên Bắc",
         "type": "xa",
         "slug": "hung-yen-bac",
@@ -39,7 +39,7 @@
         "code": "18008",
         "parent_code": "431"
     },
-    "18010": {
+     {
         "name": "Hưng Tây",
         "type": "xa",
         "slug": "hung-tay",
@@ -49,7 +49,7 @@
         "code": "18010",
         "parent_code": "431"
     },
-    "18016": {
+     {
         "name": "Hưng Đạo",
         "type": "xa",
         "slug": "hung-dao",
@@ -59,7 +59,7 @@
         "code": "18016",
         "parent_code": "431"
     },
-    "18019": {
+     {
         "name": "Hưng Mỹ",
         "type": "xa",
         "slug": "hung-my",
@@ -69,7 +69,7 @@
         "code": "18019",
         "parent_code": "431"
     },
-    "18022": {
+     {
         "name": "Hưng Thịnh",
         "type": "xa",
         "slug": "hung-thinh",
@@ -79,7 +79,7 @@
         "code": "18022",
         "parent_code": "431"
     },
-    "18025": {
+     {
         "name": "Hưng Lĩnh",
         "type": "xa",
         "slug": "hung-linh",
@@ -89,7 +89,7 @@
         "code": "18025",
         "parent_code": "431"
     },
-    "18028": {
+     {
         "name": "Hưng Thông",
         "type": "xa",
         "slug": "hung-thong",
@@ -99,7 +99,7 @@
         "code": "18028",
         "parent_code": "431"
     },
-    "18031": {
+     {
         "name": "Hưng Tân",
         "type": "xa",
         "slug": "hung-tan",
@@ -109,7 +109,7 @@
         "code": "18031",
         "parent_code": "431"
     },
-    "18034": {
+     {
         "name": "Hưng Lợi",
         "type": "xa",
         "slug": "hung-loi",
@@ -119,7 +119,7 @@
         "code": "18034",
         "parent_code": "431"
     },
-    "18037": {
+     {
         "name": "Hưng Nghĩa",
         "type": "xa",
         "slug": "hung-nghia",
@@ -129,7 +129,7 @@
         "code": "18037",
         "parent_code": "431"
     },
-    "18040": {
+     {
         "name": "Hưng Phúc",
         "type": "xa",
         "slug": "hung-phuc",
@@ -139,7 +139,7 @@
         "code": "18040",
         "parent_code": "431"
     },
-    "18043": {
+     {
         "name": "Long Xá",
         "type": "xa",
         "slug": "long-xa",
@@ -149,7 +149,7 @@
         "code": "18043",
         "parent_code": "431"
     },
-    "18052": {
+     {
         "name": "Châu Nhân",
         "type": "xa",
         "slug": "chau-nhan",
@@ -159,7 +159,7 @@
         "code": "18052",
         "parent_code": "431"
     },
-    "18055": {
+     {
         "name": "Xuân Lam",
         "type": "xa",
         "slug": "xuan-lam",
@@ -169,7 +169,7 @@
         "code": "18055",
         "parent_code": "431"
     },
-    "18064": {
+     {
         "name": "Hưng Thành",
         "type": "xa",
         "slug": "hung-thanh",
@@ -179,4 +179,4 @@
         "code": "18064",
         "parent_code": "431"
     }
-}
+]}

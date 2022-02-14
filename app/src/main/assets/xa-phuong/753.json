@@ -1,5 +1,5 @@
 {
-    "26680": {
+    "xa":[ {
         "name": "Đất Đỏ",
         "type": "thi-tran",
         "slug": "dat-do",
@@ -9,7 +9,7 @@
         "code": "26680",
         "parent_code": "753"
     },
-    "26683": {
+     {
         "name": "Phước Long Thọ",
         "type": "xa",
         "slug": "phuoc-long-tho",
@@ -19,7 +19,7 @@
         "code": "26683",
         "parent_code": "753"
     },
-    "26686": {
+     {
         "name": "Phước Hội",
         "type": "xa",
         "slug": "phuoc-hoi",
@@ -29,7 +29,7 @@
         "code": "26686",
         "parent_code": "753"
     },
-    "26689": {
+     {
         "name": "Long Mỹ",
         "type": "xa",
         "slug": "long-my",
@@ -39,7 +39,7 @@
         "code": "26689",
         "parent_code": "753"
     },
-    "26692": {
+     {
         "name": "Phước Hải",
         "type": "thi-tran",
         "slug": "phuoc-hai",
@@ -49,7 +49,7 @@
         "code": "26692",
         "parent_code": "753"
     },
-    "26695": {
+     {
         "name": "Long Tân",
         "type": "xa",
         "slug": "long-tan",
@@ -59,7 +59,7 @@
         "code": "26695",
         "parent_code": "753"
     },
-    "26698": {
+     {
         "name": "Láng Dài",
         "type": "xa",
         "slug": "lang-dai",
@@ -69,7 +69,7 @@
         "code": "26698",
         "parent_code": "753"
     },
-    "26701": {
+     {
         "name": "Lộc An",
         "type": "xa",
         "slug": "loc-an",
@@ -79,4 +79,4 @@
         "code": "26701",
         "parent_code": "753"
     }
-}
+]}

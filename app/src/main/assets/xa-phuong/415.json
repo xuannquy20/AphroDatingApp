@@ -1,5 +1,5 @@
 {
-    "16738": {
+    "xa":[ {
         "name": "Kim Sơn",
         "type": "thi-tran",
         "slug": "kim-son",
@@ -9,7 +9,7 @@
         "code": "16738",
         "parent_code": "415"
     },
-    "16741": {
+     {
         "name": "Thông Thụ",
         "type": "xa",
         "slug": "thong-thu",
@@ -19,7 +19,7 @@
         "code": "16741",
         "parent_code": "415"
     },
-    "16744": {
+     {
         "name": "Đồng Văn",
         "type": "xa",
         "slug": "dong-van",
@@ -29,7 +29,7 @@
         "code": "16744",
         "parent_code": "415"
     },
-    "16747": {
+     {
         "name": "Hạnh Dịch",
         "type": "xa",
         "slug": "hanh-dich",
@@ -39,7 +39,7 @@
         "code": "16747",
         "parent_code": "415"
     },
-    "16750": {
+     {
         "name": "Tiền Phong",
         "type": "xa",
         "slug": "tien-phong",
@@ -49,7 +49,7 @@
         "code": "16750",
         "parent_code": "415"
     },
-    "16753": {
+     {
         "name": "Nậm Giải",
         "type": "xa",
         "slug": "nam-giai",
@@ -59,7 +59,7 @@
         "code": "16753",
         "parent_code": "415"
     },
-    "16756": {
+     {
         "name": "Tri Lễ",
         "type": "xa",
         "slug": "tri-le",
@@ -69,7 +69,7 @@
         "code": "16756",
         "parent_code": "415"
     },
-    "16759": {
+     {
         "name": "Châu Kim",
         "type": "xa",
         "slug": "chau-kim",
@@ -79,7 +79,7 @@
         "code": "16759",
         "parent_code": "415"
     },
-    "16763": {
+     {
         "name": "Mường Nọc",
         "type": "xa",
         "slug": "muong-noc",
@@ -89,7 +89,7 @@
         "code": "16763",
         "parent_code": "415"
     },
-    "16765": {
+     {
         "name": "Châu Thôn",
         "type": "xa",
         "slug": "chau-thon",
@@ -99,7 +99,7 @@
         "code": "16765",
         "parent_code": "415"
     },
-    "16768": {
+     {
         "name": "Nậm Nhoóng",
         "type": "xa",
         "slug": "nam-nhoong",
@@ -109,7 +109,7 @@
         "code": "16768",
         "parent_code": "415"
     },
-    "16771": {
+     {
         "name": "Quang Phong",
         "type": "xa",
         "slug": "quang-phong",
@@ -119,7 +119,7 @@
         "code": "16771",
         "parent_code": "415"
     },
-    "16774": {
+     {
         "name": "Căm Muộn",
         "type": "xa",
         "slug": "cam-muon",
@@ -129,4 +129,4 @@
         "code": "16774",
         "parent_code": "415"
     }
-}
+]}

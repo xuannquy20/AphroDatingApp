@@ -1,5 +1,5 @@
 {
-    "20722": {
+    "xa":[ {
         "name": "Khâm Đức",
         "type": "thi-tran",
         "slug": "kham-duc",
@@ -9,7 +9,7 @@
         "code": "20722",
         "parent_code": "511"
     },
-    "20725": {
+     {
         "name": "Phước Xuân",
         "type": "xa",
         "slug": "phuoc-xuan",
@@ -19,7 +19,7 @@
         "code": "20725",
         "parent_code": "511"
     },
-    "20728": {
+     {
         "name": "Phước Hiệp",
         "type": "xa",
         "slug": "phuoc-hiep",
@@ -29,7 +29,7 @@
         "code": "20728",
         "parent_code": "511"
     },
-    "20729": {
+     {
         "name": "Phước Hoà",
         "type": "xa",
         "slug": "phuoc-hoa",
@@ -39,7 +39,7 @@
         "code": "20729",
         "parent_code": "511"
     },
-    "20731": {
+     {
         "name": "Phước Đức",
         "type": "xa",
         "slug": "phuoc-duc",
@@ -49,7 +49,7 @@
         "code": "20731",
         "parent_code": "511"
     },
-    "20734": {
+     {
         "name": "Phước Năng",
         "type": "xa",
         "slug": "phuoc-nang",
@@ -59,7 +59,7 @@
         "code": "20734",
         "parent_code": "511"
     },
-    "20737": {
+     {
         "name": "Phước Mỹ",
         "type": "xa",
         "slug": "phuoc-my",
@@ -69,7 +69,7 @@
         "code": "20737",
         "parent_code": "511"
     },
-    "20740": {
+     {
         "name": "Phước Chánh",
         "type": "xa",
         "slug": "phuoc-chanh",
@@ -79,7 +79,7 @@
         "code": "20740",
         "parent_code": "511"
     },
-    "20743": {
+     {
         "name": "Phước Công",
         "type": "xa",
         "slug": "phuoc-cong",
@@ -89,7 +89,7 @@
         "code": "20743",
         "parent_code": "511"
     },
-    "20746": {
+     {
         "name": "Phước Kim",
         "type": "xa",
         "slug": "phuoc-kim",
@@ -99,7 +99,7 @@
         "code": "20746",
         "parent_code": "511"
     },
-    "20749": {
+     {
         "name": "Phước Lộc",
         "type": "xa",
         "slug": "phuoc-loc",
@@ -109,7 +109,7 @@
         "code": "20749",
         "parent_code": "511"
     },
-    "20752": {
+     {
         "name": "Phước Thành",
         "type": "xa",
         "slug": "phuoc-thanh",
@@ -119,4 +119,4 @@
         "code": "20752",
         "parent_code": "511"
     }
-}
+]}

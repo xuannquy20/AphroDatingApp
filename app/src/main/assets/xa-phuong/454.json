@@ -1,5 +1,5 @@
 {
-    "19012": {
+    "xa":[ {
         "name": "Quảng Hợp",
         "type": "xa",
         "slug": "quang-hop",
@@ -9,7 +9,7 @@
         "code": "19012",
         "parent_code": "454"
     },
-    "19015": {
+     {
         "name": "Quảng Kim",
         "type": "xa",
         "slug": "quang-kim",
@@ -19,7 +19,7 @@
         "code": "19015",
         "parent_code": "454"
     },
-    "19018": {
+     {
         "name": "Quảng Đông",
         "type": "xa",
         "slug": "quang-dong",
@@ -29,7 +29,7 @@
         "code": "19018",
         "parent_code": "454"
     },
-    "19021": {
+     {
         "name": "Quảng Phú",
         "type": "xa",
         "slug": "quang-phu",
@@ -39,7 +39,7 @@
         "code": "19021",
         "parent_code": "454"
     },
-    "19024": {
+     {
         "name": "Quảng Châu",
         "type": "xa",
         "slug": "quang-chau",
@@ -49,7 +49,7 @@
         "code": "19024",
         "parent_code": "454"
     },
-    "19027": {
+     {
         "name": "Quảng Thạch",
         "type": "xa",
         "slug": "quang-thach",
@@ -59,7 +59,7 @@
         "code": "19027",
         "parent_code": "454"
     },
-    "19030": {
+     {
         "name": "Quảng Lưu",
         "type": "xa",
         "slug": "quang-luu",
@@ -69,7 +69,7 @@
         "code": "19030",
         "parent_code": "454"
     },
-    "19033": {
+     {
         "name": "Quảng Tùng",
         "type": "xa",
         "slug": "quang-tung",
@@ -79,7 +79,7 @@
         "code": "19033",
         "parent_code": "454"
     },
-    "19036": {
+     {
         "name": "Cảnh Dương",
         "type": "xa",
         "slug": "canh-duong",
@@ -89,7 +89,7 @@
         "code": "19036",
         "parent_code": "454"
     },
-    "19039": {
+     {
         "name": "Quảng Tiến",
         "type": "xa",
         "slug": "quang-tien",
@@ -99,7 +99,7 @@
         "code": "19039",
         "parent_code": "454"
     },
-    "19042": {
+     {
         "name": "Quảng Hưng",
         "type": "xa",
         "slug": "quang-hung",
@@ -109,7 +109,7 @@
         "code": "19042",
         "parent_code": "454"
     },
-    "19045": {
+     {
         "name": "Quảng Xuân",
         "type": "xa",
         "slug": "quang-xuan",
@@ -119,7 +119,7 @@
         "code": "19045",
         "parent_code": "454"
     },
-    "19048": {
+     {
         "name": "Cảnh Hóa",
         "type": "xa",
         "slug": "canh-hoa",
@@ -129,7 +129,7 @@
         "code": "19048",
         "parent_code": "454"
     },
-    "19051": {
+     {
         "name": "Liên Trường",
         "type": "xa",
         "slug": "lien-truong",
@@ -139,7 +139,7 @@
         "code": "19051",
         "parent_code": "454"
     },
-    "19057": {
+     {
         "name": "Quảng Phương",
         "type": "xa",
         "slug": "quang-phuong",
@@ -149,7 +149,7 @@
         "code": "19057",
         "parent_code": "454"
     },
-    "19063": {
+     {
         "name": "Phù Hóa",
         "type": "xa",
         "slug": "phu-hoa",
@@ -159,7 +159,7 @@
         "code": "19063",
         "parent_code": "454"
     },
-    "19072": {
+     {
         "name": "Quảng Thanh",
         "type": "xa",
         "slug": "quang-thanh",
@@ -169,4 +169,4 @@
         "code": "19072",
         "parent_code": "454"
     }
-}
+]}

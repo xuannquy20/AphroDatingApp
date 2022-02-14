@@ -1,5 +1,5 @@
 {
-    "19744": {
+    "xa":[ {
         "name": "Phú Thuận",
         "type": "phuong",
         "slug": "phu-thuan",
@@ -9,7 +9,7 @@
         "code": "19744",
         "parent_code": "474"
     },
-    "19747": {
+     {
         "name": "Phú Bình",
         "type": "phuong",
         "slug": "phu-binh",
@@ -19,7 +19,7 @@
         "code": "19747",
         "parent_code": "474"
     },
-    "19750": {
+     {
         "name": "Tây Lộc",
         "type": "phuong",
         "slug": "tay-loc",
@@ -29,7 +29,7 @@
         "code": "19750",
         "parent_code": "474"
     },
-    "19753": {
+     {
         "name": "Thuận Lộc",
         "type": "phuong",
         "slug": "thuan-loc",
@@ -39,7 +39,7 @@
         "code": "19753",
         "parent_code": "474"
     },
-    "19756": {
+     {
         "name": "Phú Hiệp",
         "type": "phuong",
         "slug": "phu-hiep",
@@ -49,7 +49,7 @@
         "code": "19756",
         "parent_code": "474"
     },
-    "19759": {
+     {
         "name": "Phú Hậu",
         "type": "phuong",
         "slug": "phu-hau",
@@ -59,7 +59,7 @@
         "code": "19759",
         "parent_code": "474"
     },
-    "19762": {
+     {
         "name": "Thuận Hòa",
         "type": "phuong",
         "slug": "thuan-hoa",
@@ -69,7 +69,7 @@
         "code": "19762",
         "parent_code": "474"
     },
-    "19765": {
+     {
         "name": "Thuận Thành",
         "type": "phuong",
         "slug": "thuan-thanh",
@@ -79,7 +79,7 @@
         "code": "19765",
         "parent_code": "474"
     },
-    "19768": {
+     {
         "name": "Phú Hòa",
         "type": "phuong",
         "slug": "phu-hoa",
@@ -89,7 +89,7 @@
         "code": "19768",
         "parent_code": "474"
     },
-    "19771": {
+     {
         "name": "Phú Cát",
         "type": "phuong",
         "slug": "phu-cat",
@@ -99,7 +99,7 @@
         "code": "19771",
         "parent_code": "474"
     },
-    "19774": {
+     {
         "name": "Kim Long",
         "type": "phuong",
         "slug": "kim-long",
@@ -109,7 +109,7 @@
         "code": "19774",
         "parent_code": "474"
     },
-    "19777": {
+     {
         "name": "Vỹ Dạ",
         "type": "phuong",
         "slug": "vy-da",
@@ -119,7 +119,7 @@
         "code": "19777",
         "parent_code": "474"
     },
-    "19780": {
+     {
         "name": "Phường Đúc",
         "type": "phuong",
         "slug": "phuong-duc",
@@ -129,7 +129,7 @@
         "code": "19780",
         "parent_code": "474"
     },
-    "19783": {
+     {
         "name": "Vĩnh Ninh",
         "type": "phuong",
         "slug": "vinh-ninh",
@@ -139,7 +139,7 @@
         "code": "19783",
         "parent_code": "474"
     },
-    "19786": {
+     {
         "name": "Phú Hội",
         "type": "phuong",
         "slug": "phu-hoi",
@@ -149,7 +149,7 @@
         "code": "19786",
         "parent_code": "474"
     },
-    "19789": {
+     {
         "name": "Phú Nhuận",
         "type": "phuong",
         "slug": "phu-nhuan",
@@ -159,7 +159,7 @@
         "code": "19789",
         "parent_code": "474"
     },
-    "19792": {
+     {
         "name": "Xuân Phú",
         "type": "phuong",
         "slug": "xuan-phu",
@@ -169,7 +169,7 @@
         "code": "19792",
         "parent_code": "474"
     },
-    "19795": {
+     {
         "name": "Trường An",
         "type": "phuong",
         "slug": "truong-an",
@@ -179,7 +179,7 @@
         "code": "19795",
         "parent_code": "474"
     },
-    "19798": {
+     {
         "name": "Phước Vĩnh",
         "type": "phuong",
         "slug": "phuoc-vinh",
@@ -189,7 +189,7 @@
         "code": "19798",
         "parent_code": "474"
     },
-    "19801": {
+     {
         "name": "An Cựu",
         "type": "phuong",
         "slug": "an-cuu",
@@ -199,7 +199,7 @@
         "code": "19801",
         "parent_code": "474"
     },
-    "19803": {
+     {
         "name": "An Hòa",
         "type": "phuong",
         "slug": "an-hoa",
@@ -209,7 +209,7 @@
         "code": "19803",
         "parent_code": "474"
     },
-    "19804": {
+     {
         "name": "Hương Sơ",
         "type": "phuong",
         "slug": "huong-so",
@@ -219,7 +219,7 @@
         "code": "19804",
         "parent_code": "474"
     },
-    "19807": {
+     {
         "name": "Thuỷ Biều",
         "type": "phuong",
         "slug": "thuy-bieu",
@@ -229,7 +229,7 @@
         "code": "19807",
         "parent_code": "474"
     },
-    "19810": {
+     {
         "name": "Hương Long",
         "type": "phuong",
         "slug": "huong-long",
@@ -239,7 +239,7 @@
         "code": "19810",
         "parent_code": "474"
     },
-    "19813": {
+     {
         "name": "Thuỷ Xuân",
         "type": "phuong",
         "slug": "thuy-xuan",
@@ -249,7 +249,7 @@
         "code": "19813",
         "parent_code": "474"
     },
-    "19815": {
+     {
         "name": "An Đông",
         "type": "phuong",
         "slug": "an-dong",
@@ -259,7 +259,7 @@
         "code": "19815",
         "parent_code": "474"
     },
-    "19816": {
+     {
         "name": "An Tây",
         "type": "phuong",
         "slug": "an-tay",
@@ -269,4 +269,4 @@
         "code": "19816",
         "parent_code": "474"
     }
-}
+]}

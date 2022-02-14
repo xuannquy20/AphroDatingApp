@@ -1,5 +1,5 @@
 {
-    "24448": {
+    "xa":[ {
         "name": "Krông Kmar",
         "type": "thi-tran",
         "slug": "krong-kmar",
@@ -9,7 +9,7 @@
         "code": "24448",
         "parent_code": "653"
     },
-    "24451": {
+     {
         "name": "Dang Kang",
         "type": "xa",
         "slug": "dang-kang",
@@ -19,7 +19,7 @@
         "code": "24451",
         "parent_code": "653"
     },
-    "24454": {
+     {
         "name": "Cư KTy",
         "type": "xa",
         "slug": "cu-kty",
@@ -29,7 +29,7 @@
         "code": "24454",
         "parent_code": "653"
     },
-    "24457": {
+     {
         "name": "Hòa Thành",
         "type": "xa",
         "slug": "hoa-thanh",
@@ -39,7 +39,7 @@
         "code": "24457",
         "parent_code": "653"
     },
-    "24460": {
+     {
         "name": "Hòa Tân",
         "type": "xa",
         "slug": "hoa-tan",
@@ -49,7 +49,7 @@
         "code": "24460",
         "parent_code": "653"
     },
-    "24463": {
+     {
         "name": "Hòa Phong",
         "type": "xa",
         "slug": "hoa-phong",
@@ -59,7 +59,7 @@
         "code": "24463",
         "parent_code": "653"
     },
-    "24466": {
+     {
         "name": "Hòa Lễ",
         "type": "xa",
         "slug": "hoa-le",
@@ -69,7 +69,7 @@
         "code": "24466",
         "parent_code": "653"
     },
-    "24469": {
+     {
         "name": "Yang Reh",
         "type": "xa",
         "slug": "yang-reh",
@@ -79,7 +79,7 @@
         "code": "24469",
         "parent_code": "653"
     },
-    "24472": {
+     {
         "name": "Ea Trul",
         "type": "xa",
         "slug": "ea-trul",
@@ -89,7 +89,7 @@
         "code": "24472",
         "parent_code": "653"
     },
-    "24475": {
+     {
         "name": "Khuê Ngọc Điền",
         "type": "xa",
         "slug": "khue-ngoc-dien",
@@ -99,7 +99,7 @@
         "code": "24475",
         "parent_code": "653"
     },
-    "24478": {
+     {
         "name": "Cư Pui",
         "type": "xa",
         "slug": "cu-pui",
@@ -109,7 +109,7 @@
         "code": "24478",
         "parent_code": "653"
     },
-    "24481": {
+     {
         "name": "Hòa Sơn",
         "type": "xa",
         "slug": "hoa-son",
@@ -119,7 +119,7 @@
         "code": "24481",
         "parent_code": "653"
     },
-    "24484": {
+     {
         "name": "Cư Drăm",
         "type": "xa",
         "slug": "cu-dram",
@@ -129,7 +129,7 @@
         "code": "24484",
         "parent_code": "653"
     },
-    "24487": {
+     {
         "name": "Yang Mao",
         "type": "xa",
         "slug": "yang-mao",
@@ -139,4 +139,4 @@
         "code": "24487",
         "parent_code": "653"
     }
-}
+]}

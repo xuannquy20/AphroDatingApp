@@ -1,5 +1,5 @@
 {
-    "08152": {
+    "xa":[ {
         "name": "Thanh Ba",
         "type": "thi-tran",
         "slug": "thanh-ba",
@@ -9,7 +9,7 @@
         "code": "08152",
         "parent_code": "232"
     },
-    "08156": {
+     {
         "name": "Vân Lĩnh",
         "type": "xa",
         "slug": "van-linh",
@@ -19,7 +19,7 @@
         "code": "08156",
         "parent_code": "232"
     },
-    "08158": {
+     {
         "name": "Đông Lĩnh",
         "type": "xa",
         "slug": "dong-linh",
@@ -29,7 +29,7 @@
         "code": "08158",
         "parent_code": "232"
     },
-    "08161": {
+     {
         "name": "Đại An",
         "type": "xa",
         "slug": "dai-an",
@@ -39,7 +39,7 @@
         "code": "08161",
         "parent_code": "232"
     },
-    "08164": {
+     {
         "name": "Hanh Cù",
         "type": "xa",
         "slug": "hanh-cu",
@@ -49,7 +49,7 @@
         "code": "08164",
         "parent_code": "232"
     },
-    "08170": {
+     {
         "name": "Đồng Xuân",
         "type": "xa",
         "slug": "dong-xuan",
@@ -59,7 +59,7 @@
         "code": "08170",
         "parent_code": "232"
     },
-    "08173": {
+     {
         "name": "Quảng Yên",
         "type": "xa",
         "slug": "quang-yen",
@@ -69,7 +69,7 @@
         "code": "08173",
         "parent_code": "232"
     },
-    "08179": {
+     {
         "name": "Ninh Dân",
         "type": "xa",
         "slug": "ninh-dan",
@@ -79,7 +79,7 @@
         "code": "08179",
         "parent_code": "232"
     },
-    "08194": {
+     {
         "name": "Võ Lao",
         "type": "xa",
         "slug": "vo-lao",
@@ -89,7 +89,7 @@
         "code": "08194",
         "parent_code": "232"
     },
-    "08197": {
+     {
         "name": "Khải Xuân",
         "type": "xa",
         "slug": "khai-xuan",
@@ -99,7 +99,7 @@
         "code": "08197",
         "parent_code": "232"
     },
-    "08200": {
+     {
         "name": "Mạn Lạn",
         "type": "xa",
         "slug": "man-lan",
@@ -109,7 +109,7 @@
         "code": "08200",
         "parent_code": "232"
     },
-    "08203": {
+     {
         "name": "Hoàng Cương",
         "type": "xa",
         "slug": "hoang-cuong",
@@ -119,7 +119,7 @@
         "code": "08203",
         "parent_code": "232"
     },
-    "08206": {
+     {
         "name": "Chí Tiên",
         "type": "xa",
         "slug": "chi-tien",
@@ -129,7 +129,7 @@
         "code": "08206",
         "parent_code": "232"
     },
-    "08209": {
+     {
         "name": "Đông Thành",
         "type": "xa",
         "slug": "dong-thanh",
@@ -139,7 +139,7 @@
         "code": "08209",
         "parent_code": "232"
     },
-    "08215": {
+     {
         "name": "Sơn Cương",
         "type": "xa",
         "slug": "son-cuong",
@@ -149,7 +149,7 @@
         "code": "08215",
         "parent_code": "232"
     },
-    "08218": {
+     {
         "name": "Thanh Hà",
         "type": "xa",
         "slug": "thanh-ha",
@@ -159,7 +159,7 @@
         "code": "08218",
         "parent_code": "232"
     },
-    "08221": {
+     {
         "name": "Đỗ Sơn",
         "type": "xa",
         "slug": "do-son",
@@ -169,7 +169,7 @@
         "code": "08221",
         "parent_code": "232"
     },
-    "08224": {
+     {
         "name": "Đỗ Xuyên",
         "type": "xa",
         "slug": "do-xuyen",
@@ -179,7 +179,7 @@
         "code": "08224",
         "parent_code": "232"
     },
-    "08227": {
+     {
         "name": "Lương Lỗ",
         "type": "xa",
         "slug": "luong-lo",
@@ -189,4 +189,4 @@
         "code": "08227",
         "parent_code": "232"
     }
-}
+]}

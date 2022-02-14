@@ -1,5 +1,5 @@
 {
-    "26734": {
+    "xa":[ {
         "name": "Tân Định",
         "type": "phuong",
         "slug": "tan-dinh",
@@ -9,7 +9,7 @@
         "code": "26734",
         "parent_code": "760"
     },
-    "26737": {
+     {
         "name": "Đa Kao",
         "type": "phuong",
         "slug": "da-kao",
@@ -19,7 +19,7 @@
         "code": "26737",
         "parent_code": "760"
     },
-    "26740": {
+     {
         "name": "Bến Nghé",
         "type": "phuong",
         "slug": "ben-nghe",
@@ -29,7 +29,7 @@
         "code": "26740",
         "parent_code": "760"
     },
-    "26743": {
+     {
         "name": "Bến Thành",
         "type": "phuong",
         "slug": "ben-thanh",
@@ -39,7 +39,7 @@
         "code": "26743",
         "parent_code": "760"
     },
-    "26746": {
+     {
         "name": "Nguyễn Thái Bình",
         "type": "phuong",
         "slug": "nguyen-thai-binh",
@@ -49,7 +49,7 @@
         "code": "26746",
         "parent_code": "760"
     },
-    "26749": {
+     {
         "name": "Phạm Ngũ Lão",
         "type": "phuong",
         "slug": "pham-ngu-lao",
@@ -59,7 +59,7 @@
         "code": "26749",
         "parent_code": "760"
     },
-    "26752": {
+     {
         "name": "Cầu Ông Lãnh",
         "type": "phuong",
         "slug": "cau-ong-lanh",
@@ -69,7 +69,7 @@
         "code": "26752",
         "parent_code": "760"
     },
-    "26755": {
+     {
         "name": "Cô Giang",
         "type": "phuong",
         "slug": "co-giang",
@@ -79,7 +79,7 @@
         "code": "26755",
         "parent_code": "760"
     },
-    "26758": {
+     {
         "name": "Nguyễn Cư Trinh",
         "type": "phuong",
         "slug": "nguyen-cu-trinh",
@@ -89,7 +89,7 @@
         "code": "26758",
         "parent_code": "760"
     },
-    "26761": {
+     {
         "name": "Cầu Kho",
         "type": "phuong",
         "slug": "cau-kho",
@@ -99,4 +99,4 @@
         "code": "26761",
         "parent_code": "760"
     }
-}
+]}

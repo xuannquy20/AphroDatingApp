@@ -1,5 +1,5 @@
 {
-    "20695": {
+    "xa":[ {
         "name": "Thạnh Mỹ",
         "type": "thi-tran",
         "slug": "thanh-my",
@@ -9,7 +9,7 @@
         "code": "20695",
         "parent_code": "510"
     },
-    "20698": {
+     {
         "name": "Laêê",
         "type": "xa",
         "slug": "laee",
@@ -19,7 +19,7 @@
         "code": "20698",
         "parent_code": "510"
     },
-    "20699": {
+     {
         "name": "Chơ Chun",
         "type": "xa",
         "slug": "cho-chun",
@@ -29,7 +29,7 @@
         "code": "20699",
         "parent_code": "510"
     },
-    "20701": {
+     {
         "name": "Zuôich",
         "type": "xa",
         "slug": "zuoich",
@@ -39,7 +39,7 @@
         "code": "20701",
         "parent_code": "510"
     },
-    "20702": {
+     {
         "name": "Tà Pơơ",
         "type": "xa",
         "slug": "ta-poo",
@@ -49,7 +49,7 @@
         "code": "20702",
         "parent_code": "510"
     },
-    "20704": {
+     {
         "name": "La Dêê",
         "type": "xa",
         "slug": "la-dee",
@@ -59,7 +59,7 @@
         "code": "20704",
         "parent_code": "510"
     },
-    "20705": {
+     {
         "name": "Đắc Tôi",
         "type": "xa",
         "slug": "dac-toi",
@@ -69,7 +69,7 @@
         "code": "20705",
         "parent_code": "510"
     },
-    "20707": {
+     {
         "name": "Chà Vàl",
         "type": "xa",
         "slug": "cha-val",
@@ -79,7 +79,7 @@
         "code": "20707",
         "parent_code": "510"
     },
-    "20710": {
+     {
         "name": "Tà Bhinh",
         "type": "xa",
         "slug": "ta-bhinh",
@@ -89,7 +89,7 @@
         "code": "20710",
         "parent_code": "510"
     },
-    "20713": {
+     {
         "name": "Cà Dy",
         "type": "xa",
         "slug": "ca-dy",
@@ -99,7 +99,7 @@
         "code": "20713",
         "parent_code": "510"
     },
-    "20716": {
+     {
         "name": "Đắc Pre",
         "type": "xa",
         "slug": "dac-pre",
@@ -109,7 +109,7 @@
         "code": "20716",
         "parent_code": "510"
     },
-    "20719": {
+     {
         "name": "Đắc Pring",
         "type": "xa",
         "slug": "dac-pring",
@@ -119,4 +119,4 @@
         "code": "20719",
         "parent_code": "510"
     }
-}
+]}

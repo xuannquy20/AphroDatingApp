@@ -1,5 +1,5 @@
 {
-    "31051": {
+    "xa":[ {
         "name": "Vĩnh Thuận",
         "type": "thi-tran",
         "slug": "vinh-thuan",
@@ -9,7 +9,7 @@
         "code": "31051",
         "parent_code": "910"
     },
-    "31060": {
+     {
         "name": "Vĩnh Bình Bắc",
         "type": "xa",
         "slug": "vinh-binh-bac",
@@ -19,7 +19,7 @@
         "code": "31060",
         "parent_code": "910"
     },
-    "31063": {
+     {
         "name": "Vĩnh Bình Nam",
         "type": "xa",
         "slug": "vinh-binh-nam",
@@ -29,7 +29,7 @@
         "code": "31063",
         "parent_code": "910"
     },
-    "31064": {
+     {
         "name": "Bình Minh",
         "type": "xa",
         "slug": "binh-minh",
@@ -39,7 +39,7 @@
         "code": "31064",
         "parent_code": "910"
     },
-    "31069": {
+     {
         "name": "Vĩnh Thuận",
         "type": "xa",
         "slug": "vinh-thuan",
@@ -49,7 +49,7 @@
         "code": "31069",
         "parent_code": "910"
     },
-    "31072": {
+     {
         "name": "Tân Thuận",
         "type": "xa",
         "slug": "tan-thuan",
@@ -59,7 +59,7 @@
         "code": "31072",
         "parent_code": "910"
     },
-    "31074": {
+     {
         "name": "Phong Đông",
         "type": "xa",
         "slug": "phong-dong",
@@ -69,7 +69,7 @@
         "code": "31074",
         "parent_code": "910"
     },
-    "31075": {
+     {
         "name": "Vĩnh Phong",
         "type": "xa",
         "slug": "vinh-phong",
@@ -79,4 +79,4 @@
         "code": "31075",
         "parent_code": "910"
     }
-}
+]}

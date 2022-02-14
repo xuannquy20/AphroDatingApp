@@ -1,5 +1,5 @@
 {
-    "29926": {
+    "xa":[ {
         "name": "Sa Rài",
         "type": "thi-tran",
         "slug": "sa-rai",
@@ -9,7 +9,7 @@
         "code": "29926",
         "parent_code": "869"
     },
-    "29929": {
+     {
         "name": "Tân Hộ Cơ",
         "type": "xa",
         "slug": "tan-ho-co",
@@ -19,7 +19,7 @@
         "code": "29929",
         "parent_code": "869"
     },
-    "29932": {
+     {
         "name": "Thông Bình",
         "type": "xa",
         "slug": "thong-binh",
@@ -29,7 +29,7 @@
         "code": "29932",
         "parent_code": "869"
     },
-    "29935": {
+     {
         "name": "Bình Phú",
         "type": "xa",
         "slug": "binh-phu",
@@ -39,7 +39,7 @@
         "code": "29935",
         "parent_code": "869"
     },
-    "29938": {
+     {
         "name": "Tân Thành A",
         "type": "xa",
         "slug": "tan-thanh-a",
@@ -49,7 +49,7 @@
         "code": "29938",
         "parent_code": "869"
     },
-    "29941": {
+     {
         "name": "Tân Thành B",
         "type": "xa",
         "slug": "tan-thanh-b",
@@ -59,7 +59,7 @@
         "code": "29941",
         "parent_code": "869"
     },
-    "29944": {
+     {
         "name": "Tân Phước",
         "type": "xa",
         "slug": "tan-phuoc",
@@ -69,7 +69,7 @@
         "code": "29944",
         "parent_code": "869"
     },
-    "29947": {
+     {
         "name": "Tân Công Chí",
         "type": "xa",
         "slug": "tan-cong-chi",
@@ -79,7 +79,7 @@
         "code": "29947",
         "parent_code": "869"
     },
-    "29950": {
+     {
         "name": "An Phước",
         "type": "xa",
         "slug": "an-phuoc",
@@ -89,4 +89,4 @@
         "code": "29950",
         "parent_code": "869"
     }
-}
+]}

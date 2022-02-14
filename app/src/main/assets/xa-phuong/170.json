@@ -1,5 +1,5 @@
 {
-    "05716": {
+    "xa":[ {
         "name": "Đình Cả",
         "type": "thi-tran",
         "slug": "dinh-ca",
@@ -9,7 +9,7 @@
         "code": "05716",
         "parent_code": "170"
     },
-    "05719": {
+     {
         "name": "Sảng Mộc",
         "type": "xa",
         "slug": "sang-moc",
@@ -19,7 +19,7 @@
         "code": "05719",
         "parent_code": "170"
     },
-    "05722": {
+     {
         "name": "Nghinh Tường",
         "type": "xa",
         "slug": "nghinh-tuong",
@@ -29,7 +29,7 @@
         "code": "05722",
         "parent_code": "170"
     },
-    "05725": {
+     {
         "name": "Thần Xa",
         "type": "xa",
         "slug": "than-xa",
@@ -39,7 +39,7 @@
         "code": "05725",
         "parent_code": "170"
     },
-    "05728": {
+     {
         "name": "Vũ Chấn",
         "type": "xa",
         "slug": "vu-chan",
@@ -49,7 +49,7 @@
         "code": "05728",
         "parent_code": "170"
     },
-    "05731": {
+     {
         "name": "Thượng Nung",
         "type": "xa",
         "slug": "thuong-nung",
@@ -59,7 +59,7 @@
         "code": "05731",
         "parent_code": "170"
     },
-    "05734": {
+     {
         "name": "Phú Thượng",
         "type": "xa",
         "slug": "phu-thuong",
@@ -69,7 +69,7 @@
         "code": "05734",
         "parent_code": "170"
     },
-    "05737": {
+     {
         "name": "Cúc Đường",
         "type": "xa",
         "slug": "cuc-duong",
@@ -79,7 +79,7 @@
         "code": "05737",
         "parent_code": "170"
     },
-    "05740": {
+     {
         "name": "La Hiên",
         "type": "xa",
         "slug": "la-hien",
@@ -89,7 +89,7 @@
         "code": "05740",
         "parent_code": "170"
     },
-    "05743": {
+     {
         "name": "Lâu Thượng",
         "type": "xa",
         "slug": "lau-thuong",
@@ -99,7 +99,7 @@
         "code": "05743",
         "parent_code": "170"
     },
-    "05746": {
+     {
         "name": "Tràng Xá",
         "type": "xa",
         "slug": "trang-xa",
@@ -109,7 +109,7 @@
         "code": "05746",
         "parent_code": "170"
     },
-    "05749": {
+     {
         "name": "Phương Giao",
         "type": "xa",
         "slug": "phuong-giao",
@@ -119,7 +119,7 @@
         "code": "05749",
         "parent_code": "170"
     },
-    "05752": {
+     {
         "name": "Liên Minh",
         "type": "xa",
         "slug": "lien-minh",
@@ -129,7 +129,7 @@
         "code": "05752",
         "parent_code": "170"
     },
-    "05755": {
+     {
         "name": "Dân Tiến",
         "type": "xa",
         "slug": "dan-tien",
@@ -139,7 +139,7 @@
         "code": "05755",
         "parent_code": "170"
     },
-    "05758": {
+     {
         "name": "Bình Long",
         "type": "xa",
         "slug": "binh-long",
@@ -149,4 +149,4 @@
         "code": "05758",
         "parent_code": "170"
     }
-}
+]}

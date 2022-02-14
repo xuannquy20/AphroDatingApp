@@ -1,5 +1,5 @@
 {
-    "22408": {
+    "xa":[ {
         "name": "Cam Nghĩa",
         "type": "phuong",
         "slug": "cam-nghia",
@@ -9,7 +9,7 @@
         "code": "22408",
         "parent_code": "569"
     },
-    "22411": {
+     {
         "name": "Cam Phúc Bắc",
         "type": "phuong",
         "slug": "cam-phuc-bac",
@@ -19,7 +19,7 @@
         "code": "22411",
         "parent_code": "569"
     },
-    "22414": {
+     {
         "name": "Cam Phúc Nam",
         "type": "phuong",
         "slug": "cam-phuc-nam",
@@ -29,7 +29,7 @@
         "code": "22414",
         "parent_code": "569"
     },
-    "22417": {
+     {
         "name": "Cam Lộc",
         "type": "phuong",
         "slug": "cam-loc",
@@ -39,7 +39,7 @@
         "code": "22417",
         "parent_code": "569"
     },
-    "22420": {
+     {
         "name": "Cam Phú",
         "type": "phuong",
         "slug": "cam-phu",
@@ -49,7 +49,7 @@
         "code": "22420",
         "parent_code": "569"
     },
-    "22423": {
+     {
         "name": "Ba Ngòi",
         "type": "phuong",
         "slug": "ba-ngoi",
@@ -59,7 +59,7 @@
         "code": "22423",
         "parent_code": "569"
     },
-    "22426": {
+     {
         "name": "Cam Thuận",
         "type": "phuong",
         "slug": "cam-thuan",
@@ -69,7 +69,7 @@
         "code": "22426",
         "parent_code": "569"
     },
-    "22429": {
+     {
         "name": "Cam Lợi",
         "type": "phuong",
         "slug": "cam-loi",
@@ -79,7 +79,7 @@
         "code": "22429",
         "parent_code": "569"
     },
-    "22432": {
+     {
         "name": "Cam Linh",
         "type": "phuong",
         "slug": "cam-linh",
@@ -89,7 +89,7 @@
         "code": "22432",
         "parent_code": "569"
     },
-    "22468": {
+     {
         "name": "Cam Thành Nam",
         "type": "xa",
         "slug": "cam-thanh-nam",
@@ -99,7 +99,7 @@
         "code": "22468",
         "parent_code": "569"
     },
-    "22474": {
+     {
         "name": "Cam Phước Đông",
         "type": "xa",
         "slug": "cam-phuoc-dong",
@@ -109,7 +109,7 @@
         "code": "22474",
         "parent_code": "569"
     },
-    "22477": {
+     {
         "name": "Cam Thịnh Tây",
         "type": "xa",
         "slug": "cam-thinh-tay",
@@ -119,7 +119,7 @@
         "code": "22477",
         "parent_code": "569"
     },
-    "22480": {
+     {
         "name": "Cam Thịnh Đông",
         "type": "xa",
         "slug": "cam-thinh-dong",
@@ -129,7 +129,7 @@
         "code": "22480",
         "parent_code": "569"
     },
-    "22483": {
+     {
         "name": "Cam Lập",
         "type": "xa",
         "slug": "cam-lap",
@@ -139,7 +139,7 @@
         "code": "22483",
         "parent_code": "569"
     },
-    "22486": {
+     {
         "name": "Cam Bình",
         "type": "xa",
         "slug": "cam-binh",
@@ -149,4 +149,4 @@
         "code": "22486",
         "parent_code": "569"
     }
-}
+]}

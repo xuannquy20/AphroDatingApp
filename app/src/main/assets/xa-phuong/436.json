@@ -1,5 +1,5 @@
 {
-    "18070": {
+    "xa":[ {
         "name": "Trần Phú",
         "type": "phuong",
         "slug": "tran-phu",
@@ -9,7 +9,7 @@
         "code": "18070",
         "parent_code": "436"
     },
-    "18073": {
+     {
         "name": "Nam Hà",
         "type": "phuong",
         "slug": "nam-ha",
@@ -19,7 +19,7 @@
         "code": "18073",
         "parent_code": "436"
     },
-    "18076": {
+     {
         "name": "Bắc Hà",
         "type": "phuong",
         "slug": "bac-ha",
@@ -29,7 +29,7 @@
         "code": "18076",
         "parent_code": "436"
     },
-    "18077": {
+     {
         "name": "Nguyễn Du",
         "type": "phuong",
         "slug": "nguyen-du",
@@ -39,7 +39,7 @@
         "code": "18077",
         "parent_code": "436"
     },
-    "18079": {
+     {
         "name": "Tân Giang",
         "type": "phuong",
         "slug": "tan-giang",
@@ -49,7 +49,7 @@
         "code": "18079",
         "parent_code": "436"
     },
-    "18082": {
+     {
         "name": "Đại Nài",
         "type": "phuong",
         "slug": "dai-nai",
@@ -59,7 +59,7 @@
         "code": "18082",
         "parent_code": "436"
     },
-    "18085": {
+     {
         "name": "Hà Huy Tập",
         "type": "phuong",
         "slug": "ha-huy-tap",
@@ -69,7 +69,7 @@
         "code": "18085",
         "parent_code": "436"
     },
-    "18088": {
+     {
         "name": "Thạch Trung",
         "type": "xa",
         "slug": "thach-trung",
@@ -79,7 +79,7 @@
         "code": "18088",
         "parent_code": "436"
     },
-    "18091": {
+     {
         "name": "Thạch Quý",
         "type": "phuong",
         "slug": "thach-quy",
@@ -89,7 +89,7 @@
         "code": "18091",
         "parent_code": "436"
     },
-    "18094": {
+     {
         "name": "Thạch Linh",
         "type": "phuong",
         "slug": "thach-linh",
@@ -99,7 +99,7 @@
         "code": "18094",
         "parent_code": "436"
     },
-    "18097": {
+     {
         "name": "Văn Yên",
         "type": "phuong",
         "slug": "van-yen",
@@ -109,7 +109,7 @@
         "code": "18097",
         "parent_code": "436"
     },
-    "18100": {
+     {
         "name": "Thạch Hạ",
         "type": "xa",
         "slug": "thach-ha",
@@ -119,7 +119,7 @@
         "code": "18100",
         "parent_code": "436"
     },
-    "18103": {
+     {
         "name": "Đồng Môn",
         "type": "xa",
         "slug": "dong-mon",
@@ -129,7 +129,7 @@
         "code": "18103",
         "parent_code": "436"
     },
-    "18109": {
+     {
         "name": "Thạch Hưng",
         "type": "xa",
         "slug": "thach-hung",
@@ -139,7 +139,7 @@
         "code": "18109",
         "parent_code": "436"
     },
-    "18112": {
+     {
         "name": "Thạch Bình",
         "type": "xa",
         "slug": "thach-binh",
@@ -149,4 +149,4 @@
         "code": "18112",
         "parent_code": "436"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "09538": {
+    "xa":[ {
         "name": "Nguyễn Trãi",
         "type": "phuong",
         "slug": "nguyen-trai",
@@ -9,7 +9,7 @@
         "code": "09538",
         "parent_code": "268"
     },
-    "09541": {
+     {
         "name": "Mộ Lao",
         "type": "phuong",
         "slug": "mo-lao",
@@ -19,7 +19,7 @@
         "code": "09541",
         "parent_code": "268"
     },
-    "09542": {
+     {
         "name": "Văn Quán",
         "type": "phuong",
         "slug": "van-quan",
@@ -29,7 +29,7 @@
         "code": "09542",
         "parent_code": "268"
     },
-    "09544": {
+     {
         "name": "Vạn Phúc",
         "type": "phuong",
         "slug": "van-phuc",
@@ -39,7 +39,7 @@
         "code": "09544",
         "parent_code": "268"
     },
-    "09547": {
+     {
         "name": "Yết Kiêu",
         "type": "phuong",
         "slug": "yet-kieu",
@@ -49,7 +49,7 @@
         "code": "09547",
         "parent_code": "268"
     },
-    "09550": {
+     {
         "name": "Quang Trung",
         "type": "phuong",
         "slug": "quang-trung",
@@ -59,7 +59,7 @@
         "code": "09550",
         "parent_code": "268"
     },
-    "09551": {
+     {
         "name": "La Khê",
         "type": "phuong",
         "slug": "la-khe",
@@ -69,7 +69,7 @@
         "code": "09551",
         "parent_code": "268"
     },
-    "09552": {
+     {
         "name": "Phú La",
         "type": "phuong",
         "slug": "phu-la",
@@ -79,7 +79,7 @@
         "code": "09552",
         "parent_code": "268"
     },
-    "09553": {
+     {
         "name": "Phúc La",
         "type": "phuong",
         "slug": "phuc-la",
@@ -89,7 +89,7 @@
         "code": "09553",
         "parent_code": "268"
     },
-    "09556": {
+     {
         "name": "Hà Cầu",
         "type": "phuong",
         "slug": "ha-cau",
@@ -99,7 +99,7 @@
         "code": "09556",
         "parent_code": "268"
     },
-    "09562": {
+     {
         "name": "Yên Nghĩa",
         "type": "phuong",
         "slug": "yen-nghia",
@@ -109,7 +109,7 @@
         "code": "09562",
         "parent_code": "268"
     },
-    "09565": {
+     {
         "name": "Kiến Hưng",
         "type": "phuong",
         "slug": "kien-hung",
@@ -119,7 +119,7 @@
         "code": "09565",
         "parent_code": "268"
     },
-    "09568": {
+     {
         "name": "Phú Lãm",
         "type": "phuong",
         "slug": "phu-lam",
@@ -129,7 +129,7 @@
         "code": "09568",
         "parent_code": "268"
     },
-    "09571": {
+     {
         "name": "Phú Lương",
         "type": "phuong",
         "slug": "phu-luong",
@@ -139,7 +139,7 @@
         "code": "09571",
         "parent_code": "268"
     },
-    "09886": {
+     {
         "name": "Dương Nội",
         "type": "phuong",
         "slug": "duong-noi",
@@ -149,7 +149,7 @@
         "code": "09886",
         "parent_code": "268"
     },
-    "10117": {
+     {
         "name": "Đồng Mai",
         "type": "phuong",
         "slug": "dong-mai",
@@ -159,7 +159,7 @@
         "code": "10117",
         "parent_code": "268"
     },
-    "10123": {
+     {
         "name": "Biên Giang",
         "type": "phuong",
         "slug": "bien-giang",
@@ -169,4 +169,4 @@
         "code": "10123",
         "parent_code": "268"
     }
-}
+]}

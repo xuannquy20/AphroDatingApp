@@ -1,5 +1,5 @@
 {
-    "12103": {
+    "xa":[ {
         "name": "Bần Yên Nhân",
         "type": "phuong",
         "slug": "ban-yen-nhan",
@@ -9,7 +9,7 @@
         "code": "12103",
         "parent_code": "328"
     },
-    "12106": {
+     {
         "name": "Phan Đình Phùng",
         "type": "phuong",
         "slug": "phan-dinh-phung",
@@ -19,7 +19,7 @@
         "code": "12106",
         "parent_code": "328"
     },
-    "12109": {
+     {
         "name": "Cẩm Xá",
         "type": "xa",
         "slug": "cam-xa",
@@ -29,7 +29,7 @@
         "code": "12109",
         "parent_code": "328"
     },
-    "12112": {
+     {
         "name": "Dương Quang",
         "type": "xa",
         "slug": "duong-quang",
@@ -39,7 +39,7 @@
         "code": "12112",
         "parent_code": "328"
     },
-    "12115": {
+     {
         "name": "Hòa Phong",
         "type": "xa",
         "slug": "hoa-phong",
@@ -49,7 +49,7 @@
         "code": "12115",
         "parent_code": "328"
     },
-    "12118": {
+     {
         "name": "Nhân Hòa",
         "type": "phuong",
         "slug": "nhan-hoa",
@@ -59,7 +59,7 @@
         "code": "12118",
         "parent_code": "328"
     },
-    "12121": {
+     {
         "name": "Dị Sử",
         "type": "phuong",
         "slug": "di-su",
@@ -69,7 +69,7 @@
         "code": "12121",
         "parent_code": "328"
     },
-    "12124": {
+     {
         "name": "Bạch Sam",
         "type": "phuong",
         "slug": "bach-sam",
@@ -79,7 +79,7 @@
         "code": "12124",
         "parent_code": "328"
     },
-    "12127": {
+     {
         "name": "Minh Đức",
         "type": "phuong",
         "slug": "minh-duc",
@@ -89,7 +89,7 @@
         "code": "12127",
         "parent_code": "328"
     },
-    "12130": {
+     {
         "name": "Phùng Chí Kiên",
         "type": "phuong",
         "slug": "phung-chi-kien",
@@ -99,7 +99,7 @@
         "code": "12130",
         "parent_code": "328"
     },
-    "12133": {
+     {
         "name": "Xuân Dục",
         "type": "xa",
         "slug": "xuan-duc",
@@ -109,7 +109,7 @@
         "code": "12133",
         "parent_code": "328"
     },
-    "12136": {
+     {
         "name": "Ngọc Lâm",
         "type": "xa",
         "slug": "ngoc-lam",
@@ -119,7 +119,7 @@
         "code": "12136",
         "parent_code": "328"
     },
-    "12139": {
+     {
         "name": "Hưng Long",
         "type": "xa",
         "slug": "hung-long",
@@ -129,4 +129,4 @@
         "code": "12139",
         "parent_code": "328"
     }
-}
+]}

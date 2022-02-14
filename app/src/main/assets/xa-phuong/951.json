@@ -1,5 +1,5 @@
 {
-    "31672": {
+    "xa":[ {
         "name": "Đại Ân  2",
         "type": "xa",
         "slug": "dai-an-2",
@@ -9,7 +9,7 @@
         "code": "31672",
         "parent_code": "951"
     },
-    "31673": {
+     {
         "name": "Trần Đề",
         "type": "thi-tran",
         "slug": "tran-de",
@@ -19,7 +19,7 @@
         "code": "31673",
         "parent_code": "951"
     },
-    "31675": {
+     {
         "name": "Liêu Tú",
         "type": "xa",
         "slug": "lieu-tu",
@@ -29,7 +29,7 @@
         "code": "31675",
         "parent_code": "951"
     },
-    "31678": {
+     {
         "name": "Lịch Hội Thượng",
         "type": "xa",
         "slug": "lich-hoi-thuong",
@@ -39,7 +39,7 @@
         "code": "31678",
         "parent_code": "951"
     },
-    "31679": {
+     {
         "name": "Lịch Hội Thượng",
         "type": "thi-tran",
         "slug": "lich-hoi-thuong",
@@ -49,7 +49,7 @@
         "code": "31679",
         "parent_code": "951"
     },
-    "31681": {
+     {
         "name": "Trung Bình",
         "type": "xa",
         "slug": "trung-binh",
@@ -59,7 +59,7 @@
         "code": "31681",
         "parent_code": "951"
     },
-    "31687": {
+     {
         "name": "Tài Văn",
         "type": "xa",
         "slug": "tai-van",
@@ -69,7 +69,7 @@
         "code": "31687",
         "parent_code": "951"
     },
-    "31696": {
+     {
         "name": "Viên An",
         "type": "xa",
         "slug": "vien-an",
@@ -79,7 +79,7 @@
         "code": "31696",
         "parent_code": "951"
     },
-    "31699": {
+     {
         "name": "Thạnh Thới An",
         "type": "xa",
         "slug": "thanh-thoi-an",
@@ -89,7 +89,7 @@
         "code": "31699",
         "parent_code": "951"
     },
-    "31702": {
+     {
         "name": "Thạnh Thới Thuận",
         "type": "xa",
         "slug": "thanh-thoi-thuan",
@@ -99,7 +99,7 @@
         "code": "31702",
         "parent_code": "951"
     },
-    "31705": {
+     {
         "name": "Viên Bình",
         "type": "xa",
         "slug": "vien-binh",
@@ -109,4 +109,4 @@
         "code": "31705",
         "parent_code": "951"
     }
-}
+]}

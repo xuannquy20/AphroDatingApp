@@ -1,5 +1,5 @@
 {
-    "00703": {
+     "xa" : [{
         "name": "Kim Thạch",
         "type": "xa",
         "slug": "kim-thach",
@@ -9,7 +9,7 @@
         "code": "00703",
         "parent_code": "030"
     },
-    "00706": {
+     {
         "name": "Phú Linh",
         "type": "xa",
         "slug": "phu-linh",
@@ -19,7 +19,7 @@
         "code": "00706",
         "parent_code": "030"
     },
-    "00709": {
+     {
         "name": "Kim Linh",
         "type": "xa",
         "slug": "kim-linh",
@@ -29,7 +29,7 @@
         "code": "00709",
         "parent_code": "030"
     },
-    "00913": {
+     {
         "name": "Vị Xuyên",
         "type": "thi-tran",
         "slug": "vi-xuyen",
@@ -39,7 +39,7 @@
         "code": "00913",
         "parent_code": "030"
     },
-    "00916": {
+     {
         "name": "Nông Trường Việt Lâm",
         "type": "thi-tran",
         "slug": "nong-truong-viet-lam",
@@ -49,7 +49,7 @@
         "code": "00916",
         "parent_code": "030"
     },
-    "00919": {
+     {
         "name": "Minh Tân",
         "type": "xa",
         "slug": "minh-tan",
@@ -59,7 +59,7 @@
         "code": "00919",
         "parent_code": "030"
     },
-    "00922": {
+     {
         "name": "Thuận Hoà",
         "type": "xa",
         "slug": "thuan-hoa",
@@ -69,7 +69,7 @@
         "code": "00922",
         "parent_code": "030"
     },
-    "00925": {
+     {
         "name": "Tùng Bá",
         "type": "xa",
         "slug": "tung-ba",
@@ -79,7 +79,7 @@
         "code": "00925",
         "parent_code": "030"
     },
-    "00928": {
+     {
         "name": "Thanh Thủy",
         "type": "xa",
         "slug": "thanh-thuy",
@@ -89,7 +89,7 @@
         "code": "00928",
         "parent_code": "030"
     },
-    "00931": {
+     {
         "name": "Thanh Đức",
         "type": "xa",
         "slug": "thanh-duc",
@@ -99,7 +99,7 @@
         "code": "00931",
         "parent_code": "030"
     },
-    "00934": {
+     {
         "name": "Phong Quang",
         "type": "xa",
         "slug": "phong-quang",
@@ -109,7 +109,7 @@
         "code": "00934",
         "parent_code": "030"
     },
-    "00937": {
+     {
         "name": "Xín Chải",
         "type": "xa",
         "slug": "xin-chai",
@@ -119,7 +119,7 @@
         "code": "00937",
         "parent_code": "030"
     },
-    "00940": {
+     {
         "name": "Phương Tiến",
         "type": "xa",
         "slug": "phuong-tien",
@@ -129,7 +129,7 @@
         "code": "00940",
         "parent_code": "030"
     },
-    "00943": {
+     {
         "name": "Lao Chải",
         "type": "xa",
         "slug": "lao-chai",
@@ -139,7 +139,7 @@
         "code": "00943",
         "parent_code": "030"
     },
-    "00952": {
+     {
         "name": "Cao Bồ",
         "type": "xa",
         "slug": "cao-bo",
@@ -149,7 +149,7 @@
         "code": "00952",
         "parent_code": "030"
     },
-    "00955": {
+     {
         "name": "Đạo Đức",
         "type": "xa",
         "slug": "dao-duc",
@@ -159,7 +159,7 @@
         "code": "00955",
         "parent_code": "030"
     },
-    "00958": {
+     {
         "name": "Thượng Sơn",
         "type": "xa",
         "slug": "thuong-son",
@@ -169,7 +169,7 @@
         "code": "00958",
         "parent_code": "030"
     },
-    "00961": {
+     {
         "name": "Linh Hồ",
         "type": "xa",
         "slug": "linh-ho",
@@ -179,7 +179,7 @@
         "code": "00961",
         "parent_code": "030"
     },
-    "00964": {
+     {
         "name": "Quảng Ngần",
         "type": "xa",
         "slug": "quang-ngan",
@@ -189,7 +189,7 @@
         "code": "00964",
         "parent_code": "030"
     },
-    "00967": {
+     {
         "name": "Việt Lâm",
         "type": "xa",
         "slug": "viet-lam",
@@ -199,7 +199,7 @@
         "code": "00967",
         "parent_code": "030"
     },
-    "00970": {
+     {
         "name": "Ngọc Linh",
         "type": "xa",
         "slug": "ngoc-linh",
@@ -209,7 +209,7 @@
         "code": "00970",
         "parent_code": "030"
     },
-    "00973": {
+     {
         "name": "Ngọc Minh",
         "type": "xa",
         "slug": "ngoc-minh",
@@ -219,7 +219,7 @@
         "code": "00973",
         "parent_code": "030"
     },
-    "00976": {
+     {
         "name": "Bạch Ngọc",
         "type": "xa",
         "slug": "bach-ngoc",
@@ -229,7 +229,7 @@
         "code": "00976",
         "parent_code": "030"
     },
-    "00979": {
+     {
         "name": "Trung Thành",
         "type": "xa",
         "slug": "trung-thanh",
@@ -239,4 +239,5 @@
         "code": "00979",
         "parent_code": "030"
     }
+]
 }

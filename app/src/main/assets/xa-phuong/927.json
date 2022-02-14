@@ -1,5 +1,5 @@
 {
-    "31258": {
+    "xa":[ {
         "name": "Thới Lai",
         "type": "thi-tran",
         "slug": "thoi-lai",
@@ -9,7 +9,7 @@
         "code": "31258",
         "parent_code": "927"
     },
-    "31267": {
+     {
         "name": "Thới Thạnh",
         "type": "xa",
         "slug": "thoi-thanh",
@@ -19,7 +19,7 @@
         "code": "31267",
         "parent_code": "927"
     },
-    "31268": {
+     {
         "name": "Tân Thạnh",
         "type": "xa",
         "slug": "tan-thanh",
@@ -29,7 +29,7 @@
         "code": "31268",
         "parent_code": "927"
     },
-    "31270": {
+     {
         "name": "Xuân Thắng",
         "type": "xa",
         "slug": "xuan-thang",
@@ -39,7 +39,7 @@
         "code": "31270",
         "parent_code": "927"
     },
-    "31279": {
+     {
         "name": "Đông Bình",
         "type": "xa",
         "slug": "dong-binh",
@@ -49,7 +49,7 @@
         "code": "31279",
         "parent_code": "927"
     },
-    "31282": {
+     {
         "name": "Đông Thuận",
         "type": "xa",
         "slug": "dong-thuan",
@@ -59,7 +59,7 @@
         "code": "31282",
         "parent_code": "927"
     },
-    "31285": {
+     {
         "name": "Thới Tân",
         "type": "xa",
         "slug": "thoi-tan",
@@ -69,7 +69,7 @@
         "code": "31285",
         "parent_code": "927"
     },
-    "31286": {
+     {
         "name": "Trường Thắng",
         "type": "xa",
         "slug": "truong-thang",
@@ -79,7 +79,7 @@
         "code": "31286",
         "parent_code": "927"
     },
-    "31288": {
+     {
         "name": "Định Môn",
         "type": "xa",
         "slug": "dinh-mon",
@@ -89,7 +89,7 @@
         "code": "31288",
         "parent_code": "927"
     },
-    "31291": {
+     {
         "name": "Trường Thành",
         "type": "xa",
         "slug": "truong-thanh",
@@ -99,7 +99,7 @@
         "code": "31291",
         "parent_code": "927"
     },
-    "31294": {
+     {
         "name": "Trường Xuân",
         "type": "xa",
         "slug": "truong-xuan",
@@ -109,7 +109,7 @@
         "code": "31294",
         "parent_code": "927"
     },
-    "31297": {
+     {
         "name": "Trường Xuân A",
         "type": "xa",
         "slug": "truong-xuan-a",
@@ -119,7 +119,7 @@
         "code": "31297",
         "parent_code": "927"
     },
-    "31298": {
+     {
         "name": "Trường Xuân B",
         "type": "xa",
         "slug": "truong-xuan-b",
@@ -129,4 +129,4 @@
         "code": "31298",
         "parent_code": "927"
     }
-}
+]}

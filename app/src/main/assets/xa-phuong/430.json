@@ -1,5 +1,5 @@
 {
-    "17932": {
+    "xa":[ {
         "name": "Nam Hưng",
         "type": "xa",
         "slug": "nam-hung",
@@ -9,7 +9,7 @@
         "code": "17932",
         "parent_code": "430"
     },
-    "17935": {
+     {
         "name": "Nam Nghĩa",
         "type": "xa",
         "slug": "nam-nghia",
@@ -19,7 +19,7 @@
         "code": "17935",
         "parent_code": "430"
     },
-    "17938": {
+     {
         "name": "Nam Thanh",
         "type": "xa",
         "slug": "nam-thanh",
@@ -29,7 +29,7 @@
         "code": "17938",
         "parent_code": "430"
     },
-    "17941": {
+     {
         "name": "Nam Anh",
         "type": "xa",
         "slug": "nam-anh",
@@ -39,7 +39,7 @@
         "code": "17941",
         "parent_code": "430"
     },
-    "17944": {
+     {
         "name": "Nam Xuân",
         "type": "xa",
         "slug": "nam-xuan",
@@ -49,7 +49,7 @@
         "code": "17944",
         "parent_code": "430"
     },
-    "17947": {
+     {
         "name": "Nam Thái",
         "type": "xa",
         "slug": "nam-thai",
@@ -59,7 +59,7 @@
         "code": "17947",
         "parent_code": "430"
     },
-    "17950": {
+     {
         "name": "Nam Đàn",
         "type": "thi-tran",
         "slug": "nam-dan",
@@ -69,7 +69,7 @@
         "code": "17950",
         "parent_code": "430"
     },
-    "17953": {
+     {
         "name": "Nam Lĩnh",
         "type": "xa",
         "slug": "nam-linh",
@@ -79,7 +79,7 @@
         "code": "17953",
         "parent_code": "430"
     },
-    "17956": {
+     {
         "name": "Nam Giang",
         "type": "xa",
         "slug": "nam-giang",
@@ -89,7 +89,7 @@
         "code": "17956",
         "parent_code": "430"
     },
-    "17959": {
+     {
         "name": "Xuân Hòa",
         "type": "xa",
         "slug": "xuan-hoa",
@@ -99,7 +99,7 @@
         "code": "17959",
         "parent_code": "430"
     },
-    "17962": {
+     {
         "name": "Hùng Tiến",
         "type": "xa",
         "slug": "hung-tien",
@@ -109,7 +109,7 @@
         "code": "17962",
         "parent_code": "430"
     },
-    "17968": {
+     {
         "name": "Thượng Tân Lộc",
         "type": "xa",
         "slug": "thuong-tan-loc",
@@ -119,7 +119,7 @@
         "code": "17968",
         "parent_code": "430"
     },
-    "17971": {
+     {
         "name": "Kim Liên",
         "type": "xa",
         "slug": "kim-lien",
@@ -129,7 +129,7 @@
         "code": "17971",
         "parent_code": "430"
     },
-    "17977": {
+     {
         "name": "Hồng Long",
         "type": "xa",
         "slug": "hong-long",
@@ -139,7 +139,7 @@
         "code": "17977",
         "parent_code": "430"
     },
-    "17980": {
+     {
         "name": "Xuân Lâm",
         "type": "xa",
         "slug": "xuan-lam",
@@ -149,7 +149,7 @@
         "code": "17980",
         "parent_code": "430"
     },
-    "17983": {
+     {
         "name": "Nam Cát",
         "type": "xa",
         "slug": "nam-cat",
@@ -159,7 +159,7 @@
         "code": "17983",
         "parent_code": "430"
     },
-    "17986": {
+     {
         "name": "Khánh Sơn",
         "type": "xa",
         "slug": "khanh-son",
@@ -169,7 +169,7 @@
         "code": "17986",
         "parent_code": "430"
     },
-    "17989": {
+     {
         "name": "Trung Phúc Cường",
         "type": "xa",
         "slug": "trung-phuc-cuong",
@@ -179,7 +179,7 @@
         "code": "17989",
         "parent_code": "430"
     },
-    "17998": {
+     {
         "name": "Nam Kim",
         "type": "xa",
         "slug": "nam-kim",
@@ -189,4 +189,4 @@
         "code": "17998",
         "parent_code": "430"
     }
-}
+]}

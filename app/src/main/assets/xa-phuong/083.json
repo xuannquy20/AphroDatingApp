@@ -1,5 +1,5 @@
 {
-    "02752": {
+    "xa":[ {
         "name": "Pha Long",
         "type": "xa",
         "slug": "pha-long",
@@ -9,7 +9,7 @@
         "code": "02752",
         "parent_code": "083"
     },
-    "02755": {
+     {
         "name": "Tả Ngải Chồ",
         "type": "xa",
         "slug": "ta-ngai-cho",
@@ -19,7 +19,7 @@
         "code": "02755",
         "parent_code": "083"
     },
-    "02758": {
+     {
         "name": "Tung Chung Phố",
         "type": "xa",
         "slug": "tung-chung-pho",
@@ -29,7 +29,7 @@
         "code": "02758",
         "parent_code": "083"
     },
-    "02761": {
+     {
         "name": "Mường Khương",
         "type": "thi-tran",
         "slug": "muong-khuong",
@@ -39,7 +39,7 @@
         "code": "02761",
         "parent_code": "083"
     },
-    "02764": {
+     {
         "name": "Dìn Chin",
         "type": "xa",
         "slug": "din-chin",
@@ -49,7 +49,7 @@
         "code": "02764",
         "parent_code": "083"
     },
-    "02767": {
+     {
         "name": "Tả Gia Khâu",
         "type": "xa",
         "slug": "ta-gia-khau",
@@ -59,7 +59,7 @@
         "code": "02767",
         "parent_code": "083"
     },
-    "02770": {
+     {
         "name": "Nậm Chảy",
         "type": "xa",
         "slug": "nam-chay",
@@ -69,7 +69,7 @@
         "code": "02770",
         "parent_code": "083"
     },
-    "02773": {
+     {
         "name": "Nấm Lư",
         "type": "xa",
         "slug": "nam-lu",
@@ -79,7 +79,7 @@
         "code": "02773",
         "parent_code": "083"
     },
-    "02776": {
+     {
         "name": "Lùng Khấu Nhin",
         "type": "xa",
         "slug": "lung-khau-nhin",
@@ -89,7 +89,7 @@
         "code": "02776",
         "parent_code": "083"
     },
-    "02779": {
+     {
         "name": "Thanh Bình",
         "type": "xa",
         "slug": "thanh-binh",
@@ -99,7 +99,7 @@
         "code": "02779",
         "parent_code": "083"
     },
-    "02782": {
+     {
         "name": "Cao Sơn",
         "type": "xa",
         "slug": "cao-son",
@@ -109,7 +109,7 @@
         "code": "02782",
         "parent_code": "083"
     },
-    "02785": {
+     {
         "name": "Lùng Vai",
         "type": "xa",
         "slug": "lung-vai",
@@ -119,7 +119,7 @@
         "code": "02785",
         "parent_code": "083"
     },
-    "02788": {
+     {
         "name": "Bản Lầu",
         "type": "xa",
         "slug": "ban-lau",
@@ -129,7 +129,7 @@
         "code": "02788",
         "parent_code": "083"
     },
-    "02791": {
+     {
         "name": "La Pan Tẩn",
         "type": "xa",
         "slug": "la-pan-tan",
@@ -139,7 +139,7 @@
         "code": "02791",
         "parent_code": "083"
     },
-    "02794": {
+     {
         "name": "Tả Thàng",
         "type": "xa",
         "slug": "ta-thang",
@@ -149,7 +149,7 @@
         "code": "02794",
         "parent_code": "083"
     },
-    "02797": {
+     {
         "name": "Bản Sen",
         "type": "xa",
         "slug": "ban-sen",
@@ -159,4 +159,4 @@
         "code": "02797",
         "parent_code": "083"
     }
-}
+]}

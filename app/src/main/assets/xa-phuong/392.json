@@ -1,5 +1,5 @@
 {
-    "15271": {
+    "xa":[ {
         "name": "Hà Trung",
         "type": "thi-tran",
         "slug": "ha-trung",
@@ -9,7 +9,7 @@
         "code": "15271",
         "parent_code": "392"
     },
-    "15274": {
+     {
         "name": "Hà Long",
         "type": "xa",
         "slug": "ha-long",
@@ -19,7 +19,7 @@
         "code": "15274",
         "parent_code": "392"
     },
-    "15277": {
+     {
         "name": "Hà Vinh",
         "type": "xa",
         "slug": "ha-vinh",
@@ -29,7 +29,7 @@
         "code": "15277",
         "parent_code": "392"
     },
-    "15280": {
+     {
         "name": "Hà Bắc",
         "type": "xa",
         "slug": "ha-bac",
@@ -39,7 +39,7 @@
         "code": "15280",
         "parent_code": "392"
     },
-    "15283": {
+     {
         "name": "Hoạt Giang",
         "type": "xa",
         "slug": "hoat-giang",
@@ -49,7 +49,7 @@
         "code": "15283",
         "parent_code": "392"
     },
-    "15286": {
+     {
         "name": "Yên Dương",
         "type": "xa",
         "slug": "yen-duong",
@@ -59,7 +59,7 @@
         "code": "15286",
         "parent_code": "392"
     },
-    "15292": {
+     {
         "name": "Hà Giang",
         "type": "xa",
         "slug": "ha-giang",
@@ -69,7 +69,7 @@
         "code": "15292",
         "parent_code": "392"
     },
-    "15298": {
+     {
         "name": "Lĩnh Toại",
         "type": "xa",
         "slug": "linh-toai",
@@ -79,7 +79,7 @@
         "code": "15298",
         "parent_code": "392"
     },
-    "15304": {
+     {
         "name": "Hà Ngọc",
         "type": "xa",
         "slug": "ha-ngoc",
@@ -89,7 +89,7 @@
         "code": "15304",
         "parent_code": "392"
     },
-    "15307": {
+     {
         "name": "Yến Sơn",
         "type": "xa",
         "slug": "yen-son",
@@ -99,7 +99,7 @@
         "code": "15307",
         "parent_code": "392"
     },
-    "15313": {
+     {
         "name": "Hà Sơn",
         "type": "xa",
         "slug": "ha-son",
@@ -109,7 +109,7 @@
         "code": "15313",
         "parent_code": "392"
     },
-    "15316": {
+     {
         "name": "Hà Lĩnh",
         "type": "xa",
         "slug": "ha-linh",
@@ -119,7 +119,7 @@
         "code": "15316",
         "parent_code": "392"
     },
-    "15319": {
+     {
         "name": "Hà Đông",
         "type": "xa",
         "slug": "ha-dong",
@@ -129,7 +129,7 @@
         "code": "15319",
         "parent_code": "392"
     },
-    "15322": {
+     {
         "name": "Hà Tân",
         "type": "xa",
         "slug": "ha-tan",
@@ -139,7 +139,7 @@
         "code": "15322",
         "parent_code": "392"
     },
-    "15325": {
+     {
         "name": "Hà Tiến",
         "type": "xa",
         "slug": "ha-tien",
@@ -149,7 +149,7 @@
         "code": "15325",
         "parent_code": "392"
     },
-    "15328": {
+     {
         "name": "Hà Bình",
         "type": "xa",
         "slug": "ha-binh",
@@ -159,7 +159,7 @@
         "code": "15328",
         "parent_code": "392"
     },
-    "15331": {
+     {
         "name": "Hà Lai",
         "type": "xa",
         "slug": "ha-lai",
@@ -169,7 +169,7 @@
         "code": "15331",
         "parent_code": "392"
     },
-    "15334": {
+     {
         "name": "Hà Châu",
         "type": "xa",
         "slug": "ha-chau",
@@ -179,7 +179,7 @@
         "code": "15334",
         "parent_code": "392"
     },
-    "15340": {
+     {
         "name": "Hà Thái",
         "type": "xa",
         "slug": "ha-thai",
@@ -189,7 +189,7 @@
         "code": "15340",
         "parent_code": "392"
     },
-    "15343": {
+     {
         "name": "Hà Hải",
         "type": "xa",
         "slug": "ha-hai",
@@ -199,4 +199,4 @@
         "code": "15343",
         "parent_code": "392"
     }
-}
+]}

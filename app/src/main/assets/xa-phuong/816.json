@@ -1,5 +1,5 @@
 {
-    "28294": {
+    "xa":[ {
         "name": "3",
         "type": "phuong",
         "slug": "3",
@@ -9,7 +9,7 @@
         "code": "28294",
         "parent_code": "816"
     },
-    "28297": {
+     {
         "name": "2",
         "type": "phuong",
         "slug": "2",
@@ -19,7 +19,7 @@
         "code": "28297",
         "parent_code": "816"
     },
-    "28300": {
+     {
         "name": "4",
         "type": "phuong",
         "slug": "4",
@@ -29,7 +29,7 @@
         "code": "28300",
         "parent_code": "816"
     },
-    "28303": {
+     {
         "name": "1",
         "type": "phuong",
         "slug": "1",
@@ -39,7 +39,7 @@
         "code": "28303",
         "parent_code": "816"
     },
-    "28306": {
+     {
         "name": "5",
         "type": "phuong",
         "slug": "5",
@@ -49,7 +49,7 @@
         "code": "28306",
         "parent_code": "816"
     },
-    "28309": {
+     {
         "name": "Long Hưng",
         "type": "xa",
         "slug": "long-hung",
@@ -59,7 +59,7 @@
         "code": "28309",
         "parent_code": "816"
     },
-    "28312": {
+     {
         "name": "Long Thuận",
         "type": "xa",
         "slug": "long-thuan",
@@ -69,7 +69,7 @@
         "code": "28312",
         "parent_code": "816"
     },
-    "28315": {
+     {
         "name": "Long Chánh",
         "type": "xa",
         "slug": "long-chanh",
@@ -79,7 +79,7 @@
         "code": "28315",
         "parent_code": "816"
     },
-    "28318": {
+     {
         "name": "Long Hòa",
         "type": "xa",
         "slug": "long-hoa",
@@ -89,7 +89,7 @@
         "code": "28318",
         "parent_code": "816"
     },
-    "28708": {
+     {
         "name": "Bình Đông",
         "type": "xa",
         "slug": "binh-dong",
@@ -99,7 +99,7 @@
         "code": "28708",
         "parent_code": "816"
     },
-    "28717": {
+     {
         "name": "Bình Xuân",
         "type": "xa",
         "slug": "binh-xuan",
@@ -109,7 +109,7 @@
         "code": "28717",
         "parent_code": "816"
     },
-    "28729": {
+     {
         "name": "Tân Trung",
         "type": "xa",
         "slug": "tan-trung",
@@ -119,4 +119,4 @@
         "code": "28729",
         "parent_code": "816"
     }
-}
+]}

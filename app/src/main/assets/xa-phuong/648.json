@@ -1,5 +1,5 @@
 {
-    "24256": {
+    "xa":[ {
         "name": "Ea Pốk",
         "type": "thi-tran",
         "slug": "ea-pok",
@@ -9,7 +9,7 @@
         "code": "24256",
         "parent_code": "648"
     },
-    "24259": {
+     {
         "name": "Quảng Phú",
         "type": "thi-tran",
         "slug": "quang-phu",
@@ -19,7 +19,7 @@
         "code": "24259",
         "parent_code": "648"
     },
-    "24262": {
+     {
         "name": "Quảng Tiến",
         "type": "xa",
         "slug": "quang-tien",
@@ -29,7 +29,7 @@
         "code": "24262",
         "parent_code": "648"
     },
-    "24264": {
+     {
         "name": "Ea Kuêh",
         "type": "xa",
         "slug": "ea-kueh",
@@ -39,7 +39,7 @@
         "code": "24264",
         "parent_code": "648"
     },
-    "24265": {
+     {
         "name": "Ea Kiết",
         "type": "xa",
         "slug": "ea-kiet",
@@ -49,7 +49,7 @@
         "code": "24265",
         "parent_code": "648"
     },
-    "24268": {
+     {
         "name": "Ea Tar",
         "type": "xa",
         "slug": "ea-tar",
@@ -59,7 +59,7 @@
         "code": "24268",
         "parent_code": "648"
     },
-    "24271": {
+     {
         "name": "Cư Dliê M'nông",
         "type": "xa",
         "slug": "cu-dlie-m-nong",
@@ -69,7 +69,7 @@
         "code": "24271",
         "parent_code": "648"
     },
-    "24274": {
+     {
         "name": "Ea H'đinh",
         "type": "xa",
         "slug": "ea-h-dinh",
@@ -79,7 +79,7 @@
         "code": "24274",
         "parent_code": "648"
     },
-    "24277": {
+     {
         "name": "Ea Tul",
         "type": "xa",
         "slug": "ea-tul",
@@ -89,7 +89,7 @@
         "code": "24277",
         "parent_code": "648"
     },
-    "24280": {
+     {
         "name": "Ea KPam",
         "type": "xa",
         "slug": "ea-kpam",
@@ -99,7 +99,7 @@
         "code": "24280",
         "parent_code": "648"
     },
-    "24283": {
+     {
         "name": "Ea M'DRóh",
         "type": "xa",
         "slug": "ea-m-droh",
@@ -109,7 +109,7 @@
         "code": "24283",
         "parent_code": "648"
     },
-    "24286": {
+     {
         "name": "Quảng Hiệp",
         "type": "xa",
         "slug": "quang-hiep",
@@ -119,7 +119,7 @@
         "code": "24286",
         "parent_code": "648"
     },
-    "24289": {
+     {
         "name": "Cư M'gar",
         "type": "xa",
         "slug": "cu-m-gar",
@@ -129,7 +129,7 @@
         "code": "24289",
         "parent_code": "648"
     },
-    "24292": {
+     {
         "name": "Ea D'Rơng",
         "type": "xa",
         "slug": "ea-d-rong",
@@ -139,7 +139,7 @@
         "code": "24292",
         "parent_code": "648"
     },
-    "24295": {
+     {
         "name": "Ea M'nang",
         "type": "xa",
         "slug": "ea-m-nang",
@@ -149,7 +149,7 @@
         "code": "24295",
         "parent_code": "648"
     },
-    "24298": {
+     {
         "name": "Cư Suê",
         "type": "xa",
         "slug": "cu-sue",
@@ -159,7 +159,7 @@
         "code": "24298",
         "parent_code": "648"
     },
-    "24301": {
+     {
         "name": "Cuor Đăng",
         "type": "xa",
         "slug": "cuor-dang",
@@ -169,4 +169,4 @@
         "code": "24301",
         "parent_code": "648"
     }
-}
+]}

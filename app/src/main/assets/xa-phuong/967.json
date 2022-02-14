@@ -1,5 +1,5 @@
 {
-    "32065": {
+    "xa":[ {
         "name": "Thới Bình",
         "type": "thi-tran",
         "slug": "thoi-binh",
@@ -9,7 +9,7 @@
         "code": "32065",
         "parent_code": "967"
     },
-    "32068": {
+     {
         "name": "Biển Bạch",
         "type": "xa",
         "slug": "bien-bach",
@@ -19,7 +19,7 @@
         "code": "32068",
         "parent_code": "967"
     },
-    "32069": {
+     {
         "name": "Tân Bằng",
         "type": "xa",
         "slug": "tan-bang",
@@ -29,7 +29,7 @@
         "code": "32069",
         "parent_code": "967"
     },
-    "32071": {
+     {
         "name": "Trí Phải",
         "type": "xa",
         "slug": "tri-phai",
@@ -39,7 +39,7 @@
         "code": "32071",
         "parent_code": "967"
     },
-    "32072": {
+     {
         "name": "Trí Lực",
         "type": "xa",
         "slug": "tri-luc",
@@ -49,7 +49,7 @@
         "code": "32072",
         "parent_code": "967"
     },
-    "32074": {
+     {
         "name": "Biển Bạch Đông",
         "type": "xa",
         "slug": "bien-bach-dong",
@@ -59,7 +59,7 @@
         "code": "32074",
         "parent_code": "967"
     },
-    "32077": {
+     {
         "name": "Thới Bình",
         "type": "xa",
         "slug": "thoi-binh",
@@ -69,7 +69,7 @@
         "code": "32077",
         "parent_code": "967"
     },
-    "32080": {
+     {
         "name": "Tân Phú",
         "type": "xa",
         "slug": "tan-phu",
@@ -79,7 +79,7 @@
         "code": "32080",
         "parent_code": "967"
     },
-    "32083": {
+     {
         "name": "Tân Lộc Bắc",
         "type": "xa",
         "slug": "tan-loc-bac",
@@ -89,7 +89,7 @@
         "code": "32083",
         "parent_code": "967"
     },
-    "32086": {
+     {
         "name": "Tân Lộc",
         "type": "xa",
         "slug": "tan-loc",
@@ -99,7 +99,7 @@
         "code": "32086",
         "parent_code": "967"
     },
-    "32089": {
+     {
         "name": "Tân Lộc Đông",
         "type": "xa",
         "slug": "tan-loc-dong",
@@ -109,7 +109,7 @@
         "code": "32089",
         "parent_code": "967"
     },
-    "32092": {
+     {
         "name": "Hồ Thị Kỷ",
         "type": "xa",
         "slug": "ho-thi-ky",
@@ -119,4 +119,4 @@
         "code": "32092",
         "parent_code": "967"
     }
-}
+]}

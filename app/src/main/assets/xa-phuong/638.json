@@ -1,5 +1,5 @@
 {
-    "24043": {
+    "xa":[ {
         "name": "Phú Thiện",
         "type": "thi-tran",
         "slug": "phu-thien",
@@ -9,7 +9,7 @@
         "code": "24043",
         "parent_code": "638"
     },
-    "24046": {
+     {
         "name": "Chư A Thai",
         "type": "xa",
         "slug": "chu-a-thai",
@@ -19,7 +19,7 @@
         "code": "24046",
         "parent_code": "638"
     },
-    "24048": {
+     {
         "name": "Ayun Hạ",
         "type": "xa",
         "slug": "ayun-ha",
@@ -29,7 +29,7 @@
         "code": "24048",
         "parent_code": "638"
     },
-    "24049": {
+     {
         "name": "Ia Ake",
         "type": "xa",
         "slug": "ia-ake",
@@ -39,7 +39,7 @@
         "code": "24049",
         "parent_code": "638"
     },
-    "24052": {
+     {
         "name": "Ia Sol",
         "type": "xa",
         "slug": "ia-sol",
@@ -49,7 +49,7 @@
         "code": "24052",
         "parent_code": "638"
     },
-    "24055": {
+     {
         "name": "Ia Piar",
         "type": "xa",
         "slug": "ia-piar",
@@ -59,7 +59,7 @@
         "code": "24055",
         "parent_code": "638"
     },
-    "24058": {
+     {
         "name": "Ia Peng",
         "type": "xa",
         "slug": "ia-peng",
@@ -69,7 +69,7 @@
         "code": "24058",
         "parent_code": "638"
     },
-    "24060": {
+     {
         "name": "Chrôh Pơnan",
         "type": "xa",
         "slug": "chroh-ponan",
@@ -79,7 +79,7 @@
         "code": "24060",
         "parent_code": "638"
     },
-    "24061": {
+     {
         "name": "Ia Hiao",
         "type": "xa",
         "slug": "ia-hiao",
@@ -89,7 +89,7 @@
         "code": "24061",
         "parent_code": "638"
     },
-    "24067": {
+     {
         "name": "Ia Yeng",
         "type": "xa",
         "slug": "ia-yeng",
@@ -99,4 +99,4 @@
         "code": "24067",
         "parent_code": "638"
     }
-}
+]}

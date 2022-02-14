@@ -1,5 +1,5 @@
 {
-    "31366": {
+    "xa":[ {
         "name": "Ngã Sáu",
         "type": "thi-tran",
         "slug": "nga-sau",
@@ -9,7 +9,7 @@
         "code": "31366",
         "parent_code": "933"
     },
-    "31369": {
+     {
         "name": "Đông Thạnh",
         "type": "xa",
         "slug": "dong-thanh",
@@ -19,7 +19,7 @@
         "code": "31369",
         "parent_code": "933"
     },
-    "31375": {
+     {
         "name": "Đông Phú",
         "type": "xa",
         "slug": "dong-phu",
@@ -29,7 +29,7 @@
         "code": "31375",
         "parent_code": "933"
     },
-    "31378": {
+     {
         "name": "Phú Hữu",
         "type": "xa",
         "slug": "phu-huu",
@@ -39,7 +39,7 @@
         "code": "31378",
         "parent_code": "933"
     },
-    "31379": {
+     {
         "name": "Phú Tân",
         "type": "xa",
         "slug": "phu-tan",
@@ -49,7 +49,7 @@
         "code": "31379",
         "parent_code": "933"
     },
-    "31381": {
+     {
         "name": "Mái Dầm",
         "type": "thi-tran",
         "slug": "mai-dam",
@@ -59,7 +59,7 @@
         "code": "31381",
         "parent_code": "933"
     },
-    "31384": {
+     {
         "name": "Đông Phước",
         "type": "xa",
         "slug": "dong-phuoc",
@@ -69,7 +69,7 @@
         "code": "31384",
         "parent_code": "933"
     },
-    "31387": {
+     {
         "name": "Đông Phước A",
         "type": "xa",
         "slug": "dong-phuoc-a",
@@ -79,4 +79,4 @@
         "code": "31387",
         "parent_code": "933"
     }
-}
+]}

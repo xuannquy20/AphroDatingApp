@@ -1,5 +1,5 @@
 {
-    "04456": {
+    "xa":[ {
         "name": "Mù Căng Chải",
         "type": "thi-tran",
         "slug": "mu-cang-chai",
@@ -9,7 +9,7 @@
         "code": "04456",
         "parent_code": "137"
     },
-    "04459": {
+     {
         "name": "Hồ Bốn",
         "type": "xa",
         "slug": "ho-bon",
@@ -19,7 +19,7 @@
         "code": "04459",
         "parent_code": "137"
     },
-    "04462": {
+     {
         "name": "Nậm Có",
         "type": "xa",
         "slug": "nam-co",
@@ -29,7 +29,7 @@
         "code": "04462",
         "parent_code": "137"
     },
-    "04465": {
+     {
         "name": "Khao Mang",
         "type": "xa",
         "slug": "khao-mang",
@@ -39,7 +39,7 @@
         "code": "04465",
         "parent_code": "137"
     },
-    "04468": {
+     {
         "name": "Mồ Dề",
         "type": "xa",
         "slug": "mo-de",
@@ -49,7 +49,7 @@
         "code": "04468",
         "parent_code": "137"
     },
-    "04471": {
+     {
         "name": "Chế Cu Nha",
         "type": "xa",
         "slug": "che-cu-nha",
@@ -59,7 +59,7 @@
         "code": "04471",
         "parent_code": "137"
     },
-    "04474": {
+     {
         "name": "Lao Chải",
         "type": "xa",
         "slug": "lao-chai",
@@ -69,7 +69,7 @@
         "code": "04474",
         "parent_code": "137"
     },
-    "04477": {
+     {
         "name": "Kim Nọi",
         "type": "xa",
         "slug": "kim-noi",
@@ -79,7 +79,7 @@
         "code": "04477",
         "parent_code": "137"
     },
-    "04480": {
+     {
         "name": "Cao Phạ",
         "type": "xa",
         "slug": "cao-pha",
@@ -89,7 +89,7 @@
         "code": "04480",
         "parent_code": "137"
     },
-    "04483": {
+     {
         "name": "La Pán Tẩn",
         "type": "xa",
         "slug": "la-pan-tan",
@@ -99,7 +99,7 @@
         "code": "04483",
         "parent_code": "137"
     },
-    "04486": {
+     {
         "name": "Dế Su Phình",
         "type": "xa",
         "slug": "de-su-phinh",
@@ -109,7 +109,7 @@
         "code": "04486",
         "parent_code": "137"
     },
-    "04489": {
+     {
         "name": "Chế Tạo",
         "type": "xa",
         "slug": "che-tao",
@@ -119,7 +119,7 @@
         "code": "04489",
         "parent_code": "137"
     },
-    "04492": {
+     {
         "name": "Púng Luông",
         "type": "xa",
         "slug": "pung-luong",
@@ -129,7 +129,7 @@
         "code": "04492",
         "parent_code": "137"
     },
-    "04495": {
+     {
         "name": "Nậm Khắt",
         "type": "xa",
         "slug": "nam-khat",
@@ -139,4 +139,4 @@
         "code": "04495",
         "parent_code": "137"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "25159": {
+    "xa":[ {
         "name": "Cát Tiên",
         "type": "thi-tran",
         "slug": "cat-tien",
@@ -9,7 +9,7 @@
         "code": "25159",
         "parent_code": "683"
     },
-    "25162": {
+     {
         "name": "Tiên Hoàng",
         "type": "xa",
         "slug": "tien-hoang",
@@ -19,7 +19,7 @@
         "code": "25162",
         "parent_code": "683"
     },
-    "25165": {
+     {
         "name": "Phước Cát 2",
         "type": "xa",
         "slug": "phuoc-cat-2",
@@ -29,7 +29,7 @@
         "code": "25165",
         "parent_code": "683"
     },
-    "25168": {
+     {
         "name": "Gia Viễn",
         "type": "xa",
         "slug": "gia-vien",
@@ -39,7 +39,7 @@
         "code": "25168",
         "parent_code": "683"
     },
-    "25171": {
+     {
         "name": "Nam Ninh",
         "type": "xa",
         "slug": "nam-ninh",
@@ -49,7 +49,7 @@
         "code": "25171",
         "parent_code": "683"
     },
-    "25180": {
+     {
         "name": "Phước Cát",
         "type": "thi-tran",
         "slug": "phuoc-cat",
@@ -59,7 +59,7 @@
         "code": "25180",
         "parent_code": "683"
     },
-    "25183": {
+     {
         "name": "Đức Phổ",
         "type": "xa",
         "slug": "duc-pho",
@@ -69,7 +69,7 @@
         "code": "25183",
         "parent_code": "683"
     },
-    "25189": {
+     {
         "name": "Quảng Ngãi",
         "type": "xa",
         "slug": "quang-ngai",
@@ -79,7 +79,7 @@
         "code": "25189",
         "parent_code": "683"
     },
-    "25192": {
+     {
         "name": "Đồng Nai Thượng",
         "type": "xa",
         "slug": "dong-nai-thuong",
@@ -89,4 +89,4 @@
         "code": "25192",
         "parent_code": "683"
     }
-}
+]}

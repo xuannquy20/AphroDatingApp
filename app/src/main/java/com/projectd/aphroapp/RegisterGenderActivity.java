@@ -11,11 +11,14 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.projectd.aphroapp.dao.UserDAO;
+
 public class RegisterGenderActivity extends AppCompatActivity {
     private TextView txtInfo;
     private RadioGroup selectGender;
     private Button btnNext;
     private String selectGenderId;
+    private boolean genderFinding = false;
 
     protected void bindingView(){
         try {
@@ -29,7 +32,6 @@ public class RegisterGenderActivity extends AppCompatActivity {
     }
 
     protected void bindingAction(){
-        try{
             selectGender.setOnCheckedChangeListener((group, checkedId) -> {
                 if(selectGender.getCheckedRadioButtonId() == R.id.male){
                     selectGenderId = "nam";
@@ -41,22 +43,17 @@ public class RegisterGenderActivity extends AppCompatActivity {
             });
 
             btnNext.setOnClickListener(v -> {
-                try{
-                    Intent name = getIntent();
-                    Intent gender = new Intent(this, RegisterBirthDateActivity.class);
-                    gender.putExtra("name", name.getStringExtra("name"));
-                    gender.putExtra("gender", selectGenderId);
-                    startActivity(gender);
-                }
-                catch (Exception e){
-                    Toast.makeText(RegisterGenderActivity.this, "Loi next", Toast.LENGTH_LONG).show();
-                }
+                    if(!genderFinding) {
+                        Intent gender = new Intent(this, RegisterBirthDateActivity.class);
+                        UserDAO.CURRENT_USER.setGender(selectGenderId);
+                        startActivity(gender);
+                    }
+                    else{
+                        Intent nextImage = new Intent(this, RegisterImageActivity.class);
+                        UserDAO.CURRENT_USER.setGenderFinding(selectGenderId);
+                        startActivity(nextImage);
+                    }
             });
-        }
-        catch (Exception e){
-            Toast.makeText(this, "Lỗi action", Toast.LENGTH_LONG).show();
-        }
-
     }
 
     @Override
@@ -65,6 +62,12 @@ public class RegisterGenderActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register_gender);
         bindingView();
         bindingAction();
+
+        Intent genderCheck = getIntent();
+        if(genderCheck.getBooleanExtra("genderFinding", false) == true){
+            txtInfo.setText("Giới tính bạn quan tâm");
+            genderFinding = true;
+        }
     }
 
     @Override

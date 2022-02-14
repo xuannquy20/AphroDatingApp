@@ -1,5 +1,5 @@
 {
-    "04714": {
+    "xa":[ {
         "name": "Yên Bình",
         "type": "thi-tran",
         "slug": "yen-binh",
@@ -9,7 +9,7 @@
         "code": "04714",
         "parent_code": "141"
     },
-    "04717": {
+     {
         "name": "Thác Bà",
         "type": "thi-tran",
         "slug": "thac-ba",
@@ -19,7 +19,7 @@
         "code": "04717",
         "parent_code": "141"
     },
-    "04720": {
+     {
         "name": "Xuân Long",
         "type": "xa",
         "slug": "xuan-long",
@@ -29,7 +29,7 @@
         "code": "04720",
         "parent_code": "141"
     },
-    "04726": {
+     {
         "name": "Cảm Nhân",
         "type": "xa",
         "slug": "cam-nhan",
@@ -39,7 +39,7 @@
         "code": "04726",
         "parent_code": "141"
     },
-    "04729": {
+     {
         "name": "Ngọc Chấn",
         "type": "xa",
         "slug": "ngoc-chan",
@@ -49,7 +49,7 @@
         "code": "04729",
         "parent_code": "141"
     },
-    "04732": {
+     {
         "name": "Tân Nguyên",
         "type": "xa",
         "slug": "tan-nguyen",
@@ -59,7 +59,7 @@
         "code": "04732",
         "parent_code": "141"
     },
-    "04735": {
+     {
         "name": "Phúc Ninh",
         "type": "xa",
         "slug": "phuc-ninh",
@@ -69,7 +69,7 @@
         "code": "04735",
         "parent_code": "141"
     },
-    "04738": {
+     {
         "name": "Bảo Ái",
         "type": "xa",
         "slug": "bao-ai",
@@ -79,7 +79,7 @@
         "code": "04738",
         "parent_code": "141"
     },
-    "04741": {
+     {
         "name": "Mỹ Gia",
         "type": "xa",
         "slug": "my-gia",
@@ -89,7 +89,7 @@
         "code": "04741",
         "parent_code": "141"
     },
-    "04744": {
+     {
         "name": "Xuân Lai",
         "type": "xa",
         "slug": "xuan-lai",
@@ -99,7 +99,7 @@
         "code": "04744",
         "parent_code": "141"
     },
-    "04747": {
+     {
         "name": "Mông Sơn",
         "type": "xa",
         "slug": "mong-son",
@@ -109,7 +109,7 @@
         "code": "04747",
         "parent_code": "141"
     },
-    "04750": {
+     {
         "name": "Cảm Ân",
         "type": "xa",
         "slug": "cam-an",
@@ -119,7 +119,7 @@
         "code": "04750",
         "parent_code": "141"
     },
-    "04753": {
+     {
         "name": "Yên Thành",
         "type": "xa",
         "slug": "yen-thanh",
@@ -129,7 +129,7 @@
         "code": "04753",
         "parent_code": "141"
     },
-    "04756": {
+     {
         "name": "Tân Hương",
         "type": "xa",
         "slug": "tan-huong",
@@ -139,7 +139,7 @@
         "code": "04756",
         "parent_code": "141"
     },
-    "04759": {
+     {
         "name": "Phúc An",
         "type": "xa",
         "slug": "phuc-an",
@@ -149,7 +149,7 @@
         "code": "04759",
         "parent_code": "141"
     },
-    "04762": {
+     {
         "name": "Bạch Hà",
         "type": "xa",
         "slug": "bach-ha",
@@ -159,7 +159,7 @@
         "code": "04762",
         "parent_code": "141"
     },
-    "04765": {
+     {
         "name": "Vũ Linh",
         "type": "xa",
         "slug": "vu-linh",
@@ -169,7 +169,7 @@
         "code": "04765",
         "parent_code": "141"
     },
-    "04768": {
+     {
         "name": "Đại Đồng",
         "type": "xa",
         "slug": "dai-dong",
@@ -179,7 +179,7 @@
         "code": "04768",
         "parent_code": "141"
     },
-    "04771": {
+     {
         "name": "Vĩnh Kiên",
         "type": "xa",
         "slug": "vinh-kien",
@@ -189,7 +189,7 @@
         "code": "04771",
         "parent_code": "141"
     },
-    "04774": {
+     {
         "name": "Yên Bình",
         "type": "xa",
         "slug": "yen-binh",
@@ -199,7 +199,7 @@
         "code": "04774",
         "parent_code": "141"
     },
-    "04777": {
+     {
         "name": "Thịnh Hưng",
         "type": "xa",
         "slug": "thinh-hung",
@@ -209,7 +209,7 @@
         "code": "04777",
         "parent_code": "141"
     },
-    "04780": {
+     {
         "name": "Hán Đà",
         "type": "xa",
         "slug": "han-da",
@@ -219,7 +219,7 @@
         "code": "04780",
         "parent_code": "141"
     },
-    "04783": {
+     {
         "name": "Phú Thịnh",
         "type": "xa",
         "slug": "phu-thinh",
@@ -229,7 +229,7 @@
         "code": "04783",
         "parent_code": "141"
     },
-    "04786": {
+     {
         "name": "Đại Minh",
         "type": "xa",
         "slug": "dai-minh",
@@ -239,4 +239,4 @@
         "code": "04786",
         "parent_code": "141"
     }
-}
+]}

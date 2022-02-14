@@ -1,5 +1,5 @@
 {
-    "25813": {
+    "xa":[ {
         "name": "Mỹ Phước",
         "type": "phuong",
         "slug": "my-phuoc",
@@ -9,7 +9,7 @@
         "code": "25813",
         "parent_code": "721"
     },
-    "25837": {
+     {
         "name": "Chánh Phú Hòa",
         "type": "phuong",
         "slug": "chanh-phu-hoa",
@@ -19,7 +19,7 @@
         "code": "25837",
         "parent_code": "721"
     },
-    "25840": {
+     {
         "name": "An Điền",
         "type": "xa",
         "slug": "an-dien",
@@ -29,7 +29,7 @@
         "code": "25840",
         "parent_code": "721"
     },
-    "25843": {
+     {
         "name": "An Tây",
         "type": "xa",
         "slug": "an-tay",
@@ -39,7 +39,7 @@
         "code": "25843",
         "parent_code": "721"
     },
-    "25846": {
+     {
         "name": "Thới Hòa",
         "type": "phuong",
         "slug": "thoi-hoa",
@@ -49,7 +49,7 @@
         "code": "25846",
         "parent_code": "721"
     },
-    "25849": {
+     {
         "name": "Hòa Lợi",
         "type": "phuong",
         "slug": "hoa-loi",
@@ -59,7 +59,7 @@
         "code": "25849",
         "parent_code": "721"
     },
-    "25852": {
+     {
         "name": "Tân Định",
         "type": "phuong",
         "slug": "tan-dinh",
@@ -69,7 +69,7 @@
         "code": "25852",
         "parent_code": "721"
     },
-    "25855": {
+     {
         "name": "Phú An",
         "type": "xa",
         "slug": "phu-an",
@@ -79,4 +79,4 @@
         "code": "25855",
         "parent_code": "721"
     }
-}
+]}

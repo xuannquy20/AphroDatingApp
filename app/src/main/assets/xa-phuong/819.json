@@ -1,5 +1,5 @@
 {
-    "28360": {
+    "xa":[ {
         "name": "Cái Bè",
         "type": "thi-tran",
         "slug": "cai-be",
@@ -9,7 +9,7 @@
         "code": "28360",
         "parent_code": "819"
     },
-    "28363": {
+     {
         "name": "Hậu Mỹ Bắc B",
         "type": "xa",
         "slug": "hau-my-bac-b",
@@ -19,7 +19,7 @@
         "code": "28363",
         "parent_code": "819"
     },
-    "28366": {
+     {
         "name": "Hậu Mỹ Bắc A",
         "type": "xa",
         "slug": "hau-my-bac-a",
@@ -29,7 +29,7 @@
         "code": "28366",
         "parent_code": "819"
     },
-    "28369": {
+     {
         "name": "Mỹ Trung",
         "type": "xa",
         "slug": "my-trung",
@@ -39,7 +39,7 @@
         "code": "28369",
         "parent_code": "819"
     },
-    "28372": {
+     {
         "name": "Hậu Mỹ Trinh",
         "type": "xa",
         "slug": "hau-my-trinh",
@@ -49,7 +49,7 @@
         "code": "28372",
         "parent_code": "819"
     },
-    "28375": {
+     {
         "name": "Hậu Mỹ Phú",
         "type": "xa",
         "slug": "hau-my-phu",
@@ -59,7 +59,7 @@
         "code": "28375",
         "parent_code": "819"
     },
-    "28378": {
+     {
         "name": "Mỹ Tân",
         "type": "xa",
         "slug": "my-tan",
@@ -69,7 +69,7 @@
         "code": "28378",
         "parent_code": "819"
     },
-    "28381": {
+     {
         "name": "Mỹ Lợi B",
         "type": "xa",
         "slug": "my-loi-b",
@@ -79,7 +79,7 @@
         "code": "28381",
         "parent_code": "819"
     },
-    "28384": {
+     {
         "name": "Thiện Trung",
         "type": "xa",
         "slug": "thien-trung",
@@ -89,7 +89,7 @@
         "code": "28384",
         "parent_code": "819"
     },
-    "28387": {
+     {
         "name": "Mỹ Hội",
         "type": "xa",
         "slug": "my-hoi",
@@ -99,7 +99,7 @@
         "code": "28387",
         "parent_code": "819"
     },
-    "28390": {
+     {
         "name": "An Cư",
         "type": "xa",
         "slug": "an-cu",
@@ -109,7 +109,7 @@
         "code": "28390",
         "parent_code": "819"
     },
-    "28393": {
+     {
         "name": "Hậu Thành",
         "type": "xa",
         "slug": "hau-thanh",
@@ -119,7 +119,7 @@
         "code": "28393",
         "parent_code": "819"
     },
-    "28396": {
+     {
         "name": "Mỹ Lợi A",
         "type": "xa",
         "slug": "my-loi-a",
@@ -129,7 +129,7 @@
         "code": "28396",
         "parent_code": "819"
     },
-    "28399": {
+     {
         "name": "Hòa Khánh",
         "type": "xa",
         "slug": "hoa-khanh",
@@ -139,7 +139,7 @@
         "code": "28399",
         "parent_code": "819"
     },
-    "28402": {
+     {
         "name": "Thiện Trí",
         "type": "xa",
         "slug": "thien-tri",
@@ -149,7 +149,7 @@
         "code": "28402",
         "parent_code": "819"
     },
-    "28405": {
+     {
         "name": "Mỹ Đức Đông",
         "type": "xa",
         "slug": "my-duc-dong",
@@ -159,7 +159,7 @@
         "code": "28405",
         "parent_code": "819"
     },
-    "28408": {
+     {
         "name": "Mỹ Đức Tây",
         "type": "xa",
         "slug": "my-duc-tay",
@@ -169,7 +169,7 @@
         "code": "28408",
         "parent_code": "819"
     },
-    "28411": {
+     {
         "name": "Đông Hòa Hiệp",
         "type": "xa",
         "slug": "dong-hoa-hiep",
@@ -179,7 +179,7 @@
         "code": "28411",
         "parent_code": "819"
     },
-    "28414": {
+     {
         "name": "An Thái Đông",
         "type": "xa",
         "slug": "an-thai-dong",
@@ -189,7 +189,7 @@
         "code": "28414",
         "parent_code": "819"
     },
-    "28417": {
+     {
         "name": "Tân Hưng",
         "type": "xa",
         "slug": "tan-hung",
@@ -199,7 +199,7 @@
         "code": "28417",
         "parent_code": "819"
     },
-    "28420": {
+     {
         "name": "Mỹ Lương",
         "type": "xa",
         "slug": "my-luong",
@@ -209,7 +209,7 @@
         "code": "28420",
         "parent_code": "819"
     },
-    "28423": {
+     {
         "name": "Tân Thanh",
         "type": "xa",
         "slug": "tan-thanh",
@@ -219,7 +219,7 @@
         "code": "28423",
         "parent_code": "819"
     },
-    "28426": {
+     {
         "name": "An Thái Trung",
         "type": "xa",
         "slug": "an-thai-trung",
@@ -229,7 +229,7 @@
         "code": "28426",
         "parent_code": "819"
     },
-    "28429": {
+     {
         "name": "An Hữu",
         "type": "xa",
         "slug": "an-huu",
@@ -239,7 +239,7 @@
         "code": "28429",
         "parent_code": "819"
     },
-    "28432": {
+     {
         "name": "Hòa Hưng",
         "type": "xa",
         "slug": "hoa-hung",
@@ -249,4 +249,4 @@
         "code": "28432",
         "parent_code": "819"
     }
-}
+]}

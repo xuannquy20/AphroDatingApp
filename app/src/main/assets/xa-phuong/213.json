@@ -1,5 +1,5 @@
 {
-    "07201": {
+    "xa":[ {
         "name": "Thọ Xương",
         "type": "phuong",
         "slug": "tho-xuong",
@@ -9,7 +9,7 @@
         "code": "07201",
         "parent_code": "213"
     },
-    "07204": {
+     {
         "name": "Trần Nguyên Hãn",
         "type": "phuong",
         "slug": "tran-nguyen-han",
@@ -19,7 +19,7 @@
         "code": "07204",
         "parent_code": "213"
     },
-    "07207": {
+     {
         "name": "Ngô Quyền",
         "type": "phuong",
         "slug": "ngo-quyen",
@@ -29,7 +29,7 @@
         "code": "07207",
         "parent_code": "213"
     },
-    "07210": {
+     {
         "name": "Hoàng Văn Thụ",
         "type": "phuong",
         "slug": "hoang-van-thu",
@@ -39,7 +39,7 @@
         "code": "07210",
         "parent_code": "213"
     },
-    "07213": {
+     {
         "name": "Trần Phú",
         "type": "phuong",
         "slug": "tran-phu",
@@ -49,7 +49,7 @@
         "code": "07213",
         "parent_code": "213"
     },
-    "07216": {
+     {
         "name": "Mỹ Độ",
         "type": "phuong",
         "slug": "my-do",
@@ -59,7 +59,7 @@
         "code": "07216",
         "parent_code": "213"
     },
-    "07219": {
+     {
         "name": "Lê Lợi",
         "type": "phuong",
         "slug": "le-loi",
@@ -69,7 +69,7 @@
         "code": "07219",
         "parent_code": "213"
     },
-    "07222": {
+     {
         "name": "Song Mai",
         "type": "xa",
         "slug": "song-mai",
@@ -79,7 +79,7 @@
         "code": "07222",
         "parent_code": "213"
     },
-    "07225": {
+     {
         "name": "Xương Giang",
         "type": "phuong",
         "slug": "xuong-giang",
@@ -89,7 +89,7 @@
         "code": "07225",
         "parent_code": "213"
     },
-    "07228": {
+     {
         "name": "Đa Mai",
         "type": "phuong",
         "slug": "da-mai",
@@ -99,7 +99,7 @@
         "code": "07228",
         "parent_code": "213"
     },
-    "07231": {
+     {
         "name": "Dĩnh Kế",
         "type": "phuong",
         "slug": "dinh-ke",
@@ -109,7 +109,7 @@
         "code": "07231",
         "parent_code": "213"
     },
-    "07441": {
+     {
         "name": "Dĩnh Trì",
         "type": "xa",
         "slug": "dinh-tri",
@@ -119,7 +119,7 @@
         "code": "07441",
         "parent_code": "213"
     },
-    "07687": {
+     {
         "name": "Tân Mỹ",
         "type": "xa",
         "slug": "tan-my",
@@ -129,7 +129,7 @@
         "code": "07687",
         "parent_code": "213"
     },
-    "07696": {
+     {
         "name": "Đồng Sơn",
         "type": "xa",
         "slug": "dong-son",
@@ -139,7 +139,7 @@
         "code": "07696",
         "parent_code": "213"
     },
-    "07699": {
+     {
         "name": "Tân Tiến",
         "type": "xa",
         "slug": "tan-tien",
@@ -149,7 +149,7 @@
         "code": "07699",
         "parent_code": "213"
     },
-    "07705": {
+     {
         "name": "Song Khê",
         "type": "xa",
         "slug": "song-khe",
@@ -159,4 +159,4 @@
         "code": "07705",
         "parent_code": "213"
     }
-}
+]}

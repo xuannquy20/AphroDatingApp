@@ -1,5 +1,5 @@
 {
-    "22738": {
+    "xa":[ {
         "name": "Đô Vinh",
         "type": "phuong",
         "slug": "do-vinh",
@@ -9,7 +9,7 @@
         "code": "22738",
         "parent_code": "582"
     },
-    "22741": {
+     {
         "name": "Phước Mỹ",
         "type": "phuong",
         "slug": "phuoc-my",
@@ -19,7 +19,7 @@
         "code": "22741",
         "parent_code": "582"
     },
-    "22744": {
+     {
         "name": "Bảo An",
         "type": "phuong",
         "slug": "bao-an",
@@ -29,7 +29,7 @@
         "code": "22744",
         "parent_code": "582"
     },
-    "22747": {
+     {
         "name": "Phủ Hà",
         "type": "phuong",
         "slug": "phu-ha",
@@ -39,7 +39,7 @@
         "code": "22747",
         "parent_code": "582"
     },
-    "22750": {
+     {
         "name": "Thanh Sơn",
         "type": "phuong",
         "slug": "thanh-son",
@@ -49,7 +49,7 @@
         "code": "22750",
         "parent_code": "582"
     },
-    "22753": {
+     {
         "name": "Mỹ Hương",
         "type": "phuong",
         "slug": "my-huong",
@@ -59,7 +59,7 @@
         "code": "22753",
         "parent_code": "582"
     },
-    "22756": {
+     {
         "name": "Tấn Tài",
         "type": "phuong",
         "slug": "tan-tai",
@@ -69,7 +69,7 @@
         "code": "22756",
         "parent_code": "582"
     },
-    "22759": {
+     {
         "name": "Kinh Dinh",
         "type": "phuong",
         "slug": "kinh-dinh",
@@ -79,7 +79,7 @@
         "code": "22759",
         "parent_code": "582"
     },
-    "22762": {
+     {
         "name": "Đạo Long",
         "type": "phuong",
         "slug": "dao-long",
@@ -89,7 +89,7 @@
         "code": "22762",
         "parent_code": "582"
     },
-    "22765": {
+     {
         "name": "Đài Sơn",
         "type": "phuong",
         "slug": "dai-son",
@@ -99,7 +99,7 @@
         "code": "22765",
         "parent_code": "582"
     },
-    "22768": {
+     {
         "name": "Đông Hải",
         "type": "phuong",
         "slug": "dong-hai",
@@ -109,7 +109,7 @@
         "code": "22768",
         "parent_code": "582"
     },
-    "22771": {
+     {
         "name": "Mỹ Đông",
         "type": "phuong",
         "slug": "my-dong",
@@ -119,7 +119,7 @@
         "code": "22771",
         "parent_code": "582"
     },
-    "22774": {
+     {
         "name": "Thành Hải",
         "type": "xa",
         "slug": "thanh-hai",
@@ -129,7 +129,7 @@
         "code": "22774",
         "parent_code": "582"
     },
-    "22777": {
+     {
         "name": "Văn Hải",
         "type": "phuong",
         "slug": "van-hai",
@@ -139,7 +139,7 @@
         "code": "22777",
         "parent_code": "582"
     },
-    "22779": {
+     {
         "name": "Mỹ Bình",
         "type": "phuong",
         "slug": "my-binh",
@@ -149,7 +149,7 @@
         "code": "22779",
         "parent_code": "582"
     },
-    "22780": {
+     {
         "name": "Mỹ Hải",
         "type": "phuong",
         "slug": "my-hai",
@@ -159,4 +159,4 @@
         "code": "22780",
         "parent_code": "582"
     }
-}
+]}

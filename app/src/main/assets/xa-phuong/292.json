@@ -1,5 +1,5 @@
 {
-    "10675": {
+    "xa":[ {
         "name": "An Lưu",
         "type": "phuong",
         "slug": "an-luu",
@@ -9,7 +9,7 @@
         "code": "10675",
         "parent_code": "292"
     },
-    "10678": {
+     {
         "name": "Bạch Đằng",
         "type": "xa",
         "slug": "bach-dang",
@@ -19,7 +19,7 @@
         "code": "10678",
         "parent_code": "292"
     },
-    "10681": {
+     {
         "name": "Thất Hùng",
         "type": "phuong",
         "slug": "that-hung",
@@ -29,7 +29,7 @@
         "code": "10681",
         "parent_code": "292"
     },
-    "10684": {
+     {
         "name": "Lê Ninh",
         "type": "xa",
         "slug": "le-ninh",
@@ -39,7 +39,7 @@
         "code": "10684",
         "parent_code": "292"
     },
-    "10687": {
+     {
         "name": "Hoành Sơn",
         "type": "xa",
         "slug": "hoanh-son",
@@ -49,7 +49,7 @@
         "code": "10687",
         "parent_code": "292"
     },
-    "10693": {
+     {
         "name": "Phạm Thái",
         "type": "phuong",
         "slug": "pham-thai",
@@ -59,7 +59,7 @@
         "code": "10693",
         "parent_code": "292"
     },
-    "10696": {
+     {
         "name": "Duy Tân",
         "type": "phuong",
         "slug": "duy-tan",
@@ -69,7 +69,7 @@
         "code": "10696",
         "parent_code": "292"
     },
-    "10699": {
+     {
         "name": "Tân Dân",
         "type": "phuong",
         "slug": "tan-dan",
@@ -79,7 +79,7 @@
         "code": "10699",
         "parent_code": "292"
     },
-    "10702": {
+     {
         "name": "Minh Tân",
         "type": "phuong",
         "slug": "minh-tan",
@@ -89,7 +89,7 @@
         "code": "10702",
         "parent_code": "292"
     },
-    "10705": {
+     {
         "name": "Quang Thành",
         "type": "xa",
         "slug": "quang-thanh",
@@ -99,7 +99,7 @@
         "code": "10705",
         "parent_code": "292"
     },
-    "10708": {
+     {
         "name": "Hiệp Hòa",
         "type": "xa",
         "slug": "hiep-hoa",
@@ -109,7 +109,7 @@
         "code": "10708",
         "parent_code": "292"
     },
-    "10714": {
+     {
         "name": "Phú Thứ",
         "type": "phuong",
         "slug": "phu-thu",
@@ -119,7 +119,7 @@
         "code": "10714",
         "parent_code": "292"
     },
-    "10717": {
+     {
         "name": "Thăng Long",
         "type": "xa",
         "slug": "thang-long",
@@ -129,7 +129,7 @@
         "code": "10717",
         "parent_code": "292"
     },
-    "10720": {
+     {
         "name": "Lạc Long",
         "type": "xa",
         "slug": "lac-long",
@@ -139,7 +139,7 @@
         "code": "10720",
         "parent_code": "292"
     },
-    "10723": {
+     {
         "name": "An Sinh",
         "type": "phuong",
         "slug": "an-sinh",
@@ -149,7 +149,7 @@
         "code": "10723",
         "parent_code": "292"
     },
-    "10726": {
+     {
         "name": "Hiệp Sơn",
         "type": "phuong",
         "slug": "hiep-son",
@@ -159,7 +159,7 @@
         "code": "10726",
         "parent_code": "292"
     },
-    "10729": {
+     {
         "name": "Thượng Quận",
         "type": "xa",
         "slug": "thuong-quan",
@@ -169,7 +169,7 @@
         "code": "10729",
         "parent_code": "292"
     },
-    "10732": {
+     {
         "name": "An Phụ",
         "type": "phuong",
         "slug": "an-phu",
@@ -179,7 +179,7 @@
         "code": "10732",
         "parent_code": "292"
     },
-    "10735": {
+     {
         "name": "Hiệp An",
         "type": "phuong",
         "slug": "hiep-an",
@@ -189,7 +189,7 @@
         "code": "10735",
         "parent_code": "292"
     },
-    "10738": {
+     {
         "name": "Long Xuyên",
         "type": "phuong",
         "slug": "long-xuyen",
@@ -199,7 +199,7 @@
         "code": "10738",
         "parent_code": "292"
     },
-    "10741": {
+     {
         "name": "Thái Thịnh",
         "type": "phuong",
         "slug": "thai-thinh",
@@ -209,7 +209,7 @@
         "code": "10741",
         "parent_code": "292"
     },
-    "10744": {
+     {
         "name": "Hiến Thành",
         "type": "phuong",
         "slug": "hien-thanh",
@@ -219,7 +219,7 @@
         "code": "10744",
         "parent_code": "292"
     },
-    "10747": {
+     {
         "name": "Minh Hòa",
         "type": "xa",
         "slug": "minh-hoa",
@@ -229,4 +229,4 @@
         "code": "10747",
         "parent_code": "292"
     }
-}
+]}

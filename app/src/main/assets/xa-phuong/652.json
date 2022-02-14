@@ -1,5 +1,5 @@
 {
-    "24412": {
+    "xa":[ {
         "name": "M'Đrắk",
         "type": "thi-tran",
         "slug": "m-drak",
@@ -9,7 +9,7 @@
         "code": "24412",
         "parent_code": "652"
     },
-    "24415": {
+     {
         "name": "Cư Prao",
         "type": "xa",
         "slug": "cu-prao",
@@ -19,7 +19,7 @@
         "code": "24415",
         "parent_code": "652"
     },
-    "24418": {
+     {
         "name": "Ea Pil",
         "type": "xa",
         "slug": "ea-pil",
@@ -29,7 +29,7 @@
         "code": "24418",
         "parent_code": "652"
     },
-    "24421": {
+     {
         "name": "Ea Lai",
         "type": "xa",
         "slug": "ea-lai",
@@ -39,7 +39,7 @@
         "code": "24421",
         "parent_code": "652"
     },
-    "24424": {
+     {
         "name": "Ea H'MLay",
         "type": "xa",
         "slug": "ea-h-mlay",
@@ -49,7 +49,7 @@
         "code": "24424",
         "parent_code": "652"
     },
-    "24427": {
+     {
         "name": "Krông Jing",
         "type": "xa",
         "slug": "krong-jing",
@@ -59,7 +59,7 @@
         "code": "24427",
         "parent_code": "652"
     },
-    "24430": {
+     {
         "name": "Ea M' Doal",
         "type": "xa",
         "slug": "ea-m-doal",
@@ -69,7 +69,7 @@
         "code": "24430",
         "parent_code": "652"
     },
-    "24433": {
+     {
         "name": "Ea Riêng",
         "type": "xa",
         "slug": "ea-rieng",
@@ -79,7 +79,7 @@
         "code": "24433",
         "parent_code": "652"
     },
-    "24436": {
+     {
         "name": "Cư M'ta",
         "type": "xa",
         "slug": "cu-m-ta",
@@ -89,7 +89,7 @@
         "code": "24436",
         "parent_code": "652"
     },
-    "24439": {
+     {
         "name": "Cư K Róa",
         "type": "xa",
         "slug": "cu-k-roa",
@@ -99,7 +99,7 @@
         "code": "24439",
         "parent_code": "652"
     },
-    "24442": {
+     {
         "name": "Krông Á",
         "type": "xa",
         "slug": "krong-a",
@@ -109,7 +109,7 @@
         "code": "24442",
         "parent_code": "652"
     },
-    "24444": {
+     {
         "name": "Cư San",
         "type": "xa",
         "slug": "cu-san",
@@ -119,7 +119,7 @@
         "code": "24444",
         "parent_code": "652"
     },
-    "24445": {
+     {
         "name": "Ea Trang",
         "type": "xa",
         "slug": "ea-trang",
@@ -129,4 +129,4 @@
         "code": "24445",
         "parent_code": "652"
     }
-}
+]}

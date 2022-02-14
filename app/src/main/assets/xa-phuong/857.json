@@ -1,5 +1,5 @@
 {
-    "29575": {
+    "xa":[ {
         "name": "Long Hồ",
         "type": "thi-tran",
         "slug": "long-ho",
@@ -9,7 +9,7 @@
         "code": "29575",
         "parent_code": "857"
     },
-    "29578": {
+     {
         "name": "Đồng Phú",
         "type": "xa",
         "slug": "dong-phu",
@@ -19,7 +19,7 @@
         "code": "29578",
         "parent_code": "857"
     },
-    "29581": {
+     {
         "name": "Bình Hòa Phước",
         "type": "xa",
         "slug": "binh-hoa-phuoc",
@@ -29,7 +29,7 @@
         "code": "29581",
         "parent_code": "857"
     },
-    "29584": {
+     {
         "name": "Hòa Ninh",
         "type": "xa",
         "slug": "hoa-ninh",
@@ -39,7 +39,7 @@
         "code": "29584",
         "parent_code": "857"
     },
-    "29587": {
+     {
         "name": "An Bình",
         "type": "xa",
         "slug": "an-binh",
@@ -49,7 +49,7 @@
         "code": "29587",
         "parent_code": "857"
     },
-    "29590": {
+     {
         "name": "Thanh Đức",
         "type": "xa",
         "slug": "thanh-duc",
@@ -59,7 +59,7 @@
         "code": "29590",
         "parent_code": "857"
     },
-    "29593": {
+     {
         "name": "Tân Hạnh",
         "type": "xa",
         "slug": "tan-hanh",
@@ -69,7 +69,7 @@
         "code": "29593",
         "parent_code": "857"
     },
-    "29596": {
+     {
         "name": "Phước Hậu",
         "type": "xa",
         "slug": "phuoc-hau",
@@ -79,7 +79,7 @@
         "code": "29596",
         "parent_code": "857"
     },
-    "29599": {
+     {
         "name": "Long Phước",
         "type": "xa",
         "slug": "long-phuoc",
@@ -89,7 +89,7 @@
         "code": "29599",
         "parent_code": "857"
     },
-    "29602": {
+     {
         "name": "Phú Đức",
         "type": "xa",
         "slug": "phu-duc",
@@ -99,7 +99,7 @@
         "code": "29602",
         "parent_code": "857"
     },
-    "29605": {
+     {
         "name": "Lộc Hòa",
         "type": "xa",
         "slug": "loc-hoa",
@@ -109,7 +109,7 @@
         "code": "29605",
         "parent_code": "857"
     },
-    "29608": {
+     {
         "name": "Long An",
         "type": "xa",
         "slug": "long-an",
@@ -119,7 +119,7 @@
         "code": "29608",
         "parent_code": "857"
     },
-    "29611": {
+     {
         "name": "Phú Quới",
         "type": "xa",
         "slug": "phu-quoi",
@@ -129,7 +129,7 @@
         "code": "29611",
         "parent_code": "857"
     },
-    "29614": {
+     {
         "name": "Thạnh Quới",
         "type": "xa",
         "slug": "thanh-quoi",
@@ -139,7 +139,7 @@
         "code": "29614",
         "parent_code": "857"
     },
-    "29617": {
+     {
         "name": "Hòa Phú",
         "type": "xa",
         "slug": "hoa-phu",
@@ -149,4 +149,4 @@
         "code": "29617",
         "parent_code": "857"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "19555": {
+    "xa":[ {
         "name": "Krông Klang",
         "type": "thi-tran",
         "slug": "krong-klang",
@@ -9,7 +9,7 @@
         "code": "19555",
         "parent_code": "467"
     },
-    "19558": {
+     {
         "name": "Mò Ó",
         "type": "xa",
         "slug": "mo-o",
@@ -19,7 +19,7 @@
         "code": "19558",
         "parent_code": "467"
     },
-    "19561": {
+     {
         "name": "Hướng Hiệp",
         "type": "xa",
         "slug": "huong-hiep",
@@ -29,7 +29,7 @@
         "code": "19561",
         "parent_code": "467"
     },
-    "19564": {
+     {
         "name": "Đa Krông",
         "type": "xa",
         "slug": "da-krong",
@@ -39,7 +39,7 @@
         "code": "19564",
         "parent_code": "467"
     },
-    "19567": {
+     {
         "name": "Triệu Nguyên",
         "type": "xa",
         "slug": "trieu-nguyen",
@@ -49,7 +49,7 @@
         "code": "19567",
         "parent_code": "467"
     },
-    "19570": {
+     {
         "name": "Ba Lòng",
         "type": "xa",
         "slug": "ba-long",
@@ -59,7 +59,7 @@
         "code": "19570",
         "parent_code": "467"
     },
-    "19576": {
+     {
         "name": "Ba Nang",
         "type": "xa",
         "slug": "ba-nang",
@@ -69,7 +69,7 @@
         "code": "19576",
         "parent_code": "467"
     },
-    "19579": {
+     {
         "name": "Tà Long",
         "type": "xa",
         "slug": "ta-long",
@@ -79,7 +79,7 @@
         "code": "19579",
         "parent_code": "467"
     },
-    "19582": {
+     {
         "name": "Húc Nghì",
         "type": "xa",
         "slug": "huc-nghi",
@@ -89,7 +89,7 @@
         "code": "19582",
         "parent_code": "467"
     },
-    "19585": {
+     {
         "name": "A Vao",
         "type": "xa",
         "slug": "a-vao",
@@ -99,7 +99,7 @@
         "code": "19585",
         "parent_code": "467"
     },
-    "19588": {
+     {
         "name": "Tà Rụt",
         "type": "xa",
         "slug": "ta-rut",
@@ -109,7 +109,7 @@
         "code": "19588",
         "parent_code": "467"
     },
-    "19591": {
+     {
         "name": "A Bung",
         "type": "xa",
         "slug": "a-bung",
@@ -119,7 +119,7 @@
         "code": "19591",
         "parent_code": "467"
     },
-    "19594": {
+     {
         "name": "A Ngo",
         "type": "xa",
         "slug": "a-ngo",
@@ -129,4 +129,4 @@
         "code": "19594",
         "parent_code": "467"
     }
-}
+]}

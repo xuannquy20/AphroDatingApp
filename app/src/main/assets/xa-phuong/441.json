@@ -1,5 +1,5 @@
 {
-    "18313": {
+    "xa":[ {
         "name": "Vũ Quang",
         "type": "thi-tran",
         "slug": "vu-quang",
@@ -9,7 +9,7 @@
         "code": "18313",
         "parent_code": "441"
     },
-    "18316": {
+     {
         "name": "Ân Phú",
         "type": "xa",
         "slug": "an-phu",
@@ -19,7 +19,7 @@
         "code": "18316",
         "parent_code": "441"
     },
-    "18319": {
+     {
         "name": "Đức Giang",
         "type": "xa",
         "slug": "duc-giang",
@@ -29,7 +29,7 @@
         "code": "18319",
         "parent_code": "441"
     },
-    "18322": {
+     {
         "name": "Đức Lĩnh",
         "type": "xa",
         "slug": "duc-linh",
@@ -39,7 +39,7 @@
         "code": "18322",
         "parent_code": "441"
     },
-    "18325": {
+     {
         "name": "Thọ Điền",
         "type": "xa",
         "slug": "tho-dien",
@@ -49,7 +49,7 @@
         "code": "18325",
         "parent_code": "441"
     },
-    "18328": {
+     {
         "name": "Đức Hương",
         "type": "xa",
         "slug": "duc-huong",
@@ -59,7 +59,7 @@
         "code": "18328",
         "parent_code": "441"
     },
-    "18331": {
+     {
         "name": "Đức Bồng",
         "type": "xa",
         "slug": "duc-bong",
@@ -69,7 +69,7 @@
         "code": "18331",
         "parent_code": "441"
     },
-    "18334": {
+     {
         "name": "Đức Liên",
         "type": "xa",
         "slug": "duc-lien",
@@ -79,7 +79,7 @@
         "code": "18334",
         "parent_code": "441"
     },
-    "18340": {
+     {
         "name": "Hương Minh",
         "type": "xa",
         "slug": "huong-minh",
@@ -89,7 +89,7 @@
         "code": "18340",
         "parent_code": "441"
     },
-    "18343": {
+     {
         "name": "Quang Thọ",
         "type": "xa",
         "slug": "quang-tho",
@@ -99,4 +99,4 @@
         "code": "18343",
         "parent_code": "441"
     }
-}
+]}

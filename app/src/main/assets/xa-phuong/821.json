@@ -1,5 +1,5 @@
 {
-    "28519": {
+    "xa":[ {
         "name": "Tân Hiệp",
         "type": "thi-tran",
         "slug": "tan-hiep",
@@ -9,7 +9,7 @@
         "code": "28519",
         "parent_code": "821"
     },
-    "28522": {
+     {
         "name": "Tân Hội Đông",
         "type": "xa",
         "slug": "tan-hoi-dong",
@@ -19,7 +19,7 @@
         "code": "28522",
         "parent_code": "821"
     },
-    "28525": {
+     {
         "name": "Tân Hương",
         "type": "xa",
         "slug": "tan-huong",
@@ -29,7 +29,7 @@
         "code": "28525",
         "parent_code": "821"
     },
-    "28528": {
+     {
         "name": "Tân Lý Đông",
         "type": "xa",
         "slug": "tan-ly-dong",
@@ -39,7 +39,7 @@
         "code": "28528",
         "parent_code": "821"
     },
-    "28531": {
+     {
         "name": "Tân Lý Tây",
         "type": "xa",
         "slug": "tan-ly-tay",
@@ -49,7 +49,7 @@
         "code": "28531",
         "parent_code": "821"
     },
-    "28534": {
+     {
         "name": "Thân Cửu Nghĩa",
         "type": "xa",
         "slug": "than-cuu-nghia",
@@ -59,7 +59,7 @@
         "code": "28534",
         "parent_code": "821"
     },
-    "28537": {
+     {
         "name": "Tam Hiệp",
         "type": "xa",
         "slug": "tam-hiep",
@@ -69,7 +69,7 @@
         "code": "28537",
         "parent_code": "821"
     },
-    "28540": {
+     {
         "name": "Điềm Hy",
         "type": "xa",
         "slug": "diem-hy",
@@ -79,7 +79,7 @@
         "code": "28540",
         "parent_code": "821"
     },
-    "28543": {
+     {
         "name": "Nhị Bình",
         "type": "xa",
         "slug": "nhi-binh",
@@ -89,7 +89,7 @@
         "code": "28543",
         "parent_code": "821"
     },
-    "28546": {
+     {
         "name": "Dưỡng Điềm",
         "type": "xa",
         "slug": "duong-diem",
@@ -99,7 +99,7 @@
         "code": "28546",
         "parent_code": "821"
     },
-    "28549": {
+     {
         "name": "Đông Hòa",
         "type": "xa",
         "slug": "dong-hoa",
@@ -109,7 +109,7 @@
         "code": "28549",
         "parent_code": "821"
     },
-    "28552": {
+     {
         "name": "Long Định",
         "type": "xa",
         "slug": "long-dinh",
@@ -119,7 +119,7 @@
         "code": "28552",
         "parent_code": "821"
     },
-    "28555": {
+     {
         "name": "Hữu Đạo",
         "type": "xa",
         "slug": "huu-dao",
@@ -129,7 +129,7 @@
         "code": "28555",
         "parent_code": "821"
     },
-    "28558": {
+     {
         "name": "Long An",
         "type": "xa",
         "slug": "long-an",
@@ -139,7 +139,7 @@
         "code": "28558",
         "parent_code": "821"
     },
-    "28561": {
+     {
         "name": "Long Hưng",
         "type": "xa",
         "slug": "long-hung",
@@ -149,7 +149,7 @@
         "code": "28561",
         "parent_code": "821"
     },
-    "28564": {
+     {
         "name": "Bình Trưng",
         "type": "xa",
         "slug": "binh-trung",
@@ -159,7 +159,7 @@
         "code": "28564",
         "parent_code": "821"
     },
-    "28570": {
+     {
         "name": "Thạnh Phú",
         "type": "xa",
         "slug": "thanh-phu",
@@ -169,7 +169,7 @@
         "code": "28570",
         "parent_code": "821"
     },
-    "28573": {
+     {
         "name": "Bàn Long",
         "type": "xa",
         "slug": "ban-long",
@@ -179,7 +179,7 @@
         "code": "28573",
         "parent_code": "821"
     },
-    "28576": {
+     {
         "name": "Vĩnh Kim",
         "type": "xa",
         "slug": "vinh-kim",
@@ -189,7 +189,7 @@
         "code": "28576",
         "parent_code": "821"
     },
-    "28579": {
+     {
         "name": "Bình Đức",
         "type": "xa",
         "slug": "binh-duc",
@@ -199,7 +199,7 @@
         "code": "28579",
         "parent_code": "821"
     },
-    "28582": {
+     {
         "name": "Song Thuận",
         "type": "xa",
         "slug": "song-thuan",
@@ -209,7 +209,7 @@
         "code": "28582",
         "parent_code": "821"
     },
-    "28585": {
+     {
         "name": "Kim Sơn",
         "type": "xa",
         "slug": "kim-son",
@@ -219,7 +219,7 @@
         "code": "28585",
         "parent_code": "821"
     },
-    "28588": {
+     {
         "name": "Phú Phong",
         "type": "xa",
         "slug": "phu-phong",
@@ -229,4 +229,4 @@
         "code": "28588",
         "parent_code": "821"
     }
-}
+]}

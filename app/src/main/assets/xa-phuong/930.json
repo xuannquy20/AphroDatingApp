@@ -1,5 +1,5 @@
 {
-    "31318": {
+    "xa":[ {
         "name": "I",
         "type": "phuong",
         "slug": "i",
@@ -9,7 +9,7 @@
         "code": "31318",
         "parent_code": "930"
     },
-    "31321": {
+     {
         "name": "III",
         "type": "phuong",
         "slug": "iii",
@@ -19,7 +19,7 @@
         "code": "31321",
         "parent_code": "930"
     },
-    "31324": {
+     {
         "name": "IV",
         "type": "phuong",
         "slug": "iv",
@@ -29,7 +29,7 @@
         "code": "31324",
         "parent_code": "930"
     },
-    "31327": {
+     {
         "name": "V",
         "type": "phuong",
         "slug": "v",
@@ -39,7 +39,7 @@
         "code": "31327",
         "parent_code": "930"
     },
-    "31330": {
+     {
         "name": "VII",
         "type": "phuong",
         "slug": "vii",
@@ -49,7 +49,7 @@
         "code": "31330",
         "parent_code": "930"
     },
-    "31333": {
+     {
         "name": "Vị Tân",
         "type": "xa",
         "slug": "vi-tan",
@@ -59,7 +59,7 @@
         "code": "31333",
         "parent_code": "930"
     },
-    "31336": {
+     {
         "name": "Hoả Lựu",
         "type": "xa",
         "slug": "hoa-luu",
@@ -69,7 +69,7 @@
         "code": "31336",
         "parent_code": "930"
     },
-    "31338": {
+     {
         "name": "Tân Tiến",
         "type": "xa",
         "slug": "tan-tien",
@@ -79,7 +79,7 @@
         "code": "31338",
         "parent_code": "930"
     },
-    "31339": {
+     {
         "name": "Hoả Tiến",
         "type": "xa",
         "slug": "hoa-tien",
@@ -89,4 +89,4 @@
         "code": "31339",
         "parent_code": "930"
     }
-}
+]}

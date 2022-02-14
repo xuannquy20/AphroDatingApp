@@ -1,5 +1,5 @@
 {
-    "01936": {
+    "xa":[ {
         "name": "Nà Phặc",
         "type": "thi-tran",
         "slug": "na-phac",
@@ -9,7 +9,7 @@
         "code": "01936",
         "parent_code": "062"
     },
-    "01939": {
+     {
         "name": "Thượng Ân",
         "type": "xa",
         "slug": "thuong-an",
@@ -19,7 +19,7 @@
         "code": "01939",
         "parent_code": "062"
     },
-    "01942": {
+     {
         "name": "Bằng Vân",
         "type": "xa",
         "slug": "bang-van",
@@ -29,7 +29,7 @@
         "code": "01942",
         "parent_code": "062"
     },
-    "01945": {
+     {
         "name": "Cốc Đán",
         "type": "xa",
         "slug": "coc-dan",
@@ -39,7 +39,7 @@
         "code": "01945",
         "parent_code": "062"
     },
-    "01948": {
+     {
         "name": "Trung Hoà",
         "type": "xa",
         "slug": "trung-hoa",
@@ -49,7 +49,7 @@
         "code": "01948",
         "parent_code": "062"
     },
-    "01951": {
+     {
         "name": "Đức Vân",
         "type": "xa",
         "slug": "duc-van",
@@ -59,7 +59,7 @@
         "code": "01951",
         "parent_code": "062"
     },
-    "01954": {
+     {
         "name": "Vân Tùng",
         "type": "xa",
         "slug": "van-tung",
@@ -69,7 +69,7 @@
         "code": "01954",
         "parent_code": "062"
     },
-    "01957": {
+     {
         "name": "Thượng Quan",
         "type": "xa",
         "slug": "thuong-quan",
@@ -79,7 +79,7 @@
         "code": "01957",
         "parent_code": "062"
     },
-    "01960": {
+     {
         "name": "Hiệp Lực",
         "type": "xa",
         "slug": "hiep-luc",
@@ -89,7 +89,7 @@
         "code": "01960",
         "parent_code": "062"
     },
-    "01963": {
+     {
         "name": "Thuần Mang",
         "type": "xa",
         "slug": "thuan-mang",
@@ -99,4 +99,4 @@
         "code": "01963",
         "parent_code": "062"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "24373": {
+    "xa":[ {
         "name": "Ea Kar",
         "type": "thi-tran",
         "slug": "ea-kar",
@@ -9,7 +9,7 @@
         "code": "24373",
         "parent_code": "651"
     },
-    "24376": {
+     {
         "name": "Ea Knốp",
         "type": "thi-tran",
         "slug": "ea-knop",
@@ -19,7 +19,7 @@
         "code": "24376",
         "parent_code": "651"
     },
-    "24379": {
+     {
         "name": "Ea Sô",
         "type": "xa",
         "slug": "ea-so",
@@ -29,7 +29,7 @@
         "code": "24379",
         "parent_code": "651"
     },
-    "24380": {
+     {
         "name": "Ea Sar",
         "type": "xa",
         "slug": "ea-sar",
@@ -39,7 +39,7 @@
         "code": "24380",
         "parent_code": "651"
     },
-    "24382": {
+     {
         "name": "Xuân Phú",
         "type": "xa",
         "slug": "xuan-phu",
@@ -49,7 +49,7 @@
         "code": "24382",
         "parent_code": "651"
     },
-    "24385": {
+     {
         "name": "Cư Huê",
         "type": "xa",
         "slug": "cu-hue",
@@ -59,7 +59,7 @@
         "code": "24385",
         "parent_code": "651"
     },
-    "24388": {
+     {
         "name": "Ea Tih",
         "type": "xa",
         "slug": "ea-tih",
@@ -69,7 +69,7 @@
         "code": "24388",
         "parent_code": "651"
     },
-    "24391": {
+     {
         "name": "Ea Đar",
         "type": "xa",
         "slug": "ea-dar",
@@ -79,7 +79,7 @@
         "code": "24391",
         "parent_code": "651"
     },
-    "24394": {
+     {
         "name": "Ea Kmút",
         "type": "xa",
         "slug": "ea-kmut",
@@ -89,7 +89,7 @@
         "code": "24394",
         "parent_code": "651"
     },
-    "24397": {
+     {
         "name": "Cư Ni",
         "type": "xa",
         "slug": "cu-ni",
@@ -99,7 +99,7 @@
         "code": "24397",
         "parent_code": "651"
     },
-    "24400": {
+     {
         "name": "Ea Păl",
         "type": "xa",
         "slug": "ea-pal",
@@ -109,7 +109,7 @@
         "code": "24400",
         "parent_code": "651"
     },
-    "24401": {
+     {
         "name": "Cư Prông",
         "type": "xa",
         "slug": "cu-prong",
@@ -119,7 +119,7 @@
         "code": "24401",
         "parent_code": "651"
     },
-    "24403": {
+     {
         "name": "Ea Ô",
         "type": "xa",
         "slug": "ea-o",
@@ -129,7 +129,7 @@
         "code": "24403",
         "parent_code": "651"
     },
-    "24404": {
+     {
         "name": "Cư ELang",
         "type": "xa",
         "slug": "cu-elang",
@@ -139,7 +139,7 @@
         "code": "24404",
         "parent_code": "651"
     },
-    "24406": {
+     {
         "name": "Cư Bông",
         "type": "xa",
         "slug": "cu-bong",
@@ -149,7 +149,7 @@
         "code": "24406",
         "parent_code": "651"
     },
-    "24409": {
+     {
         "name": "Cư Jang",
         "type": "xa",
         "slug": "cu-jang",
@@ -159,4 +159,4 @@
         "code": "24409",
         "parent_code": "651"
     }
-}
+]}

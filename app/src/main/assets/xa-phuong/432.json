@@ -1,5 +1,5 @@
 {
-    "17104": {
+    "xa":[ {
         "name": "Quỳnh Vinh",
         "type": "xa",
         "slug": "quynh-vinh",
@@ -9,7 +9,7 @@
         "code": "17104",
         "parent_code": "432"
     },
-    "17107": {
+     {
         "name": "Quỳnh Lộc",
         "type": "xa",
         "slug": "quynh-loc",
@@ -19,7 +19,7 @@
         "code": "17107",
         "parent_code": "432"
     },
-    "17110": {
+     {
         "name": "Quỳnh Thiện",
         "type": "phuong",
         "slug": "quynh-thien",
@@ -29,7 +29,7 @@
         "code": "17110",
         "parent_code": "432"
     },
-    "17113": {
+     {
         "name": "Quỳnh Lập",
         "type": "xa",
         "slug": "quynh-lap",
@@ -39,7 +39,7 @@
         "code": "17113",
         "parent_code": "432"
     },
-    "17116": {
+     {
         "name": "Quỳnh Trang",
         "type": "xa",
         "slug": "quynh-trang",
@@ -49,7 +49,7 @@
         "code": "17116",
         "parent_code": "432"
     },
-    "17125": {
+     {
         "name": "Mai Hùng",
         "type": "phuong",
         "slug": "mai-hung",
@@ -59,7 +59,7 @@
         "code": "17125",
         "parent_code": "432"
     },
-    "17128": {
+     {
         "name": "Quỳnh Dị",
         "type": "phuong",
         "slug": "quynh-di",
@@ -69,7 +69,7 @@
         "code": "17128",
         "parent_code": "432"
     },
-    "17131": {
+     {
         "name": "Quỳnh Xuân",
         "type": "phuong",
         "slug": "quynh-xuan",
@@ -79,7 +79,7 @@
         "code": "17131",
         "parent_code": "432"
     },
-    "17134": {
+     {
         "name": "Quỳnh Phương",
         "type": "phuong",
         "slug": "quynh-phuong",
@@ -89,7 +89,7 @@
         "code": "17134",
         "parent_code": "432"
     },
-    "17137": {
+     {
         "name": "Quỳnh Liên",
         "type": "xa",
         "slug": "quynh-lien",
@@ -99,4 +99,4 @@
         "code": "17137",
         "parent_code": "432"
     }
-}
+]}

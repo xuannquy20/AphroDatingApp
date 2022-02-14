@@ -1,5 +1,5 @@
 {
-    "12280": {
+    "xa":[ {
         "name": "Lương Bằng",
         "type": "thi-tran",
         "slug": "luong-bang",
@@ -9,7 +9,7 @@
         "code": "12280",
         "parent_code": "331"
     },
-    "12283": {
+     {
         "name": "Nghĩa Dân",
         "type": "xa",
         "slug": "nghia-dan",
@@ -19,7 +19,7 @@
         "code": "12283",
         "parent_code": "331"
     },
-    "12286": {
+     {
         "name": "Toàn Thắng",
         "type": "xa",
         "slug": "toan-thang",
@@ -29,7 +29,7 @@
         "code": "12286",
         "parent_code": "331"
     },
-    "12289": {
+     {
         "name": "Vĩnh Xá",
         "type": "xa",
         "slug": "vinh-xa",
@@ -39,7 +39,7 @@
         "code": "12289",
         "parent_code": "331"
     },
-    "12292": {
+     {
         "name": "Phạm Ngũ Lão",
         "type": "xa",
         "slug": "pham-ngu-lao",
@@ -49,7 +49,7 @@
         "code": "12292",
         "parent_code": "331"
     },
-    "12295": {
+     {
         "name": "Thọ Vinh",
         "type": "xa",
         "slug": "tho-vinh",
@@ -59,7 +59,7 @@
         "code": "12295",
         "parent_code": "331"
     },
-    "12298": {
+     {
         "name": "Đồng Thanh",
         "type": "xa",
         "slug": "dong-thanh",
@@ -69,7 +69,7 @@
         "code": "12298",
         "parent_code": "331"
     },
-    "12301": {
+     {
         "name": "Song Mai",
         "type": "xa",
         "slug": "song-mai",
@@ -79,7 +79,7 @@
         "code": "12301",
         "parent_code": "331"
     },
-    "12304": {
+     {
         "name": "Chính Nghĩa",
         "type": "xa",
         "slug": "chinh-nghia",
@@ -89,7 +89,7 @@
         "code": "12304",
         "parent_code": "331"
     },
-    "12307": {
+     {
         "name": "Nhân La",
         "type": "xa",
         "slug": "nhan-la",
@@ -99,7 +99,7 @@
         "code": "12307",
         "parent_code": "331"
     },
-    "12310": {
+     {
         "name": "Phú Thịnh",
         "type": "xa",
         "slug": "phu-thinh",
@@ -109,7 +109,7 @@
         "code": "12310",
         "parent_code": "331"
     },
-    "12313": {
+     {
         "name": "Mai Động",
         "type": "xa",
         "slug": "mai-dong",
@@ -119,7 +119,7 @@
         "code": "12313",
         "parent_code": "331"
     },
-    "12316": {
+     {
         "name": "Đức Hợp",
         "type": "xa",
         "slug": "duc-hop",
@@ -129,7 +129,7 @@
         "code": "12316",
         "parent_code": "331"
     },
-    "12319": {
+     {
         "name": "Hùng An",
         "type": "xa",
         "slug": "hung-an",
@@ -139,7 +139,7 @@
         "code": "12319",
         "parent_code": "331"
     },
-    "12322": {
+     {
         "name": "Ngọc Thanh",
         "type": "xa",
         "slug": "ngoc-thanh",
@@ -149,7 +149,7 @@
         "code": "12322",
         "parent_code": "331"
     },
-    "12325": {
+     {
         "name": "Vũ Xá",
         "type": "xa",
         "slug": "vu-xa",
@@ -159,7 +159,7 @@
         "code": "12325",
         "parent_code": "331"
     },
-    "12328": {
+     {
         "name": "Hiệp Cường",
         "type": "xa",
         "slug": "hiep-cuong",
@@ -169,4 +169,4 @@
         "code": "12328",
         "parent_code": "331"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "11914": {
+    "xa":[ {
         "name": "Cát Bà",
         "type": "thi-tran",
         "slug": "cat-ba",
@@ -9,7 +9,7 @@
         "code": "11914",
         "parent_code": "317"
     },
-    "11917": {
+     {
         "name": "Cát Hải",
         "type": "thi-tran",
         "slug": "cat-hai",
@@ -19,7 +19,7 @@
         "code": "11917",
         "parent_code": "317"
     },
-    "11920": {
+     {
         "name": "Nghĩa Lộ",
         "type": "xa",
         "slug": "nghia-lo",
@@ -29,7 +29,7 @@
         "code": "11920",
         "parent_code": "317"
     },
-    "11923": {
+     {
         "name": "Đồng Bài",
         "type": "xa",
         "slug": "dong-bai",
@@ -39,7 +39,7 @@
         "code": "11923",
         "parent_code": "317"
     },
-    "11926": {
+     {
         "name": "Hoàng Châu",
         "type": "xa",
         "slug": "hoang-chau",
@@ -49,7 +49,7 @@
         "code": "11926",
         "parent_code": "317"
     },
-    "11929": {
+     {
         "name": "Văn Phong",
         "type": "xa",
         "slug": "van-phong",
@@ -59,7 +59,7 @@
         "code": "11929",
         "parent_code": "317"
     },
-    "11932": {
+     {
         "name": "Phù Long",
         "type": "xa",
         "slug": "phu-long",
@@ -69,7 +69,7 @@
         "code": "11932",
         "parent_code": "317"
     },
-    "11935": {
+     {
         "name": "Gia Luận",
         "type": "xa",
         "slug": "gia-luan",
@@ -79,7 +79,7 @@
         "code": "11935",
         "parent_code": "317"
     },
-    "11938": {
+     {
         "name": "Hiền Hào",
         "type": "xa",
         "slug": "hien-hao",
@@ -89,7 +89,7 @@
         "code": "11938",
         "parent_code": "317"
     },
-    "11941": {
+     {
         "name": "Trân Châu",
         "type": "xa",
         "slug": "tran-chau",
@@ -99,7 +99,7 @@
         "code": "11941",
         "parent_code": "317"
     },
-    "11944": {
+     {
         "name": "Việt Hải",
         "type": "xa",
         "slug": "viet-hai",
@@ -109,7 +109,7 @@
         "code": "11944",
         "parent_code": "317"
     },
-    "11947": {
+     {
         "name": "Xuân Đám",
         "type": "xa",
         "slug": "xuan-dam",
@@ -119,4 +119,4 @@
         "code": "11947",
         "parent_code": "317"
     }
-}
+]}

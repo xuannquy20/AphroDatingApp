@@ -1,5 +1,5 @@
 {
-    "22834": {
+    "xa":[ {
         "name": "Khánh Hải",
         "type": "thi-tran",
         "slug": "khanh-hai",
@@ -9,7 +9,7 @@
         "code": "22834",
         "parent_code": "586"
     },
-    "22846": {
+     {
         "name": "Vĩnh Hải",
         "type": "xa",
         "slug": "vinh-hai",
@@ -19,7 +19,7 @@
         "code": "22846",
         "parent_code": "586"
     },
-    "22852": {
+     {
         "name": "Phương Hải",
         "type": "xa",
         "slug": "phuong-hai",
@@ -29,7 +29,7 @@
         "code": "22852",
         "parent_code": "586"
     },
-    "22855": {
+     {
         "name": "Tân Hải",
         "type": "xa",
         "slug": "tan-hai",
@@ -39,7 +39,7 @@
         "code": "22855",
         "parent_code": "586"
     },
-    "22858": {
+     {
         "name": "Xuân Hải",
         "type": "xa",
         "slug": "xuan-hai",
@@ -49,7 +49,7 @@
         "code": "22858",
         "parent_code": "586"
     },
-    "22861": {
+     {
         "name": "Hộ Hải",
         "type": "xa",
         "slug": "ho-hai",
@@ -59,7 +59,7 @@
         "code": "22861",
         "parent_code": "586"
     },
-    "22864": {
+     {
         "name": "Tri Hải",
         "type": "xa",
         "slug": "tri-hai",
@@ -69,7 +69,7 @@
         "code": "22864",
         "parent_code": "586"
     },
-    "22867": {
+     {
         "name": "Nhơn Hải",
         "type": "xa",
         "slug": "nhon-hai",
@@ -79,7 +79,7 @@
         "code": "22867",
         "parent_code": "586"
     },
-    "22868": {
+     {
         "name": "Thanh Hải",
         "type": "xa",
         "slug": "thanh-hai",
@@ -89,4 +89,4 @@
         "code": "22868",
         "parent_code": "586"
     }
-}
+]}

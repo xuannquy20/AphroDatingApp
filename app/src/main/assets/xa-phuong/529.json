@@ -1,5 +1,5 @@
 {
-    "21289": {
+    "xa":[ {
         "name": "Di Lăng",
         "type": "thi-tran",
         "slug": "di-lang",
@@ -9,7 +9,7 @@
         "code": "21289",
         "parent_code": "529"
     },
-    "21292": {
+     {
         "name": "Sơn Hạ",
         "type": "xa",
         "slug": "son-ha",
@@ -19,7 +19,7 @@
         "code": "21292",
         "parent_code": "529"
     },
-    "21295": {
+     {
         "name": "Sơn Thành",
         "type": "xa",
         "slug": "son-thanh",
@@ -29,7 +29,7 @@
         "code": "21295",
         "parent_code": "529"
     },
-    "21298": {
+     {
         "name": "Sơn Nham",
         "type": "xa",
         "slug": "son-nham",
@@ -39,7 +39,7 @@
         "code": "21298",
         "parent_code": "529"
     },
-    "21301": {
+     {
         "name": "Sơn Bao",
         "type": "xa",
         "slug": "son-bao",
@@ -49,7 +49,7 @@
         "code": "21301",
         "parent_code": "529"
     },
-    "21304": {
+     {
         "name": "Sơn Linh",
         "type": "xa",
         "slug": "son-linh",
@@ -59,7 +59,7 @@
         "code": "21304",
         "parent_code": "529"
     },
-    "21307": {
+     {
         "name": "Sơn Giang",
         "type": "xa",
         "slug": "son-giang",
@@ -69,7 +69,7 @@
         "code": "21307",
         "parent_code": "529"
     },
-    "21310": {
+     {
         "name": "Sơn Trung",
         "type": "xa",
         "slug": "son-trung",
@@ -79,7 +79,7 @@
         "code": "21310",
         "parent_code": "529"
     },
-    "21313": {
+     {
         "name": "Sơn Thượng",
         "type": "xa",
         "slug": "son-thuong",
@@ -89,7 +89,7 @@
         "code": "21313",
         "parent_code": "529"
     },
-    "21316": {
+     {
         "name": "Sơn Cao",
         "type": "xa",
         "slug": "son-cao",
@@ -99,7 +99,7 @@
         "code": "21316",
         "parent_code": "529"
     },
-    "21319": {
+     {
         "name": "Sơn Hải",
         "type": "xa",
         "slug": "son-hai",
@@ -109,7 +109,7 @@
         "code": "21319",
         "parent_code": "529"
     },
-    "21322": {
+     {
         "name": "Sơn Thủy",
         "type": "xa",
         "slug": "son-thuy",
@@ -119,7 +119,7 @@
         "code": "21322",
         "parent_code": "529"
     },
-    "21325": {
+     {
         "name": "Sơn Kỳ",
         "type": "xa",
         "slug": "son-ky",
@@ -129,7 +129,7 @@
         "code": "21325",
         "parent_code": "529"
     },
-    "21328": {
+     {
         "name": "Sơn Ba",
         "type": "xa",
         "slug": "son-ba",
@@ -139,4 +139,4 @@
         "code": "21328",
         "parent_code": "529"
     }
-}
+]}

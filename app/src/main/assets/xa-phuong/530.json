@@ -1,5 +1,5 @@
 {
-    "21331": {
+    "xa":[ {
         "name": "Sơn Bua",
         "type": "xa",
         "slug": "son-bua",
@@ -9,7 +9,7 @@
         "code": "21331",
         "parent_code": "530"
     },
-    "21334": {
+     {
         "name": "Sơn Mùa",
         "type": "xa",
         "slug": "son-mua",
@@ -19,7 +19,7 @@
         "code": "21334",
         "parent_code": "530"
     },
-    "21335": {
+     {
         "name": "Sơn Liên",
         "type": "xa",
         "slug": "son-lien",
@@ -29,7 +29,7 @@
         "code": "21335",
         "parent_code": "530"
     },
-    "21337": {
+     {
         "name": "Sơn Tân",
         "type": "xa",
         "slug": "son-tan",
@@ -39,7 +39,7 @@
         "code": "21337",
         "parent_code": "530"
     },
-    "21338": {
+     {
         "name": "Sơn Màu",
         "type": "xa",
         "slug": "son-mau",
@@ -49,7 +49,7 @@
         "code": "21338",
         "parent_code": "530"
     },
-    "21340": {
+     {
         "name": "Sơn Dung",
         "type": "xa",
         "slug": "son-dung",
@@ -59,7 +59,7 @@
         "code": "21340",
         "parent_code": "530"
     },
-    "21341": {
+     {
         "name": "Sơn Long",
         "type": "xa",
         "slug": "son-long",
@@ -69,7 +69,7 @@
         "code": "21341",
         "parent_code": "530"
     },
-    "21343": {
+     {
         "name": "Sơn Tinh",
         "type": "xa",
         "slug": "son-tinh",
@@ -79,7 +79,7 @@
         "code": "21343",
         "parent_code": "530"
     },
-    "21346": {
+     {
         "name": "Sơn Lập",
         "type": "xa",
         "slug": "son-lap",
@@ -89,4 +89,4 @@
         "code": "21346",
         "parent_code": "530"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "08908": {
+    "xa":[ {
         "name": "Tam Đảo",
         "type": "thi-tran",
         "slug": "tam-dao",
@@ -9,7 +9,7 @@
         "code": "08908",
         "parent_code": "248"
     },
-    "08911": {
+     {
         "name": "Hợp Châu",
         "type": "thi-tran",
         "slug": "hop-chau",
@@ -19,7 +19,7 @@
         "code": "08911",
         "parent_code": "248"
     },
-    "08914": {
+     {
         "name": "Đạo Trù",
         "type": "xa",
         "slug": "dao-tru",
@@ -29,7 +29,7 @@
         "code": "08914",
         "parent_code": "248"
     },
-    "08917": {
+     {
         "name": "Yên Dương",
         "type": "xa",
         "slug": "yen-duong",
@@ -39,7 +39,7 @@
         "code": "08917",
         "parent_code": "248"
     },
-    "08920": {
+     {
         "name": "Bồ Lý",
         "type": "xa",
         "slug": "bo-ly",
@@ -49,7 +49,7 @@
         "code": "08920",
         "parent_code": "248"
     },
-    "08923": {
+     {
         "name": "Đại Đình",
         "type": "thi-tran",
         "slug": "dai-dinh",
@@ -59,7 +59,7 @@
         "code": "08923",
         "parent_code": "248"
     },
-    "08926": {
+     {
         "name": "Tam Quan",
         "type": "xa",
         "slug": "tam-quan",
@@ -69,7 +69,7 @@
         "code": "08926",
         "parent_code": "248"
     },
-    "08929": {
+     {
         "name": "Hồ Sơn",
         "type": "xa",
         "slug": "ho-son",
@@ -79,7 +79,7 @@
         "code": "08929",
         "parent_code": "248"
     },
-    "08932": {
+     {
         "name": "Minh Quang",
         "type": "xa",
         "slug": "minh-quang",
@@ -89,4 +89,4 @@
         "code": "08932",
         "parent_code": "248"
     }
-}
+]}

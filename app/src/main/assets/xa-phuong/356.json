@@ -1,5 +1,5 @@
 {
-    "13633": {
+    "xa":[ {
         "name": "Hạ Long",
         "type": "phuong",
         "slug": "ha-long",
@@ -9,7 +9,7 @@
         "code": "13633",
         "parent_code": "356"
     },
-    "13636": {
+     {
         "name": "Trần Tế Xương",
         "type": "phuong",
         "slug": "tran-te-xuong",
@@ -19,7 +19,7 @@
         "code": "13636",
         "parent_code": "356"
     },
-    "13639": {
+     {
         "name": "Vị Hoàng",
         "type": "phuong",
         "slug": "vi-hoang",
@@ -29,7 +29,7 @@
         "code": "13639",
         "parent_code": "356"
     },
-    "13642": {
+     {
         "name": "Vị Xuyên",
         "type": "phuong",
         "slug": "vi-xuyen",
@@ -39,7 +39,7 @@
         "code": "13642",
         "parent_code": "356"
     },
-    "13645": {
+     {
         "name": "Quang Trung",
         "type": "phuong",
         "slug": "quang-trung",
@@ -49,7 +49,7 @@
         "code": "13645",
         "parent_code": "356"
     },
-    "13648": {
+     {
         "name": "Cửa Bắc",
         "type": "phuong",
         "slug": "cua-bac",
@@ -59,7 +59,7 @@
         "code": "13648",
         "parent_code": "356"
     },
-    "13651": {
+     {
         "name": "Nguyễn Du",
         "type": "phuong",
         "slug": "nguyen-du",
@@ -69,7 +69,7 @@
         "code": "13651",
         "parent_code": "356"
     },
-    "13654": {
+     {
         "name": "Bà Triệu",
         "type": "phuong",
         "slug": "ba-trieu",
@@ -79,7 +79,7 @@
         "code": "13654",
         "parent_code": "356"
     },
-    "13657": {
+     {
         "name": "Trường Thi",
         "type": "phuong",
         "slug": "truong-thi",
@@ -89,7 +89,7 @@
         "code": "13657",
         "parent_code": "356"
     },
-    "13660": {
+     {
         "name": "Phan Đình Phùng",
         "type": "phuong",
         "slug": "phan-dinh-phung",
@@ -99,7 +99,7 @@
         "code": "13660",
         "parent_code": "356"
     },
-    "13663": {
+     {
         "name": "Ngô Quyền",
         "type": "phuong",
         "slug": "ngo-quyen",
@@ -109,7 +109,7 @@
         "code": "13663",
         "parent_code": "356"
     },
-    "13666": {
+     {
         "name": "Trần Hưng Đạo",
         "type": "phuong",
         "slug": "tran-hung-dao",
@@ -119,7 +119,7 @@
         "code": "13666",
         "parent_code": "356"
     },
-    "13669": {
+     {
         "name": "Trần Đăng Ninh",
         "type": "phuong",
         "slug": "tran-dang-ninh",
@@ -129,7 +129,7 @@
         "code": "13669",
         "parent_code": "356"
     },
-    "13672": {
+     {
         "name": "Năng Tĩnh",
         "type": "phuong",
         "slug": "nang-tinh",
@@ -139,7 +139,7 @@
         "code": "13672",
         "parent_code": "356"
     },
-    "13675": {
+     {
         "name": "Văn Miếu",
         "type": "phuong",
         "slug": "van-mieu",
@@ -149,7 +149,7 @@
         "code": "13675",
         "parent_code": "356"
     },
-    "13678": {
+     {
         "name": "Trần Quang Khải",
         "type": "phuong",
         "slug": "tran-quang-khai",
@@ -159,7 +159,7 @@
         "code": "13678",
         "parent_code": "356"
     },
-    "13681": {
+     {
         "name": "Thống Nhất",
         "type": "phuong",
         "slug": "thong-nhat",
@@ -169,7 +169,7 @@
         "code": "13681",
         "parent_code": "356"
     },
-    "13684": {
+     {
         "name": "Lộc Hạ",
         "type": "phuong",
         "slug": "loc-ha",
@@ -179,7 +179,7 @@
         "code": "13684",
         "parent_code": "356"
     },
-    "13687": {
+     {
         "name": "Lộc Vượng",
         "type": "phuong",
         "slug": "loc-vuong",
@@ -189,7 +189,7 @@
         "code": "13687",
         "parent_code": "356"
     },
-    "13690": {
+     {
         "name": "Cửa Nam",
         "type": "phuong",
         "slug": "cua-nam",
@@ -199,7 +199,7 @@
         "code": "13690",
         "parent_code": "356"
     },
-    "13693": {
+     {
         "name": "Lộc Hòa",
         "type": "phuong",
         "slug": "loc-hoa",
@@ -209,7 +209,7 @@
         "code": "13693",
         "parent_code": "356"
     },
-    "13696": {
+     {
         "name": "Nam Phong",
         "type": "xa",
         "slug": "nam-phong",
@@ -219,7 +219,7 @@
         "code": "13696",
         "parent_code": "356"
     },
-    "13699": {
+     {
         "name": "Mỹ Xá",
         "type": "phuong",
         "slug": "my-xa",
@@ -229,7 +229,7 @@
         "code": "13699",
         "parent_code": "356"
     },
-    "13702": {
+     {
         "name": "Lộc An",
         "type": "xa",
         "slug": "loc-an",
@@ -239,7 +239,7 @@
         "code": "13702",
         "parent_code": "356"
     },
-    "13705": {
+     {
         "name": "Nam Vân",
         "type": "xa",
         "slug": "nam-van",
@@ -249,4 +249,4 @@
         "code": "13705",
         "parent_code": "356"
     }
-}
+]}

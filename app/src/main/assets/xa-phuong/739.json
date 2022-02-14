@@ -1,5 +1,5 @@
 {
-    "26329": {
+    "xa":[ {
         "name": "Sông Nhạn",
         "type": "xa",
         "slug": "song-nhan",
@@ -9,7 +9,7 @@
         "code": "26329",
         "parent_code": "739"
     },
-    "26332": {
+     {
         "name": "Xuân Quế",
         "type": "xa",
         "slug": "xuan-que",
@@ -19,7 +19,7 @@
         "code": "26332",
         "parent_code": "739"
     },
-    "26335": {
+     {
         "name": "Nhân Nghĩa",
         "type": "xa",
         "slug": "nhan-nghia",
@@ -29,7 +29,7 @@
         "code": "26335",
         "parent_code": "739"
     },
-    "26338": {
+     {
         "name": "Xuân Đường",
         "type": "xa",
         "slug": "xuan-duong",
@@ -39,7 +39,7 @@
         "code": "26338",
         "parent_code": "739"
     },
-    "26341": {
+     {
         "name": "Long Giao",
         "type": "xa",
         "slug": "long-giao",
@@ -49,7 +49,7 @@
         "code": "26341",
         "parent_code": "739"
     },
-    "26344": {
+     {
         "name": "Xuân Mỹ",
         "type": "xa",
         "slug": "xuan-my",
@@ -59,7 +59,7 @@
         "code": "26344",
         "parent_code": "739"
     },
-    "26347": {
+     {
         "name": "Thừa Đức",
         "type": "xa",
         "slug": "thua-duc",
@@ -69,7 +69,7 @@
         "code": "26347",
         "parent_code": "739"
     },
-    "26350": {
+     {
         "name": "Bảo Bình",
         "type": "xa",
         "slug": "bao-binh",
@@ -79,7 +79,7 @@
         "code": "26350",
         "parent_code": "739"
     },
-    "26353": {
+     {
         "name": "Xuân Bảo",
         "type": "xa",
         "slug": "xuan-bao",
@@ -89,7 +89,7 @@
         "code": "26353",
         "parent_code": "739"
     },
-    "26356": {
+     {
         "name": "Xuân Tây",
         "type": "xa",
         "slug": "xuan-tay",
@@ -99,7 +99,7 @@
         "code": "26356",
         "parent_code": "739"
     },
-    "26359": {
+     {
         "name": "Xuân Đông",
         "type": "xa",
         "slug": "xuan-dong",
@@ -109,7 +109,7 @@
         "code": "26359",
         "parent_code": "739"
     },
-    "26362": {
+     {
         "name": "Sông Ray",
         "type": "xa",
         "slug": "song-ray",
@@ -119,7 +119,7 @@
         "code": "26362",
         "parent_code": "739"
     },
-    "26365": {
+     {
         "name": "Lâm San",
         "type": "xa",
         "slug": "lam-san",
@@ -129,4 +129,4 @@
         "code": "26365",
         "parent_code": "739"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "25096": {
+    "xa":[ {
         "name": "Đạ M'ri",
         "type": "thi-tran",
         "slug": "da-m-ri",
@@ -9,7 +9,7 @@
         "code": "25096",
         "parent_code": "681"
     },
-    "25099": {
+     {
         "name": "Ma Đa Guôi",
         "type": "thi-tran",
         "slug": "ma-da-guoi",
@@ -19,7 +19,7 @@
         "code": "25099",
         "parent_code": "681"
     },
-    "25105": {
+     {
         "name": "Hà Lâm",
         "type": "xa",
         "slug": "ha-lam",
@@ -29,7 +29,7 @@
         "code": "25105",
         "parent_code": "681"
     },
-    "25108": {
+     {
         "name": "Đạ Tồn",
         "type": "xa",
         "slug": "da-ton",
@@ -39,7 +39,7 @@
         "code": "25108",
         "parent_code": "681"
     },
-    "25111": {
+     {
         "name": "Đạ Oai",
         "type": "xa",
         "slug": "da-oai",
@@ -49,7 +49,7 @@
         "code": "25111",
         "parent_code": "681"
     },
-    "25114": {
+     {
         "name": "Đạ Ploa",
         "type": "xa",
         "slug": "da-ploa",
@@ -59,7 +59,7 @@
         "code": "25114",
         "parent_code": "681"
     },
-    "25117": {
+     {
         "name": "Ma Đa Guôi",
         "type": "xa",
         "slug": "ma-da-guoi",
@@ -69,7 +69,7 @@
         "code": "25117",
         "parent_code": "681"
     },
-    "25120": {
+     {
         "name": "Đoàn Kết",
         "type": "xa",
         "slug": "doan-ket",
@@ -79,7 +79,7 @@
         "code": "25120",
         "parent_code": "681"
     },
-    "25123": {
+     {
         "name": "Phước Lộc",
         "type": "xa",
         "slug": "phuoc-loc",
@@ -89,4 +89,4 @@
         "code": "25123",
         "parent_code": "681"
     }
-}
+]}

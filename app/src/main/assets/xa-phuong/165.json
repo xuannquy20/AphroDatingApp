@@ -1,5 +1,5 @@
 {
-    "05506": {
+    "xa":[ {
         "name": "Lương Sơn",
         "type": "phuong",
         "slug": "luong-son",
@@ -9,7 +9,7 @@
         "code": "05506",
         "parent_code": "165"
     },
-    "05509": {
+     {
         "name": "Châu Sơn",
         "type": "phuong",
         "slug": "chau-son",
@@ -19,7 +19,7 @@
         "code": "05509",
         "parent_code": "165"
     },
-    "05512": {
+     {
         "name": "Mỏ Chè",
         "type": "phuong",
         "slug": "mo-che",
@@ -29,7 +29,7 @@
         "code": "05512",
         "parent_code": "165"
     },
-    "05515": {
+     {
         "name": "Cải Đan",
         "type": "phuong",
         "slug": "cai-dan",
@@ -39,7 +39,7 @@
         "code": "05515",
         "parent_code": "165"
     },
-    "05518": {
+     {
         "name": "Thắng Lợi",
         "type": "phuong",
         "slug": "thang-loi",
@@ -49,7 +49,7 @@
         "code": "05518",
         "parent_code": "165"
     },
-    "05521": {
+     {
         "name": "Phố Cò",
         "type": "phuong",
         "slug": "pho-co",
@@ -59,7 +59,7 @@
         "code": "05521",
         "parent_code": "165"
     },
-    "05527": {
+     {
         "name": "Tân Quang",
         "type": "xa",
         "slug": "tan-quang",
@@ -69,7 +69,7 @@
         "code": "05527",
         "parent_code": "165"
     },
-    "05528": {
+     {
         "name": "Bách Quang",
         "type": "phuong",
         "slug": "bach-quang",
@@ -79,7 +79,7 @@
         "code": "05528",
         "parent_code": "165"
     },
-    "05530": {
+     {
         "name": "Bình Sơn",
         "type": "xa",
         "slug": "binh-son",
@@ -89,7 +89,7 @@
         "code": "05530",
         "parent_code": "165"
     },
-    "05533": {
+     {
         "name": "Bá Xuyên",
         "type": "xa",
         "slug": "ba-xuyen",
@@ -99,4 +99,4 @@
         "code": "05533",
         "parent_code": "165"
     }
-}
+]}

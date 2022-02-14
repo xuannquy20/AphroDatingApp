@@ -1,5 +1,5 @@
 {
-    "22736": {
+    "xa":[ {
         "name": "Trường Sa",
         "type": "thi-tran",
         "slug": "truong-sa",
@@ -9,7 +9,7 @@
         "code": "22736",
         "parent_code": "576"
     },
-    "22737": {
+     {
         "name": "Song Tử Tây",
         "type": "xa",
         "slug": "song-tu-tay",
@@ -19,7 +19,7 @@
         "code": "22737",
         "parent_code": "576"
     },
-    "22739": {
+     {
         "name": "Sinh Tồn",
         "type": "xa",
         "slug": "sinh-ton",
@@ -29,4 +29,4 @@
         "code": "22739",
         "parent_code": "576"
     }
-}
+]}

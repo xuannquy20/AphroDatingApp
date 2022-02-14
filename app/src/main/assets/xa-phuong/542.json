@@ -1,5 +1,5 @@
 {
-    "21609": {
+    "xa":[ {
         "name": "An Lão",
         "type": "thi-tran",
         "slug": "an-lao",
@@ -9,7 +9,7 @@
         "code": "21609",
         "parent_code": "542"
     },
-    "21610": {
+     {
         "name": "An Hưng",
         "type": "xa",
         "slug": "an-hung",
@@ -19,7 +19,7 @@
         "code": "21610",
         "parent_code": "542"
     },
-    "21613": {
+     {
         "name": "An Trung",
         "type": "xa",
         "slug": "an-trung",
@@ -29,7 +29,7 @@
         "code": "21613",
         "parent_code": "542"
     },
-    "21616": {
+     {
         "name": "An Dũng",
         "type": "xa",
         "slug": "an-dung",
@@ -39,7 +39,7 @@
         "code": "21616",
         "parent_code": "542"
     },
-    "21619": {
+     {
         "name": "An Vinh",
         "type": "xa",
         "slug": "an-vinh",
@@ -49,7 +49,7 @@
         "code": "21619",
         "parent_code": "542"
     },
-    "21622": {
+     {
         "name": "An Toàn",
         "type": "xa",
         "slug": "an-toan",
@@ -59,7 +59,7 @@
         "code": "21622",
         "parent_code": "542"
     },
-    "21625": {
+     {
         "name": "An Tân",
         "type": "xa",
         "slug": "an-tan",
@@ -69,7 +69,7 @@
         "code": "21625",
         "parent_code": "542"
     },
-    "21628": {
+     {
         "name": "An Hòa",
         "type": "xa",
         "slug": "an-hoa",
@@ -79,7 +79,7 @@
         "code": "21628",
         "parent_code": "542"
     },
-    "21631": {
+     {
         "name": "An Quang",
         "type": "xa",
         "slug": "an-quang",
@@ -89,7 +89,7 @@
         "code": "21631",
         "parent_code": "542"
     },
-    "21634": {
+     {
         "name": "An Nghĩa",
         "type": "xa",
         "slug": "an-nghia",
@@ -99,4 +99,4 @@
         "code": "21634",
         "parent_code": "542"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "21907": {
+    "xa":[ {
         "name": "Bình Định",
         "type": "phuong",
         "slug": "binh-dinh",
@@ -9,7 +9,7 @@
         "code": "21907",
         "parent_code": "549"
     },
-    "21910": {
+     {
         "name": "Đập Đá",
         "type": "phuong",
         "slug": "dap-da",
@@ -19,7 +19,7 @@
         "code": "21910",
         "parent_code": "549"
     },
-    "21913": {
+     {
         "name": "Nhơn Mỹ",
         "type": "xa",
         "slug": "nhon-my",
@@ -29,7 +29,7 @@
         "code": "21913",
         "parent_code": "549"
     },
-    "21916": {
+     {
         "name": "Nhơn Thành",
         "type": "phuong",
         "slug": "nhon-thanh",
@@ -39,7 +39,7 @@
         "code": "21916",
         "parent_code": "549"
     },
-    "21919": {
+     {
         "name": "Nhơn Hạnh",
         "type": "xa",
         "slug": "nhon-hanh",
@@ -49,7 +49,7 @@
         "code": "21919",
         "parent_code": "549"
     },
-    "21922": {
+     {
         "name": "Nhơn Hậu",
         "type": "xa",
         "slug": "nhon-hau",
@@ -59,7 +59,7 @@
         "code": "21922",
         "parent_code": "549"
     },
-    "21925": {
+     {
         "name": "Nhơn Phong",
         "type": "xa",
         "slug": "nhon-phong",
@@ -69,7 +69,7 @@
         "code": "21925",
         "parent_code": "549"
     },
-    "21928": {
+     {
         "name": "Nhơn An",
         "type": "xa",
         "slug": "nhon-an",
@@ -79,7 +79,7 @@
         "code": "21928",
         "parent_code": "549"
     },
-    "21931": {
+     {
         "name": "Nhơn Phúc",
         "type": "xa",
         "slug": "nhon-phuc",
@@ -89,7 +89,7 @@
         "code": "21931",
         "parent_code": "549"
     },
-    "21934": {
+     {
         "name": "Nhơn Hưng",
         "type": "phuong",
         "slug": "nhon-hung",
@@ -99,7 +99,7 @@
         "code": "21934",
         "parent_code": "549"
     },
-    "21937": {
+     {
         "name": "Nhơn Khánh",
         "type": "xa",
         "slug": "nhon-khanh",
@@ -109,7 +109,7 @@
         "code": "21937",
         "parent_code": "549"
     },
-    "21940": {
+     {
         "name": "Nhơn Lộc",
         "type": "xa",
         "slug": "nhon-loc",
@@ -119,7 +119,7 @@
         "code": "21940",
         "parent_code": "549"
     },
-    "21943": {
+     {
         "name": "Nhơn Hoà",
         "type": "phuong",
         "slug": "nhon-hoa",
@@ -129,7 +129,7 @@
         "code": "21943",
         "parent_code": "549"
     },
-    "21946": {
+     {
         "name": "Nhơn Tân",
         "type": "xa",
         "slug": "nhon-tan",
@@ -139,7 +139,7 @@
         "code": "21946",
         "parent_code": "549"
     },
-    "21949": {
+     {
         "name": "Nhơn Thọ",
         "type": "xa",
         "slug": "nhon-tho",
@@ -149,4 +149,4 @@
         "code": "21949",
         "parent_code": "549"
     }
-}
+]}

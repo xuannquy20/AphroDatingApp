@@ -1,5 +1,5 @@
 {
-    "14923": {
+    "xa":[ {
         "name": "Cành Nàng",
         "type": "thi-tran",
         "slug": "canh-nang",
@@ -9,7 +9,7 @@
         "code": "14923",
         "parent_code": "386"
     },
-    "14926": {
+     {
         "name": "Điền Thượng",
         "type": "xa",
         "slug": "dien-thuong",
@@ -19,7 +19,7 @@
         "code": "14926",
         "parent_code": "386"
     },
-    "14929": {
+     {
         "name": "Điền Hạ",
         "type": "xa",
         "slug": "dien-ha",
@@ -29,7 +29,7 @@
         "code": "14929",
         "parent_code": "386"
     },
-    "14932": {
+     {
         "name": "Điền Quang",
         "type": "xa",
         "slug": "dien-quang",
@@ -39,7 +39,7 @@
         "code": "14932",
         "parent_code": "386"
     },
-    "14935": {
+     {
         "name": "Điền Trung",
         "type": "xa",
         "slug": "dien-trung",
@@ -49,7 +49,7 @@
         "code": "14935",
         "parent_code": "386"
     },
-    "14938": {
+     {
         "name": "Thành Sơn",
         "type": "xa",
         "slug": "thanh-son",
@@ -59,7 +59,7 @@
         "code": "14938",
         "parent_code": "386"
     },
-    "14941": {
+     {
         "name": "Lương Ngoại",
         "type": "xa",
         "slug": "luong-ngoai",
@@ -69,7 +69,7 @@
         "code": "14941",
         "parent_code": "386"
     },
-    "14944": {
+     {
         "name": "Ái Thượng",
         "type": "xa",
         "slug": "ai-thuong",
@@ -79,7 +79,7 @@
         "code": "14944",
         "parent_code": "386"
     },
-    "14947": {
+     {
         "name": "Lương Nội",
         "type": "xa",
         "slug": "luong-noi",
@@ -89,7 +89,7 @@
         "code": "14947",
         "parent_code": "386"
     },
-    "14950": {
+     {
         "name": "Điền Lư",
         "type": "xa",
         "slug": "dien-lu",
@@ -99,7 +99,7 @@
         "code": "14950",
         "parent_code": "386"
     },
-    "14953": {
+     {
         "name": "Lương Trung",
         "type": "xa",
         "slug": "luong-trung",
@@ -109,7 +109,7 @@
         "code": "14953",
         "parent_code": "386"
     },
-    "14956": {
+     {
         "name": "Lũng Niêm",
         "type": "xa",
         "slug": "lung-niem",
@@ -119,7 +119,7 @@
         "code": "14956",
         "parent_code": "386"
     },
-    "14959": {
+     {
         "name": "Lũng Cao",
         "type": "xa",
         "slug": "lung-cao",
@@ -129,7 +129,7 @@
         "code": "14959",
         "parent_code": "386"
     },
-    "14962": {
+     {
         "name": "Hạ Trung",
         "type": "xa",
         "slug": "ha-trung",
@@ -139,7 +139,7 @@
         "code": "14962",
         "parent_code": "386"
     },
-    "14965": {
+     {
         "name": "Cổ Lũng",
         "type": "xa",
         "slug": "co-lung",
@@ -149,7 +149,7 @@
         "code": "14965",
         "parent_code": "386"
     },
-    "14968": {
+     {
         "name": "Thành Lâm",
         "type": "xa",
         "slug": "thanh-lam",
@@ -159,7 +159,7 @@
         "code": "14968",
         "parent_code": "386"
     },
-    "14971": {
+     {
         "name": "Ban Công",
         "type": "xa",
         "slug": "ban-cong",
@@ -169,7 +169,7 @@
         "code": "14971",
         "parent_code": "386"
     },
-    "14974": {
+     {
         "name": "Kỳ Tân",
         "type": "xa",
         "slug": "ky-tan",
@@ -179,7 +179,7 @@
         "code": "14974",
         "parent_code": "386"
     },
-    "14977": {
+     {
         "name": "Văn Nho",
         "type": "xa",
         "slug": "van-nho",
@@ -189,7 +189,7 @@
         "code": "14977",
         "parent_code": "386"
     },
-    "14980": {
+     {
         "name": "Thiết Ống",
         "type": "xa",
         "slug": "thiet-ong",
@@ -199,7 +199,7 @@
         "code": "14980",
         "parent_code": "386"
     },
-    "14986": {
+     {
         "name": "Thiết Kế",
         "type": "xa",
         "slug": "thiet-ke",
@@ -209,4 +209,4 @@
         "code": "14986",
         "parent_code": "386"
     }
-}
+]}

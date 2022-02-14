@@ -1,5 +1,5 @@
 {
-    "07942": {
+    "xa":[ {
         "name": "Hùng Vương",
         "type": "phuong",
         "slug": "hung-vuong",
@@ -9,7 +9,7 @@
         "code": "07942",
         "parent_code": "228"
     },
-    "07945": {
+     {
         "name": "Phong Châu",
         "type": "phuong",
         "slug": "phong-chau",
@@ -19,7 +19,7 @@
         "code": "07945",
         "parent_code": "228"
     },
-    "07948": {
+     {
         "name": "Âu Cơ",
         "type": "phuong",
         "slug": "au-co",
@@ -29,7 +29,7 @@
         "code": "07948",
         "parent_code": "228"
     },
-    "07951": {
+     {
         "name": "Hà Lộc",
         "type": "xa",
         "slug": "ha-loc",
@@ -39,7 +39,7 @@
         "code": "07951",
         "parent_code": "228"
     },
-    "07954": {
+     {
         "name": "Phú Hộ",
         "type": "xa",
         "slug": "phu-ho",
@@ -49,7 +49,7 @@
         "code": "07954",
         "parent_code": "228"
     },
-    "07957": {
+     {
         "name": "Văn Lung",
         "type": "xa",
         "slug": "van-lung",
@@ -59,7 +59,7 @@
         "code": "07957",
         "parent_code": "228"
     },
-    "07960": {
+     {
         "name": "Thanh Minh",
         "type": "xa",
         "slug": "thanh-minh",
@@ -69,7 +69,7 @@
         "code": "07960",
         "parent_code": "228"
     },
-    "07963": {
+     {
         "name": "Hà Thạch",
         "type": "xa",
         "slug": "ha-thach",
@@ -79,7 +79,7 @@
         "code": "07963",
         "parent_code": "228"
     },
-    "07966": {
+     {
         "name": "Thanh Vinh",
         "type": "phuong",
         "slug": "thanh-vinh",
@@ -89,4 +89,4 @@
         "code": "07966",
         "parent_code": "228"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "02221": {
+    "xa":[ {
         "name": "Na Hang",
         "type": "thi-tran",
         "slug": "na-hang",
@@ -9,7 +9,7 @@
         "code": "02221",
         "parent_code": "072"
     },
-    "02227": {
+     {
         "name": "Sinh Long",
         "type": "xa",
         "slug": "sinh-long",
@@ -19,7 +19,7 @@
         "code": "02227",
         "parent_code": "072"
     },
-    "02230": {
+     {
         "name": "Thượng Giáp",
         "type": "xa",
         "slug": "thuong-giap",
@@ -29,7 +29,7 @@
         "code": "02230",
         "parent_code": "072"
     },
-    "02239": {
+     {
         "name": "Thượng Nông",
         "type": "xa",
         "slug": "thuong-nong",
@@ -39,7 +39,7 @@
         "code": "02239",
         "parent_code": "072"
     },
-    "02245": {
+     {
         "name": "Côn Lôn",
         "type": "xa",
         "slug": "con-lon",
@@ -49,7 +49,7 @@
         "code": "02245",
         "parent_code": "072"
     },
-    "02248": {
+     {
         "name": "Yên Hoa",
         "type": "xa",
         "slug": "yen-hoa",
@@ -59,7 +59,7 @@
         "code": "02248",
         "parent_code": "072"
     },
-    "02254": {
+     {
         "name": "Hồng Thái",
         "type": "xa",
         "slug": "hong-thai",
@@ -69,7 +69,7 @@
         "code": "02254",
         "parent_code": "072"
     },
-    "02260": {
+     {
         "name": "Đà Vị",
         "type": "xa",
         "slug": "da-vi",
@@ -79,7 +79,7 @@
         "code": "02260",
         "parent_code": "072"
     },
-    "02263": {
+     {
         "name": "Khau Tinh",
         "type": "xa",
         "slug": "khau-tinh",
@@ -89,7 +89,7 @@
         "code": "02263",
         "parent_code": "072"
     },
-    "02275": {
+     {
         "name": "Sơn Phú",
         "type": "xa",
         "slug": "son-phu",
@@ -99,7 +99,7 @@
         "code": "02275",
         "parent_code": "072"
     },
-    "02281": {
+     {
         "name": "Năng Khả",
         "type": "xa",
         "slug": "nang-kha",
@@ -109,7 +109,7 @@
         "code": "02281",
         "parent_code": "072"
     },
-    "02284": {
+     {
         "name": "Thanh Tương",
         "type": "xa",
         "slug": "thanh-tuong",
@@ -119,4 +119,4 @@
         "code": "02284",
         "parent_code": "072"
     }
-}
+]}

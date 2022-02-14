@@ -1,5 +1,5 @@
 {
-    "26116": {
+    "xa":[ {
         "name": "Tân Phú",
         "type": "thi-tran",
         "slug": "tan-phu",
@@ -9,7 +9,7 @@
         "code": "26116",
         "parent_code": "734"
     },
-    "26119": {
+     {
         "name": "Dak Lua",
         "type": "xa",
         "slug": "dak-lua",
@@ -19,7 +19,7 @@
         "code": "26119",
         "parent_code": "734"
     },
-    "26122": {
+     {
         "name": "Nam Cát Tiên",
         "type": "xa",
         "slug": "nam-cat-tien",
@@ -29,7 +29,7 @@
         "code": "26122",
         "parent_code": "734"
     },
-    "26125": {
+     {
         "name": "Phú An",
         "type": "xa",
         "slug": "phu-an",
@@ -39,7 +39,7 @@
         "code": "26125",
         "parent_code": "734"
     },
-    "26128": {
+     {
         "name": "Núi Tượng",
         "type": "xa",
         "slug": "nui-tuong",
@@ -49,7 +49,7 @@
         "code": "26128",
         "parent_code": "734"
     },
-    "26131": {
+     {
         "name": "Tà Lài",
         "type": "xa",
         "slug": "ta-lai",
@@ -59,7 +59,7 @@
         "code": "26131",
         "parent_code": "734"
     },
-    "26134": {
+     {
         "name": "Phú Lập",
         "type": "xa",
         "slug": "phu-lap",
@@ -69,7 +69,7 @@
         "code": "26134",
         "parent_code": "734"
     },
-    "26137": {
+     {
         "name": "Phú Sơn",
         "type": "xa",
         "slug": "phu-son",
@@ -79,7 +79,7 @@
         "code": "26137",
         "parent_code": "734"
     },
-    "26140": {
+     {
         "name": "Phú Thịnh",
         "type": "xa",
         "slug": "phu-thinh",
@@ -89,7 +89,7 @@
         "code": "26140",
         "parent_code": "734"
     },
-    "26143": {
+     {
         "name": "Thanh Sơn",
         "type": "xa",
         "slug": "thanh-son",
@@ -99,7 +99,7 @@
         "code": "26143",
         "parent_code": "734"
     },
-    "26146": {
+     {
         "name": "Phú Trung",
         "type": "xa",
         "slug": "phu-trung",
@@ -109,7 +109,7 @@
         "code": "26146",
         "parent_code": "734"
     },
-    "26149": {
+     {
         "name": "Phú Xuân",
         "type": "xa",
         "slug": "phu-xuan",
@@ -119,7 +119,7 @@
         "code": "26149",
         "parent_code": "734"
     },
-    "26152": {
+     {
         "name": "Phú Lộc",
         "type": "xa",
         "slug": "phu-loc",
@@ -129,7 +129,7 @@
         "code": "26152",
         "parent_code": "734"
     },
-    "26155": {
+     {
         "name": "Phú Lâm",
         "type": "xa",
         "slug": "phu-lam",
@@ -139,7 +139,7 @@
         "code": "26155",
         "parent_code": "734"
     },
-    "26158": {
+     {
         "name": "Phú Bình",
         "type": "xa",
         "slug": "phu-binh",
@@ -149,7 +149,7 @@
         "code": "26158",
         "parent_code": "734"
     },
-    "26161": {
+     {
         "name": "Phú Thanh",
         "type": "xa",
         "slug": "phu-thanh",
@@ -159,7 +159,7 @@
         "code": "26161",
         "parent_code": "734"
     },
-    "26164": {
+     {
         "name": "Trà Cổ",
         "type": "xa",
         "slug": "tra-co",
@@ -169,7 +169,7 @@
         "code": "26164",
         "parent_code": "734"
     },
-    "26167": {
+     {
         "name": "Phú Điền",
         "type": "xa",
         "slug": "phu-dien",
@@ -179,4 +179,4 @@
         "code": "26167",
         "parent_code": "734"
     }
-}
+]}

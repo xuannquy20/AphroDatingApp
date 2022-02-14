@@ -1,5 +1,5 @@
 {
-    "18406": {
+    "xa":[ {
         "name": "Nghèn",
         "type": "thi-tran",
         "slug": "nghen",
@@ -9,7 +9,7 @@
         "code": "18406",
         "parent_code": "443"
     },
-    "18415": {
+     {
         "name": "Thiên Lộc",
         "type": "xa",
         "slug": "thien-loc",
@@ -19,7 +19,7 @@
         "code": "18415",
         "parent_code": "443"
     },
-    "18418": {
+     {
         "name": "Thuần Thiện",
         "type": "xa",
         "slug": "thuan-thien",
@@ -29,7 +29,7 @@
         "code": "18418",
         "parent_code": "443"
     },
-    "18427": {
+     {
         "name": "Vượng Lộc",
         "type": "xa",
         "slug": "vuong-loc",
@@ -39,7 +39,7 @@
         "code": "18427",
         "parent_code": "443"
     },
-    "18433": {
+     {
         "name": "Thanh Lộc",
         "type": "xa",
         "slug": "thanh-loc",
@@ -49,7 +49,7 @@
         "code": "18433",
         "parent_code": "443"
     },
-    "18436": {
+     {
         "name": "Kim Song Trường",
         "type": "xa",
         "slug": "kim-song-truong",
@@ -59,7 +59,7 @@
         "code": "18436",
         "parent_code": "443"
     },
-    "18439": {
+     {
         "name": "Thường Nga",
         "type": "xa",
         "slug": "thuong-nga",
@@ -69,7 +69,7 @@
         "code": "18439",
         "parent_code": "443"
     },
-    "18445": {
+     {
         "name": "Tùng Lộc",
         "type": "xa",
         "slug": "tung-loc",
@@ -79,7 +79,7 @@
         "code": "18445",
         "parent_code": "443"
     },
-    "18454": {
+     {
         "name": "Phú Lộc",
         "type": "xa",
         "slug": "phu-loc",
@@ -89,7 +89,7 @@
         "code": "18454",
         "parent_code": "443"
     },
-    "18463": {
+     {
         "name": "Gia Hanh",
         "type": "xa",
         "slug": "gia-hanh",
@@ -99,7 +99,7 @@
         "code": "18463",
         "parent_code": "443"
     },
-    "18466": {
+     {
         "name": "Khánh Vĩnh Yên",
         "type": "xa",
         "slug": "khanh-vinh-yen",
@@ -109,7 +109,7 @@
         "code": "18466",
         "parent_code": "443"
     },
-    "18472": {
+     {
         "name": "Trung Lộc",
         "type": "xa",
         "slug": "trung-loc",
@@ -119,7 +119,7 @@
         "code": "18472",
         "parent_code": "443"
     },
-    "18475": {
+     {
         "name": "Xuân Lộc",
         "type": "xa",
         "slug": "xuan-loc",
@@ -129,7 +129,7 @@
         "code": "18475",
         "parent_code": "443"
     },
-    "18478": {
+     {
         "name": "Thượng Lộc",
         "type": "xa",
         "slug": "thuong-loc",
@@ -139,7 +139,7 @@
         "code": "18478",
         "parent_code": "443"
     },
-    "18481": {
+     {
         "name": "Quang Lộc",
         "type": "xa",
         "slug": "quang-loc",
@@ -149,7 +149,7 @@
         "code": "18481",
         "parent_code": "443"
     },
-    "18484": {
+     {
         "name": "Đồng Lộc",
         "type": "thi-tran",
         "slug": "dong-loc",
@@ -159,7 +159,7 @@
         "code": "18484",
         "parent_code": "443"
     },
-    "18487": {
+     {
         "name": "Mỹ Lộc",
         "type": "xa",
         "slug": "my-loc",
@@ -169,7 +169,7 @@
         "code": "18487",
         "parent_code": "443"
     },
-    "18490": {
+     {
         "name": "Sơn Lộc",
         "type": "xa",
         "slug": "son-loc",
@@ -179,4 +179,4 @@
         "code": "18490",
         "parent_code": "443"
     }
-}
+]}

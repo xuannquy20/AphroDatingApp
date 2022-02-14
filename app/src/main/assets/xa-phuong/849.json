@@ -1,5 +1,5 @@
 {
-    "29461": {
+    "xa":[ {
         "name": "Trà Cú",
         "type": "thi-tran",
         "slug": "tra-cu",
@@ -9,7 +9,7 @@
         "code": "29461",
         "parent_code": "849"
     },
-    "29462": {
+     {
         "name": "Định An",
         "type": "thi-tran",
         "slug": "dinh-an",
@@ -19,7 +19,7 @@
         "code": "29462",
         "parent_code": "849"
     },
-    "29464": {
+     {
         "name": "Phước Hưng",
         "type": "xa",
         "slug": "phuoc-hung",
@@ -29,7 +29,7 @@
         "code": "29464",
         "parent_code": "849"
     },
-    "29467": {
+     {
         "name": "Tập Sơn",
         "type": "xa",
         "slug": "tap-son",
@@ -39,7 +39,7 @@
         "code": "29467",
         "parent_code": "849"
     },
-    "29470": {
+     {
         "name": "Tân Sơn",
         "type": "xa",
         "slug": "tan-son",
@@ -49,7 +49,7 @@
         "code": "29470",
         "parent_code": "849"
     },
-    "29473": {
+     {
         "name": "An Quảng Hữu",
         "type": "xa",
         "slug": "an-quang-huu",
@@ -59,7 +59,7 @@
         "code": "29473",
         "parent_code": "849"
     },
-    "29476": {
+     {
         "name": "Lưu Nghiệp Anh",
         "type": "xa",
         "slug": "luu-nghiep-anh",
@@ -69,7 +69,7 @@
         "code": "29476",
         "parent_code": "849"
     },
-    "29479": {
+     {
         "name": "Ngãi Xuyên",
         "type": "xa",
         "slug": "ngai-xuyen",
@@ -79,7 +79,7 @@
         "code": "29479",
         "parent_code": "849"
     },
-    "29482": {
+     {
         "name": "Kim Sơn",
         "type": "xa",
         "slug": "kim-son",
@@ -89,7 +89,7 @@
         "code": "29482",
         "parent_code": "849"
     },
-    "29485": {
+     {
         "name": "Thanh Sơn",
         "type": "xa",
         "slug": "thanh-son",
@@ -99,7 +99,7 @@
         "code": "29485",
         "parent_code": "849"
     },
-    "29488": {
+     {
         "name": "Hàm Giang",
         "type": "xa",
         "slug": "ham-giang",
@@ -109,7 +109,7 @@
         "code": "29488",
         "parent_code": "849"
     },
-    "29489": {
+     {
         "name": "Hàm Tân",
         "type": "xa",
         "slug": "ham-tan",
@@ -119,7 +119,7 @@
         "code": "29489",
         "parent_code": "849"
     },
-    "29491": {
+     {
         "name": "Đại An",
         "type": "xa",
         "slug": "dai-an",
@@ -129,7 +129,7 @@
         "code": "29491",
         "parent_code": "849"
     },
-    "29494": {
+     {
         "name": "Định An",
         "type": "xa",
         "slug": "dinh-an",
@@ -139,7 +139,7 @@
         "code": "29494",
         "parent_code": "849"
     },
-    "29503": {
+     {
         "name": "Ngọc Biên",
         "type": "xa",
         "slug": "ngoc-bien",
@@ -149,7 +149,7 @@
         "code": "29503",
         "parent_code": "849"
     },
-    "29506": {
+     {
         "name": "Long Hiệp",
         "type": "xa",
         "slug": "long-hiep",
@@ -159,7 +159,7 @@
         "code": "29506",
         "parent_code": "849"
     },
-    "29509": {
+     {
         "name": "Tân Hiệp",
         "type": "xa",
         "slug": "tan-hiep",
@@ -169,4 +169,4 @@
         "code": "29509",
         "parent_code": "849"
     }
-}
+]}

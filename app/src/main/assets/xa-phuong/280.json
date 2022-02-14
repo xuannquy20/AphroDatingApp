@@ -1,5 +1,5 @@
 {
-    "10270": {
+    "xa":[ {
         "name": "Phú Minh",
         "type": "thi-tran",
         "slug": "phu-minh",
@@ -9,7 +9,7 @@
         "code": "10270",
         "parent_code": "280"
     },
-    "10273": {
+     {
         "name": "Phú Xuyên",
         "type": "thi-tran",
         "slug": "phu-xuyen",
@@ -19,7 +19,7 @@
         "code": "10273",
         "parent_code": "280"
     },
-    "10276": {
+     {
         "name": "Hồng Minh",
         "type": "xa",
         "slug": "hong-minh",
@@ -29,7 +29,7 @@
         "code": "10276",
         "parent_code": "280"
     },
-    "10279": {
+     {
         "name": "Phượng Dực",
         "type": "xa",
         "slug": "phuong-duc",
@@ -39,7 +39,7 @@
         "code": "10279",
         "parent_code": "280"
     },
-    "10282": {
+     {
         "name": "Nam Tiến",
         "type": "xa",
         "slug": "nam-tien",
@@ -49,7 +49,7 @@
         "code": "10282",
         "parent_code": "280"
     },
-    "10288": {
+     {
         "name": "Tri Trung",
         "type": "xa",
         "slug": "tri-trung",
@@ -59,7 +59,7 @@
         "code": "10288",
         "parent_code": "280"
     },
-    "10291": {
+     {
         "name": "Đại Thắng",
         "type": "xa",
         "slug": "dai-thang",
@@ -69,7 +69,7 @@
         "code": "10291",
         "parent_code": "280"
     },
-    "10294": {
+     {
         "name": "Phú Túc",
         "type": "xa",
         "slug": "phu-tuc",
@@ -79,7 +79,7 @@
         "code": "10294",
         "parent_code": "280"
     },
-    "10297": {
+     {
         "name": "Văn Hoàng",
         "type": "xa",
         "slug": "van-hoang",
@@ -89,7 +89,7 @@
         "code": "10297",
         "parent_code": "280"
     },
-    "10300": {
+     {
         "name": "Hồng Thái",
         "type": "xa",
         "slug": "hong-thai",
@@ -99,7 +99,7 @@
         "code": "10300",
         "parent_code": "280"
     },
-    "10303": {
+     {
         "name": "Hoàng Long",
         "type": "xa",
         "slug": "hoang-long",
@@ -109,7 +109,7 @@
         "code": "10303",
         "parent_code": "280"
     },
-    "10306": {
+     {
         "name": "Quang Trung",
         "type": "xa",
         "slug": "quang-trung",
@@ -119,7 +119,7 @@
         "code": "10306",
         "parent_code": "280"
     },
-    "10309": {
+     {
         "name": "Nam Phong",
         "type": "xa",
         "slug": "nam-phong",
@@ -129,7 +129,7 @@
         "code": "10309",
         "parent_code": "280"
     },
-    "10312": {
+     {
         "name": "Nam Triều",
         "type": "xa",
         "slug": "nam-trieu",
@@ -139,7 +139,7 @@
         "code": "10312",
         "parent_code": "280"
     },
-    "10315": {
+     {
         "name": "Tân Dân",
         "type": "xa",
         "slug": "tan-dan",
@@ -149,7 +149,7 @@
         "code": "10315",
         "parent_code": "280"
     },
-    "10318": {
+     {
         "name": "Sơn Hà",
         "type": "xa",
         "slug": "son-ha",
@@ -159,7 +159,7 @@
         "code": "10318",
         "parent_code": "280"
     },
-    "10321": {
+     {
         "name": "Chuyên Mỹ",
         "type": "xa",
         "slug": "chuyen-my",
@@ -169,7 +169,7 @@
         "code": "10321",
         "parent_code": "280"
     },
-    "10324": {
+     {
         "name": "Khai Thái",
         "type": "xa",
         "slug": "khai-thai",
@@ -179,7 +179,7 @@
         "code": "10324",
         "parent_code": "280"
     },
-    "10327": {
+     {
         "name": "Phúc Tiến",
         "type": "xa",
         "slug": "phuc-tien",
@@ -189,7 +189,7 @@
         "code": "10327",
         "parent_code": "280"
     },
-    "10330": {
+     {
         "name": "Vân Từ",
         "type": "xa",
         "slug": "van-tu",
@@ -199,7 +199,7 @@
         "code": "10330",
         "parent_code": "280"
     },
-    "10333": {
+     {
         "name": "Tri Thủy",
         "type": "xa",
         "slug": "tri-thuy",
@@ -209,7 +209,7 @@
         "code": "10333",
         "parent_code": "280"
     },
-    "10336": {
+     {
         "name": "Đại Xuyên",
         "type": "xa",
         "slug": "dai-xuyen",
@@ -219,7 +219,7 @@
         "code": "10336",
         "parent_code": "280"
     },
-    "10339": {
+     {
         "name": "Phú Yên",
         "type": "xa",
         "slug": "phu-yen",
@@ -229,7 +229,7 @@
         "code": "10339",
         "parent_code": "280"
     },
-    "10342": {
+     {
         "name": "Bạch Hạ",
         "type": "xa",
         "slug": "bach-ha",
@@ -239,7 +239,7 @@
         "code": "10342",
         "parent_code": "280"
     },
-    "10345": {
+     {
         "name": "Quang Lãng",
         "type": "xa",
         "slug": "quang-lang",
@@ -249,7 +249,7 @@
         "code": "10345",
         "parent_code": "280"
     },
-    "10348": {
+     {
         "name": "Châu Can",
         "type": "xa",
         "slug": "chau-can",
@@ -259,7 +259,7 @@
         "code": "10348",
         "parent_code": "280"
     },
-    "10351": {
+     {
         "name": "Minh Tân",
         "type": "xa",
         "slug": "minh-tan",
@@ -269,4 +269,4 @@
         "code": "10351",
         "parent_code": "280"
     }
-}
+]}

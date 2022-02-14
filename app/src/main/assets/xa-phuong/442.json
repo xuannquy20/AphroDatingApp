@@ -1,5 +1,5 @@
 {
-    "18352": {
+    "xa":[ {
         "name": "Xuân An",
         "type": "thi-tran",
         "slug": "xuan-an",
@@ -9,7 +9,7 @@
         "code": "18352",
         "parent_code": "442"
     },
-    "18355": {
+     {
         "name": "Xuân Hội",
         "type": "xa",
         "slug": "xuan-hoi",
@@ -19,7 +19,7 @@
         "code": "18355",
         "parent_code": "442"
     },
-    "18358": {
+     {
         "name": "Đan Trường",
         "type": "xa",
         "slug": "dan-truong",
@@ -29,7 +29,7 @@
         "code": "18358",
         "parent_code": "442"
     },
-    "18364": {
+     {
         "name": "Xuân Phổ",
         "type": "xa",
         "slug": "xuan-pho",
@@ -39,7 +39,7 @@
         "code": "18364",
         "parent_code": "442"
     },
-    "18367": {
+     {
         "name": "Xuân Hải",
         "type": "xa",
         "slug": "xuan-hai",
@@ -49,7 +49,7 @@
         "code": "18367",
         "parent_code": "442"
     },
-    "18370": {
+     {
         "name": "Xuân Giang",
         "type": "xa",
         "slug": "xuan-giang",
@@ -59,7 +59,7 @@
         "code": "18370",
         "parent_code": "442"
     },
-    "18373": {
+     {
         "name": "Tiên Điền",
         "type": "thi-tran",
         "slug": "tien-dien",
@@ -69,7 +69,7 @@
         "code": "18373",
         "parent_code": "442"
     },
-    "18376": {
+     {
         "name": "Xuân Yên",
         "type": "xa",
         "slug": "xuan-yen",
@@ -79,7 +79,7 @@
         "code": "18376",
         "parent_code": "442"
     },
-    "18379": {
+     {
         "name": "Xuân Mỹ",
         "type": "xa",
         "slug": "xuan-my",
@@ -89,7 +89,7 @@
         "code": "18379",
         "parent_code": "442"
     },
-    "18382": {
+     {
         "name": "Xuân Thành",
         "type": "xa",
         "slug": "xuan-thanh",
@@ -99,7 +99,7 @@
         "code": "18382",
         "parent_code": "442"
     },
-    "18385": {
+     {
         "name": "Xuân Viên",
         "type": "xa",
         "slug": "xuan-vien",
@@ -109,7 +109,7 @@
         "code": "18385",
         "parent_code": "442"
     },
-    "18388": {
+     {
         "name": "Xuân Hồng",
         "type": "xa",
         "slug": "xuan-hong",
@@ -119,7 +119,7 @@
         "code": "18388",
         "parent_code": "442"
     },
-    "18391": {
+     {
         "name": "Cỗ Đạm",
         "type": "xa",
         "slug": "co-dam",
@@ -129,7 +129,7 @@
         "code": "18391",
         "parent_code": "442"
     },
-    "18394": {
+     {
         "name": "Xuân Liên",
         "type": "xa",
         "slug": "xuan-lien",
@@ -139,7 +139,7 @@
         "code": "18394",
         "parent_code": "442"
     },
-    "18397": {
+     {
         "name": "Xuân Lĩnh",
         "type": "xa",
         "slug": "xuan-linh",
@@ -149,7 +149,7 @@
         "code": "18397",
         "parent_code": "442"
     },
-    "18400": {
+     {
         "name": "Xuân Lam",
         "type": "xa",
         "slug": "xuan-lam",
@@ -159,7 +159,7 @@
         "code": "18400",
         "parent_code": "442"
     },
-    "18403": {
+     {
         "name": "Cương Gián",
         "type": "xa",
         "slug": "cuong-gian",
@@ -169,4 +169,4 @@
         "code": "18403",
         "parent_code": "442"
     }
-}
+]}

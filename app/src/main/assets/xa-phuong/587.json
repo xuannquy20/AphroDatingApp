@@ -1,5 +1,5 @@
 {
-    "22870": {
+    "xa":[ {
         "name": "Phước Dân",
         "type": "thi-tran",
         "slug": "phuoc-dan",
@@ -9,7 +9,7 @@
         "code": "22870",
         "parent_code": "587"
     },
-    "22873": {
+     {
         "name": "Phước Sơn",
         "type": "xa",
         "slug": "phuoc-son",
@@ -19,7 +19,7 @@
         "code": "22873",
         "parent_code": "587"
     },
-    "22876": {
+     {
         "name": "Phước Thái",
         "type": "xa",
         "slug": "phuoc-thai",
@@ -29,7 +29,7 @@
         "code": "22876",
         "parent_code": "587"
     },
-    "22879": {
+     {
         "name": "Phước Hậu",
         "type": "xa",
         "slug": "phuoc-hau",
@@ -39,7 +39,7 @@
         "code": "22879",
         "parent_code": "587"
     },
-    "22882": {
+     {
         "name": "Phước Thuận",
         "type": "xa",
         "slug": "phuoc-thuan",
@@ -49,7 +49,7 @@
         "code": "22882",
         "parent_code": "587"
     },
-    "22888": {
+     {
         "name": "An Hải",
         "type": "xa",
         "slug": "an-hai",
@@ -59,7 +59,7 @@
         "code": "22888",
         "parent_code": "587"
     },
-    "22891": {
+     {
         "name": "Phước Hữu",
         "type": "xa",
         "slug": "phuoc-huu",
@@ -69,7 +69,7 @@
         "code": "22891",
         "parent_code": "587"
     },
-    "22894": {
+     {
         "name": "Phước Hải",
         "type": "xa",
         "slug": "phuoc-hai",
@@ -79,7 +79,7 @@
         "code": "22894",
         "parent_code": "587"
     },
-    "22912": {
+     {
         "name": "Phước Vinh",
         "type": "xa",
         "slug": "phuoc-vinh",
@@ -89,4 +89,4 @@
         "code": "22912",
         "parent_code": "587"
     }
-}
+]}

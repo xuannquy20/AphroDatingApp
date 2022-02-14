@@ -1,5 +1,5 @@
 {
-    "27826": {
+    "xa":[ {
         "name": "Tân Thạnh",
         "type": "thi-tran",
         "slug": "tan-thanh",
@@ -9,7 +9,7 @@
         "code": "27826",
         "parent_code": "799"
     },
-    "27829": {
+     {
         "name": "Bắc Hòa",
         "type": "xa",
         "slug": "bac-hoa",
@@ -19,7 +19,7 @@
         "code": "27829",
         "parent_code": "799"
     },
-    "27832": {
+     {
         "name": "Hậu Thạnh Tây",
         "type": "xa",
         "slug": "hau-thanh-tay",
@@ -29,7 +29,7 @@
         "code": "27832",
         "parent_code": "799"
     },
-    "27835": {
+     {
         "name": "Nhơn Hòa Lập",
         "type": "xa",
         "slug": "nhon-hoa-lap",
@@ -39,7 +39,7 @@
         "code": "27835",
         "parent_code": "799"
     },
-    "27838": {
+     {
         "name": "Tân Lập",
         "type": "xa",
         "slug": "tan-lap",
@@ -49,7 +49,7 @@
         "code": "27838",
         "parent_code": "799"
     },
-    "27841": {
+     {
         "name": "Hậu Thạnh Đông",
         "type": "xa",
         "slug": "hau-thanh-dong",
@@ -59,7 +59,7 @@
         "code": "27841",
         "parent_code": "799"
     },
-    "27844": {
+     {
         "name": "Nhơn Hoà",
         "type": "xa",
         "slug": "nhon-hoa",
@@ -69,7 +69,7 @@
         "code": "27844",
         "parent_code": "799"
     },
-    "27847": {
+     {
         "name": "Kiến Bình",
         "type": "xa",
         "slug": "kien-binh",
@@ -79,7 +79,7 @@
         "code": "27847",
         "parent_code": "799"
     },
-    "27850": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -89,7 +89,7 @@
         "code": "27850",
         "parent_code": "799"
     },
-    "27853": {
+     {
         "name": "Tân Bình",
         "type": "xa",
         "slug": "tan-binh",
@@ -99,7 +99,7 @@
         "code": "27853",
         "parent_code": "799"
     },
-    "27856": {
+     {
         "name": "Tân Ninh",
         "type": "xa",
         "slug": "tan-ninh",
@@ -109,7 +109,7 @@
         "code": "27856",
         "parent_code": "799"
     },
-    "27859": {
+     {
         "name": "Nhơn Ninh",
         "type": "xa",
         "slug": "nhon-ninh",
@@ -119,7 +119,7 @@
         "code": "27859",
         "parent_code": "799"
     },
-    "27862": {
+     {
         "name": "Tân Hòa",
         "type": "xa",
         "slug": "tan-hoa",
@@ -129,4 +129,4 @@
         "code": "27862",
         "parent_code": "799"
     }
-}
+]}

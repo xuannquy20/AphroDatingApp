@@ -1,5 +1,5 @@
 {
-    "03154": {
+    "xa":[ {
         "name": "Sín Thầu",
         "type": "xa",
         "slug": "sin-thau",
@@ -9,7 +9,7 @@
         "code": "03154",
         "parent_code": "096"
     },
-    "03155": {
+     {
         "name": "Sen Thượng",
         "type": "xa",
         "slug": "sen-thuong",
@@ -19,7 +19,7 @@
         "code": "03155",
         "parent_code": "096"
     },
-    "03157": {
+     {
         "name": "Chung Chải",
         "type": "xa",
         "slug": "chung-chai",
@@ -29,7 +29,7 @@
         "code": "03157",
         "parent_code": "096"
     },
-    "03158": {
+     {
         "name": "Leng Su Sìn",
         "type": "xa",
         "slug": "leng-su-sin",
@@ -39,7 +39,7 @@
         "code": "03158",
         "parent_code": "096"
     },
-    "03159": {
+     {
         "name": "Pá Mỳ",
         "type": "xa",
         "slug": "pa-my",
@@ -49,7 +49,7 @@
         "code": "03159",
         "parent_code": "096"
     },
-    "03160": {
+     {
         "name": "Mường Nhé",
         "type": "xa",
         "slug": "muong-nhe",
@@ -59,7 +59,7 @@
         "code": "03160",
         "parent_code": "096"
     },
-    "03161": {
+     {
         "name": "Nậm Vì",
         "type": "xa",
         "slug": "nam-vi",
@@ -69,7 +69,7 @@
         "code": "03161",
         "parent_code": "096"
     },
-    "03162": {
+     {
         "name": "Nậm Kè",
         "type": "xa",
         "slug": "nam-ke",
@@ -79,7 +79,7 @@
         "code": "03162",
         "parent_code": "096"
     },
-    "03163": {
+     {
         "name": "Mường Toong",
         "type": "xa",
         "slug": "muong-toong",
@@ -89,7 +89,7 @@
         "code": "03163",
         "parent_code": "096"
     },
-    "03164": {
+     {
         "name": "Quảng Lâm",
         "type": "xa",
         "slug": "quang-lam",
@@ -99,7 +99,7 @@
         "code": "03164",
         "parent_code": "096"
     },
-    "03177": {
+     {
         "name": "Huổi Lếnh",
         "type": "xa",
         "slug": "huoi-lenh",
@@ -109,4 +109,4 @@
         "code": "03177",
         "parent_code": "096"
     }
-}
+]}

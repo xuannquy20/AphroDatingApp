@@ -1,5 +1,5 @@
 {
-    "04978": {
+    "xa":[ {
         "name": "Bo",
         "type": "thi-tran",
         "slug": "bo",
@@ -9,7 +9,7 @@
         "code": "04978",
         "parent_code": "153"
     },
-    "04984": {
+     {
         "name": "Đú Sáng",
         "type": "xa",
         "slug": "du-sang",
@@ -19,7 +19,7 @@
         "code": "04984",
         "parent_code": "153"
     },
-    "04987": {
+     {
         "name": "Hùng Sơn",
         "type": "xa",
         "slug": "hung-son",
@@ -29,7 +29,7 @@
         "code": "04987",
         "parent_code": "153"
     },
-    "04990": {
+     {
         "name": "Bình Sơn",
         "type": "xa",
         "slug": "binh-son",
@@ -39,7 +39,7 @@
         "code": "04990",
         "parent_code": "153"
     },
-    "04999": {
+     {
         "name": "Tú Sơn",
         "type": "xa",
         "slug": "tu-son",
@@ -49,7 +49,7 @@
         "code": "04999",
         "parent_code": "153"
     },
-    "05005": {
+     {
         "name": "Vĩnh Tiến",
         "type": "xa",
         "slug": "vinh-tien",
@@ -59,7 +59,7 @@
         "code": "05005",
         "parent_code": "153"
     },
-    "05014": {
+     {
         "name": "Đông Bắc",
         "type": "xa",
         "slug": "dong-bac",
@@ -69,7 +69,7 @@
         "code": "05014",
         "parent_code": "153"
     },
-    "05017": {
+     {
         "name": "Xuân Thủy",
         "type": "xa",
         "slug": "xuan-thuy",
@@ -79,7 +79,7 @@
         "code": "05017",
         "parent_code": "153"
     },
-    "05026": {
+     {
         "name": "Vĩnh Đồng",
         "type": "xa",
         "slug": "vinh-dong",
@@ -89,7 +89,7 @@
         "code": "05026",
         "parent_code": "153"
     },
-    "05035": {
+     {
         "name": "Kim Lập",
         "type": "xa",
         "slug": "kim-lap",
@@ -99,7 +99,7 @@
         "code": "05035",
         "parent_code": "153"
     },
-    "05038": {
+     {
         "name": "Hợp Tiến",
         "type": "xa",
         "slug": "hop-tien",
@@ -109,7 +109,7 @@
         "code": "05038",
         "parent_code": "153"
     },
-    "05065": {
+     {
         "name": "Kim Bôi",
         "type": "xa",
         "slug": "kim-boi",
@@ -119,7 +119,7 @@
         "code": "05065",
         "parent_code": "153"
     },
-    "05068": {
+     {
         "name": "Nam Thượng",
         "type": "xa",
         "slug": "nam-thuong",
@@ -129,7 +129,7 @@
         "code": "05068",
         "parent_code": "153"
     },
-    "05077": {
+     {
         "name": "Cuối Hạ",
         "type": "xa",
         "slug": "cuoi-ha",
@@ -139,7 +139,7 @@
         "code": "05077",
         "parent_code": "153"
     },
-    "05080": {
+     {
         "name": "Sào Báy",
         "type": "xa",
         "slug": "sao-bay",
@@ -149,7 +149,7 @@
         "code": "05080",
         "parent_code": "153"
     },
-    "05083": {
+     {
         "name": "Mi Hòa",
         "type": "xa",
         "slug": "mi-hoa",
@@ -159,7 +159,7 @@
         "code": "05083",
         "parent_code": "153"
     },
-    "05086": {
+     {
         "name": "Nuông Dăm",
         "type": "xa",
         "slug": "nuong-dam",
@@ -169,4 +169,4 @@
         "code": "05086",
         "parent_code": "153"
     }
-}
+]}

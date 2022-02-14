@@ -1,5 +1,5 @@
 {
-    "20551": {
+    "xa":[ {
         "name": "Vĩnh Điện",
         "type": "phuong",
         "slug": "vinh-dien",
@@ -9,7 +9,7 @@
         "code": "20551",
         "parent_code": "507"
     },
-    "20554": {
+     {
         "name": "Điện Tiến",
         "type": "xa",
         "slug": "dien-tien",
@@ -19,7 +19,7 @@
         "code": "20554",
         "parent_code": "507"
     },
-    "20557": {
+     {
         "name": "Điện Hòa",
         "type": "xa",
         "slug": "dien-hoa",
@@ -29,7 +29,7 @@
         "code": "20557",
         "parent_code": "507"
     },
-    "20560": {
+     {
         "name": "Điện Thắng Bắc",
         "type": "xa",
         "slug": "dien-thang-bac",
@@ -39,7 +39,7 @@
         "code": "20560",
         "parent_code": "507"
     },
-    "20561": {
+     {
         "name": "Điện Thắng Trung",
         "type": "xa",
         "slug": "dien-thang-trung",
@@ -49,7 +49,7 @@
         "code": "20561",
         "parent_code": "507"
     },
-    "20562": {
+     {
         "name": "Điện Thắng Nam",
         "type": "xa",
         "slug": "dien-thang-nam",
@@ -59,7 +59,7 @@
         "code": "20562",
         "parent_code": "507"
     },
-    "20563": {
+     {
         "name": "Điện Ngọc",
         "type": "phuong",
         "slug": "dien-ngoc",
@@ -69,7 +69,7 @@
         "code": "20563",
         "parent_code": "507"
     },
-    "20566": {
+     {
         "name": "Điện Hồng",
         "type": "xa",
         "slug": "dien-hong",
@@ -79,7 +79,7 @@
         "code": "20566",
         "parent_code": "507"
     },
-    "20569": {
+     {
         "name": "Điện Thọ",
         "type": "xa",
         "slug": "dien-tho",
@@ -89,7 +89,7 @@
         "code": "20569",
         "parent_code": "507"
     },
-    "20572": {
+     {
         "name": "Điện Phước",
         "type": "xa",
         "slug": "dien-phuoc",
@@ -99,7 +99,7 @@
         "code": "20572",
         "parent_code": "507"
     },
-    "20575": {
+     {
         "name": "Điện An",
         "type": "phuong",
         "slug": "dien-an",
@@ -109,7 +109,7 @@
         "code": "20575",
         "parent_code": "507"
     },
-    "20578": {
+     {
         "name": "Điện Nam Bắc",
         "type": "phuong",
         "slug": "dien-nam-bac",
@@ -119,7 +119,7 @@
         "code": "20578",
         "parent_code": "507"
     },
-    "20579": {
+     {
         "name": "Điện Nam Trung",
         "type": "phuong",
         "slug": "dien-nam-trung",
@@ -129,7 +129,7 @@
         "code": "20579",
         "parent_code": "507"
     },
-    "20580": {
+     {
         "name": "Điện Nam Đông",
         "type": "phuong",
         "slug": "dien-nam-dong",
@@ -139,7 +139,7 @@
         "code": "20580",
         "parent_code": "507"
     },
-    "20581": {
+     {
         "name": "Điện Dương",
         "type": "phuong",
         "slug": "dien-duong",
@@ -149,7 +149,7 @@
         "code": "20581",
         "parent_code": "507"
     },
-    "20584": {
+     {
         "name": "Điện Quang",
         "type": "xa",
         "slug": "dien-quang",
@@ -159,7 +159,7 @@
         "code": "20584",
         "parent_code": "507"
     },
-    "20587": {
+     {
         "name": "Điện Trung",
         "type": "xa",
         "slug": "dien-trung",
@@ -169,7 +169,7 @@
         "code": "20587",
         "parent_code": "507"
     },
-    "20590": {
+     {
         "name": "Điện Phong",
         "type": "xa",
         "slug": "dien-phong",
@@ -179,7 +179,7 @@
         "code": "20590",
         "parent_code": "507"
     },
-    "20593": {
+     {
         "name": "Điện Minh",
         "type": "xa",
         "slug": "dien-minh",
@@ -189,7 +189,7 @@
         "code": "20593",
         "parent_code": "507"
     },
-    "20596": {
+     {
         "name": "Điện Phương",
         "type": "xa",
         "slug": "dien-phuong",
@@ -199,4 +199,4 @@
         "code": "20596",
         "parent_code": "507"
     }
-}
+]}

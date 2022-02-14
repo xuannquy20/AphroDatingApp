@@ -1,5 +1,5 @@
 {
-    "23479": {
+    "xa":[ {
         "name": "Đắk Rve",
         "type": "thi-tran",
         "slug": "dak-rve",
@@ -9,7 +9,7 @@
         "code": "23479",
         "parent_code": "614"
     },
-    "23482": {
+     {
         "name": "Đắk Kôi",
         "type": "xa",
         "slug": "dak-koi",
@@ -19,7 +19,7 @@
         "code": "23482",
         "parent_code": "614"
     },
-    "23485": {
+     {
         "name": "Đắk Tơ Lung",
         "type": "xa",
         "slug": "dak-to-lung",
@@ -29,7 +29,7 @@
         "code": "23485",
         "parent_code": "614"
     },
-    "23488": {
+     {
         "name": "Đắk Ruồng",
         "type": "xa",
         "slug": "dak-ruong",
@@ -39,7 +39,7 @@
         "code": "23488",
         "parent_code": "614"
     },
-    "23491": {
+     {
         "name": "Đắk Pne",
         "type": "xa",
         "slug": "dak-pne",
@@ -49,7 +49,7 @@
         "code": "23491",
         "parent_code": "614"
     },
-    "23494": {
+     {
         "name": "Đắk Tờ Re",
         "type": "xa",
         "slug": "dak-to-re",
@@ -59,7 +59,7 @@
         "code": "23494",
         "parent_code": "614"
     },
-    "23497": {
+     {
         "name": "Tân Lập",
         "type": "xa",
         "slug": "tan-lap",
@@ -69,4 +69,4 @@
         "code": "23497",
         "parent_code": "614"
     }
-}
+]}

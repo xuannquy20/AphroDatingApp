@@ -1,5 +1,5 @@
 {
-    "13741": {
+    "xa":[ {
         "name": "Gôi",
         "type": "thi-tran",
         "slug": "goi",
@@ -9,7 +9,7 @@
         "code": "13741",
         "parent_code": "359"
     },
-    "13744": {
+     {
         "name": "Minh Thuận",
         "type": "xa",
         "slug": "minh-thuan",
@@ -19,7 +19,7 @@
         "code": "13744",
         "parent_code": "359"
     },
-    "13747": {
+     {
         "name": "Hiển Khánh",
         "type": "xa",
         "slug": "hien-khanh",
@@ -29,7 +29,7 @@
         "code": "13747",
         "parent_code": "359"
     },
-    "13750": {
+     {
         "name": "Tân Khánh",
         "type": "xa",
         "slug": "tan-khanh",
@@ -39,7 +39,7 @@
         "code": "13750",
         "parent_code": "359"
     },
-    "13753": {
+     {
         "name": "Hợp Hưng",
         "type": "xa",
         "slug": "hop-hung",
@@ -49,7 +49,7 @@
         "code": "13753",
         "parent_code": "359"
     },
-    "13756": {
+     {
         "name": "Đại An",
         "type": "xa",
         "slug": "dai-an",
@@ -59,7 +59,7 @@
         "code": "13756",
         "parent_code": "359"
     },
-    "13759": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -69,7 +69,7 @@
         "code": "13759",
         "parent_code": "359"
     },
-    "13762": {
+     {
         "name": "Cộng Hòa",
         "type": "xa",
         "slug": "cong-hoa",
@@ -79,7 +79,7 @@
         "code": "13762",
         "parent_code": "359"
     },
-    "13765": {
+     {
         "name": "Trung Thành",
         "type": "xa",
         "slug": "trung-thanh",
@@ -89,7 +89,7 @@
         "code": "13765",
         "parent_code": "359"
     },
-    "13768": {
+     {
         "name": "Quang Trung",
         "type": "xa",
         "slug": "quang-trung",
@@ -99,7 +99,7 @@
         "code": "13768",
         "parent_code": "359"
     },
-    "13771": {
+     {
         "name": "Minh Tân",
         "type": "xa",
         "slug": "minh-tan",
@@ -109,7 +109,7 @@
         "code": "13771",
         "parent_code": "359"
     },
-    "13774": {
+     {
         "name": "Liên Bảo",
         "type": "xa",
         "slug": "lien-bao",
@@ -119,7 +119,7 @@
         "code": "13774",
         "parent_code": "359"
     },
-    "13777": {
+     {
         "name": "Thành Lợi",
         "type": "xa",
         "slug": "thanh-loi",
@@ -129,7 +129,7 @@
         "code": "13777",
         "parent_code": "359"
     },
-    "13780": {
+     {
         "name": "Kim Thái",
         "type": "xa",
         "slug": "kim-thai",
@@ -139,7 +139,7 @@
         "code": "13780",
         "parent_code": "359"
     },
-    "13783": {
+     {
         "name": "Liên Minh",
         "type": "xa",
         "slug": "lien-minh",
@@ -149,7 +149,7 @@
         "code": "13783",
         "parent_code": "359"
     },
-    "13786": {
+     {
         "name": "Đại Thắng",
         "type": "xa",
         "slug": "dai-thang",
@@ -159,7 +159,7 @@
         "code": "13786",
         "parent_code": "359"
     },
-    "13789": {
+     {
         "name": "Tam Thanh",
         "type": "xa",
         "slug": "tam-thanh",
@@ -169,7 +169,7 @@
         "code": "13789",
         "parent_code": "359"
     },
-    "13792": {
+     {
         "name": "Vĩnh Hào",
         "type": "xa",
         "slug": "vinh-hao",
@@ -179,4 +179,4 @@
         "code": "13792",
         "parent_code": "359"
     }
-}
+]}

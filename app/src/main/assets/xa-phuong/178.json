@@ -1,5 +1,5 @@
 {
-    "05971": {
+    "xa":[ {
         "name": "Hoàng Văn Thụ",
         "type": "phuong",
         "slug": "hoang-van-thu",
@@ -9,7 +9,7 @@
         "code": "05971",
         "parent_code": "178"
     },
-    "05974": {
+     {
         "name": "Tam Thanh",
         "type": "phuong",
         "slug": "tam-thanh",
@@ -19,7 +19,7 @@
         "code": "05974",
         "parent_code": "178"
     },
-    "05977": {
+     {
         "name": "Vĩnh Trại",
         "type": "phuong",
         "slug": "vinh-trai",
@@ -29,7 +29,7 @@
         "code": "05977",
         "parent_code": "178"
     },
-    "05980": {
+     {
         "name": "Đông Kinh",
         "type": "phuong",
         "slug": "dong-kinh",
@@ -39,7 +39,7 @@
         "code": "05980",
         "parent_code": "178"
     },
-    "05983": {
+     {
         "name": "Chi Lăng",
         "type": "phuong",
         "slug": "chi-lang",
@@ -49,7 +49,7 @@
         "code": "05983",
         "parent_code": "178"
     },
-    "05986": {
+     {
         "name": "Hoàng Đồng",
         "type": "xa",
         "slug": "hoang-dong",
@@ -59,7 +59,7 @@
         "code": "05986",
         "parent_code": "178"
     },
-    "05989": {
+     {
         "name": "Quảng Lạc",
         "type": "xa",
         "slug": "quang-lac",
@@ -69,7 +69,7 @@
         "code": "05989",
         "parent_code": "178"
     },
-    "05992": {
+     {
         "name": "Mai Pha",
         "type": "xa",
         "slug": "mai-pha",
@@ -79,4 +79,4 @@
         "code": "05992",
         "parent_code": "178"
     }
-}
+]}

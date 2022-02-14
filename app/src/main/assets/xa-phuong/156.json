@@ -1,5 +1,5 @@
 {
-    "04882": {
+    "xa":[ {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -9,7 +9,7 @@
         "code": "04882",
         "parent_code": "156"
     },
-    "05200": {
+     {
         "name": "Mai Châu",
         "type": "thi-tran",
         "slug": "mai-chau",
@@ -19,7 +19,7 @@
         "code": "05200",
         "parent_code": "156"
     },
-    "05206": {
+     {
         "name": "Sơn Thủy",
         "type": "xa",
         "slug": "son-thuy",
@@ -29,7 +29,7 @@
         "code": "05206",
         "parent_code": "156"
     },
-    "05209": {
+     {
         "name": "Pà Cò",
         "type": "xa",
         "slug": "pa-co",
@@ -39,7 +39,7 @@
         "code": "05209",
         "parent_code": "156"
     },
-    "05212": {
+     {
         "name": "Hang Kia",
         "type": "xa",
         "slug": "hang-kia",
@@ -49,7 +49,7 @@
         "code": "05212",
         "parent_code": "156"
     },
-    "05221": {
+     {
         "name": "Đồng Tân",
         "type": "xa",
         "slug": "dong-tan",
@@ -59,7 +59,7 @@
         "code": "05221",
         "parent_code": "156"
     },
-    "05224": {
+     {
         "name": "Cun Pheo",
         "type": "xa",
         "slug": "cun-pheo",
@@ -69,7 +69,7 @@
         "code": "05224",
         "parent_code": "156"
     },
-    "05227": {
+     {
         "name": "Bao La",
         "type": "xa",
         "slug": "bao-la",
@@ -79,7 +79,7 @@
         "code": "05227",
         "parent_code": "156"
     },
-    "05233": {
+     {
         "name": "Tòng Đậu",
         "type": "xa",
         "slug": "tong-dau",
@@ -89,7 +89,7 @@
         "code": "05233",
         "parent_code": "156"
     },
-    "05242": {
+     {
         "name": "Nà Phòn",
         "type": "xa",
         "slug": "na-phon",
@@ -99,7 +99,7 @@
         "code": "05242",
         "parent_code": "156"
     },
-    "05245": {
+     {
         "name": "Săm Khóe",
         "type": "xa",
         "slug": "sam-khoe",
@@ -109,7 +109,7 @@
         "code": "05245",
         "parent_code": "156"
     },
-    "05248": {
+     {
         "name": "Chiềng Châu",
         "type": "xa",
         "slug": "chieng-chau",
@@ -119,7 +119,7 @@
         "code": "05248",
         "parent_code": "156"
     },
-    "05251": {
+     {
         "name": "Mai Hạ",
         "type": "xa",
         "slug": "mai-ha",
@@ -129,7 +129,7 @@
         "code": "05251",
         "parent_code": "156"
     },
-    "05254": {
+     {
         "name": "Thành Sơn",
         "type": "xa",
         "slug": "thanh-son",
@@ -139,7 +139,7 @@
         "code": "05254",
         "parent_code": "156"
     },
-    "05257": {
+     {
         "name": "Mai Hịch",
         "type": "xa",
         "slug": "mai-hich",
@@ -149,7 +149,7 @@
         "code": "05257",
         "parent_code": "156"
     },
-    "05263": {
+     {
         "name": "Vạn Mai",
         "type": "xa",
         "slug": "van-mai",
@@ -159,4 +159,4 @@
         "code": "05263",
         "parent_code": "156"
     }
-}
+]}

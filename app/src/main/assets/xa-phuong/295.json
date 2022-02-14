@@ -1,5 +1,5 @@
 {
-    "10888": {
+    "xa":[ {
         "name": "Cẩm Giang",
         "type": "thi-tran",
         "slug": "cam-giang",
@@ -9,7 +9,7 @@
         "code": "10888",
         "parent_code": "295"
     },
-    "10891": {
+     {
         "name": "Lai Cách",
         "type": "thi-tran",
         "slug": "lai-cach",
@@ -19,7 +19,7 @@
         "code": "10891",
         "parent_code": "295"
     },
-    "10894": {
+     {
         "name": "Cẩm Hưng",
         "type": "xa",
         "slug": "cam-hung",
@@ -29,7 +29,7 @@
         "code": "10894",
         "parent_code": "295"
     },
-    "10897": {
+     {
         "name": "Cẩm Hoàng",
         "type": "xa",
         "slug": "cam-hoang",
@@ -39,7 +39,7 @@
         "code": "10897",
         "parent_code": "295"
     },
-    "10900": {
+     {
         "name": "Cẩm Văn",
         "type": "xa",
         "slug": "cam-van",
@@ -49,7 +49,7 @@
         "code": "10900",
         "parent_code": "295"
     },
-    "10903": {
+     {
         "name": "Ngọc Liên",
         "type": "xa",
         "slug": "ngoc-lien",
@@ -59,7 +59,7 @@
         "code": "10903",
         "parent_code": "295"
     },
-    "10906": {
+     {
         "name": "Thạch Lỗi",
         "type": "xa",
         "slug": "thach-loi",
@@ -69,7 +69,7 @@
         "code": "10906",
         "parent_code": "295"
     },
-    "10909": {
+     {
         "name": "Cẩm Vũ",
         "type": "xa",
         "slug": "cam-vu",
@@ -79,7 +79,7 @@
         "code": "10909",
         "parent_code": "295"
     },
-    "10912": {
+     {
         "name": "Đức Chính",
         "type": "xa",
         "slug": "duc-chinh",
@@ -89,7 +89,7 @@
         "code": "10912",
         "parent_code": "295"
     },
-    "10918": {
+     {
         "name": "Định Sơn",
         "type": "xa",
         "slug": "dinh-son",
@@ -99,7 +99,7 @@
         "code": "10918",
         "parent_code": "295"
     },
-    "10924": {
+     {
         "name": "Lương Điền",
         "type": "xa",
         "slug": "luong-dien",
@@ -109,7 +109,7 @@
         "code": "10924",
         "parent_code": "295"
     },
-    "10927": {
+     {
         "name": "Cao An",
         "type": "xa",
         "slug": "cao-an",
@@ -119,7 +119,7 @@
         "code": "10927",
         "parent_code": "295"
     },
-    "10930": {
+     {
         "name": "Tân Trường",
         "type": "xa",
         "slug": "tan-truong",
@@ -129,7 +129,7 @@
         "code": "10930",
         "parent_code": "295"
     },
-    "10933": {
+     {
         "name": "Cẩm Phúc",
         "type": "xa",
         "slug": "cam-phuc",
@@ -139,7 +139,7 @@
         "code": "10933",
         "parent_code": "295"
     },
-    "10936": {
+     {
         "name": "Cẩm Điền",
         "type": "xa",
         "slug": "cam-dien",
@@ -149,7 +149,7 @@
         "code": "10936",
         "parent_code": "295"
     },
-    "10939": {
+     {
         "name": "Cẩm Đông",
         "type": "xa",
         "slug": "cam-dong",
@@ -159,7 +159,7 @@
         "code": "10939",
         "parent_code": "295"
     },
-    "10942": {
+     {
         "name": "Cẩm Đoài",
         "type": "xa",
         "slug": "cam-doai",
@@ -169,4 +169,4 @@
         "code": "10942",
         "parent_code": "295"
     }
-}
+]}

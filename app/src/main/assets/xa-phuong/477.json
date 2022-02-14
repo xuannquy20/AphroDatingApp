@@ -1,5 +1,5 @@
 {
-    "19867": {
+    "xa":[ {
         "name": "Sịa",
         "type": "thi-tran",
         "slug": "sia",
@@ -9,7 +9,7 @@
         "code": "19867",
         "parent_code": "477"
     },
-    "19870": {
+     {
         "name": "Quảng Thái",
         "type": "xa",
         "slug": "quang-thai",
@@ -19,7 +19,7 @@
         "code": "19870",
         "parent_code": "477"
     },
-    "19873": {
+     {
         "name": "Quảng Ngạn",
         "type": "xa",
         "slug": "quang-ngan",
@@ -29,7 +29,7 @@
         "code": "19873",
         "parent_code": "477"
     },
-    "19876": {
+     {
         "name": "Quảng Lợi",
         "type": "xa",
         "slug": "quang-loi",
@@ -39,7 +39,7 @@
         "code": "19876",
         "parent_code": "477"
     },
-    "19879": {
+     {
         "name": "Quảng Công",
         "type": "xa",
         "slug": "quang-cong",
@@ -49,7 +49,7 @@
         "code": "19879",
         "parent_code": "477"
     },
-    "19882": {
+     {
         "name": "Quảng Phước",
         "type": "xa",
         "slug": "quang-phuoc",
@@ -59,7 +59,7 @@
         "code": "19882",
         "parent_code": "477"
     },
-    "19885": {
+     {
         "name": "Quảng Vinh",
         "type": "xa",
         "slug": "quang-vinh",
@@ -69,7 +69,7 @@
         "code": "19885",
         "parent_code": "477"
     },
-    "19888": {
+     {
         "name": "Quảng An",
         "type": "xa",
         "slug": "quang-an",
@@ -79,7 +79,7 @@
         "code": "19888",
         "parent_code": "477"
     },
-    "19891": {
+     {
         "name": "Quảng Thành",
         "type": "xa",
         "slug": "quang-thanh",
@@ -89,7 +89,7 @@
         "code": "19891",
         "parent_code": "477"
     },
-    "19894": {
+     {
         "name": "Quảng Thọ",
         "type": "xa",
         "slug": "quang-tho",
@@ -99,7 +99,7 @@
         "code": "19894",
         "parent_code": "477"
     },
-    "19897": {
+     {
         "name": "Quảng Phú",
         "type": "xa",
         "slug": "quang-phu",
@@ -109,4 +109,4 @@
         "code": "19897",
         "parent_code": "477"
     }
-}
+]}

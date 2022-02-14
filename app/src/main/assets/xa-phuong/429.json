@@ -1,5 +1,5 @@
 {
-    "17827": {
+    "xa":[ {
         "name": "Quán Hành",
         "type": "thi-tran",
         "slug": "quan-hanh",
@@ -9,7 +9,7 @@
         "code": "17827",
         "parent_code": "429"
     },
-    "17830": {
+     {
         "name": "Nghi Văn",
         "type": "xa",
         "slug": "nghi-van",
@@ -19,7 +19,7 @@
         "code": "17830",
         "parent_code": "429"
     },
-    "17833": {
+     {
         "name": "Nghi Yên",
         "type": "xa",
         "slug": "nghi-yen",
@@ -29,7 +29,7 @@
         "code": "17833",
         "parent_code": "429"
     },
-    "17836": {
+     {
         "name": "Nghi Tiến",
         "type": "xa",
         "slug": "nghi-tien",
@@ -39,7 +39,7 @@
         "code": "17836",
         "parent_code": "429"
     },
-    "17839": {
+     {
         "name": "Nghi Hưng",
         "type": "xa",
         "slug": "nghi-hung",
@@ -49,7 +49,7 @@
         "code": "17839",
         "parent_code": "429"
     },
-    "17842": {
+     {
         "name": "Nghi Đồng",
         "type": "xa",
         "slug": "nghi-dong",
@@ -59,7 +59,7 @@
         "code": "17842",
         "parent_code": "429"
     },
-    "17845": {
+     {
         "name": "Nghi Thiết",
         "type": "xa",
         "slug": "nghi-thiet",
@@ -69,7 +69,7 @@
         "code": "17845",
         "parent_code": "429"
     },
-    "17848": {
+     {
         "name": "Nghi Lâm",
         "type": "xa",
         "slug": "nghi-lam",
@@ -79,7 +79,7 @@
         "code": "17848",
         "parent_code": "429"
     },
-    "17851": {
+     {
         "name": "Nghi Quang",
         "type": "xa",
         "slug": "nghi-quang",
@@ -89,7 +89,7 @@
         "code": "17851",
         "parent_code": "429"
     },
-    "17854": {
+     {
         "name": "Nghi Kiều",
         "type": "xa",
         "slug": "nghi-kieu",
@@ -99,7 +99,7 @@
         "code": "17854",
         "parent_code": "429"
     },
-    "17857": {
+     {
         "name": "Nghi Mỹ",
         "type": "xa",
         "slug": "nghi-my",
@@ -109,7 +109,7 @@
         "code": "17857",
         "parent_code": "429"
     },
-    "17860": {
+     {
         "name": "Nghi Phương",
         "type": "xa",
         "slug": "nghi-phuong",
@@ -119,7 +119,7 @@
         "code": "17860",
         "parent_code": "429"
     },
-    "17863": {
+     {
         "name": "Nghi Thuận",
         "type": "xa",
         "slug": "nghi-thuan",
@@ -129,7 +129,7 @@
         "code": "17863",
         "parent_code": "429"
     },
-    "17866": {
+     {
         "name": "Nghi Long",
         "type": "xa",
         "slug": "nghi-long",
@@ -139,7 +139,7 @@
         "code": "17866",
         "parent_code": "429"
     },
-    "17869": {
+     {
         "name": "Nghi Xá",
         "type": "xa",
         "slug": "nghi-xa",
@@ -149,7 +149,7 @@
         "code": "17869",
         "parent_code": "429"
     },
-    "17875": {
+     {
         "name": "Nghi Hoa",
         "type": "xa",
         "slug": "nghi-hoa",
@@ -159,7 +159,7 @@
         "code": "17875",
         "parent_code": "429"
     },
-    "17878": {
+     {
         "name": "Khánh Hợp",
         "type": "xa",
         "slug": "khanh-hop",
@@ -169,7 +169,7 @@
         "code": "17878",
         "parent_code": "429"
     },
-    "17881": {
+     {
         "name": "Nghi Thịnh",
         "type": "xa",
         "slug": "nghi-thinh",
@@ -179,7 +179,7 @@
         "code": "17881",
         "parent_code": "429"
     },
-    "17884": {
+     {
         "name": "Nghi Công Bắc",
         "type": "xa",
         "slug": "nghi-cong-bac",
@@ -189,7 +189,7 @@
         "code": "17884",
         "parent_code": "429"
     },
-    "17887": {
+     {
         "name": "Nghi Công Nam",
         "type": "xa",
         "slug": "nghi-cong-nam",
@@ -199,7 +199,7 @@
         "code": "17887",
         "parent_code": "429"
     },
-    "17890": {
+     {
         "name": "Nghi Thạch",
         "type": "xa",
         "slug": "nghi-thach",
@@ -209,7 +209,7 @@
         "code": "17890",
         "parent_code": "429"
     },
-    "17893": {
+     {
         "name": "Nghi Trung",
         "type": "xa",
         "slug": "nghi-trung",
@@ -219,7 +219,7 @@
         "code": "17893",
         "parent_code": "429"
     },
-    "17896": {
+     {
         "name": "Nghi Trường",
         "type": "xa",
         "slug": "nghi-truong",
@@ -229,7 +229,7 @@
         "code": "17896",
         "parent_code": "429"
     },
-    "17899": {
+     {
         "name": "Nghi Diên",
         "type": "xa",
         "slug": "nghi-dien",
@@ -239,7 +239,7 @@
         "code": "17899",
         "parent_code": "429"
     },
-    "17902": {
+     {
         "name": "Nghi Phong",
         "type": "xa",
         "slug": "nghi-phong",
@@ -249,7 +249,7 @@
         "code": "17902",
         "parent_code": "429"
     },
-    "17905": {
+     {
         "name": "Nghi Xuân",
         "type": "xa",
         "slug": "nghi-xuan",
@@ -259,7 +259,7 @@
         "code": "17905",
         "parent_code": "429"
     },
-    "17911": {
+     {
         "name": "Nghi Vạn",
         "type": "xa",
         "slug": "nghi-van",
@@ -269,7 +269,7 @@
         "code": "17911",
         "parent_code": "429"
     },
-    "17917": {
+     {
         "name": "Phúc Thọ",
         "type": "xa",
         "slug": "phuc-tho",
@@ -279,7 +279,7 @@
         "code": "17917",
         "parent_code": "429"
     },
-    "17926": {
+     {
         "name": "Nghi Thái",
         "type": "xa",
         "slug": "nghi-thai",
@@ -289,4 +289,4 @@
         "code": "17926",
         "parent_code": "429"
     }
-}
+]}

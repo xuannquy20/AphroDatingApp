@@ -1,5 +1,5 @@
 {
-    "01834": {
+    "xa":[ {
         "name": "Nguyễn Thị Minh Khai",
         "type": "phuong",
         "slug": "nguyen-thi-minh-khai",
@@ -9,7 +9,7 @@
         "code": "01834",
         "parent_code": "058"
     },
-    "01837": {
+     {
         "name": "Sông Cầu",
         "type": "phuong",
         "slug": "song-cau",
@@ -19,7 +19,7 @@
         "code": "01837",
         "parent_code": "058"
     },
-    "01840": {
+     {
         "name": "Đức Xuân",
         "type": "phuong",
         "slug": "duc-xuan",
@@ -29,7 +29,7 @@
         "code": "01840",
         "parent_code": "058"
     },
-    "01843": {
+     {
         "name": "Phùng Chí Kiên",
         "type": "phuong",
         "slug": "phung-chi-kien",
@@ -39,7 +39,7 @@
         "code": "01843",
         "parent_code": "058"
     },
-    "01846": {
+     {
         "name": "Huyền Tụng",
         "type": "phuong",
         "slug": "huyen-tung",
@@ -49,7 +49,7 @@
         "code": "01846",
         "parent_code": "058"
     },
-    "01849": {
+     {
         "name": "Dương Quang",
         "type": "xa",
         "slug": "duong-quang",
@@ -59,7 +59,7 @@
         "code": "01849",
         "parent_code": "058"
     },
-    "01852": {
+     {
         "name": "Nông Thượng",
         "type": "xa",
         "slug": "nong-thuong",
@@ -69,7 +69,7 @@
         "code": "01852",
         "parent_code": "058"
     },
-    "01855": {
+     {
         "name": "Xuất Hóa",
         "type": "phuong",
         "slug": "xuat-hoa",
@@ -79,4 +79,4 @@
         "code": "01855",
         "parent_code": "058"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "10114": {
+    "xa":[ {
         "name": "Kim Bài",
         "type": "thi-tran",
         "slug": "kim-bai",
@@ -9,7 +9,7 @@
         "code": "10114",
         "parent_code": "278"
     },
-    "10120": {
+     {
         "name": "Cự Khê",
         "type": "xa",
         "slug": "cu-khe",
@@ -19,7 +19,7 @@
         "code": "10120",
         "parent_code": "278"
     },
-    "10126": {
+     {
         "name": "Bích Hòa",
         "type": "xa",
         "slug": "bich-hoa",
@@ -29,7 +29,7 @@
         "code": "10126",
         "parent_code": "278"
     },
-    "10129": {
+     {
         "name": "Mỹ Hưng",
         "type": "xa",
         "slug": "my-hung",
@@ -39,7 +39,7 @@
         "code": "10129",
         "parent_code": "278"
     },
-    "10132": {
+     {
         "name": "Cao Viên",
         "type": "xa",
         "slug": "cao-vien",
@@ -49,7 +49,7 @@
         "code": "10132",
         "parent_code": "278"
     },
-    "10135": {
+     {
         "name": "Bình Minh",
         "type": "xa",
         "slug": "binh-minh",
@@ -59,7 +59,7 @@
         "code": "10135",
         "parent_code": "278"
     },
-    "10138": {
+     {
         "name": "Tam Hưng",
         "type": "xa",
         "slug": "tam-hung",
@@ -69,7 +69,7 @@
         "code": "10138",
         "parent_code": "278"
     },
-    "10141": {
+     {
         "name": "Thanh Cao",
         "type": "xa",
         "slug": "thanh-cao",
@@ -79,7 +79,7 @@
         "code": "10141",
         "parent_code": "278"
     },
-    "10144": {
+     {
         "name": "Thanh Thùy",
         "type": "xa",
         "slug": "thanh-thuy",
@@ -89,7 +89,7 @@
         "code": "10144",
         "parent_code": "278"
     },
-    "10147": {
+     {
         "name": "Thanh Mai",
         "type": "xa",
         "slug": "thanh-mai",
@@ -99,7 +99,7 @@
         "code": "10147",
         "parent_code": "278"
     },
-    "10150": {
+     {
         "name": "Thanh Văn",
         "type": "xa",
         "slug": "thanh-van",
@@ -109,7 +109,7 @@
         "code": "10150",
         "parent_code": "278"
     },
-    "10153": {
+     {
         "name": "Đỗ Động",
         "type": "xa",
         "slug": "do-dong",
@@ -119,7 +119,7 @@
         "code": "10153",
         "parent_code": "278"
     },
-    "10156": {
+     {
         "name": "Kim An",
         "type": "xa",
         "slug": "kim-an",
@@ -129,7 +129,7 @@
         "code": "10156",
         "parent_code": "278"
     },
-    "10159": {
+     {
         "name": "Kim Thư",
         "type": "xa",
         "slug": "kim-thu",
@@ -139,7 +139,7 @@
         "code": "10159",
         "parent_code": "278"
     },
-    "10162": {
+     {
         "name": "Phương Trung",
         "type": "xa",
         "slug": "phuong-trung",
@@ -149,7 +149,7 @@
         "code": "10162",
         "parent_code": "278"
     },
-    "10165": {
+     {
         "name": "Tân Ước",
         "type": "xa",
         "slug": "tan-uoc",
@@ -159,7 +159,7 @@
         "code": "10165",
         "parent_code": "278"
     },
-    "10168": {
+     {
         "name": "Dân Hòa",
         "type": "xa",
         "slug": "dan-hoa",
@@ -169,7 +169,7 @@
         "code": "10168",
         "parent_code": "278"
     },
-    "10171": {
+     {
         "name": "Liên Châu",
         "type": "xa",
         "slug": "lien-chau",
@@ -179,7 +179,7 @@
         "code": "10171",
         "parent_code": "278"
     },
-    "10174": {
+     {
         "name": "Cao Dương",
         "type": "xa",
         "slug": "cao-duong",
@@ -189,7 +189,7 @@
         "code": "10174",
         "parent_code": "278"
     },
-    "10177": {
+     {
         "name": "Xuân Dương",
         "type": "xa",
         "slug": "xuan-duong",
@@ -199,7 +199,7 @@
         "code": "10177",
         "parent_code": "278"
     },
-    "10180": {
+     {
         "name": "Hồng Dương",
         "type": "xa",
         "slug": "hong-duong",
@@ -209,4 +209,4 @@
         "code": "10180",
         "parent_code": "278"
     }
-}
+]}

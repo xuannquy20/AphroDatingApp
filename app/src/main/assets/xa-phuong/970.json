@@ -1,5 +1,5 @@
 {
-    "32152": {
+    "xa":[ {
         "name": "Đầm Dơi",
         "type": "thi-tran",
         "slug": "dam-doi",
@@ -9,7 +9,7 @@
         "code": "32152",
         "parent_code": "970"
     },
-    "32155": {
+     {
         "name": "Tạ An Khương",
         "type": "xa",
         "slug": "ta-an-khuong",
@@ -19,7 +19,7 @@
         "code": "32155",
         "parent_code": "970"
     },
-    "32158": {
+     {
         "name": "Tạ An Khương  Đông",
         "type": "xa",
         "slug": "ta-an-khuong-dong",
@@ -29,7 +29,7 @@
         "code": "32158",
         "parent_code": "970"
     },
-    "32161": {
+     {
         "name": "Trần Phán",
         "type": "xa",
         "slug": "tran-phan",
@@ -39,7 +39,7 @@
         "code": "32161",
         "parent_code": "970"
     },
-    "32162": {
+     {
         "name": "Tân Trung",
         "type": "xa",
         "slug": "tan-trung",
@@ -49,7 +49,7 @@
         "code": "32162",
         "parent_code": "970"
     },
-    "32164": {
+     {
         "name": "Tân Đức",
         "type": "xa",
         "slug": "tan-duc",
@@ -59,7 +59,7 @@
         "code": "32164",
         "parent_code": "970"
     },
-    "32167": {
+     {
         "name": "Tân Thuận",
         "type": "xa",
         "slug": "tan-thuan",
@@ -69,7 +69,7 @@
         "code": "32167",
         "parent_code": "970"
     },
-    "32170": {
+     {
         "name": "Tạ An Khương  Nam",
         "type": "xa",
         "slug": "ta-an-khuong-nam",
@@ -79,7 +79,7 @@
         "code": "32170",
         "parent_code": "970"
     },
-    "32173": {
+     {
         "name": "Tân Duyệt",
         "type": "xa",
         "slug": "tan-duyet",
@@ -89,7 +89,7 @@
         "code": "32173",
         "parent_code": "970"
     },
-    "32174": {
+     {
         "name": "Tân Dân",
         "type": "xa",
         "slug": "tan-dan",
@@ -99,7 +99,7 @@
         "code": "32174",
         "parent_code": "970"
     },
-    "32176": {
+     {
         "name": "Tân Tiến",
         "type": "xa",
         "slug": "tan-tien",
@@ -109,7 +109,7 @@
         "code": "32176",
         "parent_code": "970"
     },
-    "32179": {
+     {
         "name": "Quách Phẩm Bắc",
         "type": "xa",
         "slug": "quach-pham-bac",
@@ -119,7 +119,7 @@
         "code": "32179",
         "parent_code": "970"
     },
-    "32182": {
+     {
         "name": "Quách Phẩm",
         "type": "xa",
         "slug": "quach-pham",
@@ -129,7 +129,7 @@
         "code": "32182",
         "parent_code": "970"
     },
-    "32185": {
+     {
         "name": "Thanh Tùng",
         "type": "xa",
         "slug": "thanh-tung",
@@ -139,7 +139,7 @@
         "code": "32185",
         "parent_code": "970"
     },
-    "32186": {
+     {
         "name": "Ngọc Chánh",
         "type": "xa",
         "slug": "ngoc-chanh",
@@ -149,7 +149,7 @@
         "code": "32186",
         "parent_code": "970"
     },
-    "32188": {
+     {
         "name": "Nguyễn Huân",
         "type": "xa",
         "slug": "nguyen-huan",
@@ -159,4 +159,4 @@
         "code": "32188",
         "parent_code": "970"
     }
-}
+]}

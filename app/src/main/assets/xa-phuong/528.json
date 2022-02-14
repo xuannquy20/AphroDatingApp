@@ -1,5 +1,5 @@
 {
-    "21235": {
+    "xa":[ {
         "name": "La Hà",
         "type": "thi-tran",
         "slug": "la-ha",
@@ -9,7 +9,7 @@
         "code": "21235",
         "parent_code": "528"
     },
-    "21238": {
+     {
         "name": "Sông Vệ",
         "type": "thi-tran",
         "slug": "song-ve",
@@ -19,7 +19,7 @@
         "code": "21238",
         "parent_code": "528"
     },
-    "21241": {
+     {
         "name": "Nghĩa Lâm",
         "type": "xa",
         "slug": "nghia-lam",
@@ -29,7 +29,7 @@
         "code": "21241",
         "parent_code": "528"
     },
-    "21244": {
+     {
         "name": "Nghĩa Thắng",
         "type": "xa",
         "slug": "nghia-thang",
@@ -39,7 +39,7 @@
         "code": "21244",
         "parent_code": "528"
     },
-    "21247": {
+     {
         "name": "Nghĩa Thuận",
         "type": "xa",
         "slug": "nghia-thuan",
@@ -49,7 +49,7 @@
         "code": "21247",
         "parent_code": "528"
     },
-    "21250": {
+     {
         "name": "Nghĩa Kỳ",
         "type": "xa",
         "slug": "nghia-ky",
@@ -59,7 +59,7 @@
         "code": "21250",
         "parent_code": "528"
     },
-    "21259": {
+     {
         "name": "Nghĩa Sơn",
         "type": "xa",
         "slug": "nghia-son",
@@ -69,7 +69,7 @@
         "code": "21259",
         "parent_code": "528"
     },
-    "21268": {
+     {
         "name": "Nghĩa Hòa",
         "type": "xa",
         "slug": "nghia-hoa",
@@ -79,7 +79,7 @@
         "code": "21268",
         "parent_code": "528"
     },
-    "21271": {
+     {
         "name": "Nghĩa Điền",
         "type": "xa",
         "slug": "nghia-dien",
@@ -89,7 +89,7 @@
         "code": "21271",
         "parent_code": "528"
     },
-    "21274": {
+     {
         "name": "Nghĩa Thương",
         "type": "xa",
         "slug": "nghia-thuong",
@@ -99,7 +99,7 @@
         "code": "21274",
         "parent_code": "528"
     },
-    "21277": {
+     {
         "name": "Nghĩa Trung",
         "type": "xa",
         "slug": "nghia-trung",
@@ -109,7 +109,7 @@
         "code": "21277",
         "parent_code": "528"
     },
-    "21280": {
+     {
         "name": "Nghĩa Hiệp",
         "type": "xa",
         "slug": "nghia-hiep",
@@ -119,7 +119,7 @@
         "code": "21280",
         "parent_code": "528"
     },
-    "21283": {
+     {
         "name": "Nghĩa Phương",
         "type": "xa",
         "slug": "nghia-phuong",
@@ -129,7 +129,7 @@
         "code": "21283",
         "parent_code": "528"
     },
-    "21286": {
+     {
         "name": "Nghĩa Mỹ",
         "type": "xa",
         "slug": "nghia-my",
@@ -139,4 +139,4 @@
         "code": "21286",
         "parent_code": "528"
     }
-}
+]}

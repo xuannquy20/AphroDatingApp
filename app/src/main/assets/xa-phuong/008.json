@@ -1,5 +1,5 @@
 {
-    "00301": {
+    "xa": [{
         "name": "Thanh Trì",
         "type": "phuong",
         "slug": "thanh-tri",
@@ -9,7 +9,7 @@
         "code": "00301",
         "parent_code": "008"
     },
-    "00304": {
+     {
         "name": "Vĩnh Hưng",
         "type": "phuong",
         "slug": "vinh-hung",
@@ -19,7 +19,7 @@
         "code": "00304",
         "parent_code": "008"
     },
-    "00307": {
+     {
         "name": "Định Công",
         "type": "phuong",
         "slug": "dinh-cong",
@@ -29,7 +29,7 @@
         "code": "00307",
         "parent_code": "008"
     },
-    "00310": {
+     {
         "name": "Mai Động",
         "type": "phuong",
         "slug": "mai-dong",
@@ -39,7 +39,7 @@
         "code": "00310",
         "parent_code": "008"
     },
-    "00313": {
+     {
         "name": "Tương Mai",
         "type": "phuong",
         "slug": "tuong-mai",
@@ -49,7 +49,7 @@
         "code": "00313",
         "parent_code": "008"
     },
-    "00316": {
+     {
         "name": "Đại Kim",
         "type": "phuong",
         "slug": "dai-kim",
@@ -59,7 +59,7 @@
         "code": "00316",
         "parent_code": "008"
     },
-    "00319": {
+     {
         "name": "Tân Mai",
         "type": "phuong",
         "slug": "tan-mai",
@@ -69,7 +69,7 @@
         "code": "00319",
         "parent_code": "008"
     },
-    "00322": {
+     {
         "name": "Hoàng Văn Thụ",
         "type": "phuong",
         "slug": "hoang-van-thu",
@@ -79,7 +79,7 @@
         "code": "00322",
         "parent_code": "008"
     },
-    "00325": {
+     {
         "name": "Giáp Bát",
         "type": "phuong",
         "slug": "giap-bat",
@@ -89,7 +89,7 @@
         "code": "00325",
         "parent_code": "008"
     },
-    "00328": {
+     {
         "name": "Lĩnh Nam",
         "type": "phuong",
         "slug": "linh-nam",
@@ -99,7 +99,7 @@
         "code": "00328",
         "parent_code": "008"
     },
-    "00331": {
+     {
         "name": "Thịnh Liệt",
         "type": "phuong",
         "slug": "thinh-liet",
@@ -109,7 +109,7 @@
         "code": "00331",
         "parent_code": "008"
     },
-    "00334": {
+     {
         "name": "Trần Phú",
         "type": "phuong",
         "slug": "tran-phu",
@@ -119,7 +119,7 @@
         "code": "00334",
         "parent_code": "008"
     },
-    "00337": {
+     {
         "name": "Hoàng Liệt",
         "type": "phuong",
         "slug": "hoang-liet",
@@ -129,7 +129,7 @@
         "code": "00337",
         "parent_code": "008"
     },
-    "00340": {
+     {
         "name": "Yên Sở",
         "type": "phuong",
         "slug": "yen-so",
@@ -139,4 +139,5 @@
         "code": "00340",
         "parent_code": "008"
     }
+]
 }

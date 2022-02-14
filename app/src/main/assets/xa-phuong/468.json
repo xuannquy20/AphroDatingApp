@@ -1,5 +1,5 @@
 {
-    "19597": {
+    "xa":[ {
         "name": "Cam Lộ",
         "type": "thi-tran",
         "slug": "cam-lo",
@@ -9,7 +9,7 @@
         "code": "19597",
         "parent_code": "468"
     },
-    "19600": {
+     {
         "name": "Cam Tuyền",
         "type": "xa",
         "slug": "cam-tuyen",
@@ -19,7 +19,7 @@
         "code": "19600",
         "parent_code": "468"
     },
-    "19603": {
+     {
         "name": "Thanh An",
         "type": "xa",
         "slug": "thanh-an",
@@ -29,7 +29,7 @@
         "code": "19603",
         "parent_code": "468"
     },
-    "19606": {
+     {
         "name": "Cam Thủy",
         "type": "xa",
         "slug": "cam-thuy",
@@ -39,7 +39,7 @@
         "code": "19606",
         "parent_code": "468"
     },
-    "19612": {
+     {
         "name": "Cam Thành",
         "type": "xa",
         "slug": "cam-thanh",
@@ -49,7 +49,7 @@
         "code": "19612",
         "parent_code": "468"
     },
-    "19615": {
+     {
         "name": "Cam Hiếu",
         "type": "xa",
         "slug": "cam-hieu",
@@ -59,7 +59,7 @@
         "code": "19615",
         "parent_code": "468"
     },
-    "19618": {
+     {
         "name": "Cam Chính",
         "type": "xa",
         "slug": "cam-chinh",
@@ -69,7 +69,7 @@
         "code": "19618",
         "parent_code": "468"
     },
-    "19621": {
+     {
         "name": "Cam Nghĩa",
         "type": "xa",
         "slug": "cam-nghia",
@@ -79,4 +79,4 @@
         "code": "19621",
         "parent_code": "468"
     }
-}
+]}

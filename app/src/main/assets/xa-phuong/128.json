@@ -1,5 +1,5 @@
 {
-    "03994": {
+    "xa":[ {
         "name": "Suối Bàng",
         "type": "xa",
         "slug": "suoi-bang",
@@ -9,7 +9,7 @@
         "code": "03994",
         "parent_code": "128"
     },
-    "04006": {
+     {
         "name": "Song Khủa",
         "type": "xa",
         "slug": "song-khua",
@@ -19,7 +19,7 @@
         "code": "04006",
         "parent_code": "128"
     },
-    "04009": {
+     {
         "name": "Liên Hoà",
         "type": "xa",
         "slug": "lien-hoa",
@@ -29,7 +29,7 @@
         "code": "04009",
         "parent_code": "128"
     },
-    "04018": {
+     {
         "name": "Tô Múa",
         "type": "xa",
         "slug": "to-mua",
@@ -39,7 +39,7 @@
         "code": "04018",
         "parent_code": "128"
     },
-    "04021": {
+     {
         "name": "Mường Tè",
         "type": "xa",
         "slug": "muong-te",
@@ -49,7 +49,7 @@
         "code": "04021",
         "parent_code": "128"
     },
-    "04036": {
+     {
         "name": "Chiềng Khoa",
         "type": "xa",
         "slug": "chieng-khoa",
@@ -59,7 +59,7 @@
         "code": "04036",
         "parent_code": "128"
     },
-    "04039": {
+     {
         "name": "Mường Men",
         "type": "xa",
         "slug": "muong-men",
@@ -69,7 +69,7 @@
         "code": "04039",
         "parent_code": "128"
     },
-    "04042": {
+     {
         "name": "Quang Minh",
         "type": "xa",
         "slug": "quang-minh",
@@ -79,7 +79,7 @@
         "code": "04042",
         "parent_code": "128"
     },
-    "04048": {
+     {
         "name": "Vân Hồ",
         "type": "xa",
         "slug": "van-ho",
@@ -89,7 +89,7 @@
         "code": "04048",
         "parent_code": "128"
     },
-    "04051": {
+     {
         "name": "Lóng Luông",
         "type": "xa",
         "slug": "long-luong",
@@ -99,7 +99,7 @@
         "code": "04051",
         "parent_code": "128"
     },
-    "04054": {
+     {
         "name": "Chiềng Yên",
         "type": "xa",
         "slug": "chieng-yen",
@@ -109,7 +109,7 @@
         "code": "04054",
         "parent_code": "128"
     },
-    "04056": {
+     {
         "name": "Chiềng Xuân",
         "type": "xa",
         "slug": "chieng-xuan",
@@ -119,7 +119,7 @@
         "code": "04056",
         "parent_code": "128"
     },
-    "04057": {
+     {
         "name": "Xuân Nha",
         "type": "xa",
         "slug": "xuan-nha",
@@ -129,7 +129,7 @@
         "code": "04057",
         "parent_code": "128"
     },
-    "04058": {
+     {
         "name": "Tân Xuân",
         "type": "xa",
         "slug": "tan-xuan",
@@ -139,4 +139,4 @@
         "code": "04058",
         "parent_code": "128"
     }
-}
+]}

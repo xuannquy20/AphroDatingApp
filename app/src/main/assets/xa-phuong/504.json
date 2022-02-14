@@ -1,5 +1,5 @@
 {
-    "20437": {
+    "xa":[ {
         "name": "Ch'ơm",
         "type": "xa",
         "slug": "ch-om",
@@ -9,7 +9,7 @@
         "code": "20437",
         "parent_code": "504"
     },
-    "20440": {
+     {
         "name": "Ga Ri",
         "type": "xa",
         "slug": "ga-ri",
@@ -19,7 +19,7 @@
         "code": "20440",
         "parent_code": "504"
     },
-    "20443": {
+     {
         "name": "A Xan",
         "type": "xa",
         "slug": "a-xan",
@@ -29,7 +29,7 @@
         "code": "20443",
         "parent_code": "504"
     },
-    "20446": {
+     {
         "name": "Tr'Hy",
         "type": "xa",
         "slug": "tr-hy",
@@ -39,7 +39,7 @@
         "code": "20446",
         "parent_code": "504"
     },
-    "20449": {
+     {
         "name": "Lăng",
         "type": "xa",
         "slug": "lang",
@@ -49,7 +49,7 @@
         "code": "20449",
         "parent_code": "504"
     },
-    "20452": {
+     {
         "name": "A Nông",
         "type": "xa",
         "slug": "a-nong",
@@ -59,7 +59,7 @@
         "code": "20452",
         "parent_code": "504"
     },
-    "20455": {
+     {
         "name": "A Tiêng",
         "type": "xa",
         "slug": "a-tieng",
@@ -69,7 +69,7 @@
         "code": "20455",
         "parent_code": "504"
     },
-    "20458": {
+     {
         "name": "Bha Lê",
         "type": "xa",
         "slug": "bha-le",
@@ -79,7 +79,7 @@
         "code": "20458",
         "parent_code": "504"
     },
-    "20461": {
+     {
         "name": "A Vương",
         "type": "xa",
         "slug": "a-vuong",
@@ -89,7 +89,7 @@
         "code": "20461",
         "parent_code": "504"
     },
-    "20464": {
+     {
         "name": "Dang",
         "type": "xa",
         "slug": "dang",
@@ -99,4 +99,4 @@
         "code": "20464",
         "parent_code": "504"
     }
-}
+]}

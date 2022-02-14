@@ -1,5 +1,5 @@
 {
-    "23377": {
+    "xa":[ {
         "name": "Plei Kần",
         "type": "thi-tran",
         "slug": "plei-kan",
@@ -9,7 +9,7 @@
         "code": "23377",
         "parent_code": "611"
     },
-    "23380": {
+     {
         "name": "Đắk Ang",
         "type": "xa",
         "slug": "dak-ang",
@@ -19,7 +19,7 @@
         "code": "23380",
         "parent_code": "611"
     },
-    "23383": {
+     {
         "name": "Đắk Dục",
         "type": "xa",
         "slug": "dak-duc",
@@ -29,7 +29,7 @@
         "code": "23383",
         "parent_code": "611"
     },
-    "23386": {
+     {
         "name": "Đắk Nông",
         "type": "xa",
         "slug": "dak-nong",
@@ -39,7 +39,7 @@
         "code": "23386",
         "parent_code": "611"
     },
-    "23389": {
+     {
         "name": "Đắk Xú",
         "type": "xa",
         "slug": "dak-xu",
@@ -49,7 +49,7 @@
         "code": "23389",
         "parent_code": "611"
     },
-    "23392": {
+     {
         "name": "Đắk Kan",
         "type": "xa",
         "slug": "dak-kan",
@@ -59,7 +59,7 @@
         "code": "23392",
         "parent_code": "611"
     },
-    "23395": {
+     {
         "name": "Bờ Y",
         "type": "xa",
         "slug": "bo-y",
@@ -69,7 +69,7 @@
         "code": "23395",
         "parent_code": "611"
     },
-    "23398": {
+     {
         "name": "Sa Loong",
         "type": "xa",
         "slug": "sa-loong",
@@ -79,4 +79,4 @@
         "code": "23398",
         "parent_code": "611"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "19495": {
+    "xa":[ {
         "name": "Gio Linh",
         "type": "thi-tran",
         "slug": "gio-linh",
@@ -9,7 +9,7 @@
         "code": "19495",
         "parent_code": "466"
     },
-    "19496": {
+     {
         "name": "Cửa Việt",
         "type": "thi-tran",
         "slug": "cua-viet",
@@ -19,7 +19,7 @@
         "code": "19496",
         "parent_code": "466"
     },
-    "19498": {
+     {
         "name": "Trung Giang",
         "type": "xa",
         "slug": "trung-giang",
@@ -29,7 +29,7 @@
         "code": "19498",
         "parent_code": "466"
     },
-    "19501": {
+     {
         "name": "Trung Hải",
         "type": "xa",
         "slug": "trung-hai",
@@ -39,7 +39,7 @@
         "code": "19501",
         "parent_code": "466"
     },
-    "19504": {
+     {
         "name": "Trung Sơn",
         "type": "xa",
         "slug": "trung-son",
@@ -49,7 +49,7 @@
         "code": "19504",
         "parent_code": "466"
     },
-    "19507": {
+     {
         "name": "Phong Bình",
         "type": "xa",
         "slug": "phong-binh",
@@ -59,7 +59,7 @@
         "code": "19507",
         "parent_code": "466"
     },
-    "19510": {
+     {
         "name": "Gio Mỹ",
         "type": "xa",
         "slug": "gio-my",
@@ -69,7 +69,7 @@
         "code": "19510",
         "parent_code": "466"
     },
-    "19519": {
+     {
         "name": "Gio Hải",
         "type": "xa",
         "slug": "gio-hai",
@@ -79,7 +79,7 @@
         "code": "19519",
         "parent_code": "466"
     },
-    "19522": {
+     {
         "name": "Gio An",
         "type": "xa",
         "slug": "gio-an",
@@ -89,7 +89,7 @@
         "code": "19522",
         "parent_code": "466"
     },
-    "19525": {
+     {
         "name": "Gio Châu",
         "type": "xa",
         "slug": "gio-chau",
@@ -99,7 +99,7 @@
         "code": "19525",
         "parent_code": "466"
     },
-    "19531": {
+     {
         "name": "Gio Việt",
         "type": "xa",
         "slug": "gio-viet",
@@ -109,7 +109,7 @@
         "code": "19531",
         "parent_code": "466"
     },
-    "19534": {
+     {
         "name": "Linh Trường",
         "type": "xa",
         "slug": "linh-truong",
@@ -119,7 +119,7 @@
         "code": "19534",
         "parent_code": "466"
     },
-    "19537": {
+     {
         "name": "Gio Sơn",
         "type": "xa",
         "slug": "gio-son",
@@ -129,7 +129,7 @@
         "code": "19537",
         "parent_code": "466"
     },
-    "19543": {
+     {
         "name": "Gio Mai",
         "type": "xa",
         "slug": "gio-mai",
@@ -139,7 +139,7 @@
         "code": "19543",
         "parent_code": "466"
     },
-    "19546": {
+     {
         "name": "Hải Thái",
         "type": "xa",
         "slug": "hai-thai",
@@ -149,7 +149,7 @@
         "code": "19546",
         "parent_code": "466"
     },
-    "19549": {
+     {
         "name": "Linh Hải",
         "type": "xa",
         "slug": "linh-hai",
@@ -159,7 +159,7 @@
         "code": "19549",
         "parent_code": "466"
     },
-    "19552": {
+     {
         "name": "Gio Quang",
         "type": "xa",
         "slug": "gio-quang",
@@ -169,4 +169,4 @@
         "code": "19552",
         "parent_code": "466"
     }
-}
+]}

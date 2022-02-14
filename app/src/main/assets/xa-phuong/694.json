@@ -1,5 +1,5 @@
 {
-    "25327": {
+    "xa":[ {
         "name": "Thanh An",
         "type": "xa",
         "slug": "thanh-an",
@@ -9,7 +9,7 @@
         "code": "25327",
         "parent_code": "694"
     },
-    "25330": {
+     {
         "name": "An Khương",
         "type": "xa",
         "slug": "an-khuong",
@@ -19,7 +19,7 @@
         "code": "25330",
         "parent_code": "694"
     },
-    "25339": {
+     {
         "name": "An Phú",
         "type": "xa",
         "slug": "an-phu",
@@ -29,7 +29,7 @@
         "code": "25339",
         "parent_code": "694"
     },
-    "25342": {
+     {
         "name": "Tân Lợi",
         "type": "xa",
         "slug": "tan-loi",
@@ -39,7 +39,7 @@
         "code": "25342",
         "parent_code": "694"
     },
-    "25345": {
+     {
         "name": "Tân Hưng",
         "type": "xa",
         "slug": "tan-hung",
@@ -49,7 +49,7 @@
         "code": "25345",
         "parent_code": "694"
     },
-    "25348": {
+     {
         "name": "Minh Đức",
         "type": "xa",
         "slug": "minh-duc",
@@ -59,7 +59,7 @@
         "code": "25348",
         "parent_code": "694"
     },
-    "25349": {
+     {
         "name": "Minh Tâm",
         "type": "xa",
         "slug": "minh-tam",
@@ -69,7 +69,7 @@
         "code": "25349",
         "parent_code": "694"
     },
-    "25351": {
+     {
         "name": "Phước An",
         "type": "xa",
         "slug": "phuoc-an",
@@ -79,7 +79,7 @@
         "code": "25351",
         "parent_code": "694"
     },
-    "25354": {
+     {
         "name": "Thanh Bình",
         "type": "xa",
         "slug": "thanh-binh",
@@ -89,7 +89,7 @@
         "code": "25354",
         "parent_code": "694"
     },
-    "25357": {
+     {
         "name": "Tân Khai",
         "type": "thi-tran",
         "slug": "tan-khai",
@@ -99,7 +99,7 @@
         "code": "25357",
         "parent_code": "694"
     },
-    "25360": {
+     {
         "name": "Đồng Nơ",
         "type": "xa",
         "slug": "dong-no",
@@ -109,7 +109,7 @@
         "code": "25360",
         "parent_code": "694"
     },
-    "25361": {
+     {
         "name": "Tân Hiệp",
         "type": "xa",
         "slug": "tan-hiep",
@@ -119,7 +119,7 @@
         "code": "25361",
         "parent_code": "694"
     },
-    "25438": {
+     {
         "name": "Tân Quan",
         "type": "xa",
         "slug": "tan-quan",
@@ -129,4 +129,4 @@
         "code": "25438",
         "parent_code": "694"
     }
-}
+]}

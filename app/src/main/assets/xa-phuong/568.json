@@ -1,5 +1,5 @@
 {
-    "22327": {
+    "xa":[ {
         "name": "Vĩnh Hòa",
         "type": "phuong",
         "slug": "vinh-hoa",
@@ -9,7 +9,7 @@
         "code": "22327",
         "parent_code": "568"
     },
-    "22330": {
+     {
         "name": "Vĩnh Hải",
         "type": "phuong",
         "slug": "vinh-hai",
@@ -19,7 +19,7 @@
         "code": "22330",
         "parent_code": "568"
     },
-    "22333": {
+     {
         "name": "Vĩnh Phước",
         "type": "phuong",
         "slug": "vinh-phuoc",
@@ -29,7 +29,7 @@
         "code": "22333",
         "parent_code": "568"
     },
-    "22336": {
+     {
         "name": "Ngọc Hiệp",
         "type": "phuong",
         "slug": "ngoc-hiep",
@@ -39,7 +39,7 @@
         "code": "22336",
         "parent_code": "568"
     },
-    "22339": {
+     {
         "name": "Vĩnh Thọ",
         "type": "phuong",
         "slug": "vinh-tho",
@@ -49,7 +49,7 @@
         "code": "22339",
         "parent_code": "568"
     },
-    "22342": {
+     {
         "name": "Xương Huân",
         "type": "phuong",
         "slug": "xuong-huan",
@@ -59,7 +59,7 @@
         "code": "22342",
         "parent_code": "568"
     },
-    "22345": {
+     {
         "name": "Vạn Thắng",
         "type": "phuong",
         "slug": "van-thang",
@@ -69,7 +69,7 @@
         "code": "22345",
         "parent_code": "568"
     },
-    "22348": {
+     {
         "name": "Vạn Thạnh",
         "type": "phuong",
         "slug": "van-thanh",
@@ -79,7 +79,7 @@
         "code": "22348",
         "parent_code": "568"
     },
-    "22351": {
+     {
         "name": "Phương Sài",
         "type": "phuong",
         "slug": "phuong-sai",
@@ -89,7 +89,7 @@
         "code": "22351",
         "parent_code": "568"
     },
-    "22354": {
+     {
         "name": "Phương Sơn",
         "type": "phuong",
         "slug": "phuong-son",
@@ -99,7 +99,7 @@
         "code": "22354",
         "parent_code": "568"
     },
-    "22357": {
+     {
         "name": "Phước Hải",
         "type": "phuong",
         "slug": "phuoc-hai",
@@ -109,7 +109,7 @@
         "code": "22357",
         "parent_code": "568"
     },
-    "22360": {
+     {
         "name": "Phước Tân",
         "type": "phuong",
         "slug": "phuoc-tan",
@@ -119,7 +119,7 @@
         "code": "22360",
         "parent_code": "568"
     },
-    "22363": {
+     {
         "name": "Lộc Thọ",
         "type": "phuong",
         "slug": "loc-tho",
@@ -129,7 +129,7 @@
         "code": "22363",
         "parent_code": "568"
     },
-    "22366": {
+     {
         "name": "Phước Tiến",
         "type": "phuong",
         "slug": "phuoc-tien",
@@ -139,7 +139,7 @@
         "code": "22366",
         "parent_code": "568"
     },
-    "22369": {
+     {
         "name": "Tân Lập",
         "type": "phuong",
         "slug": "tan-lap",
@@ -149,7 +149,7 @@
         "code": "22369",
         "parent_code": "568"
     },
-    "22372": {
+     {
         "name": "Phước Hòa",
         "type": "phuong",
         "slug": "phuoc-hoa",
@@ -159,7 +159,7 @@
         "code": "22372",
         "parent_code": "568"
     },
-    "22375": {
+     {
         "name": "Vĩnh Nguyên",
         "type": "phuong",
         "slug": "vinh-nguyen",
@@ -169,7 +169,7 @@
         "code": "22375",
         "parent_code": "568"
     },
-    "22378": {
+     {
         "name": "Phước Long",
         "type": "phuong",
         "slug": "phuoc-long",
@@ -179,7 +179,7 @@
         "code": "22378",
         "parent_code": "568"
     },
-    "22381": {
+     {
         "name": "Vĩnh Trường",
         "type": "phuong",
         "slug": "vinh-truong",
@@ -189,7 +189,7 @@
         "code": "22381",
         "parent_code": "568"
     },
-    "22384": {
+     {
         "name": "Vĩnh Lương",
         "type": "xa",
         "slug": "vinh-luong",
@@ -199,7 +199,7 @@
         "code": "22384",
         "parent_code": "568"
     },
-    "22387": {
+     {
         "name": "Vĩnh Phương",
         "type": "xa",
         "slug": "vinh-phuong",
@@ -209,7 +209,7 @@
         "code": "22387",
         "parent_code": "568"
     },
-    "22390": {
+     {
         "name": "Vĩnh Ngọc",
         "type": "xa",
         "slug": "vinh-ngoc",
@@ -219,7 +219,7 @@
         "code": "22390",
         "parent_code": "568"
     },
-    "22393": {
+     {
         "name": "Vĩnh Thạnh",
         "type": "xa",
         "slug": "vinh-thanh",
@@ -229,7 +229,7 @@
         "code": "22393",
         "parent_code": "568"
     },
-    "22396": {
+     {
         "name": "Vĩnh Trung",
         "type": "xa",
         "slug": "vinh-trung",
@@ -239,7 +239,7 @@
         "code": "22396",
         "parent_code": "568"
     },
-    "22399": {
+     {
         "name": "Vĩnh Hiệp",
         "type": "xa",
         "slug": "vinh-hiep",
@@ -249,7 +249,7 @@
         "code": "22399",
         "parent_code": "568"
     },
-    "22402": {
+     {
         "name": "Vĩnh Thái",
         "type": "xa",
         "slug": "vinh-thai",
@@ -259,7 +259,7 @@
         "code": "22402",
         "parent_code": "568"
     },
-    "22405": {
+     {
         "name": "Phước Đồng",
         "type": "xa",
         "slug": "phuoc-dong",
@@ -269,4 +269,4 @@
         "code": "22405",
         "parent_code": "568"
     }
-}
+]}

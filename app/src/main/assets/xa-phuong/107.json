@@ -1,5 +1,5 @@
 {
-    "03433": {
+    "xa":[ {
         "name": "Mường Tè",
         "type": "thi-tran",
         "slug": "muong-te",
@@ -9,7 +9,7 @@
         "code": "03433",
         "parent_code": "107"
     },
-    "03436": {
+     {
         "name": "Thu Lũm",
         "type": "xa",
         "slug": "thu-lum",
@@ -19,7 +19,7 @@
         "code": "03436",
         "parent_code": "107"
     },
-    "03439": {
+     {
         "name": "Ka Lăng",
         "type": "xa",
         "slug": "ka-lang",
@@ -29,7 +29,7 @@
         "code": "03439",
         "parent_code": "107"
     },
-    "03440": {
+     {
         "name": "Tá Bạ",
         "type": "xa",
         "slug": "ta-ba",
@@ -39,7 +39,7 @@
         "code": "03440",
         "parent_code": "107"
     },
-    "03442": {
+     {
         "name": "Pa ủ",
         "type": "xa",
         "slug": "pa-u",
@@ -49,7 +49,7 @@
         "code": "03442",
         "parent_code": "107"
     },
-    "03445": {
+     {
         "name": "Mường Tè",
         "type": "xa",
         "slug": "muong-te",
@@ -59,7 +59,7 @@
         "code": "03445",
         "parent_code": "107"
     },
-    "03448": {
+     {
         "name": "Pa Vệ Sử",
         "type": "xa",
         "slug": "pa-ve-su",
@@ -69,7 +69,7 @@
         "code": "03448",
         "parent_code": "107"
     },
-    "03451": {
+     {
         "name": "Mù Cả",
         "type": "xa",
         "slug": "mu-ca",
@@ -79,7 +79,7 @@
         "code": "03451",
         "parent_code": "107"
     },
-    "03454": {
+     {
         "name": "Bum Tở",
         "type": "xa",
         "slug": "bum-to",
@@ -89,7 +89,7 @@
         "code": "03454",
         "parent_code": "107"
     },
-    "03457": {
+     {
         "name": "Nậm Khao",
         "type": "xa",
         "slug": "nam-khao",
@@ -99,7 +99,7 @@
         "code": "03457",
         "parent_code": "107"
     },
-    "03463": {
+     {
         "name": "Tà Tổng",
         "type": "xa",
         "slug": "ta-tong",
@@ -109,7 +109,7 @@
         "code": "03463",
         "parent_code": "107"
     },
-    "03466": {
+     {
         "name": "Bum Nưa",
         "type": "xa",
         "slug": "bum-nua",
@@ -119,7 +119,7 @@
         "code": "03466",
         "parent_code": "107"
     },
-    "03467": {
+     {
         "name": "Vàng San",
         "type": "xa",
         "slug": "vang-san",
@@ -129,7 +129,7 @@
         "code": "03467",
         "parent_code": "107"
     },
-    "03469": {
+     {
         "name": "Kan Hồ",
         "type": "xa",
         "slug": "kan-ho",
@@ -139,4 +139,4 @@
         "code": "03469",
         "parent_code": "107"
     }
-}
+]}

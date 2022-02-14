@@ -13,6 +13,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.projectd.aphroapp.dao.UserDAO;
+
 public class RegisterNameActivity extends AppCompatActivity {
     private TextView txtInfo, bannerName;
     private EditText inputName;
@@ -47,7 +49,7 @@ public class RegisterNameActivity extends AppCompatActivity {
 
         btnNext.setOnClickListener(v -> {
             Intent name = new Intent(this, RegisterGenderActivity.class);
-            name.putExtra("name", inputName.getText().toString());
+            UserDAO.CURRENT_USER.setName(inputName.getText().toString());
             startActivity(name);
         });
     }

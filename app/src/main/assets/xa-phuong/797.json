@@ -1,5 +1,5 @@
 {
-    "27757": {
+    "xa":[ {
         "name": "Vĩnh Hưng",
         "type": "thi-tran",
         "slug": "vinh-hung",
@@ -9,7 +9,7 @@
         "code": "27757",
         "parent_code": "797"
     },
-    "27760": {
+     {
         "name": "Hưng Điền A",
         "type": "xa",
         "slug": "hung-dien-a",
@@ -19,7 +19,7 @@
         "code": "27760",
         "parent_code": "797"
     },
-    "27763": {
+     {
         "name": "Khánh Hưng",
         "type": "xa",
         "slug": "khanh-hung",
@@ -29,7 +29,7 @@
         "code": "27763",
         "parent_code": "797"
     },
-    "27766": {
+     {
         "name": "Thái Trị",
         "type": "xa",
         "slug": "thai-tri",
@@ -39,7 +39,7 @@
         "code": "27766",
         "parent_code": "797"
     },
-    "27769": {
+     {
         "name": "Vĩnh Trị",
         "type": "xa",
         "slug": "vinh-tri",
@@ -49,7 +49,7 @@
         "code": "27769",
         "parent_code": "797"
     },
-    "27772": {
+     {
         "name": "Thái Bình Trung",
         "type": "xa",
         "slug": "thai-binh-trung",
@@ -59,7 +59,7 @@
         "code": "27772",
         "parent_code": "797"
     },
-    "27775": {
+     {
         "name": "Vĩnh Bình",
         "type": "xa",
         "slug": "vinh-binh",
@@ -69,7 +69,7 @@
         "code": "27775",
         "parent_code": "797"
     },
-    "27778": {
+     {
         "name": "Vĩnh Thuận",
         "type": "xa",
         "slug": "vinh-thuan",
@@ -79,7 +79,7 @@
         "code": "27778",
         "parent_code": "797"
     },
-    "27781": {
+     {
         "name": "Tuyên Bình",
         "type": "xa",
         "slug": "tuyen-binh",
@@ -89,7 +89,7 @@
         "code": "27781",
         "parent_code": "797"
     },
-    "27784": {
+     {
         "name": "Tuyên Bình Tây",
         "type": "xa",
         "slug": "tuyen-binh-tay",
@@ -99,4 +99,4 @@
         "code": "27784",
         "parent_code": "797"
     }
-}
+]}

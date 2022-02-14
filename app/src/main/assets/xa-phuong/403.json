@@ -1,5 +1,5 @@
 {
-    "16228": {
+    "xa":[ {
         "name": "Bến Sung",
         "type": "thi-tran",
         "slug": "ben-sung",
@@ -9,7 +9,7 @@
         "code": "16228",
         "parent_code": "403"
     },
-    "16231": {
+     {
         "name": "Cán Khê",
         "type": "xa",
         "slug": "can-khe",
@@ -19,7 +19,7 @@
         "code": "16231",
         "parent_code": "403"
     },
-    "16234": {
+     {
         "name": "Xuân Du",
         "type": "xa",
         "slug": "xuan-du",
@@ -29,7 +29,7 @@
         "code": "16234",
         "parent_code": "403"
     },
-    "16240": {
+     {
         "name": "Phượng Nghi",
         "type": "xa",
         "slug": "phuong-nghi",
@@ -39,7 +39,7 @@
         "code": "16240",
         "parent_code": "403"
     },
-    "16243": {
+     {
         "name": "Mậu Lâm",
         "type": "xa",
         "slug": "mau-lam",
@@ -49,7 +49,7 @@
         "code": "16243",
         "parent_code": "403"
     },
-    "16246": {
+     {
         "name": "Xuân Khang",
         "type": "xa",
         "slug": "xuan-khang",
@@ -59,7 +59,7 @@
         "code": "16246",
         "parent_code": "403"
     },
-    "16249": {
+     {
         "name": "Phú Nhuận",
         "type": "xa",
         "slug": "phu-nhuan",
@@ -69,7 +69,7 @@
         "code": "16249",
         "parent_code": "403"
     },
-    "16252": {
+     {
         "name": "Hải Long",
         "type": "xa",
         "slug": "hai-long",
@@ -79,7 +79,7 @@
         "code": "16252",
         "parent_code": "403"
     },
-    "16258": {
+     {
         "name": "Xuân Thái",
         "type": "xa",
         "slug": "xuan-thai",
@@ -89,7 +89,7 @@
         "code": "16258",
         "parent_code": "403"
     },
-    "16261": {
+     {
         "name": "Xuân Phúc",
         "type": "xa",
         "slug": "xuan-phuc",
@@ -99,7 +99,7 @@
         "code": "16261",
         "parent_code": "403"
     },
-    "16264": {
+     {
         "name": "Yên Thọ",
         "type": "xa",
         "slug": "yen-tho",
@@ -109,7 +109,7 @@
         "code": "16264",
         "parent_code": "403"
     },
-    "16267": {
+     {
         "name": "Yên Lạc",
         "type": "xa",
         "slug": "yen-lac",
@@ -119,7 +119,7 @@
         "code": "16267",
         "parent_code": "403"
     },
-    "16273": {
+     {
         "name": "Thanh Tân",
         "type": "xa",
         "slug": "thanh-tan",
@@ -129,7 +129,7 @@
         "code": "16273",
         "parent_code": "403"
     },
-    "16276": {
+     {
         "name": "Thanh Kỳ",
         "type": "xa",
         "slug": "thanh-ky",
@@ -139,4 +139,4 @@
         "code": "16276",
         "parent_code": "403"
     }
-}
+]}

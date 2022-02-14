@@ -1,5 +1,5 @@
 {
-    "21952": {
+    "xa":[ {
         "name": "Tuy Phước",
         "type": "thi-tran",
         "slug": "tuy-phuoc",
@@ -9,7 +9,7 @@
         "code": "21952",
         "parent_code": "550"
     },
-    "21955": {
+     {
         "name": "Diêu Trì",
         "type": "thi-tran",
         "slug": "dieu-tri",
@@ -19,7 +19,7 @@
         "code": "21955",
         "parent_code": "550"
     },
-    "21958": {
+     {
         "name": "Phước Thắng",
         "type": "xa",
         "slug": "phuoc-thang",
@@ -29,7 +29,7 @@
         "code": "21958",
         "parent_code": "550"
     },
-    "21961": {
+     {
         "name": "Phước Hưng",
         "type": "xa",
         "slug": "phuoc-hung",
@@ -39,7 +39,7 @@
         "code": "21961",
         "parent_code": "550"
     },
-    "21964": {
+     {
         "name": "Phước Quang",
         "type": "xa",
         "slug": "phuoc-quang",
@@ -49,7 +49,7 @@
         "code": "21964",
         "parent_code": "550"
     },
-    "21967": {
+     {
         "name": "Phước Hòa",
         "type": "xa",
         "slug": "phuoc-hoa",
@@ -59,7 +59,7 @@
         "code": "21967",
         "parent_code": "550"
     },
-    "21970": {
+     {
         "name": "Phước Sơn",
         "type": "xa",
         "slug": "phuoc-son",
@@ -69,7 +69,7 @@
         "code": "21970",
         "parent_code": "550"
     },
-    "21973": {
+     {
         "name": "Phước Hiệp",
         "type": "xa",
         "slug": "phuoc-hiep",
@@ -79,7 +79,7 @@
         "code": "21973",
         "parent_code": "550"
     },
-    "21976": {
+     {
         "name": "Phước Lộc",
         "type": "xa",
         "slug": "phuoc-loc",
@@ -89,7 +89,7 @@
         "code": "21976",
         "parent_code": "550"
     },
-    "21979": {
+     {
         "name": "Phước Nghĩa",
         "type": "xa",
         "slug": "phuoc-nghia",
@@ -99,7 +99,7 @@
         "code": "21979",
         "parent_code": "550"
     },
-    "21982": {
+     {
         "name": "Phước Thuận",
         "type": "xa",
         "slug": "phuoc-thuan",
@@ -109,7 +109,7 @@
         "code": "21982",
         "parent_code": "550"
     },
-    "21985": {
+     {
         "name": "Phước An",
         "type": "xa",
         "slug": "phuoc-an",
@@ -119,7 +119,7 @@
         "code": "21985",
         "parent_code": "550"
     },
-    "21988": {
+     {
         "name": "Phước Thành",
         "type": "xa",
         "slug": "phuoc-thanh",
@@ -129,4 +129,4 @@
         "code": "21988",
         "parent_code": "550"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "21730": {
+    "xa":[ {
         "name": "Phù Mỹ",
         "type": "thi-tran",
         "slug": "phu-my",
@@ -9,7 +9,7 @@
         "code": "21730",
         "parent_code": "545"
     },
-    "21733": {
+     {
         "name": "Bình Dương",
         "type": "thi-tran",
         "slug": "binh-duong",
@@ -19,7 +19,7 @@
         "code": "21733",
         "parent_code": "545"
     },
-    "21736": {
+     {
         "name": "Mỹ Đức",
         "type": "xa",
         "slug": "my-duc",
@@ -29,7 +29,7 @@
         "code": "21736",
         "parent_code": "545"
     },
-    "21739": {
+     {
         "name": "Mỹ Châu",
         "type": "xa",
         "slug": "my-chau",
@@ -39,7 +39,7 @@
         "code": "21739",
         "parent_code": "545"
     },
-    "21742": {
+     {
         "name": "Mỹ Thắng",
         "type": "xa",
         "slug": "my-thang",
@@ -49,7 +49,7 @@
         "code": "21742",
         "parent_code": "545"
     },
-    "21745": {
+     {
         "name": "Mỹ Lộc",
         "type": "xa",
         "slug": "my-loc",
@@ -59,7 +59,7 @@
         "code": "21745",
         "parent_code": "545"
     },
-    "21748": {
+     {
         "name": "Mỹ Lợi",
         "type": "xa",
         "slug": "my-loi",
@@ -69,7 +69,7 @@
         "code": "21748",
         "parent_code": "545"
     },
-    "21751": {
+     {
         "name": "Mỹ An",
         "type": "xa",
         "slug": "my-an",
@@ -79,7 +79,7 @@
         "code": "21751",
         "parent_code": "545"
     },
-    "21754": {
+     {
         "name": "Mỹ Phong",
         "type": "xa",
         "slug": "my-phong",
@@ -89,7 +89,7 @@
         "code": "21754",
         "parent_code": "545"
     },
-    "21757": {
+     {
         "name": "Mỹ Trinh",
         "type": "xa",
         "slug": "my-trinh",
@@ -99,7 +99,7 @@
         "code": "21757",
         "parent_code": "545"
     },
-    "21760": {
+     {
         "name": "Mỹ Thọ",
         "type": "xa",
         "slug": "my-tho",
@@ -109,7 +109,7 @@
         "code": "21760",
         "parent_code": "545"
     },
-    "21763": {
+     {
         "name": "Mỹ Hòa",
         "type": "xa",
         "slug": "my-hoa",
@@ -119,7 +119,7 @@
         "code": "21763",
         "parent_code": "545"
     },
-    "21766": {
+     {
         "name": "Mỹ Thành",
         "type": "xa",
         "slug": "my-thanh",
@@ -129,7 +129,7 @@
         "code": "21766",
         "parent_code": "545"
     },
-    "21769": {
+     {
         "name": "Mỹ Chánh",
         "type": "xa",
         "slug": "my-chanh",
@@ -139,7 +139,7 @@
         "code": "21769",
         "parent_code": "545"
     },
-    "21772": {
+     {
         "name": "Mỹ Quang",
         "type": "xa",
         "slug": "my-quang",
@@ -149,7 +149,7 @@
         "code": "21772",
         "parent_code": "545"
     },
-    "21775": {
+     {
         "name": "Mỹ Hiệp",
         "type": "xa",
         "slug": "my-hiep",
@@ -159,7 +159,7 @@
         "code": "21775",
         "parent_code": "545"
     },
-    "21778": {
+     {
         "name": "Mỹ Tài",
         "type": "xa",
         "slug": "my-tai",
@@ -169,7 +169,7 @@
         "code": "21778",
         "parent_code": "545"
     },
-    "21781": {
+     {
         "name": "Mỹ Cát",
         "type": "xa",
         "slug": "my-cat",
@@ -179,7 +179,7 @@
         "code": "21781",
         "parent_code": "545"
     },
-    "21784": {
+     {
         "name": "Mỹ Chánh Tây",
         "type": "xa",
         "slug": "my-chanh-tay",
@@ -189,4 +189,4 @@
         "code": "21784",
         "parent_code": "545"
     }
-}
+]}

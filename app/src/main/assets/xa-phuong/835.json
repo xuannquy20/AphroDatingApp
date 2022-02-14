@@ -1,5 +1,5 @@
 {
-    "29050": {
+    "xa":[ {
         "name": "Bình Đại",
         "type": "thi-tran",
         "slug": "binh-dai",
@@ -9,7 +9,7 @@
         "code": "29050",
         "parent_code": "835"
     },
-    "29053": {
+     {
         "name": "Tam Hiệp",
         "type": "xa",
         "slug": "tam-hiep",
@@ -19,7 +19,7 @@
         "code": "29053",
         "parent_code": "835"
     },
-    "29056": {
+     {
         "name": "Long Định",
         "type": "xa",
         "slug": "long-dinh",
@@ -29,7 +29,7 @@
         "code": "29056",
         "parent_code": "835"
     },
-    "29059": {
+     {
         "name": "Long Hòa",
         "type": "xa",
         "slug": "long-hoa",
@@ -39,7 +39,7 @@
         "code": "29059",
         "parent_code": "835"
     },
-    "29062": {
+     {
         "name": "Phú Thuận",
         "type": "xa",
         "slug": "phu-thuan",
@@ -49,7 +49,7 @@
         "code": "29062",
         "parent_code": "835"
     },
-    "29065": {
+     {
         "name": "Vang Quới Tây",
         "type": "xa",
         "slug": "vang-quoi-tay",
@@ -59,7 +59,7 @@
         "code": "29065",
         "parent_code": "835"
     },
-    "29068": {
+     {
         "name": "Vang Quới Đông",
         "type": "xa",
         "slug": "vang-quoi-dong",
@@ -69,7 +69,7 @@
         "code": "29068",
         "parent_code": "835"
     },
-    "29071": {
+     {
         "name": "Châu Hưng",
         "type": "xa",
         "slug": "chau-hung",
@@ -79,7 +79,7 @@
         "code": "29071",
         "parent_code": "835"
     },
-    "29074": {
+     {
         "name": "Phú Vang",
         "type": "xa",
         "slug": "phu-vang",
@@ -89,7 +89,7 @@
         "code": "29074",
         "parent_code": "835"
     },
-    "29077": {
+     {
         "name": "Lộc Thuận",
         "type": "xa",
         "slug": "loc-thuan",
@@ -99,7 +99,7 @@
         "code": "29077",
         "parent_code": "835"
     },
-    "29080": {
+     {
         "name": "Định Trung",
         "type": "xa",
         "slug": "dinh-trung",
@@ -109,7 +109,7 @@
         "code": "29080",
         "parent_code": "835"
     },
-    "29083": {
+     {
         "name": "Thới Lai",
         "type": "xa",
         "slug": "thoi-lai",
@@ -119,7 +119,7 @@
         "code": "29083",
         "parent_code": "835"
     },
-    "29086": {
+     {
         "name": "Bình Thới",
         "type": "xa",
         "slug": "binh-thoi",
@@ -129,7 +129,7 @@
         "code": "29086",
         "parent_code": "835"
     },
-    "29089": {
+     {
         "name": "Phú Long",
         "type": "xa",
         "slug": "phu-long",
@@ -139,7 +139,7 @@
         "code": "29089",
         "parent_code": "835"
     },
-    "29092": {
+     {
         "name": "Bình Thắng",
         "type": "xa",
         "slug": "binh-thang",
@@ -149,7 +149,7 @@
         "code": "29092",
         "parent_code": "835"
     },
-    "29095": {
+     {
         "name": "Thạnh Trị",
         "type": "xa",
         "slug": "thanh-tri",
@@ -159,7 +159,7 @@
         "code": "29095",
         "parent_code": "835"
     },
-    "29098": {
+     {
         "name": "Đại Hòa Lộc",
         "type": "xa",
         "slug": "dai-hoa-loc",
@@ -169,7 +169,7 @@
         "code": "29098",
         "parent_code": "835"
     },
-    "29101": {
+     {
         "name": "Thừa Đức",
         "type": "xa",
         "slug": "thua-duc",
@@ -179,7 +179,7 @@
         "code": "29101",
         "parent_code": "835"
     },
-    "29104": {
+     {
         "name": "Thạnh Phước",
         "type": "xa",
         "slug": "thanh-phuoc",
@@ -189,7 +189,7 @@
         "code": "29104",
         "parent_code": "835"
     },
-    "29107": {
+     {
         "name": "Thới Thuận",
         "type": "xa",
         "slug": "thoi-thuan",
@@ -199,4 +199,4 @@
         "code": "29107",
         "parent_code": "835"
     }
-}
+]}

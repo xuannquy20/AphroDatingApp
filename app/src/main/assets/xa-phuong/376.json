@@ -1,5 +1,5 @@
 {
-    "14620": {
+    "xa":[ {
         "name": "Phát Diệm",
         "type": "thi-tran",
         "slug": "phat-diem",
@@ -9,7 +9,7 @@
         "code": "14620",
         "parent_code": "376"
     },
-    "14623": {
+     {
         "name": "Bình Minh",
         "type": "thi-tran",
         "slug": "binh-minh",
@@ -19,7 +19,7 @@
         "code": "14623",
         "parent_code": "376"
     },
-    "14629": {
+     {
         "name": "Hồi Ninh",
         "type": "xa",
         "slug": "hoi-ninh",
@@ -29,7 +29,7 @@
         "code": "14629",
         "parent_code": "376"
     },
-    "14632": {
+     {
         "name": "Xuân Chính",
         "type": "xa",
         "slug": "xuan-chinh",
@@ -39,7 +39,7 @@
         "code": "14632",
         "parent_code": "376"
     },
-    "14635": {
+     {
         "name": "Kim Định",
         "type": "xa",
         "slug": "kim-dinh",
@@ -49,7 +49,7 @@
         "code": "14635",
         "parent_code": "376"
     },
-    "14638": {
+     {
         "name": "Ân Hòa",
         "type": "xa",
         "slug": "an-hoa",
@@ -59,7 +59,7 @@
         "code": "14638",
         "parent_code": "376"
     },
-    "14641": {
+     {
         "name": "Hùng Tiến",
         "type": "xa",
         "slug": "hung-tien",
@@ -69,7 +69,7 @@
         "code": "14641",
         "parent_code": "376"
     },
-    "14647": {
+     {
         "name": "Quang Thiện",
         "type": "xa",
         "slug": "quang-thien",
@@ -79,7 +79,7 @@
         "code": "14647",
         "parent_code": "376"
     },
-    "14650": {
+     {
         "name": "Như Hòa",
         "type": "xa",
         "slug": "nhu-hoa",
@@ -89,7 +89,7 @@
         "code": "14650",
         "parent_code": "376"
     },
-    "14653": {
+     {
         "name": "Chất Bình",
         "type": "xa",
         "slug": "chat-binh",
@@ -99,7 +99,7 @@
         "code": "14653",
         "parent_code": "376"
     },
-    "14656": {
+     {
         "name": "Đồng Hướng",
         "type": "xa",
         "slug": "dong-huong",
@@ -109,7 +109,7 @@
         "code": "14656",
         "parent_code": "376"
     },
-    "14659": {
+     {
         "name": "Kim Chính",
         "type": "xa",
         "slug": "kim-chinh",
@@ -119,7 +119,7 @@
         "code": "14659",
         "parent_code": "376"
     },
-    "14662": {
+     {
         "name": "Thượng Kiệm",
         "type": "xa",
         "slug": "thuong-kiem",
@@ -129,7 +129,7 @@
         "code": "14662",
         "parent_code": "376"
     },
-    "14665": {
+     {
         "name": "Lưu Phương",
         "type": "xa",
         "slug": "luu-phuong",
@@ -139,7 +139,7 @@
         "code": "14665",
         "parent_code": "376"
     },
-    "14668": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -149,7 +149,7 @@
         "code": "14668",
         "parent_code": "376"
     },
-    "14671": {
+     {
         "name": "Yên Lộc",
         "type": "xa",
         "slug": "yen-loc",
@@ -159,7 +159,7 @@
         "code": "14671",
         "parent_code": "376"
     },
-    "14674": {
+     {
         "name": "Lai Thành",
         "type": "xa",
         "slug": "lai-thanh",
@@ -169,7 +169,7 @@
         "code": "14674",
         "parent_code": "376"
     },
-    "14677": {
+     {
         "name": "Định Hóa",
         "type": "xa",
         "slug": "dinh-hoa",
@@ -179,7 +179,7 @@
         "code": "14677",
         "parent_code": "376"
     },
-    "14680": {
+     {
         "name": "Văn Hải",
         "type": "xa",
         "slug": "van-hai",
@@ -189,7 +189,7 @@
         "code": "14680",
         "parent_code": "376"
     },
-    "14683": {
+     {
         "name": "Kim Tân",
         "type": "xa",
         "slug": "kim-tan",
@@ -199,7 +199,7 @@
         "code": "14683",
         "parent_code": "376"
     },
-    "14686": {
+     {
         "name": "Kim Mỹ",
         "type": "xa",
         "slug": "kim-my",
@@ -209,7 +209,7 @@
         "code": "14686",
         "parent_code": "376"
     },
-    "14689": {
+     {
         "name": "Cồn Thoi",
         "type": "xa",
         "slug": "con-thoi",
@@ -219,7 +219,7 @@
         "code": "14689",
         "parent_code": "376"
     },
-    "14692": {
+     {
         "name": "Kim Hải",
         "type": "xa",
         "slug": "kim-hai",
@@ -229,7 +229,7 @@
         "code": "14692",
         "parent_code": "376"
     },
-    "14695": {
+     {
         "name": "Kim Trung",
         "type": "xa",
         "slug": "kim-trung",
@@ -239,7 +239,7 @@
         "code": "14695",
         "parent_code": "376"
     },
-    "14698": {
+     {
         "name": "Kim Đông",
         "type": "xa",
         "slug": "kim-dong",
@@ -249,4 +249,4 @@
         "code": "14698",
         "parent_code": "376"
     }
-}
+]}

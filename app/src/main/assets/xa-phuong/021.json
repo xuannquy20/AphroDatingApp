@@ -1,5 +1,5 @@
 {
-    "00595": {
+     "xa" : [{
         "name": "Thượng Cát",
         "type": "phuong",
         "slug": "thuong-cat",
@@ -9,7 +9,7 @@
         "code": "00595",
         "parent_code": "021"
     },
-    "00598": {
+     {
         "name": "Liên Mạc",
         "type": "phuong",
         "slug": "lien-mac",
@@ -19,7 +19,7 @@
         "code": "00598",
         "parent_code": "021"
     },
-    "00601": {
+     {
         "name": "Đông Ngạc",
         "type": "phuong",
         "slug": "dong-ngac",
@@ -29,7 +29,7 @@
         "code": "00601",
         "parent_code": "021"
     },
-    "00602": {
+     {
         "name": "Đức Thắng",
         "type": "phuong",
         "slug": "duc-thang",
@@ -39,7 +39,7 @@
         "code": "00602",
         "parent_code": "021"
     },
-    "00604": {
+     {
         "name": "Thụy Phương",
         "type": "phuong",
         "slug": "thuy-phuong",
@@ -49,7 +49,7 @@
         "code": "00604",
         "parent_code": "021"
     },
-    "00607": {
+     {
         "name": "Tây Tựu",
         "type": "phuong",
         "slug": "tay-tuu",
@@ -59,7 +59,7 @@
         "code": "00607",
         "parent_code": "021"
     },
-    "00610": {
+     {
         "name": "Xuân Đỉnh",
         "type": "phuong",
         "slug": "xuan-dinh",
@@ -69,7 +69,7 @@
         "code": "00610",
         "parent_code": "021"
     },
-    "00611": {
+     {
         "name": "Xuân Tảo",
         "type": "phuong",
         "slug": "xuan-tao",
@@ -79,7 +79,7 @@
         "code": "00611",
         "parent_code": "021"
     },
-    "00613": {
+     {
         "name": "Minh Khai",
         "type": "phuong",
         "slug": "minh-khai",
@@ -89,7 +89,7 @@
         "code": "00613",
         "parent_code": "021"
     },
-    "00616": {
+     {
         "name": "Cổ Nhuế 1",
         "type": "phuong",
         "slug": "co-nhue-1",
@@ -99,7 +99,7 @@
         "code": "00616",
         "parent_code": "021"
     },
-    "00617": {
+     {
         "name": "Cổ Nhuế 2",
         "type": "phuong",
         "slug": "co-nhue-2",
@@ -109,7 +109,7 @@
         "code": "00617",
         "parent_code": "021"
     },
-    "00619": {
+     {
         "name": "Phú Diễn",
         "type": "phuong",
         "slug": "phu-dien",
@@ -119,7 +119,7 @@
         "code": "00619",
         "parent_code": "021"
     },
-    "00620": {
+     {
         "name": "Phúc Diễn",
         "type": "phuong",
         "slug": "phuc-dien",
@@ -129,4 +129,5 @@
         "code": "00620",
         "parent_code": "021"
     }
+]
 }

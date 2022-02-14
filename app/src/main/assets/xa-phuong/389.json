@@ -1,5 +1,5 @@
 {
-    "15061": {
+    "xa":[ {
         "name": "Ngọc Lặc",
         "type": "thi-tran",
         "slug": "ngoc-lac",
@@ -9,7 +9,7 @@
         "code": "15061",
         "parent_code": "389"
     },
-    "15064": {
+     {
         "name": "Lam Sơn",
         "type": "xa",
         "slug": "lam-son",
@@ -19,7 +19,7 @@
         "code": "15064",
         "parent_code": "389"
     },
-    "15067": {
+     {
         "name": "Mỹ Tân",
         "type": "xa",
         "slug": "my-tan",
@@ -29,7 +29,7 @@
         "code": "15067",
         "parent_code": "389"
     },
-    "15070": {
+     {
         "name": "Thúy Sơn",
         "type": "xa",
         "slug": "thuy-son",
@@ -39,7 +39,7 @@
         "code": "15070",
         "parent_code": "389"
     },
-    "15073": {
+     {
         "name": "Thạch Lập",
         "type": "xa",
         "slug": "thach-lap",
@@ -49,7 +49,7 @@
         "code": "15073",
         "parent_code": "389"
     },
-    "15076": {
+     {
         "name": "Vân Âm",
         "type": "xa",
         "slug": "van-am",
@@ -59,7 +59,7 @@
         "code": "15076",
         "parent_code": "389"
     },
-    "15079": {
+     {
         "name": "Cao Ngọc",
         "type": "xa",
         "slug": "cao-ngoc",
@@ -69,7 +69,7 @@
         "code": "15079",
         "parent_code": "389"
     },
-    "15085": {
+     {
         "name": "Quang Trung",
         "type": "xa",
         "slug": "quang-trung",
@@ -79,7 +79,7 @@
         "code": "15085",
         "parent_code": "389"
     },
-    "15088": {
+     {
         "name": "Đồng Thịnh",
         "type": "xa",
         "slug": "dong-thinh",
@@ -89,7 +89,7 @@
         "code": "15088",
         "parent_code": "389"
     },
-    "15091": {
+     {
         "name": "Ngọc Liên",
         "type": "xa",
         "slug": "ngoc-lien",
@@ -99,7 +99,7 @@
         "code": "15091",
         "parent_code": "389"
     },
-    "15094": {
+     {
         "name": "Ngọc Sơn",
         "type": "xa",
         "slug": "ngoc-son",
@@ -109,7 +109,7 @@
         "code": "15094",
         "parent_code": "389"
     },
-    "15097": {
+     {
         "name": "Lộc Thịnh",
         "type": "xa",
         "slug": "loc-thinh",
@@ -119,7 +119,7 @@
         "code": "15097",
         "parent_code": "389"
     },
-    "15100": {
+     {
         "name": "Cao Thịnh",
         "type": "xa",
         "slug": "cao-thinh",
@@ -129,7 +129,7 @@
         "code": "15100",
         "parent_code": "389"
     },
-    "15103": {
+     {
         "name": "Ngọc Trung",
         "type": "xa",
         "slug": "ngoc-trung",
@@ -139,7 +139,7 @@
         "code": "15103",
         "parent_code": "389"
     },
-    "15106": {
+     {
         "name": "Phùng Giáo",
         "type": "xa",
         "slug": "phung-giao",
@@ -149,7 +149,7 @@
         "code": "15106",
         "parent_code": "389"
     },
-    "15109": {
+     {
         "name": "Phùng Minh",
         "type": "xa",
         "slug": "phung-minh",
@@ -159,7 +159,7 @@
         "code": "15109",
         "parent_code": "389"
     },
-    "15112": {
+     {
         "name": "Phúc Thịnh",
         "type": "xa",
         "slug": "phuc-thinh",
@@ -169,7 +169,7 @@
         "code": "15112",
         "parent_code": "389"
     },
-    "15115": {
+     {
         "name": "Nguyệt Ấn",
         "type": "xa",
         "slug": "nguyet-an",
@@ -179,7 +179,7 @@
         "code": "15115",
         "parent_code": "389"
     },
-    "15118": {
+     {
         "name": "Kiên Thọ",
         "type": "xa",
         "slug": "kien-tho",
@@ -189,7 +189,7 @@
         "code": "15118",
         "parent_code": "389"
     },
-    "15121": {
+     {
         "name": "Minh Tiến",
         "type": "xa",
         "slug": "minh-tien",
@@ -199,7 +199,7 @@
         "code": "15121",
         "parent_code": "389"
     },
-    "15124": {
+     {
         "name": "Minh Sơn",
         "type": "xa",
         "slug": "minh-son",
@@ -209,4 +209,4 @@
         "code": "15124",
         "parent_code": "389"
     }
-}
+]}

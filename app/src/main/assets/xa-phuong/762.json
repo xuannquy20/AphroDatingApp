@@ -1,5 +1,5 @@
 {
-    "26794": {
+    "xa":[ {
         "name": "Linh Xuân",
         "type": "phuong",
         "slug": "linh-xuan",
@@ -9,7 +9,7 @@
         "code": "26794",
         "parent_code": "762"
     },
-    "26797": {
+     {
         "name": "Bình Chiểu",
         "type": "phuong",
         "slug": "binh-chieu",
@@ -19,7 +19,7 @@
         "code": "26797",
         "parent_code": "762"
     },
-    "26800": {
+     {
         "name": "Linh Trung",
         "type": "phuong",
         "slug": "linh-trung",
@@ -29,7 +29,7 @@
         "code": "26800",
         "parent_code": "762"
     },
-    "26803": {
+     {
         "name": "Tam Bình",
         "type": "phuong",
         "slug": "tam-binh",
@@ -39,7 +39,7 @@
         "code": "26803",
         "parent_code": "762"
     },
-    "26806": {
+     {
         "name": "Tam Phú",
         "type": "phuong",
         "slug": "tam-phu",
@@ -49,7 +49,7 @@
         "code": "26806",
         "parent_code": "762"
     },
-    "26809": {
+     {
         "name": "Hiệp Bình Phước",
         "type": "phuong",
         "slug": "hiep-binh-phuoc",
@@ -59,7 +59,7 @@
         "code": "26809",
         "parent_code": "762"
     },
-    "26812": {
+     {
         "name": "Hiệp Bình Chánh",
         "type": "phuong",
         "slug": "hiep-binh-chanh",
@@ -69,7 +69,7 @@
         "code": "26812",
         "parent_code": "762"
     },
-    "26815": {
+     {
         "name": "Linh Chiểu",
         "type": "phuong",
         "slug": "linh-chieu",
@@ -79,7 +79,7 @@
         "code": "26815",
         "parent_code": "762"
     },
-    "26818": {
+     {
         "name": "Linh Tây",
         "type": "phuong",
         "slug": "linh-tay",
@@ -89,7 +89,7 @@
         "code": "26818",
         "parent_code": "762"
     },
-    "26821": {
+     {
         "name": "Linh Đông",
         "type": "phuong",
         "slug": "linh-dong",
@@ -99,7 +99,7 @@
         "code": "26821",
         "parent_code": "762"
     },
-    "26824": {
+     {
         "name": "Bình Thọ",
         "type": "phuong",
         "slug": "binh-tho",
@@ -109,7 +109,7 @@
         "code": "26824",
         "parent_code": "762"
     },
-    "26827": {
+     {
         "name": "Trường Thọ",
         "type": "phuong",
         "slug": "truong-tho",
@@ -119,4 +119,4 @@
         "code": "26827",
         "parent_code": "762"
     }
-}
+]}

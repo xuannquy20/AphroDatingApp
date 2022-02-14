@@ -1,5 +1,5 @@
 {
-    "25054": {
+    "xa":[ {
         "name": "Lộc Thắng",
         "type": "thi-tran",
         "slug": "loc-thang",
@@ -9,7 +9,7 @@
         "code": "25054",
         "parent_code": "680"
     },
-    "25057": {
+     {
         "name": "Lộc Bảo",
         "type": "xa",
         "slug": "loc-bao",
@@ -19,7 +19,7 @@
         "code": "25057",
         "parent_code": "680"
     },
-    "25060": {
+     {
         "name": "Lộc Lâm",
         "type": "xa",
         "slug": "loc-lam",
@@ -29,7 +29,7 @@
         "code": "25060",
         "parent_code": "680"
     },
-    "25063": {
+     {
         "name": "Lộc Phú",
         "type": "xa",
         "slug": "loc-phu",
@@ -39,7 +39,7 @@
         "code": "25063",
         "parent_code": "680"
     },
-    "25066": {
+     {
         "name": "Lộc Bắc",
         "type": "xa",
         "slug": "loc-bac",
@@ -49,7 +49,7 @@
         "code": "25066",
         "parent_code": "680"
     },
-    "25069": {
+     {
         "name": "B' Lá",
         "type": "xa",
         "slug": "b-la",
@@ -59,7 +59,7 @@
         "code": "25069",
         "parent_code": "680"
     },
-    "25072": {
+     {
         "name": "Lộc Ngãi",
         "type": "xa",
         "slug": "loc-ngai",
@@ -69,7 +69,7 @@
         "code": "25072",
         "parent_code": "680"
     },
-    "25075": {
+     {
         "name": "Lộc Quảng",
         "type": "xa",
         "slug": "loc-quang",
@@ -79,7 +79,7 @@
         "code": "25075",
         "parent_code": "680"
     },
-    "25078": {
+     {
         "name": "Lộc Tân",
         "type": "xa",
         "slug": "loc-tan",
@@ -89,7 +89,7 @@
         "code": "25078",
         "parent_code": "680"
     },
-    "25081": {
+     {
         "name": "Lộc Đức",
         "type": "xa",
         "slug": "loc-duc",
@@ -99,7 +99,7 @@
         "code": "25081",
         "parent_code": "680"
     },
-    "25084": {
+     {
         "name": "Lộc An",
         "type": "xa",
         "slug": "loc-an",
@@ -109,7 +109,7 @@
         "code": "25084",
         "parent_code": "680"
     },
-    "25087": {
+     {
         "name": "Tân Lạc",
         "type": "xa",
         "slug": "tan-lac",
@@ -119,7 +119,7 @@
         "code": "25087",
         "parent_code": "680"
     },
-    "25090": {
+     {
         "name": "Lộc Thành",
         "type": "xa",
         "slug": "loc-thanh",
@@ -129,7 +129,7 @@
         "code": "25090",
         "parent_code": "680"
     },
-    "25093": {
+     {
         "name": "Lộc Nam",
         "type": "xa",
         "slug": "loc-nam",
@@ -139,4 +139,4 @@
         "code": "25093",
         "parent_code": "680"
     }
-}
+]}

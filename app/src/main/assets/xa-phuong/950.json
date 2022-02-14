@@ -1,5 +1,5 @@
 {
-    "31783": {
+    "xa":[ {
         "name": "1",
         "type": "phuong",
         "slug": "1",
@@ -9,7 +9,7 @@
         "code": "31783",
         "parent_code": "950"
     },
-    "31786": {
+     {
         "name": "Hòa Đông",
         "type": "xa",
         "slug": "hoa-dong",
@@ -19,7 +19,7 @@
         "code": "31786",
         "parent_code": "950"
     },
-    "31789": {
+     {
         "name": "Khánh Hòa",
         "type": "phuong",
         "slug": "khanh-hoa",
@@ -29,7 +29,7 @@
         "code": "31789",
         "parent_code": "950"
     },
-    "31792": {
+     {
         "name": "Vĩnh Hiệp",
         "type": "xa",
         "slug": "vinh-hiep",
@@ -39,7 +39,7 @@
         "code": "31792",
         "parent_code": "950"
     },
-    "31795": {
+     {
         "name": "Vĩnh Hải",
         "type": "xa",
         "slug": "vinh-hai",
@@ -49,7 +49,7 @@
         "code": "31795",
         "parent_code": "950"
     },
-    "31798": {
+     {
         "name": "Lạc Hòa",
         "type": "xa",
         "slug": "lac-hoa",
@@ -59,7 +59,7 @@
         "code": "31798",
         "parent_code": "950"
     },
-    "31801": {
+     {
         "name": "2",
         "type": "phuong",
         "slug": "2",
@@ -69,7 +69,7 @@
         "code": "31801",
         "parent_code": "950"
     },
-    "31804": {
+     {
         "name": "Vĩnh Phước",
         "type": "phuong",
         "slug": "vinh-phuoc",
@@ -79,7 +79,7 @@
         "code": "31804",
         "parent_code": "950"
     },
-    "31807": {
+     {
         "name": "Vĩnh Tân",
         "type": "xa",
         "slug": "vinh-tan",
@@ -89,7 +89,7 @@
         "code": "31807",
         "parent_code": "950"
     },
-    "31810": {
+     {
         "name": "Lai Hòa",
         "type": "xa",
         "slug": "lai-hoa",
@@ -99,4 +99,4 @@
         "code": "31810",
         "parent_code": "950"
     }
-}
+]}

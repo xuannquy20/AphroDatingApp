@@ -1,5 +1,5 @@
 {
-    "31078": {
+    "xa":[ {
         "name": "Dương Đông",
         "type": "phuong",
         "slug": "duong-dong",
@@ -9,7 +9,7 @@
         "code": "31078",
         "parent_code": "911"
     },
-    "31081": {
+     {
         "name": "An Thới",
         "type": "phuong",
         "slug": "an-thoi",
@@ -19,7 +19,7 @@
         "code": "31081",
         "parent_code": "911"
     },
-    "31084": {
+     {
         "name": "Cửa Cạn",
         "type": "xa",
         "slug": "cua-can",
@@ -29,7 +29,7 @@
         "code": "31084",
         "parent_code": "911"
     },
-    "31087": {
+     {
         "name": "Gành Dầu",
         "type": "xa",
         "slug": "ganh-dau",
@@ -39,7 +39,7 @@
         "code": "31087",
         "parent_code": "911"
     },
-    "31090": {
+     {
         "name": "Cửa Dương",
         "type": "xa",
         "slug": "cua-duong",
@@ -49,7 +49,7 @@
         "code": "31090",
         "parent_code": "911"
     },
-    "31093": {
+     {
         "name": "Hàm Ninh",
         "type": "xa",
         "slug": "ham-ninh",
@@ -59,7 +59,7 @@
         "code": "31093",
         "parent_code": "911"
     },
-    "31096": {
+     {
         "name": "Dương Tơ",
         "type": "xa",
         "slug": "duong-to",
@@ -69,7 +69,7 @@
         "code": "31096",
         "parent_code": "911"
     },
-    "31102": {
+     {
         "name": "Bãi Thơm",
         "type": "xa",
         "slug": "bai-thom",
@@ -79,7 +79,7 @@
         "code": "31102",
         "parent_code": "911"
     },
-    "31105": {
+     {
         "name": "Thổ Châu",
         "type": "xa",
         "slug": "tho-chau",
@@ -89,4 +89,4 @@
         "code": "31105",
         "parent_code": "911"
     }
-}
+]}

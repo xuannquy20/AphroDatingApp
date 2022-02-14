@@ -1,5 +1,5 @@
 {
-    "01969": {
+    "xa":[ {
         "name": "Phủ Thông",
         "type": "thi-tran",
         "slug": "phu-thong",
@@ -9,7 +9,7 @@
         "code": "01969",
         "parent_code": "063"
     },
-    "01975": {
+     {
         "name": "Vi Hương",
         "type": "xa",
         "slug": "vi-huong",
@@ -19,7 +19,7 @@
         "code": "01975",
         "parent_code": "063"
     },
-    "01978": {
+     {
         "name": "Sĩ Bình",
         "type": "xa",
         "slug": "si-binh",
@@ -29,7 +29,7 @@
         "code": "01978",
         "parent_code": "063"
     },
-    "01981": {
+     {
         "name": "Vũ Muộn",
         "type": "xa",
         "slug": "vu-muon",
@@ -39,7 +39,7 @@
         "code": "01981",
         "parent_code": "063"
     },
-    "01984": {
+     {
         "name": "Đôn Phong",
         "type": "xa",
         "slug": "don-phong",
@@ -49,7 +49,7 @@
         "code": "01984",
         "parent_code": "063"
     },
-    "01990": {
+     {
         "name": "Lục Bình",
         "type": "xa",
         "slug": "luc-binh",
@@ -59,7 +59,7 @@
         "code": "01990",
         "parent_code": "063"
     },
-    "01993": {
+     {
         "name": "Tân Tú",
         "type": "xa",
         "slug": "tan-tu",
@@ -69,7 +69,7 @@
         "code": "01993",
         "parent_code": "063"
     },
-    "01999": {
+     {
         "name": "Nguyên Phúc",
         "type": "xa",
         "slug": "nguyen-phuc",
@@ -79,7 +79,7 @@
         "code": "01999",
         "parent_code": "063"
     },
-    "02002": {
+     {
         "name": "Cao Sơn",
         "type": "xa",
         "slug": "cao-son",
@@ -89,7 +89,7 @@
         "code": "02002",
         "parent_code": "063"
     },
-    "02005": {
+     {
         "name": "Quân Hà",
         "type": "xa",
         "slug": "quan-ha",
@@ -99,7 +99,7 @@
         "code": "02005",
         "parent_code": "063"
     },
-    "02008": {
+     {
         "name": "Cẩm Giàng",
         "type": "xa",
         "slug": "cam-giang",
@@ -109,7 +109,7 @@
         "code": "02008",
         "parent_code": "063"
     },
-    "02011": {
+     {
         "name": "Mỹ Thanh",
         "type": "xa",
         "slug": "my-thanh",
@@ -119,7 +119,7 @@
         "code": "02011",
         "parent_code": "063"
     },
-    "02014": {
+     {
         "name": "Dương Phong",
         "type": "xa",
         "slug": "duong-phong",
@@ -129,7 +129,7 @@
         "code": "02014",
         "parent_code": "063"
     },
-    "02017": {
+     {
         "name": "Quang Thuận",
         "type": "xa",
         "slug": "quang-thuan",
@@ -139,4 +139,4 @@
         "code": "02017",
         "parent_code": "063"
     }
-}
+]}

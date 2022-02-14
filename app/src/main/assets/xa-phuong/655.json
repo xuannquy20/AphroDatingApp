@@ -1,5 +1,5 @@
 {
-    "24538": {
+    "xa":[ {
         "name": "Buôn Trấp",
         "type": "thi-tran",
         "slug": "buon-trap",
@@ -9,7 +9,7 @@
         "code": "24538",
         "parent_code": "655"
     },
-    "24556": {
+     {
         "name": "Dray Sáp",
         "type": "xa",
         "slug": "dray-sap",
@@ -19,7 +19,7 @@
         "code": "24556",
         "parent_code": "655"
     },
-    "24559": {
+     {
         "name": "Ea Na",
         "type": "xa",
         "slug": "ea-na",
@@ -29,7 +29,7 @@
         "code": "24559",
         "parent_code": "655"
     },
-    "24565": {
+     {
         "name": "Ea Bông",
         "type": "xa",
         "slug": "ea-bong",
@@ -39,7 +39,7 @@
         "code": "24565",
         "parent_code": "655"
     },
-    "24568": {
+     {
         "name": "Băng A Drênh",
         "type": "xa",
         "slug": "bang-a-drenh",
@@ -49,7 +49,7 @@
         "code": "24568",
         "parent_code": "655"
     },
-    "24571": {
+     {
         "name": "Dur KMăl",
         "type": "xa",
         "slug": "dur-kmal",
@@ -59,7 +59,7 @@
         "code": "24571",
         "parent_code": "655"
     },
-    "24574": {
+     {
         "name": "Bình Hòa",
         "type": "xa",
         "slug": "binh-hoa",
@@ -69,7 +69,7 @@
         "code": "24574",
         "parent_code": "655"
     },
-    "24577": {
+     {
         "name": "Quảng Điền",
         "type": "xa",
         "slug": "quang-dien",
@@ -79,4 +79,4 @@
         "code": "24577",
         "parent_code": "655"
     }
-}
+]}

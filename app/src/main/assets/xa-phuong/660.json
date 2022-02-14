@@ -1,5 +1,5 @@
 {
-    "24611": {
+    "xa":[ {
         "name": "Nghĩa Đức",
         "type": "phuong",
         "slug": "nghia-duc",
@@ -9,7 +9,7 @@
         "code": "24611",
         "parent_code": "660"
     },
-    "24612": {
+     {
         "name": "Nghĩa Thành",
         "type": "phuong",
         "slug": "nghia-thanh",
@@ -19,7 +19,7 @@
         "code": "24612",
         "parent_code": "660"
     },
-    "24614": {
+     {
         "name": "Nghĩa Phú",
         "type": "phuong",
         "slug": "nghia-phu",
@@ -29,7 +29,7 @@
         "code": "24614",
         "parent_code": "660"
     },
-    "24615": {
+     {
         "name": "Nghĩa Tân",
         "type": "phuong",
         "slug": "nghia-tan",
@@ -39,7 +39,7 @@
         "code": "24615",
         "parent_code": "660"
     },
-    "24617": {
+     {
         "name": "Nghĩa Trung",
         "type": "phuong",
         "slug": "nghia-trung",
@@ -49,7 +49,7 @@
         "code": "24617",
         "parent_code": "660"
     },
-    "24618": {
+     {
         "name": "Đăk R'Moan",
         "type": "xa",
         "slug": "dak-r-moan",
@@ -59,7 +59,7 @@
         "code": "24618",
         "parent_code": "660"
     },
-    "24619": {
+     {
         "name": "Quảng Thành",
         "type": "phuong",
         "slug": "quang-thanh",
@@ -69,7 +69,7 @@
         "code": "24619",
         "parent_code": "660"
     },
-    "24628": {
+     {
         "name": "Đắk Nia",
         "type": "xa",
         "slug": "dak-nia",
@@ -79,4 +79,4 @@
         "code": "24628",
         "parent_code": "660"
     }
-}
+]}

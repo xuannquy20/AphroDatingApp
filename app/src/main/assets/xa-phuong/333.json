@@ -1,5 +1,5 @@
 {
-    "12391": {
+    "xa":[ {
         "name": "Trần Cao",
         "type": "thi-tran",
         "slug": "tran-cao",
@@ -9,7 +9,7 @@
         "code": "12391",
         "parent_code": "333"
     },
-    "12394": {
+     {
         "name": "Minh Tân",
         "type": "xa",
         "slug": "minh-tan",
@@ -19,7 +19,7 @@
         "code": "12394",
         "parent_code": "333"
     },
-    "12397": {
+     {
         "name": "Phan Sào Nam",
         "type": "xa",
         "slug": "phan-sao-nam",
@@ -29,7 +29,7 @@
         "code": "12397",
         "parent_code": "333"
     },
-    "12400": {
+     {
         "name": "Quang Hưng",
         "type": "xa",
         "slug": "quang-hung",
@@ -39,7 +39,7 @@
         "code": "12400",
         "parent_code": "333"
     },
-    "12403": {
+     {
         "name": "Minh Hoàng",
         "type": "xa",
         "slug": "minh-hoang",
@@ -49,7 +49,7 @@
         "code": "12403",
         "parent_code": "333"
     },
-    "12406": {
+     {
         "name": "Đoàn Đào",
         "type": "xa",
         "slug": "doan-dao",
@@ -59,7 +59,7 @@
         "code": "12406",
         "parent_code": "333"
     },
-    "12409": {
+     {
         "name": "Tống Phan",
         "type": "xa",
         "slug": "tong-phan",
@@ -69,7 +69,7 @@
         "code": "12409",
         "parent_code": "333"
     },
-    "12412": {
+     {
         "name": "Đình Cao",
         "type": "xa",
         "slug": "dinh-cao",
@@ -79,7 +79,7 @@
         "code": "12412",
         "parent_code": "333"
     },
-    "12415": {
+     {
         "name": "Nhật Quang",
         "type": "xa",
         "slug": "nhat-quang",
@@ -89,7 +89,7 @@
         "code": "12415",
         "parent_code": "333"
     },
-    "12418": {
+     {
         "name": "Tiền Tiến",
         "type": "xa",
         "slug": "tien-tien",
@@ -99,7 +99,7 @@
         "code": "12418",
         "parent_code": "333"
     },
-    "12421": {
+     {
         "name": "Tam Đa",
         "type": "xa",
         "slug": "tam-da",
@@ -109,7 +109,7 @@
         "code": "12421",
         "parent_code": "333"
     },
-    "12424": {
+     {
         "name": "Minh Tiến",
         "type": "xa",
         "slug": "minh-tien",
@@ -119,7 +119,7 @@
         "code": "12424",
         "parent_code": "333"
     },
-    "12427": {
+     {
         "name": "Nguyên Hòa",
         "type": "xa",
         "slug": "nguyen-hoa",
@@ -129,7 +129,7 @@
         "code": "12427",
         "parent_code": "333"
     },
-    "12430": {
+     {
         "name": "Tống Trân",
         "type": "xa",
         "slug": "tong-tran",
@@ -139,4 +139,4 @@
         "code": "12430",
         "parent_code": "333"
     }
-}
+]}

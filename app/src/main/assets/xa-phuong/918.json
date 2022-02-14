@@ -1,5 +1,5 @@
 {
-    "31168": {
+    "xa":[ {
         "name": "Bình Thủy",
         "type": "phuong",
         "slug": "binh-thuy",
@@ -9,7 +9,7 @@
         "code": "31168",
         "parent_code": "918"
     },
-    "31169": {
+     {
         "name": "Trà An",
         "type": "phuong",
         "slug": "tra-an",
@@ -19,7 +19,7 @@
         "code": "31169",
         "parent_code": "918"
     },
-    "31171": {
+     {
         "name": "Trà Nóc",
         "type": "phuong",
         "slug": "tra-noc",
@@ -29,7 +29,7 @@
         "code": "31171",
         "parent_code": "918"
     },
-    "31174": {
+     {
         "name": "Thới An Đông",
         "type": "phuong",
         "slug": "thoi-an-dong",
@@ -39,7 +39,7 @@
         "code": "31174",
         "parent_code": "918"
     },
-    "31177": {
+     {
         "name": "An Thới",
         "type": "phuong",
         "slug": "an-thoi",
@@ -49,7 +49,7 @@
         "code": "31177",
         "parent_code": "918"
     },
-    "31178": {
+     {
         "name": "Bùi Hữu Nghĩa",
         "type": "phuong",
         "slug": "bui-huu-nghia",
@@ -59,7 +59,7 @@
         "code": "31178",
         "parent_code": "918"
     },
-    "31180": {
+     {
         "name": "Long Hòa",
         "type": "phuong",
         "slug": "long-hoa",
@@ -69,7 +69,7 @@
         "code": "31180",
         "parent_code": "918"
     },
-    "31183": {
+     {
         "name": "Long Tuyền",
         "type": "phuong",
         "slug": "long-tuyen",
@@ -79,4 +79,4 @@
         "code": "31183",
         "parent_code": "918"
     }
-}
+]}

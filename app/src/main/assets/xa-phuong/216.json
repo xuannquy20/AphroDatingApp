@@ -1,5 +1,5 @@
 {
-    "07303": {
+    "xa":[ {
         "name": "Lan Giới",
         "type": "xa",
         "slug": "lan-gioi",
@@ -9,7 +9,7 @@
         "code": "07303",
         "parent_code": "216"
     },
-    "07306": {
+     {
         "name": "Nhã Nam",
         "type": "thi-tran",
         "slug": "nha-nam",
@@ -19,7 +19,7 @@
         "code": "07306",
         "parent_code": "216"
     },
-    "07309": {
+     {
         "name": "Tân Trung",
         "type": "xa",
         "slug": "tan-trung",
@@ -29,7 +29,7 @@
         "code": "07309",
         "parent_code": "216"
     },
-    "07312": {
+     {
         "name": "Đại Hóa",
         "type": "xa",
         "slug": "dai-hoa",
@@ -39,7 +39,7 @@
         "code": "07312",
         "parent_code": "216"
     },
-    "07315": {
+     {
         "name": "Quang Tiến",
         "type": "xa",
         "slug": "quang-tien",
@@ -49,7 +49,7 @@
         "code": "07315",
         "parent_code": "216"
     },
-    "07318": {
+     {
         "name": "Phúc Sơn",
         "type": "xa",
         "slug": "phuc-son",
@@ -59,7 +59,7 @@
         "code": "07318",
         "parent_code": "216"
     },
-    "07321": {
+     {
         "name": "An Dương",
         "type": "xa",
         "slug": "an-duong",
@@ -69,7 +69,7 @@
         "code": "07321",
         "parent_code": "216"
     },
-    "07324": {
+     {
         "name": "Phúc Hòa",
         "type": "xa",
         "slug": "phuc-hoa",
@@ -79,7 +79,7 @@
         "code": "07324",
         "parent_code": "216"
     },
-    "07327": {
+     {
         "name": "Liên Sơn",
         "type": "xa",
         "slug": "lien-son",
@@ -89,7 +89,7 @@
         "code": "07327",
         "parent_code": "216"
     },
-    "07330": {
+     {
         "name": "Hợp Đức",
         "type": "xa",
         "slug": "hop-duc",
@@ -99,7 +99,7 @@
         "code": "07330",
         "parent_code": "216"
     },
-    "07333": {
+     {
         "name": "Lam Cốt",
         "type": "xa",
         "slug": "lam-cot",
@@ -109,7 +109,7 @@
         "code": "07333",
         "parent_code": "216"
     },
-    "07336": {
+     {
         "name": "Cao Xá",
         "type": "xa",
         "slug": "cao-xa",
@@ -119,7 +119,7 @@
         "code": "07336",
         "parent_code": "216"
     },
-    "07339": {
+     {
         "name": "Cao Thượng",
         "type": "thi-tran",
         "slug": "cao-thuong",
@@ -129,7 +129,7 @@
         "code": "07339",
         "parent_code": "216"
     },
-    "07342": {
+     {
         "name": "Việt Ngọc",
         "type": "xa",
         "slug": "viet-ngoc",
@@ -139,7 +139,7 @@
         "code": "07342",
         "parent_code": "216"
     },
-    "07345": {
+     {
         "name": "Song Vân",
         "type": "xa",
         "slug": "song-van",
@@ -149,7 +149,7 @@
         "code": "07345",
         "parent_code": "216"
     },
-    "07348": {
+     {
         "name": "Ngọc Châu",
         "type": "xa",
         "slug": "ngoc-chau",
@@ -159,7 +159,7 @@
         "code": "07348",
         "parent_code": "216"
     },
-    "07351": {
+     {
         "name": "Ngọc Vân",
         "type": "xa",
         "slug": "ngoc-van",
@@ -169,7 +169,7 @@
         "code": "07351",
         "parent_code": "216"
     },
-    "07354": {
+     {
         "name": "Việt Lập",
         "type": "xa",
         "slug": "viet-lap",
@@ -179,7 +179,7 @@
         "code": "07354",
         "parent_code": "216"
     },
-    "07357": {
+     {
         "name": "Liên Chung",
         "type": "xa",
         "slug": "lien-chung",
@@ -189,7 +189,7 @@
         "code": "07357",
         "parent_code": "216"
     },
-    "07360": {
+     {
         "name": "Ngọc Thiện",
         "type": "xa",
         "slug": "ngoc-thien",
@@ -199,7 +199,7 @@
         "code": "07360",
         "parent_code": "216"
     },
-    "07363": {
+     {
         "name": "Ngọc Lý",
         "type": "xa",
         "slug": "ngoc-ly",
@@ -209,7 +209,7 @@
         "code": "07363",
         "parent_code": "216"
     },
-    "07366": {
+     {
         "name": "Quế Nham",
         "type": "xa",
         "slug": "que-nham",
@@ -219,4 +219,4 @@
         "code": "07366",
         "parent_code": "216"
     }
-}
+]}

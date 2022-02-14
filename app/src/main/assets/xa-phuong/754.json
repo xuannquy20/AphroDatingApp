@@ -1,5 +1,5 @@
 {
-    "26704": {
+    "xa":[ {
         "name": "Phú Mỹ",
         "type": "phuong",
         "slug": "phu-my",
@@ -9,7 +9,7 @@
         "code": "26704",
         "parent_code": "754"
     },
-    "26707": {
+     {
         "name": "Tân Hoà",
         "type": "xa",
         "slug": "tan-hoa",
@@ -19,7 +19,7 @@
         "code": "26707",
         "parent_code": "754"
     },
-    "26710": {
+     {
         "name": "Tân Hải",
         "type": "xa",
         "slug": "tan-hai",
@@ -29,7 +29,7 @@
         "code": "26710",
         "parent_code": "754"
     },
-    "26713": {
+     {
         "name": "Phước Hoà",
         "type": "phuong",
         "slug": "phuoc-hoa",
@@ -39,7 +39,7 @@
         "code": "26713",
         "parent_code": "754"
     },
-    "26716": {
+     {
         "name": "Tân Phước",
         "type": "phuong",
         "slug": "tan-phuoc",
@@ -49,7 +49,7 @@
         "code": "26716",
         "parent_code": "754"
     },
-    "26719": {
+     {
         "name": "Mỹ Xuân",
         "type": "phuong",
         "slug": "my-xuan",
@@ -59,7 +59,7 @@
         "code": "26719",
         "parent_code": "754"
     },
-    "26722": {
+     {
         "name": "Sông Xoài",
         "type": "xa",
         "slug": "song-xoai",
@@ -69,7 +69,7 @@
         "code": "26722",
         "parent_code": "754"
     },
-    "26725": {
+     {
         "name": "Hắc Dịch",
         "type": "phuong",
         "slug": "hac-dich",
@@ -79,7 +79,7 @@
         "code": "26725",
         "parent_code": "754"
     },
-    "26728": {
+     {
         "name": "Châu Pha",
         "type": "xa",
         "slug": "chau-pha",
@@ -89,7 +89,7 @@
         "code": "26728",
         "parent_code": "754"
     },
-    "26731": {
+     {
         "name": "Tóc Tiên",
         "type": "xa",
         "slug": "toc-tien",
@@ -99,4 +99,4 @@
         "code": "26731",
         "parent_code": "754"
     }
-}
+]}

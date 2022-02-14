@@ -1,5 +1,5 @@
 {
-    "27796": {
+    "xa":[ {
         "name": "Bình Hòa Tây",
         "type": "xa",
         "slug": "binh-hoa-tay",
@@ -9,7 +9,7 @@
         "code": "27796",
         "parent_code": "798"
     },
-    "27802": {
+     {
         "name": "Bình Thạnh",
         "type": "xa",
         "slug": "binh-thanh",
@@ -19,7 +19,7 @@
         "code": "27802",
         "parent_code": "798"
     },
-    "27808": {
+     {
         "name": "Bình Hòa Trung",
         "type": "xa",
         "slug": "binh-hoa-trung",
@@ -29,7 +29,7 @@
         "code": "27808",
         "parent_code": "798"
     },
-    "27811": {
+     {
         "name": "Bình Hòa Đông",
         "type": "xa",
         "slug": "binh-hoa-dong",
@@ -39,7 +39,7 @@
         "code": "27811",
         "parent_code": "798"
     },
-    "27814": {
+     {
         "name": "Bình Phong Thạnh",
         "type": "thi-tran",
         "slug": "binh-phong-thanh",
@@ -49,7 +49,7 @@
         "code": "27814",
         "parent_code": "798"
     },
-    "27820": {
+     {
         "name": "Tân Lập",
         "type": "xa",
         "slug": "tan-lap",
@@ -59,7 +59,7 @@
         "code": "27820",
         "parent_code": "798"
     },
-    "27823": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -69,4 +69,4 @@
         "code": "27823",
         "parent_code": "798"
     }
-}
+]}

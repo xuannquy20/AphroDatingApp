@@ -1,5 +1,5 @@
 {
-    "06760": {
+    "xa":[ {
         "name": "Mông Dương",
         "type": "phuong",
         "slug": "mong-duong",
@@ -9,7 +9,7 @@
         "code": "06760",
         "parent_code": "195"
     },
-    "06763": {
+     {
         "name": "Cửa Ông",
         "type": "phuong",
         "slug": "cua-ong",
@@ -19,7 +19,7 @@
         "code": "06763",
         "parent_code": "195"
     },
-    "06766": {
+     {
         "name": "Cẩm Sơn",
         "type": "phuong",
         "slug": "cam-son",
@@ -29,7 +29,7 @@
         "code": "06766",
         "parent_code": "195"
     },
-    "06769": {
+     {
         "name": "Cẩm Đông",
         "type": "phuong",
         "slug": "cam-dong",
@@ -39,7 +39,7 @@
         "code": "06769",
         "parent_code": "195"
     },
-    "06772": {
+     {
         "name": "Cẩm Phú",
         "type": "phuong",
         "slug": "cam-phu",
@@ -49,7 +49,7 @@
         "code": "06772",
         "parent_code": "195"
     },
-    "06775": {
+     {
         "name": "Cẩm Tây",
         "type": "phuong",
         "slug": "cam-tay",
@@ -59,7 +59,7 @@
         "code": "06775",
         "parent_code": "195"
     },
-    "06778": {
+     {
         "name": "Quang Hanh",
         "type": "phuong",
         "slug": "quang-hanh",
@@ -69,7 +69,7 @@
         "code": "06778",
         "parent_code": "195"
     },
-    "06781": {
+     {
         "name": "Cẩm Thịnh",
         "type": "phuong",
         "slug": "cam-thinh",
@@ -79,7 +79,7 @@
         "code": "06781",
         "parent_code": "195"
     },
-    "06784": {
+     {
         "name": "Cẩm Thủy",
         "type": "phuong",
         "slug": "cam-thuy",
@@ -89,7 +89,7 @@
         "code": "06784",
         "parent_code": "195"
     },
-    "06787": {
+     {
         "name": "Cẩm Thạch",
         "type": "phuong",
         "slug": "cam-thach",
@@ -99,7 +99,7 @@
         "code": "06787",
         "parent_code": "195"
     },
-    "06790": {
+     {
         "name": "Cẩm Thành",
         "type": "phuong",
         "slug": "cam-thanh",
@@ -109,7 +109,7 @@
         "code": "06790",
         "parent_code": "195"
     },
-    "06793": {
+     {
         "name": "Cẩm Trung",
         "type": "phuong",
         "slug": "cam-trung",
@@ -119,7 +119,7 @@
         "code": "06793",
         "parent_code": "195"
     },
-    "06796": {
+     {
         "name": "Cẩm Bình",
         "type": "phuong",
         "slug": "cam-binh",
@@ -129,7 +129,7 @@
         "code": "06796",
         "parent_code": "195"
     },
-    "06799": {
+     {
         "name": "Cộng Hòa",
         "type": "xa",
         "slug": "cong-hoa",
@@ -139,7 +139,7 @@
         "code": "06799",
         "parent_code": "195"
     },
-    "06802": {
+     {
         "name": "Cẩm Hải",
         "type": "xa",
         "slug": "cam-hai",
@@ -149,7 +149,7 @@
         "code": "06802",
         "parent_code": "195"
     },
-    "06805": {
+     {
         "name": "Dương Huy",
         "type": "xa",
         "slug": "duong-huy",
@@ -159,4 +159,4 @@
         "code": "06805",
         "parent_code": "195"
     }
-}
+]}

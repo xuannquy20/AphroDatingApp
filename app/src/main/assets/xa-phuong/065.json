@@ -1,5 +1,5 @@
 {
-    "02086": {
+    "xa":[ {
         "name": "Đồng Tâm",
         "type": "thi-tran",
         "slug": "dong-tam",
@@ -9,7 +9,7 @@
         "code": "02086",
         "parent_code": "065"
     },
-    "02089": {
+     {
         "name": "Tân Sơn",
         "type": "xa",
         "slug": "tan-son",
@@ -19,7 +19,7 @@
         "code": "02089",
         "parent_code": "065"
     },
-    "02092": {
+     {
         "name": "Thanh Vận",
         "type": "xa",
         "slug": "thanh-van",
@@ -29,7 +29,7 @@
         "code": "02092",
         "parent_code": "065"
     },
-    "02095": {
+     {
         "name": "Mai Lạp",
         "type": "xa",
         "slug": "mai-lap",
@@ -39,7 +39,7 @@
         "code": "02095",
         "parent_code": "065"
     },
-    "02098": {
+     {
         "name": "Hoà Mục",
         "type": "xa",
         "slug": "hoa-muc",
@@ -49,7 +49,7 @@
         "code": "02098",
         "parent_code": "065"
     },
-    "02101": {
+     {
         "name": "Thanh Mai",
         "type": "xa",
         "slug": "thanh-mai",
@@ -59,7 +59,7 @@
         "code": "02101",
         "parent_code": "065"
     },
-    "02104": {
+     {
         "name": "Cao Kỳ",
         "type": "xa",
         "slug": "cao-ky",
@@ -69,7 +69,7 @@
         "code": "02104",
         "parent_code": "065"
     },
-    "02107": {
+     {
         "name": "Nông Hạ",
         "type": "xa",
         "slug": "nong-ha",
@@ -79,7 +79,7 @@
         "code": "02107",
         "parent_code": "065"
     },
-    "02110": {
+     {
         "name": "Yên Cư",
         "type": "xa",
         "slug": "yen-cu",
@@ -89,7 +89,7 @@
         "code": "02110",
         "parent_code": "065"
     },
-    "02113": {
+     {
         "name": "Thanh Thịnh",
         "type": "xa",
         "slug": "thanh-thinh",
@@ -99,7 +99,7 @@
         "code": "02113",
         "parent_code": "065"
     },
-    "02116": {
+     {
         "name": "Yên Hân",
         "type": "xa",
         "slug": "yen-han",
@@ -109,7 +109,7 @@
         "code": "02116",
         "parent_code": "065"
     },
-    "02122": {
+     {
         "name": "Như Cố",
         "type": "xa",
         "slug": "nhu-co",
@@ -119,7 +119,7 @@
         "code": "02122",
         "parent_code": "065"
     },
-    "02125": {
+     {
         "name": "Bình Văn",
         "type": "xa",
         "slug": "binh-van",
@@ -129,7 +129,7 @@
         "code": "02125",
         "parent_code": "065"
     },
-    "02131": {
+     {
         "name": "Quảng Chu",
         "type": "xa",
         "slug": "quang-chu",
@@ -139,4 +139,4 @@
         "code": "02131",
         "parent_code": "065"
     }
-}
+]}

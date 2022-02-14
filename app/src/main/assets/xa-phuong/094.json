@@ -1,5 +1,5 @@
 {
-    "03124": {
+    "xa":[ {
         "name": "Noong Bua",
         "type": "phuong",
         "slug": "noong-bua",
@@ -9,7 +9,7 @@
         "code": "03124",
         "parent_code": "094"
     },
-    "03127": {
+     {
         "name": "Him Lam",
         "type": "phuong",
         "slug": "him-lam",
@@ -19,7 +19,7 @@
         "code": "03127",
         "parent_code": "094"
     },
-    "03130": {
+     {
         "name": "Thanh Bình",
         "type": "phuong",
         "slug": "thanh-binh",
@@ -29,7 +29,7 @@
         "code": "03130",
         "parent_code": "094"
     },
-    "03133": {
+     {
         "name": "Tân Thanh",
         "type": "phuong",
         "slug": "tan-thanh",
@@ -39,7 +39,7 @@
         "code": "03133",
         "parent_code": "094"
     },
-    "03136": {
+     {
         "name": "Mường Thanh",
         "type": "phuong",
         "slug": "muong-thanh",
@@ -49,7 +49,7 @@
         "code": "03136",
         "parent_code": "094"
     },
-    "03139": {
+     {
         "name": "Nam Thanh",
         "type": "phuong",
         "slug": "nam-thanh",
@@ -59,7 +59,7 @@
         "code": "03139",
         "parent_code": "094"
     },
-    "03142": {
+     {
         "name": "Thanh Trường",
         "type": "phuong",
         "slug": "thanh-truong",
@@ -69,7 +69,7 @@
         "code": "03142",
         "parent_code": "094"
     },
-    "03145": {
+     {
         "name": "Thanh Minh",
         "type": "xa",
         "slug": "thanh-minh",
@@ -79,7 +79,7 @@
         "code": "03145",
         "parent_code": "094"
     },
-    "03316": {
+     {
         "name": "Nà Tấu",
         "type": "xa",
         "slug": "na-tau",
@@ -89,7 +89,7 @@
         "code": "03316",
         "parent_code": "094"
     },
-    "03317": {
+     {
         "name": "Nà Nhạn",
         "type": "xa",
         "slug": "na-nhan",
@@ -99,7 +99,7 @@
         "code": "03317",
         "parent_code": "094"
     },
-    "03325": {
+     {
         "name": "Mường Phăng",
         "type": "xa",
         "slug": "muong-phang",
@@ -109,7 +109,7 @@
         "code": "03325",
         "parent_code": "094"
     },
-    "03326": {
+     {
         "name": "Pá Khoang",
         "type": "xa",
         "slug": "pa-khoang",
@@ -119,4 +119,4 @@
         "code": "03326",
         "parent_code": "094"
     }
-}
+]}

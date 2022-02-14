@@ -1,5 +1,5 @@
 {
-    "00769": {
+     "xa" : [{
         "name": "Mèo Vạc",
         "type": "thi-tran",
         "slug": "meo-vac",
@@ -9,7 +9,7 @@
         "code": "00769",
         "parent_code": "027"
     },
-    "00772": {
+     {
         "name": "Thượng Phùng",
         "type": "xa",
         "slug": "thuong-phung",
@@ -19,7 +19,7 @@
         "code": "00772",
         "parent_code": "027"
     },
-    "00775": {
+     {
         "name": "Pải Lủng",
         "type": "xa",
         "slug": "pai-lung",
@@ -29,7 +29,7 @@
         "code": "00775",
         "parent_code": "027"
     },
-    "00778": {
+     {
         "name": "Xín Cái",
         "type": "xa",
         "slug": "xin-cai",
@@ -39,7 +39,7 @@
         "code": "00778",
         "parent_code": "027"
     },
-    "00781": {
+     {
         "name": "Pả Vi",
         "type": "xa",
         "slug": "pa-vi",
@@ -49,7 +49,7 @@
         "code": "00781",
         "parent_code": "027"
     },
-    "00784": {
+     {
         "name": "Giàng Chu Phìn",
         "type": "xa",
         "slug": "giang-chu-phin",
@@ -59,7 +59,7 @@
         "code": "00784",
         "parent_code": "027"
     },
-    "00787": {
+     {
         "name": "Sủng Trà",
         "type": "xa",
         "slug": "sung-tra",
@@ -69,7 +69,7 @@
         "code": "00787",
         "parent_code": "027"
     },
-    "00790": {
+     {
         "name": "Sủng Máng",
         "type": "xa",
         "slug": "sung-mang",
@@ -79,7 +79,7 @@
         "code": "00790",
         "parent_code": "027"
     },
-    "00793": {
+     {
         "name": "Sơn Vĩ",
         "type": "xa",
         "slug": "son-vi",
@@ -89,7 +89,7 @@
         "code": "00793",
         "parent_code": "027"
     },
-    "00796": {
+     {
         "name": "Tả Lủng",
         "type": "xa",
         "slug": "ta-lung",
@@ -99,7 +99,7 @@
         "code": "00796",
         "parent_code": "027"
     },
-    "00799": {
+     {
         "name": "Cán Chu Phìn",
         "type": "xa",
         "slug": "can-chu-phin",
@@ -109,7 +109,7 @@
         "code": "00799",
         "parent_code": "027"
     },
-    "00802": {
+     {
         "name": "Lũng Pù",
         "type": "xa",
         "slug": "lung-pu",
@@ -119,7 +119,7 @@
         "code": "00802",
         "parent_code": "027"
     },
-    "00805": {
+     {
         "name": "Lũng Chinh",
         "type": "xa",
         "slug": "lung-chinh",
@@ -129,7 +129,7 @@
         "code": "00805",
         "parent_code": "027"
     },
-    "00808": {
+     {
         "name": "Tát Ngà",
         "type": "xa",
         "slug": "tat-nga",
@@ -139,7 +139,7 @@
         "code": "00808",
         "parent_code": "027"
     },
-    "00811": {
+     {
         "name": "Nậm Ban",
         "type": "xa",
         "slug": "nam-ban",
@@ -149,7 +149,7 @@
         "code": "00811",
         "parent_code": "027"
     },
-    "00814": {
+     {
         "name": "Khâu Vai",
         "type": "xa",
         "slug": "khau-vai",
@@ -159,7 +159,7 @@
         "code": "00814",
         "parent_code": "027"
     },
-    "00815": {
+     {
         "name": "Niêm Tòng",
         "type": "xa",
         "slug": "niem-tong",
@@ -169,7 +169,7 @@
         "code": "00815",
         "parent_code": "027"
     },
-    "00817": {
+     {
         "name": "Niêm Sơn",
         "type": "xa",
         "slug": "niem-son",
@@ -179,4 +179,5 @@
         "code": "00817",
         "parent_code": "027"
     }
+]
 }

@@ -1,5 +1,5 @@
 {
-    "03172": {
+    "xa":[ {
         "name": "Mường Chà",
         "type": "thi-tran",
         "slug": "muong-cha",
@@ -9,7 +9,7 @@
         "code": "03172",
         "parent_code": "097"
     },
-    "03178": {
+     {
         "name": "Xá Tổng",
         "type": "xa",
         "slug": "xa-tong",
@@ -19,7 +19,7 @@
         "code": "03178",
         "parent_code": "097"
     },
-    "03181": {
+     {
         "name": "Mường Tùng",
         "type": "xa",
         "slug": "muong-tung",
@@ -29,7 +29,7 @@
         "code": "03181",
         "parent_code": "097"
     },
-    "03190": {
+     {
         "name": "Hừa Ngài",
         "type": "xa",
         "slug": "hua-ngai",
@@ -39,7 +39,7 @@
         "code": "03190",
         "parent_code": "097"
     },
-    "03191": {
+     {
         "name": "Huổi Mí",
         "type": "xa",
         "slug": "huoi-mi",
@@ -49,7 +49,7 @@
         "code": "03191",
         "parent_code": "097"
     },
-    "03193": {
+     {
         "name": "Pa Ham",
         "type": "xa",
         "slug": "pa-ham",
@@ -59,7 +59,7 @@
         "code": "03193",
         "parent_code": "097"
     },
-    "03194": {
+     {
         "name": "Nậm Nèn",
         "type": "xa",
         "slug": "nam-nen",
@@ -69,7 +69,7 @@
         "code": "03194",
         "parent_code": "097"
     },
-    "03196": {
+     {
         "name": "Huổi Lèng",
         "type": "xa",
         "slug": "huoi-leng",
@@ -79,7 +79,7 @@
         "code": "03196",
         "parent_code": "097"
     },
-    "03197": {
+     {
         "name": "Sa Lông",
         "type": "xa",
         "slug": "sa-long",
@@ -89,7 +89,7 @@
         "code": "03197",
         "parent_code": "097"
     },
-    "03200": {
+     {
         "name": "Ma Thì Hồ",
         "type": "xa",
         "slug": "ma-thi-ho",
@@ -99,7 +99,7 @@
         "code": "03200",
         "parent_code": "097"
     },
-    "03201": {
+     {
         "name": "Na Sang",
         "type": "xa",
         "slug": "na-sang",
@@ -109,7 +109,7 @@
         "code": "03201",
         "parent_code": "097"
     },
-    "03202": {
+     {
         "name": "Mường Mươn",
         "type": "xa",
         "slug": "muong-muon",
@@ -119,4 +119,4 @@
         "code": "03202",
         "parent_code": "097"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "25585": {
+    "xa":[ {
         "name": "Châu Thành",
         "type": "thi-tran",
         "slug": "chau-thanh",
@@ -9,7 +9,7 @@
         "code": "25585",
         "parent_code": "708"
     },
-    "25588": {
+     {
         "name": "Hảo Đước",
         "type": "xa",
         "slug": "hao-duoc",
@@ -19,7 +19,7 @@
         "code": "25588",
         "parent_code": "708"
     },
-    "25591": {
+     {
         "name": "Phước Vinh",
         "type": "xa",
         "slug": "phuoc-vinh",
@@ -29,7 +29,7 @@
         "code": "25591",
         "parent_code": "708"
     },
-    "25594": {
+     {
         "name": "Đồng Khởi",
         "type": "xa",
         "slug": "dong-khoi",
@@ -39,7 +39,7 @@
         "code": "25594",
         "parent_code": "708"
     },
-    "25597": {
+     {
         "name": "Thái Bình",
         "type": "xa",
         "slug": "thai-binh",
@@ -49,7 +49,7 @@
         "code": "25597",
         "parent_code": "708"
     },
-    "25600": {
+     {
         "name": "An Cơ",
         "type": "xa",
         "slug": "an-co",
@@ -59,7 +59,7 @@
         "code": "25600",
         "parent_code": "708"
     },
-    "25603": {
+     {
         "name": "Biên Giới",
         "type": "xa",
         "slug": "bien-gioi",
@@ -69,7 +69,7 @@
         "code": "25603",
         "parent_code": "708"
     },
-    "25606": {
+     {
         "name": "Hòa Thạnh",
         "type": "xa",
         "slug": "hoa-thanh",
@@ -79,7 +79,7 @@
         "code": "25606",
         "parent_code": "708"
     },
-    "25609": {
+     {
         "name": "Trí Bình",
         "type": "xa",
         "slug": "tri-binh",
@@ -89,7 +89,7 @@
         "code": "25609",
         "parent_code": "708"
     },
-    "25612": {
+     {
         "name": "Hòa Hội",
         "type": "xa",
         "slug": "hoa-hoi",
@@ -99,7 +99,7 @@
         "code": "25612",
         "parent_code": "708"
     },
-    "25615": {
+     {
         "name": "An Bình",
         "type": "xa",
         "slug": "an-binh",
@@ -109,7 +109,7 @@
         "code": "25615",
         "parent_code": "708"
     },
-    "25618": {
+     {
         "name": "Thanh Điền",
         "type": "xa",
         "slug": "thanh-dien",
@@ -119,7 +119,7 @@
         "code": "25618",
         "parent_code": "708"
     },
-    "25621": {
+     {
         "name": "Thành Long",
         "type": "xa",
         "slug": "thanh-long",
@@ -129,7 +129,7 @@
         "code": "25621",
         "parent_code": "708"
     },
-    "25624": {
+     {
         "name": "Ninh Điền",
         "type": "xa",
         "slug": "ninh-dien",
@@ -139,7 +139,7 @@
         "code": "25624",
         "parent_code": "708"
     },
-    "25627": {
+     {
         "name": "Long Vĩnh",
         "type": "xa",
         "slug": "long-vinh",
@@ -149,4 +149,4 @@
         "code": "25627",
         "parent_code": "708"
     }
-}
+]}

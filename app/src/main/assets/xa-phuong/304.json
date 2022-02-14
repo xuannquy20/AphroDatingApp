@@ -1,5 +1,5 @@
 {
-    "11329": {
+    "xa":[ {
         "name": "Máy Chai",
         "type": "phuong",
         "slug": "may-chai",
@@ -9,7 +9,7 @@
         "code": "11329",
         "parent_code": "304"
     },
-    "11332": {
+     {
         "name": "Máy Tơ",
         "type": "phuong",
         "slug": "may-to",
@@ -19,7 +19,7 @@
         "code": "11332",
         "parent_code": "304"
     },
-    "11335": {
+     {
         "name": "Vạn Mỹ",
         "type": "phuong",
         "slug": "van-my",
@@ -29,7 +29,7 @@
         "code": "11335",
         "parent_code": "304"
     },
-    "11338": {
+     {
         "name": "Cầu Tre",
         "type": "phuong",
         "slug": "cau-tre",
@@ -39,7 +39,7 @@
         "code": "11338",
         "parent_code": "304"
     },
-    "11341": {
+     {
         "name": "Lạc Viên",
         "type": "phuong",
         "slug": "lac-vien",
@@ -49,7 +49,7 @@
         "code": "11341",
         "parent_code": "304"
     },
-    "11347": {
+     {
         "name": "Gia Viên",
         "type": "phuong",
         "slug": "gia-vien",
@@ -59,7 +59,7 @@
         "code": "11347",
         "parent_code": "304"
     },
-    "11350": {
+     {
         "name": "Đông Khê",
         "type": "phuong",
         "slug": "dong-khe",
@@ -69,7 +69,7 @@
         "code": "11350",
         "parent_code": "304"
     },
-    "11353": {
+     {
         "name": "Cầu Đất",
         "type": "phuong",
         "slug": "cau-dat",
@@ -79,7 +79,7 @@
         "code": "11353",
         "parent_code": "304"
     },
-    "11356": {
+     {
         "name": "Lê Lợi",
         "type": "phuong",
         "slug": "le-loi",
@@ -89,7 +89,7 @@
         "code": "11356",
         "parent_code": "304"
     },
-    "11359": {
+     {
         "name": "Đằng Giang",
         "type": "phuong",
         "slug": "dang-giang",
@@ -99,7 +99,7 @@
         "code": "11359",
         "parent_code": "304"
     },
-    "11362": {
+     {
         "name": "Lạch Tray",
         "type": "phuong",
         "slug": "lach-tray",
@@ -109,7 +109,7 @@
         "code": "11362",
         "parent_code": "304"
     },
-    "11365": {
+     {
         "name": "Đổng Quốc Bình",
         "type": "phuong",
         "slug": "dong-quoc-binh",
@@ -119,4 +119,4 @@
         "code": "11365",
         "parent_code": "304"
     }
-}
+]}

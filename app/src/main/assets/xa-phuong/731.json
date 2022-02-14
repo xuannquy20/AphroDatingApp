@@ -1,5 +1,5 @@
 {
-    "25993": {
+    "xa":[ {
         "name": "Trảng Dài",
         "type": "phuong",
         "slug": "trang-dai",
@@ -9,7 +9,7 @@
         "code": "25993",
         "parent_code": "731"
     },
-    "25996": {
+     {
         "name": "Tân Phong",
         "type": "phuong",
         "slug": "tan-phong",
@@ -19,7 +19,7 @@
         "code": "25996",
         "parent_code": "731"
     },
-    "25999": {
+     {
         "name": "Tân Biên",
         "type": "phuong",
         "slug": "tan-bien",
@@ -29,7 +29,7 @@
         "code": "25999",
         "parent_code": "731"
     },
-    "26002": {
+     {
         "name": "Hố Nai",
         "type": "phuong",
         "slug": "ho-nai",
@@ -39,7 +39,7 @@
         "code": "26002",
         "parent_code": "731"
     },
-    "26005": {
+     {
         "name": "Tân Hòa",
         "type": "phuong",
         "slug": "tan-hoa",
@@ -49,7 +49,7 @@
         "code": "26005",
         "parent_code": "731"
     },
-    "26008": {
+     {
         "name": "Tân Hiệp",
         "type": "phuong",
         "slug": "tan-hiep",
@@ -59,7 +59,7 @@
         "code": "26008",
         "parent_code": "731"
     },
-    "26011": {
+     {
         "name": "Bửu Long",
         "type": "phuong",
         "slug": "buu-long",
@@ -69,7 +69,7 @@
         "code": "26011",
         "parent_code": "731"
     },
-    "26014": {
+     {
         "name": "Tân Tiến",
         "type": "phuong",
         "slug": "tan-tien",
@@ -79,7 +79,7 @@
         "code": "26014",
         "parent_code": "731"
     },
-    "26017": {
+     {
         "name": "Tam Hiệp",
         "type": "phuong",
         "slug": "tam-hiep",
@@ -89,7 +89,7 @@
         "code": "26017",
         "parent_code": "731"
     },
-    "26020": {
+     {
         "name": "Long Bình",
         "type": "phuong",
         "slug": "long-binh",
@@ -99,7 +99,7 @@
         "code": "26020",
         "parent_code": "731"
     },
-    "26023": {
+     {
         "name": "Quang Vinh",
         "type": "phuong",
         "slug": "quang-vinh",
@@ -109,7 +109,7 @@
         "code": "26023",
         "parent_code": "731"
     },
-    "26026": {
+     {
         "name": "Tân Mai",
         "type": "phuong",
         "slug": "tan-mai",
@@ -119,7 +119,7 @@
         "code": "26026",
         "parent_code": "731"
     },
-    "26029": {
+     {
         "name": "Thống Nhất",
         "type": "phuong",
         "slug": "thong-nhat",
@@ -129,7 +129,7 @@
         "code": "26029",
         "parent_code": "731"
     },
-    "26032": {
+     {
         "name": "Trung Dũng",
         "type": "phuong",
         "slug": "trung-dung",
@@ -139,7 +139,7 @@
         "code": "26032",
         "parent_code": "731"
     },
-    "26035": {
+     {
         "name": "Tam Hòa",
         "type": "phuong",
         "slug": "tam-hoa",
@@ -149,7 +149,7 @@
         "code": "26035",
         "parent_code": "731"
     },
-    "26038": {
+     {
         "name": "Hòa Bình",
         "type": "phuong",
         "slug": "hoa-binh",
@@ -159,7 +159,7 @@
         "code": "26038",
         "parent_code": "731"
     },
-    "26041": {
+     {
         "name": "Quyết Thắng",
         "type": "phuong",
         "slug": "quyet-thang",
@@ -169,7 +169,7 @@
         "code": "26041",
         "parent_code": "731"
     },
-    "26044": {
+     {
         "name": "Thanh Bình",
         "type": "phuong",
         "slug": "thanh-binh",
@@ -179,7 +179,7 @@
         "code": "26044",
         "parent_code": "731"
     },
-    "26047": {
+     {
         "name": "Bình Đa",
         "type": "phuong",
         "slug": "binh-da",
@@ -189,7 +189,7 @@
         "code": "26047",
         "parent_code": "731"
     },
-    "26050": {
+     {
         "name": "An Bình",
         "type": "phuong",
         "slug": "an-binh",
@@ -199,7 +199,7 @@
         "code": "26050",
         "parent_code": "731"
     },
-    "26053": {
+     {
         "name": "Bửu Hòa",
         "type": "phuong",
         "slug": "buu-hoa",
@@ -209,7 +209,7 @@
         "code": "26053",
         "parent_code": "731"
     },
-    "26056": {
+     {
         "name": "Long Bình Tân",
         "type": "phuong",
         "slug": "long-binh-tan",
@@ -219,7 +219,7 @@
         "code": "26056",
         "parent_code": "731"
     },
-    "26059": {
+     {
         "name": "Tân Vạn",
         "type": "phuong",
         "slug": "tan-van",
@@ -229,7 +229,7 @@
         "code": "26059",
         "parent_code": "731"
     },
-    "26062": {
+     {
         "name": "Tân Hạnh",
         "type": "phuong",
         "slug": "tan-hanh",
@@ -239,7 +239,7 @@
         "code": "26062",
         "parent_code": "731"
     },
-    "26065": {
+     {
         "name": "Hiệp Hòa",
         "type": "phuong",
         "slug": "hiep-hoa",
@@ -249,7 +249,7 @@
         "code": "26065",
         "parent_code": "731"
     },
-    "26068": {
+     {
         "name": "Hóa An",
         "type": "phuong",
         "slug": "hoa-an",
@@ -259,7 +259,7 @@
         "code": "26068",
         "parent_code": "731"
     },
-    "26371": {
+     {
         "name": "An Hòa",
         "type": "phuong",
         "slug": "an-hoa",
@@ -269,7 +269,7 @@
         "code": "26371",
         "parent_code": "731"
     },
-    "26374": {
+     {
         "name": "Tam Phước",
         "type": "phuong",
         "slug": "tam-phuoc",
@@ -279,7 +279,7 @@
         "code": "26374",
         "parent_code": "731"
     },
-    "26377": {
+     {
         "name": "Phước Tân",
         "type": "phuong",
         "slug": "phuoc-tan",
@@ -289,7 +289,7 @@
         "code": "26377",
         "parent_code": "731"
     },
-    "26380": {
+     {
         "name": "Long Hưng",
         "type": "xa",
         "slug": "long-hung",
@@ -299,4 +299,4 @@
         "code": "26380",
         "parent_code": "731"
     }
-}
+]}

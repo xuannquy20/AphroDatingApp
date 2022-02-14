@@ -1,5 +1,5 @@
 {
-    "20899": {
+    "xa":[ {
         "name": "Trà My",
         "type": "thi-tran",
         "slug": "tra-my",
@@ -9,7 +9,7 @@
         "code": "20899",
         "parent_code": "515"
     },
-    "20900": {
+     {
         "name": "Trà Sơn",
         "type": "xa",
         "slug": "tra-son",
@@ -19,7 +19,7 @@
         "code": "20900",
         "parent_code": "515"
     },
-    "20902": {
+     {
         "name": "Trà Kót",
         "type": "xa",
         "slug": "tra-kot",
@@ -29,7 +29,7 @@
         "code": "20902",
         "parent_code": "515"
     },
-    "20905": {
+     {
         "name": "Trà Nú",
         "type": "xa",
         "slug": "tra-nu",
@@ -39,7 +39,7 @@
         "code": "20905",
         "parent_code": "515"
     },
-    "20908": {
+     {
         "name": "Trà Đông",
         "type": "xa",
         "slug": "tra-dong",
@@ -49,7 +49,7 @@
         "code": "20908",
         "parent_code": "515"
     },
-    "20911": {
+     {
         "name": "Trà Dương",
         "type": "xa",
         "slug": "tra-duong",
@@ -59,7 +59,7 @@
         "code": "20911",
         "parent_code": "515"
     },
-    "20914": {
+     {
         "name": "Trà Giang",
         "type": "xa",
         "slug": "tra-giang",
@@ -69,7 +69,7 @@
         "code": "20914",
         "parent_code": "515"
     },
-    "20917": {
+     {
         "name": "Trà Bui",
         "type": "xa",
         "slug": "tra-bui",
@@ -79,7 +79,7 @@
         "code": "20917",
         "parent_code": "515"
     },
-    "20920": {
+     {
         "name": "Trà Đốc",
         "type": "xa",
         "slug": "tra-doc",
@@ -89,7 +89,7 @@
         "code": "20920",
         "parent_code": "515"
     },
-    "20923": {
+     {
         "name": "Trà Tân",
         "type": "xa",
         "slug": "tra-tan",
@@ -99,7 +99,7 @@
         "code": "20923",
         "parent_code": "515"
     },
-    "20926": {
+     {
         "name": "Trà Giác",
         "type": "xa",
         "slug": "tra-giac",
@@ -109,7 +109,7 @@
         "code": "20926",
         "parent_code": "515"
     },
-    "20929": {
+     {
         "name": "Trà Giáp",
         "type": "xa",
         "slug": "tra-giap",
@@ -119,7 +119,7 @@
         "code": "20929",
         "parent_code": "515"
     },
-    "20932": {
+     {
         "name": "Trà Ka",
         "type": "xa",
         "slug": "tra-ka",
@@ -129,4 +129,4 @@
         "code": "20932",
         "parent_code": "515"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "20364": {
+    "xa":[ {
         "name": "Phú Thịnh",
         "type": "thi-tran",
         "slug": "phu-thinh",
@@ -9,7 +9,7 @@
         "code": "20364",
         "parent_code": "518"
     },
-    "20365": {
+     {
         "name": "Tam Thành",
         "type": "xa",
         "slug": "tam-thanh",
@@ -19,7 +19,7 @@
         "code": "20365",
         "parent_code": "518"
     },
-    "20368": {
+     {
         "name": "Tam An",
         "type": "xa",
         "slug": "tam-an",
@@ -29,7 +29,7 @@
         "code": "20368",
         "parent_code": "518"
     },
-    "20374": {
+     {
         "name": "Tam Đàn",
         "type": "xa",
         "slug": "tam-dan",
@@ -39,7 +39,7 @@
         "code": "20374",
         "parent_code": "518"
     },
-    "20377": {
+     {
         "name": "Tam Lộc",
         "type": "xa",
         "slug": "tam-loc",
@@ -49,7 +49,7 @@
         "code": "20377",
         "parent_code": "518"
     },
-    "20380": {
+     {
         "name": "Tam Phước",
         "type": "xa",
         "slug": "tam-phuoc",
@@ -59,7 +59,7 @@
         "code": "20380",
         "parent_code": "518"
     },
-    "20383": {
+     {
         "name": "Tam Vinh",
         "type": "xa",
         "slug": "tam-vinh",
@@ -69,7 +69,7 @@
         "code": "20383",
         "parent_code": "518"
     },
-    "20386": {
+     {
         "name": "Tam Thái",
         "type": "xa",
         "slug": "tam-thai",
@@ -79,7 +79,7 @@
         "code": "20386",
         "parent_code": "518"
     },
-    "20387": {
+     {
         "name": "Tam Đại",
         "type": "xa",
         "slug": "tam-dai",
@@ -89,7 +89,7 @@
         "code": "20387",
         "parent_code": "518"
     },
-    "20392": {
+     {
         "name": "Tam Dân",
         "type": "xa",
         "slug": "tam-dan",
@@ -99,7 +99,7 @@
         "code": "20392",
         "parent_code": "518"
     },
-    "20395": {
+     {
         "name": "Tam Lãnh",
         "type": "xa",
         "slug": "tam-lanh",
@@ -109,4 +109,4 @@
         "code": "20395",
         "parent_code": "518"
     }
-}
+]}

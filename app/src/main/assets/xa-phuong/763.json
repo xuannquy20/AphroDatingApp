@@ -1,5 +1,5 @@
 {
-    "26830": {
+    "xa":[ {
         "name": "Long Bình",
         "type": "phuong",
         "slug": "long-binh",
@@ -9,7 +9,7 @@
         "code": "26830",
         "parent_code": "763"
     },
-    "26833": {
+     {
         "name": "Long Thạnh Mỹ",
         "type": "phuong",
         "slug": "long-thanh-my",
@@ -19,7 +19,7 @@
         "code": "26833",
         "parent_code": "763"
     },
-    "26836": {
+     {
         "name": "Tân Phú",
         "type": "phuong",
         "slug": "tan-phu",
@@ -29,7 +29,7 @@
         "code": "26836",
         "parent_code": "763"
     },
-    "26839": {
+     {
         "name": "Hiệp Phú",
         "type": "phuong",
         "slug": "hiep-phu",
@@ -39,7 +39,7 @@
         "code": "26839",
         "parent_code": "763"
     },
-    "26842": {
+     {
         "name": "Tăng Nhơn Phú A",
         "type": "phuong",
         "slug": "tang-nhon-phu-a",
@@ -49,7 +49,7 @@
         "code": "26842",
         "parent_code": "763"
     },
-    "26845": {
+     {
         "name": "Tăng Nhơn Phú B",
         "type": "phuong",
         "slug": "tang-nhon-phu-b",
@@ -59,7 +59,7 @@
         "code": "26845",
         "parent_code": "763"
     },
-    "26848": {
+     {
         "name": "Phước Long B",
         "type": "phuong",
         "slug": "phuoc-long-b",
@@ -69,7 +69,7 @@
         "code": "26848",
         "parent_code": "763"
     },
-    "26851": {
+     {
         "name": "Phước Long A",
         "type": "phuong",
         "slug": "phuoc-long-a",
@@ -79,7 +79,7 @@
         "code": "26851",
         "parent_code": "763"
     },
-    "26854": {
+     {
         "name": "Trường Thạnh",
         "type": "phuong",
         "slug": "truong-thanh",
@@ -89,7 +89,7 @@
         "code": "26854",
         "parent_code": "763"
     },
-    "26857": {
+     {
         "name": "Long Phước",
         "type": "phuong",
         "slug": "long-phuoc",
@@ -99,7 +99,7 @@
         "code": "26857",
         "parent_code": "763"
     },
-    "26860": {
+     {
         "name": "Long Trường",
         "type": "phuong",
         "slug": "long-truong",
@@ -109,7 +109,7 @@
         "code": "26860",
         "parent_code": "763"
     },
-    "26863": {
+     {
         "name": "Phước Bình",
         "type": "phuong",
         "slug": "phuoc-binh",
@@ -119,7 +119,7 @@
         "code": "26863",
         "parent_code": "763"
     },
-    "26866": {
+     {
         "name": "Phú Hữu",
         "type": "phuong",
         "slug": "phu-huu",
@@ -129,4 +129,4 @@
         "code": "26866",
         "parent_code": "763"
     }
-}
+]}

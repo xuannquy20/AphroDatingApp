@@ -1,5 +1,5 @@
 {
-    "30787": {
+    "xa":[ {
         "name": "Kiên Lương",
         "type": "thi-tran",
         "slug": "kien-luong",
@@ -9,7 +9,7 @@
         "code": "30787",
         "parent_code": "902"
     },
-    "30790": {
+     {
         "name": "Kiên Bình",
         "type": "xa",
         "slug": "kien-binh",
@@ -19,7 +19,7 @@
         "code": "30790",
         "parent_code": "902"
     },
-    "30802": {
+     {
         "name": "Hòa Điền",
         "type": "xa",
         "slug": "hoa-dien",
@@ -29,7 +29,7 @@
         "code": "30802",
         "parent_code": "902"
     },
-    "30805": {
+     {
         "name": "Dương Hòa",
         "type": "xa",
         "slug": "duong-hoa",
@@ -39,7 +39,7 @@
         "code": "30805",
         "parent_code": "902"
     },
-    "30808": {
+     {
         "name": "Bình An",
         "type": "xa",
         "slug": "binh-an",
@@ -49,7 +49,7 @@
         "code": "30808",
         "parent_code": "902"
     },
-    "30809": {
+     {
         "name": "Bình Trị",
         "type": "xa",
         "slug": "binh-tri",
@@ -59,7 +59,7 @@
         "code": "30809",
         "parent_code": "902"
     },
-    "30811": {
+     {
         "name": "Sơn Hải",
         "type": "xa",
         "slug": "son-hai",
@@ -69,7 +69,7 @@
         "code": "30811",
         "parent_code": "902"
     },
-    "30814": {
+     {
         "name": "Hòn Nghệ",
         "type": "xa",
         "slug": "hon-nghe",
@@ -79,4 +79,4 @@
         "code": "30814",
         "parent_code": "902"
     }
-}
+]}

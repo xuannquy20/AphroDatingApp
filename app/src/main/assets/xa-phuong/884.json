@@ -1,5 +1,5 @@
 {
-    "30316": {
+    "xa":[ {
         "name": "Châu Phú B",
         "type": "phuong",
         "slug": "chau-phu-b",
@@ -9,7 +9,7 @@
         "code": "30316",
         "parent_code": "884"
     },
-    "30319": {
+     {
         "name": "Châu Phú A",
         "type": "phuong",
         "slug": "chau-phu-a",
@@ -19,7 +19,7 @@
         "code": "30319",
         "parent_code": "884"
     },
-    "30322": {
+     {
         "name": "Vĩnh Mỹ",
         "type": "phuong",
         "slug": "vinh-my",
@@ -29,7 +29,7 @@
         "code": "30322",
         "parent_code": "884"
     },
-    "30325": {
+     {
         "name": "Núi Sam",
         "type": "phuong",
         "slug": "nui-sam",
@@ -39,7 +39,7 @@
         "code": "30325",
         "parent_code": "884"
     },
-    "30328": {
+     {
         "name": "Vĩnh Ngươn",
         "type": "phuong",
         "slug": "vinh-nguon",
@@ -49,7 +49,7 @@
         "code": "30328",
         "parent_code": "884"
     },
-    "30331": {
+     {
         "name": "Vĩnh Tế",
         "type": "xa",
         "slug": "vinh-te",
@@ -59,7 +59,7 @@
         "code": "30331",
         "parent_code": "884"
     },
-    "30334": {
+     {
         "name": "Vĩnh Châu",
         "type": "xa",
         "slug": "vinh-chau",
@@ -69,4 +69,4 @@
         "code": "30334",
         "parent_code": "884"
     }
-}
+]}

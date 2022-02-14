@@ -1,5 +1,5 @@
 {
-    "21175": {
+    "xa":[ {
         "name": "Tịnh Thọ",
         "type": "xa",
         "slug": "tinh-tho",
@@ -9,7 +9,7 @@
         "code": "21175",
         "parent_code": "527"
     },
-    "21178": {
+     {
         "name": "Tịnh Trà",
         "type": "xa",
         "slug": "tinh-tra",
@@ -19,7 +19,7 @@
         "code": "21178",
         "parent_code": "527"
     },
-    "21181": {
+     {
         "name": "Tịnh Phong",
         "type": "xa",
         "slug": "tinh-phong",
@@ -29,7 +29,7 @@
         "code": "21181",
         "parent_code": "527"
     },
-    "21184": {
+     {
         "name": "Tịnh Hiệp",
         "type": "xa",
         "slug": "tinh-hiep",
@@ -39,7 +39,7 @@
         "code": "21184",
         "parent_code": "527"
     },
-    "21193": {
+     {
         "name": "Tịnh Bình",
         "type": "xa",
         "slug": "tinh-binh",
@@ -49,7 +49,7 @@
         "code": "21193",
         "parent_code": "527"
     },
-    "21196": {
+     {
         "name": "Tịnh Đông",
         "type": "xa",
         "slug": "tinh-dong",
@@ -59,7 +59,7 @@
         "code": "21196",
         "parent_code": "527"
     },
-    "21205": {
+     {
         "name": "Tịnh Bắc",
         "type": "xa",
         "slug": "tinh-bac",
@@ -69,7 +69,7 @@
         "code": "21205",
         "parent_code": "527"
     },
-    "21217": {
+     {
         "name": "Tịnh Sơn",
         "type": "xa",
         "slug": "tinh-son",
@@ -79,7 +79,7 @@
         "code": "21217",
         "parent_code": "527"
     },
-    "21220": {
+     {
         "name": "Tịnh Hà",
         "type": "xa",
         "slug": "tinh-ha",
@@ -89,7 +89,7 @@
         "code": "21220",
         "parent_code": "527"
     },
-    "21226": {
+     {
         "name": "Tịnh Giang",
         "type": "xa",
         "slug": "tinh-giang",
@@ -99,7 +99,7 @@
         "code": "21226",
         "parent_code": "527"
     },
-    "21229": {
+     {
         "name": "Tịnh Minh",
         "type": "xa",
         "slug": "tinh-minh",
@@ -109,4 +109,4 @@
         "code": "21229",
         "parent_code": "527"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "25552": {
+    "xa":[ {
         "name": "Dương Minh Châu",
         "type": "thi-tran",
         "slug": "duong-minh-chau",
@@ -9,7 +9,7 @@
         "code": "25552",
         "parent_code": "707"
     },
-    "25555": {
+     {
         "name": "Suối Đá",
         "type": "xa",
         "slug": "suoi-da",
@@ -19,7 +19,7 @@
         "code": "25555",
         "parent_code": "707"
     },
-    "25558": {
+     {
         "name": "Phan",
         "type": "xa",
         "slug": "phan",
@@ -29,7 +29,7 @@
         "code": "25558",
         "parent_code": "707"
     },
-    "25561": {
+     {
         "name": "Phước Ninh",
         "type": "xa",
         "slug": "phuoc-ninh",
@@ -39,7 +39,7 @@
         "code": "25561",
         "parent_code": "707"
     },
-    "25564": {
+     {
         "name": "Phước Minh",
         "type": "xa",
         "slug": "phuoc-minh",
@@ -49,7 +49,7 @@
         "code": "25564",
         "parent_code": "707"
     },
-    "25567": {
+     {
         "name": "Bàu Năng",
         "type": "xa",
         "slug": "bau-nang",
@@ -59,7 +59,7 @@
         "code": "25567",
         "parent_code": "707"
     },
-    "25570": {
+     {
         "name": "Chà Là",
         "type": "xa",
         "slug": "cha-la",
@@ -69,7 +69,7 @@
         "code": "25570",
         "parent_code": "707"
     },
-    "25573": {
+     {
         "name": "Cầu Khởi",
         "type": "xa",
         "slug": "cau-khoi",
@@ -79,7 +79,7 @@
         "code": "25573",
         "parent_code": "707"
     },
-    "25576": {
+     {
         "name": "Bến Củi",
         "type": "xa",
         "slug": "ben-cui",
@@ -89,7 +89,7 @@
         "code": "25576",
         "parent_code": "707"
     },
-    "25579": {
+     {
         "name": "Lộc Ninh",
         "type": "xa",
         "slug": "loc-ninh",
@@ -99,7 +99,7 @@
         "code": "25579",
         "parent_code": "707"
     },
-    "25582": {
+     {
         "name": "Truông Mít",
         "type": "xa",
         "slug": "truong-mit",
@@ -109,4 +109,4 @@
         "code": "25582",
         "parent_code": "707"
     }
-}
+]}

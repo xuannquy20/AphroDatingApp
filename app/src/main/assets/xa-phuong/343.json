@@ -1,5 +1,5 @@
 {
-    "13075": {
+    "xa":[ {
         "name": "Kiến Xương",
         "type": "thi-tran",
         "slug": "kien-xuong",
@@ -9,7 +9,7 @@
         "code": "13075",
         "parent_code": "343"
     },
-    "13078": {
+     {
         "name": "Trà Giang",
         "type": "xa",
         "slug": "tra-giang",
@@ -19,7 +19,7 @@
         "code": "13078",
         "parent_code": "343"
     },
-    "13081": {
+     {
         "name": "Quốc Tuấn",
         "type": "xa",
         "slug": "quoc-tuan",
@@ -29,7 +29,7 @@
         "code": "13081",
         "parent_code": "343"
     },
-    "13087": {
+     {
         "name": "An Bình",
         "type": "xa",
         "slug": "an-binh",
@@ -39,7 +39,7 @@
         "code": "13087",
         "parent_code": "343"
     },
-    "13090": {
+     {
         "name": "Tây Sơn",
         "type": "xa",
         "slug": "tay-son",
@@ -49,7 +49,7 @@
         "code": "13090",
         "parent_code": "343"
     },
-    "13093": {
+     {
         "name": "Hồng Thái",
         "type": "xa",
         "slug": "hong-thai",
@@ -59,7 +59,7 @@
         "code": "13093",
         "parent_code": "343"
     },
-    "13096": {
+     {
         "name": "Bình Nguyên",
         "type": "xa",
         "slug": "binh-nguyen",
@@ -69,7 +69,7 @@
         "code": "13096",
         "parent_code": "343"
     },
-    "13102": {
+     {
         "name": "Lê Lợi",
         "type": "xa",
         "slug": "le-loi",
@@ -79,7 +79,7 @@
         "code": "13102",
         "parent_code": "343"
     },
-    "13111": {
+     {
         "name": "Vũ Lễ",
         "type": "xa",
         "slug": "vu-le",
@@ -89,7 +89,7 @@
         "code": "13111",
         "parent_code": "343"
     },
-    "13114": {
+     {
         "name": "Thanh Tân",
         "type": "xa",
         "slug": "thanh-tan",
@@ -99,7 +99,7 @@
         "code": "13114",
         "parent_code": "343"
     },
-    "13117": {
+     {
         "name": "Thượng Hiền",
         "type": "xa",
         "slug": "thuong-hien",
@@ -109,7 +109,7 @@
         "code": "13117",
         "parent_code": "343"
     },
-    "13120": {
+     {
         "name": "Nam Cao",
         "type": "xa",
         "slug": "nam-cao",
@@ -119,7 +119,7 @@
         "code": "13120",
         "parent_code": "343"
     },
-    "13123": {
+     {
         "name": "Đình Phùng",
         "type": "xa",
         "slug": "dinh-phung",
@@ -129,7 +129,7 @@
         "code": "13123",
         "parent_code": "343"
     },
-    "13126": {
+     {
         "name": "Vũ Ninh",
         "type": "xa",
         "slug": "vu-ninh",
@@ -139,7 +139,7 @@
         "code": "13126",
         "parent_code": "343"
     },
-    "13129": {
+     {
         "name": "Vũ An",
         "type": "xa",
         "slug": "vu-an",
@@ -149,7 +149,7 @@
         "code": "13129",
         "parent_code": "343"
     },
-    "13132": {
+     {
         "name": "Quang Lịch",
         "type": "xa",
         "slug": "quang-lich",
@@ -159,7 +159,7 @@
         "code": "13132",
         "parent_code": "343"
     },
-    "13135": {
+     {
         "name": "Hòa Bình",
         "type": "xa",
         "slug": "hoa-binh",
@@ -169,7 +169,7 @@
         "code": "13135",
         "parent_code": "343"
     },
-    "13138": {
+     {
         "name": "Bình Minh",
         "type": "xa",
         "slug": "binh-minh",
@@ -179,7 +179,7 @@
         "code": "13138",
         "parent_code": "343"
     },
-    "13141": {
+     {
         "name": "Vũ Quí",
         "type": "xa",
         "slug": "vu-qui",
@@ -189,7 +189,7 @@
         "code": "13141",
         "parent_code": "343"
     },
-    "13144": {
+     {
         "name": "Quang Bình",
         "type": "xa",
         "slug": "quang-binh",
@@ -199,7 +199,7 @@
         "code": "13144",
         "parent_code": "343"
     },
-    "13150": {
+     {
         "name": "Vũ Trung",
         "type": "xa",
         "slug": "vu-trung",
@@ -209,7 +209,7 @@
         "code": "13150",
         "parent_code": "343"
     },
-    "13153": {
+     {
         "name": "Vũ Thắng",
         "type": "xa",
         "slug": "vu-thang",
@@ -219,7 +219,7 @@
         "code": "13153",
         "parent_code": "343"
     },
-    "13156": {
+     {
         "name": "Vũ Công",
         "type": "xa",
         "slug": "vu-cong",
@@ -229,7 +229,7 @@
         "code": "13156",
         "parent_code": "343"
     },
-    "13159": {
+     {
         "name": "Vũ Hòa",
         "type": "xa",
         "slug": "vu-hoa",
@@ -239,7 +239,7 @@
         "code": "13159",
         "parent_code": "343"
     },
-    "13162": {
+     {
         "name": "Quang Minh",
         "type": "xa",
         "slug": "quang-minh",
@@ -249,7 +249,7 @@
         "code": "13162",
         "parent_code": "343"
     },
-    "13165": {
+     {
         "name": "Quang Trung",
         "type": "xa",
         "slug": "quang-trung",
@@ -259,7 +259,7 @@
         "code": "13165",
         "parent_code": "343"
     },
-    "13171": {
+     {
         "name": "Minh Quang",
         "type": "xa",
         "slug": "minh-quang",
@@ -269,7 +269,7 @@
         "code": "13171",
         "parent_code": "343"
     },
-    "13174": {
+     {
         "name": "Vũ Bình",
         "type": "xa",
         "slug": "vu-binh",
@@ -279,7 +279,7 @@
         "code": "13174",
         "parent_code": "343"
     },
-    "13177": {
+     {
         "name": "Minh Tân",
         "type": "xa",
         "slug": "minh-tan",
@@ -289,7 +289,7 @@
         "code": "13177",
         "parent_code": "343"
     },
-    "13180": {
+     {
         "name": "Nam Bình",
         "type": "xa",
         "slug": "nam-binh",
@@ -299,7 +299,7 @@
         "code": "13180",
         "parent_code": "343"
     },
-    "13183": {
+     {
         "name": "Bình Thanh",
         "type": "xa",
         "slug": "binh-thanh",
@@ -309,7 +309,7 @@
         "code": "13183",
         "parent_code": "343"
     },
-    "13186": {
+     {
         "name": "Bình Định",
         "type": "xa",
         "slug": "binh-dinh",
@@ -319,7 +319,7 @@
         "code": "13186",
         "parent_code": "343"
     },
-    "13189": {
+     {
         "name": "Hồng Tiến",
         "type": "xa",
         "slug": "hong-tien",
@@ -329,4 +329,4 @@
         "code": "13189",
         "parent_code": "343"
     }
-}
+]}

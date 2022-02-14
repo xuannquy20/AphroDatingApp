@@ -1,5 +1,5 @@
 {
-    "07192": {
+    "xa":[ {
         "name": "Cô Tô",
         "type": "thi-tran",
         "slug": "co-to",
@@ -9,7 +9,7 @@
         "code": "07192",
         "parent_code": "207"
     },
-    "07195": {
+     {
         "name": "Đồng Tiến",
         "type": "xa",
         "slug": "dong-tien",
@@ -19,7 +19,7 @@
         "code": "07195",
         "parent_code": "207"
     },
-    "07198": {
+     {
         "name": "Thanh Lân",
         "type": "xa",
         "slug": "thanh-lan",
@@ -29,4 +29,4 @@
         "code": "07198",
         "parent_code": "207"
     }
-}
+]}

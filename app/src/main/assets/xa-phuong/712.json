@@ -1,5 +1,5 @@
 {
-    "25708": {
+    "xa":[ {
         "name": "Trảng Bàng",
         "type": "phuong",
         "slug": "trang-bang",
@@ -9,7 +9,7 @@
         "code": "25708",
         "parent_code": "712"
     },
-    "25711": {
+     {
         "name": "Đôn Thuận",
         "type": "xa",
         "slug": "don-thuan",
@@ -19,7 +19,7 @@
         "code": "25711",
         "parent_code": "712"
     },
-    "25714": {
+     {
         "name": "Hưng Thuận",
         "type": "xa",
         "slug": "hung-thuan",
@@ -29,7 +29,7 @@
         "code": "25714",
         "parent_code": "712"
     },
-    "25717": {
+     {
         "name": "Lộc Hưng",
         "type": "phuong",
         "slug": "loc-hung",
@@ -39,7 +39,7 @@
         "code": "25717",
         "parent_code": "712"
     },
-    "25720": {
+     {
         "name": "Gia Lộc",
         "type": "phuong",
         "slug": "gia-loc",
@@ -49,7 +49,7 @@
         "code": "25720",
         "parent_code": "712"
     },
-    "25723": {
+     {
         "name": "Gia Bình",
         "type": "phuong",
         "slug": "gia-binh",
@@ -59,7 +59,7 @@
         "code": "25723",
         "parent_code": "712"
     },
-    "25729": {
+     {
         "name": "Phước Bình",
         "type": "xa",
         "slug": "phuoc-binh",
@@ -69,7 +69,7 @@
         "code": "25729",
         "parent_code": "712"
     },
-    "25732": {
+     {
         "name": "An Tịnh",
         "type": "phuong",
         "slug": "an-tinh",
@@ -79,7 +79,7 @@
         "code": "25732",
         "parent_code": "712"
     },
-    "25735": {
+     {
         "name": "An Hòa",
         "type": "phuong",
         "slug": "an-hoa",
@@ -89,7 +89,7 @@
         "code": "25735",
         "parent_code": "712"
     },
-    "25738": {
+     {
         "name": "Phước Chỉ",
         "type": "xa",
         "slug": "phuoc-chi",
@@ -99,4 +99,4 @@
         "code": "25738",
         "parent_code": "712"
     }
-}
+]}

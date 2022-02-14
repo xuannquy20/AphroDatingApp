@@ -1,5 +1,5 @@
 {
-    "11428": {
+    "xa":[ {
         "name": "Quán Trữ",
         "type": "phuong",
         "slug": "quan-tru",
@@ -9,7 +9,7 @@
         "code": "11428",
         "parent_code": "307"
     },
-    "11429": {
+     {
         "name": "Lãm Hà",
         "type": "phuong",
         "slug": "lam-ha",
@@ -19,7 +19,7 @@
         "code": "11429",
         "parent_code": "307"
     },
-    "11431": {
+     {
         "name": "Đồng Hoà",
         "type": "phuong",
         "slug": "dong-hoa",
@@ -29,7 +29,7 @@
         "code": "11431",
         "parent_code": "307"
     },
-    "11434": {
+     {
         "name": "Bắc Sơn",
         "type": "phuong",
         "slug": "bac-son",
@@ -39,7 +39,7 @@
         "code": "11434",
         "parent_code": "307"
     },
-    "11437": {
+     {
         "name": "Nam Sơn",
         "type": "phuong",
         "slug": "nam-son",
@@ -49,7 +49,7 @@
         "code": "11437",
         "parent_code": "307"
     },
-    "11440": {
+     {
         "name": "Ngọc Sơn",
         "type": "phuong",
         "slug": "ngoc-son",
@@ -59,7 +59,7 @@
         "code": "11440",
         "parent_code": "307"
     },
-    "11443": {
+     {
         "name": "Trần Thành Ngọ",
         "type": "phuong",
         "slug": "tran-thanh-ngo",
@@ -69,7 +69,7 @@
         "code": "11443",
         "parent_code": "307"
     },
-    "11446": {
+     {
         "name": "Văn Đẩu",
         "type": "phuong",
         "slug": "van-dau",
@@ -79,7 +79,7 @@
         "code": "11446",
         "parent_code": "307"
     },
-    "11449": {
+     {
         "name": "Phù Liễn",
         "type": "phuong",
         "slug": "phu-lien",
@@ -89,7 +89,7 @@
         "code": "11449",
         "parent_code": "307"
     },
-    "11452": {
+     {
         "name": "Tràng Minh",
         "type": "phuong",
         "slug": "trang-minh",
@@ -99,4 +99,4 @@
         "code": "11452",
         "parent_code": "307"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "20965": {
+    "xa":[ {
         "name": "Núi Thành",
         "type": "thi-tran",
         "slug": "nui-thanh",
@@ -9,7 +9,7 @@
         "code": "20965",
         "parent_code": "517"
     },
-    "20968": {
+     {
         "name": "Tam Xuân I",
         "type": "xa",
         "slug": "tam-xuan-i",
@@ -19,7 +19,7 @@
         "code": "20968",
         "parent_code": "517"
     },
-    "20971": {
+     {
         "name": "Tam Xuân II",
         "type": "xa",
         "slug": "tam-xuan-ii",
@@ -29,7 +29,7 @@
         "code": "20971",
         "parent_code": "517"
     },
-    "20974": {
+     {
         "name": "Tam Tiến",
         "type": "xa",
         "slug": "tam-tien",
@@ -39,7 +39,7 @@
         "code": "20974",
         "parent_code": "517"
     },
-    "20977": {
+     {
         "name": "Tam Sơn",
         "type": "xa",
         "slug": "tam-son",
@@ -49,7 +49,7 @@
         "code": "20977",
         "parent_code": "517"
     },
-    "20980": {
+     {
         "name": "Tam Thạnh",
         "type": "xa",
         "slug": "tam-thanh",
@@ -59,7 +59,7 @@
         "code": "20980",
         "parent_code": "517"
     },
-    "20983": {
+     {
         "name": "Tam Anh Bắc",
         "type": "xa",
         "slug": "tam-anh-bac",
@@ -69,7 +69,7 @@
         "code": "20983",
         "parent_code": "517"
     },
-    "20984": {
+     {
         "name": "Tam Anh Nam",
         "type": "xa",
         "slug": "tam-anh-nam",
@@ -79,7 +79,7 @@
         "code": "20984",
         "parent_code": "517"
     },
-    "20986": {
+     {
         "name": "Tam Hòa",
         "type": "xa",
         "slug": "tam-hoa",
@@ -89,7 +89,7 @@
         "code": "20986",
         "parent_code": "517"
     },
-    "20989": {
+     {
         "name": "Tam Hiệp",
         "type": "xa",
         "slug": "tam-hiep",
@@ -99,7 +99,7 @@
         "code": "20989",
         "parent_code": "517"
     },
-    "20992": {
+     {
         "name": "Tam Hải",
         "type": "xa",
         "slug": "tam-hai",
@@ -109,7 +109,7 @@
         "code": "20992",
         "parent_code": "517"
     },
-    "20995": {
+     {
         "name": "Tam Giang",
         "type": "xa",
         "slug": "tam-giang",
@@ -119,7 +119,7 @@
         "code": "20995",
         "parent_code": "517"
     },
-    "20998": {
+     {
         "name": "Tam Quang",
         "type": "xa",
         "slug": "tam-quang",
@@ -129,7 +129,7 @@
         "code": "20998",
         "parent_code": "517"
     },
-    "21001": {
+     {
         "name": "Tam Nghĩa",
         "type": "xa",
         "slug": "tam-nghia",
@@ -139,7 +139,7 @@
         "code": "21001",
         "parent_code": "517"
     },
-    "21004": {
+     {
         "name": "Tam Mỹ Tây",
         "type": "xa",
         "slug": "tam-my-tay",
@@ -149,7 +149,7 @@
         "code": "21004",
         "parent_code": "517"
     },
-    "21005": {
+     {
         "name": "Tam Mỹ Đông",
         "type": "xa",
         "slug": "tam-my-dong",
@@ -159,7 +159,7 @@
         "code": "21005",
         "parent_code": "517"
     },
-    "21007": {
+     {
         "name": "Tam Trà",
         "type": "xa",
         "slug": "tam-tra",
@@ -169,4 +169,4 @@
         "code": "21007",
         "parent_code": "517"
     }
-}
+]}

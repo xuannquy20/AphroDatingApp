@@ -1,5 +1,5 @@
 {
-    "02233": {
+    "xa":[ {
         "name": "Phúc Yên",
         "type": "xa",
         "slug": "phuc-yen",
@@ -9,7 +9,7 @@
         "code": "02233",
         "parent_code": "071"
     },
-    "02242": {
+     {
         "name": "Xuân Lập",
         "type": "xa",
         "slug": "xuan-lap",
@@ -19,7 +19,7 @@
         "code": "02242",
         "parent_code": "071"
     },
-    "02251": {
+     {
         "name": "Khuôn Hà",
         "type": "xa",
         "slug": "khuon-ha",
@@ -29,7 +29,7 @@
         "code": "02251",
         "parent_code": "071"
     },
-    "02266": {
+     {
         "name": "Lăng Can",
         "type": "xa",
         "slug": "lang-can",
@@ -39,7 +39,7 @@
         "code": "02266",
         "parent_code": "071"
     },
-    "02269": {
+     {
         "name": "Thượng Lâm",
         "type": "xa",
         "slug": "thuong-lam",
@@ -49,7 +49,7 @@
         "code": "02269",
         "parent_code": "071"
     },
-    "02290": {
+     {
         "name": "Bình An",
         "type": "xa",
         "slug": "binh-an",
@@ -59,7 +59,7 @@
         "code": "02290",
         "parent_code": "071"
     },
-    "02293": {
+     {
         "name": "Hồng Quang",
         "type": "xa",
         "slug": "hong-quang",
@@ -69,7 +69,7 @@
         "code": "02293",
         "parent_code": "071"
     },
-    "02296": {
+     {
         "name": "Thổ Bình",
         "type": "xa",
         "slug": "tho-binh",
@@ -79,4 +79,4 @@
         "code": "02296",
         "parent_code": "071"
     }
-}
+]}

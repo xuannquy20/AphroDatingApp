@@ -1,5 +1,5 @@
 {
-    "17266": {
+    "xa":[ {
         "name": "Tân Kỳ",
         "type": "thi-tran",
         "slug": "tan-ky",
@@ -9,7 +9,7 @@
         "code": "17266",
         "parent_code": "423"
     },
-    "17269": {
+     {
         "name": "Tân Hợp",
         "type": "xa",
         "slug": "tan-hop",
@@ -19,7 +19,7 @@
         "code": "17269",
         "parent_code": "423"
     },
-    "17272": {
+     {
         "name": "Tân Phú",
         "type": "xa",
         "slug": "tan-phu",
@@ -29,7 +29,7 @@
         "code": "17272",
         "parent_code": "423"
     },
-    "17275": {
+     {
         "name": "Tân Xuân",
         "type": "xa",
         "slug": "tan-xuan",
@@ -39,7 +39,7 @@
         "code": "17275",
         "parent_code": "423"
     },
-    "17278": {
+     {
         "name": "Giai Xuân",
         "type": "xa",
         "slug": "giai-xuan",
@@ -49,7 +49,7 @@
         "code": "17278",
         "parent_code": "423"
     },
-    "17281": {
+     {
         "name": "Nghĩa Bình",
         "type": "xa",
         "slug": "nghia-binh",
@@ -59,7 +59,7 @@
         "code": "17281",
         "parent_code": "423"
     },
-    "17284": {
+     {
         "name": "Nghĩa Đồng",
         "type": "xa",
         "slug": "nghia-dong",
@@ -69,7 +69,7 @@
         "code": "17284",
         "parent_code": "423"
     },
-    "17287": {
+     {
         "name": "Đồng Văn",
         "type": "xa",
         "slug": "dong-van",
@@ -79,7 +79,7 @@
         "code": "17287",
         "parent_code": "423"
     },
-    "17290": {
+     {
         "name": "Nghĩa Thái",
         "type": "xa",
         "slug": "nghia-thai",
@@ -89,7 +89,7 @@
         "code": "17290",
         "parent_code": "423"
     },
-    "17293": {
+     {
         "name": "Nghĩa Hợp",
         "type": "xa",
         "slug": "nghia-hop",
@@ -99,7 +99,7 @@
         "code": "17293",
         "parent_code": "423"
     },
-    "17296": {
+     {
         "name": "Nghĩa Hoàn",
         "type": "xa",
         "slug": "nghia-hoan",
@@ -109,7 +109,7 @@
         "code": "17296",
         "parent_code": "423"
     },
-    "17299": {
+     {
         "name": "Nghĩa Phúc",
         "type": "xa",
         "slug": "nghia-phuc",
@@ -119,7 +119,7 @@
         "code": "17299",
         "parent_code": "423"
     },
-    "17302": {
+     {
         "name": "Tiên Kỳ",
         "type": "xa",
         "slug": "tien-ky",
@@ -129,7 +129,7 @@
         "code": "17302",
         "parent_code": "423"
     },
-    "17305": {
+     {
         "name": "Tân An",
         "type": "xa",
         "slug": "tan-an",
@@ -139,7 +139,7 @@
         "code": "17305",
         "parent_code": "423"
     },
-    "17308": {
+     {
         "name": "Nghĩa Dũng",
         "type": "xa",
         "slug": "nghia-dung",
@@ -149,7 +149,7 @@
         "code": "17308",
         "parent_code": "423"
     },
-    "17311": {
+     {
         "name": "Tân Long",
         "type": "xa",
         "slug": "tan-long",
@@ -159,7 +159,7 @@
         "code": "17311",
         "parent_code": "423"
     },
-    "17314": {
+     {
         "name": "Kỳ Sơn",
         "type": "xa",
         "slug": "ky-son",
@@ -169,7 +169,7 @@
         "code": "17314",
         "parent_code": "423"
     },
-    "17317": {
+     {
         "name": "Hương Sơn",
         "type": "xa",
         "slug": "huong-son",
@@ -179,7 +179,7 @@
         "code": "17317",
         "parent_code": "423"
     },
-    "17320": {
+     {
         "name": "Kỳ Tân",
         "type": "xa",
         "slug": "ky-tan",
@@ -189,7 +189,7 @@
         "code": "17320",
         "parent_code": "423"
     },
-    "17323": {
+     {
         "name": "Phú Sơn",
         "type": "xa",
         "slug": "phu-son",
@@ -199,7 +199,7 @@
         "code": "17323",
         "parent_code": "423"
     },
-    "17325": {
+     {
         "name": "Tân Hương",
         "type": "xa",
         "slug": "tan-huong",
@@ -209,7 +209,7 @@
         "code": "17325",
         "parent_code": "423"
     },
-    "17326": {
+     {
         "name": "Nghĩa Hành",
         "type": "xa",
         "slug": "nghia-hanh",
@@ -219,4 +219,4 @@
         "code": "17326",
         "parent_code": "423"
     }
-}
+]}

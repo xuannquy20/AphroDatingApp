@@ -1,5 +1,5 @@
 {
-    "01363": {
+     "xa"[{
         "name": "Thông Nông",
         "type": "thi-tran",
         "slug": "thong-nong",
@@ -9,7 +9,7 @@
         "code": "01363",
         "parent_code": "044"
     },
-    "01366": {
+     {
         "name": "Cần Yên",
         "type": "xa",
         "slug": "can-yen",
@@ -19,7 +19,7 @@
         "code": "01366",
         "parent_code": "044"
     },
-    "01367": {
+     {
         "name": "Cần Nông",
         "type": "xa",
         "slug": "can-nong",
@@ -29,7 +29,7 @@
         "code": "01367",
         "parent_code": "044"
     },
-    "01369": {
+     {
         "name": "Vị Quang",
         "type": "xa",
         "slug": "vi-quang",
@@ -39,7 +39,7 @@
         "code": "01369",
         "parent_code": "044"
     },
-    "01372": {
+     {
         "name": "Lương Thông",
         "type": "xa",
         "slug": "luong-thong",
@@ -49,7 +49,7 @@
         "code": "01372",
         "parent_code": "044"
     },
-    "01375": {
+     {
         "name": "Đa Thông",
         "type": "xa",
         "slug": "da-thong",
@@ -59,7 +59,7 @@
         "code": "01375",
         "parent_code": "044"
     },
-    "01378": {
+     {
         "name": "Ngọc Động",
         "type": "xa",
         "slug": "ngoc-dong",
@@ -69,7 +69,7 @@
         "code": "01378",
         "parent_code": "044"
     },
-    "01381": {
+     {
         "name": "Yên Sơn",
         "type": "xa",
         "slug": "yen-son",
@@ -79,7 +79,7 @@
         "code": "01381",
         "parent_code": "044"
     },
-    "01384": {
+     {
         "name": "Lương Can",
         "type": "xa",
         "slug": "luong-can",
@@ -89,7 +89,7 @@
         "code": "01384",
         "parent_code": "044"
     },
-    "01387": {
+     {
         "name": "Thanh Long",
         "type": "xa",
         "slug": "thanh-long",
@@ -99,7 +99,7 @@
         "code": "01387",
         "parent_code": "044"
     },
-    "01390": {
+     {
         "name": "Bình Lãng",
         "type": "xa",
         "slug": "binh-lang",
@@ -109,4 +109,5 @@
         "code": "01390",
         "parent_code": "044"
     }
+]
 }

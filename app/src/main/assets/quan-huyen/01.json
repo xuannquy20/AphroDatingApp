@@ -1,5 +1,5 @@
 {
-    "huyen" : [ {
+    "huyen": [{
         "name": "Ba Đình",
         "type": "quan",
         "slug": "ba-dinh",
@@ -9,7 +9,7 @@
         "code": "001",
         "parent_code": "01"
     },
-    {
+     {
         "name": "Hoàn Kiếm",
         "type": "quan",
         "slug": "hoan-kiem",
@@ -19,7 +19,7 @@
         "code": "002",
         "parent_code": "01"
     },
-    {
+     {
         "name": "Tây Hồ",
         "type": "quan",
         "slug": "tay-ho",
@@ -29,7 +29,7 @@
         "code": "003",
         "parent_code": "01"
     },
-    {
+     {
         "name": "Long Biên",
         "type": "quan",
         "slug": "long-bien",
@@ -39,7 +39,7 @@
         "code": "004",
         "parent_code": "01"
     },
-    {
+     {
         "name": "Cầu Giấy",
         "type": "quan",
         "slug": "cau-giay",
@@ -49,7 +49,7 @@
         "code": "005",
         "parent_code": "01"
     },
-    {
+     {
         "name": "Đống Đa",
         "type": "quan",
         "slug": "dong-da",
@@ -59,7 +59,7 @@
         "code": "006",
         "parent_code": "01"
     },
-    {
+     {
         "name": "Hai Bà Trưng",
         "type": "quan",
         "slug": "hai-ba-trung",
@@ -69,7 +69,7 @@
         "code": "007",
         "parent_code": "01"
     },
-    {
+     {
         "name": "Hoàng Mai",
         "type": "quan",
         "slug": "hoang-mai",
@@ -79,7 +79,7 @@
         "code": "008",
         "parent_code": "01"
     },
-    {
+     {
         "name": "Thanh Xuân",
         "type": "quan",
         "slug": "thanh-xuan",
@@ -89,7 +89,7 @@
         "code": "009",
         "parent_code": "01"
     },
-    {
+     {
         "name": "Sóc Sơn",
         "type": "huyen",
         "slug": "soc-son",
@@ -99,7 +99,7 @@
         "code": "016",
         "parent_code": "01"
     },
-    {
+     {
         "name": "Đông Anh",
         "type": "huyen",
         "slug": "dong-anh",
@@ -109,7 +109,7 @@
         "code": "017",
         "parent_code": "01"
     },
-    {
+     {
         "name": "Gia Lâm",
         "type": "huyen",
         "slug": "gia-lam",
@@ -119,7 +119,7 @@
         "code": "018",
         "parent_code": "01"
     },
-    {
+     {
         "name": "Nam Từ Liêm",
         "type": "quan",
         "slug": "nam-tu-liem",
@@ -149,7 +149,7 @@
         "code": "021",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Mê Linh",
         "type": "huyen",
         "slug": "me-linh",
@@ -159,7 +159,7 @@
         "code": "250",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Hà Đông",
         "type": "quan",
         "slug": "ha-dong",
@@ -169,7 +169,7 @@
         "code": "268",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Sơn Tây",
         "type": "thi-xa",
         "slug": "son-tay",
@@ -179,7 +179,7 @@
         "code": "269",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Ba Vì",
         "type": "huyen",
         "slug": "ba-vi",
@@ -189,7 +189,7 @@
         "code": "271",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Phúc Thọ",
         "type": "huyen",
         "slug": "phuc-tho",
@@ -199,7 +199,7 @@
         "code": "272",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Đan Phượng",
         "type": "huyen",
         "slug": "dan-phuong",
@@ -209,7 +209,7 @@
         "code": "273",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Hoài Đức",
         "type": "huyen",
         "slug": "hoai-duc",
@@ -219,7 +219,7 @@
         "code": "274",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Quốc Oai",
         "type": "huyen",
         "slug": "quoc-oai",
@@ -229,7 +229,7 @@
         "code": "275",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Thạch Thất",
         "type": "huyen",
         "slug": "thach-that",
@@ -239,7 +239,7 @@
         "code": "276",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Chương Mỹ",
         "type": "huyen",
         "slug": "chuong-my",
@@ -249,7 +249,7 @@
         "code": "277",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Thanh Oai",
         "type": "huyen",
         "slug": "thanh-oai",
@@ -259,7 +259,7 @@
         "code": "278",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Thường Tín",
         "type": "huyen",
         "slug": "thuong-tin",
@@ -269,7 +269,7 @@
         "code": "279",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Phú Xuyên",
         "type": "huyen",
         "slug": "phu-xuyen",
@@ -279,7 +279,7 @@
         "code": "280",
         "parent_code": "01"
     },
-      {
+     {
         "name": "Ứng Hòa",
         "type": "huyen",
         "slug": "ung-hoa",
@@ -288,7 +288,7 @@
         "path_with_type": "Huyện Ứng Hòa, Thành phố Hà Nội",
         "code": "281",
         "parent_code": "01"
-    },
+    },    
       {
         "name": "Mỹ Đức",
         "type": "huyen",
@@ -298,6 +298,6 @@
         "path_with_type": "Huyện Mỹ Đức, Thành phố Hà Nội",
         "code": "282",
         "parent_code": "01"
-    }
-]
+      }
+      ]
 }

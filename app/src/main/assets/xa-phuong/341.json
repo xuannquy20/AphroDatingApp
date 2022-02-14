@@ -1,5 +1,5 @@
 {
-    "12826": {
+    "xa":[ {
         "name": "Diêm Điền",
         "type": "thi-tran",
         "slug": "diem-dien",
@@ -9,7 +9,7 @@
         "code": "12826",
         "parent_code": "341"
     },
-    "12832": {
+     {
         "name": "Thụy Trường",
         "type": "xa",
         "slug": "thuy-truong",
@@ -19,7 +19,7 @@
         "code": "12832",
         "parent_code": "341"
     },
-    "12841": {
+     {
         "name": "Hồng Dũng",
         "type": "xa",
         "slug": "hong-dung",
@@ -29,7 +29,7 @@
         "code": "12841",
         "parent_code": "341"
     },
-    "12844": {
+     {
         "name": "Thụy Quỳnh",
         "type": "xa",
         "slug": "thuy-quynh",
@@ -39,7 +39,7 @@
         "code": "12844",
         "parent_code": "341"
     },
-    "12847": {
+     {
         "name": "An Tân",
         "type": "xa",
         "slug": "an-tan",
@@ -49,7 +49,7 @@
         "code": "12847",
         "parent_code": "341"
     },
-    "12850": {
+     {
         "name": "Thụy Ninh",
         "type": "xa",
         "slug": "thuy-ninh",
@@ -59,7 +59,7 @@
         "code": "12850",
         "parent_code": "341"
     },
-    "12853": {
+     {
         "name": "Thụy Hưng",
         "type": "xa",
         "slug": "thuy-hung",
@@ -69,7 +69,7 @@
         "code": "12853",
         "parent_code": "341"
     },
-    "12856": {
+     {
         "name": "Thụy Việt",
         "type": "xa",
         "slug": "thuy-viet",
@@ -79,7 +79,7 @@
         "code": "12856",
         "parent_code": "341"
     },
-    "12859": {
+     {
         "name": "Thụy Văn",
         "type": "xa",
         "slug": "thuy-van",
@@ -89,7 +89,7 @@
         "code": "12859",
         "parent_code": "341"
     },
-    "12862": {
+     {
         "name": "Thụy Xuân",
         "type": "xa",
         "slug": "thuy-xuan",
@@ -99,7 +99,7 @@
         "code": "12862",
         "parent_code": "341"
     },
-    "12865": {
+     {
         "name": "Dương Phúc",
         "type": "xa",
         "slug": "duong-phuc",
@@ -109,7 +109,7 @@
         "code": "12865",
         "parent_code": "341"
     },
-    "12868": {
+     {
         "name": "Thụy Trình",
         "type": "xa",
         "slug": "thuy-trinh",
@@ -119,7 +119,7 @@
         "code": "12868",
         "parent_code": "341"
     },
-    "12871": {
+     {
         "name": "Thụy Bình",
         "type": "xa",
         "slug": "thuy-binh",
@@ -129,7 +129,7 @@
         "code": "12871",
         "parent_code": "341"
     },
-    "12874": {
+     {
         "name": "Thụy Chính",
         "type": "xa",
         "slug": "thuy-chinh",
@@ -139,7 +139,7 @@
         "code": "12874",
         "parent_code": "341"
     },
-    "12877": {
+     {
         "name": "Thụy Dân",
         "type": "xa",
         "slug": "thuy-dan",
@@ -149,7 +149,7 @@
         "code": "12877",
         "parent_code": "341"
     },
-    "12880": {
+     {
         "name": "Thụy Hải",
         "type": "xa",
         "slug": "thuy-hai",
@@ -159,7 +159,7 @@
         "code": "12880",
         "parent_code": "341"
     },
-    "12889": {
+     {
         "name": "Thụy Liên",
         "type": "xa",
         "slug": "thuy-lien",
@@ -169,7 +169,7 @@
         "code": "12889",
         "parent_code": "341"
     },
-    "12892": {
+     {
         "name": "Thụy Duyên",
         "type": "xa",
         "slug": "thuy-duyen",
@@ -179,7 +179,7 @@
         "code": "12892",
         "parent_code": "341"
     },
-    "12898": {
+     {
         "name": "Thụy Thanh",
         "type": "xa",
         "slug": "thuy-thanh",
@@ -189,7 +189,7 @@
         "code": "12898",
         "parent_code": "341"
     },
-    "12901": {
+     {
         "name": "Thụy Sơn",
         "type": "xa",
         "slug": "thuy-son",
@@ -199,7 +199,7 @@
         "code": "12901",
         "parent_code": "341"
     },
-    "12904": {
+     {
         "name": "Thụy Phong",
         "type": "xa",
         "slug": "thuy-phong",
@@ -209,7 +209,7 @@
         "code": "12904",
         "parent_code": "341"
     },
-    "12907": {
+     {
         "name": "Thái Thượng",
         "type": "xa",
         "slug": "thai-thuong",
@@ -219,7 +219,7 @@
         "code": "12907",
         "parent_code": "341"
     },
-    "12910": {
+     {
         "name": "Thái Nguyên",
         "type": "xa",
         "slug": "thai-nguyen",
@@ -229,7 +229,7 @@
         "code": "12910",
         "parent_code": "341"
     },
-    "12916": {
+     {
         "name": "Dương Hồng  Thủy",
         "type": "xa",
         "slug": "duong-hong-thuy",
@@ -239,7 +239,7 @@
         "code": "12916",
         "parent_code": "341"
     },
-    "12919": {
+     {
         "name": "Thái Giang",
         "type": "xa",
         "slug": "thai-giang",
@@ -249,7 +249,7 @@
         "code": "12919",
         "parent_code": "341"
     },
-    "12922": {
+     {
         "name": "Hòa An",
         "type": "xa",
         "slug": "hoa-an",
@@ -259,7 +259,7 @@
         "code": "12922",
         "parent_code": "341"
     },
-    "12925": {
+     {
         "name": "Sơn Hà",
         "type": "xa",
         "slug": "son-ha",
@@ -269,7 +269,7 @@
         "code": "12925",
         "parent_code": "341"
     },
-    "12934": {
+     {
         "name": "Thái Phúc",
         "type": "xa",
         "slug": "thai-phuc",
@@ -279,7 +279,7 @@
         "code": "12934",
         "parent_code": "341"
     },
-    "12937": {
+     {
         "name": "Thái Hưng",
         "type": "xa",
         "slug": "thai-hung",
@@ -289,7 +289,7 @@
         "code": "12937",
         "parent_code": "341"
     },
-    "12940": {
+     {
         "name": "Thái Đô",
         "type": "xa",
         "slug": "thai-do",
@@ -299,7 +299,7 @@
         "code": "12940",
         "parent_code": "341"
     },
-    "12943": {
+     {
         "name": "Thái Xuyên",
         "type": "xa",
         "slug": "thai-xuyen",
@@ -309,7 +309,7 @@
         "code": "12943",
         "parent_code": "341"
     },
-    "12949": {
+     {
         "name": "Mỹ Lộc",
         "type": "xa",
         "slug": "my-loc",
@@ -319,7 +319,7 @@
         "code": "12949",
         "parent_code": "341"
     },
-    "12958": {
+     {
         "name": "Tân Học",
         "type": "xa",
         "slug": "tan-hoc",
@@ -329,7 +329,7 @@
         "code": "12958",
         "parent_code": "341"
     },
-    "12961": {
+     {
         "name": "Thái Thịnh",
         "type": "xa",
         "slug": "thai-thinh",
@@ -339,7 +339,7 @@
         "code": "12961",
         "parent_code": "341"
     },
-    "12964": {
+     {
         "name": "Thuần Thành",
         "type": "xa",
         "slug": "thuan-thanh",
@@ -349,7 +349,7 @@
         "code": "12964",
         "parent_code": "341"
     },
-    "12967": {
+     {
         "name": "Thái Thọ",
         "type": "xa",
         "slug": "thai-tho",
@@ -359,4 +359,4 @@
         "code": "12967",
         "parent_code": "341"
     }
-}
+]}

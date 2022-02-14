@@ -1,5 +1,5 @@
 {
-    "18949": {
+    "xa":[ {
         "name": "Đồng Lê",
         "type": "thi-tran",
         "slug": "dong-le",
@@ -9,7 +9,7 @@
         "code": "18949",
         "parent_code": "453"
     },
-    "18952": {
+     {
         "name": "Hương Hóa",
         "type": "xa",
         "slug": "huong-hoa",
@@ -19,7 +19,7 @@
         "code": "18952",
         "parent_code": "453"
     },
-    "18955": {
+     {
         "name": "Kim Hóa",
         "type": "xa",
         "slug": "kim-hoa",
@@ -29,7 +29,7 @@
         "code": "18955",
         "parent_code": "453"
     },
-    "18958": {
+     {
         "name": "Thanh Hóa",
         "type": "xa",
         "slug": "thanh-hoa",
@@ -39,7 +39,7 @@
         "code": "18958",
         "parent_code": "453"
     },
-    "18961": {
+     {
         "name": "Thanh Thạch",
         "type": "xa",
         "slug": "thanh-thach",
@@ -49,7 +49,7 @@
         "code": "18961",
         "parent_code": "453"
     },
-    "18964": {
+     {
         "name": "Thuận Hóa",
         "type": "xa",
         "slug": "thuan-hoa",
@@ -59,7 +59,7 @@
         "code": "18964",
         "parent_code": "453"
     },
-    "18967": {
+     {
         "name": "Lâm Hóa",
         "type": "xa",
         "slug": "lam-hoa",
@@ -69,7 +69,7 @@
         "code": "18967",
         "parent_code": "453"
     },
-    "18970": {
+     {
         "name": "Lê Hóa",
         "type": "xa",
         "slug": "le-hoa",
@@ -79,7 +79,7 @@
         "code": "18970",
         "parent_code": "453"
     },
-    "18973": {
+     {
         "name": "Sơn Hóa",
         "type": "xa",
         "slug": "son-hoa",
@@ -89,7 +89,7 @@
         "code": "18973",
         "parent_code": "453"
     },
-    "18976": {
+     {
         "name": "Đồng Hóa",
         "type": "xa",
         "slug": "dong-hoa",
@@ -99,7 +99,7 @@
         "code": "18976",
         "parent_code": "453"
     },
-    "18979": {
+     {
         "name": "Ngư Hóa",
         "type": "xa",
         "slug": "ngu-hoa",
@@ -109,7 +109,7 @@
         "code": "18979",
         "parent_code": "453"
     },
-    "18985": {
+     {
         "name": "Thạch Hóa",
         "type": "xa",
         "slug": "thach-hoa",
@@ -119,7 +119,7 @@
         "code": "18985",
         "parent_code": "453"
     },
-    "18988": {
+     {
         "name": "Đức Hóa",
         "type": "xa",
         "slug": "duc-hoa",
@@ -129,7 +129,7 @@
         "code": "18988",
         "parent_code": "453"
     },
-    "18991": {
+     {
         "name": "Phong Hóa",
         "type": "xa",
         "slug": "phong-hoa",
@@ -139,7 +139,7 @@
         "code": "18991",
         "parent_code": "453"
     },
-    "18994": {
+     {
         "name": "Mai Hóa",
         "type": "xa",
         "slug": "mai-hoa",
@@ -149,7 +149,7 @@
         "code": "18994",
         "parent_code": "453"
     },
-    "18997": {
+     {
         "name": "Tiến Hóa",
         "type": "xa",
         "slug": "tien-hoa",
@@ -159,7 +159,7 @@
         "code": "18997",
         "parent_code": "453"
     },
-    "19000": {
+     {
         "name": "Châu Hóa",
         "type": "xa",
         "slug": "chau-hoa",
@@ -169,7 +169,7 @@
         "code": "19000",
         "parent_code": "453"
     },
-    "19003": {
+     {
         "name": "Cao Quảng",
         "type": "xa",
         "slug": "cao-quang",
@@ -179,7 +179,7 @@
         "code": "19003",
         "parent_code": "453"
     },
-    "19006": {
+     {
         "name": "Văn Hóa",
         "type": "xa",
         "slug": "van-hoa",
@@ -189,4 +189,4 @@
         "code": "19006",
         "parent_code": "453"
     }
-}
+]}

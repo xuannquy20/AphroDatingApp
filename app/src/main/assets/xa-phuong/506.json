@@ -1,5 +1,5 @@
 {
-    "20500": {
+    "xa":[ {
         "name": "Ái Nghĩa",
         "type": "thi-tran",
         "slug": "ai-nghia",
@@ -9,7 +9,7 @@
         "code": "20500",
         "parent_code": "506"
     },
-    "20503": {
+     {
         "name": "Đại Sơn",
         "type": "xa",
         "slug": "dai-son",
@@ -19,7 +19,7 @@
         "code": "20503",
         "parent_code": "506"
     },
-    "20506": {
+     {
         "name": "Đại Lãnh",
         "type": "xa",
         "slug": "dai-lanh",
@@ -29,7 +29,7 @@
         "code": "20506",
         "parent_code": "506"
     },
-    "20509": {
+     {
         "name": "Đại Hưng",
         "type": "xa",
         "slug": "dai-hung",
@@ -39,7 +39,7 @@
         "code": "20509",
         "parent_code": "506"
     },
-    "20512": {
+     {
         "name": "Đại Hồng",
         "type": "xa",
         "slug": "dai-hong",
@@ -49,7 +49,7 @@
         "code": "20512",
         "parent_code": "506"
     },
-    "20515": {
+     {
         "name": "Đại Đồng",
         "type": "xa",
         "slug": "dai-dong",
@@ -59,7 +59,7 @@
         "code": "20515",
         "parent_code": "506"
     },
-    "20518": {
+     {
         "name": "Đại Quang",
         "type": "xa",
         "slug": "dai-quang",
@@ -69,7 +69,7 @@
         "code": "20518",
         "parent_code": "506"
     },
-    "20521": {
+     {
         "name": "Đại Nghĩa",
         "type": "xa",
         "slug": "dai-nghia",
@@ -79,7 +79,7 @@
         "code": "20521",
         "parent_code": "506"
     },
-    "20524": {
+     {
         "name": "Đại Hiệp",
         "type": "xa",
         "slug": "dai-hiep",
@@ -89,7 +89,7 @@
         "code": "20524",
         "parent_code": "506"
     },
-    "20527": {
+     {
         "name": "Đại Thạnh",
         "type": "xa",
         "slug": "dai-thanh",
@@ -99,7 +99,7 @@
         "code": "20527",
         "parent_code": "506"
     },
-    "20530": {
+     {
         "name": "Đại Chánh",
         "type": "xa",
         "slug": "dai-chanh",
@@ -109,7 +109,7 @@
         "code": "20530",
         "parent_code": "506"
     },
-    "20533": {
+     {
         "name": "Đại Tân",
         "type": "xa",
         "slug": "dai-tan",
@@ -119,7 +119,7 @@
         "code": "20533",
         "parent_code": "506"
     },
-    "20536": {
+     {
         "name": "Đại Phong",
         "type": "xa",
         "slug": "dai-phong",
@@ -129,7 +129,7 @@
         "code": "20536",
         "parent_code": "506"
     },
-    "20539": {
+     {
         "name": "Đại Minh",
         "type": "xa",
         "slug": "dai-minh",
@@ -139,7 +139,7 @@
         "code": "20539",
         "parent_code": "506"
     },
-    "20542": {
+     {
         "name": "Đại Thắng",
         "type": "xa",
         "slug": "dai-thang",
@@ -149,7 +149,7 @@
         "code": "20542",
         "parent_code": "506"
     },
-    "20545": {
+     {
         "name": "Đại Cường",
         "type": "xa",
         "slug": "dai-cuong",
@@ -159,7 +159,7 @@
         "code": "20545",
         "parent_code": "506"
     },
-    "20547": {
+     {
         "name": "Đại An",
         "type": "xa",
         "slug": "dai-an",
@@ -169,7 +169,7 @@
         "code": "20547",
         "parent_code": "506"
     },
-    "20548": {
+     {
         "name": "Đại Hòa",
         "type": "xa",
         "slug": "dai-hoa",
@@ -179,4 +179,4 @@
         "code": "20548",
         "parent_code": "506"
     }
-}
+]}

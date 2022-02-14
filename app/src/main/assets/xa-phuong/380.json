@@ -1,5 +1,5 @@
 {
-    "14755": {
+    "xa":[ {
         "name": "Hàm Rồng",
         "type": "phuong",
         "slug": "ham-rong",
@@ -9,7 +9,7 @@
         "code": "14755",
         "parent_code": "380"
     },
-    "14758": {
+     {
         "name": "Đông Thọ",
         "type": "phuong",
         "slug": "dong-tho",
@@ -19,7 +19,7 @@
         "code": "14758",
         "parent_code": "380"
     },
-    "14761": {
+     {
         "name": "Nam Ngạn",
         "type": "phuong",
         "slug": "nam-ngan",
@@ -29,7 +29,7 @@
         "code": "14761",
         "parent_code": "380"
     },
-    "14764": {
+     {
         "name": "Trường Thi",
         "type": "phuong",
         "slug": "truong-thi",
@@ -39,7 +39,7 @@
         "code": "14764",
         "parent_code": "380"
     },
-    "14767": {
+     {
         "name": "Điện Biên",
         "type": "phuong",
         "slug": "dien-bien",
@@ -49,7 +49,7 @@
         "code": "14767",
         "parent_code": "380"
     },
-    "14770": {
+     {
         "name": "Phú Sơn",
         "type": "phuong",
         "slug": "phu-son",
@@ -59,7 +59,7 @@
         "code": "14770",
         "parent_code": "380"
     },
-    "14773": {
+     {
         "name": "Lam Sơn",
         "type": "phuong",
         "slug": "lam-son",
@@ -69,7 +69,7 @@
         "code": "14773",
         "parent_code": "380"
     },
-    "14776": {
+     {
         "name": "Ba Đình",
         "type": "phuong",
         "slug": "ba-dinh",
@@ -79,7 +79,7 @@
         "code": "14776",
         "parent_code": "380"
     },
-    "14779": {
+     {
         "name": "Ngọc Trạo",
         "type": "phuong",
         "slug": "ngoc-trao",
@@ -89,7 +89,7 @@
         "code": "14779",
         "parent_code": "380"
     },
-    "14782": {
+     {
         "name": "Đông Vệ",
         "type": "phuong",
         "slug": "dong-ve",
@@ -99,7 +99,7 @@
         "code": "14782",
         "parent_code": "380"
     },
-    "14785": {
+     {
         "name": "Đông Sơn",
         "type": "phuong",
         "slug": "dong-son",
@@ -109,7 +109,7 @@
         "code": "14785",
         "parent_code": "380"
     },
-    "14788": {
+     {
         "name": "Tân Sơn",
         "type": "phuong",
         "slug": "tan-son",
@@ -119,7 +119,7 @@
         "code": "14788",
         "parent_code": "380"
     },
-    "14791": {
+     {
         "name": "Đông Cương",
         "type": "phuong",
         "slug": "dong-cuong",
@@ -129,7 +129,7 @@
         "code": "14791",
         "parent_code": "380"
     },
-    "14794": {
+     {
         "name": "Đông Hương",
         "type": "phuong",
         "slug": "dong-huong",
@@ -139,7 +139,7 @@
         "code": "14794",
         "parent_code": "380"
     },
-    "14797": {
+     {
         "name": "Đông Hải",
         "type": "phuong",
         "slug": "dong-hai",
@@ -149,7 +149,7 @@
         "code": "14797",
         "parent_code": "380"
     },
-    "14800": {
+     {
         "name": "Quảng Hưng",
         "type": "phuong",
         "slug": "quang-hung",
@@ -159,7 +159,7 @@
         "code": "14800",
         "parent_code": "380"
     },
-    "14803": {
+     {
         "name": "Quảng Thắng",
         "type": "phuong",
         "slug": "quang-thang",
@@ -169,7 +169,7 @@
         "code": "14803",
         "parent_code": "380"
     },
-    "14806": {
+     {
         "name": "Quảng Thành",
         "type": "phuong",
         "slug": "quang-thanh",
@@ -179,7 +179,7 @@
         "code": "14806",
         "parent_code": "380"
     },
-    "15850": {
+     {
         "name": "Thiệu Vân",
         "type": "xa",
         "slug": "thieu-van",
@@ -189,7 +189,7 @@
         "code": "15850",
         "parent_code": "380"
     },
-    "15856": {
+     {
         "name": "Thiệu Khánh",
         "type": "phuong",
         "slug": "thieu-khanh",
@@ -199,7 +199,7 @@
         "code": "15856",
         "parent_code": "380"
     },
-    "15859": {
+     {
         "name": "Thiệu Dương",
         "type": "phuong",
         "slug": "thieu-duong",
@@ -209,7 +209,7 @@
         "code": "15859",
         "parent_code": "380"
     },
-    "15913": {
+     {
         "name": "Tào Xuyên",
         "type": "phuong",
         "slug": "tao-xuyen",
@@ -219,7 +219,7 @@
         "code": "15913",
         "parent_code": "380"
     },
-    "15922": {
+     {
         "name": "Long Anh",
         "type": "phuong",
         "slug": "long-anh",
@@ -229,7 +229,7 @@
         "code": "15922",
         "parent_code": "380"
     },
-    "15925": {
+     {
         "name": "Hoằng Quang",
         "type": "xa",
         "slug": "hoang-quang",
@@ -239,7 +239,7 @@
         "code": "15925",
         "parent_code": "380"
     },
-    "15970": {
+     {
         "name": "Hoằng Đại",
         "type": "xa",
         "slug": "hoang-dai",
@@ -249,7 +249,7 @@
         "code": "15970",
         "parent_code": "380"
     },
-    "16396": {
+     {
         "name": "Đông Lĩnh",
         "type": "phuong",
         "slug": "dong-linh",
@@ -259,7 +259,7 @@
         "code": "16396",
         "parent_code": "380"
     },
-    "16429": {
+     {
         "name": "Đông Vinh",
         "type": "xa",
         "slug": "dong-vinh",
@@ -269,7 +269,7 @@
         "code": "16429",
         "parent_code": "380"
     },
-    "16432": {
+     {
         "name": "Đông Tân",
         "type": "phuong",
         "slug": "dong-tan",
@@ -279,7 +279,7 @@
         "code": "16432",
         "parent_code": "380"
     },
-    "16435": {
+     {
         "name": "An Hưng",
         "type": "phuong",
         "slug": "an-hung",
@@ -289,7 +289,7 @@
         "code": "16435",
         "parent_code": "380"
     },
-    "16441": {
+     {
         "name": "Quảng Thịnh",
         "type": "phuong",
         "slug": "quang-thinh",
@@ -299,7 +299,7 @@
         "code": "16441",
         "parent_code": "380"
     },
-    "16459": {
+     {
         "name": "Quảng Đông",
         "type": "phuong",
         "slug": "quang-dong",
@@ -309,7 +309,7 @@
         "code": "16459",
         "parent_code": "380"
     },
-    "16507": {
+     {
         "name": "Quảng Cát",
         "type": "phuong",
         "slug": "quang-cat",
@@ -319,7 +319,7 @@
         "code": "16507",
         "parent_code": "380"
     },
-    "16522": {
+     {
         "name": "Quảng Phú",
         "type": "phuong",
         "slug": "quang-phu",
@@ -329,7 +329,7 @@
         "code": "16522",
         "parent_code": "380"
     },
-    "16525": {
+     {
         "name": "Quảng Tâm",
         "type": "phuong",
         "slug": "quang-tam",
@@ -339,4 +339,4 @@
         "code": "16525",
         "parent_code": "380"
     }
-}
+]}

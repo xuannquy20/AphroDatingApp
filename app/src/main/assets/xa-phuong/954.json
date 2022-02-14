@@ -1,5 +1,5 @@
 {
-    "31813": {
+    "xa":[ {
         "name": "2",
         "type": "phuong",
         "slug": "2",
@@ -9,7 +9,7 @@
         "code": "31813",
         "parent_code": "954"
     },
-    "31816": {
+     {
         "name": "3",
         "type": "phuong",
         "slug": "3",
@@ -19,7 +19,7 @@
         "code": "31816",
         "parent_code": "954"
     },
-    "31819": {
+     {
         "name": "5",
         "type": "phuong",
         "slug": "5",
@@ -29,7 +29,7 @@
         "code": "31819",
         "parent_code": "954"
     },
-    "31822": {
+     {
         "name": "7",
         "type": "phuong",
         "slug": "7",
@@ -39,7 +39,7 @@
         "code": "31822",
         "parent_code": "954"
     },
-    "31825": {
+     {
         "name": "1",
         "type": "phuong",
         "slug": "1",
@@ -49,7 +49,7 @@
         "code": "31825",
         "parent_code": "954"
     },
-    "31828": {
+     {
         "name": "8",
         "type": "phuong",
         "slug": "8",
@@ -59,7 +59,7 @@
         "code": "31828",
         "parent_code": "954"
     },
-    "31831": {
+     {
         "name": "Nhà Mát",
         "type": "phuong",
         "slug": "nha-mat",
@@ -69,7 +69,7 @@
         "code": "31831",
         "parent_code": "954"
     },
-    "31834": {
+     {
         "name": "Vĩnh Trạch",
         "type": "xa",
         "slug": "vinh-trach",
@@ -79,7 +79,7 @@
         "code": "31834",
         "parent_code": "954"
     },
-    "31837": {
+     {
         "name": "Vĩnh Trạch Đông",
         "type": "xa",
         "slug": "vinh-trach-dong",
@@ -89,7 +89,7 @@
         "code": "31837",
         "parent_code": "954"
     },
-    "31840": {
+     {
         "name": "Hiệp Thành",
         "type": "xa",
         "slug": "hiep-thanh",
@@ -99,4 +99,4 @@
         "code": "31840",
         "parent_code": "954"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "26548": {
+    "xa":[ {
         "name": "Phước Hưng",
         "type": "phuong",
         "slug": "phuoc-hung",
@@ -9,7 +9,7 @@
         "code": "26548",
         "parent_code": "748"
     },
-    "26551": {
+     {
         "name": "Phước Hiệp",
         "type": "phuong",
         "slug": "phuoc-hiep",
@@ -19,7 +19,7 @@
         "code": "26551",
         "parent_code": "748"
     },
-    "26554": {
+     {
         "name": "Phước Nguyên",
         "type": "phuong",
         "slug": "phuoc-nguyen",
@@ -29,7 +29,7 @@
         "code": "26554",
         "parent_code": "748"
     },
-    "26557": {
+     {
         "name": "Long Toàn",
         "type": "phuong",
         "slug": "long-toan",
@@ -39,7 +39,7 @@
         "code": "26557",
         "parent_code": "748"
     },
-    "26558": {
+     {
         "name": "Long Tâm",
         "type": "phuong",
         "slug": "long-tam",
@@ -49,7 +49,7 @@
         "code": "26558",
         "parent_code": "748"
     },
-    "26560": {
+     {
         "name": "Phước Trung",
         "type": "phuong",
         "slug": "phuoc-trung",
@@ -59,7 +59,7 @@
         "code": "26560",
         "parent_code": "748"
     },
-    "26563": {
+     {
         "name": "Long Hương",
         "type": "phuong",
         "slug": "long-huong",
@@ -69,7 +69,7 @@
         "code": "26563",
         "parent_code": "748"
     },
-    "26566": {
+     {
         "name": "Kim Dinh",
         "type": "phuong",
         "slug": "kim-dinh",
@@ -79,7 +79,7 @@
         "code": "26566",
         "parent_code": "748"
     },
-    "26567": {
+     {
         "name": "Tân Hưng",
         "type": "xa",
         "slug": "tan-hung",
@@ -89,7 +89,7 @@
         "code": "26567",
         "parent_code": "748"
     },
-    "26569": {
+     {
         "name": "Long Phước",
         "type": "xa",
         "slug": "long-phuoc",
@@ -99,7 +99,7 @@
         "code": "26569",
         "parent_code": "748"
     },
-    "26572": {
+     {
         "name": "Hoà Long",
         "type": "xa",
         "slug": "hoa-long",
@@ -109,4 +109,4 @@
         "code": "26572",
         "parent_code": "748"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "02800": {
+    "xa":[ {
         "name": "Nàn Sán",
         "type": "xa",
         "slug": "nan-san",
@@ -9,7 +9,7 @@
         "code": "02800",
         "parent_code": "084"
     },
-    "02803": {
+     {
         "name": "Thào Chư Phìn",
         "type": "xa",
         "slug": "thao-chu-phin",
@@ -19,7 +19,7 @@
         "code": "02803",
         "parent_code": "084"
     },
-    "02806": {
+     {
         "name": "Bản Mế",
         "type": "xa",
         "slug": "ban-me",
@@ -29,7 +29,7 @@
         "code": "02806",
         "parent_code": "084"
     },
-    "02809": {
+     {
         "name": "Si Ma Cai",
         "type": "thi-tran",
         "slug": "si-ma-cai",
@@ -39,7 +39,7 @@
         "code": "02809",
         "parent_code": "084"
     },
-    "02812": {
+     {
         "name": "Sán Chải",
         "type": "xa",
         "slug": "san-chai",
@@ -49,7 +49,7 @@
         "code": "02812",
         "parent_code": "084"
     },
-    "02818": {
+     {
         "name": "Lùng Thẩn",
         "type": "xa",
         "slug": "lung-than",
@@ -59,7 +59,7 @@
         "code": "02818",
         "parent_code": "084"
     },
-    "02821": {
+     {
         "name": "Cán Cấu",
         "type": "xa",
         "slug": "can-cau",
@@ -69,7 +69,7 @@
         "code": "02821",
         "parent_code": "084"
     },
-    "02824": {
+     {
         "name": "Sín Chéng",
         "type": "xa",
         "slug": "sin-cheng",
@@ -79,7 +79,7 @@
         "code": "02824",
         "parent_code": "084"
     },
-    "02827": {
+     {
         "name": "Quan Hồ Thẩn",
         "type": "xa",
         "slug": "quan-ho-than",
@@ -89,7 +89,7 @@
         "code": "02827",
         "parent_code": "084"
     },
-    "02836": {
+     {
         "name": "Nàn Xín",
         "type": "xa",
         "slug": "nan-xin",
@@ -99,4 +99,4 @@
         "code": "02836",
         "parent_code": "084"
     }
-}
+]}

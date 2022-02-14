@@ -1,5 +1,5 @@
 {
-    "31342": {
+    "xa":[ {
         "name": "Một Ngàn",
         "type": "thi-tran",
         "slug": "mot-ngan",
@@ -9,7 +9,7 @@
         "code": "31342",
         "parent_code": "932"
     },
-    "31345": {
+     {
         "name": "Tân Hoà",
         "type": "xa",
         "slug": "tan-hoa",
@@ -19,7 +19,7 @@
         "code": "31345",
         "parent_code": "932"
     },
-    "31346": {
+     {
         "name": "Bảy Ngàn",
         "type": "thi-tran",
         "slug": "bay-ngan",
@@ -29,7 +29,7 @@
         "code": "31346",
         "parent_code": "932"
     },
-    "31348": {
+     {
         "name": "Trường Long Tây",
         "type": "xa",
         "slug": "truong-long-tay",
@@ -39,7 +39,7 @@
         "code": "31348",
         "parent_code": "932"
     },
-    "31351": {
+     {
         "name": "Trường Long A",
         "type": "xa",
         "slug": "truong-long-a",
@@ -49,7 +49,7 @@
         "code": "31351",
         "parent_code": "932"
     },
-    "31357": {
+     {
         "name": "Nhơn Nghĩa A",
         "type": "xa",
         "slug": "nhon-nghia-a",
@@ -59,7 +59,7 @@
         "code": "31357",
         "parent_code": "932"
     },
-    "31359": {
+     {
         "name": "Rạch Gòi",
         "type": "thi-tran",
         "slug": "rach-goi",
@@ -69,7 +69,7 @@
         "code": "31359",
         "parent_code": "932"
     },
-    "31360": {
+     {
         "name": "Thạnh Xuân",
         "type": "xa",
         "slug": "thanh-xuan",
@@ -79,7 +79,7 @@
         "code": "31360",
         "parent_code": "932"
     },
-    "31362": {
+     {
         "name": "Cái Tắc",
         "type": "thi-tran",
         "slug": "cai-tac",
@@ -89,7 +89,7 @@
         "code": "31362",
         "parent_code": "932"
     },
-    "31363": {
+     {
         "name": "Tân Phú Thạnh",
         "type": "xa",
         "slug": "tan-phu-thanh",
@@ -99,4 +99,4 @@
         "code": "31363",
         "parent_code": "932"
     }
-}
+]}

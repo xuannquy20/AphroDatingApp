@@ -1,5 +1,5 @@
 {
-    "03979": {
+    "xa":[ {
         "name": "Mộc Châu",
         "type": "thi-tran",
         "slug": "moc-chau",
@@ -9,7 +9,7 @@
         "code": "03979",
         "parent_code": "123"
     },
-    "03982": {
+     {
         "name": "NT Mộc Châu",
         "type": "thi-tran",
         "slug": "nt-moc-chau",
@@ -19,7 +19,7 @@
         "code": "03982",
         "parent_code": "123"
     },
-    "03985": {
+     {
         "name": "Chiềng Sơn",
         "type": "xa",
         "slug": "chieng-son",
@@ -29,7 +29,7 @@
         "code": "03985",
         "parent_code": "123"
     },
-    "03988": {
+     {
         "name": "Tân Hợp",
         "type": "xa",
         "slug": "tan-hop",
@@ -39,7 +39,7 @@
         "code": "03988",
         "parent_code": "123"
     },
-    "03991": {
+     {
         "name": "Qui Hướng",
         "type": "xa",
         "slug": "qui-huong",
@@ -49,7 +49,7 @@
         "code": "03991",
         "parent_code": "123"
     },
-    "03997": {
+     {
         "name": "Tân Lập",
         "type": "xa",
         "slug": "tan-lap",
@@ -59,7 +59,7 @@
         "code": "03997",
         "parent_code": "123"
     },
-    "04000": {
+     {
         "name": "Nà Mường",
         "type": "xa",
         "slug": "na-muong",
@@ -69,7 +69,7 @@
         "code": "04000",
         "parent_code": "123"
     },
-    "04003": {
+     {
         "name": "Tà Lai",
         "type": "xa",
         "slug": "ta-lai",
@@ -79,7 +79,7 @@
         "code": "04003",
         "parent_code": "123"
     },
-    "04012": {
+     {
         "name": "Chiềng Hắc",
         "type": "xa",
         "slug": "chieng-hac",
@@ -89,7 +89,7 @@
         "code": "04012",
         "parent_code": "123"
     },
-    "04015": {
+     {
         "name": "Hua Păng",
         "type": "xa",
         "slug": "hua-pang",
@@ -99,7 +99,7 @@
         "code": "04015",
         "parent_code": "123"
     },
-    "04024": {
+     {
         "name": "Chiềng Khừa",
         "type": "xa",
         "slug": "chieng-khua",
@@ -109,7 +109,7 @@
         "code": "04024",
         "parent_code": "123"
     },
-    "04027": {
+     {
         "name": "Mường Sang",
         "type": "xa",
         "slug": "muong-sang",
@@ -119,7 +119,7 @@
         "code": "04027",
         "parent_code": "123"
     },
-    "04030": {
+     {
         "name": "Đông Sang",
         "type": "xa",
         "slug": "dong-sang",
@@ -129,7 +129,7 @@
         "code": "04030",
         "parent_code": "123"
     },
-    "04033": {
+     {
         "name": "Phiêng Luông",
         "type": "xa",
         "slug": "phieng-luong",
@@ -139,7 +139,7 @@
         "code": "04033",
         "parent_code": "123"
     },
-    "04045": {
+     {
         "name": "Lóng Sập",
         "type": "xa",
         "slug": "long-sap",
@@ -149,4 +149,4 @@
         "code": "04045",
         "parent_code": "123"
     }
-}
+]}

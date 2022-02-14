@@ -1,5 +1,5 @@
 {
-    "25894": {
+    "xa":[ {
         "name": "Tân Định",
         "type": "xa",
         "slug": "tan-dinh",
@@ -9,7 +9,7 @@
         "code": "25894",
         "parent_code": "726"
     },
-    "25897": {
+     {
         "name": "Bình Mỹ",
         "type": "xa",
         "slug": "binh-my",
@@ -19,7 +19,7 @@
         "code": "25897",
         "parent_code": "726"
     },
-    "25900": {
+     {
         "name": "Tân Bình",
         "type": "thi-tran",
         "slug": "tan-binh",
@@ -29,7 +29,7 @@
         "code": "25900",
         "parent_code": "726"
     },
-    "25903": {
+     {
         "name": "Tân Lập",
         "type": "xa",
         "slug": "tan-lap",
@@ -39,7 +39,7 @@
         "code": "25903",
         "parent_code": "726"
     },
-    "25906": {
+     {
         "name": "Tân Thành",
         "type": "thi-tran",
         "slug": "tan-thanh",
@@ -49,7 +49,7 @@
         "code": "25906",
         "parent_code": "726"
     },
-    "25907": {
+     {
         "name": "Đất Cuốc",
         "type": "xa",
         "slug": "dat-cuoc",
@@ -59,7 +59,7 @@
         "code": "25907",
         "parent_code": "726"
     },
-    "25908": {
+     {
         "name": "Hiếu Liêm",
         "type": "xa",
         "slug": "hieu-liem",
@@ -69,7 +69,7 @@
         "code": "25908",
         "parent_code": "726"
     },
-    "25909": {
+     {
         "name": "Lạc An",
         "type": "xa",
         "slug": "lac-an",
@@ -79,7 +79,7 @@
         "code": "25909",
         "parent_code": "726"
     },
-    "25918": {
+     {
         "name": "Tân Mỹ",
         "type": "xa",
         "slug": "tan-my",
@@ -89,7 +89,7 @@
         "code": "25918",
         "parent_code": "726"
     },
-    "25927": {
+     {
         "name": "Thường Tân",
         "type": "xa",
         "slug": "thuong-tan",
@@ -99,4 +99,4 @@
         "code": "25927",
         "parent_code": "726"
     }
-}
+]}

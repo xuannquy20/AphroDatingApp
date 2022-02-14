@@ -1,5 +1,5 @@
 {
-    "20467": {
+    "xa":[ {
         "name": "P Rao",
         "type": "thi-tran",
         "slug": "p-rao",
@@ -9,7 +9,7 @@
         "code": "20467",
         "parent_code": "505"
     },
-    "20470": {
+     {
         "name": "Tà Lu",
         "type": "xa",
         "slug": "ta-lu",
@@ -19,7 +19,7 @@
         "code": "20470",
         "parent_code": "505"
     },
-    "20473": {
+     {
         "name": "Sông Kôn",
         "type": "xa",
         "slug": "song-kon",
@@ -29,7 +29,7 @@
         "code": "20473",
         "parent_code": "505"
     },
-    "20476": {
+     {
         "name": "Jơ Ngây",
         "type": "xa",
         "slug": "jo-ngay",
@@ -39,7 +39,7 @@
         "code": "20476",
         "parent_code": "505"
     },
-    "20479": {
+     {
         "name": "A Ting",
         "type": "xa",
         "slug": "a-ting",
@@ -49,7 +49,7 @@
         "code": "20479",
         "parent_code": "505"
     },
-    "20482": {
+     {
         "name": "Tư",
         "type": "xa",
         "slug": "tu",
@@ -59,7 +59,7 @@
         "code": "20482",
         "parent_code": "505"
     },
-    "20485": {
+     {
         "name": "Ba",
         "type": "xa",
         "slug": "ba",
@@ -69,7 +69,7 @@
         "code": "20485",
         "parent_code": "505"
     },
-    "20488": {
+     {
         "name": "A Rooi",
         "type": "xa",
         "slug": "a-rooi",
@@ -79,7 +79,7 @@
         "code": "20488",
         "parent_code": "505"
     },
-    "20491": {
+     {
         "name": "Za Hung",
         "type": "xa",
         "slug": "za-hung",
@@ -89,7 +89,7 @@
         "code": "20491",
         "parent_code": "505"
     },
-    "20494": {
+     {
         "name": "Mà Cooi",
         "type": "xa",
         "slug": "ma-cooi",
@@ -99,7 +99,7 @@
         "code": "20494",
         "parent_code": "505"
     },
-    "20497": {
+     {
         "name": "Ka Dăng",
         "type": "xa",
         "slug": "ka-dang",
@@ -109,4 +109,4 @@
         "code": "20497",
         "parent_code": "505"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "31615": {
+    "xa":[ {
         "name": "Cù Lao Dung",
         "type": "thi-tran",
         "slug": "cu-lao-dung",
@@ -9,7 +9,7 @@
         "code": "31615",
         "parent_code": "945"
     },
-    "31618": {
+     {
         "name": "An Thạnh 1",
         "type": "xa",
         "slug": "an-thanh-1",
@@ -19,7 +19,7 @@
         "code": "31618",
         "parent_code": "945"
     },
-    "31621": {
+     {
         "name": "An Thạnh Tây",
         "type": "xa",
         "slug": "an-thanh-tay",
@@ -29,7 +29,7 @@
         "code": "31621",
         "parent_code": "945"
     },
-    "31624": {
+     {
         "name": "An Thạnh Đông",
         "type": "xa",
         "slug": "an-thanh-dong",
@@ -39,7 +39,7 @@
         "code": "31624",
         "parent_code": "945"
     },
-    "31627": {
+     {
         "name": "Đại Ân 1",
         "type": "xa",
         "slug": "dai-an-1",
@@ -49,7 +49,7 @@
         "code": "31627",
         "parent_code": "945"
     },
-    "31630": {
+     {
         "name": "An Thạnh 2",
         "type": "xa",
         "slug": "an-thanh-2",
@@ -59,7 +59,7 @@
         "code": "31630",
         "parent_code": "945"
     },
-    "31633": {
+     {
         "name": "An Thạnh 3",
         "type": "xa",
         "slug": "an-thanh-3",
@@ -69,7 +69,7 @@
         "code": "31633",
         "parent_code": "945"
     },
-    "31636": {
+     {
         "name": "An Thạnh Nam",
         "type": "xa",
         "slug": "an-thanh-nam",
@@ -79,4 +79,4 @@
         "code": "31636",
         "parent_code": "945"
     }
-}
+]}

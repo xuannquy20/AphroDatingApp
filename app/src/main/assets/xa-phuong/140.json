@@ -1,5 +1,5 @@
 {
-    "04621": {
+    "xa":[ {
         "name": "NT Liên Sơn",
         "type": "thi-tran",
         "slug": "nt-lien-son",
@@ -9,7 +9,7 @@
         "code": "04621",
         "parent_code": "140"
     },
-    "04627": {
+     {
         "name": "NT Trần Phú",
         "type": "thi-tran",
         "slug": "nt-tran-phu",
@@ -19,7 +19,7 @@
         "code": "04627",
         "parent_code": "140"
     },
-    "04630": {
+     {
         "name": "Tú Lệ",
         "type": "xa",
         "slug": "tu-le",
@@ -29,7 +29,7 @@
         "code": "04630",
         "parent_code": "140"
     },
-    "04633": {
+     {
         "name": "Nậm Búng",
         "type": "xa",
         "slug": "nam-bung",
@@ -39,7 +39,7 @@
         "code": "04633",
         "parent_code": "140"
     },
-    "04636": {
+     {
         "name": "Gia Hội",
         "type": "xa",
         "slug": "gia-hoi",
@@ -49,7 +49,7 @@
         "code": "04636",
         "parent_code": "140"
     },
-    "04639": {
+     {
         "name": "Sùng Đô",
         "type": "xa",
         "slug": "sung-do",
@@ -59,7 +59,7 @@
         "code": "04639",
         "parent_code": "140"
     },
-    "04642": {
+     {
         "name": "Nậm Mười",
         "type": "xa",
         "slug": "nam-muoi",
@@ -69,7 +69,7 @@
         "code": "04642",
         "parent_code": "140"
     },
-    "04645": {
+     {
         "name": "An Lương",
         "type": "xa",
         "slug": "an-luong",
@@ -79,7 +79,7 @@
         "code": "04645",
         "parent_code": "140"
     },
-    "04648": {
+     {
         "name": "Nậm Lành",
         "type": "xa",
         "slug": "nam-lanh",
@@ -89,7 +89,7 @@
         "code": "04648",
         "parent_code": "140"
     },
-    "04651": {
+     {
         "name": "Sơn Lương",
         "type": "xa",
         "slug": "son-luong",
@@ -99,7 +99,7 @@
         "code": "04651",
         "parent_code": "140"
     },
-    "04654": {
+     {
         "name": "Suối Quyền",
         "type": "xa",
         "slug": "suoi-quyen",
@@ -109,7 +109,7 @@
         "code": "04654",
         "parent_code": "140"
     },
-    "04657": {
+     {
         "name": "Suối Giàng",
         "type": "xa",
         "slug": "suoi-giang",
@@ -119,7 +119,7 @@
         "code": "04657",
         "parent_code": "140"
     },
-    "04666": {
+     {
         "name": "Nghĩa Sơn",
         "type": "xa",
         "slug": "nghia-son",
@@ -129,7 +129,7 @@
         "code": "04666",
         "parent_code": "140"
     },
-    "04669": {
+     {
         "name": "Suối Bu",
         "type": "xa",
         "slug": "suoi-bu",
@@ -139,7 +139,7 @@
         "code": "04669",
         "parent_code": "140"
     },
-    "04672": {
+     {
         "name": "Sơn Thịnh",
         "type": "thi-tran",
         "slug": "son-thinh",
@@ -149,7 +149,7 @@
         "code": "04672",
         "parent_code": "140"
     },
-    "04687": {
+     {
         "name": "Đại Lịch",
         "type": "xa",
         "slug": "dai-lich",
@@ -159,7 +159,7 @@
         "code": "04687",
         "parent_code": "140"
     },
-    "04690": {
+     {
         "name": "Đồng Khê",
         "type": "xa",
         "slug": "dong-khe",
@@ -169,7 +169,7 @@
         "code": "04690",
         "parent_code": "140"
     },
-    "04693": {
+     {
         "name": "Cát Thịnh",
         "type": "xa",
         "slug": "cat-thinh",
@@ -179,7 +179,7 @@
         "code": "04693",
         "parent_code": "140"
     },
-    "04696": {
+     {
         "name": "Tân Thịnh",
         "type": "xa",
         "slug": "tan-thinh",
@@ -189,7 +189,7 @@
         "code": "04696",
         "parent_code": "140"
     },
-    "04699": {
+     {
         "name": "Chấn Thịnh",
         "type": "xa",
         "slug": "chan-thinh",
@@ -199,7 +199,7 @@
         "code": "04699",
         "parent_code": "140"
     },
-    "04702": {
+     {
         "name": "Bình Thuận",
         "type": "xa",
         "slug": "binh-thuan",
@@ -209,7 +209,7 @@
         "code": "04702",
         "parent_code": "140"
     },
-    "04705": {
+     {
         "name": "Thượng Bằng La",
         "type": "xa",
         "slug": "thuong-bang-la",
@@ -219,7 +219,7 @@
         "code": "04705",
         "parent_code": "140"
     },
-    "04708": {
+     {
         "name": "Minh An",
         "type": "xa",
         "slug": "minh-an",
@@ -229,7 +229,7 @@
         "code": "04708",
         "parent_code": "140"
     },
-    "04711": {
+     {
         "name": "Nghĩa Tâm",
         "type": "xa",
         "slug": "nghia-tam",
@@ -239,4 +239,4 @@
         "code": "04711",
         "parent_code": "140"
     }
-}
+]}

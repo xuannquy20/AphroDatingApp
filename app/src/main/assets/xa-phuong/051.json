@@ -1,5 +1,5 @@
 {
-    "01654": {
+    "xa":[ {
         "name": "Nước Hai",
         "type": "thi-tran",
         "slug": "nuoc-hai",
@@ -9,7 +9,7 @@
         "code": "01654",
         "parent_code": "051"
     },
-    "01657": {
+     {
         "name": "Dân Chủ",
         "type": "xa",
         "slug": "dan-chu",
@@ -19,7 +19,7 @@
         "code": "01657",
         "parent_code": "051"
     },
-    "01660": {
+     {
         "name": "Nam Tuấn",
         "type": "xa",
         "slug": "nam-tuan",
@@ -29,7 +29,7 @@
         "code": "01660",
         "parent_code": "051"
     },
-    "01666": {
+     {
         "name": "Đại Tiến",
         "type": "xa",
         "slug": "dai-tien",
@@ -39,7 +39,7 @@
         "code": "01666",
         "parent_code": "051"
     },
-    "01669": {
+     {
         "name": "Đức Long",
         "type": "xa",
         "slug": "duc-long",
@@ -49,7 +49,7 @@
         "code": "01669",
         "parent_code": "051"
     },
-    "01672": {
+     {
         "name": "Ngũ Lão",
         "type": "xa",
         "slug": "ngu-lao",
@@ -59,7 +59,7 @@
         "code": "01672",
         "parent_code": "051"
     },
-    "01675": {
+     {
         "name": "Trương Lương",
         "type": "xa",
         "slug": "truong-luong",
@@ -69,7 +69,7 @@
         "code": "01675",
         "parent_code": "051"
     },
-    "01687": {
+     {
         "name": "Hồng Việt",
         "type": "xa",
         "slug": "hong-viet",
@@ -79,7 +79,7 @@
         "code": "01687",
         "parent_code": "051"
     },
-    "01696": {
+     {
         "name": "Hoàng Tung",
         "type": "xa",
         "slug": "hoang-tung",
@@ -89,7 +89,7 @@
         "code": "01696",
         "parent_code": "051"
     },
-    "01699": {
+     {
         "name": "Nguyễn Huệ",
         "type": "xa",
         "slug": "nguyen-hue",
@@ -99,7 +99,7 @@
         "code": "01699",
         "parent_code": "051"
     },
-    "01702": {
+     {
         "name": "Quang Trung",
         "type": "xa",
         "slug": "quang-trung",
@@ -109,7 +109,7 @@
         "code": "01702",
         "parent_code": "051"
     },
-    "01708": {
+     {
         "name": "Bạch Đằng",
         "type": "xa",
         "slug": "bach-dang",
@@ -119,7 +119,7 @@
         "code": "01708",
         "parent_code": "051"
     },
-    "01711": {
+     {
         "name": "Bình Dương",
         "type": "xa",
         "slug": "binh-duong",
@@ -129,7 +129,7 @@
         "code": "01711",
         "parent_code": "051"
     },
-    "01714": {
+     {
         "name": "Lê Chung",
         "type": "xa",
         "slug": "le-chung",
@@ -139,7 +139,7 @@
         "code": "01714",
         "parent_code": "051"
     },
-    "01723": {
+     {
         "name": "Hồng Nam",
         "type": "xa",
         "slug": "hong-nam",
@@ -149,4 +149,5 @@
         "code": "01723",
         "parent_code": "051"
     }
+]
 }

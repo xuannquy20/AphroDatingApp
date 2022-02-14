@@ -1,5 +1,5 @@
 {
-    "15397": {
+    "xa":[ {
         "name": "Thống Nhất",
         "type": "thi-tran",
         "slug": "thong-nhat",
@@ -9,7 +9,7 @@
         "code": "15397",
         "parent_code": "394"
     },
-    "15403": {
+     {
         "name": "Yên Lâm",
         "type": "xa",
         "slug": "yen-lam",
@@ -19,7 +19,7 @@
         "code": "15403",
         "parent_code": "394"
     },
-    "15406": {
+     {
         "name": "Yên Tâm",
         "type": "xa",
         "slug": "yen-tam",
@@ -29,7 +29,7 @@
         "code": "15406",
         "parent_code": "394"
     },
-    "15409": {
+     {
         "name": "Yên Phú",
         "type": "xa",
         "slug": "yen-phu",
@@ -39,7 +39,7 @@
         "code": "15409",
         "parent_code": "394"
     },
-    "15412": {
+     {
         "name": "Quí Lộc",
         "type": "xa",
         "slug": "qui-loc",
@@ -49,7 +49,7 @@
         "code": "15412",
         "parent_code": "394"
     },
-    "15415": {
+     {
         "name": "Yên Thọ",
         "type": "xa",
         "slug": "yen-tho",
@@ -59,7 +59,7 @@
         "code": "15415",
         "parent_code": "394"
     },
-    "15418": {
+     {
         "name": "Yên Trung",
         "type": "xa",
         "slug": "yen-trung",
@@ -69,7 +69,7 @@
         "code": "15418",
         "parent_code": "394"
     },
-    "15421": {
+     {
         "name": "Yên Trường",
         "type": "xa",
         "slug": "yen-truong",
@@ -79,7 +79,7 @@
         "code": "15421",
         "parent_code": "394"
     },
-    "15427": {
+     {
         "name": "Yên Phong",
         "type": "xa",
         "slug": "yen-phong",
@@ -89,7 +89,7 @@
         "code": "15427",
         "parent_code": "394"
     },
-    "15430": {
+     {
         "name": "Yên Thái",
         "type": "xa",
         "slug": "yen-thai",
@@ -99,7 +99,7 @@
         "code": "15430",
         "parent_code": "394"
     },
-    "15433": {
+     {
         "name": "Yên Hùng",
         "type": "xa",
         "slug": "yen-hung",
@@ -109,7 +109,7 @@
         "code": "15433",
         "parent_code": "394"
     },
-    "15436": {
+     {
         "name": "Yên Thịnh",
         "type": "xa",
         "slug": "yen-thinh",
@@ -119,7 +119,7 @@
         "code": "15436",
         "parent_code": "394"
     },
-    "15439": {
+     {
         "name": "Yên Ninh",
         "type": "xa",
         "slug": "yen-ninh",
@@ -129,7 +129,7 @@
         "code": "15439",
         "parent_code": "394"
     },
-    "15442": {
+     {
         "name": "Yên Lạc",
         "type": "xa",
         "slug": "yen-lac",
@@ -139,7 +139,7 @@
         "code": "15442",
         "parent_code": "394"
     },
-    "15445": {
+     {
         "name": "Định Tăng",
         "type": "xa",
         "slug": "dinh-tang",
@@ -149,7 +149,7 @@
         "code": "15445",
         "parent_code": "394"
     },
-    "15448": {
+     {
         "name": "Định Hòa",
         "type": "xa",
         "slug": "dinh-hoa",
@@ -159,7 +159,7 @@
         "code": "15448",
         "parent_code": "394"
     },
-    "15451": {
+     {
         "name": "Định Thành",
         "type": "xa",
         "slug": "dinh-thanh",
@@ -169,7 +169,7 @@
         "code": "15451",
         "parent_code": "394"
     },
-    "15454": {
+     {
         "name": "Định Công",
         "type": "xa",
         "slug": "dinh-cong",
@@ -179,7 +179,7 @@
         "code": "15454",
         "parent_code": "394"
     },
-    "15457": {
+     {
         "name": "Định Tân",
         "type": "xa",
         "slug": "dinh-tan",
@@ -189,7 +189,7 @@
         "code": "15457",
         "parent_code": "394"
     },
-    "15460": {
+     {
         "name": "Định Tiến",
         "type": "xa",
         "slug": "dinh-tien",
@@ -199,7 +199,7 @@
         "code": "15460",
         "parent_code": "394"
     },
-    "15463": {
+     {
         "name": "Định Long",
         "type": "xa",
         "slug": "dinh-long",
@@ -209,7 +209,7 @@
         "code": "15463",
         "parent_code": "394"
     },
-    "15466": {
+     {
         "name": "Định Liên",
         "type": "xa",
         "slug": "dinh-lien",
@@ -219,7 +219,7 @@
         "code": "15466",
         "parent_code": "394"
     },
-    "15469": {
+     {
         "name": "Quán Lào",
         "type": "thi-tran",
         "slug": "quan-lao",
@@ -229,7 +229,7 @@
         "code": "15469",
         "parent_code": "394"
     },
-    "15472": {
+     {
         "name": "Định Hưng",
         "type": "xa",
         "slug": "dinh-hung",
@@ -239,7 +239,7 @@
         "code": "15472",
         "parent_code": "394"
     },
-    "15475": {
+     {
         "name": "Định Hải",
         "type": "xa",
         "slug": "dinh-hai",
@@ -249,7 +249,7 @@
         "code": "15475",
         "parent_code": "394"
     },
-    "15478": {
+     {
         "name": "Định Bình",
         "type": "xa",
         "slug": "dinh-binh",
@@ -259,4 +259,4 @@
         "code": "15478",
         "parent_code": "394"
     }
-}
+]}

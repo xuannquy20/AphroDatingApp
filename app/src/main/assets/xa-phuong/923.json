@@ -1,5 +1,5 @@
 {
-    "31207": {
+    "xa":[ {
         "name": "Thốt Nốt",
         "type": "phuong",
         "slug": "thot-not",
@@ -9,7 +9,7 @@
         "code": "31207",
         "parent_code": "923"
     },
-    "31210": {
+     {
         "name": "Thới Thuận",
         "type": "phuong",
         "slug": "thoi-thuan",
@@ -19,7 +19,7 @@
         "code": "31210",
         "parent_code": "923"
     },
-    "31212": {
+     {
         "name": "Thuận An",
         "type": "phuong",
         "slug": "thuan-an",
@@ -29,7 +29,7 @@
         "code": "31212",
         "parent_code": "923"
     },
-    "31213": {
+     {
         "name": "Tân Lộc",
         "type": "phuong",
         "slug": "tan-loc",
@@ -39,7 +39,7 @@
         "code": "31213",
         "parent_code": "923"
     },
-    "31216": {
+     {
         "name": "Trung Nhứt",
         "type": "phuong",
         "slug": "trung-nhut",
@@ -49,7 +49,7 @@
         "code": "31216",
         "parent_code": "923"
     },
-    "31217": {
+     {
         "name": "Thạnh Hoà",
         "type": "phuong",
         "slug": "thanh-hoa",
@@ -59,7 +59,7 @@
         "code": "31217",
         "parent_code": "923"
     },
-    "31219": {
+     {
         "name": "Trung Kiên",
         "type": "phuong",
         "slug": "trung-kien",
@@ -69,7 +69,7 @@
         "code": "31219",
         "parent_code": "923"
     },
-    "31227": {
+     {
         "name": "Tân Hưng",
         "type": "phuong",
         "slug": "tan-hung",
@@ -79,7 +79,7 @@
         "code": "31227",
         "parent_code": "923"
     },
-    "31228": {
+     {
         "name": "Thuận Hưng",
         "type": "phuong",
         "slug": "thuan-hung",
@@ -89,4 +89,4 @@
         "code": "31228",
         "parent_code": "923"
     }
-}
+]}

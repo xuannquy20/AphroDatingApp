@@ -1,5 +1,5 @@
 {
-    "02200": {
+    "xa":[ {
         "name": "Phan Thiết",
         "type": "phuong",
         "slug": "phan-thiet",
@@ -9,7 +9,7 @@
         "code": "02200",
         "parent_code": "070"
     },
-    "02203": {
+     {
         "name": "Minh Xuân",
         "type": "phuong",
         "slug": "minh-xuan",
@@ -19,7 +19,7 @@
         "code": "02203",
         "parent_code": "070"
     },
-    "02206": {
+     {
         "name": "Tân Quang",
         "type": "phuong",
         "slug": "tan-quang",
@@ -29,7 +29,7 @@
         "code": "02206",
         "parent_code": "070"
     },
-    "02209": {
+     {
         "name": "Tràng Đà",
         "type": "xa",
         "slug": "trang-da",
@@ -39,7 +39,7 @@
         "code": "02209",
         "parent_code": "070"
     },
-    "02212": {
+     {
         "name": "Nông Tiến",
         "type": "phuong",
         "slug": "nong-tien",
@@ -49,7 +49,7 @@
         "code": "02212",
         "parent_code": "070"
     },
-    "02215": {
+     {
         "name": "Ỷ La",
         "type": "phuong",
         "slug": "y-la",
@@ -59,7 +59,7 @@
         "code": "02215",
         "parent_code": "070"
     },
-    "02216": {
+     {
         "name": "Tân Hà",
         "type": "phuong",
         "slug": "tan-ha",
@@ -69,7 +69,7 @@
         "code": "02216",
         "parent_code": "070"
     },
-    "02218": {
+     {
         "name": "Hưng Thành",
         "type": "phuong",
         "slug": "hung-thanh",
@@ -79,7 +79,7 @@
         "code": "02218",
         "parent_code": "070"
     },
-    "02497": {
+     {
         "name": "Kim Phú",
         "type": "xa",
         "slug": "kim-phu",
@@ -89,7 +89,7 @@
         "code": "02497",
         "parent_code": "070"
     },
-    "02503": {
+     {
         "name": "An Khang",
         "type": "xa",
         "slug": "an-khang",
@@ -99,7 +99,7 @@
         "code": "02503",
         "parent_code": "070"
     },
-    "02509": {
+     {
         "name": "Mỹ Lâm",
         "type": "phuong",
         "slug": "my-lam",
@@ -109,7 +109,7 @@
         "code": "02509",
         "parent_code": "070"
     },
-    "02512": {
+     {
         "name": "An Tường",
         "type": "phuong",
         "slug": "an-tuong",
@@ -119,7 +119,7 @@
         "code": "02512",
         "parent_code": "070"
     },
-    "02515": {
+     {
         "name": "Lưỡng Vượng",
         "type": "xa",
         "slug": "luong-vuong",
@@ -129,7 +129,7 @@
         "code": "02515",
         "parent_code": "070"
     },
-    "02521": {
+     {
         "name": "Thái Long",
         "type": "xa",
         "slug": "thai-long",
@@ -139,7 +139,7 @@
         "code": "02521",
         "parent_code": "070"
     },
-    "02524": {
+     {
         "name": "Đội Cấn",
         "type": "phuong",
         "slug": "doi-can",
@@ -149,4 +149,4 @@
         "code": "02524",
         "parent_code": "070"
     }
-}
+]}

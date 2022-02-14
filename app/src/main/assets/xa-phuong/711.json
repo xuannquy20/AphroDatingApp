@@ -1,5 +1,5 @@
 {
-    "25681": {
+    "xa":[ {
         "name": "Bến Cầu",
         "type": "thi-tran",
         "slug": "ben-cau",
@@ -9,7 +9,7 @@
         "code": "25681",
         "parent_code": "711"
     },
-    "25684": {
+     {
         "name": "Long Chữ",
         "type": "xa",
         "slug": "long-chu",
@@ -19,7 +19,7 @@
         "code": "25684",
         "parent_code": "711"
     },
-    "25687": {
+     {
         "name": "Long Phước",
         "type": "xa",
         "slug": "long-phuoc",
@@ -29,7 +29,7 @@
         "code": "25687",
         "parent_code": "711"
     },
-    "25690": {
+     {
         "name": "Long Giang",
         "type": "xa",
         "slug": "long-giang",
@@ -39,7 +39,7 @@
         "code": "25690",
         "parent_code": "711"
     },
-    "25693": {
+     {
         "name": "Tiên Thuận",
         "type": "xa",
         "slug": "tien-thuan",
@@ -49,7 +49,7 @@
         "code": "25693",
         "parent_code": "711"
     },
-    "25696": {
+     {
         "name": "Long Khánh",
         "type": "xa",
         "slug": "long-khanh",
@@ -59,7 +59,7 @@
         "code": "25696",
         "parent_code": "711"
     },
-    "25699": {
+     {
         "name": "Lợi Thuận",
         "type": "xa",
         "slug": "loi-thuan",
@@ -69,7 +69,7 @@
         "code": "25699",
         "parent_code": "711"
     },
-    "25702": {
+     {
         "name": "Long Thuận",
         "type": "xa",
         "slug": "long-thuan",
@@ -79,7 +79,7 @@
         "code": "25702",
         "parent_code": "711"
     },
-    "25705": {
+     {
         "name": "An Thạnh",
         "type": "xa",
         "slug": "an-thanh",
@@ -89,4 +89,4 @@
         "code": "25705",
         "parent_code": "711"
     }
-}
+]}

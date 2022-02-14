@@ -1,5 +1,5 @@
 {
-    "04894": {
+    "xa":[ {
         "name": "Kỳ Sơn",
         "type": "thi-tran",
         "slug": "ky-son",
@@ -9,7 +9,7 @@
         "code": "04894",
         "parent_code": "151"
     },
-    "04897": {
+     {
         "name": "Hợp Thịnh",
         "type": "xa",
         "slug": "hop-thinh",
@@ -19,7 +19,7 @@
         "code": "04897",
         "parent_code": "151"
     },
-    "04900": {
+     {
         "name": "Phú Minh",
         "type": "xa",
         "slug": "phu-minh",
@@ -29,7 +29,7 @@
         "code": "04900",
         "parent_code": "151"
     },
-    "04903": {
+     {
         "name": "Hợp Thành",
         "type": "xa",
         "slug": "hop-thanh",
@@ -39,7 +39,7 @@
         "code": "04903",
         "parent_code": "151"
     },
-    "04906": {
+     {
         "name": "Phúc Tiến",
         "type": "xa",
         "slug": "phuc-tien",
@@ -49,7 +49,7 @@
         "code": "04906",
         "parent_code": "151"
     },
-    "04909": {
+     {
         "name": "Dân Hòa",
         "type": "xa",
         "slug": "dan-hoa",
@@ -59,7 +59,7 @@
         "code": "04909",
         "parent_code": "151"
     },
-    "04912": {
+     {
         "name": "Mông Hóa",
         "type": "xa",
         "slug": "mong-hoa",
@@ -69,7 +69,7 @@
         "code": "04912",
         "parent_code": "151"
     },
-    "04915": {
+     {
         "name": "Dân Hạ",
         "type": "xa",
         "slug": "dan-ha",
@@ -79,7 +79,7 @@
         "code": "04915",
         "parent_code": "151"
     },
-    "04921": {
+     {
         "name": "Độc Lập",
         "type": "xa",
         "slug": "doc-lap",
@@ -89,7 +89,7 @@
         "code": "04921",
         "parent_code": "151"
     },
-    "04933": {
+     {
         "name": "Yên Quang",
         "type": "xa",
         "slug": "yen-quang",
@@ -99,4 +99,4 @@
         "code": "04933",
         "parent_code": "151"
     }
-}
+]}

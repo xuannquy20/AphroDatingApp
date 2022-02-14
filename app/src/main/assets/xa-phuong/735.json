@@ -1,5 +1,5 @@
 {
-    "26170": {
+    "xa":[ {
         "name": "Vĩnh An",
         "type": "thi-tran",
         "slug": "vinh-an",
@@ -9,7 +9,7 @@
         "code": "26170",
         "parent_code": "735"
     },
-    "26173": {
+     {
         "name": "Phú Lý",
         "type": "xa",
         "slug": "phu-ly",
@@ -19,7 +19,7 @@
         "code": "26173",
         "parent_code": "735"
     },
-    "26176": {
+     {
         "name": "Trị An",
         "type": "xa",
         "slug": "tri-an",
@@ -29,7 +29,7 @@
         "code": "26176",
         "parent_code": "735"
     },
-    "26179": {
+     {
         "name": "Tân An",
         "type": "xa",
         "slug": "tan-an",
@@ -39,7 +39,7 @@
         "code": "26179",
         "parent_code": "735"
     },
-    "26182": {
+     {
         "name": "Vĩnh Tân",
         "type": "xa",
         "slug": "vinh-tan",
@@ -49,7 +49,7 @@
         "code": "26182",
         "parent_code": "735"
     },
-    "26185": {
+     {
         "name": "Bình Lợi",
         "type": "xa",
         "slug": "binh-loi",
@@ -59,7 +59,7 @@
         "code": "26185",
         "parent_code": "735"
     },
-    "26188": {
+     {
         "name": "Thạnh Phú",
         "type": "xa",
         "slug": "thanh-phu",
@@ -69,7 +69,7 @@
         "code": "26188",
         "parent_code": "735"
     },
-    "26191": {
+     {
         "name": "Thiện Tân",
         "type": "xa",
         "slug": "thien-tan",
@@ -79,7 +79,7 @@
         "code": "26191",
         "parent_code": "735"
     },
-    "26194": {
+     {
         "name": "Tân Bình",
         "type": "xa",
         "slug": "tan-binh",
@@ -89,7 +89,7 @@
         "code": "26194",
         "parent_code": "735"
     },
-    "26197": {
+     {
         "name": "Bình Hòa",
         "type": "xa",
         "slug": "binh-hoa",
@@ -99,7 +99,7 @@
         "code": "26197",
         "parent_code": "735"
     },
-    "26200": {
+     {
         "name": "Mã Đà",
         "type": "xa",
         "slug": "ma-da",
@@ -109,7 +109,7 @@
         "code": "26200",
         "parent_code": "735"
     },
-    "26203": {
+     {
         "name": "Hiếu Liêm",
         "type": "xa",
         "slug": "hieu-liem",
@@ -119,4 +119,4 @@
         "code": "26203",
         "parent_code": "735"
     }
-}
+]}

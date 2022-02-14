@@ -1,5 +1,5 @@
 {
-    "19900": {
+    "xa":[ {
         "name": "Thuận An",
         "type": "thi-tran",
         "slug": "thuan-an",
@@ -9,7 +9,7 @@
         "code": "19900",
         "parent_code": "478"
     },
-    "19903": {
+     {
         "name": "Phú Thuận",
         "type": "xa",
         "slug": "phu-thuan",
@@ -19,7 +19,7 @@
         "code": "19903",
         "parent_code": "478"
     },
-    "19906": {
+     {
         "name": "Phú Dương",
         "type": "xa",
         "slug": "phu-duong",
@@ -29,7 +29,7 @@
         "code": "19906",
         "parent_code": "478"
     },
-    "19909": {
+     {
         "name": "Phú Mậu",
         "type": "xa",
         "slug": "phu-mau",
@@ -39,7 +39,7 @@
         "code": "19909",
         "parent_code": "478"
     },
-    "19912": {
+     {
         "name": "Phú An",
         "type": "xa",
         "slug": "phu-an",
@@ -49,7 +49,7 @@
         "code": "19912",
         "parent_code": "478"
     },
-    "19915": {
+     {
         "name": "Phú Hải",
         "type": "xa",
         "slug": "phu-hai",
@@ -59,7 +59,7 @@
         "code": "19915",
         "parent_code": "478"
     },
-    "19918": {
+     {
         "name": "Phú Xuân",
         "type": "xa",
         "slug": "phu-xuan",
@@ -69,7 +69,7 @@
         "code": "19918",
         "parent_code": "478"
     },
-    "19921": {
+     {
         "name": "Phú Diên",
         "type": "xa",
         "slug": "phu-dien",
@@ -79,7 +79,7 @@
         "code": "19921",
         "parent_code": "478"
     },
-    "19924": {
+     {
         "name": "Phú Thanh",
         "type": "xa",
         "slug": "phu-thanh",
@@ -89,7 +89,7 @@
         "code": "19924",
         "parent_code": "478"
     },
-    "19927": {
+     {
         "name": "Phú Mỹ",
         "type": "xa",
         "slug": "phu-my",
@@ -99,7 +99,7 @@
         "code": "19927",
         "parent_code": "478"
     },
-    "19930": {
+     {
         "name": "Phú Thượng",
         "type": "xa",
         "slug": "phu-thuong",
@@ -109,7 +109,7 @@
         "code": "19930",
         "parent_code": "478"
     },
-    "19933": {
+     {
         "name": "Phú Hồ",
         "type": "xa",
         "slug": "phu-ho",
@@ -119,7 +119,7 @@
         "code": "19933",
         "parent_code": "478"
     },
-    "19936": {
+     {
         "name": "Vinh Xuân",
         "type": "xa",
         "slug": "vinh-xuan",
@@ -129,7 +129,7 @@
         "code": "19936",
         "parent_code": "478"
     },
-    "19939": {
+     {
         "name": "Phú Lương",
         "type": "xa",
         "slug": "phu-luong",
@@ -139,7 +139,7 @@
         "code": "19939",
         "parent_code": "478"
     },
-    "19942": {
+     {
         "name": "Phú Đa",
         "type": "thi-tran",
         "slug": "phu-da",
@@ -149,7 +149,7 @@
         "code": "19942",
         "parent_code": "478"
     },
-    "19945": {
+     {
         "name": "Vinh Thanh",
         "type": "xa",
         "slug": "vinh-thanh",
@@ -159,7 +159,7 @@
         "code": "19945",
         "parent_code": "478"
     },
-    "19948": {
+     {
         "name": "Vinh An",
         "type": "xa",
         "slug": "vinh-an",
@@ -169,7 +169,7 @@
         "code": "19948",
         "parent_code": "478"
     },
-    "19954": {
+     {
         "name": "Phú Gia",
         "type": "xa",
         "slug": "phu-gia",
@@ -179,7 +179,7 @@
         "code": "19954",
         "parent_code": "478"
     },
-    "19957": {
+     {
         "name": "Vinh Hà",
         "type": "xa",
         "slug": "vinh-ha",
@@ -189,4 +189,4 @@
         "code": "19957",
         "parent_code": "478"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "23638": {
+    "xa":[ {
         "name": "KBang",
         "type": "thi-tran",
         "slug": "kbang",
@@ -9,7 +9,7 @@
         "code": "23638",
         "parent_code": "625"
     },
-    "23641": {
+     {
         "name": "Kon Pne",
         "type": "xa",
         "slug": "kon-pne",
@@ -19,7 +19,7 @@
         "code": "23641",
         "parent_code": "625"
     },
-    "23644": {
+     {
         "name": "Đăk Roong",
         "type": "xa",
         "slug": "dak-roong",
@@ -29,7 +29,7 @@
         "code": "23644",
         "parent_code": "625"
     },
-    "23647": {
+     {
         "name": "Sơn Lang",
         "type": "xa",
         "slug": "son-lang",
@@ -39,7 +39,7 @@
         "code": "23647",
         "parent_code": "625"
     },
-    "23650": {
+     {
         "name": "KRong",
         "type": "xa",
         "slug": "krong",
@@ -49,7 +49,7 @@
         "code": "23650",
         "parent_code": "625"
     },
-    "23653": {
+     {
         "name": "Sơ Pai",
         "type": "xa",
         "slug": "so-pai",
@@ -59,7 +59,7 @@
         "code": "23653",
         "parent_code": "625"
     },
-    "23656": {
+     {
         "name": "Lơ Ku",
         "type": "xa",
         "slug": "lo-ku",
@@ -69,7 +69,7 @@
         "code": "23656",
         "parent_code": "625"
     },
-    "23659": {
+     {
         "name": "Đông",
         "type": "xa",
         "slug": "dong",
@@ -79,7 +79,7 @@
         "code": "23659",
         "parent_code": "625"
     },
-    "23660": {
+     {
         "name": "Đak SMar",
         "type": "xa",
         "slug": "dak-smar",
@@ -89,7 +89,7 @@
         "code": "23660",
         "parent_code": "625"
     },
-    "23662": {
+     {
         "name": "Nghĩa An",
         "type": "xa",
         "slug": "nghia-an",
@@ -99,7 +99,7 @@
         "code": "23662",
         "parent_code": "625"
     },
-    "23665": {
+     {
         "name": "Tơ Tung",
         "type": "xa",
         "slug": "to-tung",
@@ -109,7 +109,7 @@
         "code": "23665",
         "parent_code": "625"
     },
-    "23668": {
+     {
         "name": "Kông Lơng Khơng",
         "type": "xa",
         "slug": "kong-long-khong",
@@ -119,7 +119,7 @@
         "code": "23668",
         "parent_code": "625"
     },
-    "23671": {
+     {
         "name": "Kông Pla",
         "type": "xa",
         "slug": "kong-pla",
@@ -129,7 +129,7 @@
         "code": "23671",
         "parent_code": "625"
     },
-    "23674": {
+     {
         "name": "Đăk HLơ",
         "type": "xa",
         "slug": "dak-hlo",
@@ -139,4 +139,4 @@
         "code": "23674",
         "parent_code": "625"
     }
-}
+]}

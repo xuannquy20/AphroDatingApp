@@ -1,5 +1,5 @@
 {
-    "28210": {
+    "xa":[ {
         "name": "Tầm Vu",
         "type": "thi-tran",
         "slug": "tam-vu",
@@ -9,7 +9,7 @@
         "code": "28210",
         "parent_code": "808"
     },
-    "28213": {
+     {
         "name": "Bình Quới",
         "type": "xa",
         "slug": "binh-quoi",
@@ -19,7 +19,7 @@
         "code": "28213",
         "parent_code": "808"
     },
-    "28216": {
+     {
         "name": "Hòa Phú",
         "type": "xa",
         "slug": "hoa-phu",
@@ -29,7 +29,7 @@
         "code": "28216",
         "parent_code": "808"
     },
-    "28219": {
+     {
         "name": "Phú Ngãi Trị",
         "type": "xa",
         "slug": "phu-ngai-tri",
@@ -39,7 +39,7 @@
         "code": "28219",
         "parent_code": "808"
     },
-    "28222": {
+     {
         "name": "Vĩnh Công",
         "type": "xa",
         "slug": "vinh-cong",
@@ -49,7 +49,7 @@
         "code": "28222",
         "parent_code": "808"
     },
-    "28225": {
+     {
         "name": "Thuận Mỹ",
         "type": "xa",
         "slug": "thuan-my",
@@ -59,7 +59,7 @@
         "code": "28225",
         "parent_code": "808"
     },
-    "28228": {
+     {
         "name": "Hiệp Thạnh",
         "type": "xa",
         "slug": "hiep-thanh",
@@ -69,7 +69,7 @@
         "code": "28228",
         "parent_code": "808"
     },
-    "28231": {
+     {
         "name": "Phước Tân Hưng",
         "type": "xa",
         "slug": "phuoc-tan-hung",
@@ -79,7 +79,7 @@
         "code": "28231",
         "parent_code": "808"
     },
-    "28234": {
+     {
         "name": "Thanh Phú Long",
         "type": "xa",
         "slug": "thanh-phu-long",
@@ -89,7 +89,7 @@
         "code": "28234",
         "parent_code": "808"
     },
-    "28237": {
+     {
         "name": "Dương Xuân Hội",
         "type": "xa",
         "slug": "duong-xuan-hoi",
@@ -99,7 +99,7 @@
         "code": "28237",
         "parent_code": "808"
     },
-    "28240": {
+     {
         "name": "An Lục Long",
         "type": "xa",
         "slug": "an-luc-long",
@@ -109,7 +109,7 @@
         "code": "28240",
         "parent_code": "808"
     },
-    "28243": {
+     {
         "name": "Long Trì",
         "type": "xa",
         "slug": "long-tri",
@@ -119,7 +119,7 @@
         "code": "28243",
         "parent_code": "808"
     },
-    "28246": {
+     {
         "name": "Thanh Vĩnh Đông",
         "type": "xa",
         "slug": "thanh-vinh-dong",
@@ -129,4 +129,4 @@
         "code": "28246",
         "parent_code": "808"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "00712": {
+     "xa" : [{
         "name": "Phó Bảng",
         "type": "thi-tran",
         "slug": "pho-bang",
@@ -9,7 +9,7 @@
         "code": "00712",
         "parent_code": "026"
     },
-    "00715": {
+     {
         "name": "Lũng Cú",
         "type": "xa",
         "slug": "lung-cu",
@@ -19,7 +19,7 @@
         "code": "00715",
         "parent_code": "026"
     },
-    "00718": {
+     {
         "name": "Má Lé",
         "type": "xa",
         "slug": "ma-le",
@@ -29,7 +29,7 @@
         "code": "00718",
         "parent_code": "026"
     },
-    "00721": {
+     {
         "name": "Đồng Văn",
         "type": "thi-tran",
         "slug": "dong-van",
@@ -39,7 +39,7 @@
         "code": "00721",
         "parent_code": "026"
     },
-    "00724": {
+     {
         "name": "Lũng Táo",
         "type": "xa",
         "slug": "lung-tao",
@@ -49,7 +49,7 @@
         "code": "00724",
         "parent_code": "026"
     },
-    "00727": {
+     {
         "name": "Phố Là",
         "type": "xa",
         "slug": "pho-la",
@@ -59,7 +59,7 @@
         "code": "00727",
         "parent_code": "026"
     },
-    "00730": {
+     {
         "name": "Thài Phìn Tủng",
         "type": "xa",
         "slug": "thai-phin-tung",
@@ -69,7 +69,7 @@
         "code": "00730",
         "parent_code": "026"
     },
-    "00733": {
+     {
         "name": "Sủng Là",
         "type": "xa",
         "slug": "sung-la",
@@ -79,7 +79,7 @@
         "code": "00733",
         "parent_code": "026"
     },
-    "00736": {
+     {
         "name": "Xà Phìn",
         "type": "xa",
         "slug": "xa-phin",
@@ -89,7 +89,7 @@
         "code": "00736",
         "parent_code": "026"
     },
-    "00739": {
+     {
         "name": "Tả Phìn",
         "type": "xa",
         "slug": "ta-phin",
@@ -99,7 +99,7 @@
         "code": "00739",
         "parent_code": "026"
     },
-    "00742": {
+     {
         "name": "Tả Lủng",
         "type": "xa",
         "slug": "ta-lung",
@@ -109,7 +109,7 @@
         "code": "00742",
         "parent_code": "026"
     },
-    "00745": {
+     {
         "name": "Phố Cáo",
         "type": "xa",
         "slug": "pho-cao",
@@ -119,7 +119,7 @@
         "code": "00745",
         "parent_code": "026"
     },
-    "00748": {
+     {
         "name": "Sính Lủng",
         "type": "xa",
         "slug": "sinh-lung",
@@ -129,7 +129,7 @@
         "code": "00748",
         "parent_code": "026"
     },
-    "00751": {
+     {
         "name": "Sảng Tủng",
         "type": "xa",
         "slug": "sang-tung",
@@ -139,7 +139,7 @@
         "code": "00751",
         "parent_code": "026"
     },
-    "00754": {
+     {
         "name": "Lũng Thầu",
         "type": "xa",
         "slug": "lung-thau",
@@ -149,7 +149,7 @@
         "code": "00754",
         "parent_code": "026"
     },
-    "00757": {
+     {
         "name": "Hố Quáng Phìn",
         "type": "xa",
         "slug": "ho-quang-phin",
@@ -159,7 +159,7 @@
         "code": "00757",
         "parent_code": "026"
     },
-    "00760": {
+     {
         "name": "Vần Chải",
         "type": "xa",
         "slug": "van-chai",
@@ -169,7 +169,7 @@
         "code": "00760",
         "parent_code": "026"
     },
-    "00763": {
+     {
         "name": "Lũng Phìn",
         "type": "xa",
         "slug": "lung-phin",
@@ -179,7 +179,7 @@
         "code": "00763",
         "parent_code": "026"
     },
-    "00766": {
+     {
         "name": "Sủng Trái",
         "type": "xa",
         "slug": "sung-trai",
@@ -189,4 +189,5 @@
         "code": "00766",
         "parent_code": "026"
     }
+]
 }

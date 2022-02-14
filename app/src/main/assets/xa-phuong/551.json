@@ -1,5 +1,5 @@
 {
-    "21994": {
+    "xa":[ {
         "name": "Vân Canh",
         "type": "thi-tran",
         "slug": "van-canh",
@@ -9,7 +9,7 @@
         "code": "21994",
         "parent_code": "551"
     },
-    "21997": {
+     {
         "name": "Canh Liên",
         "type": "xa",
         "slug": "canh-lien",
@@ -19,7 +19,7 @@
         "code": "21997",
         "parent_code": "551"
     },
-    "22000": {
+     {
         "name": "Canh Hiệp",
         "type": "xa",
         "slug": "canh-hiep",
@@ -29,7 +29,7 @@
         "code": "22000",
         "parent_code": "551"
     },
-    "22003": {
+     {
         "name": "Canh Vinh",
         "type": "xa",
         "slug": "canh-vinh",
@@ -39,7 +39,7 @@
         "code": "22003",
         "parent_code": "551"
     },
-    "22006": {
+     {
         "name": "Canh Hiển",
         "type": "xa",
         "slug": "canh-hien",
@@ -49,7 +49,7 @@
         "code": "22006",
         "parent_code": "551"
     },
-    "22009": {
+     {
         "name": "Canh Thuận",
         "type": "xa",
         "slug": "canh-thuan",
@@ -59,7 +59,7 @@
         "code": "22009",
         "parent_code": "551"
     },
-    "22012": {
+     {
         "name": "Canh Hòa",
         "type": "xa",
         "slug": "canh-hoa",
@@ -69,4 +69,4 @@
         "code": "22012",
         "parent_code": "551"
     }
-}
+]}

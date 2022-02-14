@@ -1,5 +1,5 @@
 {
-    "03256": {
+    "xa":[ {
         "name": "Mường Ảng",
         "type": "thi-tran",
         "slug": "muong-ang",
@@ -9,7 +9,7 @@
         "code": "03256",
         "parent_code": "102"
     },
-    "03286": {
+     {
         "name": "Mường Đăng",
         "type": "xa",
         "slug": "muong-dang",
@@ -19,7 +19,7 @@
         "code": "03286",
         "parent_code": "102"
     },
-    "03287": {
+     {
         "name": "Ngối Cáy",
         "type": "xa",
         "slug": "ngoi-cay",
@@ -29,7 +29,7 @@
         "code": "03287",
         "parent_code": "102"
     },
-    "03292": {
+     {
         "name": "Ẳng Tở",
         "type": "xa",
         "slug": "ang-to",
@@ -39,7 +39,7 @@
         "code": "03292",
         "parent_code": "102"
     },
-    "03301": {
+     {
         "name": "Búng Lao",
         "type": "xa",
         "slug": "bung-lao",
@@ -49,7 +49,7 @@
         "code": "03301",
         "parent_code": "102"
     },
-    "03302": {
+     {
         "name": "Xuân Lao",
         "type": "xa",
         "slug": "xuan-lao",
@@ -59,7 +59,7 @@
         "code": "03302",
         "parent_code": "102"
     },
-    "03307": {
+     {
         "name": "Ẳng Nưa",
         "type": "xa",
         "slug": "ang-nua",
@@ -69,7 +69,7 @@
         "code": "03307",
         "parent_code": "102"
     },
-    "03310": {
+     {
         "name": "Ẳng Cang",
         "type": "xa",
         "slug": "ang-cang",
@@ -79,7 +79,7 @@
         "code": "03310",
         "parent_code": "102"
     },
-    "03312": {
+     {
         "name": "Nặm Lịch",
         "type": "xa",
         "slug": "nam-lich",
@@ -89,7 +89,7 @@
         "code": "03312",
         "parent_code": "102"
     },
-    "03313": {
+     {
         "name": "Mường Lạn",
         "type": "xa",
         "slug": "muong-lan",
@@ -99,4 +99,4 @@
         "code": "03313",
         "parent_code": "102"
     }
-}
+]}

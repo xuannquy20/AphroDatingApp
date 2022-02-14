@@ -1,5 +1,5 @@
 {
-    "23500": {
+    "xa":[ {
         "name": "Đắk Hà",
         "type": "thi-tran",
         "slug": "dak-ha",
@@ -9,7 +9,7 @@
         "code": "23500",
         "parent_code": "615"
     },
-    "23503": {
+     {
         "name": "Đắk PXi",
         "type": "xa",
         "slug": "dak-pxi",
@@ -19,7 +19,7 @@
         "code": "23503",
         "parent_code": "615"
     },
-    "23504": {
+     {
         "name": "Đăk Long",
         "type": "xa",
         "slug": "dak-long",
@@ -29,7 +29,7 @@
         "code": "23504",
         "parent_code": "615"
     },
-    "23506": {
+     {
         "name": "Đắk HRing",
         "type": "xa",
         "slug": "dak-hring",
@@ -39,7 +39,7 @@
         "code": "23506",
         "parent_code": "615"
     },
-    "23509": {
+     {
         "name": "Đắk Ui",
         "type": "xa",
         "slug": "dak-ui",
@@ -49,7 +49,7 @@
         "code": "23509",
         "parent_code": "615"
     },
-    "23510": {
+     {
         "name": "Đăk Ngọk",
         "type": "xa",
         "slug": "dak-ngok",
@@ -59,7 +59,7 @@
         "code": "23510",
         "parent_code": "615"
     },
-    "23512": {
+     {
         "name": "Đắk Mar",
         "type": "xa",
         "slug": "dak-mar",
@@ -69,7 +69,7 @@
         "code": "23512",
         "parent_code": "615"
     },
-    "23515": {
+     {
         "name": "Ngok Wang",
         "type": "xa",
         "slug": "ngok-wang",
@@ -79,7 +79,7 @@
         "code": "23515",
         "parent_code": "615"
     },
-    "23518": {
+     {
         "name": "Ngok Réo",
         "type": "xa",
         "slug": "ngok-reo",
@@ -89,7 +89,7 @@
         "code": "23518",
         "parent_code": "615"
     },
-    "23521": {
+     {
         "name": "Hà Mòn",
         "type": "xa",
         "slug": "ha-mon",
@@ -99,7 +99,7 @@
         "code": "23521",
         "parent_code": "615"
     },
-    "23524": {
+     {
         "name": "Đắk La",
         "type": "xa",
         "slug": "dak-la",
@@ -109,4 +109,4 @@
         "code": "23524",
         "parent_code": "615"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "25888": {
+    "xa":[ {
         "name": "Uyên Hưng",
         "type": "phuong",
         "slug": "uyen-hung",
@@ -9,7 +9,7 @@
         "code": "25888",
         "parent_code": "723"
     },
-    "25891": {
+     {
         "name": "Tân Phước Khánh",
         "type": "phuong",
         "slug": "tan-phuoc-khanh",
@@ -19,7 +19,7 @@
         "code": "25891",
         "parent_code": "723"
     },
-    "25912": {
+     {
         "name": "Vĩnh Tân",
         "type": "phuong",
         "slug": "vinh-tan",
@@ -29,7 +29,7 @@
         "code": "25912",
         "parent_code": "723"
     },
-    "25915": {
+     {
         "name": "Hội Nghĩa",
         "type": "phuong",
         "slug": "hoi-nghia",
@@ -39,7 +39,7 @@
         "code": "25915",
         "parent_code": "723"
     },
-    "25920": {
+     {
         "name": "Tân Hiệp",
         "type": "phuong",
         "slug": "tan-hiep",
@@ -49,7 +49,7 @@
         "code": "25920",
         "parent_code": "723"
     },
-    "25921": {
+     {
         "name": "Khánh Bình",
         "type": "phuong",
         "slug": "khanh-binh",
@@ -59,7 +59,7 @@
         "code": "25921",
         "parent_code": "723"
     },
-    "25924": {
+     {
         "name": "Phú Chánh",
         "type": "phuong",
         "slug": "phu-chanh",
@@ -69,7 +69,7 @@
         "code": "25924",
         "parent_code": "723"
     },
-    "25930": {
+     {
         "name": "Bạch Đằng",
         "type": "xa",
         "slug": "bach-dang",
@@ -79,7 +79,7 @@
         "code": "25930",
         "parent_code": "723"
     },
-    "25933": {
+     {
         "name": "Tân Vĩnh Hiệp",
         "type": "phuong",
         "slug": "tan-vinh-hiep",
@@ -89,7 +89,7 @@
         "code": "25933",
         "parent_code": "723"
     },
-    "25936": {
+     {
         "name": "Thạnh Phước",
         "type": "phuong",
         "slug": "thanh-phuoc",
@@ -99,7 +99,7 @@
         "code": "25936",
         "parent_code": "723"
     },
-    "25937": {
+     {
         "name": "Thạnh Hội",
         "type": "xa",
         "slug": "thanh-hoi",
@@ -109,7 +109,7 @@
         "code": "25937",
         "parent_code": "723"
     },
-    "25939": {
+     {
         "name": "Thái Hòa",
         "type": "phuong",
         "slug": "thai-hoa",
@@ -119,4 +119,4 @@
         "code": "25939",
         "parent_code": "723"
     }
-}
+]}

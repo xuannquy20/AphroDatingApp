@@ -1,5 +1,5 @@
 {
-    "24640": {
+    "xa":[ {
         "name": "Ea T'Ling",
         "type": "thi-tran",
         "slug": "ea-t-ling",
@@ -9,7 +9,7 @@
         "code": "24640",
         "parent_code": "662"
     },
-    "24643": {
+     {
         "name": "Đắk Wil",
         "type": "xa",
         "slug": "dak-wil",
@@ -19,7 +19,7 @@
         "code": "24643",
         "parent_code": "662"
     },
-    "24646": {
+     {
         "name": "Ea Pô",
         "type": "xa",
         "slug": "ea-po",
@@ -29,7 +29,7 @@
         "code": "24646",
         "parent_code": "662"
     },
-    "24649": {
+     {
         "name": "Nam Dong",
         "type": "xa",
         "slug": "nam-dong",
@@ -39,7 +39,7 @@
         "code": "24649",
         "parent_code": "662"
     },
-    "24652": {
+     {
         "name": "Đắk DRông",
         "type": "xa",
         "slug": "dak-drong",
@@ -49,7 +49,7 @@
         "code": "24652",
         "parent_code": "662"
     },
-    "24655": {
+     {
         "name": "Tâm Thắng",
         "type": "xa",
         "slug": "tam-thang",
@@ -59,7 +59,7 @@
         "code": "24655",
         "parent_code": "662"
     },
-    "24658": {
+     {
         "name": "Cư Knia",
         "type": "xa",
         "slug": "cu-knia",
@@ -69,7 +69,7 @@
         "code": "24658",
         "parent_code": "662"
     },
-    "24661": {
+     {
         "name": "Trúc Sơn",
         "type": "xa",
         "slug": "truc-son",
@@ -79,4 +79,4 @@
         "code": "24661",
         "parent_code": "662"
     }
-}
+]}

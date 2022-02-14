@@ -1,5 +1,5 @@
 {
-    "22243": {
+    "xa":[ {
         "name": "Hòa Thành",
         "type": "xa",
         "slug": "hoa-thanh",
@@ -9,7 +9,7 @@
         "code": "22243",
         "parent_code": "564"
     },
-    "22246": {
+     {
         "name": "Hòa Hiệp Bắc",
         "type": "phuong",
         "slug": "hoa-hiep-bac",
@@ -19,7 +19,7 @@
         "code": "22246",
         "parent_code": "564"
     },
-    "22258": {
+     {
         "name": "Hoà Vinh",
         "type": "phuong",
         "slug": "hoa-vinh",
@@ -29,7 +29,7 @@
         "code": "22258",
         "parent_code": "564"
     },
-    "22261": {
+     {
         "name": "Hoà Hiệp Trung",
         "type": "phuong",
         "slug": "hoa-hiep-trung",
@@ -39,7 +39,7 @@
         "code": "22261",
         "parent_code": "564"
     },
-    "22267": {
+     {
         "name": "Hòa Tân Đông",
         "type": "xa",
         "slug": "hoa-tan-dong",
@@ -49,7 +49,7 @@
         "code": "22267",
         "parent_code": "564"
     },
-    "22279": {
+     {
         "name": "Hòa Xuân Tây",
         "type": "phuong",
         "slug": "hoa-xuan-tay",
@@ -59,7 +59,7 @@
         "code": "22279",
         "parent_code": "564"
     },
-    "22282": {
+     {
         "name": "Hòa Hiệp Nam",
         "type": "phuong",
         "slug": "hoa-hiep-nam",
@@ -69,7 +69,7 @@
         "code": "22282",
         "parent_code": "564"
     },
-    "22291": {
+     {
         "name": "Hòa Xuân Đông",
         "type": "xa",
         "slug": "hoa-xuan-dong",
@@ -79,7 +79,7 @@
         "code": "22291",
         "parent_code": "564"
     },
-    "22297": {
+     {
         "name": "Hòa Tâm",
         "type": "xa",
         "slug": "hoa-tam",
@@ -89,7 +89,7 @@
         "code": "22297",
         "parent_code": "564"
     },
-    "22300": {
+     {
         "name": "Hòa Xuân Nam",
         "type": "xa",
         "slug": "hoa-xuan-nam",
@@ -99,4 +99,4 @@
         "code": "22300",
         "parent_code": "564"
     }
-}
+]}

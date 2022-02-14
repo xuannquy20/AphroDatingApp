@@ -1,5 +1,5 @@
 {
-    "27466": {
+    "xa":[ {
         "name": "Tân Thuận Đông",
         "type": "phuong",
         "slug": "tan-thuan-dong",
@@ -9,7 +9,7 @@
         "code": "27466",
         "parent_code": "778"
     },
-    "27469": {
+     {
         "name": "Tân Thuận Tây",
         "type": "phuong",
         "slug": "tan-thuan-tay",
@@ -19,7 +19,7 @@
         "code": "27469",
         "parent_code": "778"
     },
-    "27472": {
+     {
         "name": "Tân Kiểng",
         "type": "phuong",
         "slug": "tan-kieng",
@@ -29,7 +29,7 @@
         "code": "27472",
         "parent_code": "778"
     },
-    "27475": {
+     {
         "name": "Tân Hưng",
         "type": "phuong",
         "slug": "tan-hung",
@@ -39,7 +39,7 @@
         "code": "27475",
         "parent_code": "778"
     },
-    "27478": {
+     {
         "name": "Bình Thuận",
         "type": "phuong",
         "slug": "binh-thuan",
@@ -49,7 +49,7 @@
         "code": "27478",
         "parent_code": "778"
     },
-    "27481": {
+     {
         "name": "Tân Quy",
         "type": "phuong",
         "slug": "tan-quy",
@@ -59,7 +59,7 @@
         "code": "27481",
         "parent_code": "778"
     },
-    "27484": {
+     {
         "name": "Phú Thuận",
         "type": "phuong",
         "slug": "phu-thuan",
@@ -69,7 +69,7 @@
         "code": "27484",
         "parent_code": "778"
     },
-    "27487": {
+     {
         "name": "Tân Phú",
         "type": "phuong",
         "slug": "tan-phu",
@@ -79,7 +79,7 @@
         "code": "27487",
         "parent_code": "778"
     },
-    "27490": {
+     {
         "name": "Tân Phong",
         "type": "phuong",
         "slug": "tan-phong",
@@ -89,7 +89,7 @@
         "code": "27490",
         "parent_code": "778"
     },
-    "27493": {
+     {
         "name": "Phú Mỹ",
         "type": "phuong",
         "slug": "phu-my",
@@ -99,4 +99,4 @@
         "code": "27493",
         "parent_code": "778"
     }
-}
+]}

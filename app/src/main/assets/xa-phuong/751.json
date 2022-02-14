@@ -1,5 +1,5 @@
 {
-    "26620": {
+    "xa":[ {
         "name": "Phước Bửu",
         "type": "thi-tran",
         "slug": "phuoc-buu",
@@ -9,7 +9,7 @@
         "code": "26620",
         "parent_code": "751"
     },
-    "26623": {
+     {
         "name": "Phước Thuận",
         "type": "xa",
         "slug": "phuoc-thuan",
@@ -19,7 +19,7 @@
         "code": "26623",
         "parent_code": "751"
     },
-    "26626": {
+     {
         "name": "Phước Tân",
         "type": "xa",
         "slug": "phuoc-tan",
@@ -29,7 +29,7 @@
         "code": "26626",
         "parent_code": "751"
     },
-    "26629": {
+     {
         "name": "Xuyên Mộc",
         "type": "xa",
         "slug": "xuyen-moc",
@@ -39,7 +39,7 @@
         "code": "26629",
         "parent_code": "751"
     },
-    "26632": {
+     {
         "name": "Bông Trang",
         "type": "xa",
         "slug": "bong-trang",
@@ -49,7 +49,7 @@
         "code": "26632",
         "parent_code": "751"
     },
-    "26635": {
+     {
         "name": "Tân Lâm",
         "type": "xa",
         "slug": "tan-lam",
@@ -59,7 +59,7 @@
         "code": "26635",
         "parent_code": "751"
     },
-    "26638": {
+     {
         "name": "Bàu Lâm",
         "type": "xa",
         "slug": "bau-lam",
@@ -69,7 +69,7 @@
         "code": "26638",
         "parent_code": "751"
     },
-    "26641": {
+     {
         "name": "Hòa Bình",
         "type": "xa",
         "slug": "hoa-binh",
@@ -79,7 +79,7 @@
         "code": "26641",
         "parent_code": "751"
     },
-    "26644": {
+     {
         "name": "Hòa Hưng",
         "type": "xa",
         "slug": "hoa-hung",
@@ -89,7 +89,7 @@
         "code": "26644",
         "parent_code": "751"
     },
-    "26647": {
+     {
         "name": "Hòa Hiệp",
         "type": "xa",
         "slug": "hoa-hiep",
@@ -99,7 +99,7 @@
         "code": "26647",
         "parent_code": "751"
     },
-    "26650": {
+     {
         "name": "Hòa Hội",
         "type": "xa",
         "slug": "hoa-hoi",
@@ -109,7 +109,7 @@
         "code": "26650",
         "parent_code": "751"
     },
-    "26653": {
+     {
         "name": "Bưng Riềng",
         "type": "xa",
         "slug": "bung-rieng",
@@ -119,7 +119,7 @@
         "code": "26653",
         "parent_code": "751"
     },
-    "26656": {
+     {
         "name": "Bình Châu",
         "type": "xa",
         "slug": "binh-chau",
@@ -129,4 +129,4 @@
         "code": "26656",
         "parent_code": "751"
     }
-}
+]}

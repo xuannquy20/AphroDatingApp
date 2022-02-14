@@ -1,5 +1,5 @@
 {
-    "21484": {
+    "xa":[ {
         "name": "Ba Tơ",
         "type": "thi-tran",
         "slug": "ba-to",
@@ -9,7 +9,7 @@
         "code": "21484",
         "parent_code": "535"
     },
-    "21487": {
+     {
         "name": "Ba Điền",
         "type": "xa",
         "slug": "ba-dien",
@@ -19,7 +19,7 @@
         "code": "21487",
         "parent_code": "535"
     },
-    "21490": {
+     {
         "name": "Ba Vinh",
         "type": "xa",
         "slug": "ba-vinh",
@@ -29,7 +29,7 @@
         "code": "21490",
         "parent_code": "535"
     },
-    "21493": {
+     {
         "name": "Ba Thành",
         "type": "xa",
         "slug": "ba-thanh",
@@ -39,7 +39,7 @@
         "code": "21493",
         "parent_code": "535"
     },
-    "21496": {
+     {
         "name": "Ba Động",
         "type": "xa",
         "slug": "ba-dong",
@@ -49,7 +49,7 @@
         "code": "21496",
         "parent_code": "535"
     },
-    "21499": {
+     {
         "name": "Ba Dinh",
         "type": "xa",
         "slug": "ba-dinh",
@@ -59,7 +59,7 @@
         "code": "21499",
         "parent_code": "535"
     },
-    "21500": {
+     {
         "name": "Ba Giang",
         "type": "xa",
         "slug": "ba-giang",
@@ -69,7 +69,7 @@
         "code": "21500",
         "parent_code": "535"
     },
-    "21502": {
+     {
         "name": "Ba Liên",
         "type": "xa",
         "slug": "ba-lien",
@@ -79,7 +79,7 @@
         "code": "21502",
         "parent_code": "535"
     },
-    "21505": {
+     {
         "name": "Ba Ngạc",
         "type": "xa",
         "slug": "ba-ngac",
@@ -89,7 +89,7 @@
         "code": "21505",
         "parent_code": "535"
     },
-    "21508": {
+     {
         "name": "Ba Khâm",
         "type": "xa",
         "slug": "ba-kham",
@@ -99,7 +99,7 @@
         "code": "21508",
         "parent_code": "535"
     },
-    "21511": {
+     {
         "name": "Ba Cung",
         "type": "xa",
         "slug": "ba-cung",
@@ -109,7 +109,7 @@
         "code": "21511",
         "parent_code": "535"
     },
-    "21517": {
+     {
         "name": "Ba Tiêu",
         "type": "xa",
         "slug": "ba-tieu",
@@ -119,7 +119,7 @@
         "code": "21517",
         "parent_code": "535"
     },
-    "21520": {
+     {
         "name": "Ba Trang",
         "type": "xa",
         "slug": "ba-trang",
@@ -129,7 +129,7 @@
         "code": "21520",
         "parent_code": "535"
     },
-    "21523": {
+     {
         "name": "Ba Tô",
         "type": "xa",
         "slug": "ba-to",
@@ -139,7 +139,7 @@
         "code": "21523",
         "parent_code": "535"
     },
-    "21526": {
+     {
         "name": "Ba Bích",
         "type": "xa",
         "slug": "ba-bich",
@@ -149,7 +149,7 @@
         "code": "21526",
         "parent_code": "535"
     },
-    "21529": {
+     {
         "name": "Ba Vì",
         "type": "xa",
         "slug": "ba-vi",
@@ -159,7 +159,7 @@
         "code": "21529",
         "parent_code": "535"
     },
-    "21532": {
+     {
         "name": "Ba Lế",
         "type": "xa",
         "slug": "ba-le",
@@ -169,7 +169,7 @@
         "code": "21532",
         "parent_code": "535"
     },
-    "21535": {
+     {
         "name": "Ba Nam",
         "type": "xa",
         "slug": "ba-nam",
@@ -179,7 +179,7 @@
         "code": "21535",
         "parent_code": "535"
     },
-    "21538": {
+     {
         "name": "Ba Xa",
         "type": "xa",
         "slug": "ba-xa",
@@ -189,4 +189,4 @@
         "code": "21538",
         "parent_code": "535"
     }
-}
+]}

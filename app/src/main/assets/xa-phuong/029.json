@@ -1,5 +1,5 @@
 {
-    "00874": {
+     "xa" :[{
         "name": "Tam Sơn",
         "type": "thi-tran",
         "slug": "tam-son",
@@ -9,7 +9,7 @@
         "code": "00874",
         "parent_code": "029"
     },
-    "00877": {
+     {
         "name": "Bát Đại Sơn",
         "type": "xa",
         "slug": "bat-dai-son",
@@ -19,7 +19,7 @@
         "code": "00877",
         "parent_code": "029"
     },
-    "00880": {
+     {
         "name": "Nghĩa Thuận",
         "type": "xa",
         "slug": "nghia-thuan",
@@ -29,7 +29,7 @@
         "code": "00880",
         "parent_code": "029"
     },
-    "00883": {
+     {
         "name": "Cán Tỷ",
         "type": "xa",
         "slug": "can-ty",
@@ -39,7 +39,7 @@
         "code": "00883",
         "parent_code": "029"
     },
-    "00886": {
+     {
         "name": "Cao Mã Pờ",
         "type": "xa",
         "slug": "cao-ma-po",
@@ -49,7 +49,7 @@
         "code": "00886",
         "parent_code": "029"
     },
-    "00889": {
+     {
         "name": "Thanh Vân",
         "type": "xa",
         "slug": "thanh-van",
@@ -59,7 +59,7 @@
         "code": "00889",
         "parent_code": "029"
     },
-    "00892": {
+     {
         "name": "Tùng Vài",
         "type": "xa",
         "slug": "tung-vai",
@@ -69,7 +69,7 @@
         "code": "00892",
         "parent_code": "029"
     },
-    "00895": {
+     {
         "name": "Đông Hà",
         "type": "xa",
         "slug": "dong-ha",
@@ -79,7 +79,7 @@
         "code": "00895",
         "parent_code": "029"
     },
-    "00898": {
+     {
         "name": "Quản Bạ",
         "type": "xa",
         "slug": "quan-ba",
@@ -89,7 +89,7 @@
         "code": "00898",
         "parent_code": "029"
     },
-    "00901": {
+     {
         "name": "Lùng Tám",
         "type": "xa",
         "slug": "lung-tam",
@@ -99,7 +99,7 @@
         "code": "00901",
         "parent_code": "029"
     },
-    "00904": {
+     {
         "name": "Quyết Tiến",
         "type": "xa",
         "slug": "quyet-tien",
@@ -109,7 +109,7 @@
         "code": "00904",
         "parent_code": "029"
     },
-    "00907": {
+     {
         "name": "Tả Ván",
         "type": "xa",
         "slug": "ta-van",
@@ -119,7 +119,7 @@
         "code": "00907",
         "parent_code": "029"
     },
-    "00910": {
+     {
         "name": "Thái An",
         "type": "xa",
         "slug": "thai-an",
@@ -129,4 +129,5 @@
         "code": "00910",
         "parent_code": "029"
     }
+]
 }

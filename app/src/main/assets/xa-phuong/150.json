@@ -1,5 +1,5 @@
 {
-    "04831": {
+    "xa":[ {
         "name": "Đà Bắc",
         "type": "thi-tran",
         "slug": "da-bac",
@@ -9,7 +9,7 @@
         "code": "04831",
         "parent_code": "150"
     },
-    "04834": {
+     {
         "name": "Nánh Nghê",
         "type": "xa",
         "slug": "nanh-nghe",
@@ -19,7 +19,7 @@
         "code": "04834",
         "parent_code": "150"
     },
-    "04840": {
+     {
         "name": "Giáp Đắt",
         "type": "xa",
         "slug": "giap-dat",
@@ -29,7 +29,7 @@
         "code": "04840",
         "parent_code": "150"
     },
-    "04846": {
+     {
         "name": "Mường Chiềng",
         "type": "xa",
         "slug": "muong-chieng",
@@ -39,7 +39,7 @@
         "code": "04846",
         "parent_code": "150"
     },
-    "04849": {
+     {
         "name": "Tân Pheo",
         "type": "xa",
         "slug": "tan-pheo",
@@ -49,7 +49,7 @@
         "code": "04849",
         "parent_code": "150"
     },
-    "04852": {
+     {
         "name": "Đồng Chum",
         "type": "xa",
         "slug": "dong-chum",
@@ -59,7 +59,7 @@
         "code": "04852",
         "parent_code": "150"
     },
-    "04855": {
+     {
         "name": "Tân Minh",
         "type": "xa",
         "slug": "tan-minh",
@@ -69,7 +69,7 @@
         "code": "04855",
         "parent_code": "150"
     },
-    "04858": {
+     {
         "name": "Đoàn Kết",
         "type": "xa",
         "slug": "doan-ket",
@@ -79,7 +79,7 @@
         "code": "04858",
         "parent_code": "150"
     },
-    "04861": {
+     {
         "name": "Đồng Ruộng",
         "type": "xa",
         "slug": "dong-ruong",
@@ -89,7 +89,7 @@
         "code": "04861",
         "parent_code": "150"
     },
-    "04867": {
+     {
         "name": "Tú Lý",
         "type": "xa",
         "slug": "tu-ly",
@@ -99,7 +99,7 @@
         "code": "04867",
         "parent_code": "150"
     },
-    "04870": {
+     {
         "name": "Trung Thành",
         "type": "xa",
         "slug": "trung-thanh",
@@ -109,7 +109,7 @@
         "code": "04870",
         "parent_code": "150"
     },
-    "04873": {
+     {
         "name": "Yên Hòa",
         "type": "xa",
         "slug": "yen-hoa",
@@ -119,7 +119,7 @@
         "code": "04873",
         "parent_code": "150"
     },
-    "04876": {
+     {
         "name": "Cao Sơn",
         "type": "xa",
         "slug": "cao-son",
@@ -129,7 +129,7 @@
         "code": "04876",
         "parent_code": "150"
     },
-    "04879": {
+     {
         "name": "Toàn Sơn",
         "type": "xa",
         "slug": "toan-son",
@@ -139,7 +139,7 @@
         "code": "04879",
         "parent_code": "150"
     },
-    "04885": {
+     {
         "name": "Hiền Lương",
         "type": "xa",
         "slug": "hien-luong",
@@ -149,7 +149,7 @@
         "code": "04885",
         "parent_code": "150"
     },
-    "04888": {
+     {
         "name": "Tiền Phong",
         "type": "xa",
         "slug": "tien-phong",
@@ -159,7 +159,7 @@
         "code": "04888",
         "parent_code": "150"
     },
-    "04891": {
+     {
         "name": "Vầy Nưa",
         "type": "xa",
         "slug": "vay-nua",
@@ -169,4 +169,4 @@
         "code": "04891",
         "parent_code": "150"
     }
-}
+]}

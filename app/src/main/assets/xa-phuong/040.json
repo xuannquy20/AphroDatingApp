@@ -1,5 +1,5 @@
 {
-    "01267": {
+     "xa" :[{
         "name": "Sông Hiến",
         "type": "phuong",
         "slug": "song-hien",
@@ -9,7 +9,7 @@
         "code": "01267",
         "parent_code": "040"
     },
-    "01270": {
+     {
         "name": "Sông Bằng",
         "type": "phuong",
         "slug": "song-bang",
@@ -19,7 +19,7 @@
         "code": "01270",
         "parent_code": "040"
     },
-    "01273": {
+     {
         "name": "Hợp Giang",
         "type": "phuong",
         "slug": "hop-giang",
@@ -29,7 +29,7 @@
         "code": "01273",
         "parent_code": "040"
     },
-    "01276": {
+     {
         "name": "Tân Giang",
         "type": "phuong",
         "slug": "tan-giang",
@@ -39,7 +39,7 @@
         "code": "01276",
         "parent_code": "040"
     },
-    "01279": {
+     {
         "name": "Ngọc Xuân",
         "type": "phuong",
         "slug": "ngoc-xuan",
@@ -49,7 +49,7 @@
         "code": "01279",
         "parent_code": "040"
     },
-    "01282": {
+     {
         "name": "Đề Thám",
         "type": "phuong",
         "slug": "de-tham",
@@ -59,7 +59,7 @@
         "code": "01282",
         "parent_code": "040"
     },
-    "01285": {
+     {
         "name": "Hoà Chung",
         "type": "phuong",
         "slug": "hoa-chung",
@@ -69,7 +69,7 @@
         "code": "01285",
         "parent_code": "040"
     },
-    "01288": {
+     {
         "name": "Duyệt Trung",
         "type": "phuong",
         "slug": "duyet-trung",
@@ -79,7 +79,7 @@
         "code": "01288",
         "parent_code": "040"
     },
-    "01693": {
+     {
         "name": "Vĩnh Quang",
         "type": "xa",
         "slug": "vinh-quang",
@@ -89,7 +89,7 @@
         "code": "01693",
         "parent_code": "040"
     },
-    "01705": {
+     {
         "name": "Hưng Đạo",
         "type": "xa",
         "slug": "hung-dao",
@@ -99,7 +99,7 @@
         "code": "01705",
         "parent_code": "040"
     },
-    "01720": {
+     {
         "name": "Chu Trinh",
         "type": "xa",
         "slug": "chu-trinh",
@@ -109,4 +109,5 @@
         "code": "01720",
         "parent_code": "040"
     }
+]
 }

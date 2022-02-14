@@ -1,5 +1,5 @@
 {
-    "26368": {
+    "xa":[ {
         "name": "Long Thành",
         "type": "thi-tran",
         "slug": "long-thanh",
@@ -9,7 +9,7 @@
         "code": "26368",
         "parent_code": "740"
     },
-    "26383": {
+     {
         "name": "An Phước",
         "type": "xa",
         "slug": "an-phuoc",
@@ -19,7 +19,7 @@
         "code": "26383",
         "parent_code": "740"
     },
-    "26386": {
+     {
         "name": "Bình An",
         "type": "xa",
         "slug": "binh-an",
@@ -29,7 +29,7 @@
         "code": "26386",
         "parent_code": "740"
     },
-    "26389": {
+     {
         "name": "Long Đức",
         "type": "xa",
         "slug": "long-duc",
@@ -39,7 +39,7 @@
         "code": "26389",
         "parent_code": "740"
     },
-    "26392": {
+     {
         "name": "Lộc An",
         "type": "xa",
         "slug": "loc-an",
@@ -49,7 +49,7 @@
         "code": "26392",
         "parent_code": "740"
     },
-    "26395": {
+     {
         "name": "Bình Sơn",
         "type": "xa",
         "slug": "binh-son",
@@ -59,7 +59,7 @@
         "code": "26395",
         "parent_code": "740"
     },
-    "26398": {
+     {
         "name": "Tam An",
         "type": "xa",
         "slug": "tam-an",
@@ -69,7 +69,7 @@
         "code": "26398",
         "parent_code": "740"
     },
-    "26401": {
+     {
         "name": "Cẩm Đường",
         "type": "xa",
         "slug": "cam-duong",
@@ -79,7 +79,7 @@
         "code": "26401",
         "parent_code": "740"
     },
-    "26404": {
+     {
         "name": "Long An",
         "type": "xa",
         "slug": "long-an",
@@ -89,7 +89,7 @@
         "code": "26404",
         "parent_code": "740"
     },
-    "26410": {
+     {
         "name": "Bàu Cạn",
         "type": "xa",
         "slug": "bau-can",
@@ -99,7 +99,7 @@
         "code": "26410",
         "parent_code": "740"
     },
-    "26413": {
+     {
         "name": "Long Phước",
         "type": "xa",
         "slug": "long-phuoc",
@@ -109,7 +109,7 @@
         "code": "26413",
         "parent_code": "740"
     },
-    "26416": {
+     {
         "name": "Phước Bình",
         "type": "xa",
         "slug": "phuoc-binh",
@@ -119,7 +119,7 @@
         "code": "26416",
         "parent_code": "740"
     },
-    "26419": {
+     {
         "name": "Tân Hiệp",
         "type": "xa",
         "slug": "tan-hiep",
@@ -129,7 +129,7 @@
         "code": "26419",
         "parent_code": "740"
     },
-    "26422": {
+     {
         "name": "Phước Thái",
         "type": "xa",
         "slug": "phuoc-thai",
@@ -139,4 +139,4 @@
         "code": "26422",
         "parent_code": "740"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "09247": {
+    "xa":[ {
         "name": "Phố Mới",
         "type": "thi-tran",
         "slug": "pho-moi",
@@ -9,7 +9,7 @@
         "code": "09247",
         "parent_code": "259"
     },
-    "09250": {
+     {
         "name": "Việt Thống",
         "type": "xa",
         "slug": "viet-thong",
@@ -19,7 +19,7 @@
         "code": "09250",
         "parent_code": "259"
     },
-    "09253": {
+     {
         "name": "Đại Xuân",
         "type": "xa",
         "slug": "dai-xuan",
@@ -29,7 +29,7 @@
         "code": "09253",
         "parent_code": "259"
     },
-    "09259": {
+     {
         "name": "Nhân Hòa",
         "type": "xa",
         "slug": "nhan-hoa",
@@ -39,7 +39,7 @@
         "code": "09259",
         "parent_code": "259"
     },
-    "09262": {
+     {
         "name": "Bằng An",
         "type": "xa",
         "slug": "bang-an",
@@ -49,7 +49,7 @@
         "code": "09262",
         "parent_code": "259"
     },
-    "09265": {
+     {
         "name": "Phương Liễu",
         "type": "xa",
         "slug": "phuong-lieu",
@@ -59,7 +59,7 @@
         "code": "09265",
         "parent_code": "259"
     },
-    "09268": {
+     {
         "name": "Quế Tân",
         "type": "xa",
         "slug": "que-tan",
@@ -69,7 +69,7 @@
         "code": "09268",
         "parent_code": "259"
     },
-    "09274": {
+     {
         "name": "Phù Lương",
         "type": "xa",
         "slug": "phu-luong",
@@ -79,7 +79,7 @@
         "code": "09274",
         "parent_code": "259"
     },
-    "09277": {
+     {
         "name": "Phù Lãng",
         "type": "xa",
         "slug": "phu-lang",
@@ -89,7 +89,7 @@
         "code": "09277",
         "parent_code": "259"
     },
-    "09280": {
+     {
         "name": "Phượng Mao",
         "type": "xa",
         "slug": "phuong-mao",
@@ -99,7 +99,7 @@
         "code": "09280",
         "parent_code": "259"
     },
-    "09283": {
+     {
         "name": "Việt Hùng",
         "type": "xa",
         "slug": "viet-hung",
@@ -109,7 +109,7 @@
         "code": "09283",
         "parent_code": "259"
     },
-    "09289": {
+     {
         "name": "Ngọc Xá",
         "type": "xa",
         "slug": "ngoc-xa",
@@ -119,7 +119,7 @@
         "code": "09289",
         "parent_code": "259"
     },
-    "09292": {
+     {
         "name": "Châu Phong",
         "type": "xa",
         "slug": "chau-phong",
@@ -129,7 +129,7 @@
         "code": "09292",
         "parent_code": "259"
     },
-    "09295": {
+     {
         "name": "Bồng Lai",
         "type": "xa",
         "slug": "bong-lai",
@@ -139,7 +139,7 @@
         "code": "09295",
         "parent_code": "259"
     },
-    "09298": {
+     {
         "name": "Cách Bi",
         "type": "xa",
         "slug": "cach-bi",
@@ -149,7 +149,7 @@
         "code": "09298",
         "parent_code": "259"
     },
-    "09301": {
+     {
         "name": "Đào Viên",
         "type": "xa",
         "slug": "dao-vien",
@@ -159,7 +159,7 @@
         "code": "09301",
         "parent_code": "259"
     },
-    "09304": {
+     {
         "name": "Yên Giả",
         "type": "xa",
         "slug": "yen-gia",
@@ -169,7 +169,7 @@
         "code": "09304",
         "parent_code": "259"
     },
-    "09307": {
+     {
         "name": "Mộ Đạo",
         "type": "xa",
         "slug": "mo-dao",
@@ -179,7 +179,7 @@
         "code": "09307",
         "parent_code": "259"
     },
-    "09310": {
+     {
         "name": "Đức Long",
         "type": "xa",
         "slug": "duc-long",
@@ -189,7 +189,7 @@
         "code": "09310",
         "parent_code": "259"
     },
-    "09313": {
+     {
         "name": "Chi Lăng",
         "type": "xa",
         "slug": "chi-lang",
@@ -199,7 +199,7 @@
         "code": "09313",
         "parent_code": "259"
     },
-    "09316": {
+     {
         "name": "Hán Quảng",
         "type": "xa",
         "slug": "han-quang",
@@ -209,4 +209,4 @@
         "code": "09316",
         "parent_code": "259"
     }
-}
+]}

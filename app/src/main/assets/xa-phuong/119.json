@@ -1,5 +1,5 @@
 {
-    "03721": {
+    "xa":[ {
         "name": "Thuận Châu",
         "type": "thi-tran",
         "slug": "thuan-chau",
@@ -9,7 +9,7 @@
         "code": "03721",
         "parent_code": "119"
     },
-    "03724": {
+     {
         "name": "Phổng Lái",
         "type": "xa",
         "slug": "phong-lai",
@@ -19,7 +19,7 @@
         "code": "03724",
         "parent_code": "119"
     },
-    "03727": {
+     {
         "name": "Mường é",
         "type": "xa",
         "slug": "muong-e",
@@ -29,7 +29,7 @@
         "code": "03727",
         "parent_code": "119"
     },
-    "03730": {
+     {
         "name": "Chiềng Pha",
         "type": "xa",
         "slug": "chieng-pha",
@@ -39,7 +39,7 @@
         "code": "03730",
         "parent_code": "119"
     },
-    "03733": {
+     {
         "name": "Chiềng La",
         "type": "xa",
         "slug": "chieng-la",
@@ -49,7 +49,7 @@
         "code": "03733",
         "parent_code": "119"
     },
-    "03736": {
+     {
         "name": "Chiềng Ngàm",
         "type": "xa",
         "slug": "chieng-ngam",
@@ -59,7 +59,7 @@
         "code": "03736",
         "parent_code": "119"
     },
-    "03739": {
+     {
         "name": "Liệp Tè",
         "type": "xa",
         "slug": "liep-te",
@@ -69,7 +69,7 @@
         "code": "03739",
         "parent_code": "119"
     },
-    "03742": {
+     {
         "name": "é Tòng",
         "type": "xa",
         "slug": "e-tong",
@@ -79,7 +79,7 @@
         "code": "03742",
         "parent_code": "119"
     },
-    "03745": {
+     {
         "name": "Phổng Lập",
         "type": "xa",
         "slug": "phong-lap",
@@ -89,7 +89,7 @@
         "code": "03745",
         "parent_code": "119"
     },
-    "03748": {
+     {
         "name": "Phổng Lăng",
         "type": "xa",
         "slug": "phong-lang",
@@ -99,7 +99,7 @@
         "code": "03748",
         "parent_code": "119"
     },
-    "03751": {
+     {
         "name": "Chiềng Ly",
         "type": "xa",
         "slug": "chieng-ly",
@@ -109,7 +109,7 @@
         "code": "03751",
         "parent_code": "119"
     },
-    "03754": {
+     {
         "name": "Noong Lay",
         "type": "xa",
         "slug": "noong-lay",
@@ -119,7 +119,7 @@
         "code": "03754",
         "parent_code": "119"
     },
-    "03757": {
+     {
         "name": "Mường Khiêng",
         "type": "xa",
         "slug": "muong-khieng",
@@ -129,7 +129,7 @@
         "code": "03757",
         "parent_code": "119"
     },
-    "03760": {
+     {
         "name": "Mường Bám",
         "type": "xa",
         "slug": "muong-bam",
@@ -139,7 +139,7 @@
         "code": "03760",
         "parent_code": "119"
     },
-    "03763": {
+     {
         "name": "Long Hẹ",
         "type": "xa",
         "slug": "long-he",
@@ -149,7 +149,7 @@
         "code": "03763",
         "parent_code": "119"
     },
-    "03766": {
+     {
         "name": "Chiềng Bôm",
         "type": "xa",
         "slug": "chieng-bom",
@@ -159,7 +159,7 @@
         "code": "03766",
         "parent_code": "119"
     },
-    "03769": {
+     {
         "name": "Thôm Mòn",
         "type": "xa",
         "slug": "thom-mon",
@@ -169,7 +169,7 @@
         "code": "03769",
         "parent_code": "119"
     },
-    "03772": {
+     {
         "name": "Tông Lạnh",
         "type": "xa",
         "slug": "tong-lanh",
@@ -179,7 +179,7 @@
         "code": "03772",
         "parent_code": "119"
     },
-    "03775": {
+     {
         "name": "Tông Cọ",
         "type": "xa",
         "slug": "tong-co",
@@ -189,7 +189,7 @@
         "code": "03775",
         "parent_code": "119"
     },
-    "03778": {
+     {
         "name": "Bó Mười",
         "type": "xa",
         "slug": "bo-muoi",
@@ -199,7 +199,7 @@
         "code": "03778",
         "parent_code": "119"
     },
-    "03781": {
+     {
         "name": "Co Mạ",
         "type": "xa",
         "slug": "co-ma",
@@ -209,7 +209,7 @@
         "code": "03781",
         "parent_code": "119"
     },
-    "03784": {
+     {
         "name": "Púng Tra",
         "type": "xa",
         "slug": "pung-tra",
@@ -219,7 +219,7 @@
         "code": "03784",
         "parent_code": "119"
     },
-    "03787": {
+     {
         "name": "Chiềng Pấc",
         "type": "xa",
         "slug": "chieng-pac",
@@ -229,7 +229,7 @@
         "code": "03787",
         "parent_code": "119"
     },
-    "03790": {
+     {
         "name": "Nậm Lầu",
         "type": "xa",
         "slug": "nam-lau",
@@ -239,7 +239,7 @@
         "code": "03790",
         "parent_code": "119"
     },
-    "03793": {
+     {
         "name": "Bon Phặng",
         "type": "xa",
         "slug": "bon-phang",
@@ -249,7 +249,7 @@
         "code": "03793",
         "parent_code": "119"
     },
-    "03796": {
+     {
         "name": "Co Tòng",
         "type": "xa",
         "slug": "co-tong",
@@ -259,7 +259,7 @@
         "code": "03796",
         "parent_code": "119"
     },
-    "03799": {
+     {
         "name": "Muổi Nọi",
         "type": "xa",
         "slug": "muoi-noi",
@@ -269,7 +269,7 @@
         "code": "03799",
         "parent_code": "119"
     },
-    "03802": {
+     {
         "name": "Pá Lông",
         "type": "xa",
         "slug": "pa-long",
@@ -279,7 +279,7 @@
         "code": "03802",
         "parent_code": "119"
     },
-    "03805": {
+     {
         "name": "Bản Lầm",
         "type": "xa",
         "slug": "ban-lam",
@@ -289,4 +289,4 @@
         "code": "03805",
         "parent_code": "119"
     }
-}
+]}

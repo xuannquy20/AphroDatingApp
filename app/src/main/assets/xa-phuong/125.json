@@ -1,5 +1,5 @@
 {
-    "04105": {
+    "xa":[ {
         "name": "Hát Lót",
         "type": "thi-tran",
         "slug": "hat-lot",
@@ -9,7 +9,7 @@
         "code": "04105",
         "parent_code": "125"
     },
-    "04108": {
+     {
         "name": "Chiềng Sung",
         "type": "xa",
         "slug": "chieng-sung",
@@ -19,7 +19,7 @@
         "code": "04108",
         "parent_code": "125"
     },
-    "04111": {
+     {
         "name": "Mường Bằng",
         "type": "xa",
         "slug": "muong-bang",
@@ -29,7 +29,7 @@
         "code": "04111",
         "parent_code": "125"
     },
-    "04114": {
+     {
         "name": "Chiềng Chăn",
         "type": "xa",
         "slug": "chieng-chan",
@@ -39,7 +39,7 @@
         "code": "04114",
         "parent_code": "125"
     },
-    "04117": {
+     {
         "name": "Mương Chanh",
         "type": "xa",
         "slug": "muong-chanh",
@@ -49,7 +49,7 @@
         "code": "04117",
         "parent_code": "125"
     },
-    "04120": {
+     {
         "name": "Chiềng Ban",
         "type": "xa",
         "slug": "chieng-ban",
@@ -59,7 +59,7 @@
         "code": "04120",
         "parent_code": "125"
     },
-    "04123": {
+     {
         "name": "Chiềng Mung",
         "type": "xa",
         "slug": "chieng-mung",
@@ -69,7 +69,7 @@
         "code": "04123",
         "parent_code": "125"
     },
-    "04126": {
+     {
         "name": "Mường Bon",
         "type": "xa",
         "slug": "muong-bon",
@@ -79,7 +79,7 @@
         "code": "04126",
         "parent_code": "125"
     },
-    "04129": {
+     {
         "name": "Chiềng Chung",
         "type": "xa",
         "slug": "chieng-chung",
@@ -89,7 +89,7 @@
         "code": "04129",
         "parent_code": "125"
     },
-    "04132": {
+     {
         "name": "Chiềng Mai",
         "type": "xa",
         "slug": "chieng-mai",
@@ -99,7 +99,7 @@
         "code": "04132",
         "parent_code": "125"
     },
-    "04135": {
+     {
         "name": "Hát Lót",
         "type": "xa",
         "slug": "hat-lot",
@@ -109,7 +109,7 @@
         "code": "04135",
         "parent_code": "125"
     },
-    "04136": {
+     {
         "name": "Nà Pó",
         "type": "xa",
         "slug": "na-po",
@@ -119,7 +119,7 @@
         "code": "04136",
         "parent_code": "125"
     },
-    "04138": {
+     {
         "name": "Cò  Nòi",
         "type": "xa",
         "slug": "co-noi",
@@ -129,7 +129,7 @@
         "code": "04138",
         "parent_code": "125"
     },
-    "04141": {
+     {
         "name": "Chiềng Nơi",
         "type": "xa",
         "slug": "chieng-noi",
@@ -139,7 +139,7 @@
         "code": "04141",
         "parent_code": "125"
     },
-    "04144": {
+     {
         "name": "Phiêng Cằm",
         "type": "xa",
         "slug": "phieng-cam",
@@ -149,7 +149,7 @@
         "code": "04144",
         "parent_code": "125"
     },
-    "04147": {
+     {
         "name": "Chiềng Dong",
         "type": "xa",
         "slug": "chieng-dong",
@@ -159,7 +159,7 @@
         "code": "04147",
         "parent_code": "125"
     },
-    "04150": {
+     {
         "name": "Chiềng Kheo",
         "type": "xa",
         "slug": "chieng-kheo",
@@ -169,7 +169,7 @@
         "code": "04150",
         "parent_code": "125"
     },
-    "04153": {
+     {
         "name": "Chiềng Ve",
         "type": "xa",
         "slug": "chieng-ve",
@@ -179,7 +179,7 @@
         "code": "04153",
         "parent_code": "125"
     },
-    "04156": {
+     {
         "name": "Chiềng Lương",
         "type": "xa",
         "slug": "chieng-luong",
@@ -189,7 +189,7 @@
         "code": "04156",
         "parent_code": "125"
     },
-    "04159": {
+     {
         "name": "Phiêng Pằn",
         "type": "xa",
         "slug": "phieng-pan",
@@ -199,7 +199,7 @@
         "code": "04159",
         "parent_code": "125"
     },
-    "04162": {
+     {
         "name": "Nà Ơt",
         "type": "xa",
         "slug": "na-ot",
@@ -209,7 +209,7 @@
         "code": "04162",
         "parent_code": "125"
     },
-    "04165": {
+     {
         "name": "Tà Hộc",
         "type": "xa",
         "slug": "ta-hoc",
@@ -219,4 +219,4 @@
         "code": "04165",
         "parent_code": "125"
     }
-}
+]}

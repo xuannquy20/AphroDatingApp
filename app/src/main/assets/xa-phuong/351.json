@@ -1,5 +1,5 @@
 {
-    "13441": {
+    "xa":[ {
         "name": "Kiện Khê",
         "type": "thi-tran",
         "slug": "kien-khe",
@@ -9,7 +9,7 @@
         "code": "13441",
         "parent_code": "351"
     },
-    "13450": {
+     {
         "name": "Liêm Phong",
         "type": "xa",
         "slug": "liem-phong",
@@ -19,7 +19,7 @@
         "code": "13450",
         "parent_code": "351"
     },
-    "13453": {
+     {
         "name": "Thanh Hà",
         "type": "xa",
         "slug": "thanh-ha",
@@ -29,7 +29,7 @@
         "code": "13453",
         "parent_code": "351"
     },
-    "13456": {
+     {
         "name": "Liêm Cần",
         "type": "xa",
         "slug": "liem-can",
@@ -39,7 +39,7 @@
         "code": "13456",
         "parent_code": "351"
     },
-    "13465": {
+     {
         "name": "Liêm Thuận",
         "type": "xa",
         "slug": "liem-thuan",
@@ -49,7 +49,7 @@
         "code": "13465",
         "parent_code": "351"
     },
-    "13468": {
+     {
         "name": "Thanh Thủy",
         "type": "xa",
         "slug": "thanh-thuy",
@@ -59,7 +59,7 @@
         "code": "13468",
         "parent_code": "351"
     },
-    "13471": {
+     {
         "name": "Thanh Phong",
         "type": "xa",
         "slug": "thanh-phong",
@@ -69,7 +69,7 @@
         "code": "13471",
         "parent_code": "351"
     },
-    "13474": {
+     {
         "name": "Tân Thanh",
         "type": "thi-tran",
         "slug": "tan-thanh",
@@ -79,7 +79,7 @@
         "code": "13474",
         "parent_code": "351"
     },
-    "13477": {
+     {
         "name": "Thanh Tân",
         "type": "xa",
         "slug": "thanh-tan",
@@ -89,7 +89,7 @@
         "code": "13477",
         "parent_code": "351"
     },
-    "13480": {
+     {
         "name": "Liêm Túc",
         "type": "xa",
         "slug": "liem-tuc",
@@ -99,7 +99,7 @@
         "code": "13480",
         "parent_code": "351"
     },
-    "13483": {
+     {
         "name": "Liêm Sơn",
         "type": "xa",
         "slug": "liem-son",
@@ -109,7 +109,7 @@
         "code": "13483",
         "parent_code": "351"
     },
-    "13486": {
+     {
         "name": "Thanh Hương",
         "type": "xa",
         "slug": "thanh-huong",
@@ -119,7 +119,7 @@
         "code": "13486",
         "parent_code": "351"
     },
-    "13489": {
+     {
         "name": "Thanh Nghị",
         "type": "xa",
         "slug": "thanh-nghi",
@@ -129,7 +129,7 @@
         "code": "13489",
         "parent_code": "351"
     },
-    "13492": {
+     {
         "name": "Thanh Tâm",
         "type": "xa",
         "slug": "thanh-tam",
@@ -139,7 +139,7 @@
         "code": "13492",
         "parent_code": "351"
     },
-    "13495": {
+     {
         "name": "Thanh Nguyên",
         "type": "xa",
         "slug": "thanh-nguyen",
@@ -149,7 +149,7 @@
         "code": "13495",
         "parent_code": "351"
     },
-    "13498": {
+     {
         "name": "Thanh Hải",
         "type": "xa",
         "slug": "thanh-hai",
@@ -159,4 +159,4 @@
         "code": "13498",
         "parent_code": "351"
     }
-}
+]}

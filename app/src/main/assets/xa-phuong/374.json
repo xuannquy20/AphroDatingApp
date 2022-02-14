@@ -1,5 +1,5 @@
 {
-    "14527": {
+    "xa":[ {
         "name": "Thiên Tôn",
         "type": "thi-tran",
         "slug": "thien-ton",
@@ -9,7 +9,7 @@
         "code": "14527",
         "parent_code": "374"
     },
-    "14530": {
+     {
         "name": "Ninh Giang",
         "type": "xa",
         "slug": "ninh-giang",
@@ -19,7 +19,7 @@
         "code": "14530",
         "parent_code": "374"
     },
-    "14533": {
+     {
         "name": "Trường Yên",
         "type": "xa",
         "slug": "truong-yen",
@@ -29,7 +29,7 @@
         "code": "14533",
         "parent_code": "374"
     },
-    "14536": {
+     {
         "name": "Ninh Khang",
         "type": "xa",
         "slug": "ninh-khang",
@@ -39,7 +39,7 @@
         "code": "14536",
         "parent_code": "374"
     },
-    "14539": {
+     {
         "name": "Ninh Mỹ",
         "type": "xa",
         "slug": "ninh-my",
@@ -49,7 +49,7 @@
         "code": "14539",
         "parent_code": "374"
     },
-    "14542": {
+     {
         "name": "Ninh Hòa",
         "type": "xa",
         "slug": "ninh-hoa",
@@ -59,7 +59,7 @@
         "code": "14542",
         "parent_code": "374"
     },
-    "14545": {
+     {
         "name": "Ninh Xuân",
         "type": "xa",
         "slug": "ninh-xuan",
@@ -69,7 +69,7 @@
         "code": "14545",
         "parent_code": "374"
     },
-    "14548": {
+     {
         "name": "Ninh Hải",
         "type": "xa",
         "slug": "ninh-hai",
@@ -79,7 +79,7 @@
         "code": "14548",
         "parent_code": "374"
     },
-    "14551": {
+     {
         "name": "Ninh Thắng",
         "type": "xa",
         "slug": "ninh-thang",
@@ -89,7 +89,7 @@
         "code": "14551",
         "parent_code": "374"
     },
-    "14554": {
+     {
         "name": "Ninh Vân",
         "type": "xa",
         "slug": "ninh-van",
@@ -99,7 +99,7 @@
         "code": "14554",
         "parent_code": "374"
     },
-    "14557": {
+     {
         "name": "Ninh An",
         "type": "xa",
         "slug": "ninh-an",
@@ -109,4 +109,4 @@
         "code": "14557",
         "parent_code": "374"
     }
-}
+]}

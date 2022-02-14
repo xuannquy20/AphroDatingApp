@@ -1,5 +1,5 @@
 {
-    "09319": {
+    "xa":[ {
         "name": "Lim",
         "type": "thi-tran",
         "slug": "lim",
@@ -9,7 +9,7 @@
         "code": "09319",
         "parent_code": "260"
     },
-    "09322": {
+     {
         "name": "Phú Lâm",
         "type": "xa",
         "slug": "phu-lam",
@@ -19,7 +19,7 @@
         "code": "09322",
         "parent_code": "260"
     },
-    "09328": {
+     {
         "name": "Nội Duệ",
         "type": "xa",
         "slug": "noi-due",
@@ -29,7 +29,7 @@
         "code": "09328",
         "parent_code": "260"
     },
-    "09334": {
+     {
         "name": "Liên Bão",
         "type": "xa",
         "slug": "lien-bao",
@@ -39,7 +39,7 @@
         "code": "09334",
         "parent_code": "260"
     },
-    "09337": {
+     {
         "name": "Hiên Vân",
         "type": "xa",
         "slug": "hien-van",
@@ -49,7 +49,7 @@
         "code": "09337",
         "parent_code": "260"
     },
-    "09340": {
+     {
         "name": "Hoàn Sơn",
         "type": "xa",
         "slug": "hoan-son",
@@ -59,7 +59,7 @@
         "code": "09340",
         "parent_code": "260"
     },
-    "09343": {
+     {
         "name": "Lạc Vệ",
         "type": "xa",
         "slug": "lac-ve",
@@ -69,7 +69,7 @@
         "code": "09343",
         "parent_code": "260"
     },
-    "09346": {
+     {
         "name": "Việt Đoàn",
         "type": "xa",
         "slug": "viet-doan",
@@ -79,7 +79,7 @@
         "code": "09346",
         "parent_code": "260"
     },
-    "09349": {
+     {
         "name": "Phật Tích",
         "type": "xa",
         "slug": "phat-tich",
@@ -89,7 +89,7 @@
         "code": "09349",
         "parent_code": "260"
     },
-    "09352": {
+     {
         "name": "Tân Chi",
         "type": "xa",
         "slug": "tan-chi",
@@ -99,7 +99,7 @@
         "code": "09352",
         "parent_code": "260"
     },
-    "09355": {
+     {
         "name": "Đại Đồng",
         "type": "xa",
         "slug": "dai-dong",
@@ -109,7 +109,7 @@
         "code": "09355",
         "parent_code": "260"
     },
-    "09358": {
+     {
         "name": "Tri Phương",
         "type": "xa",
         "slug": "tri-phuong",
@@ -119,7 +119,7 @@
         "code": "09358",
         "parent_code": "260"
     },
-    "09361": {
+     {
         "name": "Minh Đạo",
         "type": "xa",
         "slug": "minh-dao",
@@ -129,7 +129,7 @@
         "code": "09361",
         "parent_code": "260"
     },
-    "09364": {
+     {
         "name": "Cảnh Hưng",
         "type": "xa",
         "slug": "canh-hung",
@@ -139,4 +139,4 @@
         "code": "09364",
         "parent_code": "260"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "14560": {
+    "xa":[ {
         "name": "Yên Ninh",
         "type": "thi-tran",
         "slug": "yen-ninh",
@@ -9,7 +9,7 @@
         "code": "14560",
         "parent_code": "375"
     },
-    "14563": {
+     {
         "name": "Khánh Tiên",
         "type": "xa",
         "slug": "khanh-tien",
@@ -19,7 +19,7 @@
         "code": "14563",
         "parent_code": "375"
     },
-    "14566": {
+     {
         "name": "Khánh Phú",
         "type": "xa",
         "slug": "khanh-phu",
@@ -29,7 +29,7 @@
         "code": "14566",
         "parent_code": "375"
     },
-    "14569": {
+     {
         "name": "Khánh Hòa",
         "type": "xa",
         "slug": "khanh-hoa",
@@ -39,7 +39,7 @@
         "code": "14569",
         "parent_code": "375"
     },
-    "14572": {
+     {
         "name": "Khánh Lợi",
         "type": "xa",
         "slug": "khanh-loi",
@@ -49,7 +49,7 @@
         "code": "14572",
         "parent_code": "375"
     },
-    "14575": {
+     {
         "name": "Khánh An",
         "type": "xa",
         "slug": "khanh-an",
@@ -59,7 +59,7 @@
         "code": "14575",
         "parent_code": "375"
     },
-    "14578": {
+     {
         "name": "Khánh Cường",
         "type": "xa",
         "slug": "khanh-cuong",
@@ -69,7 +69,7 @@
         "code": "14578",
         "parent_code": "375"
     },
-    "14581": {
+     {
         "name": "Khánh Cư",
         "type": "xa",
         "slug": "khanh-cu",
@@ -79,7 +79,7 @@
         "code": "14581",
         "parent_code": "375"
     },
-    "14584": {
+     {
         "name": "Khánh Thiện",
         "type": "xa",
         "slug": "khanh-thien",
@@ -89,7 +89,7 @@
         "code": "14584",
         "parent_code": "375"
     },
-    "14587": {
+     {
         "name": "Khánh Hải",
         "type": "xa",
         "slug": "khanh-hai",
@@ -99,7 +99,7 @@
         "code": "14587",
         "parent_code": "375"
     },
-    "14590": {
+     {
         "name": "Khánh Trung",
         "type": "xa",
         "slug": "khanh-trung",
@@ -109,7 +109,7 @@
         "code": "14590",
         "parent_code": "375"
     },
-    "14593": {
+     {
         "name": "Khánh Mậu",
         "type": "xa",
         "slug": "khanh-mau",
@@ -119,7 +119,7 @@
         "code": "14593",
         "parent_code": "375"
     },
-    "14596": {
+     {
         "name": "Khánh Vân",
         "type": "xa",
         "slug": "khanh-van",
@@ -129,7 +129,7 @@
         "code": "14596",
         "parent_code": "375"
     },
-    "14599": {
+     {
         "name": "Khánh Hội",
         "type": "xa",
         "slug": "khanh-hoi",
@@ -139,7 +139,7 @@
         "code": "14599",
         "parent_code": "375"
     },
-    "14602": {
+     {
         "name": "Khánh Công",
         "type": "xa",
         "slug": "khanh-cong",
@@ -149,7 +149,7 @@
         "code": "14602",
         "parent_code": "375"
     },
-    "14608": {
+     {
         "name": "Khánh Thành",
         "type": "xa",
         "slug": "khanh-thanh",
@@ -159,7 +159,7 @@
         "code": "14608",
         "parent_code": "375"
     },
-    "14611": {
+     {
         "name": "Khánh Nhạc",
         "type": "xa",
         "slug": "khanh-nhac",
@@ -169,7 +169,7 @@
         "code": "14611",
         "parent_code": "375"
     },
-    "14614": {
+     {
         "name": "Khánh Thủy",
         "type": "xa",
         "slug": "khanh-thuy",
@@ -179,7 +179,7 @@
         "code": "14614",
         "parent_code": "375"
     },
-    "14617": {
+     {
         "name": "Khánh Hồng",
         "type": "xa",
         "slug": "khanh-hong",
@@ -189,4 +189,4 @@
         "code": "14617",
         "parent_code": "375"
     }
-}
+]}

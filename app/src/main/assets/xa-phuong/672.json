@@ -1,5 +1,5 @@
 {
-    "24769": {
+    "xa":[ {
         "name": "7",
         "type": "phuong",
         "slug": "7",
@@ -9,7 +9,7 @@
         "code": "24769",
         "parent_code": "672"
     },
-    "24772": {
+     {
         "name": "8",
         "type": "phuong",
         "slug": "8",
@@ -19,7 +19,7 @@
         "code": "24772",
         "parent_code": "672"
     },
-    "24775": {
+     {
         "name": "12",
         "type": "phuong",
         "slug": "12",
@@ -29,7 +29,7 @@
         "code": "24775",
         "parent_code": "672"
     },
-    "24778": {
+     {
         "name": "9",
         "type": "phuong",
         "slug": "9",
@@ -39,7 +39,7 @@
         "code": "24778",
         "parent_code": "672"
     },
-    "24781": {
+     {
         "name": "2",
         "type": "phuong",
         "slug": "2",
@@ -49,7 +49,7 @@
         "code": "24781",
         "parent_code": "672"
     },
-    "24784": {
+     {
         "name": "1",
         "type": "phuong",
         "slug": "1",
@@ -59,7 +59,7 @@
         "code": "24784",
         "parent_code": "672"
     },
-    "24787": {
+     {
         "name": "6",
         "type": "phuong",
         "slug": "6",
@@ -69,7 +69,7 @@
         "code": "24787",
         "parent_code": "672"
     },
-    "24790": {
+     {
         "name": "5",
         "type": "phuong",
         "slug": "5",
@@ -79,7 +79,7 @@
         "code": "24790",
         "parent_code": "672"
     },
-    "24793": {
+     {
         "name": "4",
         "type": "phuong",
         "slug": "4",
@@ -89,7 +89,7 @@
         "code": "24793",
         "parent_code": "672"
     },
-    "24796": {
+     {
         "name": "10",
         "type": "phuong",
         "slug": "10",
@@ -99,7 +99,7 @@
         "code": "24796",
         "parent_code": "672"
     },
-    "24799": {
+     {
         "name": "11",
         "type": "phuong",
         "slug": "11",
@@ -109,7 +109,7 @@
         "code": "24799",
         "parent_code": "672"
     },
-    "24802": {
+     {
         "name": "3",
         "type": "phuong",
         "slug": "3",
@@ -119,7 +119,7 @@
         "code": "24802",
         "parent_code": "672"
     },
-    "24805": {
+     {
         "name": "Xuân Thọ",
         "type": "xa",
         "slug": "xuan-tho",
@@ -129,7 +129,7 @@
         "code": "24805",
         "parent_code": "672"
     },
-    "24808": {
+     {
         "name": "Tà Nung",
         "type": "xa",
         "slug": "ta-nung",
@@ -139,7 +139,7 @@
         "code": "24808",
         "parent_code": "672"
     },
-    "24810": {
+     {
         "name": "Trạm Hành",
         "type": "xa",
         "slug": "tram-hanh",
@@ -149,7 +149,7 @@
         "code": "24810",
         "parent_code": "672"
     },
-    "24811": {
+     {
         "name": "Xuân Trường",
         "type": "xa",
         "slug": "xuan-truong",
@@ -159,4 +159,4 @@
         "code": "24811",
         "parent_code": "672"
     }
-}
+]}

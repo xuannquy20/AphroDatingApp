@@ -1,5 +1,5 @@
 {
-    "03478": {
+    "xa":[ {
         "name": "Sìn Hồ",
         "type": "thi-tran",
         "slug": "sin-ho",
@@ -9,7 +9,7 @@
         "code": "03478",
         "parent_code": "108"
     },
-    "03487": {
+     {
         "name": "Chăn Nưa",
         "type": "xa",
         "slug": "chan-nua",
@@ -19,7 +19,7 @@
         "code": "03487",
         "parent_code": "108"
     },
-    "03493": {
+     {
         "name": "Pa Tần",
         "type": "xa",
         "slug": "pa-tan",
@@ -29,7 +29,7 @@
         "code": "03493",
         "parent_code": "108"
     },
-    "03496": {
+     {
         "name": "Phìn Hồ",
         "type": "xa",
         "slug": "phin-ho",
@@ -39,7 +39,7 @@
         "code": "03496",
         "parent_code": "108"
     },
-    "03499": {
+     {
         "name": "Hồng Thu",
         "type": "xa",
         "slug": "hong-thu",
@@ -49,7 +49,7 @@
         "code": "03499",
         "parent_code": "108"
     },
-    "03505": {
+     {
         "name": "Phăng Sô Lin",
         "type": "xa",
         "slug": "phang-so-lin",
@@ -59,7 +59,7 @@
         "code": "03505",
         "parent_code": "108"
     },
-    "03508": {
+     {
         "name": "Ma Quai",
         "type": "xa",
         "slug": "ma-quai",
@@ -69,7 +69,7 @@
         "code": "03508",
         "parent_code": "108"
     },
-    "03509": {
+     {
         "name": "Lùng Thàng",
         "type": "xa",
         "slug": "lung-thang",
@@ -79,7 +79,7 @@
         "code": "03509",
         "parent_code": "108"
     },
-    "03511": {
+     {
         "name": "Tả Phìn",
         "type": "xa",
         "slug": "ta-phin",
@@ -89,7 +89,7 @@
         "code": "03511",
         "parent_code": "108"
     },
-    "03514": {
+     {
         "name": "Sà Dề Phìn",
         "type": "xa",
         "slug": "sa-de-phin",
@@ -99,7 +99,7 @@
         "code": "03514",
         "parent_code": "108"
     },
-    "03517": {
+     {
         "name": "Nậm Tăm",
         "type": "xa",
         "slug": "nam-tam",
@@ -109,7 +109,7 @@
         "code": "03517",
         "parent_code": "108"
     },
-    "03520": {
+     {
         "name": "Tả Ngảo",
         "type": "xa",
         "slug": "ta-ngao",
@@ -119,7 +119,7 @@
         "code": "03520",
         "parent_code": "108"
     },
-    "03523": {
+     {
         "name": "Pu Sam Cáp",
         "type": "xa",
         "slug": "pu-sam-cap",
@@ -129,7 +129,7 @@
         "code": "03523",
         "parent_code": "108"
     },
-    "03526": {
+     {
         "name": "Nậm Cha",
         "type": "xa",
         "slug": "nam-cha",
@@ -139,7 +139,7 @@
         "code": "03526",
         "parent_code": "108"
     },
-    "03527": {
+     {
         "name": "Pa Khoá",
         "type": "xa",
         "slug": "pa-khoa",
@@ -149,7 +149,7 @@
         "code": "03527",
         "parent_code": "108"
     },
-    "03529": {
+     {
         "name": "Làng Mô",
         "type": "xa",
         "slug": "lang-mo",
@@ -159,7 +159,7 @@
         "code": "03529",
         "parent_code": "108"
     },
-    "03532": {
+     {
         "name": "Noong Hẻo",
         "type": "xa",
         "slug": "noong-heo",
@@ -169,7 +169,7 @@
         "code": "03532",
         "parent_code": "108"
     },
-    "03535": {
+     {
         "name": "Nậm Mạ",
         "type": "xa",
         "slug": "nam-ma",
@@ -179,7 +179,7 @@
         "code": "03535",
         "parent_code": "108"
     },
-    "03538": {
+     {
         "name": "Căn Co",
         "type": "xa",
         "slug": "can-co",
@@ -189,7 +189,7 @@
         "code": "03538",
         "parent_code": "108"
     },
-    "03541": {
+     {
         "name": "Tủa Sín Chải",
         "type": "xa",
         "slug": "tua-sin-chai",
@@ -199,7 +199,7 @@
         "code": "03541",
         "parent_code": "108"
     },
-    "03544": {
+     {
         "name": "Nậm Cuổi",
         "type": "xa",
         "slug": "nam-cuoi",
@@ -209,7 +209,7 @@
         "code": "03544",
         "parent_code": "108"
     },
-    "03547": {
+     {
         "name": "Nậm Hăn",
         "type": "xa",
         "slug": "nam-han",
@@ -219,4 +219,4 @@
         "code": "03547",
         "parent_code": "108"
     }
-}
+]}

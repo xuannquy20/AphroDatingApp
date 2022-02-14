@@ -1,5 +1,5 @@
 {
-    "29623": {
+    "xa":[ {
         "name": "Mỹ An",
         "type": "xa",
         "slug": "my-an",
@@ -9,7 +9,7 @@
         "code": "29623",
         "parent_code": "858"
     },
-    "29626": {
+     {
         "name": "Mỹ Phước",
         "type": "xa",
         "slug": "my-phuoc",
@@ -19,7 +19,7 @@
         "code": "29626",
         "parent_code": "858"
     },
-    "29629": {
+     {
         "name": "An Phước",
         "type": "xa",
         "slug": "an-phuoc",
@@ -29,7 +29,7 @@
         "code": "29629",
         "parent_code": "858"
     },
-    "29632": {
+     {
         "name": "Nhơn Phú",
         "type": "xa",
         "slug": "nhon-phu",
@@ -39,7 +39,7 @@
         "code": "29632",
         "parent_code": "858"
     },
-    "29635": {
+     {
         "name": "Long Mỹ",
         "type": "xa",
         "slug": "long-my",
@@ -49,7 +49,7 @@
         "code": "29635",
         "parent_code": "858"
     },
-    "29638": {
+     {
         "name": "Hòa Tịnh",
         "type": "xa",
         "slug": "hoa-tinh",
@@ -59,7 +59,7 @@
         "code": "29638",
         "parent_code": "858"
     },
-    "29641": {
+     {
         "name": "Cái Nhum",
         "type": "thi-tran",
         "slug": "cai-nhum",
@@ -69,7 +69,7 @@
         "code": "29641",
         "parent_code": "858"
     },
-    "29644": {
+     {
         "name": "Bình Phước",
         "type": "xa",
         "slug": "binh-phuoc",
@@ -79,7 +79,7 @@
         "code": "29644",
         "parent_code": "858"
     },
-    "29647": {
+     {
         "name": "Chánh An",
         "type": "xa",
         "slug": "chanh-an",
@@ -89,7 +89,7 @@
         "code": "29647",
         "parent_code": "858"
     },
-    "29650": {
+     {
         "name": "Tân An Hội",
         "type": "xa",
         "slug": "tan-an-hoi",
@@ -99,7 +99,7 @@
         "code": "29650",
         "parent_code": "858"
     },
-    "29653": {
+     {
         "name": "Tân Long",
         "type": "xa",
         "slug": "tan-long",
@@ -109,7 +109,7 @@
         "code": "29653",
         "parent_code": "858"
     },
-    "29656": {
+     {
         "name": "Tân Long Hội",
         "type": "xa",
         "slug": "tan-long-hoi",
@@ -119,4 +119,4 @@
         "code": "29656",
         "parent_code": "858"
     }
-}
+]}

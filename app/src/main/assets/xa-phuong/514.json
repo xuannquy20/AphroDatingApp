@@ -1,5 +1,5 @@
 {
-    "20854": {
+    "xa":[ {
         "name": "Tiên Kỳ",
         "type": "thi-tran",
         "slug": "tien-ky",
@@ -9,7 +9,7 @@
         "code": "20854",
         "parent_code": "514"
     },
-    "20857": {
+     {
         "name": "Tiên Sơn",
         "type": "xa",
         "slug": "tien-son",
@@ -19,7 +19,7 @@
         "code": "20857",
         "parent_code": "514"
     },
-    "20860": {
+     {
         "name": "Tiên Hà",
         "type": "xa",
         "slug": "tien-ha",
@@ -29,7 +29,7 @@
         "code": "20860",
         "parent_code": "514"
     },
-    "20863": {
+     {
         "name": "Tiên Cẩm",
         "type": "xa",
         "slug": "tien-cam",
@@ -39,7 +39,7 @@
         "code": "20863",
         "parent_code": "514"
     },
-    "20866": {
+     {
         "name": "Tiên Châu",
         "type": "xa",
         "slug": "tien-chau",
@@ -49,7 +49,7 @@
         "code": "20866",
         "parent_code": "514"
     },
-    "20869": {
+     {
         "name": "Tiên Lãnh",
         "type": "xa",
         "slug": "tien-lanh",
@@ -59,7 +59,7 @@
         "code": "20869",
         "parent_code": "514"
     },
-    "20872": {
+     {
         "name": "Tiên Ngọc",
         "type": "xa",
         "slug": "tien-ngoc",
@@ -69,7 +69,7 @@
         "code": "20872",
         "parent_code": "514"
     },
-    "20875": {
+     {
         "name": "Tiên Hiệp",
         "type": "xa",
         "slug": "tien-hiep",
@@ -79,7 +79,7 @@
         "code": "20875",
         "parent_code": "514"
     },
-    "20878": {
+     {
         "name": "Tiên Cảnh",
         "type": "xa",
         "slug": "tien-canh",
@@ -89,7 +89,7 @@
         "code": "20878",
         "parent_code": "514"
     },
-    "20881": {
+     {
         "name": "Tiên Mỹ",
         "type": "xa",
         "slug": "tien-my",
@@ -99,7 +99,7 @@
         "code": "20881",
         "parent_code": "514"
     },
-    "20884": {
+     {
         "name": "Tiên Phong",
         "type": "xa",
         "slug": "tien-phong",
@@ -109,7 +109,7 @@
         "code": "20884",
         "parent_code": "514"
     },
-    "20887": {
+     {
         "name": "Tiên Thọ",
         "type": "xa",
         "slug": "tien-tho",
@@ -119,7 +119,7 @@
         "code": "20887",
         "parent_code": "514"
     },
-    "20890": {
+     {
         "name": "Tiên An",
         "type": "xa",
         "slug": "tien-an",
@@ -129,7 +129,7 @@
         "code": "20890",
         "parent_code": "514"
     },
-    "20893": {
+     {
         "name": "Tiên Lộc",
         "type": "xa",
         "slug": "tien-loc",
@@ -139,7 +139,7 @@
         "code": "20893",
         "parent_code": "514"
     },
-    "20896": {
+     {
         "name": "Tiên Lập",
         "type": "xa",
         "slug": "tien-lap",
@@ -149,4 +149,4 @@
         "code": "20896",
         "parent_code": "514"
     }
-}
+]}

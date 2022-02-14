@@ -33,15 +33,16 @@
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_main2.xml" value="0.1640625" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register.xml" value="0.264" />
-        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register_address.xml" value="0.175" />
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register_address.xml" value="0.2" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register_adress.xml" value="0.264" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register_birth_date.xml" value="0.2463768115942029" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register_birth_day.xml" value="0.2" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register_description.xml" value="0.2" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register_gender.xml" value="0.2" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register_gender_finding.xml" value="0.2463768115942029" />
-        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register_image.xml" value="0.2463768115942029" />
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register_image.xml" value="0.264" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register_name.xml" value="0.23489583333333333" />
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_register_success.xml" value="0.15625" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_rule.xml" value="0.25416666666666665" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/chat_item.xml" value="0.24818840579710144" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />

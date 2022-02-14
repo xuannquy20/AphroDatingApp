@@ -1,5 +1,5 @@
 {
-    "18229": {
+    "xa":[ {
         "name": "Đức Thọ",
         "type": "thi-tran",
         "slug": "duc-tho",
@@ -9,7 +9,7 @@
         "code": "18229",
         "parent_code": "440"
     },
-    "18235": {
+     {
         "name": "Quang Vĩnh",
         "type": "xa",
         "slug": "quang-vinh",
@@ -19,7 +19,7 @@
         "code": "18235",
         "parent_code": "440"
     },
-    "18241": {
+     {
         "name": "Tùng Châu",
         "type": "xa",
         "slug": "tung-chau",
@@ -29,7 +29,7 @@
         "code": "18241",
         "parent_code": "440"
     },
-    "18244": {
+     {
         "name": "Trường Sơn",
         "type": "xa",
         "slug": "truong-son",
@@ -39,7 +39,7 @@
         "code": "18244",
         "parent_code": "440"
     },
-    "18247": {
+     {
         "name": "Liên Minh",
         "type": "xa",
         "slug": "lien-minh",
@@ -49,7 +49,7 @@
         "code": "18247",
         "parent_code": "440"
     },
-    "18253": {
+     {
         "name": "Yên Hồ",
         "type": "xa",
         "slug": "yen-ho",
@@ -59,7 +59,7 @@
         "code": "18253",
         "parent_code": "440"
     },
-    "18259": {
+     {
         "name": "Tùng Ảnh",
         "type": "xa",
         "slug": "tung-anh",
@@ -69,7 +69,7 @@
         "code": "18259",
         "parent_code": "440"
     },
-    "18262": {
+     {
         "name": "Bùi La Nhân",
         "type": "xa",
         "slug": "bui-la-nhan",
@@ -79,7 +79,7 @@
         "code": "18262",
         "parent_code": "440"
     },
-    "18274": {
+     {
         "name": "Thanh Bình Thịnh",
         "type": "xa",
         "slug": "thanh-binh-thinh",
@@ -89,7 +89,7 @@
         "code": "18274",
         "parent_code": "440"
     },
-    "18277": {
+     {
         "name": "Lâm Trung Thủy",
         "type": "xa",
         "slug": "lam-trung-thuy",
@@ -99,7 +99,7 @@
         "code": "18277",
         "parent_code": "440"
     },
-    "18280": {
+     {
         "name": "Hòa Lạc",
         "type": "xa",
         "slug": "hoa-lac",
@@ -109,7 +109,7 @@
         "code": "18280",
         "parent_code": "440"
     },
-    "18283": {
+     {
         "name": "Tân Dân",
         "type": "xa",
         "slug": "tan-dan",
@@ -119,7 +119,7 @@
         "code": "18283",
         "parent_code": "440"
     },
-    "18298": {
+     {
         "name": "An Dũng",
         "type": "xa",
         "slug": "an-dung",
@@ -129,7 +129,7 @@
         "code": "18298",
         "parent_code": "440"
     },
-    "18304": {
+     {
         "name": "Đức Đồng",
         "type": "xa",
         "slug": "duc-dong",
@@ -139,7 +139,7 @@
         "code": "18304",
         "parent_code": "440"
     },
-    "18307": {
+     {
         "name": "Đức Lạng",
         "type": "xa",
         "slug": "duc-lang",
@@ -149,7 +149,7 @@
         "code": "18307",
         "parent_code": "440"
     },
-    "18310": {
+     {
         "name": "Tân Hương",
         "type": "xa",
         "slug": "tan-huong",
@@ -159,4 +159,4 @@
         "code": "18310",
         "parent_code": "440"
     }
-}
+]}

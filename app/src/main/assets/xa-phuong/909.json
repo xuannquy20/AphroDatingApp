@@ -1,5 +1,5 @@
 {
-    "31018": {
+    "xa":[ {
         "name": "Thứ Mười Một",
         "type": "thi-tran",
         "slug": "thu-muoi-mot",
@@ -9,7 +9,7 @@
         "code": "31018",
         "parent_code": "909"
     },
-    "31021": {
+     {
         "name": "Thuận Hoà",
         "type": "xa",
         "slug": "thuan-hoa",
@@ -19,7 +19,7 @@
         "code": "31021",
         "parent_code": "909"
     },
-    "31024": {
+     {
         "name": "Đông Hòa",
         "type": "xa",
         "slug": "dong-hoa",
@@ -29,7 +29,7 @@
         "code": "31024",
         "parent_code": "909"
     },
-    "31030": {
+     {
         "name": "Đông Thạnh",
         "type": "xa",
         "slug": "dong-thanh",
@@ -39,7 +39,7 @@
         "code": "31030",
         "parent_code": "909"
     },
-    "31031": {
+     {
         "name": "Tân Thạnh",
         "type": "xa",
         "slug": "tan-thanh",
@@ -49,7 +49,7 @@
         "code": "31031",
         "parent_code": "909"
     },
-    "31033": {
+     {
         "name": "Đông Hưng",
         "type": "xa",
         "slug": "dong-hung",
@@ -59,7 +59,7 @@
         "code": "31033",
         "parent_code": "909"
     },
-    "31036": {
+     {
         "name": "Đông Hưng A",
         "type": "xa",
         "slug": "dong-hung-a",
@@ -69,7 +69,7 @@
         "code": "31036",
         "parent_code": "909"
     },
-    "31039": {
+     {
         "name": "Đông Hưng B",
         "type": "xa",
         "slug": "dong-hung-b",
@@ -79,7 +79,7 @@
         "code": "31039",
         "parent_code": "909"
     },
-    "31042": {
+     {
         "name": "Vân Khánh",
         "type": "xa",
         "slug": "van-khanh",
@@ -89,7 +89,7 @@
         "code": "31042",
         "parent_code": "909"
     },
-    "31045": {
+     {
         "name": "Vân Khánh Đông",
         "type": "xa",
         "slug": "van-khanh-dong",
@@ -99,7 +99,7 @@
         "code": "31045",
         "parent_code": "909"
     },
-    "31048": {
+     {
         "name": "Vân Khánh Tây",
         "type": "xa",
         "slug": "van-khanh-tay",
@@ -109,4 +109,4 @@
         "code": "31048",
         "parent_code": "909"
     }
-}
+]}

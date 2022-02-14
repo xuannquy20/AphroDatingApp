@@ -1,5 +1,5 @@
 {
-    "28870": {
+    "xa":[ {
         "name": "Chợ Lách",
         "type": "thi-tran",
         "slug": "cho-lach",
@@ -9,7 +9,7 @@
         "code": "28870",
         "parent_code": "832"
     },
-    "28873": {
+     {
         "name": "Phú Phụng",
         "type": "xa",
         "slug": "phu-phung",
@@ -19,7 +19,7 @@
         "code": "28873",
         "parent_code": "832"
     },
-    "28876": {
+     {
         "name": "Sơn Định",
         "type": "xa",
         "slug": "son-dinh",
@@ -29,7 +29,7 @@
         "code": "28876",
         "parent_code": "832"
     },
-    "28879": {
+     {
         "name": "Vĩnh Bình",
         "type": "xa",
         "slug": "vinh-binh",
@@ -39,7 +39,7 @@
         "code": "28879",
         "parent_code": "832"
     },
-    "28882": {
+     {
         "name": "Hòa Nghĩa",
         "type": "xa",
         "slug": "hoa-nghia",
@@ -49,7 +49,7 @@
         "code": "28882",
         "parent_code": "832"
     },
-    "28885": {
+     {
         "name": "Long Thới",
         "type": "xa",
         "slug": "long-thoi",
@@ -59,7 +59,7 @@
         "code": "28885",
         "parent_code": "832"
     },
-    "28888": {
+     {
         "name": "Phú Sơn",
         "type": "xa",
         "slug": "phu-son",
@@ -69,7 +69,7 @@
         "code": "28888",
         "parent_code": "832"
     },
-    "28891": {
+     {
         "name": "Tân Thiềng",
         "type": "xa",
         "slug": "tan-thieng",
@@ -79,7 +79,7 @@
         "code": "28891",
         "parent_code": "832"
     },
-    "28894": {
+     {
         "name": "Vĩnh Thành",
         "type": "xa",
         "slug": "vinh-thanh",
@@ -89,7 +89,7 @@
         "code": "28894",
         "parent_code": "832"
     },
-    "28897": {
+     {
         "name": "Vĩnh Hòa",
         "type": "xa",
         "slug": "vinh-hoa",
@@ -99,7 +99,7 @@
         "code": "28897",
         "parent_code": "832"
     },
-    "28900": {
+     {
         "name": "Hưng Khánh Trung B",
         "type": "xa",
         "slug": "hung-khanh-trung-b",
@@ -109,4 +109,4 @@
         "code": "28900",
         "parent_code": "832"
     }
-}
+]}

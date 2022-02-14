@@ -1,5 +1,5 @@
 {
-    "28108": {
+    "xa":[ {
         "name": "Cần Đước",
         "type": "thi-tran",
         "slug": "can-duoc",
@@ -9,7 +9,7 @@
         "code": "28108",
         "parent_code": "806"
     },
-    "28111": {
+     {
         "name": "Long Trạch",
         "type": "xa",
         "slug": "long-trach",
@@ -19,7 +19,7 @@
         "code": "28111",
         "parent_code": "806"
     },
-    "28114": {
+     {
         "name": "Long Khê",
         "type": "xa",
         "slug": "long-khe",
@@ -29,7 +29,7 @@
         "code": "28114",
         "parent_code": "806"
     },
-    "28117": {
+     {
         "name": "Long Định",
         "type": "xa",
         "slug": "long-dinh",
@@ -39,7 +39,7 @@
         "code": "28117",
         "parent_code": "806"
     },
-    "28120": {
+     {
         "name": "Phước Vân",
         "type": "xa",
         "slug": "phuoc-van",
@@ -49,7 +49,7 @@
         "code": "28120",
         "parent_code": "806"
     },
-    "28123": {
+     {
         "name": "Long Hòa",
         "type": "xa",
         "slug": "long-hoa",
@@ -59,7 +59,7 @@
         "code": "28123",
         "parent_code": "806"
     },
-    "28126": {
+     {
         "name": "Long Cang",
         "type": "xa",
         "slug": "long-cang",
@@ -69,7 +69,7 @@
         "code": "28126",
         "parent_code": "806"
     },
-    "28129": {
+     {
         "name": "Long Sơn",
         "type": "xa",
         "slug": "long-son",
@@ -79,7 +79,7 @@
         "code": "28129",
         "parent_code": "806"
     },
-    "28132": {
+     {
         "name": "Tân Trạch",
         "type": "xa",
         "slug": "tan-trach",
@@ -89,7 +89,7 @@
         "code": "28132",
         "parent_code": "806"
     },
-    "28135": {
+     {
         "name": "Mỹ Lệ",
         "type": "xa",
         "slug": "my-le",
@@ -99,7 +99,7 @@
         "code": "28135",
         "parent_code": "806"
     },
-    "28138": {
+     {
         "name": "Tân Lân",
         "type": "xa",
         "slug": "tan-lan",
@@ -109,7 +109,7 @@
         "code": "28138",
         "parent_code": "806"
     },
-    "28141": {
+     {
         "name": "Phước Tuy",
         "type": "xa",
         "slug": "phuoc-tuy",
@@ -119,7 +119,7 @@
         "code": "28141",
         "parent_code": "806"
     },
-    "28144": {
+     {
         "name": "Long Hựu Đông",
         "type": "xa",
         "slug": "long-huu-dong",
@@ -129,7 +129,7 @@
         "code": "28144",
         "parent_code": "806"
     },
-    "28147": {
+     {
         "name": "Tân Ân",
         "type": "xa",
         "slug": "tan-an",
@@ -139,7 +139,7 @@
         "code": "28147",
         "parent_code": "806"
     },
-    "28150": {
+     {
         "name": "Phước Đông",
         "type": "xa",
         "slug": "phuoc-dong",
@@ -149,7 +149,7 @@
         "code": "28150",
         "parent_code": "806"
     },
-    "28153": {
+     {
         "name": "Long Hựu Tây",
         "type": "xa",
         "slug": "long-huu-tay",
@@ -159,7 +159,7 @@
         "code": "28153",
         "parent_code": "806"
     },
-    "28156": {
+     {
         "name": "Tân Chánh",
         "type": "xa",
         "slug": "tan-chanh",
@@ -169,4 +169,4 @@
         "code": "28156",
         "parent_code": "806"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "19009": {
+    "xa":[ {
         "name": "Ba Đồn",
         "type": "phuong",
         "slug": "ba-don",
@@ -9,7 +9,7 @@
         "code": "19009",
         "parent_code": "458"
     },
-    "19060": {
+     {
         "name": "Quảng Long",
         "type": "phuong",
         "slug": "quang-long",
@@ -19,7 +19,7 @@
         "code": "19060",
         "parent_code": "458"
     },
-    "19066": {
+     {
         "name": "Quảng Thọ",
         "type": "phuong",
         "slug": "quang-tho",
@@ -29,7 +29,7 @@
         "code": "19066",
         "parent_code": "458"
     },
-    "19069": {
+     {
         "name": "Quảng Tiên",
         "type": "xa",
         "slug": "quang-tien",
@@ -39,7 +39,7 @@
         "code": "19069",
         "parent_code": "458"
     },
-    "19075": {
+     {
         "name": "Quảng Trung",
         "type": "xa",
         "slug": "quang-trung",
@@ -49,7 +49,7 @@
         "code": "19075",
         "parent_code": "458"
     },
-    "19078": {
+     {
         "name": "Quảng Phong",
         "type": "phuong",
         "slug": "quang-phong",
@@ -59,7 +59,7 @@
         "code": "19078",
         "parent_code": "458"
     },
-    "19081": {
+     {
         "name": "Quảng Thuận",
         "type": "phuong",
         "slug": "quang-thuan",
@@ -69,7 +69,7 @@
         "code": "19081",
         "parent_code": "458"
     },
-    "19084": {
+     {
         "name": "Quảng Tân",
         "type": "xa",
         "slug": "quang-tan",
@@ -79,7 +79,7 @@
         "code": "19084",
         "parent_code": "458"
     },
-    "19087": {
+     {
         "name": "Quảng Hải",
         "type": "xa",
         "slug": "quang-hai",
@@ -89,7 +89,7 @@
         "code": "19087",
         "parent_code": "458"
     },
-    "19090": {
+     {
         "name": "Quảng Sơn",
         "type": "xa",
         "slug": "quang-son",
@@ -99,7 +99,7 @@
         "code": "19090",
         "parent_code": "458"
     },
-    "19093": {
+     {
         "name": "Quảng Lộc",
         "type": "xa",
         "slug": "quang-loc",
@@ -109,7 +109,7 @@
         "code": "19093",
         "parent_code": "458"
     },
-    "19096": {
+     {
         "name": "Quảng Thủy",
         "type": "xa",
         "slug": "quang-thuy",
@@ -119,7 +119,7 @@
         "code": "19096",
         "parent_code": "458"
     },
-    "19099": {
+     {
         "name": "Quảng Văn",
         "type": "xa",
         "slug": "quang-van",
@@ -129,7 +129,7 @@
         "code": "19099",
         "parent_code": "458"
     },
-    "19102": {
+     {
         "name": "Quảng Phúc",
         "type": "phuong",
         "slug": "quang-phuc",
@@ -139,7 +139,7 @@
         "code": "19102",
         "parent_code": "458"
     },
-    "19105": {
+     {
         "name": "Quảng Hòa",
         "type": "xa",
         "slug": "quang-hoa",
@@ -149,7 +149,7 @@
         "code": "19105",
         "parent_code": "458"
     },
-    "19108": {
+     {
         "name": "Quảng Minh",
         "type": "xa",
         "slug": "quang-minh",
@@ -159,4 +159,4 @@
         "code": "19108",
         "parent_code": "458"
     }
-}
+]}

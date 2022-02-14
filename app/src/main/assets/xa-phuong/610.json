@@ -1,5 +1,5 @@
 {
-    "23341": {
+    "xa":[ {
         "name": "Đắk Glei",
         "type": "thi-tran",
         "slug": "dak-glei",
@@ -9,7 +9,7 @@
         "code": "23341",
         "parent_code": "610"
     },
-    "23344": {
+     {
         "name": "Đắk Blô",
         "type": "xa",
         "slug": "dak-blo",
@@ -19,7 +19,7 @@
         "code": "23344",
         "parent_code": "610"
     },
-    "23347": {
+     {
         "name": "Đắk Man",
         "type": "xa",
         "slug": "dak-man",
@@ -29,7 +29,7 @@
         "code": "23347",
         "parent_code": "610"
     },
-    "23350": {
+     {
         "name": "Đắk Nhoong",
         "type": "xa",
         "slug": "dak-nhoong",
@@ -39,7 +39,7 @@
         "code": "23350",
         "parent_code": "610"
     },
-    "23353": {
+     {
         "name": "Đắk Pék",
         "type": "xa",
         "slug": "dak-pek",
@@ -49,7 +49,7 @@
         "code": "23353",
         "parent_code": "610"
     },
-    "23356": {
+     {
         "name": "Đắk Choong",
         "type": "xa",
         "slug": "dak-choong",
@@ -59,7 +59,7 @@
         "code": "23356",
         "parent_code": "610"
     },
-    "23359": {
+     {
         "name": "Xốp",
         "type": "xa",
         "slug": "xop",
@@ -69,7 +69,7 @@
         "code": "23359",
         "parent_code": "610"
     },
-    "23362": {
+     {
         "name": "Mường Hoong",
         "type": "xa",
         "slug": "muong-hoong",
@@ -79,7 +79,7 @@
         "code": "23362",
         "parent_code": "610"
     },
-    "23365": {
+     {
         "name": "Ngọc Linh",
         "type": "xa",
         "slug": "ngoc-linh",
@@ -89,7 +89,7 @@
         "code": "23365",
         "parent_code": "610"
     },
-    "23368": {
+     {
         "name": "Đắk Long",
         "type": "xa",
         "slug": "dak-long",
@@ -99,7 +99,7 @@
         "code": "23368",
         "parent_code": "610"
     },
-    "23371": {
+     {
         "name": "Đắk KRoong",
         "type": "xa",
         "slug": "dak-kroong",
@@ -109,7 +109,7 @@
         "code": "23371",
         "parent_code": "610"
     },
-    "23374": {
+     {
         "name": "Đắk Môn",
         "type": "xa",
         "slug": "dak-mon",
@@ -119,4 +119,4 @@
         "code": "23374",
         "parent_code": "610"
     }
-}
+]}

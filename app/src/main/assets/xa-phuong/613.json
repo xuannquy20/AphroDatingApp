@@ -1,5 +1,5 @@
 {
-    "23452": {
+    "xa":[ {
         "name": "Đắk Nên",
         "type": "xa",
         "slug": "dak-nen",
@@ -9,7 +9,7 @@
         "code": "23452",
         "parent_code": "613"
     },
-    "23455": {
+     {
         "name": "Đắk Ring",
         "type": "xa",
         "slug": "dak-ring",
@@ -19,7 +19,7 @@
         "code": "23455",
         "parent_code": "613"
     },
-    "23458": {
+     {
         "name": "Măng Buk",
         "type": "xa",
         "slug": "mang-buk",
@@ -29,7 +29,7 @@
         "code": "23458",
         "parent_code": "613"
     },
-    "23461": {
+     {
         "name": "Đắk Tăng",
         "type": "xa",
         "slug": "dak-tang",
@@ -39,7 +39,7 @@
         "code": "23461",
         "parent_code": "613"
     },
-    "23464": {
+     {
         "name": "Ngok Tem",
         "type": "xa",
         "slug": "ngok-tem",
@@ -49,7 +49,7 @@
         "code": "23464",
         "parent_code": "613"
     },
-    "23467": {
+     {
         "name": "Pờ Ê",
         "type": "xa",
         "slug": "po-e",
@@ -59,7 +59,7 @@
         "code": "23467",
         "parent_code": "613"
     },
-    "23470": {
+     {
         "name": "Măng Cành",
         "type": "xa",
         "slug": "mang-canh",
@@ -69,7 +69,7 @@
         "code": "23470",
         "parent_code": "613"
     },
-    "23473": {
+     {
         "name": "Măng Đen",
         "type": "thi-tran",
         "slug": "mang-den",
@@ -79,7 +79,7 @@
         "code": "23473",
         "parent_code": "613"
     },
-    "23476": {
+     {
         "name": "Hiếu",
         "type": "xa",
         "slug": "hieu",
@@ -89,4 +89,4 @@
         "code": "23476",
         "parent_code": "613"
     }
-}
+]}

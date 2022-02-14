@@ -1,5 +1,5 @@
 {
-    "03856": {
+    "xa":[ {
         "name": "Bắc Yên",
         "type": "thi-tran",
         "slug": "bac-yen",
@@ -9,7 +9,7 @@
         "code": "03856",
         "parent_code": "121"
     },
-    "03859": {
+     {
         "name": "Phiêng Ban",
         "type": "xa",
         "slug": "phieng-ban",
@@ -19,7 +19,7 @@
         "code": "03859",
         "parent_code": "121"
     },
-    "03862": {
+     {
         "name": "Hang Chú",
         "type": "xa",
         "slug": "hang-chu",
@@ -29,7 +29,7 @@
         "code": "03862",
         "parent_code": "121"
     },
-    "03865": {
+     {
         "name": "Xím Vàng",
         "type": "xa",
         "slug": "xim-vang",
@@ -39,7 +39,7 @@
         "code": "03865",
         "parent_code": "121"
     },
-    "03868": {
+     {
         "name": "Tà Xùa",
         "type": "xa",
         "slug": "ta-xua",
@@ -49,7 +49,7 @@
         "code": "03868",
         "parent_code": "121"
     },
-    "03869": {
+     {
         "name": "Háng Đồng",
         "type": "xa",
         "slug": "hang-dong",
@@ -59,7 +59,7 @@
         "code": "03869",
         "parent_code": "121"
     },
-    "03871": {
+     {
         "name": "Pắc Ngà",
         "type": "xa",
         "slug": "pac-nga",
@@ -69,7 +69,7 @@
         "code": "03871",
         "parent_code": "121"
     },
-    "03874": {
+     {
         "name": "Làng Chếu",
         "type": "xa",
         "slug": "lang-cheu",
@@ -79,7 +79,7 @@
         "code": "03874",
         "parent_code": "121"
     },
-    "03877": {
+     {
         "name": "Chim Vàn",
         "type": "xa",
         "slug": "chim-van",
@@ -89,7 +89,7 @@
         "code": "03877",
         "parent_code": "121"
     },
-    "03880": {
+     {
         "name": "Mường Khoa",
         "type": "xa",
         "slug": "muong-khoa",
@@ -99,7 +99,7 @@
         "code": "03880",
         "parent_code": "121"
     },
-    "03883": {
+     {
         "name": "Song Pe",
         "type": "xa",
         "slug": "song-pe",
@@ -109,7 +109,7 @@
         "code": "03883",
         "parent_code": "121"
     },
-    "03886": {
+     {
         "name": "Hồng Ngài",
         "type": "xa",
         "slug": "hong-ngai",
@@ -119,7 +119,7 @@
         "code": "03886",
         "parent_code": "121"
     },
-    "03889": {
+     {
         "name": "Tạ Khoa",
         "type": "xa",
         "slug": "ta-khoa",
@@ -129,7 +129,7 @@
         "code": "03889",
         "parent_code": "121"
     },
-    "03890": {
+     {
         "name": "Hua Nhàn",
         "type": "xa",
         "slug": "hua-nhan",
@@ -139,7 +139,7 @@
         "code": "03890",
         "parent_code": "121"
     },
-    "03892": {
+     {
         "name": "Phiêng Côn",
         "type": "xa",
         "slug": "phieng-con",
@@ -149,7 +149,7 @@
         "code": "03892",
         "parent_code": "121"
     },
-    "03895": {
+     {
         "name": "Chiềng Sại",
         "type": "xa",
         "slug": "chieng-sai",
@@ -159,4 +159,4 @@
         "code": "03895",
         "parent_code": "121"
     }
-}
+]}

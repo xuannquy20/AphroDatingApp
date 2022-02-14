@@ -1,5 +1,5 @@
 {
-    "01447": {
+     "xa":[{
         "name": "Trà Lĩnh",
         "type": "thi-tran",
         "slug": "tra-linh",
@@ -9,7 +9,7 @@
         "code": "01447",
         "parent_code": "047"
     },
-    "01453": {
+     {
         "name": "Tri Phương",
         "type": "xa",
         "slug": "tri-phuong",
@@ -19,7 +19,7 @@
         "code": "01453",
         "parent_code": "047"
     },
-    "01456": {
+     {
         "name": "Quang Hán",
         "type": "xa",
         "slug": "quang-han",
@@ -29,7 +29,7 @@
         "code": "01456",
         "parent_code": "047"
     },
-    "01462": {
+     {
         "name": "Xuân Nội",
         "type": "xa",
         "slug": "xuan-noi",
@@ -39,7 +39,7 @@
         "code": "01462",
         "parent_code": "047"
     },
-    "01465": {
+     {
         "name": "Quang Trung",
         "type": "xa",
         "slug": "quang-trung",
@@ -49,7 +49,7 @@
         "code": "01465",
         "parent_code": "047"
     },
-    "01468": {
+     {
         "name": "Quang Vinh",
         "type": "xa",
         "slug": "quang-vinh",
@@ -59,7 +59,7 @@
         "code": "01468",
         "parent_code": "047"
     },
-    "01471": {
+     {
         "name": "Cao Chương",
         "type": "xa",
         "slug": "cao-chuong",
@@ -69,7 +69,7 @@
         "code": "01471",
         "parent_code": "047"
     },
-    "01477": {
+     {
         "name": "Trùng Khánh",
         "type": "thi-tran",
         "slug": "trung-khanh",
@@ -79,7 +79,7 @@
         "code": "01477",
         "parent_code": "047"
     },
-    "01480": {
+     {
         "name": "Ngọc Khê",
         "type": "xa",
         "slug": "ngoc-khe",
@@ -89,7 +89,7 @@
         "code": "01480",
         "parent_code": "047"
     },
-    "01481": {
+     {
         "name": "Ngọc Côn",
         "type": "xa",
         "slug": "ngoc-con",
@@ -99,7 +99,7 @@
         "code": "01481",
         "parent_code": "047"
     },
-    "01483": {
+     {
         "name": "Phong Nậm",
         "type": "xa",
         "slug": "phong-nam",
@@ -109,7 +109,7 @@
         "code": "01483",
         "parent_code": "047"
     },
-    "01489": {
+     {
         "name": "Đình Phong",
         "type": "xa",
         "slug": "dinh-phong",
@@ -119,7 +119,7 @@
         "code": "01489",
         "parent_code": "047"
     },
-    "01495": {
+     {
         "name": "Đàm Thuỷ",
         "type": "xa",
         "slug": "dam-thuy",
@@ -129,7 +129,7 @@
         "code": "01495",
         "parent_code": "047"
     },
-    "01498": {
+     {
         "name": "Khâm Thành",
         "type": "xa",
         "slug": "kham-thanh",
@@ -139,7 +139,7 @@
         "code": "01498",
         "parent_code": "047"
     },
-    "01501": {
+     {
         "name": "Chí Viễn",
         "type": "xa",
         "slug": "chi-vien",
@@ -149,7 +149,7 @@
         "code": "01501",
         "parent_code": "047"
     },
-    "01504": {
+     {
         "name": "Lăng Hiếu",
         "type": "xa",
         "slug": "lang-hieu",
@@ -159,7 +159,7 @@
         "code": "01504",
         "parent_code": "047"
     },
-    "01507": {
+     {
         "name": "Phong Châu",
         "type": "xa",
         "slug": "phong-chau",
@@ -169,7 +169,7 @@
         "code": "01507",
         "parent_code": "047"
     },
-    "01516": {
+     {
         "name": "Trung Phúc",
         "type": "xa",
         "slug": "trung-phuc",
@@ -179,7 +179,7 @@
         "code": "01516",
         "parent_code": "047"
     },
-    "01519": {
+     {
         "name": "Cao Thăng",
         "type": "xa",
         "slug": "cao-thang",
@@ -189,7 +189,7 @@
         "code": "01519",
         "parent_code": "047"
     },
-    "01522": {
+     {
         "name": "Đức Hồng",
         "type": "xa",
         "slug": "duc-hong",
@@ -199,7 +199,7 @@
         "code": "01522",
         "parent_code": "047"
     },
-    "01525": {
+     {
         "name": "Đoài Dương",
         "type": "xa",
         "slug": "doai-duong",
@@ -209,4 +209,5 @@
         "code": "01525",
         "parent_code": "047"
     }
+]
 }

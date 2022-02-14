@@ -1,5 +1,5 @@
 {
-    "22915": {
+    "xa":[ {
         "name": "Mũi Né",
         "type": "phuong",
         "slug": "mui-ne",
@@ -9,7 +9,7 @@
         "code": "22915",
         "parent_code": "593"
     },
-    "22918": {
+     {
         "name": "Hàm Tiến",
         "type": "phuong",
         "slug": "ham-tien",
@@ -19,7 +19,7 @@
         "code": "22918",
         "parent_code": "593"
     },
-    "22921": {
+     {
         "name": "Phú Hài",
         "type": "phuong",
         "slug": "phu-hai",
@@ -29,7 +29,7 @@
         "code": "22921",
         "parent_code": "593"
     },
-    "22924": {
+     {
         "name": "Phú Thủy",
         "type": "phuong",
         "slug": "phu-thuy",
@@ -39,7 +39,7 @@
         "code": "22924",
         "parent_code": "593"
     },
-    "22927": {
+     {
         "name": "Phú Tài",
         "type": "phuong",
         "slug": "phu-tai",
@@ -49,7 +49,7 @@
         "code": "22927",
         "parent_code": "593"
     },
-    "22930": {
+     {
         "name": "Phú Trinh",
         "type": "phuong",
         "slug": "phu-trinh",
@@ -59,7 +59,7 @@
         "code": "22930",
         "parent_code": "593"
     },
-    "22933": {
+     {
         "name": "Xuân An",
         "type": "phuong",
         "slug": "xuan-an",
@@ -69,7 +69,7 @@
         "code": "22933",
         "parent_code": "593"
     },
-    "22936": {
+     {
         "name": "Thanh Hải",
         "type": "phuong",
         "slug": "thanh-hai",
@@ -79,7 +79,7 @@
         "code": "22936",
         "parent_code": "593"
     },
-    "22939": {
+     {
         "name": "Bình Hưng",
         "type": "phuong",
         "slug": "binh-hung",
@@ -89,7 +89,7 @@
         "code": "22939",
         "parent_code": "593"
     },
-    "22942": {
+     {
         "name": "Đức Nghĩa",
         "type": "phuong",
         "slug": "duc-nghia",
@@ -99,7 +99,7 @@
         "code": "22942",
         "parent_code": "593"
     },
-    "22945": {
+     {
         "name": "Lạc Đạo",
         "type": "phuong",
         "slug": "lac-dao",
@@ -109,7 +109,7 @@
         "code": "22945",
         "parent_code": "593"
     },
-    "22948": {
+     {
         "name": "Đức Thắng",
         "type": "phuong",
         "slug": "duc-thang",
@@ -119,7 +119,7 @@
         "code": "22948",
         "parent_code": "593"
     },
-    "22951": {
+     {
         "name": "Hưng Long",
         "type": "phuong",
         "slug": "hung-long",
@@ -129,7 +129,7 @@
         "code": "22951",
         "parent_code": "593"
     },
-    "22954": {
+     {
         "name": "Đức Long",
         "type": "phuong",
         "slug": "duc-long",
@@ -139,7 +139,7 @@
         "code": "22954",
         "parent_code": "593"
     },
-    "22957": {
+     {
         "name": "Thiện Nghiệp",
         "type": "xa",
         "slug": "thien-nghiep",
@@ -149,7 +149,7 @@
         "code": "22957",
         "parent_code": "593"
     },
-    "22960": {
+     {
         "name": "Phong Nẫm",
         "type": "xa",
         "slug": "phong-nam",
@@ -159,7 +159,7 @@
         "code": "22960",
         "parent_code": "593"
     },
-    "22963": {
+     {
         "name": "Tiến Lợi",
         "type": "xa",
         "slug": "tien-loi",
@@ -169,7 +169,7 @@
         "code": "22963",
         "parent_code": "593"
     },
-    "22966": {
+     {
         "name": "Tiến Thành",
         "type": "xa",
         "slug": "tien-thanh",
@@ -179,4 +179,4 @@
         "code": "22966",
         "parent_code": "593"
     }
-}
+]}

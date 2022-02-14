@@ -1,5 +1,5 @@
 {
-    "24958": {
+    "xa":[ {
         "name": "Liên Nghĩa",
         "type": "thi-tran",
         "slug": "lien-nghia",
@@ -9,7 +9,7 @@
         "code": "24958",
         "parent_code": "678"
     },
-    "24961": {
+     {
         "name": "Hiệp An",
         "type": "xa",
         "slug": "hiep-an",
@@ -19,7 +19,7 @@
         "code": "24961",
         "parent_code": "678"
     },
-    "24964": {
+     {
         "name": "Liên Hiệp",
         "type": "xa",
         "slug": "lien-hiep",
@@ -29,7 +29,7 @@
         "code": "24964",
         "parent_code": "678"
     },
-    "24967": {
+     {
         "name": "Hiệp Thạnh",
         "type": "xa",
         "slug": "hiep-thanh",
@@ -39,7 +39,7 @@
         "code": "24967",
         "parent_code": "678"
     },
-    "24970": {
+     {
         "name": "Bình Thạnh",
         "type": "xa",
         "slug": "binh-thanh",
@@ -49,7 +49,7 @@
         "code": "24970",
         "parent_code": "678"
     },
-    "24973": {
+     {
         "name": "N'Thol Hạ",
         "type": "xa",
         "slug": "n-thol-ha",
@@ -59,7 +59,7 @@
         "code": "24973",
         "parent_code": "678"
     },
-    "24976": {
+     {
         "name": "Tân Hội",
         "type": "xa",
         "slug": "tan-hoi",
@@ -69,7 +69,7 @@
         "code": "24976",
         "parent_code": "678"
     },
-    "24979": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -79,7 +79,7 @@
         "code": "24979",
         "parent_code": "678"
     },
-    "24982": {
+     {
         "name": "Phú Hội",
         "type": "xa",
         "slug": "phu-hoi",
@@ -89,7 +89,7 @@
         "code": "24982",
         "parent_code": "678"
     },
-    "24985": {
+     {
         "name": "Ninh Gia",
         "type": "xa",
         "slug": "ninh-gia",
@@ -99,7 +99,7 @@
         "code": "24985",
         "parent_code": "678"
     },
-    "24988": {
+     {
         "name": "Tà Năng",
         "type": "xa",
         "slug": "ta-nang",
@@ -109,7 +109,7 @@
         "code": "24988",
         "parent_code": "678"
     },
-    "24989": {
+     {
         "name": "Đa Quyn",
         "type": "xa",
         "slug": "da-quyn",
@@ -119,7 +119,7 @@
         "code": "24989",
         "parent_code": "678"
     },
-    "24991": {
+     {
         "name": "Tà Hine",
         "type": "xa",
         "slug": "ta-hine",
@@ -129,7 +129,7 @@
         "code": "24991",
         "parent_code": "678"
     },
-    "24994": {
+     {
         "name": "Đà Loan",
         "type": "xa",
         "slug": "da-loan",
@@ -139,7 +139,7 @@
         "code": "24994",
         "parent_code": "678"
     },
-    "24997": {
+     {
         "name": "Ninh Loan",
         "type": "xa",
         "slug": "ninh-loan",
@@ -149,4 +149,4 @@
         "code": "24997",
         "parent_code": "678"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "01222": {
+     "xa" : [{
         "name": "Xuân Minh",
         "type": "xa",
         "slug": "xuan-minh",
@@ -9,7 +9,7 @@
         "code": "01222",
         "parent_code": "035"
     },
-    "01225": {
+     {
         "name": "Tiên Nguyên",
         "type": "xa",
         "slug": "tien-nguyen",
@@ -19,7 +19,7 @@
         "code": "01225",
         "parent_code": "035"
     },
-    "01228": {
+     {
         "name": "Tân Nam",
         "type": "xa",
         "slug": "tan-nam",
@@ -29,7 +29,7 @@
         "code": "01228",
         "parent_code": "035"
     },
-    "01231": {
+     {
         "name": "Bản Rịa",
         "type": "xa",
         "slug": "ban-ria",
@@ -39,7 +39,7 @@
         "code": "01231",
         "parent_code": "035"
     },
-    "01234": {
+     {
         "name": "Yên Thành",
         "type": "xa",
         "slug": "yen-thanh",
@@ -49,7 +49,7 @@
         "code": "01234",
         "parent_code": "035"
     },
-    "01237": {
+     {
         "name": "Yên Bình",
         "type": "thi-tran",
         "slug": "yen-binh",
@@ -59,7 +59,7 @@
         "code": "01237",
         "parent_code": "035"
     },
-    "01240": {
+     {
         "name": "Tân Trịnh",
         "type": "xa",
         "slug": "tan-trinh",
@@ -69,7 +69,7 @@
         "code": "01240",
         "parent_code": "035"
     },
-    "01243": {
+     {
         "name": "Tân Bắc",
         "type": "xa",
         "slug": "tan-bac",
@@ -79,7 +79,7 @@
         "code": "01243",
         "parent_code": "035"
     },
-    "01246": {
+     {
         "name": "Bằng Lang",
         "type": "xa",
         "slug": "bang-lang",
@@ -89,7 +89,7 @@
         "code": "01246",
         "parent_code": "035"
     },
-    "01249": {
+     {
         "name": "Yên Hà",
         "type": "xa",
         "slug": "yen-ha",
@@ -99,7 +99,7 @@
         "code": "01249",
         "parent_code": "035"
     },
-    "01252": {
+     {
         "name": "Hương Sơn",
         "type": "xa",
         "slug": "huong-son",
@@ -109,7 +109,7 @@
         "code": "01252",
         "parent_code": "035"
     },
-    "01255": {
+     {
         "name": "Xuân Giang",
         "type": "xa",
         "slug": "xuan-giang",
@@ -119,7 +119,7 @@
         "code": "01255",
         "parent_code": "035"
     },
-    "01258": {
+     {
         "name": "Nà Khương",
         "type": "xa",
         "slug": "na-khuong",
@@ -129,7 +129,7 @@
         "code": "01258",
         "parent_code": "035"
     },
-    "01261": {
+     {
         "name": "Tiên Yên",
         "type": "xa",
         "slug": "tien-yen",
@@ -139,7 +139,7 @@
         "code": "01261",
         "parent_code": "035"
     },
-    "01264": {
+     {
         "name": "Vĩ Thượng",
         "type": "xa",
         "slug": "vi-thuong",
@@ -149,4 +149,5 @@
         "code": "01264",
         "parent_code": "035"
     }
+]
 }

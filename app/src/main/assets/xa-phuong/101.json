@@ -1,5 +1,5 @@
 {
-    "03203": {
+    "xa":[ {
         "name": "Điện Biên Đông",
         "type": "thi-tran",
         "slug": "dien-bien-dong",
@@ -9,7 +9,7 @@
         "code": "03203",
         "parent_code": "101"
     },
-    "03205": {
+     {
         "name": "Na Son",
         "type": "xa",
         "slug": "na-son",
@@ -19,7 +19,7 @@
         "code": "03205",
         "parent_code": "101"
     },
-    "03208": {
+     {
         "name": "Phì Nhừ",
         "type": "xa",
         "slug": "phi-nhu",
@@ -29,7 +29,7 @@
         "code": "03208",
         "parent_code": "101"
     },
-    "03211": {
+     {
         "name": "Chiềng Sơ",
         "type": "xa",
         "slug": "chieng-so",
@@ -39,7 +39,7 @@
         "code": "03211",
         "parent_code": "101"
     },
-    "03214": {
+     {
         "name": "Mường Luân",
         "type": "xa",
         "slug": "muong-luan",
@@ -49,7 +49,7 @@
         "code": "03214",
         "parent_code": "101"
     },
-    "03370": {
+     {
         "name": "Pú Nhi",
         "type": "xa",
         "slug": "pu-nhi",
@@ -59,7 +59,7 @@
         "code": "03370",
         "parent_code": "101"
     },
-    "03371": {
+     {
         "name": "Nong U",
         "type": "xa",
         "slug": "nong-u",
@@ -69,7 +69,7 @@
         "code": "03371",
         "parent_code": "101"
     },
-    "03373": {
+     {
         "name": "Xa Dung",
         "type": "xa",
         "slug": "xa-dung",
@@ -79,7 +79,7 @@
         "code": "03373",
         "parent_code": "101"
     },
-    "03376": {
+     {
         "name": "Keo Lôm",
         "type": "xa",
         "slug": "keo-lom",
@@ -89,7 +89,7 @@
         "code": "03376",
         "parent_code": "101"
     },
-    "03379": {
+     {
         "name": "Luân Giới",
         "type": "xa",
         "slug": "luan-gioi",
@@ -99,7 +99,7 @@
         "code": "03379",
         "parent_code": "101"
     },
-    "03382": {
+     {
         "name": "Phình Giàng",
         "type": "xa",
         "slug": "phinh-giang",
@@ -109,7 +109,7 @@
         "code": "03382",
         "parent_code": "101"
     },
-    "03383": {
+     {
         "name": "Pú Hồng",
         "type": "xa",
         "slug": "pu-hong",
@@ -119,7 +119,7 @@
         "code": "03383",
         "parent_code": "101"
     },
-    "03384": {
+     {
         "name": "Tìa Dình",
         "type": "xa",
         "slug": "tia-dinh",
@@ -129,7 +129,7 @@
         "code": "03384",
         "parent_code": "101"
     },
-    "03385": {
+     {
         "name": "Háng Lìa",
         "type": "xa",
         "slug": "hang-lia",
@@ -139,4 +139,4 @@
         "code": "03385",
         "parent_code": "101"
     }
-}
+]}

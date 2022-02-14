@@ -107,29 +107,30 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     protected boolean checkData(){
-        final boolean[] check = {false};
-        ref.addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                check[0] = snapshot.hasChild(UserDAO.CURRENT_USER_ID);
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
+        boolean check = false;
+        ref.get().addOnCompleteListener(task -> {
+            if(task.getResult().hasChild(UserDAO.CURRENT_USER_ID)){
+                Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+                startActivity(i);
             }
         });
-        return check[0];
+        return check;
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == 1){
-            Intent i = new Intent(LoginActivity.this, HomeActivity.class);
-            startActivity(i);
             GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(LoginActivity.this);
             UserDAO.CURRENT_USER_ID = account.getId();
+            if(checkData()){
+                Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+                startActivity(i);
+            }
+            else{
+                Intent i = new Intent(LoginActivity.this, RegisterNameActivity.class);
+                startActivity(i);
+            }
         }
         else {
             callbackManager.onActivityResult(requestCode, resultCode, data);

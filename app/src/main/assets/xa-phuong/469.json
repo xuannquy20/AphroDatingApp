@@ -1,5 +1,5 @@
 {
-    "19624": {
+    "xa":[ {
         "name": "Ái Tử",
         "type": "thi-tran",
         "slug": "ai-tu",
@@ -9,7 +9,7 @@
         "code": "19624",
         "parent_code": "469"
     },
-    "19627": {
+     {
         "name": "Triệu An",
         "type": "xa",
         "slug": "trieu-an",
@@ -19,7 +19,7 @@
         "code": "19627",
         "parent_code": "469"
     },
-    "19630": {
+     {
         "name": "Triệu Vân",
         "type": "xa",
         "slug": "trieu-van",
@@ -29,7 +29,7 @@
         "code": "19630",
         "parent_code": "469"
     },
-    "19633": {
+     {
         "name": "Triệu Phước",
         "type": "xa",
         "slug": "trieu-phuoc",
@@ -39,7 +39,7 @@
         "code": "19633",
         "parent_code": "469"
     },
-    "19636": {
+     {
         "name": "Triệu Độ",
         "type": "xa",
         "slug": "trieu-do",
@@ -49,7 +49,7 @@
         "code": "19636",
         "parent_code": "469"
     },
-    "19639": {
+     {
         "name": "Triệu Trạch",
         "type": "xa",
         "slug": "trieu-trach",
@@ -59,7 +59,7 @@
         "code": "19639",
         "parent_code": "469"
     },
-    "19642": {
+     {
         "name": "Triệu Thuận",
         "type": "xa",
         "slug": "trieu-thuan",
@@ -69,7 +69,7 @@
         "code": "19642",
         "parent_code": "469"
     },
-    "19645": {
+     {
         "name": "Triệu Đại",
         "type": "xa",
         "slug": "trieu-dai",
@@ -79,7 +79,7 @@
         "code": "19645",
         "parent_code": "469"
     },
-    "19648": {
+     {
         "name": "Triệu Hòa",
         "type": "xa",
         "slug": "trieu-hoa",
@@ -89,7 +89,7 @@
         "code": "19648",
         "parent_code": "469"
     },
-    "19651": {
+     {
         "name": "Triệu Lăng",
         "type": "xa",
         "slug": "trieu-lang",
@@ -99,7 +99,7 @@
         "code": "19651",
         "parent_code": "469"
     },
-    "19654": {
+     {
         "name": "Triệu Sơn",
         "type": "xa",
         "slug": "trieu-son",
@@ -109,7 +109,7 @@
         "code": "19654",
         "parent_code": "469"
     },
-    "19657": {
+     {
         "name": "Triệu Long",
         "type": "xa",
         "slug": "trieu-long",
@@ -119,7 +119,7 @@
         "code": "19657",
         "parent_code": "469"
     },
-    "19660": {
+     {
         "name": "Triệu Tài",
         "type": "xa",
         "slug": "trieu-tai",
@@ -129,7 +129,7 @@
         "code": "19660",
         "parent_code": "469"
     },
-    "19666": {
+     {
         "name": "Triệu Trung",
         "type": "xa",
         "slug": "trieu-trung",
@@ -139,7 +139,7 @@
         "code": "19666",
         "parent_code": "469"
     },
-    "19669": {
+     {
         "name": "Triệu Ái",
         "type": "xa",
         "slug": "trieu-ai",
@@ -149,7 +149,7 @@
         "code": "19669",
         "parent_code": "469"
     },
-    "19672": {
+     {
         "name": "Triệu Thượng",
         "type": "xa",
         "slug": "trieu-thuong",
@@ -159,7 +159,7 @@
         "code": "19672",
         "parent_code": "469"
     },
-    "19675": {
+     {
         "name": "Triệu Giang",
         "type": "xa",
         "slug": "trieu-giang",
@@ -169,7 +169,7 @@
         "code": "19675",
         "parent_code": "469"
     },
-    "19678": {
+     {
         "name": "Triệu Thành",
         "type": "xa",
         "slug": "trieu-thanh",
@@ -179,4 +179,4 @@
         "code": "19678",
         "parent_code": "469"
     }
-}
+]}

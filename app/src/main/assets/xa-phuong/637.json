@@ -1,5 +1,5 @@
 {
-    "24076": {
+    "xa":[ {
         "name": "Phú Túc",
         "type": "thi-tran",
         "slug": "phu-tuc",
@@ -9,7 +9,7 @@
         "code": "24076",
         "parent_code": "637"
     },
-    "24079": {
+     {
         "name": "Ia RSai",
         "type": "xa",
         "slug": "ia-rsai",
@@ -19,7 +19,7 @@
         "code": "24079",
         "parent_code": "637"
     },
-    "24082": {
+     {
         "name": "Ia RSươm",
         "type": "xa",
         "slug": "ia-rsuom",
@@ -29,7 +29,7 @@
         "code": "24082",
         "parent_code": "637"
     },
-    "24085": {
+     {
         "name": "Chư Gu",
         "type": "xa",
         "slug": "chu-gu",
@@ -39,7 +39,7 @@
         "code": "24085",
         "parent_code": "637"
     },
-    "24088": {
+     {
         "name": "Đất Bằng",
         "type": "xa",
         "slug": "dat-bang",
@@ -49,7 +49,7 @@
         "code": "24088",
         "parent_code": "637"
     },
-    "24091": {
+     {
         "name": "Ia Mláh",
         "type": "xa",
         "slug": "ia-mlah",
@@ -59,7 +59,7 @@
         "code": "24091",
         "parent_code": "637"
     },
-    "24094": {
+     {
         "name": "Chư Drăng",
         "type": "xa",
         "slug": "chu-drang",
@@ -69,7 +69,7 @@
         "code": "24094",
         "parent_code": "637"
     },
-    "24097": {
+     {
         "name": "Phú Cần",
         "type": "xa",
         "slug": "phu-can",
@@ -79,7 +79,7 @@
         "code": "24097",
         "parent_code": "637"
     },
-    "24100": {
+     {
         "name": "Ia HDreh",
         "type": "xa",
         "slug": "ia-hdreh",
@@ -89,7 +89,7 @@
         "code": "24100",
         "parent_code": "637"
     },
-    "24103": {
+     {
         "name": "Ia RMok",
         "type": "xa",
         "slug": "ia-rmok",
@@ -99,7 +99,7 @@
         "code": "24103",
         "parent_code": "637"
     },
-    "24106": {
+     {
         "name": "Chư Ngọc",
         "type": "xa",
         "slug": "chu-ngoc",
@@ -109,7 +109,7 @@
         "code": "24106",
         "parent_code": "637"
     },
-    "24109": {
+     {
         "name": "Uar",
         "type": "xa",
         "slug": "uar",
@@ -119,7 +119,7 @@
         "code": "24109",
         "parent_code": "637"
     },
-    "24112": {
+     {
         "name": "Chư Rcăm",
         "type": "xa",
         "slug": "chu-rcam",
@@ -129,7 +129,7 @@
         "code": "24112",
         "parent_code": "637"
     },
-    "24115": {
+     {
         "name": "Krông Năng",
         "type": "xa",
         "slug": "krong-nang",
@@ -139,4 +139,4 @@
         "code": "24115",
         "parent_code": "637"
     }
-}
+]}

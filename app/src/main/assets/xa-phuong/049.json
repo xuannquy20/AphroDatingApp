@@ -1,5 +1,5 @@
 {
-    "01474": {
+    "xa":[ {
         "name": "Quốc Toản",
         "type": "xa",
         "slug": "quoc-toan",
@@ -9,7 +9,7 @@
         "code": "01474",
         "parent_code": "049"
     },
-    "01576": {
+     {
         "name": "Quảng Uyên",
         "type": "thi-tran",
         "slug": "quang-uyen",
@@ -19,7 +19,7 @@
         "code": "01576",
         "parent_code": "049"
     },
-    "01579": {
+     {
         "name": "Phi Hải",
         "type": "xa",
         "slug": "phi-hai",
@@ -29,7 +29,7 @@
         "code": "01579",
         "parent_code": "049"
     },
-    "01582": {
+     {
         "name": "Quảng Hưng",
         "type": "xa",
         "slug": "quang-hung",
@@ -39,7 +39,7 @@
         "code": "01582",
         "parent_code": "049"
     },
-    "01594": {
+     {
         "name": "Độc Lập",
         "type": "xa",
         "slug": "doc-lap",
@@ -49,7 +49,7 @@
         "code": "01594",
         "parent_code": "049"
     },
-    "01597": {
+     {
         "name": "Cai Bộ",
         "type": "xa",
         "slug": "cai-bo",
@@ -59,7 +59,7 @@
         "code": "01597",
         "parent_code": "049"
     },
-    "01603": {
+     {
         "name": "Phúc Sen",
         "type": "xa",
         "slug": "phuc-sen",
@@ -69,7 +69,7 @@
         "code": "01603",
         "parent_code": "049"
     },
-    "01606": {
+     {
         "name": "Chí Thảo",
         "type": "xa",
         "slug": "chi-thao",
@@ -79,7 +79,7 @@
         "code": "01606",
         "parent_code": "049"
     },
-    "01609": {
+     {
         "name": "Tự Do",
         "type": "xa",
         "slug": "tu-do",
@@ -89,7 +89,7 @@
         "code": "01609",
         "parent_code": "049"
     },
-    "01615": {
+     {
         "name": "Hồng Quang",
         "type": "xa",
         "slug": "hong-quang",
@@ -99,7 +99,7 @@
         "code": "01615",
         "parent_code": "049"
     },
-    "01618": {
+     {
         "name": "Ngọc Động",
         "type": "xa",
         "slug": "ngoc-dong",
@@ -109,7 +109,7 @@
         "code": "01618",
         "parent_code": "049"
     },
-    "01624": {
+     {
         "name": "Hạnh Phúc",
         "type": "xa",
         "slug": "hanh-phuc",
@@ -119,7 +119,7 @@
         "code": "01624",
         "parent_code": "049"
     },
-    "01627": {
+     {
         "name": "Tà Lùng",
         "type": "thi-tran",
         "slug": "ta-lung",
@@ -129,7 +129,7 @@
         "code": "01627",
         "parent_code": "049"
     },
-    "01630": {
+     {
         "name": "Bế Văn Đàn",
         "type": "xa",
         "slug": "be-van-dan",
@@ -139,7 +139,7 @@
         "code": "01630",
         "parent_code": "049"
     },
-    "01636": {
+     {
         "name": "Cách Linh",
         "type": "xa",
         "slug": "cach-linh",
@@ -149,7 +149,7 @@
         "code": "01636",
         "parent_code": "049"
     },
-    "01639": {
+     {
         "name": "Đại Sơn",
         "type": "xa",
         "slug": "dai-son",
@@ -159,7 +159,7 @@
         "code": "01639",
         "parent_code": "049"
     },
-    "01645": {
+     {
         "name": "Tiên Thành",
         "type": "xa",
         "slug": "tien-thanh",
@@ -169,7 +169,7 @@
         "code": "01645",
         "parent_code": "049"
     },
-    "01648": {
+     {
         "name": "Hoà Thuận",
         "type": "thi-tran",
         "slug": "hoa-thuan",
@@ -179,7 +179,7 @@
         "code": "01648",
         "parent_code": "049"
     },
-    "01651": {
+     {
         "name": "Mỹ Hưng",
         "type": "xa",
         "slug": "my-hung",
@@ -189,4 +189,5 @@
         "code": "01651",
         "parent_code": "049"
     }
+]
 }

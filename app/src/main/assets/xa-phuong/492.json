@@ -1,5 +1,5 @@
 {
-    "20227": {
+    "xa":[ {
         "name": "Thanh Bình",
         "type": "phuong",
         "slug": "thanh-binh",
@@ -9,7 +9,7 @@
         "code": "20227",
         "parent_code": "492"
     },
-    "20230": {
+     {
         "name": "Thuận Phước",
         "type": "phuong",
         "slug": "thuan-phuoc",
@@ -19,7 +19,7 @@
         "code": "20230",
         "parent_code": "492"
     },
-    "20233": {
+     {
         "name": "Thạch Thang",
         "type": "phuong",
         "slug": "thach-thang",
@@ -29,7 +29,7 @@
         "code": "20233",
         "parent_code": "492"
     },
-    "20236": {
+     {
         "name": "Hải Châu  I",
         "type": "phuong",
         "slug": "hai-chau-i",
@@ -39,7 +39,7 @@
         "code": "20236",
         "parent_code": "492"
     },
-    "20239": {
+     {
         "name": "Hải Châu II",
         "type": "phuong",
         "slug": "hai-chau-ii",
@@ -49,7 +49,7 @@
         "code": "20239",
         "parent_code": "492"
     },
-    "20242": {
+     {
         "name": "Phước Ninh",
         "type": "phuong",
         "slug": "phuoc-ninh",
@@ -59,7 +59,7 @@
         "code": "20242",
         "parent_code": "492"
     },
-    "20245": {
+     {
         "name": "Hòa Thuận Tây",
         "type": "phuong",
         "slug": "hoa-thuan-tay",
@@ -69,7 +69,7 @@
         "code": "20245",
         "parent_code": "492"
     },
-    "20246": {
+     {
         "name": "Hòa Thuận Đông",
         "type": "phuong",
         "slug": "hoa-thuan-dong",
@@ -79,7 +79,7 @@
         "code": "20246",
         "parent_code": "492"
     },
-    "20248": {
+     {
         "name": "Nam Dương",
         "type": "phuong",
         "slug": "nam-duong",
@@ -89,7 +89,7 @@
         "code": "20248",
         "parent_code": "492"
     },
-    "20251": {
+     {
         "name": "Bình Hiên",
         "type": "phuong",
         "slug": "binh-hien",
@@ -99,7 +99,7 @@
         "code": "20251",
         "parent_code": "492"
     },
-    "20254": {
+     {
         "name": "Bình Thuận",
         "type": "phuong",
         "slug": "binh-thuan",
@@ -109,7 +109,7 @@
         "code": "20254",
         "parent_code": "492"
     },
-    "20257": {
+     {
         "name": "Hòa Cường Bắc",
         "type": "phuong",
         "slug": "hoa-cuong-bac",
@@ -119,7 +119,7 @@
         "code": "20257",
         "parent_code": "492"
     },
-    "20258": {
+     {
         "name": "Hòa Cường Nam",
         "type": "phuong",
         "slug": "hoa-cuong-nam",
@@ -129,4 +129,4 @@
         "code": "20258",
         "parent_code": "492"
     }
-}
+]}

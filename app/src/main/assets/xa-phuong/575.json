@@ -1,5 +1,5 @@
 {
-    "22714": {
+    "xa":[ {
         "name": "Tô Hạp",
         "type": "thi-tran",
         "slug": "to-hap",
@@ -9,7 +9,7 @@
         "code": "22714",
         "parent_code": "575"
     },
-    "22717": {
+     {
         "name": "Thành Sơn",
         "type": "xa",
         "slug": "thanh-son",
@@ -19,7 +19,7 @@
         "code": "22717",
         "parent_code": "575"
     },
-    "22720": {
+     {
         "name": "Sơn Lâm",
         "type": "xa",
         "slug": "son-lam",
@@ -29,7 +29,7 @@
         "code": "22720",
         "parent_code": "575"
     },
-    "22723": {
+     {
         "name": "Sơn Hiệp",
         "type": "xa",
         "slug": "son-hiep",
@@ -39,7 +39,7 @@
         "code": "22723",
         "parent_code": "575"
     },
-    "22726": {
+     {
         "name": "Sơn Bình",
         "type": "xa",
         "slug": "son-binh",
@@ -49,7 +49,7 @@
         "code": "22726",
         "parent_code": "575"
     },
-    "22729": {
+     {
         "name": "Sơn Trung",
         "type": "xa",
         "slug": "son-trung",
@@ -59,7 +59,7 @@
         "code": "22729",
         "parent_code": "575"
     },
-    "22732": {
+     {
         "name": "Ba Cụm Bắc",
         "type": "xa",
         "slug": "ba-cum-bac",
@@ -69,7 +69,7 @@
         "code": "22732",
         "parent_code": "575"
     },
-    "22735": {
+     {
         "name": "Ba Cụm Nam",
         "type": "xa",
         "slug": "ba-cum-nam",
@@ -79,4 +79,4 @@
         "code": "22735",
         "parent_code": "575"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "22969": {
+    "xa":[ {
         "name": "Liên Hương",
         "type": "thi-tran",
         "slug": "lien-huong",
@@ -9,7 +9,7 @@
         "code": "22969",
         "parent_code": "595"
     },
-    "22972": {
+     {
         "name": "Phan Rí Cửa",
         "type": "thi-tran",
         "slug": "phan-ri-cua",
@@ -19,7 +19,7 @@
         "code": "22972",
         "parent_code": "595"
     },
-    "22975": {
+     {
         "name": "Phan Dũng",
         "type": "xa",
         "slug": "phan-dung",
@@ -29,7 +29,7 @@
         "code": "22975",
         "parent_code": "595"
     },
-    "22978": {
+     {
         "name": "Phong Phú",
         "type": "xa",
         "slug": "phong-phu",
@@ -39,7 +39,7 @@
         "code": "22978",
         "parent_code": "595"
     },
-    "22981": {
+     {
         "name": "Vĩnh Hảo",
         "type": "xa",
         "slug": "vinh-hao",
@@ -49,7 +49,7 @@
         "code": "22981",
         "parent_code": "595"
     },
-    "22984": {
+     {
         "name": "Vĩnh Tân",
         "type": "xa",
         "slug": "vinh-tan",
@@ -59,7 +59,7 @@
         "code": "22984",
         "parent_code": "595"
     },
-    "22987": {
+     {
         "name": "Phú Lạc",
         "type": "xa",
         "slug": "phu-lac",
@@ -69,7 +69,7 @@
         "code": "22987",
         "parent_code": "595"
     },
-    "22990": {
+     {
         "name": "Phước Thể",
         "type": "xa",
         "slug": "phuoc-the",
@@ -79,7 +79,7 @@
         "code": "22990",
         "parent_code": "595"
     },
-    "22993": {
+     {
         "name": "Hòa Minh",
         "type": "xa",
         "slug": "hoa-minh",
@@ -89,7 +89,7 @@
         "code": "22993",
         "parent_code": "595"
     },
-    "22996": {
+     {
         "name": "Chí Công",
         "type": "xa",
         "slug": "chi-cong",
@@ -99,7 +99,7 @@
         "code": "22996",
         "parent_code": "595"
     },
-    "22999": {
+     {
         "name": "Bình Thạnh",
         "type": "xa",
         "slug": "binh-thanh",
@@ -109,4 +109,4 @@
         "code": "22999",
         "parent_code": "595"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "17227": {
+    "xa":[ {
         "name": "Con Cuông",
         "type": "thi-tran",
         "slug": "con-cuong",
@@ -9,7 +9,7 @@
         "code": "17227",
         "parent_code": "422"
     },
-    "17230": {
+     {
         "name": "Bình Chuẩn",
         "type": "xa",
         "slug": "binh-chuan",
@@ -19,7 +19,7 @@
         "code": "17230",
         "parent_code": "422"
     },
-    "17233": {
+     {
         "name": "Lạng Khê",
         "type": "xa",
         "slug": "lang-khe",
@@ -29,7 +29,7 @@
         "code": "17233",
         "parent_code": "422"
     },
-    "17236": {
+     {
         "name": "Cam Lâm",
         "type": "xa",
         "slug": "cam-lam",
@@ -39,7 +39,7 @@
         "code": "17236",
         "parent_code": "422"
     },
-    "17239": {
+     {
         "name": "Thạch Ngàn",
         "type": "xa",
         "slug": "thach-ngan",
@@ -49,7 +49,7 @@
         "code": "17239",
         "parent_code": "422"
     },
-    "17242": {
+     {
         "name": "Đôn Phục",
         "type": "xa",
         "slug": "don-phuc",
@@ -59,7 +59,7 @@
         "code": "17242",
         "parent_code": "422"
     },
-    "17245": {
+     {
         "name": "Mậu Đức",
         "type": "xa",
         "slug": "mau-duc",
@@ -69,7 +69,7 @@
         "code": "17245",
         "parent_code": "422"
     },
-    "17248": {
+     {
         "name": "Châu Khê",
         "type": "xa",
         "slug": "chau-khe",
@@ -79,7 +79,7 @@
         "code": "17248",
         "parent_code": "422"
     },
-    "17251": {
+     {
         "name": "Chi Khê",
         "type": "xa",
         "slug": "chi-khe",
@@ -89,7 +89,7 @@
         "code": "17251",
         "parent_code": "422"
     },
-    "17254": {
+     {
         "name": "Bồng Khê",
         "type": "xa",
         "slug": "bong-khe",
@@ -99,7 +99,7 @@
         "code": "17254",
         "parent_code": "422"
     },
-    "17257": {
+     {
         "name": "Yên Khê",
         "type": "xa",
         "slug": "yen-khe",
@@ -109,7 +109,7 @@
         "code": "17257",
         "parent_code": "422"
     },
-    "17260": {
+     {
         "name": "Lục Dạ",
         "type": "xa",
         "slug": "luc-da",
@@ -119,7 +119,7 @@
         "code": "17260",
         "parent_code": "422"
     },
-    "17263": {
+     {
         "name": "Môn Sơn",
         "type": "xa",
         "slug": "mon-son",
@@ -129,4 +129,4 @@
         "code": "17263",
         "parent_code": "422"
     }
-}
+]}

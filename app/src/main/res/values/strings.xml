@@ -2,5 +2,7 @@
     <string name="app_name">Aphro</string>
     <string name="facebook_app_id">1162288111259662</string>
     <string name="fb_login_protocol_scheme">fb1162288111259662</string>
-    <string name="back_button">→</string>
+    <string name="title_day">NGÀY</string>
+    <string name="title_month">THÁNG</string>
+    <string name="title_year">YEAR</string>
 </resources>

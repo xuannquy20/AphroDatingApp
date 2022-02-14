@@ -1,5 +1,5 @@
 {
-    "15607": {
+    "xa":[ {
         "name": "Bát Mọt",
         "type": "xa",
         "slug": "bat-mot",
@@ -9,7 +9,7 @@
         "code": "15607",
         "parent_code": "396"
     },
-    "15610": {
+     {
         "name": "Yên Nhân",
         "type": "xa",
         "slug": "yen-nhan",
@@ -19,7 +19,7 @@
         "code": "15610",
         "parent_code": "396"
     },
-    "15619": {
+     {
         "name": "Xuân Lẹ",
         "type": "xa",
         "slug": "xuan-le",
@@ -29,7 +29,7 @@
         "code": "15619",
         "parent_code": "396"
     },
-    "15622": {
+     {
         "name": "Vạn Xuân",
         "type": "xa",
         "slug": "van-xuan",
@@ -39,7 +39,7 @@
         "code": "15622",
         "parent_code": "396"
     },
-    "15628": {
+     {
         "name": "Lương Sơn",
         "type": "xa",
         "slug": "luong-son",
@@ -49,7 +49,7 @@
         "code": "15628",
         "parent_code": "396"
     },
-    "15631": {
+     {
         "name": "Xuân Cao",
         "type": "xa",
         "slug": "xuan-cao",
@@ -59,7 +59,7 @@
         "code": "15631",
         "parent_code": "396"
     },
-    "15634": {
+     {
         "name": "Luận Thành",
         "type": "xa",
         "slug": "luan-thanh",
@@ -69,7 +69,7 @@
         "code": "15634",
         "parent_code": "396"
     },
-    "15637": {
+     {
         "name": "Luận Khê",
         "type": "xa",
         "slug": "luan-khe",
@@ -79,7 +79,7 @@
         "code": "15637",
         "parent_code": "396"
     },
-    "15640": {
+     {
         "name": "Xuân Thắng",
         "type": "xa",
         "slug": "xuan-thang",
@@ -89,7 +89,7 @@
         "code": "15640",
         "parent_code": "396"
     },
-    "15643": {
+     {
         "name": "Xuân Lộc",
         "type": "xa",
         "slug": "xuan-loc",
@@ -99,7 +99,7 @@
         "code": "15643",
         "parent_code": "396"
     },
-    "15646": {
+     {
         "name": "Thường Xuân",
         "type": "thi-tran",
         "slug": "thuong-xuan",
@@ -109,7 +109,7 @@
         "code": "15646",
         "parent_code": "396"
     },
-    "15649": {
+     {
         "name": "Xuân Dương",
         "type": "xa",
         "slug": "xuan-duong",
@@ -119,7 +119,7 @@
         "code": "15649",
         "parent_code": "396"
     },
-    "15652": {
+     {
         "name": "Thọ Thanh",
         "type": "xa",
         "slug": "tho-thanh",
@@ -129,7 +129,7 @@
         "code": "15652",
         "parent_code": "396"
     },
-    "15655": {
+     {
         "name": "Ngọc Phụng",
         "type": "xa",
         "slug": "ngoc-phung",
@@ -139,7 +139,7 @@
         "code": "15655",
         "parent_code": "396"
     },
-    "15658": {
+     {
         "name": "Xuân Chinh",
         "type": "xa",
         "slug": "xuan-chinh",
@@ -149,7 +149,7 @@
         "code": "15658",
         "parent_code": "396"
     },
-    "15661": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -159,4 +159,4 @@
         "code": "15661",
         "parent_code": "396"
     }
-}
+]}

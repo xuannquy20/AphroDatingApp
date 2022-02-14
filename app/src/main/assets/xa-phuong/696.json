@@ -1,5 +1,5 @@
 {
-    "25396": {
+    "xa":[ {
         "name": "Đức Phong",
         "type": "thi-tran",
         "slug": "duc-phong",
@@ -9,7 +9,7 @@
         "code": "25396",
         "parent_code": "696"
     },
-    "25398": {
+     {
         "name": "Đường 10",
         "type": "xa",
         "slug": "duong-10",
@@ -19,7 +19,7 @@
         "code": "25398",
         "parent_code": "696"
     },
-    "25399": {
+     {
         "name": "Đak Nhau",
         "type": "xa",
         "slug": "dak-nhau",
@@ -29,7 +29,7 @@
         "code": "25399",
         "parent_code": "696"
     },
-    "25400": {
+     {
         "name": "Phú Sơn",
         "type": "xa",
         "slug": "phu-son",
@@ -39,7 +39,7 @@
         "code": "25400",
         "parent_code": "696"
     },
-    "25402": {
+     {
         "name": "Thọ Sơn",
         "type": "xa",
         "slug": "tho-son",
@@ -49,7 +49,7 @@
         "code": "25402",
         "parent_code": "696"
     },
-    "25404": {
+     {
         "name": "Bình Minh",
         "type": "xa",
         "slug": "binh-minh",
@@ -59,7 +59,7 @@
         "code": "25404",
         "parent_code": "696"
     },
-    "25405": {
+     {
         "name": "Bom Bo",
         "type": "xa",
         "slug": "bom-bo",
@@ -69,7 +69,7 @@
         "code": "25405",
         "parent_code": "696"
     },
-    "25408": {
+     {
         "name": "Minh Hưng",
         "type": "xa",
         "slug": "minh-hung",
@@ -79,7 +79,7 @@
         "code": "25408",
         "parent_code": "696"
     },
-    "25411": {
+     {
         "name": "Đoàn Kết",
         "type": "xa",
         "slug": "doan-ket",
@@ -89,7 +89,7 @@
         "code": "25411",
         "parent_code": "696"
     },
-    "25414": {
+     {
         "name": "Đồng Nai",
         "type": "xa",
         "slug": "dong-nai",
@@ -99,7 +99,7 @@
         "code": "25414",
         "parent_code": "696"
     },
-    "25417": {
+     {
         "name": "Đức Liễu",
         "type": "xa",
         "slug": "duc-lieu",
@@ -109,7 +109,7 @@
         "code": "25417",
         "parent_code": "696"
     },
-    "25420": {
+     {
         "name": "Thống Nhất",
         "type": "xa",
         "slug": "thong-nhat",
@@ -119,7 +119,7 @@
         "code": "25420",
         "parent_code": "696"
     },
-    "25423": {
+     {
         "name": "Nghĩa Trung",
         "type": "xa",
         "slug": "nghia-trung",
@@ -129,7 +129,7 @@
         "code": "25423",
         "parent_code": "696"
     },
-    "25424": {
+     {
         "name": "Nghĩa Bình",
         "type": "xa",
         "slug": "nghia-binh",
@@ -139,7 +139,7 @@
         "code": "25424",
         "parent_code": "696"
     },
-    "25426": {
+     {
         "name": "Đăng Hà",
         "type": "xa",
         "slug": "dang-ha",
@@ -149,7 +149,7 @@
         "code": "25426",
         "parent_code": "696"
     },
-    "25429": {
+     {
         "name": "Phước Sơn",
         "type": "xa",
         "slug": "phuoc-son",
@@ -159,4 +159,4 @@
         "code": "25429",
         "parent_code": "696"
     }
-}
+]}

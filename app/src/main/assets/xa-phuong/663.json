@@ -1,5 +1,5 @@
 {
-    "24664": {
+    "xa":[ {
         "name": "Đắk Mil",
         "type": "thi-tran",
         "slug": "dak-mil",
@@ -9,7 +9,7 @@
         "code": "24664",
         "parent_code": "663"
     },
-    "24667": {
+     {
         "name": "Đắk Lao",
         "type": "xa",
         "slug": "dak-lao",
@@ -19,7 +19,7 @@
         "code": "24667",
         "parent_code": "663"
     },
-    "24670": {
+     {
         "name": "Đắk R'La",
         "type": "xa",
         "slug": "dak-r-la",
@@ -29,7 +29,7 @@
         "code": "24670",
         "parent_code": "663"
     },
-    "24673": {
+     {
         "name": "Đắk Gằn",
         "type": "xa",
         "slug": "dak-gan",
@@ -39,7 +39,7 @@
         "code": "24673",
         "parent_code": "663"
     },
-    "24676": {
+     {
         "name": "Đức Mạnh",
         "type": "xa",
         "slug": "duc-manh",
@@ -49,7 +49,7 @@
         "code": "24676",
         "parent_code": "663"
     },
-    "24677": {
+     {
         "name": "Đắk N'Drót",
         "type": "xa",
         "slug": "dak-n-drot",
@@ -59,7 +59,7 @@
         "code": "24677",
         "parent_code": "663"
     },
-    "24678": {
+     {
         "name": "Long Sơn",
         "type": "xa",
         "slug": "long-son",
@@ -69,7 +69,7 @@
         "code": "24678",
         "parent_code": "663"
     },
-    "24679": {
+     {
         "name": "Đắk Sắk",
         "type": "xa",
         "slug": "dak-sak",
@@ -79,7 +79,7 @@
         "code": "24679",
         "parent_code": "663"
     },
-    "24682": {
+     {
         "name": "Thuận An",
         "type": "xa",
         "slug": "thuan-an",
@@ -89,7 +89,7 @@
         "code": "24682",
         "parent_code": "663"
     },
-    "24685": {
+     {
         "name": "Đức Minh",
         "type": "xa",
         "slug": "duc-minh",
@@ -99,4 +99,4 @@
         "code": "24685",
         "parent_code": "663"
     }
-}
+]}

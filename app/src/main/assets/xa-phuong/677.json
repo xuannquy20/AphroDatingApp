@@ -1,5 +1,5 @@
 {
-    "24928": {
+    "xa":[ {
         "name": "D'Ran",
         "type": "thi-tran",
         "slug": "d-ran",
@@ -9,7 +9,7 @@
         "code": "24928",
         "parent_code": "677"
     },
-    "24931": {
+     {
         "name": "Thạnh Mỹ",
         "type": "thi-tran",
         "slug": "thanh-my",
@@ -19,7 +19,7 @@
         "code": "24931",
         "parent_code": "677"
     },
-    "24934": {
+     {
         "name": "Lạc Xuân",
         "type": "xa",
         "slug": "lac-xuan",
@@ -29,7 +29,7 @@
         "code": "24934",
         "parent_code": "677"
     },
-    "24937": {
+     {
         "name": "Đạ Ròn",
         "type": "xa",
         "slug": "da-ron",
@@ -39,7 +39,7 @@
         "code": "24937",
         "parent_code": "677"
     },
-    "24940": {
+     {
         "name": "Lạc Lâm",
         "type": "xa",
         "slug": "lac-lam",
@@ -49,7 +49,7 @@
         "code": "24940",
         "parent_code": "677"
     },
-    "24943": {
+     {
         "name": "Ka Đô",
         "type": "xa",
         "slug": "ka-do",
@@ -59,7 +59,7 @@
         "code": "24943",
         "parent_code": "677"
     },
-    "24946": {
+     {
         "name": "Quảng Lập",
         "type": "xa",
         "slug": "quang-lap",
@@ -69,7 +69,7 @@
         "code": "24946",
         "parent_code": "677"
     },
-    "24949": {
+     {
         "name": "Ka Đơn",
         "type": "xa",
         "slug": "ka-don",
@@ -79,7 +79,7 @@
         "code": "24949",
         "parent_code": "677"
     },
-    "24952": {
+     {
         "name": "Tu Tra",
         "type": "xa",
         "slug": "tu-tra",
@@ -89,7 +89,7 @@
         "code": "24952",
         "parent_code": "677"
     },
-    "24955": {
+     {
         "name": "Pró",
         "type": "xa",
         "slug": "pro",
@@ -99,4 +99,4 @@
         "code": "24955",
         "parent_code": "677"
     }
-}
+]}

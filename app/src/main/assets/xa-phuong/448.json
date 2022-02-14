@@ -1,5 +1,5 @@
 {
-    "18409": {
+    "xa":[ {
         "name": "Tân Lộc",
         "type": "xa",
         "slug": "tan-loc",
@@ -9,7 +9,7 @@
         "code": "18409",
         "parent_code": "448"
     },
-    "18412": {
+     {
         "name": "Hồng Lộc",
         "type": "xa",
         "slug": "hong-loc",
@@ -19,7 +19,7 @@
         "code": "18412",
         "parent_code": "448"
     },
-    "18421": {
+     {
         "name": "Thịnh Lộc",
         "type": "xa",
         "slug": "thinh-loc",
@@ -29,7 +29,7 @@
         "code": "18421",
         "parent_code": "448"
     },
-    "18430": {
+     {
         "name": "Bình An",
         "type": "xa",
         "slug": "binh-an",
@@ -39,7 +39,7 @@
         "code": "18430",
         "parent_code": "448"
     },
-    "18457": {
+     {
         "name": "Ích Hậu",
         "type": "xa",
         "slug": "ich-hau",
@@ -49,7 +49,7 @@
         "code": "18457",
         "parent_code": "448"
     },
-    "18493": {
+     {
         "name": "Phù Lưu",
         "type": "xa",
         "slug": "phu-luu",
@@ -59,7 +59,7 @@
         "code": "18493",
         "parent_code": "448"
     },
-    "18568": {
+     {
         "name": "Lộc Hà",
         "type": "thi-tran",
         "slug": "loc-ha",
@@ -69,7 +69,7 @@
         "code": "18568",
         "parent_code": "448"
     },
-    "18577": {
+     {
         "name": "Thạch Mỹ",
         "type": "xa",
         "slug": "thach-my",
@@ -79,7 +79,7 @@
         "code": "18577",
         "parent_code": "448"
     },
-    "18580": {
+     {
         "name": "Thạch Kim",
         "type": "xa",
         "slug": "thach-kim",
@@ -89,7 +89,7 @@
         "code": "18580",
         "parent_code": "448"
     },
-    "18583": {
+     {
         "name": "Thạch Châu",
         "type": "xa",
         "slug": "thach-chau",
@@ -99,7 +99,7 @@
         "code": "18583",
         "parent_code": "448"
     },
-    "18598": {
+     {
         "name": "Hộ Độ",
         "type": "xa",
         "slug": "ho-do",
@@ -109,7 +109,7 @@
         "code": "18598",
         "parent_code": "448"
     },
-    "18670": {
+     {
         "name": "Mai Phụ",
         "type": "xa",
         "slug": "mai-phu",
@@ -119,4 +119,4 @@
         "code": "18670",
         "parent_code": "448"
     }
-}
+]}

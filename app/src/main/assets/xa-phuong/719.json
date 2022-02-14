@@ -1,5 +1,5 @@
 {
-    "25816": {
+    "xa":[ {
         "name": "Trừ Văn Thố",
         "type": "xa",
         "slug": "tru-van-tho",
@@ -9,7 +9,7 @@
         "code": "25816",
         "parent_code": "719"
     },
-    "25819": {
+     {
         "name": "Cây Trường II",
         "type": "xa",
         "slug": "cay-truong-ii",
@@ -19,7 +19,7 @@
         "code": "25819",
         "parent_code": "719"
     },
-    "25822": {
+     {
         "name": "Lai Uyên",
         "type": "thi-tran",
         "slug": "lai-uyen",
@@ -29,7 +29,7 @@
         "code": "25822",
         "parent_code": "719"
     },
-    "25825": {
+     {
         "name": "Tân Hưng",
         "type": "xa",
         "slug": "tan-hung",
@@ -39,7 +39,7 @@
         "code": "25825",
         "parent_code": "719"
     },
-    "25828": {
+     {
         "name": "Long Nguyên",
         "type": "xa",
         "slug": "long-nguyen",
@@ -49,7 +49,7 @@
         "code": "25828",
         "parent_code": "719"
     },
-    "25831": {
+     {
         "name": "Hưng Hòa",
         "type": "xa",
         "slug": "hung-hoa",
@@ -59,7 +59,7 @@
         "code": "25831",
         "parent_code": "719"
     },
-    "25834": {
+     {
         "name": "Lai Hưng",
         "type": "xa",
         "slug": "lai-hung",
@@ -69,4 +69,4 @@
         "code": "25834",
         "parent_code": "719"
     }
-}
+]}

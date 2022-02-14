@@ -1,5 +1,5 @@
 {
-    "20203": {
+    "xa":[ {
         "name": "Tam Thuận",
         "type": "phuong",
         "slug": "tam-thuan",
@@ -9,7 +9,7 @@
         "code": "20203",
         "parent_code": "491"
     },
-    "20206": {
+     {
         "name": "Thanh Khê Tây",
         "type": "phuong",
         "slug": "thanh-khe-tay",
@@ -19,7 +19,7 @@
         "code": "20206",
         "parent_code": "491"
     },
-    "20207": {
+     {
         "name": "Thanh Khê Đông",
         "type": "phuong",
         "slug": "thanh-khe-dong",
@@ -29,7 +29,7 @@
         "code": "20207",
         "parent_code": "491"
     },
-    "20209": {
+     {
         "name": "Xuân Hà",
         "type": "phuong",
         "slug": "xuan-ha",
@@ -39,7 +39,7 @@
         "code": "20209",
         "parent_code": "491"
     },
-    "20212": {
+     {
         "name": "Tân Chính",
         "type": "phuong",
         "slug": "tan-chinh",
@@ -49,7 +49,7 @@
         "code": "20212",
         "parent_code": "491"
     },
-    "20215": {
+     {
         "name": "Chính Gián",
         "type": "phuong",
         "slug": "chinh-gian",
@@ -59,7 +59,7 @@
         "code": "20215",
         "parent_code": "491"
     },
-    "20218": {
+     {
         "name": "Vĩnh Trung",
         "type": "phuong",
         "slug": "vinh-trung",
@@ -69,7 +69,7 @@
         "code": "20218",
         "parent_code": "491"
     },
-    "20221": {
+     {
         "name": "Thạc Gián",
         "type": "phuong",
         "slug": "thac-gian",
@@ -79,7 +79,7 @@
         "code": "20221",
         "parent_code": "491"
     },
-    "20224": {
+     {
         "name": "An Khê",
         "type": "phuong",
         "slug": "an-khe",
@@ -89,7 +89,7 @@
         "code": "20224",
         "parent_code": "491"
     },
-    "20225": {
+     {
         "name": "Hòa Khê",
         "type": "phuong",
         "slug": "hoa-khe",
@@ -99,4 +99,4 @@
         "code": "20225",
         "parent_code": "491"
     }
-}
+]}

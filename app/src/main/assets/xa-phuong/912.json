@@ -1,5 +1,5 @@
 {
-    "31108": {
+    "xa":[ {
         "name": "Hòn Tre",
         "type": "xa",
         "slug": "hon-tre",
@@ -9,7 +9,7 @@
         "code": "31108",
         "parent_code": "912"
     },
-    "31111": {
+     {
         "name": "Lại Sơn",
         "type": "xa",
         "slug": "lai-son",
@@ -19,7 +19,7 @@
         "code": "31111",
         "parent_code": "912"
     },
-    "31114": {
+     {
         "name": "An Sơn",
         "type": "xa",
         "slug": "an-son",
@@ -29,7 +29,7 @@
         "code": "31114",
         "parent_code": "912"
     },
-    "31115": {
+     {
         "name": "Nam Du",
         "type": "xa",
         "slug": "nam-du",
@@ -39,4 +39,4 @@
         "code": "31115",
         "parent_code": "912"
     }
-}
+]}

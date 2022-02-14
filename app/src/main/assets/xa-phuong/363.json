@@ -1,5 +1,5 @@
 {
-    "14026": {
+    "xa":[ {
         "name": "Cổ Lễ",
         "type": "thi-tran",
         "slug": "co-le",
@@ -9,7 +9,7 @@
         "code": "14026",
         "parent_code": "363"
     },
-    "14029": {
+     {
         "name": "Phương Định",
         "type": "xa",
         "slug": "phuong-dinh",
@@ -19,7 +19,7 @@
         "code": "14029",
         "parent_code": "363"
     },
-    "14032": {
+     {
         "name": "Trực Chính",
         "type": "xa",
         "slug": "truc-chinh",
@@ -29,7 +29,7 @@
         "code": "14032",
         "parent_code": "363"
     },
-    "14035": {
+     {
         "name": "Trung Đông",
         "type": "xa",
         "slug": "trung-dong",
@@ -39,7 +39,7 @@
         "code": "14035",
         "parent_code": "363"
     },
-    "14038": {
+     {
         "name": "Liêm Hải",
         "type": "xa",
         "slug": "liem-hai",
@@ -49,7 +49,7 @@
         "code": "14038",
         "parent_code": "363"
     },
-    "14041": {
+     {
         "name": "Trực Tuấn",
         "type": "xa",
         "slug": "truc-tuan",
@@ -59,7 +59,7 @@
         "code": "14041",
         "parent_code": "363"
     },
-    "14044": {
+     {
         "name": "Việt Hùng",
         "type": "xa",
         "slug": "viet-hung",
@@ -69,7 +69,7 @@
         "code": "14044",
         "parent_code": "363"
     },
-    "14047": {
+     {
         "name": "Trực Đạo",
         "type": "xa",
         "slug": "truc-dao",
@@ -79,7 +79,7 @@
         "code": "14047",
         "parent_code": "363"
     },
-    "14050": {
+     {
         "name": "Trực Hưng",
         "type": "xa",
         "slug": "truc-hung",
@@ -89,7 +89,7 @@
         "code": "14050",
         "parent_code": "363"
     },
-    "14053": {
+     {
         "name": "Trực Nội",
         "type": "xa",
         "slug": "truc-noi",
@@ -99,7 +99,7 @@
         "code": "14053",
         "parent_code": "363"
     },
-    "14056": {
+     {
         "name": "Cát Thành",
         "type": "thi-tran",
         "slug": "cat-thanh",
@@ -109,7 +109,7 @@
         "code": "14056",
         "parent_code": "363"
     },
-    "14059": {
+     {
         "name": "Trực Thanh",
         "type": "xa",
         "slug": "truc-thanh",
@@ -119,7 +119,7 @@
         "code": "14059",
         "parent_code": "363"
     },
-    "14062": {
+     {
         "name": "Trực Khang",
         "type": "xa",
         "slug": "truc-khang",
@@ -129,7 +129,7 @@
         "code": "14062",
         "parent_code": "363"
     },
-    "14065": {
+     {
         "name": "Trực Thuận",
         "type": "xa",
         "slug": "truc-thuan",
@@ -139,7 +139,7 @@
         "code": "14065",
         "parent_code": "363"
     },
-    "14068": {
+     {
         "name": "Trực Mỹ",
         "type": "xa",
         "slug": "truc-my",
@@ -149,7 +149,7 @@
         "code": "14068",
         "parent_code": "363"
     },
-    "14071": {
+     {
         "name": "Trực Đại",
         "type": "xa",
         "slug": "truc-dai",
@@ -159,7 +159,7 @@
         "code": "14071",
         "parent_code": "363"
     },
-    "14074": {
+     {
         "name": "Trực Cường",
         "type": "xa",
         "slug": "truc-cuong",
@@ -169,7 +169,7 @@
         "code": "14074",
         "parent_code": "363"
     },
-    "14077": {
+     {
         "name": "Ninh Cường",
         "type": "thi-tran",
         "slug": "ninh-cuong",
@@ -179,7 +179,7 @@
         "code": "14077",
         "parent_code": "363"
     },
-    "14080": {
+     {
         "name": "Trực Thái",
         "type": "xa",
         "slug": "truc-thai",
@@ -189,7 +189,7 @@
         "code": "14080",
         "parent_code": "363"
     },
-    "14083": {
+     {
         "name": "Trực Hùng",
         "type": "xa",
         "slug": "truc-hung",
@@ -199,7 +199,7 @@
         "code": "14083",
         "parent_code": "363"
     },
-    "14086": {
+     {
         "name": "Trực Thắng",
         "type": "xa",
         "slug": "truc-thang",
@@ -209,4 +209,4 @@
         "code": "14086",
         "parent_code": "363"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "29542": {
+    "xa":[ {
         "name": "9",
         "type": "phuong",
         "slug": "9",
@@ -9,7 +9,7 @@
         "code": "29542",
         "parent_code": "855"
     },
-    "29545": {
+     {
         "name": "5",
         "type": "phuong",
         "slug": "5",
@@ -19,7 +19,7 @@
         "code": "29545",
         "parent_code": "855"
     },
-    "29548": {
+     {
         "name": "1",
         "type": "phuong",
         "slug": "1",
@@ -29,7 +29,7 @@
         "code": "29548",
         "parent_code": "855"
     },
-    "29551": {
+     {
         "name": "2",
         "type": "phuong",
         "slug": "2",
@@ -39,7 +39,7 @@
         "code": "29551",
         "parent_code": "855"
     },
-    "29554": {
+     {
         "name": "4",
         "type": "phuong",
         "slug": "4",
@@ -49,7 +49,7 @@
         "code": "29554",
         "parent_code": "855"
     },
-    "29557": {
+     {
         "name": "3",
         "type": "phuong",
         "slug": "3",
@@ -59,7 +59,7 @@
         "code": "29557",
         "parent_code": "855"
     },
-    "29560": {
+     {
         "name": "8",
         "type": "phuong",
         "slug": "8",
@@ -69,7 +69,7 @@
         "code": "29560",
         "parent_code": "855"
     },
-    "29563": {
+     {
         "name": "Tân Ngãi",
         "type": "phuong",
         "slug": "tan-ngai",
@@ -79,7 +79,7 @@
         "code": "29563",
         "parent_code": "855"
     },
-    "29566": {
+     {
         "name": "Tân Hòa",
         "type": "phuong",
         "slug": "tan-hoa",
@@ -89,7 +89,7 @@
         "code": "29566",
         "parent_code": "855"
     },
-    "29569": {
+     {
         "name": "Tân Hội",
         "type": "phuong",
         "slug": "tan-hoi",
@@ -99,7 +99,7 @@
         "code": "29569",
         "parent_code": "855"
     },
-    "29572": {
+     {
         "name": "Trường An",
         "type": "phuong",
         "slug": "truong-an",
@@ -109,4 +109,4 @@
         "code": "29572",
         "parent_code": "855"
     }
-}
+]}

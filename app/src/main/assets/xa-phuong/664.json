@@ -1,5 +1,5 @@
 {
-    "24688": {
+    "xa":[ {
         "name": "Đắk Mâm",
         "type": "thi-tran",
         "slug": "dak-mam",
@@ -9,7 +9,7 @@
         "code": "24688",
         "parent_code": "664"
     },
-    "24691": {
+     {
         "name": "Đắk Sôr",
         "type": "xa",
         "slug": "dak-sor",
@@ -19,7 +19,7 @@
         "code": "24691",
         "parent_code": "664"
     },
-    "24692": {
+     {
         "name": "Nam Xuân",
         "type": "xa",
         "slug": "nam-xuan",
@@ -29,7 +29,7 @@
         "code": "24692",
         "parent_code": "664"
     },
-    "24694": {
+     {
         "name": "Buôn Choah",
         "type": "xa",
         "slug": "buon-choah",
@@ -39,7 +39,7 @@
         "code": "24694",
         "parent_code": "664"
     },
-    "24697": {
+     {
         "name": "Nam Đà",
         "type": "xa",
         "slug": "nam-da",
@@ -49,7 +49,7 @@
         "code": "24697",
         "parent_code": "664"
     },
-    "24699": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -59,7 +59,7 @@
         "code": "24699",
         "parent_code": "664"
     },
-    "24700": {
+     {
         "name": "Đắk Drô",
         "type": "xa",
         "slug": "dak-dro",
@@ -69,7 +69,7 @@
         "code": "24700",
         "parent_code": "664"
     },
-    "24703": {
+     {
         "name": "Nâm Nung",
         "type": "xa",
         "slug": "nam-nung",
@@ -79,7 +79,7 @@
         "code": "24703",
         "parent_code": "664"
     },
-    "24706": {
+     {
         "name": "Đức Xuyên",
         "type": "xa",
         "slug": "duc-xuyen",
@@ -89,7 +89,7 @@
         "code": "24706",
         "parent_code": "664"
     },
-    "24709": {
+     {
         "name": "Đắk Nang",
         "type": "xa",
         "slug": "dak-nang",
@@ -99,7 +99,7 @@
         "code": "24709",
         "parent_code": "664"
     },
-    "24712": {
+     {
         "name": "Quảng Phú",
         "type": "xa",
         "slug": "quang-phu",
@@ -109,7 +109,7 @@
         "code": "24712",
         "parent_code": "664"
     },
-    "24715": {
+     {
         "name": "Nâm N'Đir",
         "type": "xa",
         "slug": "nam-n-dir",
@@ -119,4 +119,4 @@
         "code": "24715",
         "parent_code": "664"
     }
-}
+]}

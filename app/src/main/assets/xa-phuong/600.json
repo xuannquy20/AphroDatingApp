@@ -1,5 +1,5 @@
 {
-    "23191": {
+    "xa":[ {
         "name": "Võ Xu",
         "type": "thi-tran",
         "slug": "vo-xu",
@@ -9,7 +9,7 @@
         "code": "23191",
         "parent_code": "600"
     },
-    "23194": {
+     {
         "name": "Đức Tài",
         "type": "thi-tran",
         "slug": "duc-tai",
@@ -19,7 +19,7 @@
         "code": "23194",
         "parent_code": "600"
     },
-    "23197": {
+     {
         "name": "Đa Kai",
         "type": "xa",
         "slug": "da-kai",
@@ -29,7 +29,7 @@
         "code": "23197",
         "parent_code": "600"
     },
-    "23200": {
+     {
         "name": "Sùng Nhơn",
         "type": "xa",
         "slug": "sung-nhon",
@@ -39,7 +39,7 @@
         "code": "23200",
         "parent_code": "600"
     },
-    "23203": {
+     {
         "name": "Mê Pu",
         "type": "xa",
         "slug": "me-pu",
@@ -49,7 +49,7 @@
         "code": "23203",
         "parent_code": "600"
     },
-    "23206": {
+     {
         "name": "Nam Chính",
         "type": "xa",
         "slug": "nam-chinh",
@@ -59,7 +59,7 @@
         "code": "23206",
         "parent_code": "600"
     },
-    "23212": {
+     {
         "name": "Đức Hạnh",
         "type": "xa",
         "slug": "duc-hanh",
@@ -69,7 +69,7 @@
         "code": "23212",
         "parent_code": "600"
     },
-    "23215": {
+     {
         "name": "Đức Tín",
         "type": "xa",
         "slug": "duc-tin",
@@ -79,7 +79,7 @@
         "code": "23215",
         "parent_code": "600"
     },
-    "23218": {
+     {
         "name": "Vũ Hoà",
         "type": "xa",
         "slug": "vu-hoa",
@@ -89,7 +89,7 @@
         "code": "23218",
         "parent_code": "600"
     },
-    "23221": {
+     {
         "name": "Tân Hà",
         "type": "xa",
         "slug": "tan-ha",
@@ -99,7 +99,7 @@
         "code": "23221",
         "parent_code": "600"
     },
-    "23224": {
+     {
         "name": "Đông Hà",
         "type": "xa",
         "slug": "dong-ha",
@@ -109,7 +109,7 @@
         "code": "23224",
         "parent_code": "600"
     },
-    "23227": {
+     {
         "name": "Trà Tân",
         "type": "xa",
         "slug": "tra-tan",
@@ -119,4 +119,4 @@
         "code": "23227",
         "parent_code": "600"
     }
-}
+]}

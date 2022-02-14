@@ -1,5 +1,5 @@
 {
-    "03434": {
+    "xa":[ {
         "name": "Nậm Nhùn",
         "type": "thi-tran",
         "slug": "nam-nhun",
@@ -9,7 +9,7 @@
         "code": "03434",
         "parent_code": "112"
     },
-    "03460": {
+     {
         "name": "Hua Bun",
         "type": "xa",
         "slug": "hua-bun",
@@ -19,7 +19,7 @@
         "code": "03460",
         "parent_code": "112"
     },
-    "03472": {
+     {
         "name": "Mường Mô",
         "type": "xa",
         "slug": "muong-mo",
@@ -29,7 +29,7 @@
         "code": "03472",
         "parent_code": "112"
     },
-    "03473": {
+     {
         "name": "Nậm Chà",
         "type": "xa",
         "slug": "nam-cha",
@@ -39,7 +39,7 @@
         "code": "03473",
         "parent_code": "112"
     },
-    "03474": {
+     {
         "name": "Nậm Manh",
         "type": "xa",
         "slug": "nam-manh",
@@ -49,7 +49,7 @@
         "code": "03474",
         "parent_code": "112"
     },
-    "03475": {
+     {
         "name": "Nậm Hàng",
         "type": "xa",
         "slug": "nam-hang",
@@ -59,7 +59,7 @@
         "code": "03475",
         "parent_code": "112"
     },
-    "03481": {
+     {
         "name": "Lê Lợi",
         "type": "xa",
         "slug": "le-loi",
@@ -69,7 +69,7 @@
         "code": "03481",
         "parent_code": "112"
     },
-    "03484": {
+     {
         "name": "Pú Đao",
         "type": "xa",
         "slug": "pu-dao",
@@ -79,7 +79,7 @@
         "code": "03484",
         "parent_code": "112"
     },
-    "03488": {
+     {
         "name": "Nậm Pì",
         "type": "xa",
         "slug": "nam-pi",
@@ -89,7 +89,7 @@
         "code": "03488",
         "parent_code": "112"
     },
-    "03502": {
+     {
         "name": "Nậm Ban",
         "type": "xa",
         "slug": "nam-ban",
@@ -99,7 +99,7 @@
         "code": "03502",
         "parent_code": "112"
     },
-    "03503": {
+     {
         "name": "Trung Chải",
         "type": "xa",
         "slug": "trung-chai",
@@ -109,4 +109,4 @@
         "code": "03503",
         "parent_code": "112"
     }
-}
+]}

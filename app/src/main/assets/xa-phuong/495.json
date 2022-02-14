@@ -1,5 +1,5 @@
 {
-    "20260": {
+    "xa":[ {
         "name": "Khuê Trung",
         "type": "phuong",
         "slug": "khue-trung",
@@ -9,7 +9,7 @@
         "code": "20260",
         "parent_code": "495"
     },
-    "20305": {
+     {
         "name": "Hòa Phát",
         "type": "phuong",
         "slug": "hoa-phat",
@@ -19,7 +19,7 @@
         "code": "20305",
         "parent_code": "495"
     },
-    "20306": {
+     {
         "name": "Hòa An",
         "type": "phuong",
         "slug": "hoa-an",
@@ -29,7 +29,7 @@
         "code": "20306",
         "parent_code": "495"
     },
-    "20311": {
+     {
         "name": "Hòa Thọ Tây",
         "type": "phuong",
         "slug": "hoa-tho-tay",
@@ -39,7 +39,7 @@
         "code": "20311",
         "parent_code": "495"
     },
-    "20312": {
+     {
         "name": "Hòa Thọ Đông",
         "type": "phuong",
         "slug": "hoa-tho-dong",
@@ -49,7 +49,7 @@
         "code": "20312",
         "parent_code": "495"
     },
-    "20314": {
+     {
         "name": "Hòa Xuân",
         "type": "phuong",
         "slug": "hoa-xuan",
@@ -59,4 +59,4 @@
         "code": "20314",
         "parent_code": "495"
     }
-}
+]}

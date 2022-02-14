@@ -1,5 +1,5 @@
 {
-    "22837": {
+    "xa":[ {
         "name": "Phước Chiến",
         "type": "xa",
         "slug": "phuoc-chien",
@@ -9,7 +9,7 @@
         "code": "22837",
         "parent_code": "588"
     },
-    "22840": {
+     {
         "name": "Công Hải",
         "type": "xa",
         "slug": "cong-hai",
@@ -19,7 +19,7 @@
         "code": "22840",
         "parent_code": "588"
     },
-    "22843": {
+     {
         "name": "Phước Kháng",
         "type": "xa",
         "slug": "phuoc-khang",
@@ -29,7 +29,7 @@
         "code": "22843",
         "parent_code": "588"
     },
-    "22849": {
+     {
         "name": "Lợi Hải",
         "type": "xa",
         "slug": "loi-hai",
@@ -39,7 +39,7 @@
         "code": "22849",
         "parent_code": "588"
     },
-    "22853": {
+     {
         "name": "Bắc Sơn",
         "type": "xa",
         "slug": "bac-son",
@@ -49,7 +49,7 @@
         "code": "22853",
         "parent_code": "588"
     },
-    "22856": {
+     {
         "name": "Bắc Phong",
         "type": "xa",
         "slug": "bac-phong",
@@ -59,4 +59,4 @@
         "code": "22856",
         "parent_code": "588"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "27865": {
+    "xa":[ {
         "name": "Thạnh Hóa",
         "type": "thi-tran",
         "slug": "thanh-hoa",
@@ -9,7 +9,7 @@
         "code": "27865",
         "parent_code": "800"
     },
-    "27868": {
+     {
         "name": "Tân Hiệp",
         "type": "xa",
         "slug": "tan-hiep",
@@ -19,7 +19,7 @@
         "code": "27868",
         "parent_code": "800"
     },
-    "27871": {
+     {
         "name": "Thuận Bình",
         "type": "xa",
         "slug": "thuan-binh",
@@ -29,7 +29,7 @@
         "code": "27871",
         "parent_code": "800"
     },
-    "27874": {
+     {
         "name": "Thạnh Phước",
         "type": "xa",
         "slug": "thanh-phuoc",
@@ -39,7 +39,7 @@
         "code": "27874",
         "parent_code": "800"
     },
-    "27877": {
+     {
         "name": "Thạnh Phú",
         "type": "xa",
         "slug": "thanh-phu",
@@ -49,7 +49,7 @@
         "code": "27877",
         "parent_code": "800"
     },
-    "27880": {
+     {
         "name": "Thuận Nghĩa Hòa",
         "type": "xa",
         "slug": "thuan-nghia-hoa",
@@ -59,7 +59,7 @@
         "code": "27880",
         "parent_code": "800"
     },
-    "27883": {
+     {
         "name": "Thủy Đông",
         "type": "xa",
         "slug": "thuy-dong",
@@ -69,7 +69,7 @@
         "code": "27883",
         "parent_code": "800"
     },
-    "27886": {
+     {
         "name": "Thủy Tây",
         "type": "xa",
         "slug": "thuy-tay",
@@ -79,7 +79,7 @@
         "code": "27886",
         "parent_code": "800"
     },
-    "27889": {
+     {
         "name": "Tân Tây",
         "type": "xa",
         "slug": "tan-tay",
@@ -89,7 +89,7 @@
         "code": "27889",
         "parent_code": "800"
     },
-    "27892": {
+     {
         "name": "Tân Đông",
         "type": "xa",
         "slug": "tan-dong",
@@ -99,7 +99,7 @@
         "code": "27892",
         "parent_code": "800"
     },
-    "27895": {
+     {
         "name": "Thạnh An",
         "type": "xa",
         "slug": "thanh-an",
@@ -109,4 +109,4 @@
         "code": "27895",
         "parent_code": "800"
     }
-}
+]}

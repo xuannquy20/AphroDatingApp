@@ -1,5 +1,5 @@
 {
-    "01447": {
+     "xa":[{
         "name": "Hùng Quốc",
         "type": "thi-tran",
         "slug": "hung-quoc",
@@ -9,7 +9,7 @@
         "code": "01447",
         "parent_code": "046"
     },
-    "01450": {
+     {
         "name": "Cô Mười",
         "type": "xa",
         "slug": "co-muoi",
@@ -19,7 +19,7 @@
         "code": "01450",
         "parent_code": "046"
     },
-    "01453": {
+     {
         "name": "Tri Phương",
         "type": "xa",
         "slug": "tri-phuong",
@@ -29,7 +29,7 @@
         "code": "01453",
         "parent_code": "046"
     },
-    "01456": {
+     {
         "name": "Quang Hán",
         "type": "xa",
         "slug": "quang-han",
@@ -39,7 +39,7 @@
         "code": "01456",
         "parent_code": "046"
     },
-    "01459": {
+     {
         "name": "Quang Vinh",
         "type": "xa",
         "slug": "quang-vinh",
@@ -49,7 +49,7 @@
         "code": "01459",
         "parent_code": "046"
     },
-    "01462": {
+     {
         "name": "Xuân Nội",
         "type": "xa",
         "slug": "xuan-noi",
@@ -59,7 +59,7 @@
         "code": "01462",
         "parent_code": "046"
     },
-    "01465": {
+     {
         "name": "Quang Trung",
         "type": "xa",
         "slug": "quang-trung",
@@ -69,7 +69,7 @@
         "code": "01465",
         "parent_code": "046"
     },
-    "01468": {
+     {
         "name": "Lưu Ngọc",
         "type": "xa",
         "slug": "luu-ngoc",
@@ -79,7 +79,7 @@
         "code": "01468",
         "parent_code": "046"
     },
-    "01471": {
+     {
         "name": "Cao Chương",
         "type": "xa",
         "slug": "cao-chuong",
@@ -89,7 +89,7 @@
         "code": "01471",
         "parent_code": "046"
     },
-    "01474": {
+     {
         "name": "Quốc Toản",
         "type": "xa",
         "slug": "quoc-toan",
@@ -99,4 +99,5 @@
         "code": "01474",
         "parent_code": "046"
     }
+]
 }

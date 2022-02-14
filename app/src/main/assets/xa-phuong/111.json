@@ -1,5 +1,5 @@
 {
-    "03598": {
+    "xa":[ {
         "name": "Tân Uyên",
         "type": "thi-tran",
         "slug": "tan-uyen",
@@ -9,7 +9,7 @@
         "code": "03598",
         "parent_code": "111"
     },
-    "03601": {
+     {
         "name": "Mường Khoa",
         "type": "xa",
         "slug": "muong-khoa",
@@ -19,7 +19,7 @@
         "code": "03601",
         "parent_code": "111"
     },
-    "03602": {
+     {
         "name": "Phúc Khoa",
         "type": "xa",
         "slug": "phuc-khoa",
@@ -29,7 +29,7 @@
         "code": "03602",
         "parent_code": "111"
     },
-    "03604": {
+     {
         "name": "Thân Thuộc",
         "type": "xa",
         "slug": "than-thuoc",
@@ -39,7 +39,7 @@
         "code": "03604",
         "parent_code": "111"
     },
-    "03605": {
+     {
         "name": "Trung Đồng",
         "type": "xa",
         "slug": "trung-dong",
@@ -49,7 +49,7 @@
         "code": "03605",
         "parent_code": "111"
     },
-    "03607": {
+     {
         "name": "Hố Mít",
         "type": "xa",
         "slug": "ho-mit",
@@ -59,7 +59,7 @@
         "code": "03607",
         "parent_code": "111"
     },
-    "03610": {
+     {
         "name": "Nậm Cần",
         "type": "xa",
         "slug": "nam-can",
@@ -69,7 +69,7 @@
         "code": "03610",
         "parent_code": "111"
     },
-    "03613": {
+     {
         "name": "Nậm Sỏ",
         "type": "xa",
         "slug": "nam-so",
@@ -79,7 +79,7 @@
         "code": "03613",
         "parent_code": "111"
     },
-    "03616": {
+     {
         "name": "Pắc Ta",
         "type": "xa",
         "slug": "pac-ta",
@@ -89,7 +89,7 @@
         "code": "03616",
         "parent_code": "111"
     },
-    "03622": {
+     {
         "name": "Tà Mít",
         "type": "xa",
         "slug": "ta-mit",
@@ -99,4 +99,4 @@
         "code": "03622",
         "parent_code": "111"
     }
-}
+]}

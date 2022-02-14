@@ -1,5 +1,5 @@
 {
-    "00820": {
+     "xa" : [{
         "name": "Yên Minh",
         "type": "thi-tran",
         "slug": "yen-minh",
@@ -9,7 +9,7 @@
         "code": "00820",
         "parent_code": "028"
     },
-    "00823": {
+     {
         "name": "Thắng Mố",
         "type": "xa",
         "slug": "thang-mo",
@@ -19,7 +19,7 @@
         "code": "00823",
         "parent_code": "028"
     },
-    "00826": {
+     {
         "name": "Phú Lũng",
         "type": "xa",
         "slug": "phu-lung",
@@ -29,7 +29,7 @@
         "code": "00826",
         "parent_code": "028"
     },
-    "00829": {
+     {
         "name": "Sủng Tráng",
         "type": "xa",
         "slug": "sung-trang",
@@ -39,7 +39,7 @@
         "code": "00829",
         "parent_code": "028"
     },
-    "00832": {
+     {
         "name": "Bạch Đích",
         "type": "xa",
         "slug": "bach-dich",
@@ -49,7 +49,7 @@
         "code": "00832",
         "parent_code": "028"
     },
-    "00835": {
+     {
         "name": "Na Khê",
         "type": "xa",
         "slug": "na-khe",
@@ -59,7 +59,7 @@
         "code": "00835",
         "parent_code": "028"
     },
-    "00838": {
+     {
         "name": "Sủng Thài",
         "type": "xa",
         "slug": "sung-thai",
@@ -69,7 +69,7 @@
         "code": "00838",
         "parent_code": "028"
     },
-    "00841": {
+     {
         "name": "Hữu Vinh",
         "type": "xa",
         "slug": "huu-vinh",
@@ -79,7 +79,7 @@
         "code": "00841",
         "parent_code": "028"
     },
-    "00844": {
+     {
         "name": "Lao Và Chải",
         "type": "xa",
         "slug": "lao-va-chai",
@@ -89,7 +89,7 @@
         "code": "00844",
         "parent_code": "028"
     },
-    "00847": {
+     {
         "name": "Mậu Duệ",
         "type": "xa",
         "slug": "mau-due",
@@ -99,7 +99,7 @@
         "code": "00847",
         "parent_code": "028"
     },
-    "00850": {
+     {
         "name": "Đông Minh",
         "type": "xa",
         "slug": "dong-minh",
@@ -109,7 +109,7 @@
         "code": "00850",
         "parent_code": "028"
     },
-    "00853": {
+     {
         "name": "Mậu Long",
         "type": "xa",
         "slug": "mau-long",
@@ -119,7 +119,7 @@
         "code": "00853",
         "parent_code": "028"
     },
-    "00856": {
+     {
         "name": "Ngam La",
         "type": "xa",
         "slug": "ngam-la",
@@ -129,7 +129,7 @@
         "code": "00856",
         "parent_code": "028"
     },
-    "00859": {
+     {
         "name": "Ngọc Long",
         "type": "xa",
         "slug": "ngoc-long",
@@ -139,7 +139,7 @@
         "code": "00859",
         "parent_code": "028"
     },
-    "00862": {
+     {
         "name": "Đường Thượng",
         "type": "xa",
         "slug": "duong-thuong",
@@ -149,7 +149,7 @@
         "code": "00862",
         "parent_code": "028"
     },
-    "00865": {
+     {
         "name": "Lũng Hồ",
         "type": "xa",
         "slug": "lung-ho",
@@ -159,7 +159,7 @@
         "code": "00865",
         "parent_code": "028"
     },
-    "00868": {
+     {
         "name": "Du Tiến",
         "type": "xa",
         "slug": "du-tien",
@@ -169,7 +169,7 @@
         "code": "00868",
         "parent_code": "028"
     },
-    "00871": {
+     {
         "name": "Du Già",
         "type": "xa",
         "slug": "du-gia",
@@ -179,4 +179,5 @@
         "code": "00871",
         "parent_code": "028"
     }
+]
 }

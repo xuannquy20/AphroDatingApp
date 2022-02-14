@@ -1,5 +1,5 @@
 {
-    "09367": {
+    "xa":[ {
         "name": "Đông Ngàn",
         "type": "phuong",
         "slug": "dong-ngan",
@@ -9,7 +9,7 @@
         "code": "09367",
         "parent_code": "261"
     },
-    "09370": {
+     {
         "name": "Tam Sơn",
         "type": "phuong",
         "slug": "tam-son",
@@ -19,7 +19,7 @@
         "code": "09370",
         "parent_code": "261"
     },
-    "09373": {
+     {
         "name": "Hương Mạc",
         "type": "phuong",
         "slug": "huong-mac",
@@ -29,7 +29,7 @@
         "code": "09373",
         "parent_code": "261"
     },
-    "09376": {
+     {
         "name": "Tương Giang",
         "type": "phuong",
         "slug": "tuong-giang",
@@ -39,7 +39,7 @@
         "code": "09376",
         "parent_code": "261"
     },
-    "09379": {
+     {
         "name": "Phù Khê",
         "type": "phuong",
         "slug": "phu-khe",
@@ -49,7 +49,7 @@
         "code": "09379",
         "parent_code": "261"
     },
-    "09382": {
+     {
         "name": "Đồng Kỵ",
         "type": "phuong",
         "slug": "dong-ky",
@@ -59,7 +59,7 @@
         "code": "09382",
         "parent_code": "261"
     },
-    "09383": {
+     {
         "name": "Trang Hạ",
         "type": "phuong",
         "slug": "trang-ha",
@@ -69,7 +69,7 @@
         "code": "09383",
         "parent_code": "261"
     },
-    "09385": {
+     {
         "name": "Đồng Nguyên",
         "type": "phuong",
         "slug": "dong-nguyen",
@@ -79,7 +79,7 @@
         "code": "09385",
         "parent_code": "261"
     },
-    "09388": {
+     {
         "name": "Châu Khê",
         "type": "phuong",
         "slug": "chau-khe",
@@ -89,7 +89,7 @@
         "code": "09388",
         "parent_code": "261"
     },
-    "09391": {
+     {
         "name": "Tân Hồng",
         "type": "phuong",
         "slug": "tan-hong",
@@ -99,7 +99,7 @@
         "code": "09391",
         "parent_code": "261"
     },
-    "09394": {
+     {
         "name": "Đình Bảng",
         "type": "phuong",
         "slug": "dinh-bang",
@@ -109,7 +109,7 @@
         "code": "09394",
         "parent_code": "261"
     },
-    "09397": {
+     {
         "name": "Phù Chẩn",
         "type": "phuong",
         "slug": "phu-chan",
@@ -119,4 +119,4 @@
         "code": "09397",
         "parent_code": "261"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "31867": {
+    "xa":[ {
         "name": "Phước Long",
         "type": "thi-tran",
         "slug": "phuoc-long",
@@ -9,7 +9,7 @@
         "code": "31867",
         "parent_code": "957"
     },
-    "31870": {
+     {
         "name": "Vĩnh Phú Đông",
         "type": "xa",
         "slug": "vinh-phu-dong",
@@ -19,7 +19,7 @@
         "code": "31870",
         "parent_code": "957"
     },
-    "31873": {
+     {
         "name": "Vĩnh Phú Tây",
         "type": "xa",
         "slug": "vinh-phu-tay",
@@ -29,7 +29,7 @@
         "code": "31873",
         "parent_code": "957"
     },
-    "31876": {
+     {
         "name": "Phước Long",
         "type": "xa",
         "slug": "phuoc-long",
@@ -39,7 +39,7 @@
         "code": "31876",
         "parent_code": "957"
     },
-    "31879": {
+     {
         "name": "Hưng Phú",
         "type": "xa",
         "slug": "hung-phu",
@@ -49,7 +49,7 @@
         "code": "31879",
         "parent_code": "957"
     },
-    "31882": {
+     {
         "name": "Vĩnh Thanh",
         "type": "xa",
         "slug": "vinh-thanh",
@@ -59,7 +59,7 @@
         "code": "31882",
         "parent_code": "957"
     },
-    "31885": {
+     {
         "name": "Phong Thạnh Tây A",
         "type": "xa",
         "slug": "phong-thanh-tay-a",
@@ -69,7 +69,7 @@
         "code": "31885",
         "parent_code": "957"
     },
-    "31888": {
+     {
         "name": "Phong Thạnh Tây B",
         "type": "xa",
         "slug": "phong-thanh-tay-b",
@@ -79,4 +79,4 @@
         "code": "31888",
         "parent_code": "957"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "03148": {
+    "xa":[ {
         "name": "Sông Đà",
         "type": "phuong",
         "slug": "song-da",
@@ -9,7 +9,7 @@
         "code": "03148",
         "parent_code": "095"
     },
-    "03151": {
+     {
         "name": "Na Lay",
         "type": "phuong",
         "slug": "na-lay",
@@ -19,7 +19,7 @@
         "code": "03151",
         "parent_code": "095"
     },
-    "03184": {
+     {
         "name": "Lay Nưa",
         "type": "xa",
         "slug": "lay-nua",
@@ -29,4 +29,4 @@
         "code": "03184",
         "parent_code": "095"
     }
-}
+]}

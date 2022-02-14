@@ -1,5 +1,5 @@
 {
-    "30791": {
+    "xa":[ {
         "name": "Vĩnh Phú",
         "type": "xa",
         "slug": "vinh-phu",
@@ -9,7 +9,7 @@
         "code": "30791",
         "parent_code": "914"
     },
-    "30793": {
+     {
         "name": "Vĩnh Điều",
         "type": "xa",
         "slug": "vinh-dieu",
@@ -19,7 +19,7 @@
         "code": "30793",
         "parent_code": "914"
     },
-    "30796": {
+     {
         "name": "Tân Khánh Hòa",
         "type": "xa",
         "slug": "tan-khanh-hoa",
@@ -29,7 +29,7 @@
         "code": "30796",
         "parent_code": "914"
     },
-    "30797": {
+     {
         "name": "Phú Lợi",
         "type": "xa",
         "slug": "phu-loi",
@@ -39,7 +39,7 @@
         "code": "30797",
         "parent_code": "914"
     },
-    "30799": {
+     {
         "name": "Phú Mỹ",
         "type": "xa",
         "slug": "phu-my",
@@ -49,4 +49,4 @@
         "code": "30799",
         "parent_code": "914"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "12970": {
+    "xa":[ {
         "name": "Tiền Hải",
         "type": "thi-tran",
         "slug": "tien-hai",
@@ -9,7 +9,7 @@
         "code": "12970",
         "parent_code": "342"
     },
-    "12976": {
+     {
         "name": "Đông Trà",
         "type": "xa",
         "slug": "dong-tra",
@@ -19,7 +19,7 @@
         "code": "12976",
         "parent_code": "342"
     },
-    "12979": {
+     {
         "name": "Đông Long",
         "type": "xa",
         "slug": "dong-long",
@@ -29,7 +29,7 @@
         "code": "12979",
         "parent_code": "342"
     },
-    "12982": {
+     {
         "name": "Đông Quí",
         "type": "xa",
         "slug": "dong-qui",
@@ -39,7 +39,7 @@
         "code": "12982",
         "parent_code": "342"
     },
-    "12985": {
+     {
         "name": "Vũ Lăng",
         "type": "xa",
         "slug": "vu-lang",
@@ -49,7 +49,7 @@
         "code": "12985",
         "parent_code": "342"
     },
-    "12988": {
+     {
         "name": "Đông Xuyên",
         "type": "xa",
         "slug": "dong-xuyen",
@@ -59,7 +59,7 @@
         "code": "12988",
         "parent_code": "342"
     },
-    "12991": {
+     {
         "name": "Tây Lương",
         "type": "xa",
         "slug": "tay-luong",
@@ -69,7 +69,7 @@
         "code": "12991",
         "parent_code": "342"
     },
-    "12994": {
+     {
         "name": "Tây Ninh",
         "type": "xa",
         "slug": "tay-ninh",
@@ -79,7 +79,7 @@
         "code": "12994",
         "parent_code": "342"
     },
-    "12997": {
+     {
         "name": "Đông Trung",
         "type": "xa",
         "slug": "dong-trung",
@@ -89,7 +89,7 @@
         "code": "12997",
         "parent_code": "342"
     },
-    "13000": {
+     {
         "name": "Đông Hoàng",
         "type": "xa",
         "slug": "dong-hoang",
@@ -99,7 +99,7 @@
         "code": "13000",
         "parent_code": "342"
     },
-    "13003": {
+     {
         "name": "Đông Minh",
         "type": "xa",
         "slug": "dong-minh",
@@ -109,7 +109,7 @@
         "code": "13003",
         "parent_code": "342"
     },
-    "13009": {
+     {
         "name": "Đông Phong",
         "type": "xa",
         "slug": "dong-phong",
@@ -119,7 +119,7 @@
         "code": "13009",
         "parent_code": "342"
     },
-    "13012": {
+     {
         "name": "An Ninh",
         "type": "xa",
         "slug": "an-ninh",
@@ -129,7 +129,7 @@
         "code": "13012",
         "parent_code": "342"
     },
-    "13018": {
+     {
         "name": "Đông Cơ",
         "type": "xa",
         "slug": "dong-co",
@@ -139,7 +139,7 @@
         "code": "13018",
         "parent_code": "342"
     },
-    "13021": {
+     {
         "name": "Tây Giang",
         "type": "xa",
         "slug": "tay-giang",
@@ -149,7 +149,7 @@
         "code": "13021",
         "parent_code": "342"
     },
-    "13024": {
+     {
         "name": "Đông Lâm",
         "type": "xa",
         "slug": "dong-lam",
@@ -159,7 +159,7 @@
         "code": "13024",
         "parent_code": "342"
     },
-    "13027": {
+     {
         "name": "Phương Công",
         "type": "xa",
         "slug": "phuong-cong",
@@ -169,7 +169,7 @@
         "code": "13027",
         "parent_code": "342"
     },
-    "13030": {
+     {
         "name": "Tây Phong",
         "type": "xa",
         "slug": "tay-phong",
@@ -179,7 +179,7 @@
         "code": "13030",
         "parent_code": "342"
     },
-    "13033": {
+     {
         "name": "Tây Tiến",
         "type": "xa",
         "slug": "tay-tien",
@@ -189,7 +189,7 @@
         "code": "13033",
         "parent_code": "342"
     },
-    "13036": {
+     {
         "name": "Nam Cường",
         "type": "xa",
         "slug": "nam-cuong",
@@ -199,7 +199,7 @@
         "code": "13036",
         "parent_code": "342"
     },
-    "13039": {
+     {
         "name": "Vân Trường",
         "type": "xa",
         "slug": "van-truong",
@@ -209,7 +209,7 @@
         "code": "13039",
         "parent_code": "342"
     },
-    "13042": {
+     {
         "name": "Nam Thắng",
         "type": "xa",
         "slug": "nam-thang",
@@ -219,7 +219,7 @@
         "code": "13042",
         "parent_code": "342"
     },
-    "13045": {
+     {
         "name": "Nam Chính",
         "type": "xa",
         "slug": "nam-chinh",
@@ -229,7 +229,7 @@
         "code": "13045",
         "parent_code": "342"
     },
-    "13048": {
+     {
         "name": "Bắc Hải",
         "type": "xa",
         "slug": "bac-hai",
@@ -239,7 +239,7 @@
         "code": "13048",
         "parent_code": "342"
     },
-    "13051": {
+     {
         "name": "Nam Thịnh",
         "type": "xa",
         "slug": "nam-thinh",
@@ -249,7 +249,7 @@
         "code": "13051",
         "parent_code": "342"
     },
-    "13054": {
+     {
         "name": "Nam Hà",
         "type": "xa",
         "slug": "nam-ha",
@@ -259,7 +259,7 @@
         "code": "13054",
         "parent_code": "342"
     },
-    "13057": {
+     {
         "name": "Nam Thanh",
         "type": "xa",
         "slug": "nam-thanh",
@@ -269,7 +269,7 @@
         "code": "13057",
         "parent_code": "342"
     },
-    "13060": {
+     {
         "name": "Nam Trung",
         "type": "xa",
         "slug": "nam-trung",
@@ -279,7 +279,7 @@
         "code": "13060",
         "parent_code": "342"
     },
-    "13063": {
+     {
         "name": "Nam Hồng",
         "type": "xa",
         "slug": "nam-hong",
@@ -289,7 +289,7 @@
         "code": "13063",
         "parent_code": "342"
     },
-    "13066": {
+     {
         "name": "Nam Hưng",
         "type": "xa",
         "slug": "nam-hung",
@@ -299,7 +299,7 @@
         "code": "13066",
         "parent_code": "342"
     },
-    "13069": {
+     {
         "name": "Nam Hải",
         "type": "xa",
         "slug": "nam-hai",
@@ -309,7 +309,7 @@
         "code": "13069",
         "parent_code": "342"
     },
-    "13072": {
+     {
         "name": "Nam Phú",
         "type": "xa",
         "slug": "nam-phu",
@@ -319,4 +319,4 @@
         "code": "13072",
         "parent_code": "342"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "11368": {
+    "xa":[ {
         "name": "Cát Dài",
         "type": "phuong",
         "slug": "cat-dai",
@@ -9,7 +9,7 @@
         "code": "11368",
         "parent_code": "305"
     },
-    "11371": {
+     {
         "name": "An Biên",
         "type": "phuong",
         "slug": "an-bien",
@@ -19,7 +19,7 @@
         "code": "11371",
         "parent_code": "305"
     },
-    "11374": {
+     {
         "name": "Lam Sơn",
         "type": "phuong",
         "slug": "lam-son",
@@ -29,7 +29,7 @@
         "code": "11374",
         "parent_code": "305"
     },
-    "11377": {
+     {
         "name": "An Dương",
         "type": "phuong",
         "slug": "an-duong",
@@ -39,7 +39,7 @@
         "code": "11377",
         "parent_code": "305"
     },
-    "11380": {
+     {
         "name": "Trần Nguyên Hãn",
         "type": "phuong",
         "slug": "tran-nguyen-han",
@@ -49,7 +49,7 @@
         "code": "11380",
         "parent_code": "305"
     },
-    "11383": {
+     {
         "name": "Hồ Nam",
         "type": "phuong",
         "slug": "ho-nam",
@@ -59,7 +59,7 @@
         "code": "11383",
         "parent_code": "305"
     },
-    "11386": {
+     {
         "name": "Trại Cau",
         "type": "phuong",
         "slug": "trai-cau",
@@ -69,7 +69,7 @@
         "code": "11386",
         "parent_code": "305"
     },
-    "11389": {
+     {
         "name": "Dư Hàng",
         "type": "phuong",
         "slug": "du-hang",
@@ -79,7 +79,7 @@
         "code": "11389",
         "parent_code": "305"
     },
-    "11392": {
+     {
         "name": "Hàng Kênh",
         "type": "phuong",
         "slug": "hang-kenh",
@@ -89,7 +89,7 @@
         "code": "11392",
         "parent_code": "305"
     },
-    "11395": {
+     {
         "name": "Đông Hải",
         "type": "phuong",
         "slug": "dong-hai",
@@ -99,7 +99,7 @@
         "code": "11395",
         "parent_code": "305"
     },
-    "11398": {
+     {
         "name": "Niệm Nghĩa",
         "type": "phuong",
         "slug": "niem-nghia",
@@ -109,7 +109,7 @@
         "code": "11398",
         "parent_code": "305"
     },
-    "11401": {
+     {
         "name": "Nghĩa Xá",
         "type": "phuong",
         "slug": "nghia-xa",
@@ -119,7 +119,7 @@
         "code": "11401",
         "parent_code": "305"
     },
-    "11404": {
+     {
         "name": "Dư Hàng Kênh",
         "type": "phuong",
         "slug": "du-hang-kenh",
@@ -129,7 +129,7 @@
         "code": "11404",
         "parent_code": "305"
     },
-    "11405": {
+     {
         "name": "Kênh Dương",
         "type": "phuong",
         "slug": "kenh-duong",
@@ -139,7 +139,7 @@
         "code": "11405",
         "parent_code": "305"
     },
-    "11407": {
+     {
         "name": "Vĩnh Niệm",
         "type": "phuong",
         "slug": "vinh-niem",
@@ -149,4 +149,4 @@
         "code": "11407",
         "parent_code": "305"
     }
-}
+]}

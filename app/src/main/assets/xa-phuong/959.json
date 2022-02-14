@@ -1,5 +1,5 @@
 {
-    "31942": {
+    "xa":[ {
         "name": "1",
         "type": "phuong",
         "slug": "1",
@@ -9,7 +9,7 @@
         "code": "31942",
         "parent_code": "959"
     },
-    "31945": {
+     {
         "name": "Hộ Phòng",
         "type": "phuong",
         "slug": "ho-phong",
@@ -19,7 +19,7 @@
         "code": "31945",
         "parent_code": "959"
     },
-    "31948": {
+     {
         "name": "Phong Thạnh Đông",
         "type": "xa",
         "slug": "phong-thanh-dong",
@@ -29,7 +29,7 @@
         "code": "31948",
         "parent_code": "959"
     },
-    "31951": {
+     {
         "name": "Láng Tròn",
         "type": "phuong",
         "slug": "lang-tron",
@@ -39,7 +39,7 @@
         "code": "31951",
         "parent_code": "959"
     },
-    "31954": {
+     {
         "name": "Phong Tân",
         "type": "xa",
         "slug": "phong-tan",
@@ -49,7 +49,7 @@
         "code": "31954",
         "parent_code": "959"
     },
-    "31957": {
+     {
         "name": "Tân Phong",
         "type": "xa",
         "slug": "tan-phong",
@@ -59,7 +59,7 @@
         "code": "31957",
         "parent_code": "959"
     },
-    "31960": {
+     {
         "name": "Phong Thạnh",
         "type": "xa",
         "slug": "phong-thanh",
@@ -69,7 +69,7 @@
         "code": "31960",
         "parent_code": "959"
     },
-    "31963": {
+     {
         "name": "Phong Thạnh A",
         "type": "xa",
         "slug": "phong-thanh-a",
@@ -79,7 +79,7 @@
         "code": "31963",
         "parent_code": "959"
     },
-    "31966": {
+     {
         "name": "Phong Thạnh Tây",
         "type": "xa",
         "slug": "phong-thanh-tay",
@@ -89,7 +89,7 @@
         "code": "31966",
         "parent_code": "959"
     },
-    "31969": {
+     {
         "name": "Tân Thạnh",
         "type": "xa",
         "slug": "tan-thanh",
@@ -99,4 +99,4 @@
         "code": "31969",
         "parent_code": "959"
     }
-}
+]}

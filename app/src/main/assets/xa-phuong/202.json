@@ -1,5 +1,5 @@
 {
-    "06970": {
+    "xa":[ {
         "name": "Ba Chẽ",
         "type": "thi-tran",
         "slug": "ba-che",
@@ -9,7 +9,7 @@
         "code": "06970",
         "parent_code": "202"
     },
-    "06973": {
+     {
         "name": "Thanh Sơn",
         "type": "xa",
         "slug": "thanh-son",
@@ -19,7 +19,7 @@
         "code": "06973",
         "parent_code": "202"
     },
-    "06976": {
+     {
         "name": "Thanh Lâm",
         "type": "xa",
         "slug": "thanh-lam",
@@ -29,7 +29,7 @@
         "code": "06976",
         "parent_code": "202"
     },
-    "06979": {
+     {
         "name": "Đạp Thanh",
         "type": "xa",
         "slug": "dap-thanh",
@@ -39,7 +39,7 @@
         "code": "06979",
         "parent_code": "202"
     },
-    "06982": {
+     {
         "name": "Nam Sơn",
         "type": "xa",
         "slug": "nam-son",
@@ -49,7 +49,7 @@
         "code": "06982",
         "parent_code": "202"
     },
-    "06985": {
+     {
         "name": "Lương Mông",
         "type": "xa",
         "slug": "luong-mong",
@@ -59,7 +59,7 @@
         "code": "06985",
         "parent_code": "202"
     },
-    "06988": {
+     {
         "name": "Đồn Đạc",
         "type": "xa",
         "slug": "don-dac",
@@ -69,7 +69,7 @@
         "code": "06988",
         "parent_code": "202"
     },
-    "06991": {
+     {
         "name": "Minh Cầm",
         "type": "xa",
         "slug": "minh-cam",
@@ -79,4 +79,4 @@
         "code": "06991",
         "parent_code": "202"
     }
-}
+]}

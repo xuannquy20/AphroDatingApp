@@ -1,5 +1,5 @@
 {
-    "08662": {
+    "xa":[ {
         "name": "Đào Xá",
         "type": "xa",
         "slug": "dao-xa",
@@ -9,7 +9,7 @@
         "code": "08662",
         "parent_code": "239"
     },
-    "08665": {
+     {
         "name": "Thạch Đồng",
         "type": "xa",
         "slug": "thach-dong",
@@ -19,7 +19,7 @@
         "code": "08665",
         "parent_code": "239"
     },
-    "08668": {
+     {
         "name": "Xuân Lộc",
         "type": "xa",
         "slug": "xuan-loc",
@@ -29,7 +29,7 @@
         "code": "08668",
         "parent_code": "239"
     },
-    "08671": {
+     {
         "name": "Tân Phương",
         "type": "xa",
         "slug": "tan-phuong",
@@ -39,7 +39,7 @@
         "code": "08671",
         "parent_code": "239"
     },
-    "08674": {
+     {
         "name": "Thanh Thủy",
         "type": "thi-tran",
         "slug": "thanh-thuy",
@@ -49,7 +49,7 @@
         "code": "08674",
         "parent_code": "239"
     },
-    "08677": {
+     {
         "name": "Sơn Thủy",
         "type": "xa",
         "slug": "son-thuy",
@@ -59,7 +59,7 @@
         "code": "08677",
         "parent_code": "239"
     },
-    "08680": {
+     {
         "name": "Bảo Yên",
         "type": "xa",
         "slug": "bao-yen",
@@ -69,7 +69,7 @@
         "code": "08680",
         "parent_code": "239"
     },
-    "08683": {
+     {
         "name": "Đoan Hạ",
         "type": "xa",
         "slug": "doan-ha",
@@ -79,7 +79,7 @@
         "code": "08683",
         "parent_code": "239"
     },
-    "08686": {
+     {
         "name": "Đồng Trung",
         "type": "xa",
         "slug": "dong-trung",
@@ -89,7 +89,7 @@
         "code": "08686",
         "parent_code": "239"
     },
-    "08689": {
+     {
         "name": "Hoàng Xá",
         "type": "xa",
         "slug": "hoang-xa",
@@ -99,7 +99,7 @@
         "code": "08689",
         "parent_code": "239"
     },
-    "08701": {
+     {
         "name": "Tu Vũ",
         "type": "xa",
         "slug": "tu-vu",
@@ -109,4 +109,4 @@
         "code": "08701",
         "parent_code": "239"
     }
-}
+]}

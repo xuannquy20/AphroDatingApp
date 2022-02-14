@@ -1,5 +1,5 @@
 {
-    "23272": {
+    "xa":[ {
         "name": "Ngũ Phụng",
         "type": "xa",
         "slug": "ngu-phung",
@@ -9,7 +9,7 @@
         "code": "23272",
         "parent_code": "602"
     },
-    "23275": {
+     {
         "name": "Long Hải",
         "type": "xa",
         "slug": "long-hai",
@@ -19,7 +19,7 @@
         "code": "23275",
         "parent_code": "602"
     },
-    "23278": {
+     {
         "name": "Tam Thanh",
         "type": "xa",
         "slug": "tam-thanh",
@@ -29,4 +29,4 @@
         "code": "23278",
         "parent_code": "602"
     }
-}
+]}

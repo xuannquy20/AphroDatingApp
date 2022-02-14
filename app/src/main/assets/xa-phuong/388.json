@@ -1,5 +1,5 @@
 {
-    "15031": {
+    "xa":[ {
         "name": "Yên Khương",
         "type": "xa",
         "slug": "yen-khuong",
@@ -9,7 +9,7 @@
         "code": "15031",
         "parent_code": "388"
     },
-    "15034": {
+     {
         "name": "Yên Thắng",
         "type": "xa",
         "slug": "yen-thang",
@@ -19,7 +19,7 @@
         "code": "15034",
         "parent_code": "388"
     },
-    "15037": {
+     {
         "name": "Trí Nang",
         "type": "xa",
         "slug": "tri-nang",
@@ -29,7 +29,7 @@
         "code": "15037",
         "parent_code": "388"
     },
-    "15040": {
+     {
         "name": "Giao An",
         "type": "xa",
         "slug": "giao-an",
@@ -39,7 +39,7 @@
         "code": "15040",
         "parent_code": "388"
     },
-    "15043": {
+     {
         "name": "Giao Thiện",
         "type": "xa",
         "slug": "giao-thien",
@@ -49,7 +49,7 @@
         "code": "15043",
         "parent_code": "388"
     },
-    "15046": {
+     {
         "name": "Tân Phúc",
         "type": "xa",
         "slug": "tan-phuc",
@@ -59,7 +59,7 @@
         "code": "15046",
         "parent_code": "388"
     },
-    "15049": {
+     {
         "name": "Tam Văn",
         "type": "xa",
         "slug": "tam-van",
@@ -69,7 +69,7 @@
         "code": "15049",
         "parent_code": "388"
     },
-    "15052": {
+     {
         "name": "Lâm Phú",
         "type": "xa",
         "slug": "lam-phu",
@@ -79,7 +79,7 @@
         "code": "15052",
         "parent_code": "388"
     },
-    "15055": {
+     {
         "name": "Lang Chánh",
         "type": "thi-tran",
         "slug": "lang-chanh",
@@ -89,7 +89,7 @@
         "code": "15055",
         "parent_code": "388"
     },
-    "15058": {
+     {
         "name": "Đồng Lương",
         "type": "xa",
         "slug": "dong-luong",
@@ -99,4 +99,4 @@
         "code": "15058",
         "parent_code": "388"
     }
-}
+]}

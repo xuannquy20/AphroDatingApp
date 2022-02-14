@@ -1,5 +1,5 @@
 {
-    "13285": {
+    "xa":[ {
         "name": "Quang Trung",
         "type": "phuong",
         "slug": "quang-trung",
@@ -9,7 +9,7 @@
         "code": "13285",
         "parent_code": "347"
     },
-    "13288": {
+     {
         "name": "Lương Khánh Thiện",
         "type": "phuong",
         "slug": "luong-khanh-thien",
@@ -19,7 +19,7 @@
         "code": "13288",
         "parent_code": "347"
     },
-    "13291": {
+     {
         "name": "Lê Hồng Phong",
         "type": "phuong",
         "slug": "le-hong-phong",
@@ -29,7 +29,7 @@
         "code": "13291",
         "parent_code": "347"
     },
-    "13294": {
+     {
         "name": "Minh Khai",
         "type": "phuong",
         "slug": "minh-khai",
@@ -39,7 +39,7 @@
         "code": "13294",
         "parent_code": "347"
     },
-    "13297": {
+     {
         "name": "Hai Bà Trưng",
         "type": "phuong",
         "slug": "hai-ba-trung",
@@ -49,7 +49,7 @@
         "code": "13297",
         "parent_code": "347"
     },
-    "13300": {
+     {
         "name": "Trần Hưng Đạo",
         "type": "phuong",
         "slug": "tran-hung-dao",
@@ -59,7 +59,7 @@
         "code": "13300",
         "parent_code": "347"
     },
-    "13303": {
+     {
         "name": "Lam Hạ",
         "type": "phuong",
         "slug": "lam-ha",
@@ -69,7 +69,7 @@
         "code": "13303",
         "parent_code": "347"
     },
-    "13306": {
+     {
         "name": "Phù Vân",
         "type": "xa",
         "slug": "phu-van",
@@ -79,7 +79,7 @@
         "code": "13306",
         "parent_code": "347"
     },
-    "13309": {
+     {
         "name": "Liêm Chính",
         "type": "phuong",
         "slug": "liem-chinh",
@@ -89,7 +89,7 @@
         "code": "13309",
         "parent_code": "347"
     },
-    "13312": {
+     {
         "name": "Liêm Chung",
         "type": "xa",
         "slug": "liem-chung",
@@ -99,7 +99,7 @@
         "code": "13312",
         "parent_code": "347"
     },
-    "13315": {
+     {
         "name": "Thanh Châu",
         "type": "phuong",
         "slug": "thanh-chau",
@@ -109,7 +109,7 @@
         "code": "13315",
         "parent_code": "347"
     },
-    "13318": {
+     {
         "name": "Châu Sơn",
         "type": "phuong",
         "slug": "chau-son",
@@ -119,7 +119,7 @@
         "code": "13318",
         "parent_code": "347"
     },
-    "13366": {
+     {
         "name": "Tiên Tân",
         "type": "xa",
         "slug": "tien-tan",
@@ -129,7 +129,7 @@
         "code": "13366",
         "parent_code": "347"
     },
-    "13372": {
+     {
         "name": "Tiên Hiệp",
         "type": "xa",
         "slug": "tien-hiep",
@@ -139,7 +139,7 @@
         "code": "13372",
         "parent_code": "347"
     },
-    "13381": {
+     {
         "name": "Tiên Hải",
         "type": "xa",
         "slug": "tien-hai",
@@ -149,7 +149,7 @@
         "code": "13381",
         "parent_code": "347"
     },
-    "13426": {
+     {
         "name": "Kim Bình",
         "type": "xa",
         "slug": "kim-binh",
@@ -159,7 +159,7 @@
         "code": "13426",
         "parent_code": "347"
     },
-    "13444": {
+     {
         "name": "Liêm Tuyền",
         "type": "xa",
         "slug": "liem-tuyen",
@@ -169,7 +169,7 @@
         "code": "13444",
         "parent_code": "347"
     },
-    "13447": {
+     {
         "name": "Liêm Tiết",
         "type": "xa",
         "slug": "liem-tiet",
@@ -179,7 +179,7 @@
         "code": "13447",
         "parent_code": "347"
     },
-    "13459": {
+     {
         "name": "Thanh Tuyền",
         "type": "phuong",
         "slug": "thanh-tuyen",
@@ -189,7 +189,7 @@
         "code": "13459",
         "parent_code": "347"
     },
-    "13507": {
+     {
         "name": "Đinh Xá",
         "type": "xa",
         "slug": "dinh-xa",
@@ -199,7 +199,7 @@
         "code": "13507",
         "parent_code": "347"
     },
-    "13513": {
+     {
         "name": "Trịnh Xá",
         "type": "xa",
         "slug": "trinh-xa",
@@ -209,4 +209,4 @@
         "code": "13513",
         "parent_code": "347"
     }
-}
+]}

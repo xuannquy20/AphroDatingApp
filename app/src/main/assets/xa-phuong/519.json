@@ -1,5 +1,5 @@
 {
-    "20656": {
+    "xa":[ {
         "name": "Quế Trung",
         "type": "xa",
         "slug": "que-trung",
@@ -9,7 +9,7 @@
         "code": "20656",
         "parent_code": "519"
     },
-    "20668": {
+     {
         "name": "Ninh Phước",
         "type": "xa",
         "slug": "ninh-phuoc",
@@ -19,7 +19,7 @@
         "code": "20668",
         "parent_code": "519"
     },
-    "20669": {
+     {
         "name": "Phước Ninh",
         "type": "xa",
         "slug": "phuoc-ninh",
@@ -29,7 +29,7 @@
         "code": "20669",
         "parent_code": "519"
     },
-    "20671": {
+     {
         "name": "Quế Lộc",
         "type": "xa",
         "slug": "que-loc",
@@ -39,7 +39,7 @@
         "code": "20671",
         "parent_code": "519"
     },
-    "20672": {
+     {
         "name": "Sơn Viên",
         "type": "xa",
         "slug": "son-vien",
@@ -49,7 +49,7 @@
         "code": "20672",
         "parent_code": "519"
     },
-    "20692": {
+     {
         "name": "Quế Lâm",
         "type": "xa",
         "slug": "que-lam",
@@ -59,4 +59,4 @@
         "code": "20692",
         "parent_code": "519"
     }
-}
+]}

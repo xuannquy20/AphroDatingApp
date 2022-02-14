@@ -1,5 +1,5 @@
 {
-    "23794": {
+    "xa":[ {
         "name": "Kon Dơng",
         "type": "thi-tran",
         "slug": "kon-dong",
@@ -9,7 +9,7 @@
         "code": "23794",
         "parent_code": "629"
     },
-    "23797": {
+     {
         "name": "Ayun",
         "type": "xa",
         "slug": "ayun",
@@ -19,7 +19,7 @@
         "code": "23797",
         "parent_code": "629"
     },
-    "23798": {
+     {
         "name": "Đak Jơ Ta",
         "type": "xa",
         "slug": "dak-jo-ta",
@@ -29,7 +29,7 @@
         "code": "23798",
         "parent_code": "629"
     },
-    "23799": {
+     {
         "name": "Đak Ta Ley",
         "type": "xa",
         "slug": "dak-ta-ley",
@@ -39,7 +39,7 @@
         "code": "23799",
         "parent_code": "629"
     },
-    "23800": {
+     {
         "name": "Hra",
         "type": "xa",
         "slug": "hra",
@@ -49,7 +49,7 @@
         "code": "23800",
         "parent_code": "629"
     },
-    "23803": {
+     {
         "name": "Đăk Yă",
         "type": "xa",
         "slug": "dak-ya",
@@ -59,7 +59,7 @@
         "code": "23803",
         "parent_code": "629"
     },
-    "23806": {
+     {
         "name": "Đăk Djrăng",
         "type": "xa",
         "slug": "dak-djrang",
@@ -69,7 +69,7 @@
         "code": "23806",
         "parent_code": "629"
     },
-    "23809": {
+     {
         "name": "Lơ Pang",
         "type": "xa",
         "slug": "lo-pang",
@@ -79,7 +79,7 @@
         "code": "23809",
         "parent_code": "629"
     },
-    "23812": {
+     {
         "name": "Kon Thụp",
         "type": "xa",
         "slug": "kon-thup",
@@ -89,7 +89,7 @@
         "code": "23812",
         "parent_code": "629"
     },
-    "23815": {
+     {
         "name": "Đê Ar",
         "type": "xa",
         "slug": "de-ar",
@@ -99,7 +99,7 @@
         "code": "23815",
         "parent_code": "629"
     },
-    "23818": {
+     {
         "name": "Kon Chiêng",
         "type": "xa",
         "slug": "kon-chieng",
@@ -109,7 +109,7 @@
         "code": "23818",
         "parent_code": "629"
     },
-    "23821": {
+     {
         "name": "Đăk Trôi",
         "type": "xa",
         "slug": "dak-troi",
@@ -119,4 +119,4 @@
         "code": "23821",
         "parent_code": "629"
     }
-}
+]}

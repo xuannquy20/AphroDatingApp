@@ -1,5 +1,5 @@
 {
-    "26574": {
+    "xa":[ {
         "name": "Bàu Chinh",
         "type": "xa",
         "slug": "bau-chinh",
@@ -9,7 +9,7 @@
         "code": "26574",
         "parent_code": "750"
     },
-    "26575": {
+     {
         "name": "Ngãi Giao",
         "type": "thi-tran",
         "slug": "ngai-giao",
@@ -19,7 +19,7 @@
         "code": "26575",
         "parent_code": "750"
     },
-    "26578": {
+     {
         "name": "Bình Ba",
         "type": "xa",
         "slug": "binh-ba",
@@ -29,7 +29,7 @@
         "code": "26578",
         "parent_code": "750"
     },
-    "26581": {
+     {
         "name": "Suối Nghệ",
         "type": "xa",
         "slug": "suoi-nghe",
@@ -39,7 +39,7 @@
         "code": "26581",
         "parent_code": "750"
     },
-    "26584": {
+     {
         "name": "Xuân Sơn",
         "type": "xa",
         "slug": "xuan-son",
@@ -49,7 +49,7 @@
         "code": "26584",
         "parent_code": "750"
     },
-    "26587": {
+     {
         "name": "Sơn Bình",
         "type": "xa",
         "slug": "son-binh",
@@ -59,7 +59,7 @@
         "code": "26587",
         "parent_code": "750"
     },
-    "26590": {
+     {
         "name": "Bình Giã",
         "type": "xa",
         "slug": "binh-gia",
@@ -69,7 +69,7 @@
         "code": "26590",
         "parent_code": "750"
     },
-    "26593": {
+     {
         "name": "Bình Trung",
         "type": "xa",
         "slug": "binh-trung",
@@ -79,7 +79,7 @@
         "code": "26593",
         "parent_code": "750"
     },
-    "26596": {
+     {
         "name": "Xà Bang",
         "type": "xa",
         "slug": "xa-bang",
@@ -89,7 +89,7 @@
         "code": "26596",
         "parent_code": "750"
     },
-    "26599": {
+     {
         "name": "Cù Bị",
         "type": "xa",
         "slug": "cu-bi",
@@ -99,7 +99,7 @@
         "code": "26599",
         "parent_code": "750"
     },
-    "26602": {
+     {
         "name": "Láng Lớn",
         "type": "xa",
         "slug": "lang-lon",
@@ -109,7 +109,7 @@
         "code": "26602",
         "parent_code": "750"
     },
-    "26605": {
+     {
         "name": "Quảng Thành",
         "type": "xa",
         "slug": "quang-thanh",
@@ -119,7 +119,7 @@
         "code": "26605",
         "parent_code": "750"
     },
-    "26608": {
+     {
         "name": "Kim Long",
         "type": "xa",
         "slug": "kim-long",
@@ -129,7 +129,7 @@
         "code": "26608",
         "parent_code": "750"
     },
-    "26611": {
+     {
         "name": "Suối Rao",
         "type": "xa",
         "slug": "suoi-rao",
@@ -139,7 +139,7 @@
         "code": "26611",
         "parent_code": "750"
     },
-    "26614": {
+     {
         "name": "Đá Bạc",
         "type": "xa",
         "slug": "da-bac",
@@ -149,7 +149,7 @@
         "code": "26614",
         "parent_code": "750"
     },
-    "26617": {
+     {
         "name": "Nghĩa Thành",
         "type": "xa",
         "slug": "nghia-thanh",
@@ -159,4 +159,4 @@
         "code": "26617",
         "parent_code": "750"
     }
-}
+]}

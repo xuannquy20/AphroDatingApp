@@ -1,5 +1,5 @@
 {
-    "07030": {
+    "xa":[ {
         "name": "Trới",
         "type": "thi-tran",
         "slug": "troi",
@@ -9,7 +9,7 @@
         "code": "07030",
         "parent_code": "204"
     },
-    "07033": {
+     {
         "name": "Kỳ Thượng",
         "type": "xa",
         "slug": "ky-thuong",
@@ -19,7 +19,7 @@
         "code": "07033",
         "parent_code": "204"
     },
-    "07036": {
+     {
         "name": "Đồng Sơn",
         "type": "xa",
         "slug": "dong-son",
@@ -29,7 +29,7 @@
         "code": "07036",
         "parent_code": "204"
     },
-    "07039": {
+     {
         "name": "Tân Dân",
         "type": "xa",
         "slug": "tan-dan",
@@ -39,7 +39,7 @@
         "code": "07039",
         "parent_code": "204"
     },
-    "07042": {
+     {
         "name": "Đồng Lâm",
         "type": "xa",
         "slug": "dong-lam",
@@ -49,7 +49,7 @@
         "code": "07042",
         "parent_code": "204"
     },
-    "07045": {
+     {
         "name": "Hòa Bình",
         "type": "xa",
         "slug": "hoa-binh",
@@ -59,7 +59,7 @@
         "code": "07045",
         "parent_code": "204"
     },
-    "07048": {
+     {
         "name": "Vũ Oai",
         "type": "xa",
         "slug": "vu-oai",
@@ -69,7 +69,7 @@
         "code": "07048",
         "parent_code": "204"
     },
-    "07051": {
+     {
         "name": "Dân Chủ",
         "type": "xa",
         "slug": "dan-chu",
@@ -79,7 +79,7 @@
         "code": "07051",
         "parent_code": "204"
     },
-    "07054": {
+     {
         "name": "Quảng La",
         "type": "xa",
         "slug": "quang-la",
@@ -89,7 +89,7 @@
         "code": "07054",
         "parent_code": "204"
     },
-    "07057": {
+     {
         "name": "Bằng Cả",
         "type": "xa",
         "slug": "bang-ca",
@@ -99,7 +99,7 @@
         "code": "07057",
         "parent_code": "204"
     },
-    "07060": {
+     {
         "name": "Thống Nhất",
         "type": "xa",
         "slug": "thong-nhat",
@@ -109,7 +109,7 @@
         "code": "07060",
         "parent_code": "204"
     },
-    "07063": {
+     {
         "name": "Sơn Dương",
         "type": "xa",
         "slug": "son-duong",
@@ -119,7 +119,7 @@
         "code": "07063",
         "parent_code": "204"
     },
-    "07066": {
+     {
         "name": "Lê Lợi",
         "type": "xa",
         "slug": "le-loi",
@@ -129,4 +129,4 @@
         "code": "07066",
         "parent_code": "204"
     }
-}
+]}

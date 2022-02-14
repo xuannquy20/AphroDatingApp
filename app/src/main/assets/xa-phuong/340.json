@@ -1,5 +1,5 @@
 {
-    "12688": {
+    "xa":[ {
         "name": "Đông Hưng",
         "type": "thi-tran",
         "slug": "dong-hung",
@@ -9,7 +9,7 @@
         "code": "12688",
         "parent_code": "340"
     },
-    "12691": {
+     {
         "name": "Đô Lương",
         "type": "xa",
         "slug": "do-luong",
@@ -19,7 +19,7 @@
         "code": "12691",
         "parent_code": "340"
     },
-    "12694": {
+     {
         "name": "Đông Phương",
         "type": "xa",
         "slug": "dong-phuong",
@@ -29,7 +29,7 @@
         "code": "12694",
         "parent_code": "340"
     },
-    "12697": {
+     {
         "name": "Liên Giang",
         "type": "xa",
         "slug": "lien-giang",
@@ -39,7 +39,7 @@
         "code": "12697",
         "parent_code": "340"
     },
-    "12700": {
+     {
         "name": "An Châu",
         "type": "xa",
         "slug": "an-chau",
@@ -49,7 +49,7 @@
         "code": "12700",
         "parent_code": "340"
     },
-    "12703": {
+     {
         "name": "Đông Sơn",
         "type": "xa",
         "slug": "dong-son",
@@ -59,7 +59,7 @@
         "code": "12703",
         "parent_code": "340"
     },
-    "12706": {
+     {
         "name": "Đông Cường",
         "type": "xa",
         "slug": "dong-cuong",
@@ -69,7 +69,7 @@
         "code": "12706",
         "parent_code": "340"
     },
-    "12709": {
+     {
         "name": "Phú Lương",
         "type": "xa",
         "slug": "phu-luong",
@@ -79,7 +79,7 @@
         "code": "12709",
         "parent_code": "340"
     },
-    "12712": {
+     {
         "name": "Mê Linh",
         "type": "xa",
         "slug": "me-linh",
@@ -89,7 +89,7 @@
         "code": "12712",
         "parent_code": "340"
     },
-    "12715": {
+     {
         "name": "Lô Giang",
         "type": "xa",
         "slug": "lo-giang",
@@ -99,7 +99,7 @@
         "code": "12715",
         "parent_code": "340"
     },
-    "12718": {
+     {
         "name": "Đông La",
         "type": "xa",
         "slug": "dong-la",
@@ -109,7 +109,7 @@
         "code": "12718",
         "parent_code": "340"
     },
-    "12721": {
+     {
         "name": "Minh Tân",
         "type": "xa",
         "slug": "minh-tan",
@@ -119,7 +119,7 @@
         "code": "12721",
         "parent_code": "340"
     },
-    "12724": {
+     {
         "name": "Đông Xá",
         "type": "xa",
         "slug": "dong-xa",
@@ -129,7 +129,7 @@
         "code": "12724",
         "parent_code": "340"
     },
-    "12727": {
+     {
         "name": "Chương Dương",
         "type": "xa",
         "slug": "chuong-duong",
@@ -139,7 +139,7 @@
         "code": "12727",
         "parent_code": "340"
     },
-    "12730": {
+     {
         "name": "Nguyên Xá",
         "type": "xa",
         "slug": "nguyen-xa",
@@ -149,7 +149,7 @@
         "code": "12730",
         "parent_code": "340"
     },
-    "12733": {
+     {
         "name": "Phong Châu",
         "type": "xa",
         "slug": "phong-chau",
@@ -159,7 +159,7 @@
         "code": "12733",
         "parent_code": "340"
     },
-    "12736": {
+     {
         "name": "Hợp Tiến",
         "type": "xa",
         "slug": "hop-tien",
@@ -169,7 +169,7 @@
         "code": "12736",
         "parent_code": "340"
     },
-    "12739": {
+     {
         "name": "Hồng Việt",
         "type": "xa",
         "slug": "hong-viet",
@@ -179,7 +179,7 @@
         "code": "12739",
         "parent_code": "340"
     },
-    "12745": {
+     {
         "name": "Hà Giang",
         "type": "xa",
         "slug": "ha-giang",
@@ -189,7 +189,7 @@
         "code": "12745",
         "parent_code": "340"
     },
-    "12748": {
+     {
         "name": "Đông Kinh",
         "type": "xa",
         "slug": "dong-kinh",
@@ -199,7 +199,7 @@
         "code": "12748",
         "parent_code": "340"
     },
-    "12751": {
+     {
         "name": "Đông Hợp",
         "type": "xa",
         "slug": "dong-hop",
@@ -209,7 +209,7 @@
         "code": "12751",
         "parent_code": "340"
     },
-    "12754": {
+     {
         "name": "Thăng Long",
         "type": "xa",
         "slug": "thang-long",
@@ -219,7 +219,7 @@
         "code": "12754",
         "parent_code": "340"
     },
-    "12757": {
+     {
         "name": "Đông Các",
         "type": "xa",
         "slug": "dong-cac",
@@ -229,7 +229,7 @@
         "code": "12757",
         "parent_code": "340"
     },
-    "12760": {
+     {
         "name": "Phú Châu",
         "type": "xa",
         "slug": "phu-chau",
@@ -239,7 +239,7 @@
         "code": "12760",
         "parent_code": "340"
     },
-    "12763": {
+     {
         "name": "Liên Hoa",
         "type": "xa",
         "slug": "lien-hoa",
@@ -249,7 +249,7 @@
         "code": "12763",
         "parent_code": "340"
     },
-    "12769": {
+     {
         "name": "Đông Tân",
         "type": "xa",
         "slug": "dong-tan",
@@ -259,7 +259,7 @@
         "code": "12769",
         "parent_code": "340"
     },
-    "12772": {
+     {
         "name": "Đông Vinh",
         "type": "xa",
         "slug": "dong-vinh",
@@ -269,7 +269,7 @@
         "code": "12772",
         "parent_code": "340"
     },
-    "12775": {
+     {
         "name": "Đông Động",
         "type": "xa",
         "slug": "dong-dong",
@@ -279,7 +279,7 @@
         "code": "12775",
         "parent_code": "340"
     },
-    "12778": {
+     {
         "name": "Hồng Bạch",
         "type": "xa",
         "slug": "hong-bach",
@@ -289,7 +289,7 @@
         "code": "12778",
         "parent_code": "340"
     },
-    "12784": {
+     {
         "name": "Trọng Quan",
         "type": "xa",
         "slug": "trong-quan",
@@ -299,7 +299,7 @@
         "code": "12784",
         "parent_code": "340"
     },
-    "12790": {
+     {
         "name": "Hồng Giang",
         "type": "xa",
         "slug": "hong-giang",
@@ -309,7 +309,7 @@
         "code": "12790",
         "parent_code": "340"
     },
-    "12793": {
+     {
         "name": "Đông Quan",
         "type": "xa",
         "slug": "dong-quan",
@@ -319,7 +319,7 @@
         "code": "12793",
         "parent_code": "340"
     },
-    "12796": {
+     {
         "name": "Đông Quang",
         "type": "xa",
         "slug": "dong-quang",
@@ -329,7 +329,7 @@
         "code": "12796",
         "parent_code": "340"
     },
-    "12799": {
+     {
         "name": "Đông Xuân",
         "type": "xa",
         "slug": "dong-xuan",
@@ -339,7 +339,7 @@
         "code": "12799",
         "parent_code": "340"
     },
-    "12802": {
+     {
         "name": "Đông Á",
         "type": "xa",
         "slug": "dong-a",
@@ -349,7 +349,7 @@
         "code": "12802",
         "parent_code": "340"
     },
-    "12808": {
+     {
         "name": "Đông Hoàng",
         "type": "xa",
         "slug": "dong-hoang",
@@ -359,7 +359,7 @@
         "code": "12808",
         "parent_code": "340"
     },
-    "12811": {
+     {
         "name": "Đông Dương",
         "type": "xa",
         "slug": "dong-duong",
@@ -369,7 +369,7 @@
         "code": "12811",
         "parent_code": "340"
     },
-    "12823": {
+     {
         "name": "Minh Phú",
         "type": "xa",
         "slug": "minh-phu",
@@ -379,4 +379,4 @@
         "code": "12823",
         "parent_code": "340"
     }
-}
+]}

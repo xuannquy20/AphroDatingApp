@@ -1,5 +1,5 @@
 {
-    "17035": {
+    "xa":[ {
         "name": "Quỳ Hợp",
         "type": "thi-tran",
         "slug": "quy-hop",
@@ -9,7 +9,7 @@
         "code": "17035",
         "parent_code": "420"
     },
-    "17038": {
+     {
         "name": "Yên Hợp",
         "type": "xa",
         "slug": "yen-hop",
@@ -19,7 +19,7 @@
         "code": "17038",
         "parent_code": "420"
     },
-    "17041": {
+     {
         "name": "Châu Tiến",
         "type": "xa",
         "slug": "chau-tien",
@@ -29,7 +29,7 @@
         "code": "17041",
         "parent_code": "420"
     },
-    "17044": {
+     {
         "name": "Châu Hồng",
         "type": "xa",
         "slug": "chau-hong",
@@ -39,7 +39,7 @@
         "code": "17044",
         "parent_code": "420"
     },
-    "17047": {
+     {
         "name": "Đồng Hợp",
         "type": "xa",
         "slug": "dong-hop",
@@ -49,7 +49,7 @@
         "code": "17047",
         "parent_code": "420"
     },
-    "17050": {
+     {
         "name": "Châu Thành",
         "type": "xa",
         "slug": "chau-thanh",
@@ -59,7 +59,7 @@
         "code": "17050",
         "parent_code": "420"
     },
-    "17053": {
+     {
         "name": "Liên Hợp",
         "type": "xa",
         "slug": "lien-hop",
@@ -69,7 +69,7 @@
         "code": "17053",
         "parent_code": "420"
     },
-    "17056": {
+     {
         "name": "Châu Lộc",
         "type": "xa",
         "slug": "chau-loc",
@@ -79,7 +79,7 @@
         "code": "17056",
         "parent_code": "420"
     },
-    "17059": {
+     {
         "name": "Tam Hợp",
         "type": "xa",
         "slug": "tam-hop",
@@ -89,7 +89,7 @@
         "code": "17059",
         "parent_code": "420"
     },
-    "17062": {
+     {
         "name": "Châu Cường",
         "type": "xa",
         "slug": "chau-cuong",
@@ -99,7 +99,7 @@
         "code": "17062",
         "parent_code": "420"
     },
-    "17065": {
+     {
         "name": "Châu Quang",
         "type": "xa",
         "slug": "chau-quang",
@@ -109,7 +109,7 @@
         "code": "17065",
         "parent_code": "420"
     },
-    "17068": {
+     {
         "name": "Thọ Hợp",
         "type": "xa",
         "slug": "tho-hop",
@@ -119,7 +119,7 @@
         "code": "17068",
         "parent_code": "420"
     },
-    "17071": {
+     {
         "name": "Minh Hợp",
         "type": "xa",
         "slug": "minh-hop",
@@ -129,7 +129,7 @@
         "code": "17071",
         "parent_code": "420"
     },
-    "17074": {
+     {
         "name": "Nghĩa Xuân",
         "type": "xa",
         "slug": "nghia-xuan",
@@ -139,7 +139,7 @@
         "code": "17074",
         "parent_code": "420"
     },
-    "17077": {
+     {
         "name": "Châu Thái",
         "type": "xa",
         "slug": "chau-thai",
@@ -149,7 +149,7 @@
         "code": "17077",
         "parent_code": "420"
     },
-    "17080": {
+     {
         "name": "Châu Đình",
         "type": "xa",
         "slug": "chau-dinh",
@@ -159,7 +159,7 @@
         "code": "17080",
         "parent_code": "420"
     },
-    "17083": {
+     {
         "name": "Văn Lợi",
         "type": "xa",
         "slug": "van-loi",
@@ -169,7 +169,7 @@
         "code": "17083",
         "parent_code": "420"
     },
-    "17086": {
+     {
         "name": "Nam Sơn",
         "type": "xa",
         "slug": "nam-son",
@@ -179,7 +179,7 @@
         "code": "17086",
         "parent_code": "420"
     },
-    "17089": {
+     {
         "name": "Châu Lý",
         "type": "xa",
         "slug": "chau-ly",
@@ -189,7 +189,7 @@
         "code": "17089",
         "parent_code": "420"
     },
-    "17092": {
+     {
         "name": "Hạ Sơn",
         "type": "xa",
         "slug": "ha-son",
@@ -199,7 +199,7 @@
         "code": "17092",
         "parent_code": "420"
     },
-    "17095": {
+     {
         "name": "Bắc Sơn",
         "type": "xa",
         "slug": "bac-son",
@@ -209,4 +209,4 @@
         "code": "17095",
         "parent_code": "420"
     }
-}
+]}

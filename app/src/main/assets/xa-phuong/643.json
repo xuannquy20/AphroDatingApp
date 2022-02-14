@@ -1,5 +1,5 @@
 {
-    "24118": {
+    "xa":[ {
         "name": "Tân Lập",
         "type": "phuong",
         "slug": "tan-lap",
@@ -9,7 +9,7 @@
         "code": "24118",
         "parent_code": "643"
     },
-    "24121": {
+     {
         "name": "Tân Hòa",
         "type": "phuong",
         "slug": "tan-hoa",
@@ -19,7 +19,7 @@
         "code": "24121",
         "parent_code": "643"
     },
-    "24124": {
+     {
         "name": "Tân An",
         "type": "phuong",
         "slug": "tan-an",
@@ -29,7 +29,7 @@
         "code": "24124",
         "parent_code": "643"
     },
-    "24127": {
+     {
         "name": "Thống Nhất",
         "type": "phuong",
         "slug": "thong-nhat",
@@ -39,7 +39,7 @@
         "code": "24127",
         "parent_code": "643"
     },
-    "24130": {
+     {
         "name": "Thành Nhất",
         "type": "phuong",
         "slug": "thanh-nhat",
@@ -49,7 +49,7 @@
         "code": "24130",
         "parent_code": "643"
     },
-    "24133": {
+     {
         "name": "Thắng Lợi",
         "type": "phuong",
         "slug": "thang-loi",
@@ -59,7 +59,7 @@
         "code": "24133",
         "parent_code": "643"
     },
-    "24136": {
+     {
         "name": "Tân Lợi",
         "type": "phuong",
         "slug": "tan-loi",
@@ -69,7 +69,7 @@
         "code": "24136",
         "parent_code": "643"
     },
-    "24139": {
+     {
         "name": "Thành Công",
         "type": "phuong",
         "slug": "thanh-cong",
@@ -79,7 +79,7 @@
         "code": "24139",
         "parent_code": "643"
     },
-    "24142": {
+     {
         "name": "Tân Thành",
         "type": "phuong",
         "slug": "tan-thanh",
@@ -89,7 +89,7 @@
         "code": "24142",
         "parent_code": "643"
     },
-    "24145": {
+     {
         "name": "Tân Tiến",
         "type": "phuong",
         "slug": "tan-tien",
@@ -99,7 +99,7 @@
         "code": "24145",
         "parent_code": "643"
     },
-    "24148": {
+     {
         "name": "Tự An",
         "type": "phuong",
         "slug": "tu-an",
@@ -109,7 +109,7 @@
         "code": "24148",
         "parent_code": "643"
     },
-    "24151": {
+     {
         "name": "Ea Tam",
         "type": "phuong",
         "slug": "ea-tam",
@@ -119,7 +119,7 @@
         "code": "24151",
         "parent_code": "643"
     },
-    "24154": {
+     {
         "name": "Khánh Xuân",
         "type": "phuong",
         "slug": "khanh-xuan",
@@ -129,7 +129,7 @@
         "code": "24154",
         "parent_code": "643"
     },
-    "24157": {
+     {
         "name": "Hòa Thuận",
         "type": "xa",
         "slug": "hoa-thuan",
@@ -139,7 +139,7 @@
         "code": "24157",
         "parent_code": "643"
     },
-    "24160": {
+     {
         "name": "Cư ÊBur",
         "type": "xa",
         "slug": "cu-ebur",
@@ -149,7 +149,7 @@
         "code": "24160",
         "parent_code": "643"
     },
-    "24163": {
+     {
         "name": "Ea Tu",
         "type": "xa",
         "slug": "ea-tu",
@@ -159,7 +159,7 @@
         "code": "24163",
         "parent_code": "643"
     },
-    "24166": {
+     {
         "name": "Hòa Thắng",
         "type": "xa",
         "slug": "hoa-thang",
@@ -169,7 +169,7 @@
         "code": "24166",
         "parent_code": "643"
     },
-    "24169": {
+     {
         "name": "Ea Kao",
         "type": "xa",
         "slug": "ea-kao",
@@ -179,7 +179,7 @@
         "code": "24169",
         "parent_code": "643"
     },
-    "24172": {
+     {
         "name": "Hòa Phú",
         "type": "xa",
         "slug": "hoa-phu",
@@ -189,7 +189,7 @@
         "code": "24172",
         "parent_code": "643"
     },
-    "24175": {
+     {
         "name": "Hòa Khánh",
         "type": "xa",
         "slug": "hoa-khanh",
@@ -199,7 +199,7 @@
         "code": "24175",
         "parent_code": "643"
     },
-    "24178": {
+     {
         "name": "Hòa Xuân",
         "type": "xa",
         "slug": "hoa-xuan",
@@ -209,4 +209,4 @@
         "code": "24178",
         "parent_code": "643"
     }
-}
+]}

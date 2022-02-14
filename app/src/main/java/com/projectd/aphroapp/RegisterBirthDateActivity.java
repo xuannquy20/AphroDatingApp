@@ -1,7 +1,6 @@
 package com.projectd.aphroapp;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.animation.ValueAnimator;
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +12,8 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import com.projectd.aphroapp.dao.UserDAO;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -184,13 +185,10 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
             });
 
             btnNext.setOnClickListener(v -> {
-                Intent gender = getIntent();
                 Intent date = new Intent(this, RegisterAddressActivity.class);
-                date.putExtra("name", gender.getStringExtra("name"));
-                date.putExtra("gender", gender.getStringExtra("gender"));
-                date.putExtra("day", selectDay.getSelectedItem().toString());
-                date.putExtra("month", selectMonth.getSelectedItem().toString());
-                date.putExtra("year", selectYear.getSelectedItem().toString());
+                UserDAO.CURRENT_USER.setDay(selectDay.getSelectedItem().toString());
+                UserDAO.CURRENT_USER.setMonth(selectMonth.getSelectedItem().toString());
+                UserDAO.CURRENT_USER.setYear(selectYear.getSelectedItem().toString());
                 startActivity(date);
             });
     }

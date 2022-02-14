@@ -1,5 +1,5 @@
 {
-    "25126": {
+    "xa":[ {
         "name": "Đạ Tẻh",
         "type": "thi-tran",
         "slug": "da-teh",
@@ -9,7 +9,7 @@
         "code": "25126",
         "parent_code": "682"
     },
-    "25129": {
+     {
         "name": "An Nhơn",
         "type": "xa",
         "slug": "an-nhon",
@@ -19,7 +19,7 @@
         "code": "25129",
         "parent_code": "682"
     },
-    "25132": {
+     {
         "name": "Quốc Oai",
         "type": "xa",
         "slug": "quoc-oai",
@@ -29,7 +29,7 @@
         "code": "25132",
         "parent_code": "682"
     },
-    "25135": {
+     {
         "name": "Mỹ Đức",
         "type": "xa",
         "slug": "my-duc",
@@ -39,7 +39,7 @@
         "code": "25135",
         "parent_code": "682"
     },
-    "25138": {
+     {
         "name": "Quảng Trị",
         "type": "xa",
         "slug": "quang-tri",
@@ -49,7 +49,7 @@
         "code": "25138",
         "parent_code": "682"
     },
-    "25141": {
+     {
         "name": "Đạ Lây",
         "type": "xa",
         "slug": "da-lay",
@@ -59,7 +59,7 @@
         "code": "25141",
         "parent_code": "682"
     },
-    "25147": {
+     {
         "name": "Triệu Hải",
         "type": "xa",
         "slug": "trieu-hai",
@@ -69,7 +69,7 @@
         "code": "25147",
         "parent_code": "682"
     },
-    "25153": {
+     {
         "name": "Đạ Kho",
         "type": "xa",
         "slug": "da-kho",
@@ -79,7 +79,7 @@
         "code": "25153",
         "parent_code": "682"
     },
-    "25156": {
+     {
         "name": "Đạ Pal",
         "type": "xa",
         "slug": "da-pal",
@@ -89,4 +89,4 @@
         "code": "25156",
         "parent_code": "682"
     }
-}
+]}

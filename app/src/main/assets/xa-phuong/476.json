@@ -1,5 +1,5 @@
 {
-    "19819": {
+    "xa":[ {
         "name": "Phong Điền",
         "type": "thi-tran",
         "slug": "phong-dien",
@@ -9,7 +9,7 @@
         "code": "19819",
         "parent_code": "476"
     },
-    "19822": {
+     {
         "name": "Điền Hương",
         "type": "xa",
         "slug": "dien-huong",
@@ -19,7 +19,7 @@
         "code": "19822",
         "parent_code": "476"
     },
-    "19825": {
+     {
         "name": "Điền Môn",
         "type": "xa",
         "slug": "dien-mon",
@@ -29,7 +29,7 @@
         "code": "19825",
         "parent_code": "476"
     },
-    "19828": {
+     {
         "name": "Điền Lộc",
         "type": "xa",
         "slug": "dien-loc",
@@ -39,7 +39,7 @@
         "code": "19828",
         "parent_code": "476"
     },
-    "19831": {
+     {
         "name": "Phong Bình",
         "type": "xa",
         "slug": "phong-binh",
@@ -49,7 +49,7 @@
         "code": "19831",
         "parent_code": "476"
     },
-    "19834": {
+     {
         "name": "Điền Hòa",
         "type": "xa",
         "slug": "dien-hoa",
@@ -59,7 +59,7 @@
         "code": "19834",
         "parent_code": "476"
     },
-    "19837": {
+     {
         "name": "Phong Chương",
         "type": "xa",
         "slug": "phong-chuong",
@@ -69,7 +69,7 @@
         "code": "19837",
         "parent_code": "476"
     },
-    "19840": {
+     {
         "name": "Phong Hải",
         "type": "xa",
         "slug": "phong-hai",
@@ -79,7 +79,7 @@
         "code": "19840",
         "parent_code": "476"
     },
-    "19843": {
+     {
         "name": "Điền Hải",
         "type": "xa",
         "slug": "dien-hai",
@@ -89,7 +89,7 @@
         "code": "19843",
         "parent_code": "476"
     },
-    "19846": {
+     {
         "name": "Phong Hòa",
         "type": "xa",
         "slug": "phong-hoa",
@@ -99,7 +99,7 @@
         "code": "19846",
         "parent_code": "476"
     },
-    "19849": {
+     {
         "name": "Phong Thu",
         "type": "xa",
         "slug": "phong-thu",
@@ -109,7 +109,7 @@
         "code": "19849",
         "parent_code": "476"
     },
-    "19852": {
+     {
         "name": "Phong Hiền",
         "type": "xa",
         "slug": "phong-hien",
@@ -119,7 +119,7 @@
         "code": "19852",
         "parent_code": "476"
     },
-    "19855": {
+     {
         "name": "Phong Mỹ",
         "type": "xa",
         "slug": "phong-my",
@@ -129,7 +129,7 @@
         "code": "19855",
         "parent_code": "476"
     },
-    "19858": {
+     {
         "name": "Phong An",
         "type": "xa",
         "slug": "phong-an",
@@ -139,7 +139,7 @@
         "code": "19858",
         "parent_code": "476"
     },
-    "19861": {
+     {
         "name": "Phong Xuân",
         "type": "xa",
         "slug": "phong-xuan",
@@ -149,7 +149,7 @@
         "code": "19861",
         "parent_code": "476"
     },
-    "19864": {
+     {
         "name": "Phong Sơn",
         "type": "xa",
         "slug": "phong-son",
@@ -159,4 +159,4 @@
         "code": "19864",
         "parent_code": "476"
     }
-}
+]}

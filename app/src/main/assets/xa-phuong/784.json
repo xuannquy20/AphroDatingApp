@@ -1,5 +1,5 @@
 {
-    "27559": {
+    "xa":[ {
         "name": "Hóc Môn",
         "type": "thi-tran",
         "slug": "hoc-mon",
@@ -9,7 +9,7 @@
         "code": "27559",
         "parent_code": "784"
     },
-    "27562": {
+     {
         "name": "Tân Hiệp",
         "type": "xa",
         "slug": "tan-hiep",
@@ -19,7 +19,7 @@
         "code": "27562",
         "parent_code": "784"
     },
-    "27565": {
+     {
         "name": "Nhị Bình",
         "type": "xa",
         "slug": "nhi-binh",
@@ -29,7 +29,7 @@
         "code": "27565",
         "parent_code": "784"
     },
-    "27568": {
+     {
         "name": "Đông Thạnh",
         "type": "xa",
         "slug": "dong-thanh",
@@ -39,7 +39,7 @@
         "code": "27568",
         "parent_code": "784"
     },
-    "27571": {
+     {
         "name": "Tân Thới Nhì",
         "type": "xa",
         "slug": "tan-thoi-nhi",
@@ -49,7 +49,7 @@
         "code": "27571",
         "parent_code": "784"
     },
-    "27574": {
+     {
         "name": "Thới Tam Thôn",
         "type": "xa",
         "slug": "thoi-tam-thon",
@@ -59,7 +59,7 @@
         "code": "27574",
         "parent_code": "784"
     },
-    "27577": {
+     {
         "name": "Xuân Thới Sơn",
         "type": "xa",
         "slug": "xuan-thoi-son",
@@ -69,7 +69,7 @@
         "code": "27577",
         "parent_code": "784"
     },
-    "27580": {
+     {
         "name": "Tân Xuân",
         "type": "xa",
         "slug": "tan-xuan",
@@ -79,7 +79,7 @@
         "code": "27580",
         "parent_code": "784"
     },
-    "27583": {
+     {
         "name": "Xuân Thới Đông",
         "type": "xa",
         "slug": "xuan-thoi-dong",
@@ -89,7 +89,7 @@
         "code": "27583",
         "parent_code": "784"
     },
-    "27586": {
+     {
         "name": "Trung Chánh",
         "type": "xa",
         "slug": "trung-chanh",
@@ -99,7 +99,7 @@
         "code": "27586",
         "parent_code": "784"
     },
-    "27589": {
+     {
         "name": "Xuân Thới Thượng",
         "type": "xa",
         "slug": "xuan-thoi-thuong",
@@ -109,7 +109,7 @@
         "code": "27589",
         "parent_code": "784"
     },
-    "27592": {
+     {
         "name": "Bà Điểm",
         "type": "xa",
         "slug": "ba-diem",
@@ -119,4 +119,4 @@
         "code": "27592",
         "parent_code": "784"
     }
-}
+]}

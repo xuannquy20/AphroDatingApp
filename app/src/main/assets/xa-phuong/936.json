@@ -1,5 +1,5 @@
 {
-    "31483": {
+    "xa":[ {
         "name": "Thuận Hưng",
         "type": "xa",
         "slug": "thuan-hung",
@@ -9,7 +9,7 @@
         "code": "31483",
         "parent_code": "936"
     },
-    "31484": {
+     {
         "name": "Thuận Hòa",
         "type": "xa",
         "slug": "thuan-hoa",
@@ -19,7 +19,7 @@
         "code": "31484",
         "parent_code": "936"
     },
-    "31486": {
+     {
         "name": "Vĩnh Thuận Đông",
         "type": "xa",
         "slug": "vinh-thuan-dong",
@@ -29,7 +29,7 @@
         "code": "31486",
         "parent_code": "936"
     },
-    "31489": {
+     {
         "name": "Vĩnh Viễn",
         "type": "thi-tran",
         "slug": "vinh-vien",
@@ -39,7 +39,7 @@
         "code": "31489",
         "parent_code": "936"
     },
-    "31490": {
+     {
         "name": "Vĩnh Viễn A",
         "type": "xa",
         "slug": "vinh-vien-a",
@@ -49,7 +49,7 @@
         "code": "31490",
         "parent_code": "936"
     },
-    "31492": {
+     {
         "name": "Lương Tâm",
         "type": "xa",
         "slug": "luong-tam",
@@ -59,7 +59,7 @@
         "code": "31492",
         "parent_code": "936"
     },
-    "31493": {
+     {
         "name": "Lương Nghĩa",
         "type": "xa",
         "slug": "luong-nghia",
@@ -69,7 +69,7 @@
         "code": "31493",
         "parent_code": "936"
     },
-    "31495": {
+     {
         "name": "Xà Phiên",
         "type": "xa",
         "slug": "xa-phien",
@@ -79,4 +79,4 @@
         "code": "31495",
         "parent_code": "936"
     }
-}
+]}

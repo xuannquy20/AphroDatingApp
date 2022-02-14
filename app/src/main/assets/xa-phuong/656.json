@@ -1,5 +1,5 @@
 {
-    "24580": {
+    "xa":[ {
         "name": "Liên Sơn",
         "type": "thi-tran",
         "slug": "lien-son",
@@ -9,7 +9,7 @@
         "code": "24580",
         "parent_code": "656"
     },
-    "24583": {
+     {
         "name": "Yang Tao",
         "type": "xa",
         "slug": "yang-tao",
@@ -19,7 +19,7 @@
         "code": "24583",
         "parent_code": "656"
     },
-    "24586": {
+     {
         "name": "Bông Krang",
         "type": "xa",
         "slug": "bong-krang",
@@ -29,7 +29,7 @@
         "code": "24586",
         "parent_code": "656"
     },
-    "24589": {
+     {
         "name": "Đắk Liêng",
         "type": "xa",
         "slug": "dak-lieng",
@@ -39,7 +39,7 @@
         "code": "24589",
         "parent_code": "656"
     },
-    "24592": {
+     {
         "name": "Buôn Triết",
         "type": "xa",
         "slug": "buon-triet",
@@ -49,7 +49,7 @@
         "code": "24592",
         "parent_code": "656"
     },
-    "24595": {
+     {
         "name": "Buôn Tría",
         "type": "xa",
         "slug": "buon-tria",
@@ -59,7 +59,7 @@
         "code": "24595",
         "parent_code": "656"
     },
-    "24598": {
+     {
         "name": "Đắk Phơi",
         "type": "xa",
         "slug": "dak-phoi",
@@ -69,7 +69,7 @@
         "code": "24598",
         "parent_code": "656"
     },
-    "24601": {
+     {
         "name": "Đắk Nuê",
         "type": "xa",
         "slug": "dak-nue",
@@ -79,7 +79,7 @@
         "code": "24601",
         "parent_code": "656"
     },
-    "24604": {
+     {
         "name": "Krông Nô",
         "type": "xa",
         "slug": "krong-no",
@@ -89,7 +89,7 @@
         "code": "24604",
         "parent_code": "656"
     },
-    "24607": {
+     {
         "name": "Nam Ka",
         "type": "xa",
         "slug": "nam-ka",
@@ -99,7 +99,7 @@
         "code": "24607",
         "parent_code": "656"
     },
-    "24610": {
+     {
         "name": "Ea R'Bin",
         "type": "xa",
         "slug": "ea-r-bin",
@@ -109,4 +109,4 @@
         "code": "24610",
         "parent_code": "656"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "24041": {
+    "xa":[ {
         "name": "Cheo Reo",
         "type": "phuong",
         "slug": "cheo-reo",
@@ -9,7 +9,7 @@
         "code": "24041",
         "parent_code": "624"
     },
-    "24042": {
+     {
         "name": "Hòa Bình",
         "type": "phuong",
         "slug": "hoa-binh",
@@ -19,7 +19,7 @@
         "code": "24042",
         "parent_code": "624"
     },
-    "24044": {
+     {
         "name": "Đoàn Kết",
         "type": "phuong",
         "slug": "doan-ket",
@@ -29,7 +29,7 @@
         "code": "24044",
         "parent_code": "624"
     },
-    "24045": {
+     {
         "name": "Sông Bờ",
         "type": "phuong",
         "slug": "song-bo",
@@ -39,7 +39,7 @@
         "code": "24045",
         "parent_code": "624"
     },
-    "24064": {
+     {
         "name": "Ia RBol",
         "type": "xa",
         "slug": "ia-rbol",
@@ -49,7 +49,7 @@
         "code": "24064",
         "parent_code": "624"
     },
-    "24065": {
+     {
         "name": "Chư Băh",
         "type": "xa",
         "slug": "chu-bah",
@@ -59,7 +59,7 @@
         "code": "24065",
         "parent_code": "624"
     },
-    "24070": {
+     {
         "name": "Ia RTô",
         "type": "xa",
         "slug": "ia-rto",
@@ -69,7 +69,7 @@
         "code": "24070",
         "parent_code": "624"
     },
-    "24073": {
+     {
         "name": "Ia Sao",
         "type": "xa",
         "slug": "ia-sao",
@@ -79,4 +79,4 @@
         "code": "24073",
         "parent_code": "624"
     }
-}
+]}

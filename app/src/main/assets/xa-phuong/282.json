@@ -1,5 +1,5 @@
 {
-    "10441": {
+    "xa":[ {
         "name": "Đại Nghĩa",
         "type": "thi-tran",
         "slug": "dai-nghia",
@@ -9,7 +9,7 @@
         "code": "10441",
         "parent_code": "282"
     },
-    "10444": {
+     {
         "name": "Đồng Tâm",
         "type": "xa",
         "slug": "dong-tam",
@@ -19,7 +19,7 @@
         "code": "10444",
         "parent_code": "282"
     },
-    "10447": {
+     {
         "name": "Thượng Lâm",
         "type": "xa",
         "slug": "thuong-lam",
@@ -29,7 +29,7 @@
         "code": "10447",
         "parent_code": "282"
     },
-    "10450": {
+     {
         "name": "Tuy Lai",
         "type": "xa",
         "slug": "tuy-lai",
@@ -39,7 +39,7 @@
         "code": "10450",
         "parent_code": "282"
     },
-    "10453": {
+     {
         "name": "Phúc Lâm",
         "type": "xa",
         "slug": "phuc-lam",
@@ -49,7 +49,7 @@
         "code": "10453",
         "parent_code": "282"
     },
-    "10456": {
+     {
         "name": "Mỹ Thành",
         "type": "xa",
         "slug": "my-thanh",
@@ -59,7 +59,7 @@
         "code": "10456",
         "parent_code": "282"
     },
-    "10459": {
+     {
         "name": "Bột Xuyên",
         "type": "xa",
         "slug": "bot-xuyen",
@@ -69,7 +69,7 @@
         "code": "10459",
         "parent_code": "282"
     },
-    "10462": {
+     {
         "name": "An Mỹ",
         "type": "xa",
         "slug": "an-my",
@@ -79,7 +79,7 @@
         "code": "10462",
         "parent_code": "282"
     },
-    "10465": {
+     {
         "name": "Hồng Sơn",
         "type": "xa",
         "slug": "hong-son",
@@ -89,7 +89,7 @@
         "code": "10465",
         "parent_code": "282"
     },
-    "10468": {
+     {
         "name": "Lê Thanh",
         "type": "xa",
         "slug": "le-thanh",
@@ -99,7 +99,7 @@
         "code": "10468",
         "parent_code": "282"
     },
-    "10471": {
+     {
         "name": "Xuy Xá",
         "type": "xa",
         "slug": "xuy-xa",
@@ -109,7 +109,7 @@
         "code": "10471",
         "parent_code": "282"
     },
-    "10474": {
+     {
         "name": "Phùng Xá",
         "type": "xa",
         "slug": "phung-xa",
@@ -119,7 +119,7 @@
         "code": "10474",
         "parent_code": "282"
     },
-    "10477": {
+     {
         "name": "Phù Lưu Tế",
         "type": "xa",
         "slug": "phu-luu-te",
@@ -129,7 +129,7 @@
         "code": "10477",
         "parent_code": "282"
     },
-    "10480": {
+     {
         "name": "Đại Hưng",
         "type": "xa",
         "slug": "dai-hung",
@@ -139,7 +139,7 @@
         "code": "10480",
         "parent_code": "282"
     },
-    "10483": {
+     {
         "name": "Vạn Kim",
         "type": "xa",
         "slug": "van-kim",
@@ -149,7 +149,7 @@
         "code": "10483",
         "parent_code": "282"
     },
-    "10486": {
+     {
         "name": "Đốc Tín",
         "type": "xa",
         "slug": "doc-tin",
@@ -159,7 +159,7 @@
         "code": "10486",
         "parent_code": "282"
     },
-    "10489": {
+     {
         "name": "Hương Sơn",
         "type": "xa",
         "slug": "huong-son",
@@ -169,7 +169,7 @@
         "code": "10489",
         "parent_code": "282"
     },
-    "10492": {
+     {
         "name": "Hùng Tiến",
         "type": "xa",
         "slug": "hung-tien",
@@ -179,7 +179,7 @@
         "code": "10492",
         "parent_code": "282"
     },
-    "10495": {
+     {
         "name": "An Tiến",
         "type": "xa",
         "slug": "an-tien",
@@ -189,7 +189,7 @@
         "code": "10495",
         "parent_code": "282"
     },
-    "10498": {
+     {
         "name": "Hợp Tiến",
         "type": "xa",
         "slug": "hop-tien",
@@ -199,7 +199,7 @@
         "code": "10498",
         "parent_code": "282"
     },
-    "10501": {
+     {
         "name": "Hợp Thanh",
         "type": "xa",
         "slug": "hop-thanh",
@@ -209,7 +209,7 @@
         "code": "10501",
         "parent_code": "282"
     },
-    "10504": {
+     {
         "name": "An Phú",
         "type": "xa",
         "slug": "an-phu",
@@ -219,4 +219,4 @@
         "code": "10504",
         "parent_code": "282"
     }
-}
+]}

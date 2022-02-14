@@ -1,5 +1,5 @@
 {
-    "28651": {
+    "xa":[ {
         "name": "Vĩnh Bình",
         "type": "thi-tran",
         "slug": "vinh-binh",
@@ -9,7 +9,7 @@
         "code": "28651",
         "parent_code": "823"
     },
-    "28654": {
+     {
         "name": "Đồng Sơn",
         "type": "xa",
         "slug": "dong-son",
@@ -19,7 +19,7 @@
         "code": "28654",
         "parent_code": "823"
     },
-    "28657": {
+     {
         "name": "Bình Phú",
         "type": "xa",
         "slug": "binh-phu",
@@ -29,7 +29,7 @@
         "code": "28657",
         "parent_code": "823"
     },
-    "28660": {
+     {
         "name": "Đồng Thạnh",
         "type": "xa",
         "slug": "dong-thanh",
@@ -39,7 +39,7 @@
         "code": "28660",
         "parent_code": "823"
     },
-    "28663": {
+     {
         "name": "Thành Công",
         "type": "xa",
         "slug": "thanh-cong",
@@ -49,7 +49,7 @@
         "code": "28663",
         "parent_code": "823"
     },
-    "28666": {
+     {
         "name": "Bình Nhì",
         "type": "xa",
         "slug": "binh-nhi",
@@ -59,7 +59,7 @@
         "code": "28666",
         "parent_code": "823"
     },
-    "28669": {
+     {
         "name": "Yên Luông",
         "type": "xa",
         "slug": "yen-luong",
@@ -69,7 +69,7 @@
         "code": "28669",
         "parent_code": "823"
     },
-    "28672": {
+     {
         "name": "Thạnh Trị",
         "type": "xa",
         "slug": "thanh-tri",
@@ -79,7 +79,7 @@
         "code": "28672",
         "parent_code": "823"
     },
-    "28675": {
+     {
         "name": "Thạnh Nhựt",
         "type": "xa",
         "slug": "thanh-nhut",
@@ -89,7 +89,7 @@
         "code": "28675",
         "parent_code": "823"
     },
-    "28678": {
+     {
         "name": "Long Vĩnh",
         "type": "xa",
         "slug": "long-vinh",
@@ -99,7 +99,7 @@
         "code": "28678",
         "parent_code": "823"
     },
-    "28681": {
+     {
         "name": "Bình Tân",
         "type": "xa",
         "slug": "binh-tan",
@@ -109,7 +109,7 @@
         "code": "28681",
         "parent_code": "823"
     },
-    "28684": {
+     {
         "name": "Vĩnh Hựu",
         "type": "xa",
         "slug": "vinh-huu",
@@ -119,7 +119,7 @@
         "code": "28684",
         "parent_code": "823"
     },
-    "28687": {
+     {
         "name": "Long Bình",
         "type": "xa",
         "slug": "long-binh",
@@ -129,4 +129,4 @@
         "code": "28687",
         "parent_code": "823"
     }
-}
+]}

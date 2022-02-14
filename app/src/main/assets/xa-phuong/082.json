@@ -1,5 +1,5 @@
 {
-    "02683": {
+    "xa":[ {
         "name": "Bát Xát",
         "type": "thi-tran",
         "slug": "bat-xat",
@@ -9,7 +9,7 @@
         "code": "02683",
         "parent_code": "082"
     },
-    "02686": {
+     {
         "name": "A Mú Sung",
         "type": "xa",
         "slug": "a-mu-sung",
@@ -19,7 +19,7 @@
         "code": "02686",
         "parent_code": "082"
     },
-    "02689": {
+     {
         "name": "Nậm Chạc",
         "type": "xa",
         "slug": "nam-chac",
@@ -29,7 +29,7 @@
         "code": "02689",
         "parent_code": "082"
     },
-    "02692": {
+     {
         "name": "A Lù",
         "type": "xa",
         "slug": "a-lu",
@@ -39,7 +39,7 @@
         "code": "02692",
         "parent_code": "082"
     },
-    "02695": {
+     {
         "name": "Trịnh Tường",
         "type": "xa",
         "slug": "trinh-tuong",
@@ -49,7 +49,7 @@
         "code": "02695",
         "parent_code": "082"
     },
-    "02701": {
+     {
         "name": "Y Tý",
         "type": "xa",
         "slug": "y-ty",
@@ -59,7 +59,7 @@
         "code": "02701",
         "parent_code": "082"
     },
-    "02704": {
+     {
         "name": "Cốc Mỳ",
         "type": "xa",
         "slug": "coc-my",
@@ -69,7 +69,7 @@
         "code": "02704",
         "parent_code": "082"
     },
-    "02707": {
+     {
         "name": "Dền Sáng",
         "type": "xa",
         "slug": "den-sang",
@@ -79,7 +79,7 @@
         "code": "02707",
         "parent_code": "082"
     },
-    "02710": {
+     {
         "name": "Bản Vược",
         "type": "xa",
         "slug": "ban-vuoc",
@@ -89,7 +89,7 @@
         "code": "02710",
         "parent_code": "082"
     },
-    "02713": {
+     {
         "name": "Sàng Ma Sáo",
         "type": "xa",
         "slug": "sang-ma-sao",
@@ -99,7 +99,7 @@
         "code": "02713",
         "parent_code": "082"
     },
-    "02716": {
+     {
         "name": "Bản Qua",
         "type": "xa",
         "slug": "ban-qua",
@@ -109,7 +109,7 @@
         "code": "02716",
         "parent_code": "082"
     },
-    "02719": {
+     {
         "name": "Mường Vi",
         "type": "xa",
         "slug": "muong-vi",
@@ -119,7 +119,7 @@
         "code": "02719",
         "parent_code": "082"
     },
-    "02722": {
+     {
         "name": "Dền Thàng",
         "type": "xa",
         "slug": "den-thang",
@@ -129,7 +129,7 @@
         "code": "02722",
         "parent_code": "082"
     },
-    "02725": {
+     {
         "name": "Bản Xèo",
         "type": "xa",
         "slug": "ban-xeo",
@@ -139,7 +139,7 @@
         "code": "02725",
         "parent_code": "082"
     },
-    "02728": {
+     {
         "name": "Mường Hum",
         "type": "xa",
         "slug": "muong-hum",
@@ -149,7 +149,7 @@
         "code": "02728",
         "parent_code": "082"
     },
-    "02731": {
+     {
         "name": "Trung Lèng Hồ",
         "type": "xa",
         "slug": "trung-leng-ho",
@@ -159,7 +159,7 @@
         "code": "02731",
         "parent_code": "082"
     },
-    "02734": {
+     {
         "name": "Quang Kim",
         "type": "xa",
         "slug": "quang-kim",
@@ -169,7 +169,7 @@
         "code": "02734",
         "parent_code": "082"
     },
-    "02737": {
+     {
         "name": "Pa Cheo",
         "type": "xa",
         "slug": "pa-cheo",
@@ -179,7 +179,7 @@
         "code": "02737",
         "parent_code": "082"
     },
-    "02740": {
+     {
         "name": "Nậm Pung",
         "type": "xa",
         "slug": "nam-pung",
@@ -189,7 +189,7 @@
         "code": "02740",
         "parent_code": "082"
     },
-    "02743": {
+     {
         "name": "Phìn Ngan",
         "type": "xa",
         "slug": "phin-ngan",
@@ -199,7 +199,7 @@
         "code": "02743",
         "parent_code": "082"
     },
-    "02749": {
+     {
         "name": "Tòng Sành",
         "type": "xa",
         "slug": "tong-sanh",
@@ -209,4 +209,4 @@
         "code": "02749",
         "parent_code": "082"
     }
-}
+]}

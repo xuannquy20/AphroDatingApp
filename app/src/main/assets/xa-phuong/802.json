@@ -1,5 +1,5 @@
 {
-    "27931": {
+    "xa":[ {
         "name": "Hậu Nghĩa",
         "type": "thi-tran",
         "slug": "hau-nghia",
@@ -9,7 +9,7 @@
         "code": "27931",
         "parent_code": "802"
     },
-    "27934": {
+     {
         "name": "Hiệp Hòa",
         "type": "thi-tran",
         "slug": "hiep-hoa",
@@ -19,7 +19,7 @@
         "code": "27934",
         "parent_code": "802"
     },
-    "27937": {
+     {
         "name": "Đức Hòa",
         "type": "thi-tran",
         "slug": "duc-hoa",
@@ -29,7 +29,7 @@
         "code": "27937",
         "parent_code": "802"
     },
-    "27940": {
+     {
         "name": "Lộc Giang",
         "type": "xa",
         "slug": "loc-giang",
@@ -39,7 +39,7 @@
         "code": "27940",
         "parent_code": "802"
     },
-    "27943": {
+     {
         "name": "An Ninh Đông",
         "type": "xa",
         "slug": "an-ninh-dong",
@@ -49,7 +49,7 @@
         "code": "27943",
         "parent_code": "802"
     },
-    "27946": {
+     {
         "name": "An Ninh Tây",
         "type": "xa",
         "slug": "an-ninh-tay",
@@ -59,7 +59,7 @@
         "code": "27946",
         "parent_code": "802"
     },
-    "27949": {
+     {
         "name": "Tân Mỹ",
         "type": "xa",
         "slug": "tan-my",
@@ -69,7 +69,7 @@
         "code": "27949",
         "parent_code": "802"
     },
-    "27952": {
+     {
         "name": "Hiệp Hòa",
         "type": "xa",
         "slug": "hiep-hoa",
@@ -79,7 +79,7 @@
         "code": "27952",
         "parent_code": "802"
     },
-    "27955": {
+     {
         "name": "Đức Lập Thượng",
         "type": "xa",
         "slug": "duc-lap-thuong",
@@ -89,7 +89,7 @@
         "code": "27955",
         "parent_code": "802"
     },
-    "27958": {
+     {
         "name": "Đức Lập Hạ",
         "type": "xa",
         "slug": "duc-lap-ha",
@@ -99,7 +99,7 @@
         "code": "27958",
         "parent_code": "802"
     },
-    "27961": {
+     {
         "name": "Tân Phú",
         "type": "xa",
         "slug": "tan-phu",
@@ -109,7 +109,7 @@
         "code": "27961",
         "parent_code": "802"
     },
-    "27964": {
+     {
         "name": "Mỹ Hạnh Bắc",
         "type": "xa",
         "slug": "my-hanh-bac",
@@ -119,7 +119,7 @@
         "code": "27964",
         "parent_code": "802"
     },
-    "27967": {
+     {
         "name": "Đức Hòa Thượng",
         "type": "xa",
         "slug": "duc-hoa-thuong",
@@ -129,7 +129,7 @@
         "code": "27967",
         "parent_code": "802"
     },
-    "27970": {
+     {
         "name": "Hòa Khánh Tây",
         "type": "xa",
         "slug": "hoa-khanh-tay",
@@ -139,7 +139,7 @@
         "code": "27970",
         "parent_code": "802"
     },
-    "27973": {
+     {
         "name": "Hòa Khánh Đông",
         "type": "xa",
         "slug": "hoa-khanh-dong",
@@ -149,7 +149,7 @@
         "code": "27973",
         "parent_code": "802"
     },
-    "27976": {
+     {
         "name": "Mỹ Hạnh Nam",
         "type": "xa",
         "slug": "my-hanh-nam",
@@ -159,7 +159,7 @@
         "code": "27976",
         "parent_code": "802"
     },
-    "27979": {
+     {
         "name": "Hòa Khánh Nam",
         "type": "xa",
         "slug": "hoa-khanh-nam",
@@ -169,7 +169,7 @@
         "code": "27979",
         "parent_code": "802"
     },
-    "27982": {
+     {
         "name": "Đức Hòa Đông",
         "type": "xa",
         "slug": "duc-hoa-dong",
@@ -179,7 +179,7 @@
         "code": "27982",
         "parent_code": "802"
     },
-    "27985": {
+     {
         "name": "Đức Hòa Hạ",
         "type": "xa",
         "slug": "duc-hoa-ha",
@@ -189,7 +189,7 @@
         "code": "27985",
         "parent_code": "802"
     },
-    "27988": {
+     {
         "name": "Hựu Thạnh",
         "type": "xa",
         "slug": "huu-thanh",
@@ -199,4 +199,4 @@
         "code": "27988",
         "parent_code": "802"
     }
-}
+]}

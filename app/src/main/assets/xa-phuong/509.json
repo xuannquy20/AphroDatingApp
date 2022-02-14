@@ -1,5 +1,5 @@
 {
-    "20641": {
+    "xa":[ {
         "name": "Đông Phú",
         "type": "thi-tran",
         "slug": "dong-phu",
@@ -9,7 +9,7 @@
         "code": "20641",
         "parent_code": "509"
     },
-    "20644": {
+     {
         "name": "Quế Xuân 1",
         "type": "xa",
         "slug": "que-xuan-1",
@@ -19,7 +19,7 @@
         "code": "20644",
         "parent_code": "509"
     },
-    "20647": {
+     {
         "name": "Quế Xuân 2",
         "type": "xa",
         "slug": "que-xuan-2",
@@ -29,7 +29,7 @@
         "code": "20647",
         "parent_code": "509"
     },
-    "20650": {
+     {
         "name": "Quế Phú",
         "type": "xa",
         "slug": "que-phu",
@@ -39,7 +39,7 @@
         "code": "20650",
         "parent_code": "509"
     },
-    "20651": {
+     {
         "name": "Hương An",
         "type": "thi-tran",
         "slug": "huong-an",
@@ -49,7 +49,7 @@
         "code": "20651",
         "parent_code": "509"
     },
-    "20659": {
+     {
         "name": "Quế Hiệp",
         "type": "xa",
         "slug": "que-hiep",
@@ -59,7 +59,7 @@
         "code": "20659",
         "parent_code": "509"
     },
-    "20662": {
+     {
         "name": "Quế Thuận",
         "type": "xa",
         "slug": "que-thuan",
@@ -69,7 +69,7 @@
         "code": "20662",
         "parent_code": "509"
     },
-    "20665": {
+     {
         "name": "Quế Mỹ",
         "type": "xa",
         "slug": "que-my",
@@ -79,7 +79,7 @@
         "code": "20665",
         "parent_code": "509"
     },
-    "20677": {
+     {
         "name": "Quế Long",
         "type": "xa",
         "slug": "que-long",
@@ -89,7 +89,7 @@
         "code": "20677",
         "parent_code": "509"
     },
-    "20680": {
+     {
         "name": "Quế Châu",
         "type": "xa",
         "slug": "que-chau",
@@ -99,7 +99,7 @@
         "code": "20680",
         "parent_code": "509"
     },
-    "20683": {
+     {
         "name": "Quế Phong",
         "type": "xa",
         "slug": "que-phong",
@@ -109,7 +109,7 @@
         "code": "20683",
         "parent_code": "509"
     },
-    "20686": {
+     {
         "name": "Quế An",
         "type": "xa",
         "slug": "que-an",
@@ -119,7 +119,7 @@
         "code": "20686",
         "parent_code": "509"
     },
-    "20689": {
+     {
         "name": "Quế Minh",
         "type": "xa",
         "slug": "que-minh",
@@ -129,4 +129,4 @@
         "code": "20689",
         "parent_code": "509"
     }
-}
+]}

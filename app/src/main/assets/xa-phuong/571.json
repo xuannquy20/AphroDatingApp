@@ -1,5 +1,5 @@
 {
-    "22489": {
+    "xa":[ {
         "name": "Vạn Giã",
         "type": "thi-tran",
         "slug": "van-gia",
@@ -9,7 +9,7 @@
         "code": "22489",
         "parent_code": "571"
     },
-    "22492": {
+     {
         "name": "Đại Lãnh",
         "type": "xa",
         "slug": "dai-lanh",
@@ -19,7 +19,7 @@
         "code": "22492",
         "parent_code": "571"
     },
-    "22495": {
+     {
         "name": "Vạn Phước",
         "type": "xa",
         "slug": "van-phuoc",
@@ -29,7 +29,7 @@
         "code": "22495",
         "parent_code": "571"
     },
-    "22498": {
+     {
         "name": "Vạn Long",
         "type": "xa",
         "slug": "van-long",
@@ -39,7 +39,7 @@
         "code": "22498",
         "parent_code": "571"
     },
-    "22501": {
+     {
         "name": "Vạn Bình",
         "type": "xa",
         "slug": "van-binh",
@@ -49,7 +49,7 @@
         "code": "22501",
         "parent_code": "571"
     },
-    "22504": {
+     {
         "name": "Vạn Thọ",
         "type": "xa",
         "slug": "van-tho",
@@ -59,7 +59,7 @@
         "code": "22504",
         "parent_code": "571"
     },
-    "22507": {
+     {
         "name": "Vạn Khánh",
         "type": "xa",
         "slug": "van-khanh",
@@ -69,7 +69,7 @@
         "code": "22507",
         "parent_code": "571"
     },
-    "22510": {
+     {
         "name": "Vạn Phú",
         "type": "xa",
         "slug": "van-phu",
@@ -79,7 +79,7 @@
         "code": "22510",
         "parent_code": "571"
     },
-    "22513": {
+     {
         "name": "Vạn Lương",
         "type": "xa",
         "slug": "van-luong",
@@ -89,7 +89,7 @@
         "code": "22513",
         "parent_code": "571"
     },
-    "22516": {
+     {
         "name": "Vạn Thắng",
         "type": "xa",
         "slug": "van-thang",
@@ -99,7 +99,7 @@
         "code": "22516",
         "parent_code": "571"
     },
-    "22519": {
+     {
         "name": "Vạn Thạnh",
         "type": "xa",
         "slug": "van-thanh",
@@ -109,7 +109,7 @@
         "code": "22519",
         "parent_code": "571"
     },
-    "22522": {
+     {
         "name": "Xuân Sơn",
         "type": "xa",
         "slug": "xuan-son",
@@ -119,7 +119,7 @@
         "code": "22522",
         "parent_code": "571"
     },
-    "22525": {
+     {
         "name": "Vạn Hưng",
         "type": "xa",
         "slug": "van-hung",
@@ -129,4 +129,4 @@
         "code": "22525",
         "parent_code": "571"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "09784": {
+    "xa":[ {
         "name": "Phùng",
         "type": "thi-tran",
         "slug": "phung",
@@ -9,7 +9,7 @@
         "code": "09784",
         "parent_code": "273"
     },
-    "09787": {
+     {
         "name": "Trung Châu",
         "type": "xa",
         "slug": "trung-chau",
@@ -19,7 +19,7 @@
         "code": "09787",
         "parent_code": "273"
     },
-    "09790": {
+     {
         "name": "Thọ An",
         "type": "xa",
         "slug": "tho-an",
@@ -29,7 +29,7 @@
         "code": "09790",
         "parent_code": "273"
     },
-    "09793": {
+     {
         "name": "Thọ Xuân",
         "type": "xa",
         "slug": "tho-xuan",
@@ -39,7 +39,7 @@
         "code": "09793",
         "parent_code": "273"
     },
-    "09796": {
+     {
         "name": "Hồng Hà",
         "type": "xa",
         "slug": "hong-ha",
@@ -49,7 +49,7 @@
         "code": "09796",
         "parent_code": "273"
     },
-    "09799": {
+     {
         "name": "Liên Hồng",
         "type": "xa",
         "slug": "lien-hong",
@@ -59,7 +59,7 @@
         "code": "09799",
         "parent_code": "273"
     },
-    "09802": {
+     {
         "name": "Liên Hà",
         "type": "xa",
         "slug": "lien-ha",
@@ -69,7 +69,7 @@
         "code": "09802",
         "parent_code": "273"
     },
-    "09805": {
+     {
         "name": "Hạ Mỗ",
         "type": "xa",
         "slug": "ha-mo",
@@ -79,7 +79,7 @@
         "code": "09805",
         "parent_code": "273"
     },
-    "09808": {
+     {
         "name": "Liên Trung",
         "type": "xa",
         "slug": "lien-trung",
@@ -89,7 +89,7 @@
         "code": "09808",
         "parent_code": "273"
     },
-    "09811": {
+     {
         "name": "Phương Đình",
         "type": "xa",
         "slug": "phuong-dinh",
@@ -99,7 +99,7 @@
         "code": "09811",
         "parent_code": "273"
     },
-    "09814": {
+     {
         "name": "Thượng Mỗ",
         "type": "xa",
         "slug": "thuong-mo",
@@ -109,7 +109,7 @@
         "code": "09814",
         "parent_code": "273"
     },
-    "09817": {
+     {
         "name": "Tân Hội",
         "type": "xa",
         "slug": "tan-hoi",
@@ -119,7 +119,7 @@
         "code": "09817",
         "parent_code": "273"
     },
-    "09820": {
+     {
         "name": "Tân Lập",
         "type": "xa",
         "slug": "tan-lap",
@@ -129,7 +129,7 @@
         "code": "09820",
         "parent_code": "273"
     },
-    "09823": {
+     {
         "name": "Đan Phượng",
         "type": "xa",
         "slug": "dan-phuong",
@@ -139,7 +139,7 @@
         "code": "09823",
         "parent_code": "273"
     },
-    "09826": {
+     {
         "name": "Đồng Tháp",
         "type": "xa",
         "slug": "dong-thap",
@@ -149,7 +149,7 @@
         "code": "09826",
         "parent_code": "273"
     },
-    "09829": {
+     {
         "name": "Song Phượng",
         "type": "xa",
         "slug": "song-phuong",
@@ -159,4 +159,4 @@
         "code": "09829",
         "parent_code": "273"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "20107": {
+    "xa":[ {
         "name": "Phú Lộc",
         "type": "thi-tran",
         "slug": "phu-loc",
@@ -9,7 +9,7 @@
         "code": "20107",
         "parent_code": "482"
     },
-    "20110": {
+     {
         "name": "Lăng Cô",
         "type": "thi-tran",
         "slug": "lang-co",
@@ -19,7 +19,7 @@
         "code": "20110",
         "parent_code": "482"
     },
-    "20113": {
+     {
         "name": "Vinh Mỹ",
         "type": "xa",
         "slug": "vinh-my",
@@ -29,7 +29,7 @@
         "code": "20113",
         "parent_code": "482"
     },
-    "20116": {
+     {
         "name": "Vinh Hưng",
         "type": "xa",
         "slug": "vinh-hung",
@@ -39,7 +39,7 @@
         "code": "20116",
         "parent_code": "482"
     },
-    "20122": {
+     {
         "name": "Giang Hải",
         "type": "xa",
         "slug": "giang-hai",
@@ -49,7 +49,7 @@
         "code": "20122",
         "parent_code": "482"
     },
-    "20125": {
+     {
         "name": "Vinh Hiền",
         "type": "xa",
         "slug": "vinh-hien",
@@ -59,7 +59,7 @@
         "code": "20125",
         "parent_code": "482"
     },
-    "20128": {
+     {
         "name": "Lộc Bổn",
         "type": "xa",
         "slug": "loc-bon",
@@ -69,7 +69,7 @@
         "code": "20128",
         "parent_code": "482"
     },
-    "20131": {
+     {
         "name": "Lộc Sơn",
         "type": "xa",
         "slug": "loc-son",
@@ -79,7 +79,7 @@
         "code": "20131",
         "parent_code": "482"
     },
-    "20134": {
+     {
         "name": "Lộc Bình",
         "type": "xa",
         "slug": "loc-binh",
@@ -89,7 +89,7 @@
         "code": "20134",
         "parent_code": "482"
     },
-    "20137": {
+     {
         "name": "Lộc Vĩnh",
         "type": "xa",
         "slug": "loc-vinh",
@@ -99,7 +99,7 @@
         "code": "20137",
         "parent_code": "482"
     },
-    "20140": {
+     {
         "name": "Lộc An",
         "type": "xa",
         "slug": "loc-an",
@@ -109,7 +109,7 @@
         "code": "20140",
         "parent_code": "482"
     },
-    "20143": {
+     {
         "name": "Lộc Điền",
         "type": "xa",
         "slug": "loc-dien",
@@ -119,7 +119,7 @@
         "code": "20143",
         "parent_code": "482"
     },
-    "20146": {
+     {
         "name": "Lộc Thủy",
         "type": "xa",
         "slug": "loc-thuy",
@@ -129,7 +129,7 @@
         "code": "20146",
         "parent_code": "482"
     },
-    "20149": {
+     {
         "name": "Lộc Trì",
         "type": "xa",
         "slug": "loc-tri",
@@ -139,7 +139,7 @@
         "code": "20149",
         "parent_code": "482"
     },
-    "20152": {
+     {
         "name": "Lộc Tiến",
         "type": "xa",
         "slug": "loc-tien",
@@ -149,7 +149,7 @@
         "code": "20152",
         "parent_code": "482"
     },
-    "20155": {
+     {
         "name": "Lộc Hòa",
         "type": "xa",
         "slug": "loc-hoa",
@@ -159,7 +159,7 @@
         "code": "20155",
         "parent_code": "482"
     },
-    "20158": {
+     {
         "name": "Xuân Lộc",
         "type": "xa",
         "slug": "xuan-loc",
@@ -169,4 +169,4 @@
         "code": "20158",
         "parent_code": "482"
     }
-}
+]}

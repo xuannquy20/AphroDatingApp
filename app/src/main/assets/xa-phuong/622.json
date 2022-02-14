@@ -1,5 +1,5 @@
 {
-    "23557": {
+    "xa":[ {
         "name": "Yên Đỗ",
         "type": "phuong",
         "slug": "yen-do",
@@ -9,7 +9,7 @@
         "code": "23557",
         "parent_code": "622"
     },
-    "23560": {
+     {
         "name": "Diên Hồng",
         "type": "phuong",
         "slug": "dien-hong",
@@ -19,7 +19,7 @@
         "code": "23560",
         "parent_code": "622"
     },
-    "23563": {
+     {
         "name": "Ia Kring",
         "type": "phuong",
         "slug": "ia-kring",
@@ -29,7 +29,7 @@
         "code": "23563",
         "parent_code": "622"
     },
-    "23566": {
+     {
         "name": "Hội Thương",
         "type": "phuong",
         "slug": "hoi-thuong",
@@ -39,7 +39,7 @@
         "code": "23566",
         "parent_code": "622"
     },
-    "23569": {
+     {
         "name": "Hội Phú",
         "type": "phuong",
         "slug": "hoi-phu",
@@ -49,7 +49,7 @@
         "code": "23569",
         "parent_code": "622"
     },
-    "23570": {
+     {
         "name": "Phù Đổng",
         "type": "phuong",
         "slug": "phu-dong",
@@ -59,7 +59,7 @@
         "code": "23570",
         "parent_code": "622"
     },
-    "23572": {
+     {
         "name": "Hoa Lư",
         "type": "phuong",
         "slug": "hoa-lu",
@@ -69,7 +69,7 @@
         "code": "23572",
         "parent_code": "622"
     },
-    "23575": {
+     {
         "name": "Tây Sơn",
         "type": "phuong",
         "slug": "tay-son",
@@ -79,7 +79,7 @@
         "code": "23575",
         "parent_code": "622"
     },
-    "23578": {
+     {
         "name": "Thống Nhất",
         "type": "phuong",
         "slug": "thong-nhat",
@@ -89,7 +89,7 @@
         "code": "23578",
         "parent_code": "622"
     },
-    "23579": {
+     {
         "name": "Đống Đa",
         "type": "phuong",
         "slug": "dong-da",
@@ -99,7 +99,7 @@
         "code": "23579",
         "parent_code": "622"
     },
-    "23581": {
+     {
         "name": "Trà Bá",
         "type": "phuong",
         "slug": "tra-ba",
@@ -109,7 +109,7 @@
         "code": "23581",
         "parent_code": "622"
     },
-    "23582": {
+     {
         "name": "Thắng Lợi",
         "type": "phuong",
         "slug": "thang-loi",
@@ -119,7 +119,7 @@
         "code": "23582",
         "parent_code": "622"
     },
-    "23584": {
+     {
         "name": "Yên Thế",
         "type": "phuong",
         "slug": "yen-the",
@@ -129,7 +129,7 @@
         "code": "23584",
         "parent_code": "622"
     },
-    "23586": {
+     {
         "name": "Chi Lăng",
         "type": "phuong",
         "slug": "chi-lang",
@@ -139,7 +139,7 @@
         "code": "23586",
         "parent_code": "622"
     },
-    "23590": {
+     {
         "name": "Biển Hồ",
         "type": "xa",
         "slug": "bien-ho",
@@ -149,7 +149,7 @@
         "code": "23590",
         "parent_code": "622"
     },
-    "23593": {
+     {
         "name": "Tân Sơn",
         "type": "xa",
         "slug": "tan-son",
@@ -159,7 +159,7 @@
         "code": "23593",
         "parent_code": "622"
     },
-    "23596": {
+     {
         "name": "Trà Đa",
         "type": "xa",
         "slug": "tra-da",
@@ -169,7 +169,7 @@
         "code": "23596",
         "parent_code": "622"
     },
-    "23599": {
+     {
         "name": "Chư Á",
         "type": "xa",
         "slug": "chu-a",
@@ -179,7 +179,7 @@
         "code": "23599",
         "parent_code": "622"
     },
-    "23602": {
+     {
         "name": "An Phú",
         "type": "xa",
         "slug": "an-phu",
@@ -189,7 +189,7 @@
         "code": "23602",
         "parent_code": "622"
     },
-    "23605": {
+     {
         "name": "Diên Phú",
         "type": "xa",
         "slug": "dien-phu",
@@ -199,7 +199,7 @@
         "code": "23605",
         "parent_code": "622"
     },
-    "23608": {
+     {
         "name": "Ia Kênh",
         "type": "xa",
         "slug": "ia-kenh",
@@ -209,7 +209,7 @@
         "code": "23608",
         "parent_code": "622"
     },
-    "23611": {
+     {
         "name": "Gào",
         "type": "xa",
         "slug": "gao",
@@ -219,4 +219,4 @@
         "code": "23611",
         "parent_code": "622"
     }
-}
+]}

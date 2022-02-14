@@ -1,5 +1,5 @@
 {
-    "10945": {
+    "xa":[ {
         "name": "Kẻ Sặt",
         "type": "thi-tran",
         "slug": "ke-sat",
@@ -9,7 +9,7 @@
         "code": "10945",
         "parent_code": "296"
     },
-    "10951": {
+     {
         "name": "Vĩnh Hưng",
         "type": "xa",
         "slug": "vinh-hung",
@@ -19,7 +19,7 @@
         "code": "10951",
         "parent_code": "296"
     },
-    "10954": {
+     {
         "name": "Hùng Thắng",
         "type": "xa",
         "slug": "hung-thang",
@@ -29,7 +29,7 @@
         "code": "10954",
         "parent_code": "296"
     },
-    "10960": {
+     {
         "name": "Vĩnh Hồng",
         "type": "xa",
         "slug": "vinh-hong",
@@ -39,7 +39,7 @@
         "code": "10960",
         "parent_code": "296"
     },
-    "10963": {
+     {
         "name": "Long Xuyên",
         "type": "xa",
         "slug": "long-xuyen",
@@ -49,7 +49,7 @@
         "code": "10963",
         "parent_code": "296"
     },
-    "10966": {
+     {
         "name": "Tân Việt",
         "type": "xa",
         "slug": "tan-viet",
@@ -59,7 +59,7 @@
         "code": "10966",
         "parent_code": "296"
     },
-    "10969": {
+     {
         "name": "Thúc Kháng",
         "type": "xa",
         "slug": "thuc-khang",
@@ -69,7 +69,7 @@
         "code": "10969",
         "parent_code": "296"
     },
-    "10972": {
+     {
         "name": "Tân Hồng",
         "type": "xa",
         "slug": "tan-hong",
@@ -79,7 +79,7 @@
         "code": "10972",
         "parent_code": "296"
     },
-    "10975": {
+     {
         "name": "Bình Minh",
         "type": "xa",
         "slug": "binh-minh",
@@ -89,7 +89,7 @@
         "code": "10975",
         "parent_code": "296"
     },
-    "10978": {
+     {
         "name": "Hồng Khê",
         "type": "xa",
         "slug": "hong-khe",
@@ -99,7 +99,7 @@
         "code": "10978",
         "parent_code": "296"
     },
-    "10981": {
+     {
         "name": "Thái Học",
         "type": "xa",
         "slug": "thai-hoc",
@@ -109,7 +109,7 @@
         "code": "10981",
         "parent_code": "296"
     },
-    "10984": {
+     {
         "name": "Cổ Bì",
         "type": "xa",
         "slug": "co-bi",
@@ -119,7 +119,7 @@
         "code": "10984",
         "parent_code": "296"
     },
-    "10987": {
+     {
         "name": "Nhân Quyền",
         "type": "xa",
         "slug": "nhan-quyen",
@@ -129,7 +129,7 @@
         "code": "10987",
         "parent_code": "296"
     },
-    "10990": {
+     {
         "name": "Thái Dương",
         "type": "xa",
         "slug": "thai-duong",
@@ -139,7 +139,7 @@
         "code": "10990",
         "parent_code": "296"
     },
-    "10993": {
+     {
         "name": "Thái Hòa",
         "type": "xa",
         "slug": "thai-hoa",
@@ -149,7 +149,7 @@
         "code": "10993",
         "parent_code": "296"
     },
-    "10996": {
+     {
         "name": "Bình Xuyên",
         "type": "xa",
         "slug": "binh-xuyen",
@@ -159,4 +159,4 @@
         "code": "10996",
         "parent_code": "296"
     }
-}
+]}

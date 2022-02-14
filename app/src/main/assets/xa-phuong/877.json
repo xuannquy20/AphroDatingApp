@@ -1,5 +1,5 @@
 {
-    "30244": {
+    "xa":[ {
         "name": "Cái Tàu Hạ",
         "type": "thi-tran",
         "slug": "cai-tau-ha",
@@ -9,7 +9,7 @@
         "code": "30244",
         "parent_code": "877"
     },
-    "30247": {
+     {
         "name": "An Hiệp",
         "type": "xa",
         "slug": "an-hiep",
@@ -19,7 +19,7 @@
         "code": "30247",
         "parent_code": "877"
     },
-    "30250": {
+     {
         "name": "An Nhơn",
         "type": "xa",
         "slug": "an-nhon",
@@ -29,7 +29,7 @@
         "code": "30250",
         "parent_code": "877"
     },
-    "30253": {
+     {
         "name": "Tân Nhuận Đông",
         "type": "xa",
         "slug": "tan-nhuan-dong",
@@ -39,7 +39,7 @@
         "code": "30253",
         "parent_code": "877"
     },
-    "30256": {
+     {
         "name": "Tân Bình",
         "type": "xa",
         "slug": "tan-binh",
@@ -49,7 +49,7 @@
         "code": "30256",
         "parent_code": "877"
     },
-    "30259": {
+     {
         "name": "Tân Phú Trung",
         "type": "xa",
         "slug": "tan-phu-trung",
@@ -59,7 +59,7 @@
         "code": "30259",
         "parent_code": "877"
     },
-    "30262": {
+     {
         "name": "Phú Long",
         "type": "xa",
         "slug": "phu-long",
@@ -69,7 +69,7 @@
         "code": "30262",
         "parent_code": "877"
     },
-    "30265": {
+     {
         "name": "An Phú Thuận",
         "type": "xa",
         "slug": "an-phu-thuan",
@@ -79,7 +79,7 @@
         "code": "30265",
         "parent_code": "877"
     },
-    "30268": {
+     {
         "name": "Phú Hựu",
         "type": "xa",
         "slug": "phu-huu",
@@ -89,7 +89,7 @@
         "code": "30268",
         "parent_code": "877"
     },
-    "30271": {
+     {
         "name": "An Khánh",
         "type": "xa",
         "slug": "an-khanh",
@@ -99,7 +99,7 @@
         "code": "30271",
         "parent_code": "877"
     },
-    "30274": {
+     {
         "name": "Tân Phú",
         "type": "xa",
         "slug": "tan-phu",
@@ -109,7 +109,7 @@
         "code": "30274",
         "parent_code": "877"
     },
-    "30277": {
+     {
         "name": "Hòa Tân",
         "type": "xa",
         "slug": "hoa-tan",
@@ -119,4 +119,4 @@
         "code": "30277",
         "parent_code": "877"
     }
-}
+]}

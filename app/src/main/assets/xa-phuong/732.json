@@ -1,5 +1,5 @@
 {
-    "26071": {
+    "xa":[ {
         "name": "Xuân Trung",
         "type": "phuong",
         "slug": "xuan-trung",
@@ -9,7 +9,7 @@
         "code": "26071",
         "parent_code": "732"
     },
-    "26074": {
+     {
         "name": "Xuân Thanh",
         "type": "phuong",
         "slug": "xuan-thanh",
@@ -19,7 +19,7 @@
         "code": "26074",
         "parent_code": "732"
     },
-    "26077": {
+     {
         "name": "Xuân Bình",
         "type": "phuong",
         "slug": "xuan-binh",
@@ -29,7 +29,7 @@
         "code": "26077",
         "parent_code": "732"
     },
-    "26080": {
+     {
         "name": "Xuân An",
         "type": "phuong",
         "slug": "xuan-an",
@@ -39,7 +39,7 @@
         "code": "26080",
         "parent_code": "732"
     },
-    "26083": {
+     {
         "name": "Xuân Hoà",
         "type": "phuong",
         "slug": "xuan-hoa",
@@ -49,7 +49,7 @@
         "code": "26083",
         "parent_code": "732"
     },
-    "26086": {
+     {
         "name": "Phú Bình",
         "type": "phuong",
         "slug": "phu-binh",
@@ -59,7 +59,7 @@
         "code": "26086",
         "parent_code": "732"
     },
-    "26089": {
+     {
         "name": "Bình Lộc",
         "type": "xa",
         "slug": "binh-loc",
@@ -69,7 +69,7 @@
         "code": "26089",
         "parent_code": "732"
     },
-    "26092": {
+     {
         "name": "Bảo Quang",
         "type": "xa",
         "slug": "bao-quang",
@@ -79,7 +79,7 @@
         "code": "26092",
         "parent_code": "732"
     },
-    "26095": {
+     {
         "name": "Suối Tre",
         "type": "phuong",
         "slug": "suoi-tre",
@@ -89,7 +89,7 @@
         "code": "26095",
         "parent_code": "732"
     },
-    "26098": {
+     {
         "name": "Bảo Vinh",
         "type": "phuong",
         "slug": "bao-vinh",
@@ -99,7 +99,7 @@
         "code": "26098",
         "parent_code": "732"
     },
-    "26101": {
+     {
         "name": "Xuân Lập",
         "type": "phuong",
         "slug": "xuan-lap",
@@ -109,7 +109,7 @@
         "code": "26101",
         "parent_code": "732"
     },
-    "26104": {
+     {
         "name": "Bàu Sen",
         "type": "phuong",
         "slug": "bau-sen",
@@ -119,7 +119,7 @@
         "code": "26104",
         "parent_code": "732"
     },
-    "26107": {
+     {
         "name": "Bàu Trâm",
         "type": "xa",
         "slug": "bau-tram",
@@ -129,7 +129,7 @@
         "code": "26107",
         "parent_code": "732"
     },
-    "26110": {
+     {
         "name": "Xuân Tân",
         "type": "phuong",
         "slug": "xuan-tan",
@@ -139,7 +139,7 @@
         "code": "26110",
         "parent_code": "732"
     },
-    "26113": {
+     {
         "name": "Hàng Gòn",
         "type": "xa",
         "slug": "hang-gon",
@@ -149,4 +149,4 @@
         "code": "26113",
         "parent_code": "732"
     }
-}
+]}

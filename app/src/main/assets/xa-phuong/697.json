@@ -1,5 +1,5 @@
 {
-    "25432": {
+    "xa":[ {
         "name": "Chơn Thành",
         "type": "thi-tran",
         "slug": "chon-thanh",
@@ -9,7 +9,7 @@
         "code": "25432",
         "parent_code": "697"
     },
-    "25433": {
+     {
         "name": "Thành Tâm",
         "type": "xa",
         "slug": "thanh-tam",
@@ -19,7 +19,7 @@
         "code": "25433",
         "parent_code": "697"
     },
-    "25435": {
+     {
         "name": "Minh Lập",
         "type": "xa",
         "slug": "minh-lap",
@@ -29,7 +29,7 @@
         "code": "25435",
         "parent_code": "697"
     },
-    "25439": {
+     {
         "name": "Quang Minh",
         "type": "xa",
         "slug": "quang-minh",
@@ -39,7 +39,7 @@
         "code": "25439",
         "parent_code": "697"
     },
-    "25441": {
+     {
         "name": "Minh Hưng",
         "type": "xa",
         "slug": "minh-hung",
@@ -49,7 +49,7 @@
         "code": "25441",
         "parent_code": "697"
     },
-    "25444": {
+     {
         "name": "Minh Long",
         "type": "xa",
         "slug": "minh-long",
@@ -59,7 +59,7 @@
         "code": "25444",
         "parent_code": "697"
     },
-    "25447": {
+     {
         "name": "Minh Thành",
         "type": "xa",
         "slug": "minh-thanh",
@@ -69,7 +69,7 @@
         "code": "25447",
         "parent_code": "697"
     },
-    "25450": {
+     {
         "name": "Nha Bích",
         "type": "xa",
         "slug": "nha-bich",
@@ -79,7 +79,7 @@
         "code": "25450",
         "parent_code": "697"
     },
-    "25453": {
+     {
         "name": "Minh Thắng",
         "type": "xa",
         "slug": "minh-thang",
@@ -89,4 +89,4 @@
         "code": "25453",
         "parent_code": "697"
     }
-}
+]}

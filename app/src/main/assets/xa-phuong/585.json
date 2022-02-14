@@ -1,5 +1,5 @@
 {
-    "22810": {
+    "xa":[ {
         "name": "Tân Sơn",
         "type": "thi-tran",
         "slug": "tan-son",
@@ -9,7 +9,7 @@
         "code": "22810",
         "parent_code": "585"
     },
-    "22813": {
+     {
         "name": "Lâm Sơn",
         "type": "xa",
         "slug": "lam-son",
@@ -19,7 +19,7 @@
         "code": "22813",
         "parent_code": "585"
     },
-    "22816": {
+     {
         "name": "Lương Sơn",
         "type": "xa",
         "slug": "luong-son",
@@ -29,7 +29,7 @@
         "code": "22816",
         "parent_code": "585"
     },
-    "22819": {
+     {
         "name": "Quảng Sơn",
         "type": "xa",
         "slug": "quang-son",
@@ -39,7 +39,7 @@
         "code": "22819",
         "parent_code": "585"
     },
-    "22822": {
+     {
         "name": "Mỹ Sơn",
         "type": "xa",
         "slug": "my-son",
@@ -49,7 +49,7 @@
         "code": "22822",
         "parent_code": "585"
     },
-    "22825": {
+     {
         "name": "Hòa Sơn",
         "type": "xa",
         "slug": "hoa-son",
@@ -59,7 +59,7 @@
         "code": "22825",
         "parent_code": "585"
     },
-    "22828": {
+     {
         "name": "Ma Nới",
         "type": "xa",
         "slug": "ma-noi",
@@ -69,7 +69,7 @@
         "code": "22828",
         "parent_code": "585"
     },
-    "22831": {
+     {
         "name": "Nhơn Sơn",
         "type": "xa",
         "slug": "nhon-son",
@@ -79,4 +79,4 @@
         "code": "22831",
         "parent_code": "585"
     }
-}
+]}

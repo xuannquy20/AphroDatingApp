@@ -1,5 +1,5 @@
 {
-    "13891": {
+    "xa":[ {
         "name": "Liễu Đề",
         "type": "thi-tran",
         "slug": "lieu-de",
@@ -9,7 +9,7 @@
         "code": "13891",
         "parent_code": "361"
     },
-    "13894": {
+     {
         "name": "Rạng Đông",
         "type": "thi-tran",
         "slug": "rang-dong",
@@ -19,7 +19,7 @@
         "code": "13894",
         "parent_code": "361"
     },
-    "13897": {
+     {
         "name": "Nghĩa Đồng",
         "type": "xa",
         "slug": "nghia-dong",
@@ -29,7 +29,7 @@
         "code": "13897",
         "parent_code": "361"
     },
-    "13900": {
+     {
         "name": "Nghĩa Thịnh",
         "type": "xa",
         "slug": "nghia-thinh",
@@ -39,7 +39,7 @@
         "code": "13900",
         "parent_code": "361"
     },
-    "13903": {
+     {
         "name": "Nghĩa Minh",
         "type": "xa",
         "slug": "nghia-minh",
@@ -49,7 +49,7 @@
         "code": "13903",
         "parent_code": "361"
     },
-    "13906": {
+     {
         "name": "Nghĩa Thái",
         "type": "xa",
         "slug": "nghia-thai",
@@ -59,7 +59,7 @@
         "code": "13906",
         "parent_code": "361"
     },
-    "13909": {
+     {
         "name": "Hoàng Nam",
         "type": "xa",
         "slug": "hoang-nam",
@@ -69,7 +69,7 @@
         "code": "13909",
         "parent_code": "361"
     },
-    "13912": {
+     {
         "name": "Nghĩa Châu",
         "type": "xa",
         "slug": "nghia-chau",
@@ -79,7 +79,7 @@
         "code": "13912",
         "parent_code": "361"
     },
-    "13915": {
+     {
         "name": "Nghĩa Trung",
         "type": "xa",
         "slug": "nghia-trung",
@@ -89,7 +89,7 @@
         "code": "13915",
         "parent_code": "361"
     },
-    "13918": {
+     {
         "name": "Nghĩa Sơn",
         "type": "xa",
         "slug": "nghia-son",
@@ -99,7 +99,7 @@
         "code": "13918",
         "parent_code": "361"
     },
-    "13921": {
+     {
         "name": "Nghĩa Lạc",
         "type": "xa",
         "slug": "nghia-lac",
@@ -109,7 +109,7 @@
         "code": "13921",
         "parent_code": "361"
     },
-    "13924": {
+     {
         "name": "Nghĩa Hồng",
         "type": "xa",
         "slug": "nghia-hong",
@@ -119,7 +119,7 @@
         "code": "13924",
         "parent_code": "361"
     },
-    "13927": {
+     {
         "name": "Nghĩa Phong",
         "type": "xa",
         "slug": "nghia-phong",
@@ -129,7 +129,7 @@
         "code": "13927",
         "parent_code": "361"
     },
-    "13930": {
+     {
         "name": "Nghĩa Phú",
         "type": "xa",
         "slug": "nghia-phu",
@@ -139,7 +139,7 @@
         "code": "13930",
         "parent_code": "361"
     },
-    "13933": {
+     {
         "name": "Nghĩa Bình",
         "type": "xa",
         "slug": "nghia-binh",
@@ -149,7 +149,7 @@
         "code": "13933",
         "parent_code": "361"
     },
-    "13936": {
+     {
         "name": "Quỹ Nhất",
         "type": "thi-tran",
         "slug": "quy-nhat",
@@ -159,7 +159,7 @@
         "code": "13936",
         "parent_code": "361"
     },
-    "13939": {
+     {
         "name": "Nghĩa Tân",
         "type": "xa",
         "slug": "nghia-tan",
@@ -169,7 +169,7 @@
         "code": "13939",
         "parent_code": "361"
     },
-    "13942": {
+     {
         "name": "Nghĩa Hùng",
         "type": "xa",
         "slug": "nghia-hung",
@@ -179,7 +179,7 @@
         "code": "13942",
         "parent_code": "361"
     },
-    "13945": {
+     {
         "name": "Nghĩa Lâm",
         "type": "xa",
         "slug": "nghia-lam",
@@ -189,7 +189,7 @@
         "code": "13945",
         "parent_code": "361"
     },
-    "13948": {
+     {
         "name": "Nghĩa Thành",
         "type": "xa",
         "slug": "nghia-thanh",
@@ -199,7 +199,7 @@
         "code": "13948",
         "parent_code": "361"
     },
-    "13951": {
+     {
         "name": "Phúc Thắng",
         "type": "xa",
         "slug": "phuc-thang",
@@ -209,7 +209,7 @@
         "code": "13951",
         "parent_code": "361"
     },
-    "13954": {
+     {
         "name": "Nghĩa Lợi",
         "type": "xa",
         "slug": "nghia-loi",
@@ -219,7 +219,7 @@
         "code": "13954",
         "parent_code": "361"
     },
-    "13957": {
+     {
         "name": "Nghĩa Hải",
         "type": "xa",
         "slug": "nghia-hai",
@@ -229,7 +229,7 @@
         "code": "13957",
         "parent_code": "361"
     },
-    "13963": {
+     {
         "name": "Nam Điền",
         "type": "xa",
         "slug": "nam-dien",
@@ -239,4 +239,4 @@
         "code": "13963",
         "parent_code": "361"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "00376": {
+    "xa" : [{
         "name": "Sóc Sơn",
         "type": "thi-tran",
         "slug": "soc-son",
@@ -9,7 +9,7 @@
         "code": "00376",
         "parent_code": "016"
     },
-    "00379": {
+     {
         "name": "Bắc Sơn",
         "type": "xa",
         "slug": "bac-son",
@@ -19,7 +19,7 @@
         "code": "00379",
         "parent_code": "016"
     },
-    "00382": {
+     {
         "name": "Minh Trí",
         "type": "xa",
         "slug": "minh-tri",
@@ -29,7 +29,7 @@
         "code": "00382",
         "parent_code": "016"
     },
-    "00385": {
+     {
         "name": "Hồng Kỳ",
         "type": "xa",
         "slug": "hong-ky",
@@ -39,7 +39,7 @@
         "code": "00385",
         "parent_code": "016"
     },
-    "00388": {
+     {
         "name": "Nam Sơn",
         "type": "xa",
         "slug": "nam-son",
@@ -49,7 +49,7 @@
         "code": "00388",
         "parent_code": "016"
     },
-    "00391": {
+     {
         "name": "Trung Giã",
         "type": "xa",
         "slug": "trung-gia",
@@ -59,7 +59,7 @@
         "code": "00391",
         "parent_code": "016"
     },
-    "00394": {
+     {
         "name": "Tân Hưng",
         "type": "xa",
         "slug": "tan-hung",
@@ -69,7 +69,7 @@
         "code": "00394",
         "parent_code": "016"
     },
-    "00397": {
+     {
         "name": "Minh Phú",
         "type": "xa",
         "slug": "minh-phu",
@@ -79,7 +79,7 @@
         "code": "00397",
         "parent_code": "016"
     },
-    "00400": {
+     {
         "name": "Phù Linh",
         "type": "xa",
         "slug": "phu-linh",
@@ -89,7 +89,7 @@
         "code": "00400",
         "parent_code": "016"
     },
-    "00403": {
+     {
         "name": "Bắc Phú",
         "type": "xa",
         "slug": "bac-phu",
@@ -99,7 +99,7 @@
         "code": "00403",
         "parent_code": "016"
     },
-    "00406": {
+     {
         "name": "Tân Minh",
         "type": "xa",
         "slug": "tan-minh",
@@ -109,7 +109,7 @@
         "code": "00406",
         "parent_code": "016"
     },
-    "00409": {
+     {
         "name": "Quang Tiến",
         "type": "xa",
         "slug": "quang-tien",
@@ -119,7 +119,7 @@
         "code": "00409",
         "parent_code": "016"
     },
-    "00412": {
+     {
         "name": "Hiền Ninh",
         "type": "xa",
         "slug": "hien-ninh",
@@ -129,7 +129,7 @@
         "code": "00412",
         "parent_code": "016"
     },
-    "00415": {
+     {
         "name": "Tân Dân",
         "type": "xa",
         "slug": "tan-dan",
@@ -139,7 +139,7 @@
         "code": "00415",
         "parent_code": "016"
     },
-    "00418": {
+     {
         "name": "Tiên Dược",
         "type": "xa",
         "slug": "tien-duoc",
@@ -149,7 +149,7 @@
         "code": "00418",
         "parent_code": "016"
     },
-    "00421": {
+     {
         "name": "Việt Long",
         "type": "xa",
         "slug": "viet-long",
@@ -159,7 +159,7 @@
         "code": "00421",
         "parent_code": "016"
     },
-    "00424": {
+     {
         "name": "Xuân Giang",
         "type": "xa",
         "slug": "xuan-giang",
@@ -169,7 +169,7 @@
         "code": "00424",
         "parent_code": "016"
     },
-    "00427": {
+     {
         "name": "Mai Đình",
         "type": "xa",
         "slug": "mai-dinh",
@@ -179,7 +179,7 @@
         "code": "00427",
         "parent_code": "016"
     },
-    "00430": {
+     {
         "name": "Đức Hoà",
         "type": "xa",
         "slug": "duc-hoa",
@@ -189,7 +189,7 @@
         "code": "00430",
         "parent_code": "016"
     },
-    "00433": {
+     {
         "name": "Thanh Xuân",
         "type": "xa",
         "slug": "thanh-xuan",
@@ -199,7 +199,7 @@
         "code": "00433",
         "parent_code": "016"
     },
-    "00436": {
+     {
         "name": "Đông Xuân",
         "type": "xa",
         "slug": "dong-xuan",
@@ -209,7 +209,7 @@
         "code": "00436",
         "parent_code": "016"
     },
-    "00439": {
+     {
         "name": "Kim Lũ",
         "type": "xa",
         "slug": "kim-lu",
@@ -219,7 +219,7 @@
         "code": "00439",
         "parent_code": "016"
     },
-    "00442": {
+     {
         "name": "Phú Cường",
         "type": "xa",
         "slug": "phu-cuong",
@@ -229,7 +229,7 @@
         "code": "00442",
         "parent_code": "016"
     },
-    "00445": {
+     {
         "name": "Phú Minh",
         "type": "xa",
         "slug": "phu-minh",
@@ -239,7 +239,7 @@
         "code": "00445",
         "parent_code": "016"
     },
-    "00448": {
+     {
         "name": "Phù Lỗ",
         "type": "xa",
         "slug": "phu-lo",
@@ -249,7 +249,7 @@
         "code": "00448",
         "parent_code": "016"
     },
-    "00451": {
+     {
         "name": "Xuân Thu",
         "type": "xa",
         "slug": "xuan-thu",
@@ -259,4 +259,5 @@
         "code": "00451",
         "parent_code": "016"
     }
+]
 }

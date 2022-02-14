@@ -1,5 +1,5 @@
 {
-    "21853": {
+    "xa":[ {
         "name": "Ngô Mây",
         "type": "thi-tran",
         "slug": "ngo-may",
@@ -9,7 +9,7 @@
         "code": "21853",
         "parent_code": "548"
     },
-    "21856": {
+     {
         "name": "Cát Sơn",
         "type": "xa",
         "slug": "cat-son",
@@ -19,7 +19,7 @@
         "code": "21856",
         "parent_code": "548"
     },
-    "21859": {
+     {
         "name": "Cát Minh",
         "type": "xa",
         "slug": "cat-minh",
@@ -29,7 +29,7 @@
         "code": "21859",
         "parent_code": "548"
     },
-    "21862": {
+     {
         "name": "Cát Khánh",
         "type": "xa",
         "slug": "cat-khanh",
@@ -39,7 +39,7 @@
         "code": "21862",
         "parent_code": "548"
     },
-    "21865": {
+     {
         "name": "Cát Tài",
         "type": "xa",
         "slug": "cat-tai",
@@ -49,7 +49,7 @@
         "code": "21865",
         "parent_code": "548"
     },
-    "21868": {
+     {
         "name": "Cát Lâm",
         "type": "xa",
         "slug": "cat-lam",
@@ -59,7 +59,7 @@
         "code": "21868",
         "parent_code": "548"
     },
-    "21871": {
+     {
         "name": "Cát Hanh",
         "type": "xa",
         "slug": "cat-hanh",
@@ -69,7 +69,7 @@
         "code": "21871",
         "parent_code": "548"
     },
-    "21874": {
+     {
         "name": "Cát Thành",
         "type": "xa",
         "slug": "cat-thanh",
@@ -79,7 +79,7 @@
         "code": "21874",
         "parent_code": "548"
     },
-    "21877": {
+     {
         "name": "Cát Trinh",
         "type": "xa",
         "slug": "cat-trinh",
@@ -89,7 +89,7 @@
         "code": "21877",
         "parent_code": "548"
     },
-    "21880": {
+     {
         "name": "Cát Hải",
         "type": "xa",
         "slug": "cat-hai",
@@ -99,7 +99,7 @@
         "code": "21880",
         "parent_code": "548"
     },
-    "21883": {
+     {
         "name": "Cát Hiệp",
         "type": "xa",
         "slug": "cat-hiep",
@@ -109,7 +109,7 @@
         "code": "21883",
         "parent_code": "548"
     },
-    "21886": {
+     {
         "name": "Cát Nhơn",
         "type": "xa",
         "slug": "cat-nhon",
@@ -119,7 +119,7 @@
         "code": "21886",
         "parent_code": "548"
     },
-    "21889": {
+     {
         "name": "Cát Hưng",
         "type": "xa",
         "slug": "cat-hung",
@@ -129,7 +129,7 @@
         "code": "21889",
         "parent_code": "548"
     },
-    "21892": {
+     {
         "name": "Cát Tường",
         "type": "xa",
         "slug": "cat-tuong",
@@ -139,7 +139,7 @@
         "code": "21892",
         "parent_code": "548"
     },
-    "21895": {
+     {
         "name": "Cát Tân",
         "type": "xa",
         "slug": "cat-tan",
@@ -149,7 +149,7 @@
         "code": "21895",
         "parent_code": "548"
     },
-    "21898": {
+     {
         "name": "Cát Tiến",
         "type": "thi-tran",
         "slug": "cat-tien",
@@ -159,7 +159,7 @@
         "code": "21898",
         "parent_code": "548"
     },
-    "21901": {
+     {
         "name": "Cát Thắng",
         "type": "xa",
         "slug": "cat-thang",
@@ -169,7 +169,7 @@
         "code": "21901",
         "parent_code": "548"
     },
-    "21904": {
+     {
         "name": "Cát Chánh",
         "type": "xa",
         "slug": "cat-chanh",
@@ -179,4 +179,4 @@
         "code": "21904",
         "parent_code": "548"
     }
-}
+]}

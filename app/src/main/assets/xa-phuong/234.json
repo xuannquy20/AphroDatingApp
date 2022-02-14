@@ -1,5 +1,5 @@
 {
-    "08290": {
+    "xa":[ {
         "name": "Yên Lập",
         "type": "thi-tran",
         "slug": "yen-lap",
@@ -9,7 +9,7 @@
         "code": "08290",
         "parent_code": "234"
     },
-    "08293": {
+     {
         "name": "Mỹ Lung",
         "type": "xa",
         "slug": "my-lung",
@@ -19,7 +19,7 @@
         "code": "08293",
         "parent_code": "234"
     },
-    "08296": {
+     {
         "name": "Mỹ Lương",
         "type": "xa",
         "slug": "my-luong",
@@ -29,7 +29,7 @@
         "code": "08296",
         "parent_code": "234"
     },
-    "08299": {
+     {
         "name": "Lương Sơn",
         "type": "xa",
         "slug": "luong-son",
@@ -39,7 +39,7 @@
         "code": "08299",
         "parent_code": "234"
     },
-    "08302": {
+     {
         "name": "Xuân An",
         "type": "xa",
         "slug": "xuan-an",
@@ -49,7 +49,7 @@
         "code": "08302",
         "parent_code": "234"
     },
-    "08305": {
+     {
         "name": "Xuân Viên",
         "type": "xa",
         "slug": "xuan-vien",
@@ -59,7 +59,7 @@
         "code": "08305",
         "parent_code": "234"
     },
-    "08308": {
+     {
         "name": "Xuân Thủy",
         "type": "xa",
         "slug": "xuan-thuy",
@@ -69,7 +69,7 @@
         "code": "08308",
         "parent_code": "234"
     },
-    "08311": {
+     {
         "name": "Trung Sơn",
         "type": "xa",
         "slug": "trung-son",
@@ -79,7 +79,7 @@
         "code": "08311",
         "parent_code": "234"
     },
-    "08314": {
+     {
         "name": "Hưng Long",
         "type": "xa",
         "slug": "hung-long",
@@ -89,7 +89,7 @@
         "code": "08314",
         "parent_code": "234"
     },
-    "08317": {
+     {
         "name": "Nga Hoàng",
         "type": "xa",
         "slug": "nga-hoang",
@@ -99,7 +99,7 @@
         "code": "08317",
         "parent_code": "234"
     },
-    "08320": {
+     {
         "name": "Đồng Lạc",
         "type": "xa",
         "slug": "dong-lac",
@@ -109,7 +109,7 @@
         "code": "08320",
         "parent_code": "234"
     },
-    "08323": {
+     {
         "name": "Thượng Long",
         "type": "xa",
         "slug": "thuong-long",
@@ -119,7 +119,7 @@
         "code": "08323",
         "parent_code": "234"
     },
-    "08326": {
+     {
         "name": "Đồng Thịnh",
         "type": "xa",
         "slug": "dong-thinh",
@@ -129,7 +129,7 @@
         "code": "08326",
         "parent_code": "234"
     },
-    "08329": {
+     {
         "name": "Phúc Khánh",
         "type": "xa",
         "slug": "phuc-khanh",
@@ -139,7 +139,7 @@
         "code": "08329",
         "parent_code": "234"
     },
-    "08332": {
+     {
         "name": "Minh Hòa",
         "type": "xa",
         "slug": "minh-hoa",
@@ -149,7 +149,7 @@
         "code": "08332",
         "parent_code": "234"
     },
-    "08335": {
+     {
         "name": "Ngọc Lập",
         "type": "xa",
         "slug": "ngoc-lap",
@@ -159,7 +159,7 @@
         "code": "08335",
         "parent_code": "234"
     },
-    "08338": {
+     {
         "name": "Ngọc Đồng",
         "type": "xa",
         "slug": "ngoc-dong",
@@ -169,4 +169,4 @@
         "code": "08338",
         "parent_code": "234"
     }
-}
+]}

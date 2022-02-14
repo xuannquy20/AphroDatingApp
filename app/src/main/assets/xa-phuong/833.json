@@ -1,5 +1,5 @@
 {
-    "28903": {
+    "xa":[ {
         "name": "Mỏ Cày",
         "type": "thi-tran",
         "slug": "mo-cay",
@@ -9,7 +9,7 @@
         "code": "28903",
         "parent_code": "833"
     },
-    "28930": {
+     {
         "name": "Định Thủy",
         "type": "xa",
         "slug": "dinh-thuy",
@@ -19,7 +19,7 @@
         "code": "28930",
         "parent_code": "833"
     },
-    "28939": {
+     {
         "name": "Đa Phước Hội",
         "type": "xa",
         "slug": "da-phuoc-hoi",
@@ -29,7 +29,7 @@
         "code": "28939",
         "parent_code": "833"
     },
-    "28940": {
+     {
         "name": "Tân Hội",
         "type": "xa",
         "slug": "tan-hoi",
@@ -39,7 +39,7 @@
         "code": "28940",
         "parent_code": "833"
     },
-    "28942": {
+     {
         "name": "Phước Hiệp",
         "type": "xa",
         "slug": "phuoc-hiep",
@@ -49,7 +49,7 @@
         "code": "28942",
         "parent_code": "833"
     },
-    "28945": {
+     {
         "name": "Bình Khánh",
         "type": "xa",
         "slug": "binh-khanh",
@@ -59,7 +59,7 @@
         "code": "28945",
         "parent_code": "833"
     },
-    "28951": {
+     {
         "name": "An Thạnh",
         "type": "xa",
         "slug": "an-thanh",
@@ -69,7 +69,7 @@
         "code": "28951",
         "parent_code": "833"
     },
-    "28957": {
+     {
         "name": "An Định",
         "type": "xa",
         "slug": "an-dinh",
@@ -79,7 +79,7 @@
         "code": "28957",
         "parent_code": "833"
     },
-    "28960": {
+     {
         "name": "Thành Thới B",
         "type": "xa",
         "slug": "thanh-thoi-b",
@@ -89,7 +89,7 @@
         "code": "28960",
         "parent_code": "833"
     },
-    "28963": {
+     {
         "name": "Tân Trung",
         "type": "xa",
         "slug": "tan-trung",
@@ -99,7 +99,7 @@
         "code": "28963",
         "parent_code": "833"
     },
-    "28966": {
+     {
         "name": "An Thới",
         "type": "xa",
         "slug": "an-thoi",
@@ -109,7 +109,7 @@
         "code": "28966",
         "parent_code": "833"
     },
-    "28969": {
+     {
         "name": "Thành Thới A",
         "type": "xa",
         "slug": "thanh-thoi-a",
@@ -119,7 +119,7 @@
         "code": "28969",
         "parent_code": "833"
     },
-    "28972": {
+     {
         "name": "Minh Đức",
         "type": "xa",
         "slug": "minh-duc",
@@ -129,7 +129,7 @@
         "code": "28972",
         "parent_code": "833"
     },
-    "28975": {
+     {
         "name": "Ngãi Đăng",
         "type": "xa",
         "slug": "ngai-dang",
@@ -139,7 +139,7 @@
         "code": "28975",
         "parent_code": "833"
     },
-    "28978": {
+     {
         "name": "Cẩm Sơn",
         "type": "xa",
         "slug": "cam-son",
@@ -149,7 +149,7 @@
         "code": "28978",
         "parent_code": "833"
     },
-    "28981": {
+     {
         "name": "Hương Mỹ",
         "type": "xa",
         "slug": "huong-my",
@@ -159,4 +159,4 @@
         "code": "28981",
         "parent_code": "833"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "21688": {
+    "xa":[ {
         "name": "Tăng Bạt Hổ",
         "type": "thi-tran",
         "slug": "tang-bat-ho",
@@ -9,7 +9,7 @@
         "code": "21688",
         "parent_code": "544"
     },
-    "21690": {
+     {
         "name": "Ân Hảo Tây",
         "type": "xa",
         "slug": "an-hao-tay",
@@ -19,7 +19,7 @@
         "code": "21690",
         "parent_code": "544"
     },
-    "21691": {
+     {
         "name": "Ân Hảo Đông",
         "type": "xa",
         "slug": "an-hao-dong",
@@ -29,7 +29,7 @@
         "code": "21691",
         "parent_code": "544"
     },
-    "21694": {
+     {
         "name": "Ân Sơn",
         "type": "xa",
         "slug": "an-son",
@@ -39,7 +39,7 @@
         "code": "21694",
         "parent_code": "544"
     },
-    "21697": {
+     {
         "name": "Ân Mỹ",
         "type": "xa",
         "slug": "an-my",
@@ -49,7 +49,7 @@
         "code": "21697",
         "parent_code": "544"
     },
-    "21700": {
+     {
         "name": "Đak Mang",
         "type": "xa",
         "slug": "dak-mang",
@@ -59,7 +59,7 @@
         "code": "21700",
         "parent_code": "544"
     },
-    "21703": {
+     {
         "name": "Ân Tín",
         "type": "xa",
         "slug": "an-tin",
@@ -69,7 +69,7 @@
         "code": "21703",
         "parent_code": "544"
     },
-    "21706": {
+     {
         "name": "Ân Thạnh",
         "type": "xa",
         "slug": "an-thanh",
@@ -79,7 +79,7 @@
         "code": "21706",
         "parent_code": "544"
     },
-    "21709": {
+     {
         "name": "Ân Phong",
         "type": "xa",
         "slug": "an-phong",
@@ -89,7 +89,7 @@
         "code": "21709",
         "parent_code": "544"
     },
-    "21712": {
+     {
         "name": "Ân Đức",
         "type": "xa",
         "slug": "an-duc",
@@ -99,7 +99,7 @@
         "code": "21712",
         "parent_code": "544"
     },
-    "21715": {
+     {
         "name": "Ân Hữu",
         "type": "xa",
         "slug": "an-huu",
@@ -109,7 +109,7 @@
         "code": "21715",
         "parent_code": "544"
     },
-    "21718": {
+     {
         "name": "Bok Tới",
         "type": "xa",
         "slug": "bok-toi",
@@ -119,7 +119,7 @@
         "code": "21718",
         "parent_code": "544"
     },
-    "21721": {
+     {
         "name": "Ân Tường Tây",
         "type": "xa",
         "slug": "an-tuong-tay",
@@ -129,7 +129,7 @@
         "code": "21721",
         "parent_code": "544"
     },
-    "21724": {
+     {
         "name": "Ân Tường Đông",
         "type": "xa",
         "slug": "an-tuong-dong",
@@ -139,7 +139,7 @@
         "code": "21724",
         "parent_code": "544"
     },
-    "21727": {
+     {
         "name": "Ân Nghĩa",
         "type": "xa",
         "slug": "an-nghia",
@@ -149,4 +149,4 @@
         "code": "21727",
         "parent_code": "544"
     }
-}
+]}

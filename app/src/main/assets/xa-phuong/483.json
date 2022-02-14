@@ -1,5 +1,5 @@
 {
-    "20161": {
+    "xa":[ {
         "name": "Khe Tre",
         "type": "thi-tran",
         "slug": "khe-tre",
@@ -9,7 +9,7 @@
         "code": "20161",
         "parent_code": "483"
     },
-    "20164": {
+     {
         "name": "Hương Phú",
         "type": "xa",
         "slug": "huong-phu",
@@ -19,7 +19,7 @@
         "code": "20164",
         "parent_code": "483"
     },
-    "20167": {
+     {
         "name": "Hương Sơn",
         "type": "xa",
         "slug": "huong-son",
@@ -29,7 +29,7 @@
         "code": "20167",
         "parent_code": "483"
     },
-    "20170": {
+     {
         "name": "Hương Lộc",
         "type": "xa",
         "slug": "huong-loc",
@@ -39,7 +39,7 @@
         "code": "20170",
         "parent_code": "483"
     },
-    "20173": {
+     {
         "name": "Thượng Quảng",
         "type": "xa",
         "slug": "thuong-quang",
@@ -49,7 +49,7 @@
         "code": "20173",
         "parent_code": "483"
     },
-    "20179": {
+     {
         "name": "Hương Xuân",
         "type": "xa",
         "slug": "huong-xuan",
@@ -59,7 +59,7 @@
         "code": "20179",
         "parent_code": "483"
     },
-    "20182": {
+     {
         "name": "Hương Hữu",
         "type": "xa",
         "slug": "huong-huu",
@@ -69,7 +69,7 @@
         "code": "20182",
         "parent_code": "483"
     },
-    "20185": {
+     {
         "name": "Thượng Lộ",
         "type": "xa",
         "slug": "thuong-lo",
@@ -79,7 +79,7 @@
         "code": "20185",
         "parent_code": "483"
     },
-    "20188": {
+     {
         "name": "Thượng Long",
         "type": "xa",
         "slug": "thuong-long",
@@ -89,7 +89,7 @@
         "code": "20188",
         "parent_code": "483"
     },
-    "20191": {
+     {
         "name": "Thượng Nhật",
         "type": "xa",
         "slug": "thuong-nhat",
@@ -99,4 +99,4 @@
         "code": "20191",
         "parent_code": "483"
     }
-}
+]}

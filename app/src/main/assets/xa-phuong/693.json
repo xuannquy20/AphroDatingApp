@@ -1,5 +1,5 @@
 {
-    "25308": {
+    "xa":[ {
         "name": "Thanh Bình",
         "type": "thi-tran",
         "slug": "thanh-binh",
@@ -9,7 +9,7 @@
         "code": "25308",
         "parent_code": "693"
     },
-    "25309": {
+     {
         "name": "Hưng Phước",
         "type": "xa",
         "slug": "hung-phuoc",
@@ -19,7 +19,7 @@
         "code": "25309",
         "parent_code": "693"
     },
-    "25310": {
+     {
         "name": "Phước Thiện",
         "type": "xa",
         "slug": "phuoc-thien",
@@ -29,7 +29,7 @@
         "code": "25310",
         "parent_code": "693"
     },
-    "25312": {
+     {
         "name": "Thiện Hưng",
         "type": "xa",
         "slug": "thien-hung",
@@ -39,7 +39,7 @@
         "code": "25312",
         "parent_code": "693"
     },
-    "25315": {
+     {
         "name": "Thanh Hòa",
         "type": "xa",
         "slug": "thanh-hoa",
@@ -49,7 +49,7 @@
         "code": "25315",
         "parent_code": "693"
     },
-    "25318": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -59,7 +59,7 @@
         "code": "25318",
         "parent_code": "693"
     },
-    "25321": {
+     {
         "name": "Tân Tiến",
         "type": "xa",
         "slug": "tan-tien",
@@ -69,4 +69,4 @@
         "code": "25321",
         "parent_code": "693"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "14464": {
+    "xa":[ {
         "name": "Me",
         "type": "thi-tran",
         "slug": "me",
@@ -9,7 +9,7 @@
         "code": "14464",
         "parent_code": "373"
     },
-    "14467": {
+     {
         "name": "Gia Hòa",
         "type": "xa",
         "slug": "gia-hoa",
@@ -19,7 +19,7 @@
         "code": "14467",
         "parent_code": "373"
     },
-    "14470": {
+     {
         "name": "Gia Hưng",
         "type": "xa",
         "slug": "gia-hung",
@@ -29,7 +29,7 @@
         "code": "14470",
         "parent_code": "373"
     },
-    "14473": {
+     {
         "name": "Liên Sơn",
         "type": "xa",
         "slug": "lien-son",
@@ -39,7 +39,7 @@
         "code": "14473",
         "parent_code": "373"
     },
-    "14476": {
+     {
         "name": "Gia Thanh",
         "type": "xa",
         "slug": "gia-thanh",
@@ -49,7 +49,7 @@
         "code": "14476",
         "parent_code": "373"
     },
-    "14479": {
+     {
         "name": "Gia Vân",
         "type": "xa",
         "slug": "gia-van",
@@ -59,7 +59,7 @@
         "code": "14479",
         "parent_code": "373"
     },
-    "14482": {
+     {
         "name": "Gia Phú",
         "type": "xa",
         "slug": "gia-phu",
@@ -69,7 +69,7 @@
         "code": "14482",
         "parent_code": "373"
     },
-    "14485": {
+     {
         "name": "Gia Xuân",
         "type": "xa",
         "slug": "gia-xuan",
@@ -79,7 +79,7 @@
         "code": "14485",
         "parent_code": "373"
     },
-    "14488": {
+     {
         "name": "Gia Lập",
         "type": "xa",
         "slug": "gia-lap",
@@ -89,7 +89,7 @@
         "code": "14488",
         "parent_code": "373"
     },
-    "14491": {
+     {
         "name": "Gia Vượng",
         "type": "xa",
         "slug": "gia-vuong",
@@ -99,7 +99,7 @@
         "code": "14491",
         "parent_code": "373"
     },
-    "14494": {
+     {
         "name": "Gia Trấn",
         "type": "xa",
         "slug": "gia-tran",
@@ -109,7 +109,7 @@
         "code": "14494",
         "parent_code": "373"
     },
-    "14497": {
+     {
         "name": "Gia Thịnh",
         "type": "xa",
         "slug": "gia-thinh",
@@ -119,7 +119,7 @@
         "code": "14497",
         "parent_code": "373"
     },
-    "14500": {
+     {
         "name": "Gia Phương",
         "type": "xa",
         "slug": "gia-phuong",
@@ -129,7 +129,7 @@
         "code": "14500",
         "parent_code": "373"
     },
-    "14503": {
+     {
         "name": "Gia Tân",
         "type": "xa",
         "slug": "gia-tan",
@@ -139,7 +139,7 @@
         "code": "14503",
         "parent_code": "373"
     },
-    "14506": {
+     {
         "name": "Gia Thắng",
         "type": "xa",
         "slug": "gia-thang",
@@ -149,7 +149,7 @@
         "code": "14506",
         "parent_code": "373"
     },
-    "14509": {
+     {
         "name": "Gia Trung",
         "type": "xa",
         "slug": "gia-trung",
@@ -159,7 +159,7 @@
         "code": "14509",
         "parent_code": "373"
     },
-    "14512": {
+     {
         "name": "Gia Minh",
         "type": "xa",
         "slug": "gia-minh",
@@ -169,7 +169,7 @@
         "code": "14512",
         "parent_code": "373"
     },
-    "14515": {
+     {
         "name": "Gia Lạc",
         "type": "xa",
         "slug": "gia-lac",
@@ -179,7 +179,7 @@
         "code": "14515",
         "parent_code": "373"
     },
-    "14518": {
+     {
         "name": "Gia Tiến",
         "type": "xa",
         "slug": "gia-tien",
@@ -189,7 +189,7 @@
         "code": "14518",
         "parent_code": "373"
     },
-    "14521": {
+     {
         "name": "Gia Sinh",
         "type": "xa",
         "slug": "gia-sinh",
@@ -199,7 +199,7 @@
         "code": "14521",
         "parent_code": "373"
     },
-    "14524": {
+     {
         "name": "Gia Phong",
         "type": "xa",
         "slug": "gia-phong",
@@ -209,4 +209,4 @@
         "code": "14524",
         "parent_code": "373"
     }
-}
+]}

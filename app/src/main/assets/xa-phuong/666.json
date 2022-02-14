@@ -1,5 +1,5 @@
 {
-    "24733": {
+    "xa":[ {
         "name": "Kiến Đức",
         "type": "thi-tran",
         "slug": "kien-duc",
@@ -9,7 +9,7 @@
         "code": "24733",
         "parent_code": "666"
     },
-    "24745": {
+     {
         "name": "Quảng Tín",
         "type": "xa",
         "slug": "quang-tin",
@@ -19,7 +19,7 @@
         "code": "24745",
         "parent_code": "666"
     },
-    "24750": {
+     {
         "name": "Đắk Wer",
         "type": "xa",
         "slug": "dak-wer",
@@ -29,7 +29,7 @@
         "code": "24750",
         "parent_code": "666"
     },
-    "24751": {
+     {
         "name": "Nhân Cơ",
         "type": "xa",
         "slug": "nhan-co",
@@ -39,7 +39,7 @@
         "code": "24751",
         "parent_code": "666"
     },
-    "24754": {
+     {
         "name": "Kiến Thành",
         "type": "xa",
         "slug": "kien-thanh",
@@ -49,7 +49,7 @@
         "code": "24754",
         "parent_code": "666"
     },
-    "24756": {
+     {
         "name": "Nghĩa Thắng",
         "type": "xa",
         "slug": "nghia-thang",
@@ -59,7 +59,7 @@
         "code": "24756",
         "parent_code": "666"
     },
-    "24757": {
+     {
         "name": "Đạo Nghĩa",
         "type": "xa",
         "slug": "dao-nghia",
@@ -69,7 +69,7 @@
         "code": "24757",
         "parent_code": "666"
     },
-    "24760": {
+     {
         "name": "Đắk Sin",
         "type": "xa",
         "slug": "dak-sin",
@@ -79,7 +79,7 @@
         "code": "24760",
         "parent_code": "666"
     },
-    "24761": {
+     {
         "name": "Hưng Bình",
         "type": "xa",
         "slug": "hung-binh",
@@ -89,7 +89,7 @@
         "code": "24761",
         "parent_code": "666"
     },
-    "24763": {
+     {
         "name": "Đắk Ru",
         "type": "xa",
         "slug": "dak-ru",
@@ -99,7 +99,7 @@
         "code": "24763",
         "parent_code": "666"
     },
-    "24766": {
+     {
         "name": "Nhân Đạo",
         "type": "xa",
         "slug": "nhan-dao",
@@ -109,4 +109,4 @@
         "code": "24766",
         "parent_code": "666"
     }
-}
+]}

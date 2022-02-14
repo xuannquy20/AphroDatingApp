@@ -1,5 +1,5 @@
 {
-    "05353": {
+    "xa":[ {
         "name": "Hàng Trạm",
         "type": "thi-tran",
         "slug": "hang-tram",
@@ -9,7 +9,7 @@
         "code": "05353",
         "parent_code": "158"
     },
-    "05356": {
+     {
         "name": "Lạc Sỹ",
         "type": "xa",
         "slug": "lac-sy",
@@ -19,7 +19,7 @@
         "code": "05356",
         "parent_code": "158"
     },
-    "05362": {
+     {
         "name": "Lạc Lương",
         "type": "xa",
         "slug": "lac-luong",
@@ -29,7 +29,7 @@
         "code": "05362",
         "parent_code": "158"
     },
-    "05365": {
+     {
         "name": "Bảo Hiệu",
         "type": "xa",
         "slug": "bao-hieu",
@@ -39,7 +39,7 @@
         "code": "05365",
         "parent_code": "158"
     },
-    "05368": {
+     {
         "name": "Đa Phúc",
         "type": "xa",
         "slug": "da-phuc",
@@ -49,7 +49,7 @@
         "code": "05368",
         "parent_code": "158"
     },
-    "05371": {
+     {
         "name": "Hữu Lợi",
         "type": "xa",
         "slug": "huu-loi",
@@ -59,7 +59,7 @@
         "code": "05371",
         "parent_code": "158"
     },
-    "05374": {
+     {
         "name": "Lạc Thịnh",
         "type": "xa",
         "slug": "lac-thinh",
@@ -69,7 +69,7 @@
         "code": "05374",
         "parent_code": "158"
     },
-    "05380": {
+     {
         "name": "Đoàn Kết",
         "type": "xa",
         "slug": "doan-ket",
@@ -79,7 +79,7 @@
         "code": "05380",
         "parent_code": "158"
     },
-    "05383": {
+     {
         "name": "Phú Lai",
         "type": "xa",
         "slug": "phu-lai",
@@ -89,7 +89,7 @@
         "code": "05383",
         "parent_code": "158"
     },
-    "05386": {
+     {
         "name": "Yên Trị",
         "type": "xa",
         "slug": "yen-tri",
@@ -99,7 +99,7 @@
         "code": "05386",
         "parent_code": "158"
     },
-    "05389": {
+     {
         "name": "Ngọc Lương",
         "type": "xa",
         "slug": "ngoc-luong",
@@ -109,4 +109,4 @@
         "code": "05389",
         "parent_code": "158"
     }
-}
+]}

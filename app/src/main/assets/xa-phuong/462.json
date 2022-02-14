@@ -1,5 +1,5 @@
 {
-    "19357": {
+    "xa":[ {
         "name": "1",
         "type": "phuong",
         "slug": "1",
@@ -9,7 +9,7 @@
         "code": "19357",
         "parent_code": "462"
     },
-    "19358": {
+     {
         "name": "An Đôn",
         "type": "phuong",
         "slug": "an-don",
@@ -19,7 +19,7 @@
         "code": "19358",
         "parent_code": "462"
     },
-    "19360": {
+     {
         "name": "2",
         "type": "phuong",
         "slug": "2",
@@ -29,7 +29,7 @@
         "code": "19360",
         "parent_code": "462"
     },
-    "19361": {
+     {
         "name": "3",
         "type": "phuong",
         "slug": "3",
@@ -39,7 +39,7 @@
         "code": "19361",
         "parent_code": "462"
     },
-    "19705": {
+     {
         "name": "Hải Lệ",
         "type": "xa",
         "slug": "hai-le",
@@ -49,4 +49,4 @@
         "code": "19705",
         "parent_code": "462"
     }
-}
+]}

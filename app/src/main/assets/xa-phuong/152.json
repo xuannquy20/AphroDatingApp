@@ -1,5 +1,5 @@
 {
-    "04924": {
+    "xa":[ {
         "name": "Lương Sơn",
         "type": "thi-tran",
         "slug": "luong-son",
@@ -9,7 +9,7 @@
         "code": "04924",
         "parent_code": "152"
     },
-    "04942": {
+     {
         "name": "Lâm Sơn",
         "type": "xa",
         "slug": "lam-son",
@@ -19,7 +19,7 @@
         "code": "04942",
         "parent_code": "152"
     },
-    "04945": {
+     {
         "name": "Hòa Sơn",
         "type": "xa",
         "slug": "hoa-son",
@@ -29,7 +29,7 @@
         "code": "04945",
         "parent_code": "152"
     },
-    "04951": {
+     {
         "name": "Tân Vinh",
         "type": "xa",
         "slug": "tan-vinh",
@@ -39,7 +39,7 @@
         "code": "04951",
         "parent_code": "152"
     },
-    "04954": {
+     {
         "name": "Nhuận Trạch",
         "type": "xa",
         "slug": "nhuan-trach",
@@ -49,7 +49,7 @@
         "code": "04954",
         "parent_code": "152"
     },
-    "04957": {
+     {
         "name": "Cao Sơn",
         "type": "xa",
         "slug": "cao-son",
@@ -59,7 +59,7 @@
         "code": "04957",
         "parent_code": "152"
     },
-    "04960": {
+     {
         "name": "Cư Yên",
         "type": "xa",
         "slug": "cu-yen",
@@ -69,7 +69,7 @@
         "code": "04960",
         "parent_code": "152"
     },
-    "04969": {
+     {
         "name": "Liên Sơn",
         "type": "xa",
         "slug": "lien-son",
@@ -79,7 +79,7 @@
         "code": "04969",
         "parent_code": "152"
     },
-    "05008": {
+     {
         "name": "Cao Dương",
         "type": "xa",
         "slug": "cao-duong",
@@ -89,7 +89,7 @@
         "code": "05008",
         "parent_code": "152"
     },
-    "05041": {
+     {
         "name": "Thanh Sơn",
         "type": "xa",
         "slug": "thanh-son",
@@ -99,7 +99,7 @@
         "code": "05041",
         "parent_code": "152"
     },
-    "05047": {
+     {
         "name": "Thanh Cao",
         "type": "xa",
         "slug": "thanh-cao",
@@ -109,4 +109,4 @@
         "code": "05047",
         "parent_code": "152"
     }
-}
+]}

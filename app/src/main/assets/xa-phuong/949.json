@@ -1,5 +1,5 @@
 {
-    "31756": {
+    "xa":[ {
         "name": "Phú Lộc",
         "type": "thi-tran",
         "slug": "phu-loc",
@@ -9,7 +9,7 @@
         "code": "31756",
         "parent_code": "949"
     },
-    "31757": {
+     {
         "name": "Hưng Lợi",
         "type": "thi-tran",
         "slug": "hung-loi",
@@ -19,7 +19,7 @@
         "code": "31757",
         "parent_code": "949"
     },
-    "31759": {
+     {
         "name": "Lâm Tân",
         "type": "xa",
         "slug": "lam-tan",
@@ -29,7 +29,7 @@
         "code": "31759",
         "parent_code": "949"
     },
-    "31762": {
+     {
         "name": "Thạnh Tân",
         "type": "xa",
         "slug": "thanh-tan",
@@ -39,7 +39,7 @@
         "code": "31762",
         "parent_code": "949"
     },
-    "31765": {
+     {
         "name": "Lâm Kiết",
         "type": "xa",
         "slug": "lam-kiet",
@@ -49,7 +49,7 @@
         "code": "31765",
         "parent_code": "949"
     },
-    "31768": {
+     {
         "name": "Tuân Tức",
         "type": "xa",
         "slug": "tuan-tuc",
@@ -59,7 +59,7 @@
         "code": "31768",
         "parent_code": "949"
     },
-    "31771": {
+     {
         "name": "Vĩnh Thành",
         "type": "xa",
         "slug": "vinh-thanh",
@@ -69,7 +69,7 @@
         "code": "31771",
         "parent_code": "949"
     },
-    "31774": {
+     {
         "name": "Thạnh Trị",
         "type": "xa",
         "slug": "thanh-tri",
@@ -79,7 +79,7 @@
         "code": "31774",
         "parent_code": "949"
     },
-    "31777": {
+     {
         "name": "Vĩnh Lợi",
         "type": "xa",
         "slug": "vinh-loi",
@@ -89,7 +89,7 @@
         "code": "31777",
         "parent_code": "949"
     },
-    "31780": {
+     {
         "name": "Châu Hưng",
         "type": "xa",
         "slug": "chau-hung",
@@ -99,4 +99,4 @@
         "code": "31780",
         "parent_code": "949"
     }
-}
+]}

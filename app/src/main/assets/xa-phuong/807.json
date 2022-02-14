@@ -1,5 +1,5 @@
 {
-    "28159": {
+    "xa":[ {
         "name": "Cần Giuộc",
         "type": "thi-tran",
         "slug": "can-giuoc",
@@ -9,7 +9,7 @@
         "code": "28159",
         "parent_code": "807"
     },
-    "28162": {
+     {
         "name": "Phước Lý",
         "type": "xa",
         "slug": "phuoc-ly",
@@ -19,7 +19,7 @@
         "code": "28162",
         "parent_code": "807"
     },
-    "28165": {
+     {
         "name": "Long Thượng",
         "type": "xa",
         "slug": "long-thuong",
@@ -29,7 +29,7 @@
         "code": "28165",
         "parent_code": "807"
     },
-    "28168": {
+     {
         "name": "Long Hậu",
         "type": "xa",
         "slug": "long-hau",
@@ -39,7 +39,7 @@
         "code": "28168",
         "parent_code": "807"
     },
-    "28174": {
+     {
         "name": "Phước Hậu",
         "type": "xa",
         "slug": "phuoc-hau",
@@ -49,7 +49,7 @@
         "code": "28174",
         "parent_code": "807"
     },
-    "28177": {
+     {
         "name": "Mỹ Lộc",
         "type": "xa",
         "slug": "my-loc",
@@ -59,7 +59,7 @@
         "code": "28177",
         "parent_code": "807"
     },
-    "28180": {
+     {
         "name": "Phước Lại",
         "type": "xa",
         "slug": "phuoc-lai",
@@ -69,7 +69,7 @@
         "code": "28180",
         "parent_code": "807"
     },
-    "28183": {
+     {
         "name": "Phước Lâm",
         "type": "xa",
         "slug": "phuoc-lam",
@@ -79,7 +79,7 @@
         "code": "28183",
         "parent_code": "807"
     },
-    "28189": {
+     {
         "name": "Thuận Thành",
         "type": "xa",
         "slug": "thuan-thanh",
@@ -89,7 +89,7 @@
         "code": "28189",
         "parent_code": "807"
     },
-    "28192": {
+     {
         "name": "Phước Vĩnh Tây",
         "type": "xa",
         "slug": "phuoc-vinh-tay",
@@ -99,7 +99,7 @@
         "code": "28192",
         "parent_code": "807"
     },
-    "28195": {
+     {
         "name": "Phước Vĩnh Đông",
         "type": "xa",
         "slug": "phuoc-vinh-dong",
@@ -109,7 +109,7 @@
         "code": "28195",
         "parent_code": "807"
     },
-    "28198": {
+     {
         "name": "Long An",
         "type": "xa",
         "slug": "long-an",
@@ -119,7 +119,7 @@
         "code": "28198",
         "parent_code": "807"
     },
-    "28201": {
+     {
         "name": "Long Phụng",
         "type": "xa",
         "slug": "long-phung",
@@ -129,7 +129,7 @@
         "code": "28201",
         "parent_code": "807"
     },
-    "28204": {
+     {
         "name": "Đông Thạnh",
         "type": "xa",
         "slug": "dong-thanh",
@@ -139,7 +139,7 @@
         "code": "28204",
         "parent_code": "807"
     },
-    "28207": {
+     {
         "name": "Tân Tập",
         "type": "xa",
         "slug": "tan-tap",
@@ -149,4 +149,4 @@
         "code": "28207",
         "parent_code": "807"
     }
-}
+]}

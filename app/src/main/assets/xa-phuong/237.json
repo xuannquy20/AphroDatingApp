@@ -1,5 +1,5 @@
 {
-    "08494": {
+    "xa":[ {
         "name": "Lâm Thao",
         "type": "thi-tran",
         "slug": "lam-thao",
@@ -9,7 +9,7 @@
         "code": "08494",
         "parent_code": "237"
     },
-    "08497": {
+     {
         "name": "Tiên Kiên",
         "type": "xa",
         "slug": "tien-kien",
@@ -19,7 +19,7 @@
         "code": "08497",
         "parent_code": "237"
     },
-    "08498": {
+     {
         "name": "Hùng Sơn",
         "type": "thi-tran",
         "slug": "hung-son",
@@ -29,7 +29,7 @@
         "code": "08498",
         "parent_code": "237"
     },
-    "08500": {
+     {
         "name": "Xuân Lũng",
         "type": "xa",
         "slug": "xuan-lung",
@@ -39,7 +39,7 @@
         "code": "08500",
         "parent_code": "237"
     },
-    "08509": {
+     {
         "name": "Xuân Huy",
         "type": "xa",
         "slug": "xuan-huy",
@@ -49,7 +49,7 @@
         "code": "08509",
         "parent_code": "237"
     },
-    "08512": {
+     {
         "name": "Thạch Sơn",
         "type": "xa",
         "slug": "thach-son",
@@ -59,7 +59,7 @@
         "code": "08512",
         "parent_code": "237"
     },
-    "08518": {
+     {
         "name": "Sơn Vi",
         "type": "xa",
         "slug": "son-vi",
@@ -69,7 +69,7 @@
         "code": "08518",
         "parent_code": "237"
     },
-    "08521": {
+     {
         "name": "Phùng Nguyên",
         "type": "xa",
         "slug": "phung-nguyen",
@@ -79,7 +79,7 @@
         "code": "08521",
         "parent_code": "237"
     },
-    "08527": {
+     {
         "name": "Cao Xá",
         "type": "xa",
         "slug": "cao-xa",
@@ -89,7 +89,7 @@
         "code": "08527",
         "parent_code": "237"
     },
-    "08533": {
+     {
         "name": "Vĩnh Lại",
         "type": "xa",
         "slug": "vinh-lai",
@@ -99,7 +99,7 @@
         "code": "08533",
         "parent_code": "237"
     },
-    "08536": {
+     {
         "name": "Tứ Xã",
         "type": "xa",
         "slug": "tu-xa",
@@ -109,7 +109,7 @@
         "code": "08536",
         "parent_code": "237"
     },
-    "08539": {
+     {
         "name": "Bản Nguyên",
         "type": "xa",
         "slug": "ban-nguyen",
@@ -119,4 +119,4 @@
         "code": "08539",
         "parent_code": "237"
     }
-}
+]}

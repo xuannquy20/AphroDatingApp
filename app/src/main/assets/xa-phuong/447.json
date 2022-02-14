@@ -1,5 +1,5 @@
 {
-    "18757": {
+    "xa":[ {
         "name": "Kỳ Xuân",
         "type": "xa",
         "slug": "ky-xuan",
@@ -9,7 +9,7 @@
         "code": "18757",
         "parent_code": "447"
     },
-    "18760": {
+     {
         "name": "Kỳ Bắc",
         "type": "xa",
         "slug": "ky-bac",
@@ -19,7 +19,7 @@
         "code": "18760",
         "parent_code": "447"
     },
-    "18763": {
+     {
         "name": "Kỳ Phú",
         "type": "xa",
         "slug": "ky-phu",
@@ -29,7 +29,7 @@
         "code": "18763",
         "parent_code": "447"
     },
-    "18766": {
+     {
         "name": "Kỳ Phong",
         "type": "xa",
         "slug": "ky-phong",
@@ -39,7 +39,7 @@
         "code": "18766",
         "parent_code": "447"
     },
-    "18769": {
+     {
         "name": "Kỳ Tiến",
         "type": "xa",
         "slug": "ky-tien",
@@ -49,7 +49,7 @@
         "code": "18769",
         "parent_code": "447"
     },
-    "18772": {
+     {
         "name": "Kỳ Giang",
         "type": "xa",
         "slug": "ky-giang",
@@ -59,7 +59,7 @@
         "code": "18772",
         "parent_code": "447"
     },
-    "18775": {
+     {
         "name": "Kỳ Đồng",
         "type": "xa",
         "slug": "ky-dong",
@@ -69,7 +69,7 @@
         "code": "18775",
         "parent_code": "447"
     },
-    "18778": {
+     {
         "name": "Kỳ Khang",
         "type": "xa",
         "slug": "ky-khang",
@@ -79,7 +79,7 @@
         "code": "18778",
         "parent_code": "447"
     },
-    "18784": {
+     {
         "name": "Kỳ Văn",
         "type": "xa",
         "slug": "ky-van",
@@ -89,7 +89,7 @@
         "code": "18784",
         "parent_code": "447"
     },
-    "18787": {
+     {
         "name": "Kỳ Trung",
         "type": "xa",
         "slug": "ky-trung",
@@ -99,7 +99,7 @@
         "code": "18787",
         "parent_code": "447"
     },
-    "18790": {
+     {
         "name": "Kỳ Thọ",
         "type": "xa",
         "slug": "ky-tho",
@@ -109,7 +109,7 @@
         "code": "18790",
         "parent_code": "447"
     },
-    "18793": {
+     {
         "name": "Kỳ Tây",
         "type": "xa",
         "slug": "ky-tay",
@@ -119,7 +119,7 @@
         "code": "18793",
         "parent_code": "447"
     },
-    "18799": {
+     {
         "name": "Kỳ Thượng",
         "type": "xa",
         "slug": "ky-thuong",
@@ -129,7 +129,7 @@
         "code": "18799",
         "parent_code": "447"
     },
-    "18802": {
+     {
         "name": "Kỳ Hải",
         "type": "xa",
         "slug": "ky-hai",
@@ -139,7 +139,7 @@
         "code": "18802",
         "parent_code": "447"
     },
-    "18805": {
+     {
         "name": "Kỳ Thư",
         "type": "xa",
         "slug": "ky-thu",
@@ -149,7 +149,7 @@
         "code": "18805",
         "parent_code": "447"
     },
-    "18811": {
+     {
         "name": "Kỳ Châu",
         "type": "xa",
         "slug": "ky-chau",
@@ -159,7 +159,7 @@
         "code": "18811",
         "parent_code": "447"
     },
-    "18814": {
+     {
         "name": "Kỳ Tân",
         "type": "xa",
         "slug": "ky-tan",
@@ -169,7 +169,7 @@
         "code": "18814",
         "parent_code": "447"
     },
-    "18838": {
+     {
         "name": "Lâm Hợp",
         "type": "xa",
         "slug": "lam-hop",
@@ -179,7 +179,7 @@
         "code": "18838",
         "parent_code": "447"
     },
-    "18844": {
+     {
         "name": "Kỳ Sơn",
         "type": "xa",
         "slug": "ky-son",
@@ -189,7 +189,7 @@
         "code": "18844",
         "parent_code": "447"
     },
-    "18850": {
+     {
         "name": "Kỳ Lạc",
         "type": "xa",
         "slug": "ky-lac",
@@ -199,4 +199,4 @@
         "code": "18850",
         "parent_code": "447"
     }
-}
+]}

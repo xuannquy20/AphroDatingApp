@@ -1,5 +1,5 @@
 {
-    "08734": {
+    "xa":[ {
         "name": "Trưng Trắc",
         "type": "phuong",
         "slug": "trung-trac",
@@ -9,7 +9,7 @@
         "code": "08734",
         "parent_code": "244"
     },
-    "08737": {
+     {
         "name": "Hùng Vương",
         "type": "phuong",
         "slug": "hung-vuong",
@@ -19,7 +19,7 @@
         "code": "08737",
         "parent_code": "244"
     },
-    "08740": {
+     {
         "name": "Trưng Nhị",
         "type": "phuong",
         "slug": "trung-nhi",
@@ -29,7 +29,7 @@
         "code": "08740",
         "parent_code": "244"
     },
-    "08743": {
+     {
         "name": "Phúc Thắng",
         "type": "phuong",
         "slug": "phuc-thang",
@@ -39,7 +39,7 @@
         "code": "08743",
         "parent_code": "244"
     },
-    "08746": {
+     {
         "name": "Xuân Hoà",
         "type": "phuong",
         "slug": "xuan-hoa",
@@ -49,7 +49,7 @@
         "code": "08746",
         "parent_code": "244"
     },
-    "08747": {
+     {
         "name": "Đồng Xuân",
         "type": "phuong",
         "slug": "dong-xuan",
@@ -59,7 +59,7 @@
         "code": "08747",
         "parent_code": "244"
     },
-    "08749": {
+     {
         "name": "Ngọc Thanh",
         "type": "xa",
         "slug": "ngoc-thanh",
@@ -69,7 +69,7 @@
         "code": "08749",
         "parent_code": "244"
     },
-    "08752": {
+     {
         "name": "Cao Minh",
         "type": "xa",
         "slug": "cao-minh",
@@ -79,7 +79,7 @@
         "code": "08752",
         "parent_code": "244"
     },
-    "08755": {
+     {
         "name": "Nam Viêm",
         "type": "phuong",
         "slug": "nam-viem",
@@ -89,7 +89,7 @@
         "code": "08755",
         "parent_code": "244"
     },
-    "08758": {
+     {
         "name": "Tiền Châu",
         "type": "phuong",
         "slug": "tien-chau",
@@ -99,4 +99,4 @@
         "code": "08758",
         "parent_code": "244"
     }
-}
+]}

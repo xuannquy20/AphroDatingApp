@@ -1,5 +1,5 @@
 {
-    "07969": {
+    "xa":[ {
         "name": "Đoan Hùng",
         "type": "thi-tran",
         "slug": "doan-hung",
@@ -9,7 +9,7 @@
         "code": "07969",
         "parent_code": "230"
     },
-    "07975": {
+     {
         "name": "Hùng Xuyên",
         "type": "xa",
         "slug": "hung-xuyen",
@@ -19,7 +19,7 @@
         "code": "07975",
         "parent_code": "230"
     },
-    "07981": {
+     {
         "name": "Bằng Luân",
         "type": "xa",
         "slug": "bang-luan",
@@ -29,7 +29,7 @@
         "code": "07981",
         "parent_code": "230"
     },
-    "07984": {
+     {
         "name": "Vân Du",
         "type": "xa",
         "slug": "van-du",
@@ -39,7 +39,7 @@
         "code": "07984",
         "parent_code": "230"
     },
-    "07987": {
+     {
         "name": "Phú Lâm",
         "type": "xa",
         "slug": "phu-lam",
@@ -49,7 +49,7 @@
         "code": "07987",
         "parent_code": "230"
     },
-    "07993": {
+     {
         "name": "Minh Lương",
         "type": "xa",
         "slug": "minh-luong",
@@ -59,7 +59,7 @@
         "code": "07993",
         "parent_code": "230"
     },
-    "07996": {
+     {
         "name": "Bằng Doãn",
         "type": "xa",
         "slug": "bang-doan",
@@ -69,7 +69,7 @@
         "code": "07996",
         "parent_code": "230"
     },
-    "07999": {
+     {
         "name": "Chí Đám",
         "type": "xa",
         "slug": "chi-dam",
@@ -79,7 +79,7 @@
         "code": "07999",
         "parent_code": "230"
     },
-    "08005": {
+     {
         "name": "Phúc Lai",
         "type": "xa",
         "slug": "phuc-lai",
@@ -89,7 +89,7 @@
         "code": "08005",
         "parent_code": "230"
     },
-    "08008": {
+     {
         "name": "Ngọc Quan",
         "type": "xa",
         "slug": "ngoc-quan",
@@ -99,7 +99,7 @@
         "code": "08008",
         "parent_code": "230"
     },
-    "08014": {
+     {
         "name": "Hợp Nhất",
         "type": "xa",
         "slug": "hop-nhat",
@@ -109,7 +109,7 @@
         "code": "08014",
         "parent_code": "230"
     },
-    "08017": {
+     {
         "name": "Sóc Đăng",
         "type": "xa",
         "slug": "soc-dang",
@@ -119,7 +119,7 @@
         "code": "08017",
         "parent_code": "230"
     },
-    "08023": {
+     {
         "name": "Tây Cốc",
         "type": "xa",
         "slug": "tay-coc",
@@ -129,7 +129,7 @@
         "code": "08023",
         "parent_code": "230"
     },
-    "08026": {
+     {
         "name": "Yên Kiện",
         "type": "xa",
         "slug": "yen-kien",
@@ -139,7 +139,7 @@
         "code": "08026",
         "parent_code": "230"
     },
-    "08029": {
+     {
         "name": "Hùng Long",
         "type": "xa",
         "slug": "hung-long",
@@ -149,7 +149,7 @@
         "code": "08029",
         "parent_code": "230"
     },
-    "08032": {
+     {
         "name": "Vụ Quang",
         "type": "xa",
         "slug": "vu-quang",
@@ -159,7 +159,7 @@
         "code": "08032",
         "parent_code": "230"
     },
-    "08035": {
+     {
         "name": "Vân Đồn",
         "type": "xa",
         "slug": "van-don",
@@ -169,7 +169,7 @@
         "code": "08035",
         "parent_code": "230"
     },
-    "08038": {
+     {
         "name": "Tiêu Sơn",
         "type": "xa",
         "slug": "tieu-son",
@@ -179,7 +179,7 @@
         "code": "08038",
         "parent_code": "230"
     },
-    "08041": {
+     {
         "name": "Minh Tiến",
         "type": "xa",
         "slug": "minh-tien",
@@ -189,7 +189,7 @@
         "code": "08041",
         "parent_code": "230"
     },
-    "08044": {
+     {
         "name": "Minh Phú",
         "type": "xa",
         "slug": "minh-phu",
@@ -199,7 +199,7 @@
         "code": "08044",
         "parent_code": "230"
     },
-    "08047": {
+     {
         "name": "Chân Mộng",
         "type": "xa",
         "slug": "chan-mong",
@@ -209,7 +209,7 @@
         "code": "08047",
         "parent_code": "230"
     },
-    "08050": {
+     {
         "name": "Ca Đình",
         "type": "xa",
         "slug": "ca-dinh",
@@ -219,4 +219,4 @@
         "code": "08050",
         "parent_code": "230"
     }
-}
+]}

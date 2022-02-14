@@ -1,5 +1,5 @@
 {
-    "30850": {
+    "xa":[ {
         "name": "Tân Hiệp",
         "type": "thi-tran",
         "slug": "tan-hiep",
@@ -9,7 +9,7 @@
         "code": "30850",
         "parent_code": "904"
     },
-    "30853": {
+     {
         "name": "Tân Hội",
         "type": "xa",
         "slug": "tan-hoi",
@@ -19,7 +19,7 @@
         "code": "30853",
         "parent_code": "904"
     },
-    "30856": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -29,7 +29,7 @@
         "code": "30856",
         "parent_code": "904"
     },
-    "30859": {
+     {
         "name": "Tân Hiệp B",
         "type": "xa",
         "slug": "tan-hiep-b",
@@ -39,7 +39,7 @@
         "code": "30859",
         "parent_code": "904"
     },
-    "30860": {
+     {
         "name": "Tân Hoà",
         "type": "xa",
         "slug": "tan-hoa",
@@ -49,7 +49,7 @@
         "code": "30860",
         "parent_code": "904"
     },
-    "30862": {
+     {
         "name": "Thạnh Đông B",
         "type": "xa",
         "slug": "thanh-dong-b",
@@ -59,7 +59,7 @@
         "code": "30862",
         "parent_code": "904"
     },
-    "30865": {
+     {
         "name": "Thạnh Đông",
         "type": "xa",
         "slug": "thanh-dong",
@@ -69,7 +69,7 @@
         "code": "30865",
         "parent_code": "904"
     },
-    "30868": {
+     {
         "name": "Tân Hiệp A",
         "type": "xa",
         "slug": "tan-hiep-a",
@@ -79,7 +79,7 @@
         "code": "30868",
         "parent_code": "904"
     },
-    "30871": {
+     {
         "name": "Tân An",
         "type": "xa",
         "slug": "tan-an",
@@ -89,7 +89,7 @@
         "code": "30871",
         "parent_code": "904"
     },
-    "30874": {
+     {
         "name": "Thạnh Đông A",
         "type": "xa",
         "slug": "thanh-dong-a",
@@ -99,7 +99,7 @@
         "code": "30874",
         "parent_code": "904"
     },
-    "30877": {
+     {
         "name": "Thạnh Trị",
         "type": "xa",
         "slug": "thanh-tri",
@@ -109,4 +109,4 @@
         "code": "30877",
         "parent_code": "904"
     }
-}
+]}

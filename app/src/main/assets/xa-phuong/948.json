@@ -1,5 +1,5 @@
 {
-    "31732": {
+    "xa":[ {
         "name": "1",
         "type": "phuong",
         "slug": "1",
@@ -9,7 +9,7 @@
         "code": "31732",
         "parent_code": "948"
     },
-    "31735": {
+     {
         "name": "2",
         "type": "phuong",
         "slug": "2",
@@ -19,7 +19,7 @@
         "code": "31735",
         "parent_code": "948"
     },
-    "31738": {
+     {
         "name": "Vĩnh Quới",
         "type": "xa",
         "slug": "vinh-quoi",
@@ -29,7 +29,7 @@
         "code": "31738",
         "parent_code": "948"
     },
-    "31741": {
+     {
         "name": "Tân Long",
         "type": "xa",
         "slug": "tan-long",
@@ -39,7 +39,7 @@
         "code": "31741",
         "parent_code": "948"
     },
-    "31744": {
+     {
         "name": "Long Bình",
         "type": "xa",
         "slug": "long-binh",
@@ -49,7 +49,7 @@
         "code": "31744",
         "parent_code": "948"
     },
-    "31747": {
+     {
         "name": "3",
         "type": "phuong",
         "slug": "3",
@@ -59,7 +59,7 @@
         "code": "31747",
         "parent_code": "948"
     },
-    "31750": {
+     {
         "name": "Mỹ Bình",
         "type": "xa",
         "slug": "my-binh",
@@ -69,7 +69,7 @@
         "code": "31750",
         "parent_code": "948"
     },
-    "31753": {
+     {
         "name": "Mỹ Quới",
         "type": "xa",
         "slug": "my-quoi",
@@ -79,4 +79,4 @@
         "code": "31753",
         "parent_code": "948"
     }
-}
+]}

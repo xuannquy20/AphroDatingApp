@@ -1,5 +1,5 @@
 {
-    "14320": {
+    "xa":[ {
         "name": "Đông Thành",
         "type": "phuong",
         "slug": "dong-thanh",
@@ -9,7 +9,7 @@
         "code": "14320",
         "parent_code": "369"
     },
-    "14323": {
+     {
         "name": "Tân Thành",
         "type": "phuong",
         "slug": "tan-thanh",
@@ -19,7 +19,7 @@
         "code": "14323",
         "parent_code": "369"
     },
-    "14326": {
+     {
         "name": "Thanh Bình",
         "type": "phuong",
         "slug": "thanh-binh",
@@ -29,7 +29,7 @@
         "code": "14326",
         "parent_code": "369"
     },
-    "14329": {
+     {
         "name": "Vân Giang",
         "type": "phuong",
         "slug": "van-giang",
@@ -39,7 +39,7 @@
         "code": "14329",
         "parent_code": "369"
     },
-    "14332": {
+     {
         "name": "Bích Đào",
         "type": "phuong",
         "slug": "bich-dao",
@@ -49,7 +49,7 @@
         "code": "14332",
         "parent_code": "369"
     },
-    "14335": {
+     {
         "name": "Phúc Thành",
         "type": "phuong",
         "slug": "phuc-thanh",
@@ -59,7 +59,7 @@
         "code": "14335",
         "parent_code": "369"
     },
-    "14338": {
+     {
         "name": "Nam Bình",
         "type": "phuong",
         "slug": "nam-binh",
@@ -69,7 +69,7 @@
         "code": "14338",
         "parent_code": "369"
     },
-    "14341": {
+     {
         "name": "Nam Thành",
         "type": "phuong",
         "slug": "nam-thanh",
@@ -79,7 +79,7 @@
         "code": "14341",
         "parent_code": "369"
     },
-    "14344": {
+     {
         "name": "Ninh Khánh",
         "type": "phuong",
         "slug": "ninh-khanh",
@@ -89,7 +89,7 @@
         "code": "14344",
         "parent_code": "369"
     },
-    "14347": {
+     {
         "name": "Ninh Nhất",
         "type": "xa",
         "slug": "ninh-nhat",
@@ -99,7 +99,7 @@
         "code": "14347",
         "parent_code": "369"
     },
-    "14350": {
+     {
         "name": "Ninh Tiến",
         "type": "xa",
         "slug": "ninh-tien",
@@ -109,7 +109,7 @@
         "code": "14350",
         "parent_code": "369"
     },
-    "14353": {
+     {
         "name": "Ninh Phúc",
         "type": "xa",
         "slug": "ninh-phuc",
@@ -119,7 +119,7 @@
         "code": "14353",
         "parent_code": "369"
     },
-    "14356": {
+     {
         "name": "Ninh Sơn",
         "type": "phuong",
         "slug": "ninh-son",
@@ -129,7 +129,7 @@
         "code": "14356",
         "parent_code": "369"
     },
-    "14359": {
+     {
         "name": "Ninh Phong",
         "type": "phuong",
         "slug": "ninh-phong",
@@ -139,4 +139,4 @@
         "code": "14359",
         "parent_code": "369"
     }
-}
+]}

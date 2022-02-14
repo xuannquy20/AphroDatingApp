@@ -4,39 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:elevation="5dp"
     android:padding="20dp"
     tools:context=".RegisterDescriptionActivity">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/txtInfo"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="30dp"
+        android:text="Mô tả về bạn"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/txtInfo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="top"
-            android:gravity="center_vertical"
-            android:paddingHorizontal="15dp"
-            android:paddingVertical="30dp"
-            android:text="Mô tả về bạn"
-            android:textColor="#000000"
-            android:textSize="34sp"
-            android:textStyle="bold" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/layout_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:id="@+id/selectAddress"
             android:layout_width="match_parent"
-            android:layout_height="fill_parent"
-            android:background="@drawable/border_less"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="8"
             android:elevation="2dp"
             android:gravity="center"
             android:orientation="vertical"
-            android:paddingLeft="20dp"
-            android:paddingTop="20dp"
-            android:paddingRight="20dp"
-            android:paddingBottom="50dp">
+            android:padding="10dp">
 
             <TextView
                 android:id="@+id/textView9"
@@ -49,24 +56,26 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextMultiLine"
+                android:id="@+id/description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/border_image"
                 android:ems="10"
                 android:gravity="start|top"
-                android:background="@drawable/border_image"
                 android:hint="Hãy viết gì đó về bản thân..."
                 android:inputType="textMultiLine"
                 android:lines="6"
                 android:padding="20dp" />
 
         </LinearLayout>
-    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnNext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
         android:background="@drawable/ripple_button_background"
         android:fontFamily="sans-serif-medium"
         android:text="Tiếp tục"
@@ -75,4 +84,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

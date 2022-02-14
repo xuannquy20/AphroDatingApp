@@ -1,5 +1,5 @@
 {
-    "16813": {
+    "xa":[ {
         "name": "Mường Xén",
         "type": "thi-tran",
         "slug": "muong-xen",
@@ -9,7 +9,7 @@
         "code": "16813",
         "parent_code": "417"
     },
-    "16816": {
+     {
         "name": "Mỹ Lý",
         "type": "xa",
         "slug": "my-ly",
@@ -19,7 +19,7 @@
         "code": "16816",
         "parent_code": "417"
     },
-    "16819": {
+     {
         "name": "Bắc Lý",
         "type": "xa",
         "slug": "bac-ly",
@@ -29,7 +29,7 @@
         "code": "16819",
         "parent_code": "417"
     },
-    "16822": {
+     {
         "name": "Keng Đu",
         "type": "xa",
         "slug": "keng-du",
@@ -39,7 +39,7 @@
         "code": "16822",
         "parent_code": "417"
     },
-    "16825": {
+     {
         "name": "Đoọc Mạy",
         "type": "xa",
         "slug": "dooc-may",
@@ -49,7 +49,7 @@
         "code": "16825",
         "parent_code": "417"
     },
-    "16828": {
+     {
         "name": "Huồi Tụ",
         "type": "xa",
         "slug": "huoi-tu",
@@ -59,7 +59,7 @@
         "code": "16828",
         "parent_code": "417"
     },
-    "16831": {
+     {
         "name": "Mường Lống",
         "type": "xa",
         "slug": "muong-long",
@@ -69,7 +69,7 @@
         "code": "16831",
         "parent_code": "417"
     },
-    "16834": {
+     {
         "name": "Na Loi",
         "type": "xa",
         "slug": "na-loi",
@@ -79,7 +79,7 @@
         "code": "16834",
         "parent_code": "417"
     },
-    "16837": {
+     {
         "name": "Nậm Cắn",
         "type": "xa",
         "slug": "nam-can",
@@ -89,7 +89,7 @@
         "code": "16837",
         "parent_code": "417"
     },
-    "16840": {
+     {
         "name": "Bảo Nam",
         "type": "xa",
         "slug": "bao-nam",
@@ -99,7 +99,7 @@
         "code": "16840",
         "parent_code": "417"
     },
-    "16843": {
+     {
         "name": "Phà Đánh",
         "type": "xa",
         "slug": "pha-danh",
@@ -109,7 +109,7 @@
         "code": "16843",
         "parent_code": "417"
     },
-    "16846": {
+     {
         "name": "Bảo Thắng",
         "type": "xa",
         "slug": "bao-thang",
@@ -119,7 +119,7 @@
         "code": "16846",
         "parent_code": "417"
     },
-    "16849": {
+     {
         "name": "Hữu Lập",
         "type": "xa",
         "slug": "huu-lap",
@@ -129,7 +129,7 @@
         "code": "16849",
         "parent_code": "417"
     },
-    "16852": {
+     {
         "name": "Tà Cạ",
         "type": "xa",
         "slug": "ta-ca",
@@ -139,7 +139,7 @@
         "code": "16852",
         "parent_code": "417"
     },
-    "16855": {
+     {
         "name": "Chiêu Lưu",
         "type": "xa",
         "slug": "chieu-luu",
@@ -149,7 +149,7 @@
         "code": "16855",
         "parent_code": "417"
     },
-    "16858": {
+     {
         "name": "Mường Típ",
         "type": "xa",
         "slug": "muong-tip",
@@ -159,7 +159,7 @@
         "code": "16858",
         "parent_code": "417"
     },
-    "16861": {
+     {
         "name": "Hữu Kiệm",
         "type": "xa",
         "slug": "huu-kiem",
@@ -169,7 +169,7 @@
         "code": "16861",
         "parent_code": "417"
     },
-    "16864": {
+     {
         "name": "Tây Sơn",
         "type": "xa",
         "slug": "tay-son",
@@ -179,7 +179,7 @@
         "code": "16864",
         "parent_code": "417"
     },
-    "16867": {
+     {
         "name": "Mường Ải",
         "type": "xa",
         "slug": "muong-ai",
@@ -189,7 +189,7 @@
         "code": "16867",
         "parent_code": "417"
     },
-    "16870": {
+     {
         "name": "Na Ngoi",
         "type": "xa",
         "slug": "na-ngoi",
@@ -199,7 +199,7 @@
         "code": "16870",
         "parent_code": "417"
     },
-    "16873": {
+     {
         "name": "Nậm Càn",
         "type": "xa",
         "slug": "nam-can",
@@ -209,4 +209,4 @@
         "code": "16873",
         "parent_code": "417"
     }
-}
+]}

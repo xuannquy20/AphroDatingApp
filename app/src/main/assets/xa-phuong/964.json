@@ -1,5 +1,5 @@
 {
-    "31999": {
+    "xa":[ {
         "name": "9",
         "type": "phuong",
         "slug": "9",
@@ -9,7 +9,7 @@
         "code": "31999",
         "parent_code": "964"
     },
-    "32002": {
+     {
         "name": "4",
         "type": "phuong",
         "slug": "4",
@@ -19,7 +19,7 @@
         "code": "32002",
         "parent_code": "964"
     },
-    "32005": {
+     {
         "name": "1",
         "type": "phuong",
         "slug": "1",
@@ -29,7 +29,7 @@
         "code": "32005",
         "parent_code": "964"
     },
-    "32008": {
+     {
         "name": "5",
         "type": "phuong",
         "slug": "5",
@@ -39,7 +39,7 @@
         "code": "32008",
         "parent_code": "964"
     },
-    "32011": {
+     {
         "name": "2",
         "type": "phuong",
         "slug": "2",
@@ -49,7 +49,7 @@
         "code": "32011",
         "parent_code": "964"
     },
-    "32014": {
+     {
         "name": "8",
         "type": "phuong",
         "slug": "8",
@@ -59,7 +59,7 @@
         "code": "32014",
         "parent_code": "964"
     },
-    "32017": {
+     {
         "name": "6",
         "type": "phuong",
         "slug": "6",
@@ -69,7 +69,7 @@
         "code": "32017",
         "parent_code": "964"
     },
-    "32020": {
+     {
         "name": "7",
         "type": "phuong",
         "slug": "7",
@@ -79,7 +79,7 @@
         "code": "32020",
         "parent_code": "964"
     },
-    "32022": {
+     {
         "name": "Tân Xuyên",
         "type": "phuong",
         "slug": "tan-xuyen",
@@ -89,7 +89,7 @@
         "code": "32022",
         "parent_code": "964"
     },
-    "32023": {
+     {
         "name": "An Xuyên",
         "type": "xa",
         "slug": "an-xuyen",
@@ -99,7 +99,7 @@
         "code": "32023",
         "parent_code": "964"
     },
-    "32025": {
+     {
         "name": "Tân Thành",
         "type": "phuong",
         "slug": "tan-thanh",
@@ -109,7 +109,7 @@
         "code": "32025",
         "parent_code": "964"
     },
-    "32026": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -119,7 +119,7 @@
         "code": "32026",
         "parent_code": "964"
     },
-    "32029": {
+     {
         "name": "Tắc Vân",
         "type": "xa",
         "slug": "tac-van",
@@ -129,7 +129,7 @@
         "code": "32029",
         "parent_code": "964"
     },
-    "32032": {
+     {
         "name": "Lý Văn Lâm",
         "type": "xa",
         "slug": "ly-van-lam",
@@ -139,7 +139,7 @@
         "code": "32032",
         "parent_code": "964"
     },
-    "32035": {
+     {
         "name": "Định Bình",
         "type": "xa",
         "slug": "dinh-binh",
@@ -149,7 +149,7 @@
         "code": "32035",
         "parent_code": "964"
     },
-    "32038": {
+     {
         "name": "Hòa Thành",
         "type": "xa",
         "slug": "hoa-thanh",
@@ -159,7 +159,7 @@
         "code": "32038",
         "parent_code": "964"
     },
-    "32041": {
+     {
         "name": "Hòa Tân",
         "type": "xa",
         "slug": "hoa-tan",
@@ -169,4 +169,4 @@
         "code": "32041",
         "parent_code": "964"
     }
-}
+]}

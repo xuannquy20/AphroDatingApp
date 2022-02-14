@@ -1,5 +1,5 @@
 {
-    "31299": {
+    "xa":[ {
         "name": "Phong Điền",
         "type": "thi-tran",
         "slug": "phong-dien",
@@ -9,7 +9,7 @@
         "code": "31299",
         "parent_code": "926"
     },
-    "31300": {
+     {
         "name": "Nhơn Ái",
         "type": "xa",
         "slug": "nhon-ai",
@@ -19,7 +19,7 @@
         "code": "31300",
         "parent_code": "926"
     },
-    "31303": {
+     {
         "name": "Giai Xuân",
         "type": "xa",
         "slug": "giai-xuan",
@@ -29,7 +29,7 @@
         "code": "31303",
         "parent_code": "926"
     },
-    "31306": {
+     {
         "name": "Tân Thới",
         "type": "xa",
         "slug": "tan-thoi",
@@ -39,7 +39,7 @@
         "code": "31306",
         "parent_code": "926"
     },
-    "31309": {
+     {
         "name": "Trường Long",
         "type": "xa",
         "slug": "truong-long",
@@ -49,7 +49,7 @@
         "code": "31309",
         "parent_code": "926"
     },
-    "31312": {
+     {
         "name": "Mỹ Khánh",
         "type": "xa",
         "slug": "my-khanh",
@@ -59,7 +59,7 @@
         "code": "31312",
         "parent_code": "926"
     },
-    "31315": {
+     {
         "name": "Nhơn Nghĩa",
         "type": "xa",
         "slug": "nhon-nghia",
@@ -69,4 +69,4 @@
         "code": "31315",
         "parent_code": "926"
     }
-}
+]}

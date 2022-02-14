@@ -1,5 +1,5 @@
 {
-    "30730": {
+    "xa":[ {
         "name": "Vĩnh Thanh Vân",
         "type": "phuong",
         "slug": "vinh-thanh-van",
@@ -9,7 +9,7 @@
         "code": "30730",
         "parent_code": "899"
     },
-    "30733": {
+     {
         "name": "Vĩnh Thanh",
         "type": "phuong",
         "slug": "vinh-thanh",
@@ -19,7 +19,7 @@
         "code": "30733",
         "parent_code": "899"
     },
-    "30736": {
+     {
         "name": "Vĩnh Quang",
         "type": "phuong",
         "slug": "vinh-quang",
@@ -29,7 +29,7 @@
         "code": "30736",
         "parent_code": "899"
     },
-    "30739": {
+     {
         "name": "Vĩnh Hiệp",
         "type": "phuong",
         "slug": "vinh-hiep",
@@ -39,7 +39,7 @@
         "code": "30739",
         "parent_code": "899"
     },
-    "30742": {
+     {
         "name": "Vĩnh Bảo",
         "type": "phuong",
         "slug": "vinh-bao",
@@ -49,7 +49,7 @@
         "code": "30742",
         "parent_code": "899"
     },
-    "30745": {
+     {
         "name": "Vĩnh Lạc",
         "type": "phuong",
         "slug": "vinh-lac",
@@ -59,7 +59,7 @@
         "code": "30745",
         "parent_code": "899"
     },
-    "30748": {
+     {
         "name": "An Hòa",
         "type": "phuong",
         "slug": "an-hoa",
@@ -69,7 +69,7 @@
         "code": "30748",
         "parent_code": "899"
     },
-    "30751": {
+     {
         "name": "An Bình",
         "type": "phuong",
         "slug": "an-binh",
@@ -79,7 +79,7 @@
         "code": "30751",
         "parent_code": "899"
     },
-    "30754": {
+     {
         "name": "Rạch Sỏi",
         "type": "phuong",
         "slug": "rach-soi",
@@ -89,7 +89,7 @@
         "code": "30754",
         "parent_code": "899"
     },
-    "30757": {
+     {
         "name": "Vĩnh Lợi",
         "type": "phuong",
         "slug": "vinh-loi",
@@ -99,7 +99,7 @@
         "code": "30757",
         "parent_code": "899"
     },
-    "30760": {
+     {
         "name": "Vĩnh Thông",
         "type": "phuong",
         "slug": "vinh-thong",
@@ -109,7 +109,7 @@
         "code": "30760",
         "parent_code": "899"
     },
-    "30763": {
+     {
         "name": "Phi Thông",
         "type": "xa",
         "slug": "phi-thong",
@@ -119,4 +119,4 @@
         "code": "30763",
         "parent_code": "899"
     }
-}
+]}

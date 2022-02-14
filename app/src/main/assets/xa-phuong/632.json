@@ -1,5 +1,5 @@
 {
-    "23887": {
+    "xa":[ {
         "name": "Chư Prông",
         "type": "thi-tran",
         "slug": "chu-prong",
@@ -9,7 +9,7 @@
         "code": "23887",
         "parent_code": "632"
     },
-    "23888": {
+     {
         "name": "Ia Kly",
         "type": "xa",
         "slug": "ia-kly",
@@ -19,7 +19,7 @@
         "code": "23888",
         "parent_code": "632"
     },
-    "23890": {
+     {
         "name": "Bình Giáo",
         "type": "xa",
         "slug": "binh-giao",
@@ -29,7 +29,7 @@
         "code": "23890",
         "parent_code": "632"
     },
-    "23893": {
+     {
         "name": "Ia Drăng",
         "type": "xa",
         "slug": "ia-drang",
@@ -39,7 +39,7 @@
         "code": "23893",
         "parent_code": "632"
     },
-    "23896": {
+     {
         "name": "Thăng Hưng",
         "type": "xa",
         "slug": "thang-hung",
@@ -49,7 +49,7 @@
         "code": "23896",
         "parent_code": "632"
     },
-    "23899": {
+     {
         "name": "Bàu Cạn",
         "type": "xa",
         "slug": "bau-can",
@@ -59,7 +59,7 @@
         "code": "23899",
         "parent_code": "632"
     },
-    "23902": {
+     {
         "name": "Ia Phìn",
         "type": "xa",
         "slug": "ia-phin",
@@ -69,7 +69,7 @@
         "code": "23902",
         "parent_code": "632"
     },
-    "23905": {
+     {
         "name": "Ia Băng",
         "type": "xa",
         "slug": "ia-bang",
@@ -79,7 +79,7 @@
         "code": "23905",
         "parent_code": "632"
     },
-    "23908": {
+     {
         "name": "Ia Tôr",
         "type": "xa",
         "slug": "ia-tor",
@@ -89,7 +89,7 @@
         "code": "23908",
         "parent_code": "632"
     },
-    "23911": {
+     {
         "name": "Ia Boòng",
         "type": "xa",
         "slug": "ia-boong",
@@ -99,7 +99,7 @@
         "code": "23911",
         "parent_code": "632"
     },
-    "23914": {
+     {
         "name": "Ia O",
         "type": "xa",
         "slug": "ia-o",
@@ -109,7 +109,7 @@
         "code": "23914",
         "parent_code": "632"
     },
-    "23917": {
+     {
         "name": "Ia Púch",
         "type": "xa",
         "slug": "ia-puch",
@@ -119,7 +119,7 @@
         "code": "23917",
         "parent_code": "632"
     },
-    "23920": {
+     {
         "name": "Ia Me",
         "type": "xa",
         "slug": "ia-me",
@@ -129,7 +129,7 @@
         "code": "23920",
         "parent_code": "632"
     },
-    "23923": {
+     {
         "name": "Ia Vê",
         "type": "xa",
         "slug": "ia-ve",
@@ -139,7 +139,7 @@
         "code": "23923",
         "parent_code": "632"
     },
-    "23924": {
+     {
         "name": "Ia Bang",
         "type": "xa",
         "slug": "ia-bang",
@@ -149,7 +149,7 @@
         "code": "23924",
         "parent_code": "632"
     },
-    "23926": {
+     {
         "name": "Ia Pia",
         "type": "xa",
         "slug": "ia-pia",
@@ -159,7 +159,7 @@
         "code": "23926",
         "parent_code": "632"
     },
-    "23929": {
+     {
         "name": "Ia Ga",
         "type": "xa",
         "slug": "ia-ga",
@@ -169,7 +169,7 @@
         "code": "23929",
         "parent_code": "632"
     },
-    "23932": {
+     {
         "name": "Ia Lâu",
         "type": "xa",
         "slug": "ia-lau",
@@ -179,7 +179,7 @@
         "code": "23932",
         "parent_code": "632"
     },
-    "23935": {
+     {
         "name": "Ia Piơr",
         "type": "xa",
         "slug": "ia-pior",
@@ -189,7 +189,7 @@
         "code": "23935",
         "parent_code": "632"
     },
-    "23938": {
+     {
         "name": "Ia Mơ",
         "type": "xa",
         "slug": "ia-mo",
@@ -199,4 +199,4 @@
         "code": "23938",
         "parent_code": "632"
     }
-}
+]}

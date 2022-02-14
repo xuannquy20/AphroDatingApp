@@ -1,5 +1,5 @@
 {
-    "21010": {
+    "xa":[ {
         "name": "Lê Hồng Phong",
         "type": "phuong",
         "slug": "le-hong-phong",
@@ -9,7 +9,7 @@
         "code": "21010",
         "parent_code": "522"
     },
-    "21013": {
+     {
         "name": "Trần Phú",
         "type": "phuong",
         "slug": "tran-phu",
@@ -19,7 +19,7 @@
         "code": "21013",
         "parent_code": "522"
     },
-    "21016": {
+     {
         "name": "Quảng Phú",
         "type": "phuong",
         "slug": "quang-phu",
@@ -29,7 +29,7 @@
         "code": "21016",
         "parent_code": "522"
     },
-    "21019": {
+     {
         "name": "Nghĩa Chánh",
         "type": "phuong",
         "slug": "nghia-chanh",
@@ -39,7 +39,7 @@
         "code": "21019",
         "parent_code": "522"
     },
-    "21022": {
+     {
         "name": "Trần Hưng Đạo",
         "type": "phuong",
         "slug": "tran-hung-dao",
@@ -49,7 +49,7 @@
         "code": "21022",
         "parent_code": "522"
     },
-    "21025": {
+     {
         "name": "Nguyễn Nghiêm",
         "type": "phuong",
         "slug": "nguyen-nghiem",
@@ -59,7 +59,7 @@
         "code": "21025",
         "parent_code": "522"
     },
-    "21028": {
+     {
         "name": "Nghĩa Lộ",
         "type": "phuong",
         "slug": "nghia-lo",
@@ -69,7 +69,7 @@
         "code": "21028",
         "parent_code": "522"
     },
-    "21031": {
+     {
         "name": "Chánh Lộ",
         "type": "phuong",
         "slug": "chanh-lo",
@@ -79,7 +79,7 @@
         "code": "21031",
         "parent_code": "522"
     },
-    "21034": {
+     {
         "name": "Nghĩa Dũng",
         "type": "xa",
         "slug": "nghia-dung",
@@ -89,7 +89,7 @@
         "code": "21034",
         "parent_code": "522"
     },
-    "21037": {
+     {
         "name": "Nghĩa Dõng",
         "type": "xa",
         "slug": "nghia-dong",
@@ -99,7 +99,7 @@
         "code": "21037",
         "parent_code": "522"
     },
-    "21172": {
+     {
         "name": "Trương Quang Trọng",
         "type": "phuong",
         "slug": "truong-quang-trong",
@@ -109,7 +109,7 @@
         "code": "21172",
         "parent_code": "522"
     },
-    "21187": {
+     {
         "name": "Tịnh Hòa",
         "type": "xa",
         "slug": "tinh-hoa",
@@ -119,7 +119,7 @@
         "code": "21187",
         "parent_code": "522"
     },
-    "21190": {
+     {
         "name": "Tịnh Kỳ",
         "type": "xa",
         "slug": "tinh-ky",
@@ -129,7 +129,7 @@
         "code": "21190",
         "parent_code": "522"
     },
-    "21199": {
+     {
         "name": "Tịnh Thiện",
         "type": "xa",
         "slug": "tinh-thien",
@@ -139,7 +139,7 @@
         "code": "21199",
         "parent_code": "522"
     },
-    "21202": {
+     {
         "name": "Tịnh Ấn Đông",
         "type": "xa",
         "slug": "tinh-an-dong",
@@ -149,7 +149,7 @@
         "code": "21202",
         "parent_code": "522"
     },
-    "21208": {
+     {
         "name": "Tịnh Châu",
         "type": "xa",
         "slug": "tinh-chau",
@@ -159,7 +159,7 @@
         "code": "21208",
         "parent_code": "522"
     },
-    "21211": {
+     {
         "name": "Tịnh Khê",
         "type": "xa",
         "slug": "tinh-khe",
@@ -169,7 +169,7 @@
         "code": "21211",
         "parent_code": "522"
     },
-    "21214": {
+     {
         "name": "Tịnh Long",
         "type": "xa",
         "slug": "tinh-long",
@@ -179,7 +179,7 @@
         "code": "21214",
         "parent_code": "522"
     },
-    "21223": {
+     {
         "name": "Tịnh Ấn Tây",
         "type": "xa",
         "slug": "tinh-an-tay",
@@ -189,7 +189,7 @@
         "code": "21223",
         "parent_code": "522"
     },
-    "21232": {
+     {
         "name": "Tịnh An",
         "type": "xa",
         "slug": "tinh-an",
@@ -199,7 +199,7 @@
         "code": "21232",
         "parent_code": "522"
     },
-    "21253": {
+     {
         "name": "Nghĩa Phú",
         "type": "xa",
         "slug": "nghia-phu",
@@ -209,7 +209,7 @@
         "code": "21253",
         "parent_code": "522"
     },
-    "21256": {
+     {
         "name": "Nghĩa Hà",
         "type": "xa",
         "slug": "nghia-ha",
@@ -219,7 +219,7 @@
         "code": "21256",
         "parent_code": "522"
     },
-    "21262": {
+     {
         "name": "Nghĩa An",
         "type": "xa",
         "slug": "nghia-an",
@@ -229,4 +229,4 @@
         "code": "21262",
         "parent_code": "522"
     }
-}
+]}

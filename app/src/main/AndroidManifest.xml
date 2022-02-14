@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AphroApp">
         <activity
-            android:name=".RegisterGenderFindingActivity"
+            android:name=".RegisterSuccessActivity"
             android:exported="false" />
         <activity
             android:name=".RegisterDescriptionActivity"
@@ -89,6 +89,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
     </application>
 
 </manifest>

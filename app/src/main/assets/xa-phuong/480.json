@@ -1,5 +1,5 @@
 {
-    "19996": {
+    "xa":[ {
         "name": "Tứ Hạ",
         "type": "phuong",
         "slug": "tu-ha",
@@ -9,7 +9,7 @@
         "code": "19996",
         "parent_code": "480"
     },
-    "19999": {
+     {
         "name": "Hải Dương",
         "type": "xa",
         "slug": "hai-duong",
@@ -19,7 +19,7 @@
         "code": "19999",
         "parent_code": "480"
     },
-    "20002": {
+     {
         "name": "Hương Phong",
         "type": "xa",
         "slug": "huong-phong",
@@ -29,7 +29,7 @@
         "code": "20002",
         "parent_code": "480"
     },
-    "20005": {
+     {
         "name": "Hương Toàn",
         "type": "xa",
         "slug": "huong-toan",
@@ -39,7 +39,7 @@
         "code": "20005",
         "parent_code": "480"
     },
-    "20008": {
+     {
         "name": "Hương Vân",
         "type": "phuong",
         "slug": "huong-van",
@@ -49,7 +49,7 @@
         "code": "20008",
         "parent_code": "480"
     },
-    "20011": {
+     {
         "name": "Hương Văn",
         "type": "phuong",
         "slug": "huong-van",
@@ -59,7 +59,7 @@
         "code": "20011",
         "parent_code": "480"
     },
-    "20014": {
+     {
         "name": "Hương Vinh",
         "type": "xa",
         "slug": "huong-vinh",
@@ -69,7 +69,7 @@
         "code": "20014",
         "parent_code": "480"
     },
-    "20017": {
+     {
         "name": "Hương Xuân",
         "type": "phuong",
         "slug": "huong-xuan",
@@ -79,7 +79,7 @@
         "code": "20017",
         "parent_code": "480"
     },
-    "20020": {
+     {
         "name": "Hương Chữ",
         "type": "phuong",
         "slug": "huong-chu",
@@ -89,7 +89,7 @@
         "code": "20020",
         "parent_code": "480"
     },
-    "20023": {
+     {
         "name": "Hương An",
         "type": "phuong",
         "slug": "huong-an",
@@ -99,7 +99,7 @@
         "code": "20023",
         "parent_code": "480"
     },
-    "20026": {
+     {
         "name": "Hương Bình",
         "type": "xa",
         "slug": "huong-binh",
@@ -109,7 +109,7 @@
         "code": "20026",
         "parent_code": "480"
     },
-    "20029": {
+     {
         "name": "Hương Hồ",
         "type": "phuong",
         "slug": "huong-ho",
@@ -119,7 +119,7 @@
         "code": "20029",
         "parent_code": "480"
     },
-    "20032": {
+     {
         "name": "Hương Thọ",
         "type": "xa",
         "slug": "huong-tho",
@@ -129,7 +129,7 @@
         "code": "20032",
         "parent_code": "480"
     },
-    "20035": {
+     {
         "name": "Bình Tiến",
         "type": "xa",
         "slug": "binh-tien",
@@ -139,7 +139,7 @@
         "code": "20035",
         "parent_code": "480"
     },
-    "20041": {
+     {
         "name": "Bình Thành",
         "type": "xa",
         "slug": "binh-thanh",
@@ -149,4 +149,4 @@
         "code": "20041",
         "parent_code": "480"
     }
-}
+]}

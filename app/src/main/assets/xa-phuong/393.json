@@ -1,5 +1,5 @@
 {
-    "15349": {
+    "xa":[ {
         "name": "Vĩnh Lộc",
         "type": "thi-tran",
         "slug": "vinh-loc",
@@ -9,7 +9,7 @@
         "code": "15349",
         "parent_code": "393"
     },
-    "15352": {
+     {
         "name": "Vĩnh Quang",
         "type": "xa",
         "slug": "vinh-quang",
@@ -19,7 +19,7 @@
         "code": "15352",
         "parent_code": "393"
     },
-    "15355": {
+     {
         "name": "Vĩnh Yên",
         "type": "xa",
         "slug": "vinh-yen",
@@ -29,7 +29,7 @@
         "code": "15355",
         "parent_code": "393"
     },
-    "15358": {
+     {
         "name": "Vĩnh Tiến",
         "type": "xa",
         "slug": "vinh-tien",
@@ -39,7 +39,7 @@
         "code": "15358",
         "parent_code": "393"
     },
-    "15361": {
+     {
         "name": "Vĩnh Long",
         "type": "xa",
         "slug": "vinh-long",
@@ -49,7 +49,7 @@
         "code": "15361",
         "parent_code": "393"
     },
-    "15364": {
+     {
         "name": "Vĩnh Phúc",
         "type": "xa",
         "slug": "vinh-phuc",
@@ -59,7 +59,7 @@
         "code": "15364",
         "parent_code": "393"
     },
-    "15367": {
+     {
         "name": "Vĩnh Hưng",
         "type": "xa",
         "slug": "vinh-hung",
@@ -69,7 +69,7 @@
         "code": "15367",
         "parent_code": "393"
     },
-    "15376": {
+     {
         "name": "Vĩnh Hòa",
         "type": "xa",
         "slug": "vinh-hoa",
@@ -79,7 +79,7 @@
         "code": "15376",
         "parent_code": "393"
     },
-    "15379": {
+     {
         "name": "Vĩnh Hùng",
         "type": "xa",
         "slug": "vinh-hung",
@@ -89,7 +89,7 @@
         "code": "15379",
         "parent_code": "393"
     },
-    "15382": {
+     {
         "name": "Minh Tân",
         "type": "xa",
         "slug": "minh-tan",
@@ -99,7 +99,7 @@
         "code": "15382",
         "parent_code": "393"
     },
-    "15385": {
+     {
         "name": "Ninh Khang",
         "type": "xa",
         "slug": "ninh-khang",
@@ -109,7 +109,7 @@
         "code": "15385",
         "parent_code": "393"
     },
-    "15388": {
+     {
         "name": "Vĩnh Thịnh",
         "type": "xa",
         "slug": "vinh-thinh",
@@ -119,7 +119,7 @@
         "code": "15388",
         "parent_code": "393"
     },
-    "15391": {
+     {
         "name": "Vĩnh An",
         "type": "xa",
         "slug": "vinh-an",
@@ -129,4 +129,4 @@
         "code": "15391",
         "parent_code": "393"
     }
-}
+]}

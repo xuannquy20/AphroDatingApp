@@ -1,5 +1,5 @@
 {
-    "25777": {
+    "xa":[ {
         "name": "Dầu Tiếng",
         "type": "thi-tran",
         "slug": "dau-tieng",
@@ -9,7 +9,7 @@
         "code": "25777",
         "parent_code": "720"
     },
-    "25780": {
+     {
         "name": "Minh Hoà",
         "type": "xa",
         "slug": "minh-hoa",
@@ -19,7 +19,7 @@
         "code": "25780",
         "parent_code": "720"
     },
-    "25783": {
+     {
         "name": "Minh Thạnh",
         "type": "xa",
         "slug": "minh-thanh",
@@ -29,7 +29,7 @@
         "code": "25783",
         "parent_code": "720"
     },
-    "25786": {
+     {
         "name": "Minh Tân",
         "type": "xa",
         "slug": "minh-tan",
@@ -39,7 +39,7 @@
         "code": "25786",
         "parent_code": "720"
     },
-    "25789": {
+     {
         "name": "Định An",
         "type": "xa",
         "slug": "dinh-an",
@@ -49,7 +49,7 @@
         "code": "25789",
         "parent_code": "720"
     },
-    "25792": {
+     {
         "name": "Long Hoà",
         "type": "xa",
         "slug": "long-hoa",
@@ -59,7 +59,7 @@
         "code": "25792",
         "parent_code": "720"
     },
-    "25795": {
+     {
         "name": "Định Thành",
         "type": "xa",
         "slug": "dinh-thanh",
@@ -69,7 +69,7 @@
         "code": "25795",
         "parent_code": "720"
     },
-    "25798": {
+     {
         "name": "Định Hiệp",
         "type": "xa",
         "slug": "dinh-hiep",
@@ -79,7 +79,7 @@
         "code": "25798",
         "parent_code": "720"
     },
-    "25801": {
+     {
         "name": "An Lập",
         "type": "xa",
         "slug": "an-lap",
@@ -89,7 +89,7 @@
         "code": "25801",
         "parent_code": "720"
     },
-    "25804": {
+     {
         "name": "Long Tân",
         "type": "xa",
         "slug": "long-tan",
@@ -99,7 +99,7 @@
         "code": "25804",
         "parent_code": "720"
     },
-    "25807": {
+     {
         "name": "Thanh An",
         "type": "xa",
         "slug": "thanh-an",
@@ -109,7 +109,7 @@
         "code": "25807",
         "parent_code": "720"
     },
-    "25810": {
+     {
         "name": "Thanh Tuyền",
         "type": "xa",
         "slug": "thanh-tuyen",
@@ -119,4 +119,4 @@
         "code": "25810",
         "parent_code": "720"
     }
-}
+]}

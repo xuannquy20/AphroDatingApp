@@ -43,36 +43,40 @@ public class MainActivity extends AppCompatActivity {
 
         if(InternetDAO.isNetworkAvailable(MainActivity.this)) {
             Handler handler = new Handler();
-            handler.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    animationIntro(imgLogo, imgLogo.getScaleX(), 10f, 0);
-                    animationIntro(imgLogo, imgLogo.getScaleY(), 10f, 1);
-                    animationIntro(imgLogo, 1f, 0f, 2);
-                    handler.postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            finish();
-                            GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(MainActivity.this);
-
-                            if (account != null || isFacebookLoggedIn()) {
-                                FirebaseDatabase database = FirebaseDatabase.getInstance();
-                                DatabaseReference ref = database.getReference().child("user/"+account.getId()+"/profile");
-                                if (account != null) {
-                                    UserDAO.CURRENT_USER_ID = account.getId();
-                                } else {
-                                    UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
-                                }
-                                ref.get().addOnCompleteListener(task -> UserDAO.CURRENT_USER = task.getResult().getValue(User.class));
+            handler.postDelayed(() -> {
+                animationIntro(imgLogo, imgLogo.getScaleX(), 10f, 0);
+                animationIntro(imgLogo, imgLogo.getScaleY(), 10f, 1);
+                animationIntro(imgLogo, 1f, 0f, 2);
+                handler.postDelayed(() -> {
+                    GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(MainActivity.this);
+                    if (account != null || isFacebookLoggedIn()) {
+                        FirebaseDatabase database = FirebaseDatabase.getInstance();
+                        DatabaseReference ref = database.getReference().child("user");
+                        if (account != null) {
+                            UserDAO.CURRENT_USER_ID = account.getId();
+                        } else {
+                            UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
+                        }
+                        ref.get().addOnCompleteListener(task -> {
+                            if(task.getResult().hasChild(UserDAO.CURRENT_USER_ID)){
+                                UserDAO.CURRENT_USER = task.getResult().child(UserDAO.CURRENT_USER_ID+"/profile").getValue(User.class);
                                 Intent i = new Intent(MainActivity.this, HomeActivity.class);
                                 startActivity(i);
-                            } else {
-                                Intent i = new Intent(MainActivity.this, LoginActivity.class);
-                                startActivity(i);
+                                finish();
                             }
-                        }
-                    }, 800);
-                }
+                            else{
+                                Intent i = new Intent(MainActivity.this, RegisterNameActivity.class);
+                                startActivity(i);
+                                finish();
+                            }
+                        });
+                    }
+                    else{
+                        Intent i = new Intent(MainActivity.this, LoginActivity.class);
+                        startActivity(i);
+                        finish();
+                    }
+                }, 800);
             }, 2000);
         }
         else{

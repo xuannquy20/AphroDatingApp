@@ -1,5 +1,5 @@
 {
-    "15865": {
+    "xa":[ {
         "name": "Bút Sơn",
         "type": "thi-tran",
         "slug": "but-son",
@@ -9,7 +9,7 @@
         "code": "15865",
         "parent_code": "399"
     },
-    "15871": {
+     {
         "name": "Hoằng Giang",
         "type": "xa",
         "slug": "hoang-giang",
@@ -19,7 +19,7 @@
         "code": "15871",
         "parent_code": "399"
     },
-    "15877": {
+     {
         "name": "Hoằng Xuân",
         "type": "xa",
         "slug": "hoang-xuan",
@@ -29,7 +29,7 @@
         "code": "15877",
         "parent_code": "399"
     },
-    "15880": {
+     {
         "name": "Hoằng Phượng",
         "type": "xa",
         "slug": "hoang-phuong",
@@ -39,7 +39,7 @@
         "code": "15880",
         "parent_code": "399"
     },
-    "15883": {
+     {
         "name": "Hoằng Phú",
         "type": "xa",
         "slug": "hoang-phu",
@@ -49,7 +49,7 @@
         "code": "15883",
         "parent_code": "399"
     },
-    "15886": {
+     {
         "name": "Hoằng Quỳ",
         "type": "xa",
         "slug": "hoang-quy",
@@ -59,7 +59,7 @@
         "code": "15886",
         "parent_code": "399"
     },
-    "15889": {
+     {
         "name": "Hoằng Kim",
         "type": "xa",
         "slug": "hoang-kim",
@@ -69,7 +69,7 @@
         "code": "15889",
         "parent_code": "399"
     },
-    "15892": {
+     {
         "name": "Hoằng Trung",
         "type": "xa",
         "slug": "hoang-trung",
@@ -79,7 +79,7 @@
         "code": "15892",
         "parent_code": "399"
     },
-    "15895": {
+     {
         "name": "Hoằng Trinh",
         "type": "xa",
         "slug": "hoang-trinh",
@@ -89,7 +89,7 @@
         "code": "15895",
         "parent_code": "399"
     },
-    "15901": {
+     {
         "name": "Hoằng Sơn",
         "type": "xa",
         "slug": "hoang-son",
@@ -99,7 +99,7 @@
         "code": "15901",
         "parent_code": "399"
     },
-    "15907": {
+     {
         "name": "Hoằng Cát",
         "type": "xa",
         "slug": "hoang-cat",
@@ -109,7 +109,7 @@
         "code": "15907",
         "parent_code": "399"
     },
-    "15910": {
+     {
         "name": "Hoằng Xuyên",
         "type": "xa",
         "slug": "hoang-xuyen",
@@ -119,7 +119,7 @@
         "code": "15910",
         "parent_code": "399"
     },
-    "15916": {
+     {
         "name": "Hoằng Quý",
         "type": "xa",
         "slug": "hoang-quy",
@@ -129,7 +129,7 @@
         "code": "15916",
         "parent_code": "399"
     },
-    "15919": {
+     {
         "name": "Hoằng Hợp",
         "type": "xa",
         "slug": "hoang-hop",
@@ -139,7 +139,7 @@
         "code": "15919",
         "parent_code": "399"
     },
-    "15928": {
+     {
         "name": "Hoằng Đức",
         "type": "xa",
         "slug": "hoang-duc",
@@ -149,7 +149,7 @@
         "code": "15928",
         "parent_code": "399"
     },
-    "15937": {
+     {
         "name": "Hoằng Hà",
         "type": "xa",
         "slug": "hoang-ha",
@@ -159,7 +159,7 @@
         "code": "15937",
         "parent_code": "399"
     },
-    "15940": {
+     {
         "name": "Hoằng Đạt",
         "type": "xa",
         "slug": "hoang-dat",
@@ -169,7 +169,7 @@
         "code": "15940",
         "parent_code": "399"
     },
-    "15946": {
+     {
         "name": "Hoằng Đạo",
         "type": "xa",
         "slug": "hoang-dao",
@@ -179,7 +179,7 @@
         "code": "15946",
         "parent_code": "399"
     },
-    "15949": {
+     {
         "name": "Hoằng Thắng",
         "type": "xa",
         "slug": "hoang-thang",
@@ -189,7 +189,7 @@
         "code": "15949",
         "parent_code": "399"
     },
-    "15952": {
+     {
         "name": "Hoằng Đồng",
         "type": "xa",
         "slug": "hoang-dong",
@@ -199,7 +199,7 @@
         "code": "15952",
         "parent_code": "399"
     },
-    "15955": {
+     {
         "name": "Hoằng Thái",
         "type": "xa",
         "slug": "hoang-thai",
@@ -209,7 +209,7 @@
         "code": "15955",
         "parent_code": "399"
     },
-    "15958": {
+     {
         "name": "Hoằng Thịnh",
         "type": "xa",
         "slug": "hoang-thinh",
@@ -219,7 +219,7 @@
         "code": "15958",
         "parent_code": "399"
     },
-    "15961": {
+     {
         "name": "Hoằng Thành",
         "type": "xa",
         "slug": "hoang-thanh",
@@ -229,7 +229,7 @@
         "code": "15961",
         "parent_code": "399"
     },
-    "15964": {
+     {
         "name": "Hoằng Lộc",
         "type": "xa",
         "slug": "hoang-loc",
@@ -239,7 +239,7 @@
         "code": "15964",
         "parent_code": "399"
     },
-    "15967": {
+     {
         "name": "Hoằng Trạch",
         "type": "xa",
         "slug": "hoang-trach",
@@ -249,7 +249,7 @@
         "code": "15967",
         "parent_code": "399"
     },
-    "15973": {
+     {
         "name": "Hoằng Phong",
         "type": "xa",
         "slug": "hoang-phong",
@@ -259,7 +259,7 @@
         "code": "15973",
         "parent_code": "399"
     },
-    "15976": {
+     {
         "name": "Hoằng Lưu",
         "type": "xa",
         "slug": "hoang-luu",
@@ -269,7 +269,7 @@
         "code": "15976",
         "parent_code": "399"
     },
-    "15979": {
+     {
         "name": "Hoằng Châu",
         "type": "xa",
         "slug": "hoang-chau",
@@ -279,7 +279,7 @@
         "code": "15979",
         "parent_code": "399"
     },
-    "15982": {
+     {
         "name": "Hoằng Tân",
         "type": "xa",
         "slug": "hoang-tan",
@@ -289,7 +289,7 @@
         "code": "15982",
         "parent_code": "399"
     },
-    "15985": {
+     {
         "name": "Hoằng Yến",
         "type": "xa",
         "slug": "hoang-yen",
@@ -299,7 +299,7 @@
         "code": "15985",
         "parent_code": "399"
     },
-    "15988": {
+     {
         "name": "Hoằng Tiến",
         "type": "xa",
         "slug": "hoang-tien",
@@ -309,7 +309,7 @@
         "code": "15988",
         "parent_code": "399"
     },
-    "15991": {
+     {
         "name": "Hoằng Hải",
         "type": "xa",
         "slug": "hoang-hai",
@@ -319,7 +319,7 @@
         "code": "15991",
         "parent_code": "399"
     },
-    "15994": {
+     {
         "name": "Hoằng Ngọc",
         "type": "xa",
         "slug": "hoang-ngoc",
@@ -329,7 +329,7 @@
         "code": "15994",
         "parent_code": "399"
     },
-    "15997": {
+     {
         "name": "Hoằng Đông",
         "type": "xa",
         "slug": "hoang-dong",
@@ -339,7 +339,7 @@
         "code": "15997",
         "parent_code": "399"
     },
-    "16000": {
+     {
         "name": "Hoằng Thanh",
         "type": "xa",
         "slug": "hoang-thanh",
@@ -349,7 +349,7 @@
         "code": "16000",
         "parent_code": "399"
     },
-    "16003": {
+     {
         "name": "Hoằng Phụ",
         "type": "xa",
         "slug": "hoang-phu",
@@ -359,7 +359,7 @@
         "code": "16003",
         "parent_code": "399"
     },
-    "16006": {
+     {
         "name": "Hoằng Trường",
         "type": "xa",
         "slug": "hoang-truong",
@@ -369,4 +369,4 @@
         "code": "16006",
         "parent_code": "399"
     }
-}
+]}

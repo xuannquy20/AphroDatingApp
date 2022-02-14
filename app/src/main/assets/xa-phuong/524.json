@@ -1,5 +1,5 @@
 {
-    "21040": {
+    "xa":[ {
         "name": "Châu Ổ",
         "type": "thi-tran",
         "slug": "chau-o",
@@ -9,7 +9,7 @@
         "code": "21040",
         "parent_code": "524"
     },
-    "21043": {
+     {
         "name": "Bình Thuận",
         "type": "xa",
         "slug": "binh-thuan",
@@ -19,7 +19,7 @@
         "code": "21043",
         "parent_code": "524"
     },
-    "21046": {
+     {
         "name": "Bình Thạnh",
         "type": "xa",
         "slug": "binh-thanh",
@@ -29,7 +29,7 @@
         "code": "21046",
         "parent_code": "524"
     },
-    "21049": {
+     {
         "name": "Bình Đông",
         "type": "xa",
         "slug": "binh-dong",
@@ -39,7 +39,7 @@
         "code": "21049",
         "parent_code": "524"
     },
-    "21052": {
+     {
         "name": "Bình Chánh",
         "type": "xa",
         "slug": "binh-chanh",
@@ -49,7 +49,7 @@
         "code": "21052",
         "parent_code": "524"
     },
-    "21055": {
+     {
         "name": "Bình Nguyên",
         "type": "xa",
         "slug": "binh-nguyen",
@@ -59,7 +59,7 @@
         "code": "21055",
         "parent_code": "524"
     },
-    "21058": {
+     {
         "name": "Bình Khương",
         "type": "xa",
         "slug": "binh-khuong",
@@ -69,7 +69,7 @@
         "code": "21058",
         "parent_code": "524"
     },
-    "21061": {
+     {
         "name": "Bình Trị",
         "type": "xa",
         "slug": "binh-tri",
@@ -79,7 +79,7 @@
         "code": "21061",
         "parent_code": "524"
     },
-    "21064": {
+     {
         "name": "Bình An",
         "type": "xa",
         "slug": "binh-an",
@@ -89,7 +89,7 @@
         "code": "21064",
         "parent_code": "524"
     },
-    "21067": {
+     {
         "name": "Bình Hải",
         "type": "xa",
         "slug": "binh-hai",
@@ -99,7 +99,7 @@
         "code": "21067",
         "parent_code": "524"
     },
-    "21070": {
+     {
         "name": "Bình Dương",
         "type": "xa",
         "slug": "binh-duong",
@@ -109,7 +109,7 @@
         "code": "21070",
         "parent_code": "524"
     },
-    "21073": {
+     {
         "name": "Bình Phước",
         "type": "xa",
         "slug": "binh-phuoc",
@@ -119,7 +119,7 @@
         "code": "21073",
         "parent_code": "524"
     },
-    "21079": {
+     {
         "name": "Bình Hòa",
         "type": "xa",
         "slug": "binh-hoa",
@@ -129,7 +129,7 @@
         "code": "21079",
         "parent_code": "524"
     },
-    "21082": {
+     {
         "name": "Bình Trung",
         "type": "xa",
         "slug": "binh-trung",
@@ -139,7 +139,7 @@
         "code": "21082",
         "parent_code": "524"
     },
-    "21085": {
+     {
         "name": "Bình Minh",
         "type": "xa",
         "slug": "binh-minh",
@@ -149,7 +149,7 @@
         "code": "21085",
         "parent_code": "524"
     },
-    "21088": {
+     {
         "name": "Bình Long",
         "type": "xa",
         "slug": "binh-long",
@@ -159,7 +159,7 @@
         "code": "21088",
         "parent_code": "524"
     },
-    "21091": {
+     {
         "name": "Bình Thanh",
         "type": "xa",
         "slug": "binh-thanh",
@@ -169,7 +169,7 @@
         "code": "21091",
         "parent_code": "524"
     },
-    "21100": {
+     {
         "name": "Bình Chương",
         "type": "xa",
         "slug": "binh-chuong",
@@ -179,7 +179,7 @@
         "code": "21100",
         "parent_code": "524"
     },
-    "21103": {
+     {
         "name": "Bình Hiệp",
         "type": "xa",
         "slug": "binh-hiep",
@@ -189,7 +189,7 @@
         "code": "21103",
         "parent_code": "524"
     },
-    "21106": {
+     {
         "name": "Bình Mỹ",
         "type": "xa",
         "slug": "binh-my",
@@ -199,7 +199,7 @@
         "code": "21106",
         "parent_code": "524"
     },
-    "21109": {
+     {
         "name": "Bình Tân Phú",
         "type": "xa",
         "slug": "binh-tan-phu",
@@ -209,7 +209,7 @@
         "code": "21109",
         "parent_code": "524"
     },
-    "21112": {
+     {
         "name": "Bình Châu",
         "type": "xa",
         "slug": "binh-chau",
@@ -219,4 +219,4 @@
         "code": "21112",
         "parent_code": "524"
     }
-}
+]}

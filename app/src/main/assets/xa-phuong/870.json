@@ -1,5 +1,5 @@
 {
-    "29956": {
+    "xa":[ {
         "name": "Thường Phước 1",
         "type": "xa",
         "slug": "thuong-phuoc-1",
@@ -9,7 +9,7 @@
         "code": "29956",
         "parent_code": "870"
     },
-    "29962": {
+     {
         "name": "Thường Thới Hậu A",
         "type": "xa",
         "slug": "thuong-thoi-hau-a",
@@ -19,7 +19,7 @@
         "code": "29962",
         "parent_code": "870"
     },
-    "29971": {
+     {
         "name": "Thường Thới Tiền",
         "type": "thi-tran",
         "slug": "thuong-thoi-tien",
@@ -29,7 +29,7 @@
         "code": "29971",
         "parent_code": "870"
     },
-    "29974": {
+     {
         "name": "Thường Phước 2",
         "type": "xa",
         "slug": "thuong-phuoc-2",
@@ -39,7 +39,7 @@
         "code": "29974",
         "parent_code": "870"
     },
-    "29977": {
+     {
         "name": "Thường Lạc",
         "type": "xa",
         "slug": "thuong-lac",
@@ -49,7 +49,7 @@
         "code": "29977",
         "parent_code": "870"
     },
-    "29980": {
+     {
         "name": "Long Khánh A",
         "type": "xa",
         "slug": "long-khanh-a",
@@ -59,7 +59,7 @@
         "code": "29980",
         "parent_code": "870"
     },
-    "29983": {
+     {
         "name": "Long Khánh B",
         "type": "xa",
         "slug": "long-khanh-b",
@@ -69,7 +69,7 @@
         "code": "29983",
         "parent_code": "870"
     },
-    "29992": {
+     {
         "name": "Long Thuận",
         "type": "xa",
         "slug": "long-thuan",
@@ -79,7 +79,7 @@
         "code": "29992",
         "parent_code": "870"
     },
-    "29995": {
+     {
         "name": "Phú Thuận B",
         "type": "xa",
         "slug": "phu-thuan-b",
@@ -89,7 +89,7 @@
         "code": "29995",
         "parent_code": "870"
     },
-    "29998": {
+     {
         "name": "Phú Thuận A",
         "type": "xa",
         "slug": "phu-thuan-a",
@@ -99,4 +99,4 @@
         "code": "29998",
         "parent_code": "870"
     }
-}
+]}

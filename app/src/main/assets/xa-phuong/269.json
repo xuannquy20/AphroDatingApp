@@ -1,5 +1,5 @@
 {
-    "09574": {
+    "xa":[ {
         "name": "Lê Lợi",
         "type": "phuong",
         "slug": "le-loi",
@@ -9,7 +9,7 @@
         "code": "09574",
         "parent_code": "269"
     },
-    "09577": {
+     {
         "name": "Phú Thịnh",
         "type": "phuong",
         "slug": "phu-thinh",
@@ -19,7 +19,7 @@
         "code": "09577",
         "parent_code": "269"
     },
-    "09580": {
+     {
         "name": "Ngô Quyền",
         "type": "phuong",
         "slug": "ngo-quyen",
@@ -29,7 +29,7 @@
         "code": "09580",
         "parent_code": "269"
     },
-    "09583": {
+     {
         "name": "Quang Trung",
         "type": "phuong",
         "slug": "quang-trung",
@@ -39,7 +39,7 @@
         "code": "09583",
         "parent_code": "269"
     },
-    "09586": {
+     {
         "name": "Sơn Lộc",
         "type": "phuong",
         "slug": "son-loc",
@@ -49,7 +49,7 @@
         "code": "09586",
         "parent_code": "269"
     },
-    "09589": {
+     {
         "name": "Xuân Khanh",
         "type": "phuong",
         "slug": "xuan-khanh",
@@ -59,7 +59,7 @@
         "code": "09589",
         "parent_code": "269"
     },
-    "09592": {
+     {
         "name": "Đường Lâm",
         "type": "xa",
         "slug": "duong-lam",
@@ -69,7 +69,7 @@
         "code": "09592",
         "parent_code": "269"
     },
-    "09595": {
+     {
         "name": "Viên Sơn",
         "type": "phuong",
         "slug": "vien-son",
@@ -79,7 +79,7 @@
         "code": "09595",
         "parent_code": "269"
     },
-    "09598": {
+     {
         "name": "Xuân Sơn",
         "type": "xa",
         "slug": "xuan-son",
@@ -89,7 +89,7 @@
         "code": "09598",
         "parent_code": "269"
     },
-    "09601": {
+     {
         "name": "Trung Hưng",
         "type": "phuong",
         "slug": "trung-hung",
@@ -99,7 +99,7 @@
         "code": "09601",
         "parent_code": "269"
     },
-    "09604": {
+     {
         "name": "Thanh Mỹ",
         "type": "xa",
         "slug": "thanh-my",
@@ -109,7 +109,7 @@
         "code": "09604",
         "parent_code": "269"
     },
-    "09607": {
+     {
         "name": "Trung Sơn Trầm",
         "type": "phuong",
         "slug": "trung-son-tram",
@@ -119,7 +119,7 @@
         "code": "09607",
         "parent_code": "269"
     },
-    "09610": {
+     {
         "name": "Kim Sơn",
         "type": "xa",
         "slug": "kim-son",
@@ -129,7 +129,7 @@
         "code": "09610",
         "parent_code": "269"
     },
-    "09613": {
+     {
         "name": "Sơn Đông",
         "type": "xa",
         "slug": "son-dong",
@@ -139,7 +139,7 @@
         "code": "09613",
         "parent_code": "269"
     },
-    "09616": {
+     {
         "name": "Cổ Đông",
         "type": "xa",
         "slug": "co-dong",
@@ -149,4 +149,4 @@
         "code": "09616",
         "parent_code": "269"
     }
-}
+]}

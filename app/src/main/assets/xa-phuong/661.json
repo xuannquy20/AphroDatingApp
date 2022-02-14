@@ -1,5 +1,5 @@
 {
-    "24616": {
+    "xa":[ {
         "name": "Quảng Sơn",
         "type": "xa",
         "slug": "quang-son",
@@ -9,7 +9,7 @@
         "code": "24616",
         "parent_code": "661"
     },
-    "24620": {
+     {
         "name": "Quảng Hoà",
         "type": "xa",
         "slug": "quang-hoa",
@@ -19,7 +19,7 @@
         "code": "24620",
         "parent_code": "661"
     },
-    "24622": {
+     {
         "name": "Đắk Ha",
         "type": "xa",
         "slug": "dak-ha",
@@ -29,7 +29,7 @@
         "code": "24622",
         "parent_code": "661"
     },
-    "24625": {
+     {
         "name": "Đắk R'Măng",
         "type": "xa",
         "slug": "dak-r-mang",
@@ -39,7 +39,7 @@
         "code": "24625",
         "parent_code": "661"
     },
-    "24631": {
+     {
         "name": "Quảng Khê",
         "type": "xa",
         "slug": "quang-khe",
@@ -49,7 +49,7 @@
         "code": "24631",
         "parent_code": "661"
     },
-    "24634": {
+     {
         "name": "Đắk Plao",
         "type": "xa",
         "slug": "dak-plao",
@@ -59,7 +59,7 @@
         "code": "24634",
         "parent_code": "661"
     },
-    "24637": {
+     {
         "name": "Đắk Som",
         "type": "xa",
         "slug": "dak-som",
@@ -69,4 +69,4 @@
         "code": "24637",
         "parent_code": "661"
     }
-}
+]}

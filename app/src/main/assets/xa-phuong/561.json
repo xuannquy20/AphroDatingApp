@@ -1,5 +1,5 @@
 {
-    "22207": {
+    "xa":[ {
         "name": "Hai Riêng",
         "type": "thi-tran",
         "slug": "hai-rieng",
@@ -9,7 +9,7 @@
         "code": "22207",
         "parent_code": "561"
     },
-    "22210": {
+     {
         "name": "Ea Lâm",
         "type": "xa",
         "slug": "ea-lam",
@@ -19,7 +19,7 @@
         "code": "22210",
         "parent_code": "561"
     },
-    "22213": {
+     {
         "name": "Đức Bình Tây",
         "type": "xa",
         "slug": "duc-binh-tay",
@@ -29,7 +29,7 @@
         "code": "22213",
         "parent_code": "561"
     },
-    "22216": {
+     {
         "name": "Ea Bá",
         "type": "xa",
         "slug": "ea-ba",
@@ -39,7 +39,7 @@
         "code": "22216",
         "parent_code": "561"
     },
-    "22219": {
+     {
         "name": "Sơn Giang",
         "type": "xa",
         "slug": "son-giang",
@@ -49,7 +49,7 @@
         "code": "22219",
         "parent_code": "561"
     },
-    "22222": {
+     {
         "name": "Đức Bình Đông",
         "type": "xa",
         "slug": "duc-binh-dong",
@@ -59,7 +59,7 @@
         "code": "22222",
         "parent_code": "561"
     },
-    "22225": {
+     {
         "name": "EaBar",
         "type": "xa",
         "slug": "eabar",
@@ -69,7 +69,7 @@
         "code": "22225",
         "parent_code": "561"
     },
-    "22228": {
+     {
         "name": "EaBia",
         "type": "xa",
         "slug": "eabia",
@@ -79,7 +79,7 @@
         "code": "22228",
         "parent_code": "561"
     },
-    "22231": {
+     {
         "name": "EaTrol",
         "type": "xa",
         "slug": "eatrol",
@@ -89,7 +89,7 @@
         "code": "22231",
         "parent_code": "561"
     },
-    "22234": {
+     {
         "name": "Sông Hinh",
         "type": "xa",
         "slug": "song-hinh",
@@ -99,7 +99,7 @@
         "code": "22234",
         "parent_code": "561"
     },
-    "22237": {
+     {
         "name": "Ealy",
         "type": "xa",
         "slug": "ealy",
@@ -109,4 +109,4 @@
         "code": "22237",
         "parent_code": "561"
     }
-}
+]}

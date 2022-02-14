@@ -1,5 +1,5 @@
 {
-    "23527": {
+    "xa":[ {
         "name": "Sa Thầy",
         "type": "thi-tran",
         "slug": "sa-thay",
@@ -9,7 +9,7 @@
         "code": "23527",
         "parent_code": "616"
     },
-    "23530": {
+     {
         "name": "Rơ Kơi",
         "type": "xa",
         "slug": "ro-koi",
@@ -19,7 +19,7 @@
         "code": "23530",
         "parent_code": "616"
     },
-    "23533": {
+     {
         "name": "Sa Nhơn",
         "type": "xa",
         "slug": "sa-nhon",
@@ -29,7 +29,7 @@
         "code": "23533",
         "parent_code": "616"
     },
-    "23534": {
+     {
         "name": "Hơ Moong",
         "type": "xa",
         "slug": "ho-moong",
@@ -39,7 +39,7 @@
         "code": "23534",
         "parent_code": "616"
     },
-    "23536": {
+     {
         "name": "Mô Rai",
         "type": "xa",
         "slug": "mo-rai",
@@ -49,7 +49,7 @@
         "code": "23536",
         "parent_code": "616"
     },
-    "23539": {
+     {
         "name": "Sa Sơn",
         "type": "xa",
         "slug": "sa-son",
@@ -59,7 +59,7 @@
         "code": "23539",
         "parent_code": "616"
     },
-    "23542": {
+     {
         "name": "Sa Nghĩa",
         "type": "xa",
         "slug": "sa-nghia",
@@ -69,7 +69,7 @@
         "code": "23542",
         "parent_code": "616"
     },
-    "23545": {
+     {
         "name": "Sa Bình",
         "type": "xa",
         "slug": "sa-binh",
@@ -79,7 +79,7 @@
         "code": "23545",
         "parent_code": "616"
     },
-    "23548": {
+     {
         "name": "Ya Xiêr",
         "type": "xa",
         "slug": "ya-xier",
@@ -89,7 +89,7 @@
         "code": "23548",
         "parent_code": "616"
     },
-    "23551": {
+     {
         "name": "Ya Tăng",
         "type": "xa",
         "slug": "ya-tang",
@@ -99,7 +99,7 @@
         "code": "23551",
         "parent_code": "616"
     },
-    "23554": {
+     {
         "name": "Ya ly",
         "type": "xa",
         "slug": "ya-ly",
@@ -109,4 +109,4 @@
         "code": "23554",
         "parent_code": "616"
     }
-}
+]}

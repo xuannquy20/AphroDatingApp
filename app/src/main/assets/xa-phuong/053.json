@@ -1,5 +1,5 @@
 {
-    "01786": {
+    "xa":[ {
         "name": "Đông Khê",
         "type": "thi-tran",
         "slug": "dong-khe",
@@ -9,7 +9,7 @@
         "code": "01786",
         "parent_code": "053"
     },
-    "01789": {
+     {
         "name": "Canh Tân",
         "type": "xa",
         "slug": "canh-tan",
@@ -19,7 +19,7 @@
         "code": "01789",
         "parent_code": "053"
     },
-    "01792": {
+     {
         "name": "Kim Đồng",
         "type": "xa",
         "slug": "kim-dong",
@@ -29,7 +29,7 @@
         "code": "01792",
         "parent_code": "053"
     },
-    "01795": {
+     {
         "name": "Minh Khai",
         "type": "xa",
         "slug": "minh-khai",
@@ -39,7 +39,7 @@
         "code": "01795",
         "parent_code": "053"
     },
-    "01801": {
+     {
         "name": "Đức Thông",
         "type": "xa",
         "slug": "duc-thong",
@@ -49,7 +49,7 @@
         "code": "01801",
         "parent_code": "053"
     },
-    "01804": {
+     {
         "name": "Thái Cường",
         "type": "xa",
         "slug": "thai-cuong",
@@ -59,7 +59,7 @@
         "code": "01804",
         "parent_code": "053"
     },
-    "01807": {
+     {
         "name": "Vân Trình",
         "type": "xa",
         "slug": "van-trinh",
@@ -69,7 +69,7 @@
         "code": "01807",
         "parent_code": "053"
     },
-    "01810": {
+     {
         "name": "Thụy Hùng",
         "type": "xa",
         "slug": "thuy-hung",
@@ -79,7 +79,7 @@
         "code": "01810",
         "parent_code": "053"
     },
-    "01813": {
+     {
         "name": "Quang Trọng",
         "type": "xa",
         "slug": "quang-trong",
@@ -89,7 +89,7 @@
         "code": "01813",
         "parent_code": "053"
     },
-    "01816": {
+     {
         "name": "Trọng Con",
         "type": "xa",
         "slug": "trong-con",
@@ -99,7 +99,7 @@
         "code": "01816",
         "parent_code": "053"
     },
-    "01819": {
+     {
         "name": "Lê Lai",
         "type": "xa",
         "slug": "le-lai",
@@ -109,7 +109,7 @@
         "code": "01819",
         "parent_code": "053"
     },
-    "01822": {
+     {
         "name": "Đức Long",
         "type": "xa",
         "slug": "duc-long",
@@ -119,7 +119,7 @@
         "code": "01822",
         "parent_code": "053"
     },
-    "01828": {
+     {
         "name": "Lê Lợi",
         "type": "xa",
         "slug": "le-loi",
@@ -129,7 +129,7 @@
         "code": "01828",
         "parent_code": "053"
     },
-    "01831": {
+     {
         "name": "Đức Xuân",
         "type": "xa",
         "slug": "duc-xuan",
@@ -139,4 +139,4 @@
         "code": "01831",
         "parent_code": "053"
     }
-}
+]}

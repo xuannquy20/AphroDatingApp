@@ -1,5 +1,5 @@
 {
-    "21364": {
+    "xa":[ {
         "name": "Chợ Chùa",
         "type": "thi-tran",
         "slug": "cho-chua",
@@ -9,7 +9,7 @@
         "code": "21364",
         "parent_code": "532"
     },
-    "21367": {
+     {
         "name": "Hành Thuận",
         "type": "xa",
         "slug": "hanh-thuan",
@@ -19,7 +19,7 @@
         "code": "21367",
         "parent_code": "532"
     },
-    "21370": {
+     {
         "name": "Hành Dũng",
         "type": "xa",
         "slug": "hanh-dung",
@@ -29,7 +29,7 @@
         "code": "21370",
         "parent_code": "532"
     },
-    "21373": {
+     {
         "name": "Hành Trung",
         "type": "xa",
         "slug": "hanh-trung",
@@ -39,7 +39,7 @@
         "code": "21373",
         "parent_code": "532"
     },
-    "21376": {
+     {
         "name": "Hành Nhân",
         "type": "xa",
         "slug": "hanh-nhan",
@@ -49,7 +49,7 @@
         "code": "21376",
         "parent_code": "532"
     },
-    "21379": {
+     {
         "name": "Hành Đức",
         "type": "xa",
         "slug": "hanh-duc",
@@ -59,7 +59,7 @@
         "code": "21379",
         "parent_code": "532"
     },
-    "21382": {
+     {
         "name": "Hành Minh",
         "type": "xa",
         "slug": "hanh-minh",
@@ -69,7 +69,7 @@
         "code": "21382",
         "parent_code": "532"
     },
-    "21385": {
+     {
         "name": "Hành Phước",
         "type": "xa",
         "slug": "hanh-phuoc",
@@ -79,7 +79,7 @@
         "code": "21385",
         "parent_code": "532"
     },
-    "21388": {
+     {
         "name": "Hành Thiện",
         "type": "xa",
         "slug": "hanh-thien",
@@ -89,7 +89,7 @@
         "code": "21388",
         "parent_code": "532"
     },
-    "21391": {
+     {
         "name": "Hành Thịnh",
         "type": "xa",
         "slug": "hanh-thinh",
@@ -99,7 +99,7 @@
         "code": "21391",
         "parent_code": "532"
     },
-    "21394": {
+     {
         "name": "Hành Tín Tây",
         "type": "xa",
         "slug": "hanh-tin-tay",
@@ -109,7 +109,7 @@
         "code": "21394",
         "parent_code": "532"
     },
-    "21397": {
+     {
         "name": "Hành Tín  Đông",
         "type": "xa",
         "slug": "hanh-tin-dong",
@@ -119,4 +119,4 @@
         "code": "21397",
         "parent_code": "532"
     }
-}
+]}

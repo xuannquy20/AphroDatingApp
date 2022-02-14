@@ -1,5 +1,5 @@
 {
-    "24846": {
+    "xa":[ {
         "name": "Lạc Dương",
         "type": "thi-tran",
         "slug": "lac-duong",
@@ -9,7 +9,7 @@
         "code": "24846",
         "parent_code": "675"
     },
-    "24847": {
+     {
         "name": "Đạ Chais",
         "type": "xa",
         "slug": "da-chais",
@@ -19,7 +19,7 @@
         "code": "24847",
         "parent_code": "675"
     },
-    "24848": {
+     {
         "name": "Đạ Nhim",
         "type": "xa",
         "slug": "da-nhim",
@@ -29,7 +29,7 @@
         "code": "24848",
         "parent_code": "675"
     },
-    "24850": {
+     {
         "name": "Đưng KNớ",
         "type": "xa",
         "slug": "dung-kno",
@@ -39,7 +39,7 @@
         "code": "24850",
         "parent_code": "675"
     },
-    "24862": {
+     {
         "name": "Lát",
         "type": "xa",
         "slug": "lat",
@@ -49,7 +49,7 @@
         "code": "24862",
         "parent_code": "675"
     },
-    "24865": {
+     {
         "name": "Đạ Sar",
         "type": "xa",
         "slug": "da-sar",
@@ -59,4 +59,4 @@
         "code": "24865",
         "parent_code": "675"
     }
-}
+]}

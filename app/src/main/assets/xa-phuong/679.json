@@ -1,5 +1,5 @@
 {
-    "25000": {
+    "xa":[ {
         "name": "Di Linh",
         "type": "thi-tran",
         "slug": "di-linh",
@@ -9,7 +9,7 @@
         "code": "25000",
         "parent_code": "679"
     },
-    "25003": {
+     {
         "name": "Đinh Trang Thượng",
         "type": "xa",
         "slug": "dinh-trang-thuong",
@@ -19,7 +19,7 @@
         "code": "25003",
         "parent_code": "679"
     },
-    "25006": {
+     {
         "name": "Tân Thượng",
         "type": "xa",
         "slug": "tan-thuong",
@@ -29,7 +29,7 @@
         "code": "25006",
         "parent_code": "679"
     },
-    "25007": {
+     {
         "name": "Tân Lâm",
         "type": "xa",
         "slug": "tan-lam",
@@ -39,7 +39,7 @@
         "code": "25007",
         "parent_code": "679"
     },
-    "25009": {
+     {
         "name": "Tân Châu",
         "type": "xa",
         "slug": "tan-chau",
@@ -49,7 +49,7 @@
         "code": "25009",
         "parent_code": "679"
     },
-    "25012": {
+     {
         "name": "Tân Nghĩa",
         "type": "xa",
         "slug": "tan-nghia",
@@ -59,7 +59,7 @@
         "code": "25012",
         "parent_code": "679"
     },
-    "25015": {
+     {
         "name": "Gia Hiệp",
         "type": "xa",
         "slug": "gia-hiep",
@@ -69,7 +69,7 @@
         "code": "25015",
         "parent_code": "679"
     },
-    "25018": {
+     {
         "name": "Đinh Lạc",
         "type": "xa",
         "slug": "dinh-lac",
@@ -79,7 +79,7 @@
         "code": "25018",
         "parent_code": "679"
     },
-    "25021": {
+     {
         "name": "Tam Bố",
         "type": "xa",
         "slug": "tam-bo",
@@ -89,7 +89,7 @@
         "code": "25021",
         "parent_code": "679"
     },
-    "25024": {
+     {
         "name": "Đinh Trang Hòa",
         "type": "xa",
         "slug": "dinh-trang-hoa",
@@ -99,7 +99,7 @@
         "code": "25024",
         "parent_code": "679"
     },
-    "25027": {
+     {
         "name": "Liên Đầm",
         "type": "xa",
         "slug": "lien-dam",
@@ -109,7 +109,7 @@
         "code": "25027",
         "parent_code": "679"
     },
-    "25030": {
+     {
         "name": "Gung Ré",
         "type": "xa",
         "slug": "gung-re",
@@ -119,7 +119,7 @@
         "code": "25030",
         "parent_code": "679"
     },
-    "25033": {
+     {
         "name": "Bảo Thuận",
         "type": "xa",
         "slug": "bao-thuan",
@@ -129,7 +129,7 @@
         "code": "25033",
         "parent_code": "679"
     },
-    "25036": {
+     {
         "name": "Hòa Ninh",
         "type": "xa",
         "slug": "hoa-ninh",
@@ -139,7 +139,7 @@
         "code": "25036",
         "parent_code": "679"
     },
-    "25039": {
+     {
         "name": "Hòa Trung",
         "type": "xa",
         "slug": "hoa-trung",
@@ -149,7 +149,7 @@
         "code": "25039",
         "parent_code": "679"
     },
-    "25042": {
+     {
         "name": "Hòa Nam",
         "type": "xa",
         "slug": "hoa-nam",
@@ -159,7 +159,7 @@
         "code": "25042",
         "parent_code": "679"
     },
-    "25045": {
+     {
         "name": "Hòa Bắc",
         "type": "xa",
         "slug": "hoa-bac",
@@ -169,7 +169,7 @@
         "code": "25045",
         "parent_code": "679"
     },
-    "25048": {
+     {
         "name": "Sơn Điền",
         "type": "xa",
         "slug": "son-dien",
@@ -179,7 +179,7 @@
         "code": "25048",
         "parent_code": "679"
     },
-    "25051": {
+     {
         "name": "Gia Bắc",
         "type": "xa",
         "slug": "gia-bac",
@@ -189,4 +189,4 @@
         "code": "25051",
         "parent_code": "679"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "11950": {
+    "xa":[ {
         "name": "Lam Sơn",
         "type": "phuong",
         "slug": "lam-son",
@@ -9,7 +9,7 @@
         "code": "11950",
         "parent_code": "323"
     },
-    "11953": {
+     {
         "name": "Hiến Nam",
         "type": "phuong",
         "slug": "hien-nam",
@@ -19,7 +19,7 @@
         "code": "11953",
         "parent_code": "323"
     },
-    "11956": {
+     {
         "name": "An Tảo",
         "type": "phuong",
         "slug": "an-tao",
@@ -29,7 +29,7 @@
         "code": "11956",
         "parent_code": "323"
     },
-    "11959": {
+     {
         "name": "Lê Lợi",
         "type": "phuong",
         "slug": "le-loi",
@@ -39,7 +39,7 @@
         "code": "11959",
         "parent_code": "323"
     },
-    "11962": {
+     {
         "name": "Minh Khai",
         "type": "phuong",
         "slug": "minh-khai",
@@ -49,7 +49,7 @@
         "code": "11962",
         "parent_code": "323"
     },
-    "11965": {
+     {
         "name": "Quang Trung",
         "type": "phuong",
         "slug": "quang-trung",
@@ -59,7 +59,7 @@
         "code": "11965",
         "parent_code": "323"
     },
-    "11968": {
+     {
         "name": "Hồng Châu",
         "type": "phuong",
         "slug": "hong-chau",
@@ -69,7 +69,7 @@
         "code": "11968",
         "parent_code": "323"
     },
-    "11971": {
+     {
         "name": "Trung Nghĩa",
         "type": "xa",
         "slug": "trung-nghia",
@@ -79,7 +79,7 @@
         "code": "11971",
         "parent_code": "323"
     },
-    "11974": {
+     {
         "name": "Liên Phương",
         "type": "xa",
         "slug": "lien-phuong",
@@ -89,7 +89,7 @@
         "code": "11974",
         "parent_code": "323"
     },
-    "11977": {
+     {
         "name": "Hồng Nam",
         "type": "xa",
         "slug": "hong-nam",
@@ -99,7 +99,7 @@
         "code": "11977",
         "parent_code": "323"
     },
-    "11980": {
+     {
         "name": "Quảng Châu",
         "type": "xa",
         "slug": "quang-chau",
@@ -109,7 +109,7 @@
         "code": "11980",
         "parent_code": "323"
     },
-    "11983": {
+     {
         "name": "Bảo Khê",
         "type": "xa",
         "slug": "bao-khe",
@@ -119,7 +119,7 @@
         "code": "11983",
         "parent_code": "323"
     },
-    "12331": {
+     {
         "name": "Phú Cường",
         "type": "xa",
         "slug": "phu-cuong",
@@ -129,7 +129,7 @@
         "code": "12331",
         "parent_code": "323"
     },
-    "12334": {
+     {
         "name": "Hùng Cường",
         "type": "xa",
         "slug": "hung-cuong",
@@ -139,7 +139,7 @@
         "code": "12334",
         "parent_code": "323"
     },
-    "12382": {
+     {
         "name": "Phương Chiểu",
         "type": "xa",
         "slug": "phuong-chieu",
@@ -149,7 +149,7 @@
         "code": "12382",
         "parent_code": "323"
     },
-    "12385": {
+     {
         "name": "Tân Hưng",
         "type": "xa",
         "slug": "tan-hung",
@@ -159,7 +159,7 @@
         "code": "12385",
         "parent_code": "323"
     },
-    "12388": {
+     {
         "name": "Hoàng Hanh",
         "type": "xa",
         "slug": "hoang-hanh",
@@ -169,4 +169,4 @@
         "code": "12388",
         "parent_code": "323"
     }
-}
+]}

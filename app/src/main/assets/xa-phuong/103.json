@@ -1,5 +1,5 @@
 {
-    "03156": {
+    "xa":[ {
         "name": "Nậm Tin",
         "type": "xa",
         "slug": "nam-tin",
@@ -9,7 +9,7 @@
         "code": "03156",
         "parent_code": "103"
     },
-    "03165": {
+     {
         "name": "Pa Tần",
         "type": "xa",
         "slug": "pa-tan",
@@ -19,7 +19,7 @@
         "code": "03165",
         "parent_code": "103"
     },
-    "03166": {
+     {
         "name": "Chà Cang",
         "type": "xa",
         "slug": "cha-cang",
@@ -29,7 +29,7 @@
         "code": "03166",
         "parent_code": "103"
     },
-    "03167": {
+     {
         "name": "Na Cô Sa",
         "type": "xa",
         "slug": "na-co-sa",
@@ -39,7 +39,7 @@
         "code": "03167",
         "parent_code": "103"
     },
-    "03168": {
+     {
         "name": "Nà Khoa",
         "type": "xa",
         "slug": "na-khoa",
@@ -49,7 +49,7 @@
         "code": "03168",
         "parent_code": "103"
     },
-    "03169": {
+     {
         "name": "Nà Hỳ",
         "type": "xa",
         "slug": "na-hy",
@@ -59,7 +59,7 @@
         "code": "03169",
         "parent_code": "103"
     },
-    "03170": {
+     {
         "name": "Nà Bủng",
         "type": "xa",
         "slug": "na-bung",
@@ -69,7 +69,7 @@
         "code": "03170",
         "parent_code": "103"
     },
-    "03171": {
+     {
         "name": "Nậm Nhừ",
         "type": "xa",
         "slug": "nam-nhu",
@@ -79,7 +79,7 @@
         "code": "03171",
         "parent_code": "103"
     },
-    "03173": {
+     {
         "name": "Nậm Chua",
         "type": "xa",
         "slug": "nam-chua",
@@ -89,7 +89,7 @@
         "code": "03173",
         "parent_code": "103"
     },
-    "03174": {
+     {
         "name": "Nậm Khăn",
         "type": "xa",
         "slug": "nam-khan",
@@ -99,7 +99,7 @@
         "code": "03174",
         "parent_code": "103"
     },
-    "03175": {
+     {
         "name": "Chà Tở",
         "type": "xa",
         "slug": "cha-to",
@@ -109,7 +109,7 @@
         "code": "03175",
         "parent_code": "103"
     },
-    "03176": {
+     {
         "name": "Vàng Đán",
         "type": "xa",
         "slug": "vang-dan",
@@ -119,7 +119,7 @@
         "code": "03176",
         "parent_code": "103"
     },
-    "03187": {
+     {
         "name": "Chà Nưa",
         "type": "xa",
         "slug": "cha-nua",
@@ -129,7 +129,7 @@
         "code": "03187",
         "parent_code": "103"
     },
-    "03198": {
+     {
         "name": "Phìn Hồ",
         "type": "xa",
         "slug": "phin-ho",
@@ -139,7 +139,7 @@
         "code": "03198",
         "parent_code": "103"
     },
-    "03199": {
+     {
         "name": "Si Pa Phìn",
         "type": "xa",
         "slug": "si-pa-phin",
@@ -149,4 +149,4 @@
         "code": "03199",
         "parent_code": "103"
     }
-}
+]}

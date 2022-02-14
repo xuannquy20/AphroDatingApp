@@ -1,5 +1,5 @@
 {
-    "08230": {
+    "xa":[ {
         "name": "Phong Châu",
         "type": "thi-tran",
         "slug": "phong-chau",
@@ -9,7 +9,7 @@
         "code": "08230",
         "parent_code": "233"
     },
-    "08233": {
+     {
         "name": "Phú Mỹ",
         "type": "xa",
         "slug": "phu-my",
@@ -19,7 +19,7 @@
         "code": "08233",
         "parent_code": "233"
     },
-    "08234": {
+     {
         "name": "Lệ Mỹ",
         "type": "xa",
         "slug": "le-my",
@@ -29,7 +29,7 @@
         "code": "08234",
         "parent_code": "233"
     },
-    "08236": {
+     {
         "name": "Liên Hoa",
         "type": "xa",
         "slug": "lien-hoa",
@@ -39,7 +39,7 @@
         "code": "08236",
         "parent_code": "233"
     },
-    "08239": {
+     {
         "name": "Trạm Thản",
         "type": "xa",
         "slug": "tram-than",
@@ -49,7 +49,7 @@
         "code": "08239",
         "parent_code": "233"
     },
-    "08242": {
+     {
         "name": "Trị Quận",
         "type": "xa",
         "slug": "tri-quan",
@@ -59,7 +59,7 @@
         "code": "08242",
         "parent_code": "233"
     },
-    "08245": {
+     {
         "name": "Trung Giáp",
         "type": "xa",
         "slug": "trung-giap",
@@ -69,7 +69,7 @@
         "code": "08245",
         "parent_code": "233"
     },
-    "08248": {
+     {
         "name": "Tiên Phú",
         "type": "xa",
         "slug": "tien-phu",
@@ -79,7 +79,7 @@
         "code": "08248",
         "parent_code": "233"
     },
-    "08251": {
+     {
         "name": "Hạ Giáp",
         "type": "xa",
         "slug": "ha-giap",
@@ -89,7 +89,7 @@
         "code": "08251",
         "parent_code": "233"
     },
-    "08254": {
+     {
         "name": "Bảo Thanh",
         "type": "xa",
         "slug": "bao-thanh",
@@ -99,7 +99,7 @@
         "code": "08254",
         "parent_code": "233"
     },
-    "08257": {
+     {
         "name": "Phú Lộc",
         "type": "xa",
         "slug": "phu-loc",
@@ -109,7 +109,7 @@
         "code": "08257",
         "parent_code": "233"
     },
-    "08260": {
+     {
         "name": "Gia Thanh",
         "type": "xa",
         "slug": "gia-thanh",
@@ -119,7 +119,7 @@
         "code": "08260",
         "parent_code": "233"
     },
-    "08263": {
+     {
         "name": "Tiên Du",
         "type": "xa",
         "slug": "tien-du",
@@ -129,7 +129,7 @@
         "code": "08263",
         "parent_code": "233"
     },
-    "08266": {
+     {
         "name": "Phú Nham",
         "type": "xa",
         "slug": "phu-nham",
@@ -139,7 +139,7 @@
         "code": "08266",
         "parent_code": "233"
     },
-    "08272": {
+     {
         "name": "An Đạo",
         "type": "xa",
         "slug": "an-dao",
@@ -149,7 +149,7 @@
         "code": "08272",
         "parent_code": "233"
     },
-    "08275": {
+     {
         "name": "Bình Phú",
         "type": "xa",
         "slug": "binh-phu",
@@ -159,7 +159,7 @@
         "code": "08275",
         "parent_code": "233"
     },
-    "08278": {
+     {
         "name": "Phù Ninh",
         "type": "xa",
         "slug": "phu-ninh",
@@ -169,4 +169,4 @@
         "code": "08278",
         "parent_code": "233"
     }
-}
+]}

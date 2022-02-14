@@ -1,5 +1,5 @@
 {
-    "13321": {
+    "xa":[ {
         "name": "Đồng Văn",
         "type": "phuong",
         "slug": "dong-van",
@@ -9,7 +9,7 @@
         "code": "13321",
         "parent_code": "349"
     },
-    "13324": {
+     {
         "name": "Hòa Mạc",
         "type": "phuong",
         "slug": "hoa-mac",
@@ -19,7 +19,7 @@
         "code": "13324",
         "parent_code": "349"
     },
-    "13327": {
+     {
         "name": "Mộc Bắc",
         "type": "xa",
         "slug": "moc-bac",
@@ -29,7 +29,7 @@
         "code": "13327",
         "parent_code": "349"
     },
-    "13330": {
+     {
         "name": "Châu Giang",
         "type": "phuong",
         "slug": "chau-giang",
@@ -39,7 +39,7 @@
         "code": "13330",
         "parent_code": "349"
     },
-    "13333": {
+     {
         "name": "Bạch Thượng",
         "type": "phuong",
         "slug": "bach-thuong",
@@ -49,7 +49,7 @@
         "code": "13333",
         "parent_code": "349"
     },
-    "13336": {
+     {
         "name": "Duy Minh",
         "type": "phuong",
         "slug": "duy-minh",
@@ -59,7 +59,7 @@
         "code": "13336",
         "parent_code": "349"
     },
-    "13339": {
+     {
         "name": "Mộc Nam",
         "type": "xa",
         "slug": "moc-nam",
@@ -69,7 +69,7 @@
         "code": "13339",
         "parent_code": "349"
     },
-    "13342": {
+     {
         "name": "Duy Hải",
         "type": "phuong",
         "slug": "duy-hai",
@@ -79,7 +79,7 @@
         "code": "13342",
         "parent_code": "349"
     },
-    "13345": {
+     {
         "name": "Chuyên Ngoại",
         "type": "xa",
         "slug": "chuyen-ngoai",
@@ -89,7 +89,7 @@
         "code": "13345",
         "parent_code": "349"
     },
-    "13348": {
+     {
         "name": "Yên Bắc",
         "type": "phuong",
         "slug": "yen-bac",
@@ -99,7 +99,7 @@
         "code": "13348",
         "parent_code": "349"
     },
-    "13351": {
+     {
         "name": "Trác Văn",
         "type": "xa",
         "slug": "trac-van",
@@ -109,7 +109,7 @@
         "code": "13351",
         "parent_code": "349"
     },
-    "13354": {
+     {
         "name": "Tiên Nội",
         "type": "phuong",
         "slug": "tien-noi",
@@ -119,7 +119,7 @@
         "code": "13354",
         "parent_code": "349"
     },
-    "13357": {
+     {
         "name": "Hoàng Đông",
         "type": "phuong",
         "slug": "hoang-dong",
@@ -129,7 +129,7 @@
         "code": "13357",
         "parent_code": "349"
     },
-    "13360": {
+     {
         "name": "Yên Nam",
         "type": "xa",
         "slug": "yen-nam",
@@ -139,7 +139,7 @@
         "code": "13360",
         "parent_code": "349"
     },
-    "13363": {
+     {
         "name": "Tiên Ngoại",
         "type": "xa",
         "slug": "tien-ngoai",
@@ -149,7 +149,7 @@
         "code": "13363",
         "parent_code": "349"
     },
-    "13369": {
+     {
         "name": "Tiên Sơn",
         "type": "xa",
         "slug": "tien-son",
@@ -159,4 +159,4 @@
         "code": "13369",
         "parent_code": "349"
     }
-}
+]}

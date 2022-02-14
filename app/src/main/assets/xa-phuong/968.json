@@ -1,5 +1,5 @@
 {
-    "32095": {
+    "xa":[ {
         "name": "Trần Văn Thời",
         "type": "thi-tran",
         "slug": "tran-van-thoi",
@@ -9,7 +9,7 @@
         "code": "32095",
         "parent_code": "968"
     },
-    "32098": {
+     {
         "name": "Sông Đốc",
         "type": "thi-tran",
         "slug": "song-doc",
@@ -19,7 +19,7 @@
         "code": "32098",
         "parent_code": "968"
     },
-    "32101": {
+     {
         "name": "Khánh Bình Tây Bắc",
         "type": "xa",
         "slug": "khanh-binh-tay-bac",
@@ -29,7 +29,7 @@
         "code": "32101",
         "parent_code": "968"
     },
-    "32104": {
+     {
         "name": "Khánh Bình Tây",
         "type": "xa",
         "slug": "khanh-binh-tay",
@@ -39,7 +39,7 @@
         "code": "32104",
         "parent_code": "968"
     },
-    "32107": {
+     {
         "name": "Trần Hợi",
         "type": "xa",
         "slug": "tran-hoi",
@@ -49,7 +49,7 @@
         "code": "32107",
         "parent_code": "968"
     },
-    "32108": {
+     {
         "name": "Khánh Lộc",
         "type": "xa",
         "slug": "khanh-loc",
@@ -59,7 +59,7 @@
         "code": "32108",
         "parent_code": "968"
     },
-    "32110": {
+     {
         "name": "Khánh Bình",
         "type": "xa",
         "slug": "khanh-binh",
@@ -69,7 +69,7 @@
         "code": "32110",
         "parent_code": "968"
     },
-    "32113": {
+     {
         "name": "Khánh Hưng",
         "type": "xa",
         "slug": "khanh-hung",
@@ -79,7 +79,7 @@
         "code": "32113",
         "parent_code": "968"
     },
-    "32116": {
+     {
         "name": "Khánh Bình Đông",
         "type": "xa",
         "slug": "khanh-binh-dong",
@@ -89,7 +89,7 @@
         "code": "32116",
         "parent_code": "968"
     },
-    "32119": {
+     {
         "name": "Khánh Hải",
         "type": "xa",
         "slug": "khanh-hai",
@@ -99,7 +99,7 @@
         "code": "32119",
         "parent_code": "968"
     },
-    "32122": {
+     {
         "name": "Lợi An",
         "type": "xa",
         "slug": "loi-an",
@@ -109,7 +109,7 @@
         "code": "32122",
         "parent_code": "968"
     },
-    "32124": {
+     {
         "name": "Phong Điền",
         "type": "xa",
         "slug": "phong-dien",
@@ -119,7 +119,7 @@
         "code": "32124",
         "parent_code": "968"
     },
-    "32125": {
+     {
         "name": "Phong Lạc",
         "type": "xa",
         "slug": "phong-lac",
@@ -129,4 +129,4 @@
         "code": "32125",
         "parent_code": "968"
     }
-}
+]}

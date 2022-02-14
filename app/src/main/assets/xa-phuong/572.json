@@ -1,5 +1,5 @@
 {
-    "22528": {
+    "xa":[ {
         "name": "Ninh Hiệp",
         "type": "phuong",
         "slug": "ninh-hiep",
@@ -9,7 +9,7 @@
         "code": "22528",
         "parent_code": "572"
     },
-    "22531": {
+     {
         "name": "Ninh Sơn",
         "type": "xa",
         "slug": "ninh-son",
@@ -19,7 +19,7 @@
         "code": "22531",
         "parent_code": "572"
     },
-    "22534": {
+     {
         "name": "Ninh Tây",
         "type": "xa",
         "slug": "ninh-tay",
@@ -29,7 +29,7 @@
         "code": "22534",
         "parent_code": "572"
     },
-    "22537": {
+     {
         "name": "Ninh Thượng",
         "type": "xa",
         "slug": "ninh-thuong",
@@ -39,7 +39,7 @@
         "code": "22537",
         "parent_code": "572"
     },
-    "22540": {
+     {
         "name": "Ninh An",
         "type": "xa",
         "slug": "ninh-an",
@@ -49,7 +49,7 @@
         "code": "22540",
         "parent_code": "572"
     },
-    "22543": {
+     {
         "name": "Ninh Hải",
         "type": "phuong",
         "slug": "ninh-hai",
@@ -59,7 +59,7 @@
         "code": "22543",
         "parent_code": "572"
     },
-    "22546": {
+     {
         "name": "Ninh Thọ",
         "type": "xa",
         "slug": "ninh-tho",
@@ -69,7 +69,7 @@
         "code": "22546",
         "parent_code": "572"
     },
-    "22549": {
+     {
         "name": "Ninh Trung",
         "type": "xa",
         "slug": "ninh-trung",
@@ -79,7 +79,7 @@
         "code": "22549",
         "parent_code": "572"
     },
-    "22552": {
+     {
         "name": "Ninh Sim",
         "type": "xa",
         "slug": "ninh-sim",
@@ -89,7 +89,7 @@
         "code": "22552",
         "parent_code": "572"
     },
-    "22555": {
+     {
         "name": "Ninh Xuân",
         "type": "xa",
         "slug": "ninh-xuan",
@@ -99,7 +99,7 @@
         "code": "22555",
         "parent_code": "572"
     },
-    "22558": {
+     {
         "name": "Ninh Thân",
         "type": "xa",
         "slug": "ninh-than",
@@ -109,7 +109,7 @@
         "code": "22558",
         "parent_code": "572"
     },
-    "22561": {
+     {
         "name": "Ninh Diêm",
         "type": "phuong",
         "slug": "ninh-diem",
@@ -119,7 +119,7 @@
         "code": "22561",
         "parent_code": "572"
     },
-    "22564": {
+     {
         "name": "Ninh Đông",
         "type": "xa",
         "slug": "ninh-dong",
@@ -129,7 +129,7 @@
         "code": "22564",
         "parent_code": "572"
     },
-    "22567": {
+     {
         "name": "Ninh Thủy",
         "type": "phuong",
         "slug": "ninh-thuy",
@@ -139,7 +139,7 @@
         "code": "22567",
         "parent_code": "572"
     },
-    "22570": {
+     {
         "name": "Ninh Đa",
         "type": "phuong",
         "slug": "ninh-da",
@@ -149,7 +149,7 @@
         "code": "22570",
         "parent_code": "572"
     },
-    "22573": {
+     {
         "name": "Ninh Phụng",
         "type": "xa",
         "slug": "ninh-phung",
@@ -159,7 +159,7 @@
         "code": "22573",
         "parent_code": "572"
     },
-    "22576": {
+     {
         "name": "Ninh Bình",
         "type": "xa",
         "slug": "ninh-binh",
@@ -169,7 +169,7 @@
         "code": "22576",
         "parent_code": "572"
     },
-    "22579": {
+     {
         "name": "Ninh Phước",
         "type": "xa",
         "slug": "ninh-phuoc",
@@ -179,7 +179,7 @@
         "code": "22579",
         "parent_code": "572"
     },
-    "22582": {
+     {
         "name": "Ninh Phú",
         "type": "xa",
         "slug": "ninh-phu",
@@ -189,7 +189,7 @@
         "code": "22582",
         "parent_code": "572"
     },
-    "22585": {
+     {
         "name": "Ninh Tân",
         "type": "xa",
         "slug": "ninh-tan",
@@ -199,7 +199,7 @@
         "code": "22585",
         "parent_code": "572"
     },
-    "22588": {
+     {
         "name": "Ninh Quang",
         "type": "xa",
         "slug": "ninh-quang",
@@ -209,7 +209,7 @@
         "code": "22588",
         "parent_code": "572"
     },
-    "22591": {
+     {
         "name": "Ninh Giang",
         "type": "phuong",
         "slug": "ninh-giang",
@@ -219,7 +219,7 @@
         "code": "22591",
         "parent_code": "572"
     },
-    "22594": {
+     {
         "name": "Ninh Hà",
         "type": "phuong",
         "slug": "ninh-ha",
@@ -229,7 +229,7 @@
         "code": "22594",
         "parent_code": "572"
     },
-    "22597": {
+     {
         "name": "Ninh Hưng",
         "type": "xa",
         "slug": "ninh-hung",
@@ -239,7 +239,7 @@
         "code": "22597",
         "parent_code": "572"
     },
-    "22600": {
+     {
         "name": "Ninh Lộc",
         "type": "xa",
         "slug": "ninh-loc",
@@ -249,7 +249,7 @@
         "code": "22600",
         "parent_code": "572"
     },
-    "22603": {
+     {
         "name": "Ninh Ích",
         "type": "xa",
         "slug": "ninh-ich",
@@ -259,7 +259,7 @@
         "code": "22603",
         "parent_code": "572"
     },
-    "22606": {
+     {
         "name": "Ninh Vân",
         "type": "xa",
         "slug": "ninh-van",
@@ -269,4 +269,4 @@
         "code": "22606",
         "parent_code": "572"
     }
-}
+]}

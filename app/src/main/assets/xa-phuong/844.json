@@ -1,5 +1,5 @@
 {
-    "29266": {
+    "xa":[ {
         "name": "Càng Long",
         "type": "thi-tran",
         "slug": "cang-long",
@@ -9,7 +9,7 @@
         "code": "29266",
         "parent_code": "844"
     },
-    "29269": {
+     {
         "name": "Mỹ Cẩm",
         "type": "xa",
         "slug": "my-cam",
@@ -19,7 +19,7 @@
         "code": "29269",
         "parent_code": "844"
     },
-    "29272": {
+     {
         "name": "An Trường A",
         "type": "xa",
         "slug": "an-truong-a",
@@ -29,7 +29,7 @@
         "code": "29272",
         "parent_code": "844"
     },
-    "29275": {
+     {
         "name": "An Trường",
         "type": "xa",
         "slug": "an-truong",
@@ -39,7 +39,7 @@
         "code": "29275",
         "parent_code": "844"
     },
-    "29278": {
+     {
         "name": "Huyền Hội",
         "type": "xa",
         "slug": "huyen-hoi",
@@ -49,7 +49,7 @@
         "code": "29278",
         "parent_code": "844"
     },
-    "29281": {
+     {
         "name": "Tân An",
         "type": "xa",
         "slug": "tan-an",
@@ -59,7 +59,7 @@
         "code": "29281",
         "parent_code": "844"
     },
-    "29284": {
+     {
         "name": "Tân Bình",
         "type": "xa",
         "slug": "tan-binh",
@@ -69,7 +69,7 @@
         "code": "29284",
         "parent_code": "844"
     },
-    "29287": {
+     {
         "name": "Bình Phú",
         "type": "xa",
         "slug": "binh-phu",
@@ -79,7 +79,7 @@
         "code": "29287",
         "parent_code": "844"
     },
-    "29290": {
+     {
         "name": "Phương Thạnh",
         "type": "xa",
         "slug": "phuong-thanh",
@@ -89,7 +89,7 @@
         "code": "29290",
         "parent_code": "844"
     },
-    "29293": {
+     {
         "name": "Đại Phúc",
         "type": "xa",
         "slug": "dai-phuc",
@@ -99,7 +99,7 @@
         "code": "29293",
         "parent_code": "844"
     },
-    "29296": {
+     {
         "name": "Đại Phước",
         "type": "xa",
         "slug": "dai-phuoc",
@@ -109,7 +109,7 @@
         "code": "29296",
         "parent_code": "844"
     },
-    "29299": {
+     {
         "name": "Nhị Long Phú",
         "type": "xa",
         "slug": "nhi-long-phu",
@@ -119,7 +119,7 @@
         "code": "29299",
         "parent_code": "844"
     },
-    "29302": {
+     {
         "name": "Nhị Long",
         "type": "xa",
         "slug": "nhi-long",
@@ -129,7 +129,7 @@
         "code": "29302",
         "parent_code": "844"
     },
-    "29305": {
+     {
         "name": "Đức Mỹ",
         "type": "xa",
         "slug": "duc-my",
@@ -139,4 +139,4 @@
         "code": "29305",
         "parent_code": "844"
     }
-}
+]}

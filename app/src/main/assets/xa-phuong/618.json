@@ -1,5 +1,5 @@
 {
-    "23535": {
+    "xa":[ {
         "name": "Ia Đal",
         "type": "xa",
         "slug": "ia-dal",
@@ -9,7 +9,7 @@
         "code": "23535",
         "parent_code": "618"
     },
-    "23537": {
+     {
         "name": "Ia Dom",
         "type": "xa",
         "slug": "ia-dom",
@@ -19,7 +19,7 @@
         "code": "23537",
         "parent_code": "618"
     },
-    "23538": {
+     {
         "name": "Ia Tơi",
         "type": "xa",
         "slug": "ia-toi",
@@ -29,4 +29,4 @@
         "code": "23538",
         "parent_code": "618"
     }
-}
+]}

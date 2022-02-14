@@ -1,5 +1,5 @@
 {
-    "29308": {
+    "xa":[ {
         "name": "Cầu Kè",
         "type": "thi-tran",
         "slug": "cau-ke",
@@ -9,7 +9,7 @@
         "code": "29308",
         "parent_code": "845"
     },
-    "29311": {
+     {
         "name": "Hòa Ân",
         "type": "xa",
         "slug": "hoa-an",
@@ -19,7 +19,7 @@
         "code": "29311",
         "parent_code": "845"
     },
-    "29314": {
+     {
         "name": "Châu Điền",
         "type": "xa",
         "slug": "chau-dien",
@@ -29,7 +29,7 @@
         "code": "29314",
         "parent_code": "845"
     },
-    "29317": {
+     {
         "name": "An Phú Tân",
         "type": "xa",
         "slug": "an-phu-tan",
@@ -39,7 +39,7 @@
         "code": "29317",
         "parent_code": "845"
     },
-    "29320": {
+     {
         "name": "Hoà Tân",
         "type": "xa",
         "slug": "hoa-tan",
@@ -49,7 +49,7 @@
         "code": "29320",
         "parent_code": "845"
     },
-    "29323": {
+     {
         "name": "Ninh Thới",
         "type": "xa",
         "slug": "ninh-thoi",
@@ -59,7 +59,7 @@
         "code": "29323",
         "parent_code": "845"
     },
-    "29326": {
+     {
         "name": "Phong Phú",
         "type": "xa",
         "slug": "phong-phu",
@@ -69,7 +69,7 @@
         "code": "29326",
         "parent_code": "845"
     },
-    "29329": {
+     {
         "name": "Phong Thạnh",
         "type": "xa",
         "slug": "phong-thanh",
@@ -79,7 +79,7 @@
         "code": "29329",
         "parent_code": "845"
     },
-    "29332": {
+     {
         "name": "Tam Ngãi",
         "type": "xa",
         "slug": "tam-ngai",
@@ -89,7 +89,7 @@
         "code": "29332",
         "parent_code": "845"
     },
-    "29335": {
+     {
         "name": "Thông Hòa",
         "type": "xa",
         "slug": "thong-hoa",
@@ -99,7 +99,7 @@
         "code": "29335",
         "parent_code": "845"
     },
-    "29338": {
+     {
         "name": "Thạnh Phú",
         "type": "xa",
         "slug": "thanh-phu",
@@ -109,4 +109,4 @@
         "code": "29338",
         "parent_code": "845"
     }
-}
+]}

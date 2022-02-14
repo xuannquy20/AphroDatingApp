@@ -1,5 +1,5 @@
 {
-    "04498": {
+    "xa":[ {
         "name": "Cổ Phúc",
         "type": "thi-tran",
         "slug": "co-phuc",
@@ -9,7 +9,7 @@
         "code": "04498",
         "parent_code": "138"
     },
-    "04501": {
+     {
         "name": "Tân Đồng",
         "type": "xa",
         "slug": "tan-dong",
@@ -19,7 +19,7 @@
         "code": "04501",
         "parent_code": "138"
     },
-    "04504": {
+     {
         "name": "Báo Đáp",
         "type": "xa",
         "slug": "bao-dap",
@@ -29,7 +29,7 @@
         "code": "04504",
         "parent_code": "138"
     },
-    "04507": {
+     {
         "name": "Đào Thịnh",
         "type": "xa",
         "slug": "dao-thinh",
@@ -39,7 +39,7 @@
         "code": "04507",
         "parent_code": "138"
     },
-    "04510": {
+     {
         "name": "Việt Thành",
         "type": "xa",
         "slug": "viet-thanh",
@@ -49,7 +49,7 @@
         "code": "04510",
         "parent_code": "138"
     },
-    "04513": {
+     {
         "name": "Hòa Cuông",
         "type": "xa",
         "slug": "hoa-cuong",
@@ -59,7 +59,7 @@
         "code": "04513",
         "parent_code": "138"
     },
-    "04516": {
+     {
         "name": "Minh Quán",
         "type": "xa",
         "slug": "minh-quan",
@@ -69,7 +69,7 @@
         "code": "04516",
         "parent_code": "138"
     },
-    "04519": {
+     {
         "name": "Quy Mông",
         "type": "xa",
         "slug": "quy-mong",
@@ -79,7 +79,7 @@
         "code": "04519",
         "parent_code": "138"
     },
-    "04522": {
+     {
         "name": "Cường Thịnh",
         "type": "xa",
         "slug": "cuong-thinh",
@@ -89,7 +89,7 @@
         "code": "04522",
         "parent_code": "138"
     },
-    "04525": {
+     {
         "name": "Kiên Thành",
         "type": "xa",
         "slug": "kien-thanh",
@@ -99,7 +99,7 @@
         "code": "04525",
         "parent_code": "138"
     },
-    "04528": {
+     {
         "name": "Nga Quán",
         "type": "xa",
         "slug": "nga-quan",
@@ -109,7 +109,7 @@
         "code": "04528",
         "parent_code": "138"
     },
-    "04531": {
+     {
         "name": "Y Can",
         "type": "xa",
         "slug": "y-can",
@@ -119,7 +119,7 @@
         "code": "04531",
         "parent_code": "138"
     },
-    "04537": {
+     {
         "name": "Lương Thịnh",
         "type": "xa",
         "slug": "luong-thinh",
@@ -129,7 +129,7 @@
         "code": "04537",
         "parent_code": "138"
     },
-    "04561": {
+     {
         "name": "Bảo Hưng",
         "type": "xa",
         "slug": "bao-hung",
@@ -139,7 +139,7 @@
         "code": "04561",
         "parent_code": "138"
     },
-    "04564": {
+     {
         "name": "Việt Cường",
         "type": "xa",
         "slug": "viet-cuong",
@@ -149,7 +149,7 @@
         "code": "04564",
         "parent_code": "138"
     },
-    "04567": {
+     {
         "name": "Minh Quân",
         "type": "xa",
         "slug": "minh-quan",
@@ -159,7 +159,7 @@
         "code": "04567",
         "parent_code": "138"
     },
-    "04570": {
+     {
         "name": "Hồng Ca",
         "type": "xa",
         "slug": "hong-ca",
@@ -169,7 +169,7 @@
         "code": "04570",
         "parent_code": "138"
     },
-    "04573": {
+     {
         "name": "Hưng Thịnh",
         "type": "xa",
         "slug": "hung-thinh",
@@ -179,7 +179,7 @@
         "code": "04573",
         "parent_code": "138"
     },
-    "04576": {
+     {
         "name": "Hưng Khánh",
         "type": "xa",
         "slug": "hung-khanh",
@@ -189,7 +189,7 @@
         "code": "04576",
         "parent_code": "138"
     },
-    "04579": {
+     {
         "name": "Việt Hồng",
         "type": "xa",
         "slug": "viet-hong",
@@ -199,7 +199,7 @@
         "code": "04579",
         "parent_code": "138"
     },
-    "04582": {
+     {
         "name": "Vân Hội",
         "type": "xa",
         "slug": "van-hoi",
@@ -209,4 +209,4 @@
         "code": "04582",
         "parent_code": "138"
     }
-}
+]}

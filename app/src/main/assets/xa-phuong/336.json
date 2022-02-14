@@ -1,5 +1,5 @@
 {
-    "12433": {
+    "xa":[ {
         "name": "Lê Hồng Phong",
         "type": "phuong",
         "slug": "le-hong-phong",
@@ -9,7 +9,7 @@
         "code": "12433",
         "parent_code": "336"
     },
-    "12436": {
+     {
         "name": "Bồ Xuyên",
         "type": "phuong",
         "slug": "bo-xuyen",
@@ -19,7 +19,7 @@
         "code": "12436",
         "parent_code": "336"
     },
-    "12439": {
+     {
         "name": "Đề Thám",
         "type": "phuong",
         "slug": "de-tham",
@@ -29,7 +29,7 @@
         "code": "12439",
         "parent_code": "336"
     },
-    "12442": {
+     {
         "name": "Kỳ Bá",
         "type": "phuong",
         "slug": "ky-ba",
@@ -39,7 +39,7 @@
         "code": "12442",
         "parent_code": "336"
     },
-    "12445": {
+     {
         "name": "Quang Trung",
         "type": "phuong",
         "slug": "quang-trung",
@@ -49,7 +49,7 @@
         "code": "12445",
         "parent_code": "336"
     },
-    "12448": {
+     {
         "name": "Phú Khánh",
         "type": "phuong",
         "slug": "phu-khanh",
@@ -59,7 +59,7 @@
         "code": "12448",
         "parent_code": "336"
     },
-    "12451": {
+     {
         "name": "Tiền Phong",
         "type": "phuong",
         "slug": "tien-phong",
@@ -69,7 +69,7 @@
         "code": "12451",
         "parent_code": "336"
     },
-    "12452": {
+     {
         "name": "Trần Hưng Đạo",
         "type": "phuong",
         "slug": "tran-hung-dao",
@@ -79,7 +79,7 @@
         "code": "12452",
         "parent_code": "336"
     },
-    "12454": {
+     {
         "name": "Trần Lãm",
         "type": "phuong",
         "slug": "tran-lam",
@@ -89,7 +89,7 @@
         "code": "12454",
         "parent_code": "336"
     },
-    "12457": {
+     {
         "name": "Đông Hòa",
         "type": "xa",
         "slug": "dong-hoa",
@@ -99,7 +99,7 @@
         "code": "12457",
         "parent_code": "336"
     },
-    "12460": {
+     {
         "name": "Hoàng Diệu",
         "type": "phuong",
         "slug": "hoang-dieu",
@@ -109,7 +109,7 @@
         "code": "12460",
         "parent_code": "336"
     },
-    "12463": {
+     {
         "name": "Phú Xuân",
         "type": "xa",
         "slug": "phu-xuan",
@@ -119,7 +119,7 @@
         "code": "12463",
         "parent_code": "336"
     },
-    "12466": {
+     {
         "name": "Vũ Phúc",
         "type": "xa",
         "slug": "vu-phuc",
@@ -129,7 +129,7 @@
         "code": "12466",
         "parent_code": "336"
     },
-    "12469": {
+     {
         "name": "Vũ Chính",
         "type": "xa",
         "slug": "vu-chinh",
@@ -139,7 +139,7 @@
         "code": "12469",
         "parent_code": "336"
     },
-    "12817": {
+     {
         "name": "Đông Mỹ",
         "type": "xa",
         "slug": "dong-my",
@@ -149,7 +149,7 @@
         "code": "12817",
         "parent_code": "336"
     },
-    "12820": {
+     {
         "name": "Đông Thọ",
         "type": "xa",
         "slug": "dong-tho",
@@ -159,7 +159,7 @@
         "code": "12820",
         "parent_code": "336"
     },
-    "13084": {
+     {
         "name": "Vũ Đông",
         "type": "xa",
         "slug": "vu-dong",
@@ -169,7 +169,7 @@
         "code": "13084",
         "parent_code": "336"
     },
-    "13108": {
+     {
         "name": "Vũ Lạc",
         "type": "xa",
         "slug": "vu-lac",
@@ -179,7 +179,7 @@
         "code": "13108",
         "parent_code": "336"
     },
-    "13225": {
+     {
         "name": "Tân Bình",
         "type": "xa",
         "slug": "tan-binh",
@@ -189,4 +189,4 @@
         "code": "13225",
         "parent_code": "336"
     }
-}
+]}

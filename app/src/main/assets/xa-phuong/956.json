@@ -1,5 +1,5 @@
 {
-    "31843": {
+    "xa":[ {
         "name": "Ngan Dừa",
         "type": "thi-tran",
         "slug": "ngan-dua",
@@ -9,7 +9,7 @@
         "code": "31843",
         "parent_code": "956"
     },
-    "31846": {
+     {
         "name": "Ninh Quới",
         "type": "xa",
         "slug": "ninh-quoi",
@@ -19,7 +19,7 @@
         "code": "31846",
         "parent_code": "956"
     },
-    "31849": {
+     {
         "name": "Ninh Quới A",
         "type": "xa",
         "slug": "ninh-quoi-a",
@@ -29,7 +29,7 @@
         "code": "31849",
         "parent_code": "956"
     },
-    "31852": {
+     {
         "name": "Ninh Hòa",
         "type": "xa",
         "slug": "ninh-hoa",
@@ -39,7 +39,7 @@
         "code": "31852",
         "parent_code": "956"
     },
-    "31855": {
+     {
         "name": "Lộc Ninh",
         "type": "xa",
         "slug": "loc-ninh",
@@ -49,7 +49,7 @@
         "code": "31855",
         "parent_code": "956"
     },
-    "31858": {
+     {
         "name": "Vĩnh Lộc",
         "type": "xa",
         "slug": "vinh-loc",
@@ -59,7 +59,7 @@
         "code": "31858",
         "parent_code": "956"
     },
-    "31861": {
+     {
         "name": "Vĩnh Lộc A",
         "type": "xa",
         "slug": "vinh-loc-a",
@@ -69,7 +69,7 @@
         "code": "31861",
         "parent_code": "956"
     },
-    "31863": {
+     {
         "name": "Ninh Thạnh Lợi A",
         "type": "xa",
         "slug": "ninh-thanh-loi-a",
@@ -79,7 +79,7 @@
         "code": "31863",
         "parent_code": "956"
     },
-    "31864": {
+     {
         "name": "Ninh Thạnh Lợi",
         "type": "xa",
         "slug": "ninh-thanh-loi",
@@ -89,4 +89,4 @@
         "code": "31864",
         "parent_code": "956"
     }
-}
+]}

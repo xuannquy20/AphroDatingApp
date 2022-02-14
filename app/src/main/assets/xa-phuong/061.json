@@ -1,5 +1,5 @@
 {
-    "01888": {
+    "xa":[ {
         "name": "Chợ Rã",
         "type": "thi-tran",
         "slug": "cho-ra",
@@ -9,7 +9,7 @@
         "code": "01888",
         "parent_code": "061"
     },
-    "01891": {
+     {
         "name": "Bành Trạch",
         "type": "xa",
         "slug": "banh-trach",
@@ -19,7 +19,7 @@
         "code": "01891",
         "parent_code": "061"
     },
-    "01894": {
+     {
         "name": "Phúc Lộc",
         "type": "xa",
         "slug": "phuc-loc",
@@ -29,7 +29,7 @@
         "code": "01894",
         "parent_code": "061"
     },
-    "01897": {
+     {
         "name": "Hà Hiệu",
         "type": "xa",
         "slug": "ha-hieu",
@@ -39,7 +39,7 @@
         "code": "01897",
         "parent_code": "061"
     },
-    "01900": {
+     {
         "name": "Cao Thượng",
         "type": "xa",
         "slug": "cao-thuong",
@@ -49,7 +49,7 @@
         "code": "01900",
         "parent_code": "061"
     },
-    "01906": {
+     {
         "name": "Khang Ninh",
         "type": "xa",
         "slug": "khang-ninh",
@@ -59,7 +59,7 @@
         "code": "01906",
         "parent_code": "061"
     },
-    "01909": {
+     {
         "name": "Nam Mẫu",
         "type": "xa",
         "slug": "nam-mau",
@@ -69,7 +69,7 @@
         "code": "01909",
         "parent_code": "061"
     },
-    "01912": {
+     {
         "name": "Thượng Giáo",
         "type": "xa",
         "slug": "thuong-giao",
@@ -79,7 +79,7 @@
         "code": "01912",
         "parent_code": "061"
     },
-    "01915": {
+     {
         "name": "Địa Linh",
         "type": "xa",
         "slug": "dia-linh",
@@ -89,7 +89,7 @@
         "code": "01915",
         "parent_code": "061"
     },
-    "01918": {
+     {
         "name": "Yến Dương",
         "type": "xa",
         "slug": "yen-duong",
@@ -99,7 +99,7 @@
         "code": "01918",
         "parent_code": "061"
     },
-    "01921": {
+     {
         "name": "Chu Hương",
         "type": "xa",
         "slug": "chu-huong",
@@ -109,7 +109,7 @@
         "code": "01921",
         "parent_code": "061"
     },
-    "01924": {
+     {
         "name": "Quảng Khê",
         "type": "xa",
         "slug": "quang-khe",
@@ -119,7 +119,7 @@
         "code": "01924",
         "parent_code": "061"
     },
-    "01927": {
+     {
         "name": "Mỹ Phương",
         "type": "xa",
         "slug": "my-phuong",
@@ -129,7 +129,7 @@
         "code": "01927",
         "parent_code": "061"
     },
-    "01930": {
+     {
         "name": "Hoàng Trĩ",
         "type": "xa",
         "slug": "hoang-tri",
@@ -139,7 +139,7 @@
         "code": "01930",
         "parent_code": "061"
     },
-    "01933": {
+     {
         "name": "Đồng Phúc",
         "type": "xa",
         "slug": "dong-phuc",
@@ -149,4 +149,4 @@
         "code": "01933",
         "parent_code": "061"
     }
-}
+]}

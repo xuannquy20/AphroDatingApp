@@ -1,5 +1,5 @@
 {
-    "31153": {
+    "xa":[ {
         "name": "Châu Văn Liêm",
         "type": "phuong",
         "slug": "chau-van-liem",
@@ -9,7 +9,7 @@
         "code": "31153",
         "parent_code": "917"
     },
-    "31154": {
+     {
         "name": "Thới Hòa",
         "type": "phuong",
         "slug": "thoi-hoa",
@@ -19,7 +19,7 @@
         "code": "31154",
         "parent_code": "917"
     },
-    "31156": {
+     {
         "name": "Thới Long",
         "type": "phuong",
         "slug": "thoi-long",
@@ -29,7 +29,7 @@
         "code": "31156",
         "parent_code": "917"
     },
-    "31157": {
+     {
         "name": "Long Hưng",
         "type": "phuong",
         "slug": "long-hung",
@@ -39,7 +39,7 @@
         "code": "31157",
         "parent_code": "917"
     },
-    "31159": {
+     {
         "name": "Thới An",
         "type": "phuong",
         "slug": "thoi-an",
@@ -49,7 +49,7 @@
         "code": "31159",
         "parent_code": "917"
     },
-    "31162": {
+     {
         "name": "Phước Thới",
         "type": "phuong",
         "slug": "phuoc-thoi",
@@ -59,7 +59,7 @@
         "code": "31162",
         "parent_code": "917"
     },
-    "31165": {
+     {
         "name": "Trường Lạc",
         "type": "phuong",
         "slug": "truong-lac",
@@ -69,4 +69,4 @@
         "code": "31165",
         "parent_code": "917"
     }
-}
+]}

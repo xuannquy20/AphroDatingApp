@@ -1,5 +1,5 @@
 {
-    "19111": {
+    "xa":[ {
         "name": "Hoàn Lão",
         "type": "thi-tran",
         "slug": "hoan-lao",
@@ -9,7 +9,7 @@
         "code": "19111",
         "parent_code": "455"
     },
-    "19114": {
+     {
         "name": "NT Việt Trung",
         "type": "thi-tran",
         "slug": "nt-viet-trung",
@@ -19,7 +19,7 @@
         "code": "19114",
         "parent_code": "455"
     },
-    "19117": {
+     {
         "name": "Xuân Trạch",
         "type": "xa",
         "slug": "xuan-trach",
@@ -29,7 +29,7 @@
         "code": "19117",
         "parent_code": "455"
     },
-    "19120": {
+     {
         "name": "Mỹ Trạch",
         "type": "xa",
         "slug": "my-trach",
@@ -39,7 +39,7 @@
         "code": "19120",
         "parent_code": "455"
     },
-    "19123": {
+     {
         "name": "Hạ Trạch",
         "type": "xa",
         "slug": "ha-trach",
@@ -49,7 +49,7 @@
         "code": "19123",
         "parent_code": "455"
     },
-    "19126": {
+     {
         "name": "Bắc Trạch",
         "type": "xa",
         "slug": "bac-trach",
@@ -59,7 +59,7 @@
         "code": "19126",
         "parent_code": "455"
     },
-    "19129": {
+     {
         "name": "Lâm Trạch",
         "type": "xa",
         "slug": "lam-trach",
@@ -69,7 +69,7 @@
         "code": "19129",
         "parent_code": "455"
     },
-    "19132": {
+     {
         "name": "Thanh Trạch",
         "type": "xa",
         "slug": "thanh-trach",
@@ -79,7 +79,7 @@
         "code": "19132",
         "parent_code": "455"
     },
-    "19135": {
+     {
         "name": "Liên Trạch",
         "type": "xa",
         "slug": "lien-trach",
@@ -89,7 +89,7 @@
         "code": "19135",
         "parent_code": "455"
     },
-    "19138": {
+     {
         "name": "Phúc Trạch",
         "type": "xa",
         "slug": "phuc-trach",
@@ -99,7 +99,7 @@
         "code": "19138",
         "parent_code": "455"
     },
-    "19141": {
+     {
         "name": "Cự Nẫm",
         "type": "xa",
         "slug": "cu-nam",
@@ -109,7 +109,7 @@
         "code": "19141",
         "parent_code": "455"
     },
-    "19144": {
+     {
         "name": "Hải Phú",
         "type": "xa",
         "slug": "hai-phu",
@@ -119,7 +119,7 @@
         "code": "19144",
         "parent_code": "455"
     },
-    "19147": {
+     {
         "name": "Thượng Trạch",
         "type": "xa",
         "slug": "thuong-trach",
@@ -129,7 +129,7 @@
         "code": "19147",
         "parent_code": "455"
     },
-    "19150": {
+     {
         "name": "Sơn Lộc",
         "type": "xa",
         "slug": "son-loc",
@@ -139,7 +139,7 @@
         "code": "19150",
         "parent_code": "455"
     },
-    "19156": {
+     {
         "name": "Hưng Trạch",
         "type": "xa",
         "slug": "hung-trach",
@@ -149,7 +149,7 @@
         "code": "19156",
         "parent_code": "455"
     },
-    "19159": {
+     {
         "name": "Đồng Trạch",
         "type": "xa",
         "slug": "dong-trach",
@@ -159,7 +159,7 @@
         "code": "19159",
         "parent_code": "455"
     },
-    "19162": {
+     {
         "name": "Đức Trạch",
         "type": "xa",
         "slug": "duc-trach",
@@ -169,7 +169,7 @@
         "code": "19162",
         "parent_code": "455"
     },
-    "19165": {
+     {
         "name": "Phong Nha",
         "type": "thi-tran",
         "slug": "phong-nha",
@@ -179,7 +179,7 @@
         "code": "19165",
         "parent_code": "455"
     },
-    "19168": {
+     {
         "name": "Vạn Trạch",
         "type": "xa",
         "slug": "van-trach",
@@ -189,7 +189,7 @@
         "code": "19168",
         "parent_code": "455"
     },
-    "19174": {
+     {
         "name": "Phú Định",
         "type": "xa",
         "slug": "phu-dinh",
@@ -199,7 +199,7 @@
         "code": "19174",
         "parent_code": "455"
     },
-    "19177": {
+     {
         "name": "Trung Trạch",
         "type": "xa",
         "slug": "trung-trach",
@@ -209,7 +209,7 @@
         "code": "19177",
         "parent_code": "455"
     },
-    "19180": {
+     {
         "name": "Tây Trạch",
         "type": "xa",
         "slug": "tay-trach",
@@ -219,7 +219,7 @@
         "code": "19180",
         "parent_code": "455"
     },
-    "19183": {
+     {
         "name": "Hòa Trạch",
         "type": "xa",
         "slug": "hoa-trach",
@@ -229,7 +229,7 @@
         "code": "19183",
         "parent_code": "455"
     },
-    "19186": {
+     {
         "name": "Đại Trạch",
         "type": "xa",
         "slug": "dai-trach",
@@ -239,7 +239,7 @@
         "code": "19186",
         "parent_code": "455"
     },
-    "19189": {
+     {
         "name": "Nhân Trạch",
         "type": "xa",
         "slug": "nhan-trach",
@@ -249,7 +249,7 @@
         "code": "19189",
         "parent_code": "455"
     },
-    "19192": {
+     {
         "name": "Tân Trạch",
         "type": "xa",
         "slug": "tan-trach",
@@ -259,7 +259,7 @@
         "code": "19192",
         "parent_code": "455"
     },
-    "19195": {
+     {
         "name": "Nam Trạch",
         "type": "xa",
         "slug": "nam-trach",
@@ -269,7 +269,7 @@
         "code": "19195",
         "parent_code": "455"
     },
-    "19198": {
+     {
         "name": "Lý Trạch",
         "type": "xa",
         "slug": "ly-trach",
@@ -279,4 +279,4 @@
         "code": "19198",
         "parent_code": "455"
     }
-}
+]}

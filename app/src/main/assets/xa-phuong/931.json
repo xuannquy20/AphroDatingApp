@@ -1,5 +1,5 @@
 {
-    "31340": {
+    "xa":[ {
         "name": "Ngã Bảy",
         "type": "phuong",
         "slug": "nga-bay",
@@ -9,7 +9,7 @@
         "code": "31340",
         "parent_code": "931"
     },
-    "31341": {
+     {
         "name": "Lái Hiếu",
         "type": "phuong",
         "slug": "lai-hieu",
@@ -19,7 +19,7 @@
         "code": "31341",
         "parent_code": "931"
     },
-    "31343": {
+     {
         "name": "Hiệp Thành",
         "type": "phuong",
         "slug": "hiep-thanh",
@@ -29,7 +29,7 @@
         "code": "31343",
         "parent_code": "931"
     },
-    "31344": {
+     {
         "name": "Hiệp Lợi",
         "type": "phuong",
         "slug": "hiep-loi",
@@ -39,7 +39,7 @@
         "code": "31344",
         "parent_code": "931"
     },
-    "31411": {
+     {
         "name": "Đại Thành",
         "type": "xa",
         "slug": "dai-thanh",
@@ -49,7 +49,7 @@
         "code": "31411",
         "parent_code": "931"
     },
-    "31414": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -59,4 +59,4 @@
         "code": "31414",
         "parent_code": "931"
     }
-}
+]}

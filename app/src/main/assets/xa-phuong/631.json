@@ -1,5 +1,5 @@
 {
-    "23857": {
+    "xa":[ {
         "name": "Chư Ty",
         "type": "thi-tran",
         "slug": "chu-ty",
@@ -9,7 +9,7 @@
         "code": "23857",
         "parent_code": "631"
     },
-    "23860": {
+     {
         "name": "Ia Dơk",
         "type": "xa",
         "slug": "ia-dok",
@@ -19,7 +19,7 @@
         "code": "23860",
         "parent_code": "631"
     },
-    "23863": {
+     {
         "name": "Ia Krêl",
         "type": "xa",
         "slug": "ia-krel",
@@ -29,7 +29,7 @@
         "code": "23863",
         "parent_code": "631"
     },
-    "23866": {
+     {
         "name": "Ia Din",
         "type": "xa",
         "slug": "ia-din",
@@ -39,7 +39,7 @@
         "code": "23866",
         "parent_code": "631"
     },
-    "23869": {
+     {
         "name": "Ia Kla",
         "type": "xa",
         "slug": "ia-kla",
@@ -49,7 +49,7 @@
         "code": "23869",
         "parent_code": "631"
     },
-    "23872": {
+     {
         "name": "Ia Dom",
         "type": "xa",
         "slug": "ia-dom",
@@ -59,7 +59,7 @@
         "code": "23872",
         "parent_code": "631"
     },
-    "23875": {
+     {
         "name": "Ia Lang",
         "type": "xa",
         "slug": "ia-lang",
@@ -69,7 +69,7 @@
         "code": "23875",
         "parent_code": "631"
     },
-    "23878": {
+     {
         "name": "Ia Kriêng",
         "type": "xa",
         "slug": "ia-krieng",
@@ -79,7 +79,7 @@
         "code": "23878",
         "parent_code": "631"
     },
-    "23881": {
+     {
         "name": "Ia Pnôn",
         "type": "xa",
         "slug": "ia-pnon",
@@ -89,7 +89,7 @@
         "code": "23881",
         "parent_code": "631"
     },
-    "23884": {
+     {
         "name": "Ia Nan",
         "type": "xa",
         "slug": "ia-nan",
@@ -99,4 +99,4 @@
         "code": "23884",
         "parent_code": "631"
     }
-}
+]}

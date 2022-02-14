@@ -1,5 +1,5 @@
 {
-    "23677": {
+    "xa":[ {
         "name": "Đăk Đoa",
         "type": "thi-tran",
         "slug": "dak-doa",
@@ -9,7 +9,7 @@
         "code": "23677",
         "parent_code": "626"
     },
-    "23680": {
+     {
         "name": "Hà Đông",
         "type": "xa",
         "slug": "ha-dong",
@@ -19,7 +19,7 @@
         "code": "23680",
         "parent_code": "626"
     },
-    "23683": {
+     {
         "name": "Đăk Sơmei",
         "type": "xa",
         "slug": "dak-somei",
@@ -29,7 +29,7 @@
         "code": "23683",
         "parent_code": "626"
     },
-    "23684": {
+     {
         "name": "Đăk Krong",
         "type": "xa",
         "slug": "dak-krong",
@@ -39,7 +39,7 @@
         "code": "23684",
         "parent_code": "626"
     },
-    "23686": {
+     {
         "name": "Hải Yang",
         "type": "xa",
         "slug": "hai-yang",
@@ -49,7 +49,7 @@
         "code": "23686",
         "parent_code": "626"
     },
-    "23689": {
+     {
         "name": "Kon Gang",
         "type": "xa",
         "slug": "kon-gang",
@@ -59,7 +59,7 @@
         "code": "23689",
         "parent_code": "626"
     },
-    "23692": {
+     {
         "name": "Hà Bầu",
         "type": "xa",
         "slug": "ha-bau",
@@ -69,7 +69,7 @@
         "code": "23692",
         "parent_code": "626"
     },
-    "23695": {
+     {
         "name": "Nam Yang",
         "type": "xa",
         "slug": "nam-yang",
@@ -79,7 +79,7 @@
         "code": "23695",
         "parent_code": "626"
     },
-    "23698": {
+     {
         "name": "K' Dang",
         "type": "xa",
         "slug": "k-dang",
@@ -89,7 +89,7 @@
         "code": "23698",
         "parent_code": "626"
     },
-    "23701": {
+     {
         "name": "H' Neng",
         "type": "xa",
         "slug": "h-neng",
@@ -99,7 +99,7 @@
         "code": "23701",
         "parent_code": "626"
     },
-    "23704": {
+     {
         "name": "Tân Bình",
         "type": "xa",
         "slug": "tan-binh",
@@ -109,7 +109,7 @@
         "code": "23704",
         "parent_code": "626"
     },
-    "23707": {
+     {
         "name": "Glar",
         "type": "xa",
         "slug": "glar",
@@ -119,7 +119,7 @@
         "code": "23707",
         "parent_code": "626"
     },
-    "23710": {
+     {
         "name": "A Dơk",
         "type": "xa",
         "slug": "a-dok",
@@ -129,7 +129,7 @@
         "code": "23710",
         "parent_code": "626"
     },
-    "23713": {
+     {
         "name": "Trang",
         "type": "xa",
         "slug": "trang",
@@ -139,7 +139,7 @@
         "code": "23713",
         "parent_code": "626"
     },
-    "23714": {
+     {
         "name": "HNol",
         "type": "xa",
         "slug": "hnol",
@@ -149,7 +149,7 @@
         "code": "23714",
         "parent_code": "626"
     },
-    "23716": {
+     {
         "name": "Ia Pết",
         "type": "xa",
         "slug": "ia-pet",
@@ -159,7 +159,7 @@
         "code": "23716",
         "parent_code": "626"
     },
-    "23719": {
+     {
         "name": "Ia Băng",
         "type": "xa",
         "slug": "ia-bang",
@@ -169,4 +169,4 @@
         "code": "23719",
         "parent_code": "626"
     }
-}
+]}

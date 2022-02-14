@@ -1,5 +1,5 @@
 {
-    "20758": {
+    "xa":[ {
         "name": "Hiệp Hòa",
         "type": "xa",
         "slug": "hiep-hoa",
@@ -9,7 +9,7 @@
         "code": "20758",
         "parent_code": "512"
     },
-    "20761": {
+     {
         "name": "Hiệp Thuận",
         "type": "xa",
         "slug": "hiep-thuan",
@@ -19,7 +19,7 @@
         "code": "20761",
         "parent_code": "512"
     },
-    "20764": {
+     {
         "name": "Quế Thọ",
         "type": "xa",
         "slug": "que-tho",
@@ -29,7 +29,7 @@
         "code": "20764",
         "parent_code": "512"
     },
-    "20767": {
+     {
         "name": "Bình Lâm",
         "type": "xa",
         "slug": "binh-lam",
@@ -39,7 +39,7 @@
         "code": "20767",
         "parent_code": "512"
     },
-    "20770": {
+     {
         "name": "Sông Trà",
         "type": "xa",
         "slug": "song-tra",
@@ -49,7 +49,7 @@
         "code": "20770",
         "parent_code": "512"
     },
-    "20773": {
+     {
         "name": "Phước Trà",
         "type": "xa",
         "slug": "phuoc-tra",
@@ -59,7 +59,7 @@
         "code": "20773",
         "parent_code": "512"
     },
-    "20776": {
+     {
         "name": "Phước Gia",
         "type": "xa",
         "slug": "phuoc-gia",
@@ -69,7 +69,7 @@
         "code": "20776",
         "parent_code": "512"
     },
-    "20779": {
+     {
         "name": "Tân Bình",
         "type": "thi-tran",
         "slug": "tan-binh",
@@ -79,7 +79,7 @@
         "code": "20779",
         "parent_code": "512"
     },
-    "20782": {
+     {
         "name": "Quế Lưu",
         "type": "xa",
         "slug": "que-luu",
@@ -89,7 +89,7 @@
         "code": "20782",
         "parent_code": "512"
     },
-    "20785": {
+     {
         "name": "Thăng Phước",
         "type": "xa",
         "slug": "thang-phuoc",
@@ -99,7 +99,7 @@
         "code": "20785",
         "parent_code": "512"
     },
-    "20788": {
+     {
         "name": "Bình Sơn",
         "type": "xa",
         "slug": "binh-son",
@@ -109,4 +109,4 @@
         "code": "20788",
         "parent_code": "512"
     }
-}
+]}

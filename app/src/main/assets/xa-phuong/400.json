@@ -1,5 +1,5 @@
 {
-    "16012": {
+    "xa":[ {
         "name": "Hậu Lộc",
         "type": "thi-tran",
         "slug": "hau-loc",
@@ -9,7 +9,7 @@
         "code": "16012",
         "parent_code": "400"
     },
-    "16015": {
+     {
         "name": "Đồng Lộc",
         "type": "xa",
         "slug": "dong-loc",
@@ -19,7 +19,7 @@
         "code": "16015",
         "parent_code": "400"
     },
-    "16018": {
+     {
         "name": "Đại Lộc",
         "type": "xa",
         "slug": "dai-loc",
@@ -29,7 +29,7 @@
         "code": "16018",
         "parent_code": "400"
     },
-    "16021": {
+     {
         "name": "Triệu Lộc",
         "type": "xa",
         "slug": "trieu-loc",
@@ -39,7 +39,7 @@
         "code": "16021",
         "parent_code": "400"
     },
-    "16027": {
+     {
         "name": "Tiến Lộc",
         "type": "xa",
         "slug": "tien-loc",
@@ -49,7 +49,7 @@
         "code": "16027",
         "parent_code": "400"
     },
-    "16030": {
+     {
         "name": "Lộc Sơn",
         "type": "xa",
         "slug": "loc-son",
@@ -59,7 +59,7 @@
         "code": "16030",
         "parent_code": "400"
     },
-    "16033": {
+     {
         "name": "Cầu Lộc",
         "type": "xa",
         "slug": "cau-loc",
@@ -69,7 +69,7 @@
         "code": "16033",
         "parent_code": "400"
     },
-    "16036": {
+     {
         "name": "Thành Lộc",
         "type": "xa",
         "slug": "thanh-loc",
@@ -79,7 +79,7 @@
         "code": "16036",
         "parent_code": "400"
     },
-    "16039": {
+     {
         "name": "Tuy Lộc",
         "type": "xa",
         "slug": "tuy-loc",
@@ -89,7 +89,7 @@
         "code": "16039",
         "parent_code": "400"
     },
-    "16042": {
+     {
         "name": "Phong Lộc",
         "type": "xa",
         "slug": "phong-loc",
@@ -99,7 +99,7 @@
         "code": "16042",
         "parent_code": "400"
     },
-    "16045": {
+     {
         "name": "Mỹ Lộc",
         "type": "xa",
         "slug": "my-loc",
@@ -109,7 +109,7 @@
         "code": "16045",
         "parent_code": "400"
     },
-    "16048": {
+     {
         "name": "Thuần Lộc",
         "type": "xa",
         "slug": "thuan-loc",
@@ -119,7 +119,7 @@
         "code": "16048",
         "parent_code": "400"
     },
-    "16057": {
+     {
         "name": "Xuân Lộc",
         "type": "xa",
         "slug": "xuan-loc",
@@ -129,7 +129,7 @@
         "code": "16057",
         "parent_code": "400"
     },
-    "16063": {
+     {
         "name": "Hoa Lộc",
         "type": "xa",
         "slug": "hoa-loc",
@@ -139,7 +139,7 @@
         "code": "16063",
         "parent_code": "400"
     },
-    "16066": {
+     {
         "name": "Liên Lộc",
         "type": "xa",
         "slug": "lien-loc",
@@ -149,7 +149,7 @@
         "code": "16066",
         "parent_code": "400"
     },
-    "16069": {
+     {
         "name": "Quang Lộc",
         "type": "xa",
         "slug": "quang-loc",
@@ -159,7 +159,7 @@
         "code": "16069",
         "parent_code": "400"
     },
-    "16072": {
+     {
         "name": "Phú Lộc",
         "type": "xa",
         "slug": "phu-loc",
@@ -169,7 +169,7 @@
         "code": "16072",
         "parent_code": "400"
     },
-    "16075": {
+     {
         "name": "Hòa Lộc",
         "type": "xa",
         "slug": "hoa-loc",
@@ -179,7 +179,7 @@
         "code": "16075",
         "parent_code": "400"
     },
-    "16078": {
+     {
         "name": "Minh Lộc",
         "type": "xa",
         "slug": "minh-loc",
@@ -189,7 +189,7 @@
         "code": "16078",
         "parent_code": "400"
     },
-    "16081": {
+     {
         "name": "Hưng Lộc",
         "type": "xa",
         "slug": "hung-loc",
@@ -199,7 +199,7 @@
         "code": "16081",
         "parent_code": "400"
     },
-    "16084": {
+     {
         "name": "Hải Lộc",
         "type": "xa",
         "slug": "hai-loc",
@@ -209,7 +209,7 @@
         "code": "16084",
         "parent_code": "400"
     },
-    "16087": {
+     {
         "name": "Đa Lộc",
         "type": "xa",
         "slug": "da-loc",
@@ -219,7 +219,7 @@
         "code": "16087",
         "parent_code": "400"
     },
-    "16090": {
+     {
         "name": "Ngư Lộc",
         "type": "xa",
         "slug": "ngu-loc",
@@ -229,4 +229,4 @@
         "code": "16090",
         "parent_code": "400"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "24307": {
+    "xa":[ {
         "name": "Cư Né",
         "type": "xa",
         "slug": "cu-ne",
@@ -9,7 +9,7 @@
         "code": "24307",
         "parent_code": "649"
     },
-    "24310": {
+     {
         "name": "Chư KBô",
         "type": "xa",
         "slug": "chu-kbo",
@@ -19,7 +19,7 @@
         "code": "24310",
         "parent_code": "649"
     },
-    "24313": {
+     {
         "name": "Cư Pơng",
         "type": "xa",
         "slug": "cu-pong",
@@ -29,7 +29,7 @@
         "code": "24313",
         "parent_code": "649"
     },
-    "24314": {
+     {
         "name": "Ea Sin",
         "type": "xa",
         "slug": "ea-sin",
@@ -39,7 +39,7 @@
         "code": "24314",
         "parent_code": "649"
     },
-    "24316": {
+     {
         "name": "Pơng Drang",
         "type": "xa",
         "slug": "pong-drang",
@@ -49,7 +49,7 @@
         "code": "24316",
         "parent_code": "649"
     },
-    "24317": {
+     {
         "name": "Tân Lập",
         "type": "xa",
         "slug": "tan-lap",
@@ -59,7 +59,7 @@
         "code": "24317",
         "parent_code": "649"
     },
-    "24319": {
+     {
         "name": "Ea Ngai",
         "type": "xa",
         "slug": "ea-ngai",
@@ -69,4 +69,4 @@
         "code": "24319",
         "parent_code": "649"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "06838": {
+    "xa":[ {
         "name": "Bình Liêu",
         "type": "thi-tran",
         "slug": "binh-lieu",
@@ -9,7 +9,7 @@
         "code": "06838",
         "parent_code": "198"
     },
-    "06841": {
+     {
         "name": "Hoành Mô",
         "type": "xa",
         "slug": "hoanh-mo",
@@ -19,7 +19,7 @@
         "code": "06841",
         "parent_code": "198"
     },
-    "06844": {
+     {
         "name": "Đồng Tâm",
         "type": "xa",
         "slug": "dong-tam",
@@ -29,7 +29,7 @@
         "code": "06844",
         "parent_code": "198"
     },
-    "06847": {
+     {
         "name": "Đồng Văn",
         "type": "xa",
         "slug": "dong-van",
@@ -39,7 +39,7 @@
         "code": "06847",
         "parent_code": "198"
     },
-    "06853": {
+     {
         "name": "Vô Ngại",
         "type": "xa",
         "slug": "vo-ngai",
@@ -49,7 +49,7 @@
         "code": "06853",
         "parent_code": "198"
     },
-    "06856": {
+     {
         "name": "Lục Hồn",
         "type": "xa",
         "slug": "luc-hon",
@@ -59,7 +59,7 @@
         "code": "06856",
         "parent_code": "198"
     },
-    "06859": {
+     {
         "name": "Húc Động",
         "type": "xa",
         "slug": "huc-dong",
@@ -69,4 +69,4 @@
         "code": "06859",
         "parent_code": "198"
     }
-}
+]}

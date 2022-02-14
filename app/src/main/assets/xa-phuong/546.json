@@ -1,5 +1,5 @@
 {
-    "21786": {
+    "xa":[ {
         "name": "Vĩnh Thạnh",
         "type": "thi-tran",
         "slug": "vinh-thanh",
@@ -9,7 +9,7 @@
         "code": "21786",
         "parent_code": "546"
     },
-    "21787": {
+     {
         "name": "Vĩnh Sơn",
         "type": "xa",
         "slug": "vinh-son",
@@ -19,7 +19,7 @@
         "code": "21787",
         "parent_code": "546"
     },
-    "21790": {
+     {
         "name": "Vĩnh Kim",
         "type": "xa",
         "slug": "vinh-kim",
@@ -29,7 +29,7 @@
         "code": "21790",
         "parent_code": "546"
     },
-    "21796": {
+     {
         "name": "Vĩnh Hiệp",
         "type": "xa",
         "slug": "vinh-hiep",
@@ -39,7 +39,7 @@
         "code": "21796",
         "parent_code": "546"
     },
-    "21799": {
+     {
         "name": "Vĩnh Hảo",
         "type": "xa",
         "slug": "vinh-hao",
@@ -49,7 +49,7 @@
         "code": "21799",
         "parent_code": "546"
     },
-    "21801": {
+     {
         "name": "Vĩnh Hòa",
         "type": "xa",
         "slug": "vinh-hoa",
@@ -59,7 +59,7 @@
         "code": "21801",
         "parent_code": "546"
     },
-    "21802": {
+     {
         "name": "Vĩnh Thịnh",
         "type": "xa",
         "slug": "vinh-thinh",
@@ -69,7 +69,7 @@
         "code": "21802",
         "parent_code": "546"
     },
-    "21804": {
+     {
         "name": "Vĩnh Thuận",
         "type": "xa",
         "slug": "vinh-thuan",
@@ -79,7 +79,7 @@
         "code": "21804",
         "parent_code": "546"
     },
-    "21805": {
+     {
         "name": "Vĩnh Quang",
         "type": "xa",
         "slug": "vinh-quang",
@@ -89,4 +89,4 @@
         "code": "21805",
         "parent_code": "546"
     }
-}
+]}

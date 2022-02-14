@@ -1,5 +1,5 @@
 {
-    "05089": {
+    "xa":[ {
         "name": "Cao Phong",
         "type": "thi-tran",
         "slug": "cao-phong",
@@ -9,7 +9,7 @@
         "code": "05089",
         "parent_code": "154"
     },
-    "05092": {
+     {
         "name": "Bình Thanh",
         "type": "xa",
         "slug": "binh-thanh",
@@ -19,7 +19,7 @@
         "code": "05092",
         "parent_code": "154"
     },
-    "05095": {
+     {
         "name": "Thung Nai",
         "type": "xa",
         "slug": "thung-nai",
@@ -29,7 +29,7 @@
         "code": "05095",
         "parent_code": "154"
     },
-    "05098": {
+     {
         "name": "Bắc Phong",
         "type": "xa",
         "slug": "bac-phong",
@@ -39,7 +39,7 @@
         "code": "05098",
         "parent_code": "154"
     },
-    "05101": {
+     {
         "name": "Thu Phong",
         "type": "xa",
         "slug": "thu-phong",
@@ -49,7 +49,7 @@
         "code": "05101",
         "parent_code": "154"
     },
-    "05104": {
+     {
         "name": "Hợp Phong",
         "type": "xa",
         "slug": "hop-phong",
@@ -59,7 +59,7 @@
         "code": "05104",
         "parent_code": "154"
     },
-    "05110": {
+     {
         "name": "Tây Phong",
         "type": "xa",
         "slug": "tay-phong",
@@ -69,7 +69,7 @@
         "code": "05110",
         "parent_code": "154"
     },
-    "05116": {
+     {
         "name": "Dũng Phong",
         "type": "xa",
         "slug": "dung-phong",
@@ -79,7 +79,7 @@
         "code": "05116",
         "parent_code": "154"
     },
-    "05119": {
+     {
         "name": "Nam Phong",
         "type": "xa",
         "slug": "nam-phong",
@@ -89,7 +89,7 @@
         "code": "05119",
         "parent_code": "154"
     },
-    "05125": {
+     {
         "name": "Thạch Yên",
         "type": "xa",
         "slug": "thach-yen",
@@ -99,4 +99,4 @@
         "code": "05125",
         "parent_code": "154"
     }
-}
+]}

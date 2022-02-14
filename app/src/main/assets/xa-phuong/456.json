@@ -1,5 +1,5 @@
 {
-    "19201": {
+    "xa":[ {
         "name": "Quán Hàu",
         "type": "thi-tran",
         "slug": "quan-hau",
@@ -9,7 +9,7 @@
         "code": "19201",
         "parent_code": "456"
     },
-    "19204": {
+     {
         "name": "Trường Sơn",
         "type": "xa",
         "slug": "truong-son",
@@ -19,7 +19,7 @@
         "code": "19204",
         "parent_code": "456"
     },
-    "19207": {
+     {
         "name": "Lương Ninh",
         "type": "xa",
         "slug": "luong-ninh",
@@ -29,7 +29,7 @@
         "code": "19207",
         "parent_code": "456"
     },
-    "19210": {
+     {
         "name": "Vĩnh Ninh",
         "type": "xa",
         "slug": "vinh-ninh",
@@ -39,7 +39,7 @@
         "code": "19210",
         "parent_code": "456"
     },
-    "19213": {
+     {
         "name": "Võ Ninh",
         "type": "xa",
         "slug": "vo-ninh",
@@ -49,7 +49,7 @@
         "code": "19213",
         "parent_code": "456"
     },
-    "19216": {
+     {
         "name": "Hải Ninh",
         "type": "xa",
         "slug": "hai-ninh",
@@ -59,7 +59,7 @@
         "code": "19216",
         "parent_code": "456"
     },
-    "19219": {
+     {
         "name": "Hàm Ninh",
         "type": "xa",
         "slug": "ham-ninh",
@@ -69,7 +69,7 @@
         "code": "19219",
         "parent_code": "456"
     },
-    "19222": {
+     {
         "name": "Duy Ninh",
         "type": "xa",
         "slug": "duy-ninh",
@@ -79,7 +79,7 @@
         "code": "19222",
         "parent_code": "456"
     },
-    "19225": {
+     {
         "name": "Gia Ninh",
         "type": "xa",
         "slug": "gia-ninh",
@@ -89,7 +89,7 @@
         "code": "19225",
         "parent_code": "456"
     },
-    "19228": {
+     {
         "name": "Trường Xuân",
         "type": "xa",
         "slug": "truong-xuan",
@@ -99,7 +99,7 @@
         "code": "19228",
         "parent_code": "456"
     },
-    "19231": {
+     {
         "name": "Hiền Ninh",
         "type": "xa",
         "slug": "hien-ninh",
@@ -109,7 +109,7 @@
         "code": "19231",
         "parent_code": "456"
     },
-    "19234": {
+     {
         "name": "Tân Ninh",
         "type": "xa",
         "slug": "tan-ninh",
@@ -119,7 +119,7 @@
         "code": "19234",
         "parent_code": "456"
     },
-    "19237": {
+     {
         "name": "Xuân Ninh",
         "type": "xa",
         "slug": "xuan-ninh",
@@ -129,7 +129,7 @@
         "code": "19237",
         "parent_code": "456"
     },
-    "19240": {
+     {
         "name": "An Ninh",
         "type": "xa",
         "slug": "an-ninh",
@@ -139,7 +139,7 @@
         "code": "19240",
         "parent_code": "456"
     },
-    "19243": {
+     {
         "name": "Vạn Ninh",
         "type": "xa",
         "slug": "van-ninh",
@@ -149,4 +149,4 @@
         "code": "19243",
         "parent_code": "456"
     }
-}
+]}

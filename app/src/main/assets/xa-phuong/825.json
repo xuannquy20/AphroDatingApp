@@ -1,5 +1,5 @@
 {
-    "28690": {
+    "xa":[ {
         "name": "Tân Thới",
         "type": "xa",
         "slug": "tan-thoi",
@@ -9,7 +9,7 @@
         "code": "28690",
         "parent_code": "825"
     },
-    "28693": {
+     {
         "name": "Tân Phú",
         "type": "xa",
         "slug": "tan-phu",
@@ -19,7 +19,7 @@
         "code": "28693",
         "parent_code": "825"
     },
-    "28696": {
+     {
         "name": "Phú Thạnh",
         "type": "xa",
         "slug": "phu-thanh",
@@ -29,7 +29,7 @@
         "code": "28696",
         "parent_code": "825"
     },
-    "28699": {
+     {
         "name": "Tân Thạnh",
         "type": "xa",
         "slug": "tan-thanh",
@@ -39,7 +39,7 @@
         "code": "28699",
         "parent_code": "825"
     },
-    "28750": {
+     {
         "name": "Phú Đông",
         "type": "xa",
         "slug": "phu-dong",
@@ -49,7 +49,7 @@
         "code": "28750",
         "parent_code": "825"
     },
-    "28753": {
+     {
         "name": "Phú Tân",
         "type": "xa",
         "slug": "phu-tan",
@@ -59,4 +59,4 @@
         "code": "28753",
         "parent_code": "825"
     }
-}
+]}

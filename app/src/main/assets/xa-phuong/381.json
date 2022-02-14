@@ -1,5 +1,5 @@
 {
-    "14809": {
+    "xa":[ {
         "name": "Bắc Sơn",
         "type": "phuong",
         "slug": "bac-son",
@@ -9,7 +9,7 @@
         "code": "14809",
         "parent_code": "381"
     },
-    "14812": {
+     {
         "name": "Ba Đình",
         "type": "phuong",
         "slug": "ba-dinh",
@@ -19,7 +19,7 @@
         "code": "14812",
         "parent_code": "381"
     },
-    "14815": {
+     {
         "name": "Lam Sơn",
         "type": "phuong",
         "slug": "lam-son",
@@ -29,7 +29,7 @@
         "code": "14815",
         "parent_code": "381"
     },
-    "14818": {
+     {
         "name": "Ngọc Trạo",
         "type": "phuong",
         "slug": "ngoc-trao",
@@ -39,7 +39,7 @@
         "code": "14818",
         "parent_code": "381"
     },
-    "14821": {
+     {
         "name": "Đông Sơn",
         "type": "phuong",
         "slug": "dong-son",
@@ -49,7 +49,7 @@
         "code": "14821",
         "parent_code": "381"
     },
-    "14823": {
+     {
         "name": "Phú Sơn",
         "type": "phuong",
         "slug": "phu-son",
@@ -59,7 +59,7 @@
         "code": "14823",
         "parent_code": "381"
     },
-    "14824": {
+     {
         "name": "Quang Trung",
         "type": "xa",
         "slug": "quang-trung",
@@ -69,4 +69,4 @@
         "code": "14824",
         "parent_code": "381"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "10750": {
+    "xa":[ {
         "name": "Phú Thái",
         "type": "thi-tran",
         "slug": "phu-thai",
@@ -9,7 +9,7 @@
         "code": "10750",
         "parent_code": "293"
     },
-    "10753": {
+     {
         "name": "Lai Vu",
         "type": "xa",
         "slug": "lai-vu",
@@ -19,7 +19,7 @@
         "code": "10753",
         "parent_code": "293"
     },
-    "10756": {
+     {
         "name": "Cộng Hòa",
         "type": "xa",
         "slug": "cong-hoa",
@@ -29,7 +29,7 @@
         "code": "10756",
         "parent_code": "293"
     },
-    "10759": {
+     {
         "name": "Thượng Vũ",
         "type": "xa",
         "slug": "thuong-vu",
@@ -39,7 +39,7 @@
         "code": "10759",
         "parent_code": "293"
     },
-    "10762": {
+     {
         "name": "Cổ Dũng",
         "type": "xa",
         "slug": "co-dung",
@@ -49,7 +49,7 @@
         "code": "10762",
         "parent_code": "293"
     },
-    "10768": {
+     {
         "name": "Tuấn Việt",
         "type": "xa",
         "slug": "tuan-viet",
@@ -59,7 +59,7 @@
         "code": "10768",
         "parent_code": "293"
     },
-    "10771": {
+     {
         "name": "Kim Xuyên",
         "type": "xa",
         "slug": "kim-xuyen",
@@ -69,7 +69,7 @@
         "code": "10771",
         "parent_code": "293"
     },
-    "10774": {
+     {
         "name": "Phúc Thành A",
         "type": "xa",
         "slug": "phuc-thanh-a",
@@ -79,7 +79,7 @@
         "code": "10774",
         "parent_code": "293"
     },
-    "10777": {
+     {
         "name": "Ngũ Phúc",
         "type": "xa",
         "slug": "ngu-phuc",
@@ -89,7 +89,7 @@
         "code": "10777",
         "parent_code": "293"
     },
-    "10780": {
+     {
         "name": "Kim Anh",
         "type": "xa",
         "slug": "kim-anh",
@@ -99,7 +99,7 @@
         "code": "10780",
         "parent_code": "293"
     },
-    "10783": {
+     {
         "name": "Kim Liên",
         "type": "xa",
         "slug": "kim-lien",
@@ -109,7 +109,7 @@
         "code": "10783",
         "parent_code": "293"
     },
-    "10786": {
+     {
         "name": "Kim Tân",
         "type": "xa",
         "slug": "kim-tan",
@@ -119,7 +119,7 @@
         "code": "10786",
         "parent_code": "293"
     },
-    "10792": {
+     {
         "name": "Kim Đính",
         "type": "xa",
         "slug": "kim-dinh",
@@ -129,7 +129,7 @@
         "code": "10792",
         "parent_code": "293"
     },
-    "10798": {
+     {
         "name": "Bình Dân",
         "type": "xa",
         "slug": "binh-dan",
@@ -139,7 +139,7 @@
         "code": "10798",
         "parent_code": "293"
     },
-    "10801": {
+     {
         "name": "Tam Kỳ",
         "type": "xa",
         "slug": "tam-ky",
@@ -149,7 +149,7 @@
         "code": "10801",
         "parent_code": "293"
     },
-    "10804": {
+     {
         "name": "Đồng Cẩm",
         "type": "xa",
         "slug": "dong-cam",
@@ -159,7 +159,7 @@
         "code": "10804",
         "parent_code": "293"
     },
-    "10807": {
+     {
         "name": "Liên Hòa",
         "type": "xa",
         "slug": "lien-hoa",
@@ -169,7 +169,7 @@
         "code": "10807",
         "parent_code": "293"
     },
-    "10810": {
+     {
         "name": "Đại Đức",
         "type": "xa",
         "slug": "dai-duc",
@@ -179,4 +179,4 @@
         "code": "10810",
         "parent_code": "293"
     }
-}
+]}

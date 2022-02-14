@@ -1,5 +1,5 @@
 {
-    "10015": {
+    "xa":[ {
         "name": "Chúc Sơn",
         "type": "thi-tran",
         "slug": "chuc-son",
@@ -9,7 +9,7 @@
         "code": "10015",
         "parent_code": "277"
     },
-    "10018": {
+     {
         "name": "Xuân Mai",
         "type": "thi-tran",
         "slug": "xuan-mai",
@@ -19,7 +19,7 @@
         "code": "10018",
         "parent_code": "277"
     },
-    "10021": {
+     {
         "name": "Phụng Châu",
         "type": "xa",
         "slug": "phung-chau",
@@ -29,7 +29,7 @@
         "code": "10021",
         "parent_code": "277"
     },
-    "10024": {
+     {
         "name": "Tiên Phương",
         "type": "xa",
         "slug": "tien-phuong",
@@ -39,7 +39,7 @@
         "code": "10024",
         "parent_code": "277"
     },
-    "10027": {
+     {
         "name": "Đông Sơn",
         "type": "xa",
         "slug": "dong-son",
@@ -49,7 +49,7 @@
         "code": "10027",
         "parent_code": "277"
     },
-    "10030": {
+     {
         "name": "Đông Phương Yên",
         "type": "xa",
         "slug": "dong-phuong-yen",
@@ -59,7 +59,7 @@
         "code": "10030",
         "parent_code": "277"
     },
-    "10033": {
+     {
         "name": "Phú Nghĩa",
         "type": "xa",
         "slug": "phu-nghia",
@@ -69,7 +69,7 @@
         "code": "10033",
         "parent_code": "277"
     },
-    "10039": {
+     {
         "name": "Trường Yên",
         "type": "xa",
         "slug": "truong-yen",
@@ -79,7 +79,7 @@
         "code": "10039",
         "parent_code": "277"
     },
-    "10042": {
+     {
         "name": "Ngọc Hòa",
         "type": "xa",
         "slug": "ngoc-hoa",
@@ -89,7 +89,7 @@
         "code": "10042",
         "parent_code": "277"
     },
-    "10045": {
+     {
         "name": "Thủy Xuân Tiên",
         "type": "xa",
         "slug": "thuy-xuan-tien",
@@ -99,7 +99,7 @@
         "code": "10045",
         "parent_code": "277"
     },
-    "10048": {
+     {
         "name": "Thanh Bình",
         "type": "xa",
         "slug": "thanh-binh",
@@ -109,7 +109,7 @@
         "code": "10048",
         "parent_code": "277"
     },
-    "10051": {
+     {
         "name": "Trung Hòa",
         "type": "xa",
         "slug": "trung-hoa",
@@ -119,7 +119,7 @@
         "code": "10051",
         "parent_code": "277"
     },
-    "10054": {
+     {
         "name": "Đại Yên",
         "type": "xa",
         "slug": "dai-yen",
@@ -129,7 +129,7 @@
         "code": "10054",
         "parent_code": "277"
     },
-    "10057": {
+     {
         "name": "Thụy Hương",
         "type": "xa",
         "slug": "thuy-huong",
@@ -139,7 +139,7 @@
         "code": "10057",
         "parent_code": "277"
     },
-    "10060": {
+     {
         "name": "Tốt Động",
         "type": "xa",
         "slug": "tot-dong",
@@ -149,7 +149,7 @@
         "code": "10060",
         "parent_code": "277"
     },
-    "10063": {
+     {
         "name": "Lam Điền",
         "type": "xa",
         "slug": "lam-dien",
@@ -159,7 +159,7 @@
         "code": "10063",
         "parent_code": "277"
     },
-    "10066": {
+     {
         "name": "Tân Tiến",
         "type": "xa",
         "slug": "tan-tien",
@@ -169,7 +169,7 @@
         "code": "10066",
         "parent_code": "277"
     },
-    "10069": {
+     {
         "name": "Nam Phương Tiến",
         "type": "xa",
         "slug": "nam-phuong-tien",
@@ -179,7 +179,7 @@
         "code": "10069",
         "parent_code": "277"
     },
-    "10072": {
+     {
         "name": "Hợp Đồng",
         "type": "xa",
         "slug": "hop-dong",
@@ -189,7 +189,7 @@
         "code": "10072",
         "parent_code": "277"
     },
-    "10075": {
+     {
         "name": "Hoàng Văn Thụ",
         "type": "xa",
         "slug": "hoang-van-thu",
@@ -199,7 +199,7 @@
         "code": "10075",
         "parent_code": "277"
     },
-    "10078": {
+     {
         "name": "Hoàng Diệu",
         "type": "xa",
         "slug": "hoang-dieu",
@@ -209,7 +209,7 @@
         "code": "10078",
         "parent_code": "277"
     },
-    "10081": {
+     {
         "name": "Hữu Văn",
         "type": "xa",
         "slug": "huu-van",
@@ -219,7 +219,7 @@
         "code": "10081",
         "parent_code": "277"
     },
-    "10084": {
+     {
         "name": "Quảng Bị",
         "type": "xa",
         "slug": "quang-bi",
@@ -229,7 +229,7 @@
         "code": "10084",
         "parent_code": "277"
     },
-    "10087": {
+     {
         "name": "Mỹ Lương",
         "type": "xa",
         "slug": "my-luong",
@@ -239,7 +239,7 @@
         "code": "10087",
         "parent_code": "277"
     },
-    "10090": {
+     {
         "name": "Thượng Vực",
         "type": "xa",
         "slug": "thuong-vuc",
@@ -249,7 +249,7 @@
         "code": "10090",
         "parent_code": "277"
     },
-    "10093": {
+     {
         "name": "Hồng Phong",
         "type": "xa",
         "slug": "hong-phong",
@@ -259,7 +259,7 @@
         "code": "10093",
         "parent_code": "277"
     },
-    "10096": {
+     {
         "name": "Đồng Phú",
         "type": "xa",
         "slug": "dong-phu",
@@ -269,7 +269,7 @@
         "code": "10096",
         "parent_code": "277"
     },
-    "10099": {
+     {
         "name": "Trần Phú",
         "type": "xa",
         "slug": "tran-phu",
@@ -279,7 +279,7 @@
         "code": "10099",
         "parent_code": "277"
     },
-    "10102": {
+     {
         "name": "Văn Võ",
         "type": "xa",
         "slug": "van-vo",
@@ -289,7 +289,7 @@
         "code": "10102",
         "parent_code": "277"
     },
-    "10105": {
+     {
         "name": "Đồng Lạc",
         "type": "xa",
         "slug": "dong-lac",
@@ -299,7 +299,7 @@
         "code": "10105",
         "parent_code": "277"
     },
-    "10108": {
+     {
         "name": "Hòa Chính",
         "type": "xa",
         "slug": "hoa-chinh",
@@ -309,7 +309,7 @@
         "code": "10108",
         "parent_code": "277"
     },
-    "10111": {
+     {
         "name": "Phú Nam An",
         "type": "xa",
         "slug": "phu-nam-an",
@@ -319,4 +319,4 @@
         "code": "10111",
         "parent_code": "277"
     }
-}
+]}

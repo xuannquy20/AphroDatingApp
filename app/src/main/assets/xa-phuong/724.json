@@ -1,5 +1,5 @@
 {
-    "25942": {
+    "xa":[ {
         "name": "Dĩ An",
         "type": "phuong",
         "slug": "di-an",
@@ -9,7 +9,7 @@
         "code": "25942",
         "parent_code": "724"
     },
-    "25945": {
+     {
         "name": "Tân Bình",
         "type": "phuong",
         "slug": "tan-binh",
@@ -19,7 +19,7 @@
         "code": "25945",
         "parent_code": "724"
     },
-    "25948": {
+     {
         "name": "Tân Đông Hiệp",
         "type": "phuong",
         "slug": "tan-dong-hiep",
@@ -29,7 +29,7 @@
         "code": "25948",
         "parent_code": "724"
     },
-    "25951": {
+     {
         "name": "Bình An",
         "type": "phuong",
         "slug": "binh-an",
@@ -39,7 +39,7 @@
         "code": "25951",
         "parent_code": "724"
     },
-    "25954": {
+     {
         "name": "Bình Thắng",
         "type": "phuong",
         "slug": "binh-thang",
@@ -49,7 +49,7 @@
         "code": "25954",
         "parent_code": "724"
     },
-    "25957": {
+     {
         "name": "Đông Hòa",
         "type": "phuong",
         "slug": "dong-hoa",
@@ -59,7 +59,7 @@
         "code": "25957",
         "parent_code": "724"
     },
-    "25960": {
+     {
         "name": "An Bình",
         "type": "phuong",
         "slug": "an-binh",
@@ -69,4 +69,4 @@
         "code": "25960",
         "parent_code": "724"
     }
-}
+]}

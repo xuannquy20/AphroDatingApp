@@ -1,5 +1,5 @@
 {
-    "18496": {
+    "xa":[ {
         "name": "Hương Khê",
         "type": "thi-tran",
         "slug": "huong-khe",
@@ -9,7 +9,7 @@
         "code": "18496",
         "parent_code": "444"
     },
-    "18499": {
+     {
         "name": "Điền Mỹ",
         "type": "xa",
         "slug": "dien-my",
@@ -19,7 +19,7 @@
         "code": "18499",
         "parent_code": "444"
     },
-    "18502": {
+     {
         "name": "Hà Linh",
         "type": "xa",
         "slug": "ha-linh",
@@ -29,7 +29,7 @@
         "code": "18502",
         "parent_code": "444"
     },
-    "18505": {
+     {
         "name": "Hương Thủy",
         "type": "xa",
         "slug": "huong-thuy",
@@ -39,7 +39,7 @@
         "code": "18505",
         "parent_code": "444"
     },
-    "18508": {
+     {
         "name": "Hòa Hải",
         "type": "xa",
         "slug": "hoa-hai",
@@ -49,7 +49,7 @@
         "code": "18508",
         "parent_code": "444"
     },
-    "18514": {
+     {
         "name": "Phúc Đồng",
         "type": "xa",
         "slug": "phuc-dong",
@@ -59,7 +59,7 @@
         "code": "18514",
         "parent_code": "444"
     },
-    "18517": {
+     {
         "name": "Hương Giang",
         "type": "xa",
         "slug": "huong-giang",
@@ -69,7 +69,7 @@
         "code": "18517",
         "parent_code": "444"
     },
-    "18520": {
+     {
         "name": "Lộc Yên",
         "type": "xa",
         "slug": "loc-yen",
@@ -79,7 +79,7 @@
         "code": "18520",
         "parent_code": "444"
     },
-    "18523": {
+     {
         "name": "Hương Bình",
         "type": "xa",
         "slug": "huong-binh",
@@ -89,7 +89,7 @@
         "code": "18523",
         "parent_code": "444"
     },
-    "18526": {
+     {
         "name": "Hương Long",
         "type": "xa",
         "slug": "huong-long",
@@ -99,7 +99,7 @@
         "code": "18526",
         "parent_code": "444"
     },
-    "18529": {
+     {
         "name": "Phú Gia",
         "type": "xa",
         "slug": "phu-gia",
@@ -109,7 +109,7 @@
         "code": "18529",
         "parent_code": "444"
     },
-    "18532": {
+     {
         "name": "Gia Phố",
         "type": "xa",
         "slug": "gia-pho",
@@ -119,7 +119,7 @@
         "code": "18532",
         "parent_code": "444"
     },
-    "18535": {
+     {
         "name": "Phú Phong",
         "type": "xa",
         "slug": "phu-phong",
@@ -129,7 +129,7 @@
         "code": "18535",
         "parent_code": "444"
     },
-    "18538": {
+     {
         "name": "Hương Đô",
         "type": "xa",
         "slug": "huong-do",
@@ -139,7 +139,7 @@
         "code": "18538",
         "parent_code": "444"
     },
-    "18541": {
+     {
         "name": "Hương Vĩnh",
         "type": "xa",
         "slug": "huong-vinh",
@@ -149,7 +149,7 @@
         "code": "18541",
         "parent_code": "444"
     },
-    "18544": {
+     {
         "name": "Hương Xuân",
         "type": "xa",
         "slug": "huong-xuan",
@@ -159,7 +159,7 @@
         "code": "18544",
         "parent_code": "444"
     },
-    "18547": {
+     {
         "name": "Phúc Trạch",
         "type": "xa",
         "slug": "phuc-trach",
@@ -169,7 +169,7 @@
         "code": "18547",
         "parent_code": "444"
     },
-    "18550": {
+     {
         "name": "Hương Trà",
         "type": "xa",
         "slug": "huong-tra",
@@ -179,7 +179,7 @@
         "code": "18550",
         "parent_code": "444"
     },
-    "18553": {
+     {
         "name": "Hương Trạch",
         "type": "xa",
         "slug": "huong-trach",
@@ -189,7 +189,7 @@
         "code": "18553",
         "parent_code": "444"
     },
-    "18556": {
+     {
         "name": "Hương Lâm",
         "type": "xa",
         "slug": "huong-lam",
@@ -199,7 +199,7 @@
         "code": "18556",
         "parent_code": "444"
     },
-    "18559": {
+     {
         "name": "Hương Liên",
         "type": "xa",
         "slug": "huong-lien",
@@ -209,4 +209,4 @@
         "code": "18559",
         "parent_code": "444"
     }
-}
+]}

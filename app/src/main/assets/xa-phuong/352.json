@@ -1,5 +1,5 @@
 {
-    "13501": {
+    "xa":[ {
         "name": "Bình Mỹ",
         "type": "thi-tran",
         "slug": "binh-my",
@@ -9,7 +9,7 @@
         "code": "13501",
         "parent_code": "352"
     },
-    "13504": {
+     {
         "name": "Bình Nghĩa",
         "type": "xa",
         "slug": "binh-nghia",
@@ -19,7 +19,7 @@
         "code": "13504",
         "parent_code": "352"
     },
-    "13510": {
+     {
         "name": "Tràng An",
         "type": "xa",
         "slug": "trang-an",
@@ -29,7 +29,7 @@
         "code": "13510",
         "parent_code": "352"
     },
-    "13516": {
+     {
         "name": "Đồng Du",
         "type": "xa",
         "slug": "dong-du",
@@ -39,7 +39,7 @@
         "code": "13516",
         "parent_code": "352"
     },
-    "13519": {
+     {
         "name": "Ngọc Lũ",
         "type": "xa",
         "slug": "ngoc-lu",
@@ -49,7 +49,7 @@
         "code": "13519",
         "parent_code": "352"
     },
-    "13522": {
+     {
         "name": "Hưng Công",
         "type": "xa",
         "slug": "hung-cong",
@@ -59,7 +59,7 @@
         "code": "13522",
         "parent_code": "352"
     },
-    "13525": {
+     {
         "name": "Đồn Xá",
         "type": "xa",
         "slug": "don-xa",
@@ -69,7 +69,7 @@
         "code": "13525",
         "parent_code": "352"
     },
-    "13528": {
+     {
         "name": "An Ninh",
         "type": "xa",
         "slug": "an-ninh",
@@ -79,7 +79,7 @@
         "code": "13528",
         "parent_code": "352"
     },
-    "13531": {
+     {
         "name": "Bồ Đề",
         "type": "xa",
         "slug": "bo-de",
@@ -89,7 +89,7 @@
         "code": "13531",
         "parent_code": "352"
     },
-    "13534": {
+     {
         "name": "Bối Cầu",
         "type": "xa",
         "slug": "boi-cau",
@@ -99,7 +99,7 @@
         "code": "13534",
         "parent_code": "352"
     },
-    "13540": {
+     {
         "name": "An Nội",
         "type": "xa",
         "slug": "an-noi",
@@ -109,7 +109,7 @@
         "code": "13540",
         "parent_code": "352"
     },
-    "13543": {
+     {
         "name": "Vũ Bản",
         "type": "xa",
         "slug": "vu-ban",
@@ -119,7 +119,7 @@
         "code": "13543",
         "parent_code": "352"
     },
-    "13546": {
+     {
         "name": "Trung Lương",
         "type": "xa",
         "slug": "trung-luong",
@@ -129,7 +129,7 @@
         "code": "13546",
         "parent_code": "352"
     },
-    "13552": {
+     {
         "name": "An Đổ",
         "type": "xa",
         "slug": "an-do",
@@ -139,7 +139,7 @@
         "code": "13552",
         "parent_code": "352"
     },
-    "13555": {
+     {
         "name": "La Sơn",
         "type": "xa",
         "slug": "la-son",
@@ -149,7 +149,7 @@
         "code": "13555",
         "parent_code": "352"
     },
-    "13558": {
+     {
         "name": "Tiêu Động",
         "type": "xa",
         "slug": "tieu-dong",
@@ -159,7 +159,7 @@
         "code": "13558",
         "parent_code": "352"
     },
-    "13561": {
+     {
         "name": "An Lão",
         "type": "xa",
         "slug": "an-lao",
@@ -169,4 +169,4 @@
         "code": "13561",
         "parent_code": "352"
     }
-}
+]}

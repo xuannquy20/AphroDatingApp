@@ -1,5 +1,5 @@
 {
-    "01627": {
+    "xa":[ {
         "name": "Tà Lùng",
         "type": "thi-tran",
         "slug": "ta-lung",
@@ -9,7 +9,7 @@
         "code": "01627",
         "parent_code": "050"
     },
-    "01630": {
+     {
         "name": "Triệu ẩu",
         "type": "xa",
         "slug": "trieu-au",
@@ -19,7 +19,7 @@
         "code": "01630",
         "parent_code": "050"
     },
-    "01633": {
+     {
         "name": "Hồng Đại",
         "type": "xa",
         "slug": "hong-dai",
@@ -29,7 +29,7 @@
         "code": "01633",
         "parent_code": "050"
     },
-    "01636": {
+     {
         "name": "Cách Linh",
         "type": "xa",
         "slug": "cach-linh",
@@ -39,7 +39,7 @@
         "code": "01636",
         "parent_code": "050"
     },
-    "01639": {
+     {
         "name": "Đại Sơn",
         "type": "xa",
         "slug": "dai-son",
@@ -49,7 +49,7 @@
         "code": "01639",
         "parent_code": "050"
     },
-    "01642": {
+     {
         "name": "Lương Thiện",
         "type": "xa",
         "slug": "luong-thien",
@@ -59,7 +59,7 @@
         "code": "01642",
         "parent_code": "050"
     },
-    "01645": {
+     {
         "name": "Tiên Thành",
         "type": "xa",
         "slug": "tien-thanh",
@@ -69,7 +69,7 @@
         "code": "01645",
         "parent_code": "050"
     },
-    "01648": {
+     {
         "name": "Hoà Thuận",
         "type": "thi-tran",
         "slug": "hoa-thuan",
@@ -79,7 +79,7 @@
         "code": "01648",
         "parent_code": "050"
     },
-    "01651": {
+     {
         "name": "Mỹ Hưng",
         "type": "xa",
         "slug": "my-hung",
@@ -89,4 +89,5 @@
         "code": "01651",
         "parent_code": "050"
     }
+]
 }

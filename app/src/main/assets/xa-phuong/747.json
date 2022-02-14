@@ -1,5 +1,5 @@
 {
-    "26506": {
+    "xa":[ {
         "name": "1",
         "type": "phuong",
         "slug": "1",
@@ -9,7 +9,7 @@
         "code": "26506",
         "parent_code": "747"
     },
-    "26508": {
+     {
         "name": "Thắng Tam",
         "type": "phuong",
         "slug": "thang-tam",
@@ -19,7 +19,7 @@
         "code": "26508",
         "parent_code": "747"
     },
-    "26509": {
+     {
         "name": "2",
         "type": "phuong",
         "slug": "2",
@@ -29,7 +29,7 @@
         "code": "26509",
         "parent_code": "747"
     },
-    "26512": {
+     {
         "name": "3",
         "type": "phuong",
         "slug": "3",
@@ -39,7 +39,7 @@
         "code": "26512",
         "parent_code": "747"
     },
-    "26515": {
+     {
         "name": "4",
         "type": "phuong",
         "slug": "4",
@@ -49,7 +49,7 @@
         "code": "26515",
         "parent_code": "747"
     },
-    "26518": {
+     {
         "name": "5",
         "type": "phuong",
         "slug": "5",
@@ -59,7 +59,7 @@
         "code": "26518",
         "parent_code": "747"
     },
-    "26521": {
+     {
         "name": "Thắng Nhì",
         "type": "phuong",
         "slug": "thang-nhi",
@@ -69,7 +69,7 @@
         "code": "26521",
         "parent_code": "747"
     },
-    "26524": {
+     {
         "name": "7",
         "type": "phuong",
         "slug": "7",
@@ -79,7 +79,7 @@
         "code": "26524",
         "parent_code": "747"
     },
-    "26526": {
+     {
         "name": "Nguyễn An Ninh",
         "type": "phuong",
         "slug": "nguyen-an-ninh",
@@ -89,7 +89,7 @@
         "code": "26526",
         "parent_code": "747"
     },
-    "26527": {
+     {
         "name": "8",
         "type": "phuong",
         "slug": "8",
@@ -99,7 +99,7 @@
         "code": "26527",
         "parent_code": "747"
     },
-    "26530": {
+     {
         "name": "9",
         "type": "phuong",
         "slug": "9",
@@ -109,7 +109,7 @@
         "code": "26530",
         "parent_code": "747"
     },
-    "26533": {
+     {
         "name": "Thắng Nhất",
         "type": "phuong",
         "slug": "thang-nhat",
@@ -119,7 +119,7 @@
         "code": "26533",
         "parent_code": "747"
     },
-    "26535": {
+     {
         "name": "Rạch Dừa",
         "type": "phuong",
         "slug": "rach-dua",
@@ -129,7 +129,7 @@
         "code": "26535",
         "parent_code": "747"
     },
-    "26536": {
+     {
         "name": "10",
         "type": "phuong",
         "slug": "10",
@@ -139,7 +139,7 @@
         "code": "26536",
         "parent_code": "747"
     },
-    "26539": {
+     {
         "name": "11",
         "type": "phuong",
         "slug": "11",
@@ -149,7 +149,7 @@
         "code": "26539",
         "parent_code": "747"
     },
-    "26542": {
+     {
         "name": "12",
         "type": "phuong",
         "slug": "12",
@@ -159,7 +159,7 @@
         "code": "26542",
         "parent_code": "747"
     },
-    "26545": {
+     {
         "name": "Long Sơn",
         "type": "xa",
         "slug": "long-son",
@@ -169,4 +169,4 @@
         "code": "26545",
         "parent_code": "747"
     }
-}
+]}

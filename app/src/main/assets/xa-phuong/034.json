@@ -1,5 +1,5 @@
 {
-    "01153": {
+     {
         "name": "Việt Quang",
         "type": "thi-tran",
         "slug": "viet-quang",
@@ -9,7 +9,7 @@
         "code": "01153",
         "parent_code": "034"
     },
-    "01156": {
+     {
         "name": "Vĩnh Tuy",
         "type": "thi-tran",
         "slug": "vinh-tuy",
@@ -19,7 +19,7 @@
         "code": "01156",
         "parent_code": "034"
     },
-    "01159": {
+     {
         "name": "Tân Lập",
         "type": "xa",
         "slug": "tan-lap",
@@ -29,7 +29,7 @@
         "code": "01159",
         "parent_code": "034"
     },
-    "01162": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -39,7 +39,7 @@
         "code": "01162",
         "parent_code": "034"
     },
-    "01165": {
+     {
         "name": "Đồng Tiến",
         "type": "xa",
         "slug": "dong-tien",
@@ -49,7 +49,7 @@
         "code": "01165",
         "parent_code": "034"
     },
-    "01168": {
+     {
         "name": "Đồng Tâm",
         "type": "xa",
         "slug": "dong-tam",
@@ -59,7 +59,7 @@
         "code": "01168",
         "parent_code": "034"
     },
-    "01171": {
+     {
         "name": "Tân Quang",
         "type": "xa",
         "slug": "tan-quang",
@@ -69,7 +69,7 @@
         "code": "01171",
         "parent_code": "034"
     },
-    "01174": {
+     {
         "name": "Thượng Bình",
         "type": "xa",
         "slug": "thuong-binh",
@@ -79,7 +79,7 @@
         "code": "01174",
         "parent_code": "034"
     },
-    "01177": {
+     {
         "name": "Hữu Sản",
         "type": "xa",
         "slug": "huu-san",
@@ -89,7 +89,7 @@
         "code": "01177",
         "parent_code": "034"
     },
-    "01180": {
+     {
         "name": "Kim Ngọc",
         "type": "xa",
         "slug": "kim-ngoc",
@@ -99,7 +99,7 @@
         "code": "01180",
         "parent_code": "034"
     },
-    "01183": {
+     {
         "name": "Việt Vinh",
         "type": "xa",
         "slug": "viet-vinh",
@@ -109,7 +109,7 @@
         "code": "01183",
         "parent_code": "034"
     },
-    "01186": {
+     {
         "name": "Bằng Hành",
         "type": "xa",
         "slug": "bang-hanh",
@@ -119,7 +119,7 @@
         "code": "01186",
         "parent_code": "034"
     },
-    "01189": {
+     {
         "name": "Quang Minh",
         "type": "xa",
         "slug": "quang-minh",
@@ -129,7 +129,7 @@
         "code": "01189",
         "parent_code": "034"
     },
-    "01192": {
+     {
         "name": "Liên Hiệp",
         "type": "xa",
         "slug": "lien-hiep",
@@ -139,7 +139,7 @@
         "code": "01192",
         "parent_code": "034"
     },
-    "01195": {
+     {
         "name": "Vô Điếm",
         "type": "xa",
         "slug": "vo-diem",
@@ -149,7 +149,7 @@
         "code": "01195",
         "parent_code": "034"
     },
-    "01198": {
+     {
         "name": "Việt Hồng",
         "type": "xa",
         "slug": "viet-hong",
@@ -159,7 +159,7 @@
         "code": "01198",
         "parent_code": "034"
     },
-    "01201": {
+     {
         "name": "Hùng An",
         "type": "xa",
         "slug": "hung-an",
@@ -169,7 +169,7 @@
         "code": "01201",
         "parent_code": "034"
     },
-    "01204": {
+     {
         "name": "Đức Xuân",
         "type": "xa",
         "slug": "duc-xuan",
@@ -179,7 +179,7 @@
         "code": "01204",
         "parent_code": "034"
     },
-    "01207": {
+     {
         "name": "Tiên Kiều",
         "type": "xa",
         "slug": "tien-kieu",
@@ -189,7 +189,7 @@
         "code": "01207",
         "parent_code": "034"
     },
-    "01210": {
+     {
         "name": "Vĩnh Hảo",
         "type": "xa",
         "slug": "vinh-hao",
@@ -199,7 +199,7 @@
         "code": "01210",
         "parent_code": "034"
     },
-    "01213": {
+     {
         "name": "Vĩnh Phúc",
         "type": "xa",
         "slug": "vinh-phuc",
@@ -209,7 +209,7 @@
         "code": "01213",
         "parent_code": "034"
     },
-    "01216": {
+     {
         "name": "Đồng Yên",
         "type": "xa",
         "slug": "dong-yen",
@@ -219,7 +219,7 @@
         "code": "01216",
         "parent_code": "034"
     },
-    "01219": {
+     {
         "name": "Đông Thành",
         "type": "xa",
         "slug": "dong-thanh",

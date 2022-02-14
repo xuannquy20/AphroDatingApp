@@ -1,5 +1,5 @@
 {
-    "23941": {
+    "xa":[ {
         "name": "Chư Sê",
         "type": "thi-tran",
         "slug": "chu-se",
@@ -9,7 +9,7 @@
         "code": "23941",
         "parent_code": "633"
     },
-    "23944": {
+     {
         "name": "Ia Tiêm",
         "type": "xa",
         "slug": "ia-tiem",
@@ -19,7 +19,7 @@
         "code": "23944",
         "parent_code": "633"
     },
-    "23945": {
+     {
         "name": "Chư Pơng",
         "type": "xa",
         "slug": "chu-pong",
@@ -29,7 +29,7 @@
         "code": "23945",
         "parent_code": "633"
     },
-    "23946": {
+     {
         "name": "Bar Măih",
         "type": "xa",
         "slug": "bar-maih",
@@ -39,7 +39,7 @@
         "code": "23946",
         "parent_code": "633"
     },
-    "23947": {
+     {
         "name": "Bờ Ngoong",
         "type": "xa",
         "slug": "bo-ngoong",
@@ -49,7 +49,7 @@
         "code": "23947",
         "parent_code": "633"
     },
-    "23950": {
+     {
         "name": "Ia Glai",
         "type": "xa",
         "slug": "ia-glai",
@@ -59,7 +59,7 @@
         "code": "23950",
         "parent_code": "633"
     },
-    "23953": {
+     {
         "name": "AL Bá",
         "type": "xa",
         "slug": "al-ba",
@@ -69,7 +69,7 @@
         "code": "23953",
         "parent_code": "633"
     },
-    "23954": {
+     {
         "name": "Kông HTok",
         "type": "xa",
         "slug": "kong-htok",
@@ -79,7 +79,7 @@
         "code": "23954",
         "parent_code": "633"
     },
-    "23956": {
+     {
         "name": "AYun",
         "type": "xa",
         "slug": "ayun",
@@ -89,7 +89,7 @@
         "code": "23956",
         "parent_code": "633"
     },
-    "23959": {
+     {
         "name": "Ia HLốp",
         "type": "xa",
         "slug": "ia-hlop",
@@ -99,7 +99,7 @@
         "code": "23959",
         "parent_code": "633"
     },
-    "23962": {
+     {
         "name": "Ia Blang",
         "type": "xa",
         "slug": "ia-blang",
@@ -109,7 +109,7 @@
         "code": "23962",
         "parent_code": "633"
     },
-    "23965": {
+     {
         "name": "Dun",
         "type": "xa",
         "slug": "dun",
@@ -119,7 +119,7 @@
         "code": "23965",
         "parent_code": "633"
     },
-    "23966": {
+     {
         "name": "Ia Pal",
         "type": "xa",
         "slug": "ia-pal",
@@ -129,7 +129,7 @@
         "code": "23966",
         "parent_code": "633"
     },
-    "23968": {
+     {
         "name": "H Bông",
         "type": "xa",
         "slug": "h-bong",
@@ -139,7 +139,7 @@
         "code": "23968",
         "parent_code": "633"
     },
-    "23977": {
+     {
         "name": "Ia Ko",
         "type": "xa",
         "slug": "ia-ko",
@@ -149,4 +149,4 @@
         "code": "23977",
         "parent_code": "633"
     }
-}
+]}

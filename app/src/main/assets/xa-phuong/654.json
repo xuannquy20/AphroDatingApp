@@ -1,5 +1,5 @@
 {
-    "24490": {
+    "xa":[ {
         "name": "Phước An",
         "type": "thi-tran",
         "slug": "phuoc-an",
@@ -9,7 +9,7 @@
         "code": "24490",
         "parent_code": "654"
     },
-    "24493": {
+     {
         "name": "KRông Búk",
         "type": "xa",
         "slug": "krong-buk",
@@ -19,7 +19,7 @@
         "code": "24493",
         "parent_code": "654"
     },
-    "24496": {
+     {
         "name": "Ea Kly",
         "type": "xa",
         "slug": "ea-kly",
@@ -29,7 +29,7 @@
         "code": "24496",
         "parent_code": "654"
     },
-    "24499": {
+     {
         "name": "Ea Kênh",
         "type": "xa",
         "slug": "ea-kenh",
@@ -39,7 +39,7 @@
         "code": "24499",
         "parent_code": "654"
     },
-    "24502": {
+     {
         "name": "Ea Phê",
         "type": "xa",
         "slug": "ea-phe",
@@ -49,7 +49,7 @@
         "code": "24502",
         "parent_code": "654"
     },
-    "24505": {
+     {
         "name": "Ea KNuec",
         "type": "xa",
         "slug": "ea-knuec",
@@ -59,7 +59,7 @@
         "code": "24505",
         "parent_code": "654"
     },
-    "24508": {
+     {
         "name": "Ea Yông",
         "type": "xa",
         "slug": "ea-yong",
@@ -69,7 +69,7 @@
         "code": "24508",
         "parent_code": "654"
     },
-    "24511": {
+     {
         "name": "Hòa An",
         "type": "xa",
         "slug": "hoa-an",
@@ -79,7 +79,7 @@
         "code": "24511",
         "parent_code": "654"
     },
-    "24514": {
+     {
         "name": "Ea Kuăng",
         "type": "xa",
         "slug": "ea-kuang",
@@ -89,7 +89,7 @@
         "code": "24514",
         "parent_code": "654"
     },
-    "24517": {
+     {
         "name": "Hòa Đông",
         "type": "xa",
         "slug": "hoa-dong",
@@ -99,7 +99,7 @@
         "code": "24517",
         "parent_code": "654"
     },
-    "24520": {
+     {
         "name": "Ea Hiu",
         "type": "xa",
         "slug": "ea-hiu",
@@ -109,7 +109,7 @@
         "code": "24520",
         "parent_code": "654"
     },
-    "24523": {
+     {
         "name": "Hòa Tiến",
         "type": "xa",
         "slug": "hoa-tien",
@@ -119,7 +119,7 @@
         "code": "24523",
         "parent_code": "654"
     },
-    "24526": {
+     {
         "name": "Tân Tiến",
         "type": "xa",
         "slug": "tan-tien",
@@ -129,7 +129,7 @@
         "code": "24526",
         "parent_code": "654"
     },
-    "24529": {
+     {
         "name": "Vụ Bổn",
         "type": "xa",
         "slug": "vu-bon",
@@ -139,7 +139,7 @@
         "code": "24529",
         "parent_code": "654"
     },
-    "24532": {
+     {
         "name": "Ea Uy",
         "type": "xa",
         "slug": "ea-uy",
@@ -149,7 +149,7 @@
         "code": "24532",
         "parent_code": "654"
     },
-    "24535": {
+     {
         "name": "Ea Yiêng",
         "type": "xa",
         "slug": "ea-yieng",
@@ -159,4 +159,4 @@
         "code": "24535",
         "parent_code": "654"
     }
-}
+]}

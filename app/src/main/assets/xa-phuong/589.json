@@ -1,5 +1,5 @@
 {
-    "22885": {
+    "xa":[ {
         "name": "Phước Hà",
         "type": "xa",
         "slug": "phuoc-ha",
@@ -9,7 +9,7 @@
         "code": "22885",
         "parent_code": "589"
     },
-    "22897": {
+     {
         "name": "Phước Nam",
         "type": "xa",
         "slug": "phuoc-nam",
@@ -19,7 +19,7 @@
         "code": "22897",
         "parent_code": "589"
     },
-    "22898": {
+     {
         "name": "Phước Ninh",
         "type": "xa",
         "slug": "phuoc-ninh",
@@ -29,7 +29,7 @@
         "code": "22898",
         "parent_code": "589"
     },
-    "22900": {
+     {
         "name": "Nhị Hà",
         "type": "xa",
         "slug": "nhi-ha",
@@ -39,7 +39,7 @@
         "code": "22900",
         "parent_code": "589"
     },
-    "22903": {
+     {
         "name": "Phước Dinh",
         "type": "xa",
         "slug": "phuoc-dinh",
@@ -49,7 +49,7 @@
         "code": "22903",
         "parent_code": "589"
     },
-    "22906": {
+     {
         "name": "Phước Minh",
         "type": "xa",
         "slug": "phuoc-minh",
@@ -59,7 +59,7 @@
         "code": "22906",
         "parent_code": "589"
     },
-    "22909": {
+     {
         "name": "Phước Diêm",
         "type": "xa",
         "slug": "phuoc-diem",
@@ -69,7 +69,7 @@
         "code": "22909",
         "parent_code": "589"
     },
-    "22910": {
+     {
         "name": "Cà Ná",
         "type": "xa",
         "slug": "ca-na",
@@ -79,4 +79,4 @@
         "code": "22910",
         "parent_code": "589"
     }
-}
+]}

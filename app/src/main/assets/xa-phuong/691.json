@@ -1,5 +1,5 @@
 {
-    "25222": {
+    "xa":[ {
         "name": "Bù Gia Mập",
         "type": "xa",
         "slug": "bu-gia-map",
@@ -9,7 +9,7 @@
         "code": "25222",
         "parent_code": "691"
     },
-    "25225": {
+     {
         "name": "Đak Ơ",
         "type": "xa",
         "slug": "dak-o",
@@ -19,7 +19,7 @@
         "code": "25225",
         "parent_code": "691"
     },
-    "25228": {
+     {
         "name": "Đức Hạnh",
         "type": "xa",
         "slug": "duc-hanh",
@@ -29,7 +29,7 @@
         "code": "25228",
         "parent_code": "691"
     },
-    "25229": {
+     {
         "name": "Phú Văn",
         "type": "xa",
         "slug": "phu-van",
@@ -39,7 +39,7 @@
         "code": "25229",
         "parent_code": "691"
     },
-    "25231": {
+     {
         "name": "Đa Kia",
         "type": "xa",
         "slug": "da-kia",
@@ -49,7 +49,7 @@
         "code": "25231",
         "parent_code": "691"
     },
-    "25232": {
+     {
         "name": "Phước Minh",
         "type": "xa",
         "slug": "phuoc-minh",
@@ -59,7 +59,7 @@
         "code": "25232",
         "parent_code": "691"
     },
-    "25234": {
+     {
         "name": "Bình Thắng",
         "type": "xa",
         "slug": "binh-thang",
@@ -69,7 +69,7 @@
         "code": "25234",
         "parent_code": "691"
     },
-    "25267": {
+     {
         "name": "Phú Nghĩa",
         "type": "xa",
         "slug": "phu-nghia",
@@ -79,4 +79,4 @@
         "code": "25267",
         "parent_code": "691"
     }
-}
+]}

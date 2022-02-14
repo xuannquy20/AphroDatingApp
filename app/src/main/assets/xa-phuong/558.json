@@ -1,5 +1,5 @@
 {
-    "22081": {
+    "xa":[ {
         "name": "La Hai",
         "type": "thi-tran",
         "slug": "la-hai",
@@ -9,7 +9,7 @@
         "code": "22081",
         "parent_code": "558"
     },
-    "22084": {
+     {
         "name": "Đa Lộc",
         "type": "xa",
         "slug": "da-loc",
@@ -19,7 +19,7 @@
         "code": "22084",
         "parent_code": "558"
     },
-    "22087": {
+     {
         "name": "Phú Mỡ",
         "type": "xa",
         "slug": "phu-mo",
@@ -29,7 +29,7 @@
         "code": "22087",
         "parent_code": "558"
     },
-    "22090": {
+     {
         "name": "Xuân Lãnh",
         "type": "xa",
         "slug": "xuan-lanh",
@@ -39,7 +39,7 @@
         "code": "22090",
         "parent_code": "558"
     },
-    "22093": {
+     {
         "name": "Xuân Long",
         "type": "xa",
         "slug": "xuan-long",
@@ -49,7 +49,7 @@
         "code": "22093",
         "parent_code": "558"
     },
-    "22096": {
+     {
         "name": "Xuân Quang 1",
         "type": "xa",
         "slug": "xuan-quang-1",
@@ -59,7 +59,7 @@
         "code": "22096",
         "parent_code": "558"
     },
-    "22099": {
+     {
         "name": "Xuân Sơn Bắc",
         "type": "xa",
         "slug": "xuan-son-bac",
@@ -69,7 +69,7 @@
         "code": "22099",
         "parent_code": "558"
     },
-    "22102": {
+     {
         "name": "Xuân Quang 2",
         "type": "xa",
         "slug": "xuan-quang-2",
@@ -79,7 +79,7 @@
         "code": "22102",
         "parent_code": "558"
     },
-    "22105": {
+     {
         "name": "Xuân Sơn Nam",
         "type": "xa",
         "slug": "xuan-son-nam",
@@ -89,7 +89,7 @@
         "code": "22105",
         "parent_code": "558"
     },
-    "22108": {
+     {
         "name": "Xuân Quang 3",
         "type": "xa",
         "slug": "xuan-quang-3",
@@ -99,7 +99,7 @@
         "code": "22108",
         "parent_code": "558"
     },
-    "22111": {
+     {
         "name": "Xuân Phước",
         "type": "xa",
         "slug": "xuan-phuoc",
@@ -109,4 +109,4 @@
         "code": "22111",
         "parent_code": "558"
     }
-}
+]}

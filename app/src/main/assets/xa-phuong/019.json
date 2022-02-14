@@ -1,5 +1,5 @@
 {
-    "00592": {
+     "xa" :[{
         "name": "Cầu Diễn",
         "type": "phuong",
         "slug": "cau-dien",
@@ -9,7 +9,7 @@
         "code": "00592",
         "parent_code": "019"
     },
-    "00622": {
+     {
         "name": "Xuân Phương",
         "type": "phuong",
         "slug": "xuan-phuong",
@@ -19,7 +19,7 @@
         "code": "00622",
         "parent_code": "019"
     },
-    "00623": {
+     {
         "name": "Phương Canh",
         "type": "phuong",
         "slug": "phuong-canh",
@@ -29,7 +29,7 @@
         "code": "00623",
         "parent_code": "019"
     },
-    "00625": {
+     {
         "name": "Mỹ Đình 1",
         "type": "phuong",
         "slug": "my-dinh-1",
@@ -39,7 +39,7 @@
         "code": "00625",
         "parent_code": "019"
     },
-    "00626": {
+     {
         "name": "Mỹ Đình 2",
         "type": "phuong",
         "slug": "my-dinh-2",
@@ -49,7 +49,7 @@
         "code": "00626",
         "parent_code": "019"
     },
-    "00628": {
+     {
         "name": "Tây Mỗ",
         "type": "phuong",
         "slug": "tay-mo",
@@ -59,7 +59,7 @@
         "code": "00628",
         "parent_code": "019"
     },
-    "00631": {
+     {
         "name": "Mễ Trì",
         "type": "phuong",
         "slug": "me-tri",
@@ -69,7 +69,7 @@
         "code": "00631",
         "parent_code": "019"
     },
-    "00632": {
+     {
         "name": "Phú Đô",
         "type": "phuong",
         "slug": "phu-do",
@@ -79,7 +79,7 @@
         "code": "00632",
         "parent_code": "019"
     },
-    "00634": {
+     {
         "name": "Đại Mỗ",
         "type": "phuong",
         "slug": "dai-mo",
@@ -89,7 +89,7 @@
         "code": "00634",
         "parent_code": "019"
     },
-    "00637": {
+     {
         "name": "Trung Văn",
         "type": "phuong",
         "slug": "trung-van",
@@ -99,4 +99,5 @@
         "code": "00637",
         "parent_code": "019"
     }
+]
 }

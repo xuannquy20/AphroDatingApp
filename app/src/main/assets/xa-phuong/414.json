@@ -1,5 +1,5 @@
 {
-    "16939": {
+    "xa":[ {
         "name": "Hoà Hiếu",
         "type": "phuong",
         "slug": "hoa-hieu",
@@ -9,7 +9,7 @@
         "code": "16939",
         "parent_code": "414"
     },
-    "16993": {
+     {
         "name": "Quang Phong",
         "type": "phuong",
         "slug": "quang-phong",
@@ -19,7 +19,7 @@
         "code": "16993",
         "parent_code": "414"
     },
-    "16994": {
+     {
         "name": "Quang Tiến",
         "type": "phuong",
         "slug": "quang-tien",
@@ -29,7 +29,7 @@
         "code": "16994",
         "parent_code": "414"
     },
-    "17003": {
+     {
         "name": "Long Sơn",
         "type": "phuong",
         "slug": "long-son",
@@ -39,7 +39,7 @@
         "code": "17003",
         "parent_code": "414"
     },
-    "17005": {
+     {
         "name": "Nghĩa Tiến",
         "type": "xa",
         "slug": "nghia-tien",
@@ -49,7 +49,7 @@
         "code": "17005",
         "parent_code": "414"
     },
-    "17008": {
+     {
         "name": "Nghĩa Mỹ",
         "type": "xa",
         "slug": "nghia-my",
@@ -59,7 +59,7 @@
         "code": "17008",
         "parent_code": "414"
     },
-    "17011": {
+     {
         "name": "Tây Hiếu",
         "type": "xa",
         "slug": "tay-hieu",
@@ -69,7 +69,7 @@
         "code": "17011",
         "parent_code": "414"
     },
-    "17014": {
+     {
         "name": "Nghĩa Thuận",
         "type": "xa",
         "slug": "nghia-thuan",
@@ -79,7 +79,7 @@
         "code": "17014",
         "parent_code": "414"
     },
-    "17017": {
+     {
         "name": "Đông Hiếu",
         "type": "xa",
         "slug": "dong-hieu",
@@ -89,4 +89,4 @@
         "code": "17017",
         "parent_code": "414"
     }
-}
+]}

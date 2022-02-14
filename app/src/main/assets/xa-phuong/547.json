@@ -1,5 +1,5 @@
 {
-    "21808": {
+    "xa":[ {
         "name": "Phú Phong",
         "type": "thi-tran",
         "slug": "phu-phong",
@@ -9,7 +9,7 @@
         "code": "21808",
         "parent_code": "547"
     },
-    "21811": {
+     {
         "name": "Bình Tân",
         "type": "xa",
         "slug": "binh-tan",
@@ -19,7 +19,7 @@
         "code": "21811",
         "parent_code": "547"
     },
-    "21814": {
+     {
         "name": "Tây Thuận",
         "type": "xa",
         "slug": "tay-thuan",
@@ -29,7 +29,7 @@
         "code": "21814",
         "parent_code": "547"
     },
-    "21817": {
+     {
         "name": "Bình Thuận",
         "type": "xa",
         "slug": "binh-thuan",
@@ -39,7 +39,7 @@
         "code": "21817",
         "parent_code": "547"
     },
-    "21820": {
+     {
         "name": "Tây Giang",
         "type": "xa",
         "slug": "tay-giang",
@@ -49,7 +49,7 @@
         "code": "21820",
         "parent_code": "547"
     },
-    "21823": {
+     {
         "name": "Bình Thành",
         "type": "xa",
         "slug": "binh-thanh",
@@ -59,7 +59,7 @@
         "code": "21823",
         "parent_code": "547"
     },
-    "21826": {
+     {
         "name": "Tây An",
         "type": "xa",
         "slug": "tay-an",
@@ -69,7 +69,7 @@
         "code": "21826",
         "parent_code": "547"
     },
-    "21829": {
+     {
         "name": "Bình Hòa",
         "type": "xa",
         "slug": "binh-hoa",
@@ -79,7 +79,7 @@
         "code": "21829",
         "parent_code": "547"
     },
-    "21832": {
+     {
         "name": "Tây Bình",
         "type": "xa",
         "slug": "tay-binh",
@@ -89,7 +89,7 @@
         "code": "21832",
         "parent_code": "547"
     },
-    "21835": {
+     {
         "name": "Bình Tường",
         "type": "xa",
         "slug": "binh-tuong",
@@ -99,7 +99,7 @@
         "code": "21835",
         "parent_code": "547"
     },
-    "21838": {
+     {
         "name": "Tây Vinh",
         "type": "xa",
         "slug": "tay-vinh",
@@ -109,7 +109,7 @@
         "code": "21838",
         "parent_code": "547"
     },
-    "21841": {
+     {
         "name": "Vĩnh An",
         "type": "xa",
         "slug": "vinh-an",
@@ -119,7 +119,7 @@
         "code": "21841",
         "parent_code": "547"
     },
-    "21844": {
+     {
         "name": "Tây Xuân",
         "type": "xa",
         "slug": "tay-xuan",
@@ -129,7 +129,7 @@
         "code": "21844",
         "parent_code": "547"
     },
-    "21847": {
+     {
         "name": "Bình Nghi",
         "type": "xa",
         "slug": "binh-nghi",
@@ -139,7 +139,7 @@
         "code": "21847",
         "parent_code": "547"
     },
-    "21850": {
+     {
         "name": "Tây Phú",
         "type": "xa",
         "slug": "tay-phu",
@@ -149,4 +149,4 @@
         "code": "21850",
         "parent_code": "547"
     }
-}
+]}

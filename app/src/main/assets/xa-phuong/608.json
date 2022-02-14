@@ -1,5 +1,5 @@
 {
-    "23281": {
+    "xa":[ {
         "name": "Quang Trung",
         "type": "phuong",
         "slug": "quang-trung",
@@ -9,7 +9,7 @@
         "code": "23281",
         "parent_code": "608"
     },
-    "23284": {
+     {
         "name": "Duy Tân",
         "type": "phuong",
         "slug": "duy-tan",
@@ -19,7 +19,7 @@
         "code": "23284",
         "parent_code": "608"
     },
-    "23287": {
+     {
         "name": "Quyết Thắng",
         "type": "phuong",
         "slug": "quyet-thang",
@@ -29,7 +29,7 @@
         "code": "23287",
         "parent_code": "608"
     },
-    "23290": {
+     {
         "name": "Trường Chinh",
         "type": "phuong",
         "slug": "truong-chinh",
@@ -39,7 +39,7 @@
         "code": "23290",
         "parent_code": "608"
     },
-    "23293": {
+     {
         "name": "Thắng Lợi",
         "type": "phuong",
         "slug": "thang-loi",
@@ -49,7 +49,7 @@
         "code": "23293",
         "parent_code": "608"
     },
-    "23296": {
+     {
         "name": "Ngô Mây",
         "type": "phuong",
         "slug": "ngo-may",
@@ -59,7 +59,7 @@
         "code": "23296",
         "parent_code": "608"
     },
-    "23299": {
+     {
         "name": "Thống Nhất",
         "type": "phuong",
         "slug": "thong-nhat",
@@ -69,7 +69,7 @@
         "code": "23299",
         "parent_code": "608"
     },
-    "23302": {
+     {
         "name": "Lê Lợi",
         "type": "phuong",
         "slug": "le-loi",
@@ -79,7 +79,7 @@
         "code": "23302",
         "parent_code": "608"
     },
-    "23305": {
+     {
         "name": "Nguyễn Trãi",
         "type": "phuong",
         "slug": "nguyen-trai",
@@ -89,7 +89,7 @@
         "code": "23305",
         "parent_code": "608"
     },
-    "23308": {
+     {
         "name": "Trần Hưng Đạo",
         "type": "phuong",
         "slug": "tran-hung-dao",
@@ -99,7 +99,7 @@
         "code": "23308",
         "parent_code": "608"
     },
-    "23311": {
+     {
         "name": "Đắk Cấm",
         "type": "xa",
         "slug": "dak-cam",
@@ -109,7 +109,7 @@
         "code": "23311",
         "parent_code": "608"
     },
-    "23314": {
+     {
         "name": "Kroong",
         "type": "xa",
         "slug": "kroong",
@@ -119,7 +119,7 @@
         "code": "23314",
         "parent_code": "608"
     },
-    "23317": {
+     {
         "name": "Ngọk Bay",
         "type": "xa",
         "slug": "ngok-bay",
@@ -129,7 +129,7 @@
         "code": "23317",
         "parent_code": "608"
     },
-    "23320": {
+     {
         "name": "Vinh Quang",
         "type": "xa",
         "slug": "vinh-quang",
@@ -139,7 +139,7 @@
         "code": "23320",
         "parent_code": "608"
     },
-    "23323": {
+     {
         "name": "Đắk Blà",
         "type": "xa",
         "slug": "dak-bla",
@@ -149,7 +149,7 @@
         "code": "23323",
         "parent_code": "608"
     },
-    "23326": {
+     {
         "name": "Ia Chim",
         "type": "xa",
         "slug": "ia-chim",
@@ -159,7 +159,7 @@
         "code": "23326",
         "parent_code": "608"
     },
-    "23327": {
+     {
         "name": "Đăk Năng",
         "type": "xa",
         "slug": "dak-nang",
@@ -169,7 +169,7 @@
         "code": "23327",
         "parent_code": "608"
     },
-    "23329": {
+     {
         "name": "Đoàn Kết",
         "type": "xa",
         "slug": "doan-ket",
@@ -179,7 +179,7 @@
         "code": "23329",
         "parent_code": "608"
     },
-    "23332": {
+     {
         "name": "Chư Hreng",
         "type": "xa",
         "slug": "chu-hreng",
@@ -189,7 +189,7 @@
         "code": "23332",
         "parent_code": "608"
     },
-    "23335": {
+     {
         "name": "Đắk Rơ Wa",
         "type": "xa",
         "slug": "dak-ro-wa",
@@ -199,7 +199,7 @@
         "code": "23335",
         "parent_code": "608"
     },
-    "23338": {
+     {
         "name": "Hòa Bình",
         "type": "xa",
         "slug": "hoa-binh",
@@ -209,4 +209,4 @@
         "code": "23338",
         "parent_code": "608"
     }
-}
+]}

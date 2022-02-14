@@ -1,5 +1,5 @@
 {
-    "24717": {
+    "xa":[ {
         "name": "Đức An",
         "type": "thi-tran",
         "slug": "duc-an",
@@ -9,7 +9,7 @@
         "code": "24717",
         "parent_code": "665"
     },
-    "24718": {
+     {
         "name": "Đắk Môl",
         "type": "xa",
         "slug": "dak-mol",
@@ -19,7 +19,7 @@
         "code": "24718",
         "parent_code": "665"
     },
-    "24719": {
+     {
         "name": "Đắk Hòa",
         "type": "xa",
         "slug": "dak-hoa",
@@ -29,7 +29,7 @@
         "code": "24719",
         "parent_code": "665"
     },
-    "24721": {
+     {
         "name": "Nam Bình",
         "type": "xa",
         "slug": "nam-binh",
@@ -39,7 +39,7 @@
         "code": "24721",
         "parent_code": "665"
     },
-    "24722": {
+     {
         "name": "Thuận Hà",
         "type": "xa",
         "slug": "thuan-ha",
@@ -49,7 +49,7 @@
         "code": "24722",
         "parent_code": "665"
     },
-    "24724": {
+     {
         "name": "Thuận Hạnh",
         "type": "xa",
         "slug": "thuan-hanh",
@@ -59,7 +59,7 @@
         "code": "24724",
         "parent_code": "665"
     },
-    "24727": {
+     {
         "name": "Đắk N'Dung",
         "type": "xa",
         "slug": "dak-n-dung",
@@ -69,7 +69,7 @@
         "code": "24727",
         "parent_code": "665"
     },
-    "24728": {
+     {
         "name": "Nâm N'Jang",
         "type": "xa",
         "slug": "nam-n-jang",
@@ -79,7 +79,7 @@
         "code": "24728",
         "parent_code": "665"
     },
-    "24730": {
+     {
         "name": "Trường Xuân",
         "type": "xa",
         "slug": "truong-xuan",
@@ -89,4 +89,4 @@
         "code": "24730",
         "parent_code": "665"
     }
-}
+]}

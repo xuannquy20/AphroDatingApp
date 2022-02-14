@@ -1,5 +1,5 @@
 {
-    "17098": {
+    "xa":[ {
         "name": "Cầu Giát",
         "type": "thi-tran",
         "slug": "cau-giat",
@@ -9,7 +9,7 @@
         "code": "17098",
         "parent_code": "421"
     },
-    "17101": {
+     {
         "name": "Quỳnh Thắng",
         "type": "xa",
         "slug": "quynh-thang",
@@ -19,7 +19,7 @@
         "code": "17101",
         "parent_code": "421"
     },
-    "17119": {
+     {
         "name": "Quỳnh Tân",
         "type": "xa",
         "slug": "quynh-tan",
@@ -29,7 +29,7 @@
         "code": "17119",
         "parent_code": "421"
     },
-    "17122": {
+     {
         "name": "Quỳnh Châu",
         "type": "xa",
         "slug": "quynh-chau",
@@ -39,7 +39,7 @@
         "code": "17122",
         "parent_code": "421"
     },
-    "17140": {
+     {
         "name": "Tân Sơn",
         "type": "xa",
         "slug": "tan-son",
@@ -49,7 +49,7 @@
         "code": "17140",
         "parent_code": "421"
     },
-    "17143": {
+     {
         "name": "Quỳnh Văn",
         "type": "xa",
         "slug": "quynh-van",
@@ -59,7 +59,7 @@
         "code": "17143",
         "parent_code": "421"
     },
-    "17146": {
+     {
         "name": "Ngọc Sơn",
         "type": "xa",
         "slug": "ngoc-son",
@@ -69,7 +69,7 @@
         "code": "17146",
         "parent_code": "421"
     },
-    "17149": {
+     {
         "name": "Quỳnh Tam",
         "type": "xa",
         "slug": "quynh-tam",
@@ -79,7 +79,7 @@
         "code": "17149",
         "parent_code": "421"
     },
-    "17152": {
+     {
         "name": "Quỳnh Hoa",
         "type": "xa",
         "slug": "quynh-hoa",
@@ -89,7 +89,7 @@
         "code": "17152",
         "parent_code": "421"
     },
-    "17155": {
+     {
         "name": "Quỳnh Thạch",
         "type": "xa",
         "slug": "quynh-thach",
@@ -99,7 +99,7 @@
         "code": "17155",
         "parent_code": "421"
     },
-    "17158": {
+     {
         "name": "Quỳnh Bảng",
         "type": "xa",
         "slug": "quynh-bang",
@@ -109,7 +109,7 @@
         "code": "17158",
         "parent_code": "421"
     },
-    "17161": {
+     {
         "name": "Quỳnh Mỹ",
         "type": "xa",
         "slug": "quynh-my",
@@ -119,7 +119,7 @@
         "code": "17161",
         "parent_code": "421"
     },
-    "17164": {
+     {
         "name": "Quỳnh Thanh",
         "type": "xa",
         "slug": "quynh-thanh",
@@ -129,7 +129,7 @@
         "code": "17164",
         "parent_code": "421"
     },
-    "17167": {
+     {
         "name": "Quỳnh Hậu",
         "type": "xa",
         "slug": "quynh-hau",
@@ -139,7 +139,7 @@
         "code": "17167",
         "parent_code": "421"
     },
-    "17170": {
+     {
         "name": "Quỳnh Lâm",
         "type": "xa",
         "slug": "quynh-lam",
@@ -149,7 +149,7 @@
         "code": "17170",
         "parent_code": "421"
     },
-    "17173": {
+     {
         "name": "Quỳnh Đôi",
         "type": "xa",
         "slug": "quynh-doi",
@@ -159,7 +159,7 @@
         "code": "17173",
         "parent_code": "421"
     },
-    "17176": {
+     {
         "name": "Quỳnh Lương",
         "type": "xa",
         "slug": "quynh-luong",
@@ -169,7 +169,7 @@
         "code": "17176",
         "parent_code": "421"
     },
-    "17179": {
+     {
         "name": "Quỳnh Hồng",
         "type": "xa",
         "slug": "quynh-hong",
@@ -179,7 +179,7 @@
         "code": "17179",
         "parent_code": "421"
     },
-    "17182": {
+     {
         "name": "Quỳnh Yên",
         "type": "xa",
         "slug": "quynh-yen",
@@ -189,7 +189,7 @@
         "code": "17182",
         "parent_code": "421"
     },
-    "17185": {
+     {
         "name": "Quỳnh Bá",
         "type": "xa",
         "slug": "quynh-ba",
@@ -199,7 +199,7 @@
         "code": "17185",
         "parent_code": "421"
     },
-    "17188": {
+     {
         "name": "Quỳnh Minh",
         "type": "xa",
         "slug": "quynh-minh",
@@ -209,7 +209,7 @@
         "code": "17188",
         "parent_code": "421"
     },
-    "17191": {
+     {
         "name": "Quỳnh Diễn",
         "type": "xa",
         "slug": "quynh-dien",
@@ -219,7 +219,7 @@
         "code": "17191",
         "parent_code": "421"
     },
-    "17194": {
+     {
         "name": "Quỳnh Hưng",
         "type": "xa",
         "slug": "quynh-hung",
@@ -229,7 +229,7 @@
         "code": "17194",
         "parent_code": "421"
     },
-    "17197": {
+     {
         "name": "Quỳnh Giang",
         "type": "xa",
         "slug": "quynh-giang",
@@ -239,7 +239,7 @@
         "code": "17197",
         "parent_code": "421"
     },
-    "17200": {
+     {
         "name": "Quỳnh Ngọc",
         "type": "xa",
         "slug": "quynh-ngoc",
@@ -249,7 +249,7 @@
         "code": "17200",
         "parent_code": "421"
     },
-    "17203": {
+     {
         "name": "Quỳnh Nghĩa",
         "type": "xa",
         "slug": "quynh-nghia",
@@ -259,7 +259,7 @@
         "code": "17203",
         "parent_code": "421"
     },
-    "17206": {
+     {
         "name": "An Hòa",
         "type": "xa",
         "slug": "an-hoa",
@@ -269,7 +269,7 @@
         "code": "17206",
         "parent_code": "421"
     },
-    "17209": {
+     {
         "name": "Tiến Thủy",
         "type": "xa",
         "slug": "tien-thuy",
@@ -279,7 +279,7 @@
         "code": "17209",
         "parent_code": "421"
     },
-    "17212": {
+     {
         "name": "Sơn Hải",
         "type": "xa",
         "slug": "son-hai",
@@ -289,7 +289,7 @@
         "code": "17212",
         "parent_code": "421"
     },
-    "17215": {
+     {
         "name": "Quỳnh Thọ",
         "type": "xa",
         "slug": "quynh-tho",
@@ -299,7 +299,7 @@
         "code": "17215",
         "parent_code": "421"
     },
-    "17218": {
+     {
         "name": "Quỳnh Thuận",
         "type": "xa",
         "slug": "quynh-thuan",
@@ -309,7 +309,7 @@
         "code": "17218",
         "parent_code": "421"
     },
-    "17221": {
+     {
         "name": "Quỳnh Long",
         "type": "xa",
         "slug": "quynh-long",
@@ -319,7 +319,7 @@
         "code": "17221",
         "parent_code": "421"
     },
-    "17224": {
+     {
         "name": "Tân Thắng",
         "type": "xa",
         "slug": "tan-thang",
@@ -329,4 +329,4 @@
         "code": "17224",
         "parent_code": "421"
     }
-}
+]}

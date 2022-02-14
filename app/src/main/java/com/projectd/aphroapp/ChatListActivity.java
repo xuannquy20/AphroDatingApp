@@ -27,8 +27,8 @@ public class ChatListActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<DataSnapshot> task) {
                 for (DataSnapshot ds : task.getResult().getChildren()) {
-                    User u = new User(ds.getKey(), ds.child("profile/name").getValue(String.class), ds.child("profile/age").getValue(Integer.class));
-                    words.add(u);
+//                    User u = new User(ds.getKey(), ds.child("profile/name").getValue(String.class), ds.child("profile/age").getValue(Integer.class));
+//                    words.add(u);
                 }
                 ChatListAdapter adapter = new ChatListAdapter(ChatListActivity.this, words);
                 recyclerView.setAdapter(adapter);

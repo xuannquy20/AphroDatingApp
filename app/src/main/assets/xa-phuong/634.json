@@ -1,5 +1,5 @@
 {
-    "23989": {
+    "xa":[ {
         "name": "Hà Tam",
         "type": "xa",
         "slug": "ha-tam",
@@ -9,7 +9,7 @@
         "code": "23989",
         "parent_code": "634"
     },
-    "23992": {
+     {
         "name": "An Thành",
         "type": "xa",
         "slug": "an-thanh",
@@ -19,7 +19,7 @@
         "code": "23992",
         "parent_code": "634"
     },
-    "23995": {
+     {
         "name": "Đak Pơ",
         "type": "thi-tran",
         "slug": "dak-po",
@@ -29,7 +29,7 @@
         "code": "23995",
         "parent_code": "634"
     },
-    "23998": {
+     {
         "name": "Yang Bắc",
         "type": "xa",
         "slug": "yang-bac",
@@ -39,7 +39,7 @@
         "code": "23998",
         "parent_code": "634"
     },
-    "24001": {
+     {
         "name": "Cư An",
         "type": "xa",
         "slug": "cu-an",
@@ -49,7 +49,7 @@
         "code": "24001",
         "parent_code": "634"
     },
-    "24004": {
+     {
         "name": "Tân An",
         "type": "xa",
         "slug": "tan-an",
@@ -59,7 +59,7 @@
         "code": "24004",
         "parent_code": "634"
     },
-    "24007": {
+     {
         "name": "Phú An",
         "type": "xa",
         "slug": "phu-an",
@@ -69,7 +69,7 @@
         "code": "24007",
         "parent_code": "634"
     },
-    "24010": {
+     {
         "name": "Ya Hội",
         "type": "xa",
         "slug": "ya-hoi",
@@ -79,4 +79,4 @@
         "code": "24010",
         "parent_code": "634"
     }
-}
+]}

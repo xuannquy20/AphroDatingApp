@@ -1,5 +1,5 @@
 {
-    "00982": {
+     "xa" : [{
         "name": "Minh Sơn",
         "type": "xa",
         "slug": "minh-son",
@@ -9,7 +9,7 @@
         "code": "00982",
         "parent_code": "031"
     },
-    "00985": {
+     {
         "name": "Giáp Trung",
         "type": "xa",
         "slug": "giap-trung",
@@ -19,7 +19,7 @@
         "code": "00985",
         "parent_code": "031"
     },
-    "00988": {
+     {
         "name": "Yên Định",
         "type": "xa",
         "slug": "yen-dinh",
@@ -29,7 +29,7 @@
         "code": "00988",
         "parent_code": "031"
     },
-    "00991": {
+     {
         "name": "Yên Phú",
         "type": "thi-tran",
         "slug": "yen-phu",
@@ -39,7 +39,7 @@
         "code": "00991",
         "parent_code": "031"
     },
-    "00994": {
+     {
         "name": "Minh Ngọc",
         "type": "xa",
         "slug": "minh-ngoc",
@@ -49,7 +49,7 @@
         "code": "00994",
         "parent_code": "031"
     },
-    "00997": {
+     {
         "name": "Yên Phong",
         "type": "xa",
         "slug": "yen-phong",
@@ -59,7 +59,7 @@
         "code": "00997",
         "parent_code": "031"
     },
-    "01000": {
+     {
         "name": "Lạc Nông",
         "type": "xa",
         "slug": "lac-nong",
@@ -69,7 +69,7 @@
         "code": "01000",
         "parent_code": "031"
     },
-    "01003": {
+     {
         "name": "Phú Nam",
         "type": "xa",
         "slug": "phu-nam",
@@ -79,7 +79,7 @@
         "code": "01003",
         "parent_code": "031"
     },
-    "01006": {
+     {
         "name": "Yên Cường",
         "type": "xa",
         "slug": "yen-cuong",
@@ -89,7 +89,7 @@
         "code": "01006",
         "parent_code": "031"
     },
-    "01009": {
+     {
         "name": "Thượng Tân",
         "type": "xa",
         "slug": "thuong-tan",
@@ -99,7 +99,7 @@
         "code": "01009",
         "parent_code": "031"
     },
-    "01012": {
+     {
         "name": "Đường Âm",
         "type": "xa",
         "slug": "duong-am",
@@ -109,7 +109,7 @@
         "code": "01012",
         "parent_code": "031"
     },
-    "01015": {
+     {
         "name": "Đường Hồng",
         "type": "xa",
         "slug": "duong-hong",
@@ -119,7 +119,7 @@
         "code": "01015",
         "parent_code": "031"
     },
-    "01018": {
+     {
         "name": "Phiêng Luông",
         "type": "xa",
         "slug": "phieng-luong",
@@ -129,4 +129,5 @@
         "code": "01018",
         "parent_code": "031"
     }
+]
 }

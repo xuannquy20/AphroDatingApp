@@ -1,5 +1,5 @@
 {
-    "14149": {
+    "xa":[ {
         "name": "Ngô Đồng",
         "type": "thi-tran",
         "slug": "ngo-dong",
@@ -9,7 +9,7 @@
         "code": "14149",
         "parent_code": "365"
     },
-    "14152": {
+     {
         "name": "Quất Lâm",
         "type": "thi-tran",
         "slug": "quat-lam",
@@ -19,7 +19,7 @@
         "code": "14152",
         "parent_code": "365"
     },
-    "14155": {
+     {
         "name": "Giao Hương",
         "type": "xa",
         "slug": "giao-huong",
@@ -29,7 +29,7 @@
         "code": "14155",
         "parent_code": "365"
     },
-    "14158": {
+     {
         "name": "Hồng Thuận",
         "type": "xa",
         "slug": "hong-thuan",
@@ -39,7 +39,7 @@
         "code": "14158",
         "parent_code": "365"
     },
-    "14161": {
+     {
         "name": "Giao Thiện",
         "type": "xa",
         "slug": "giao-thien",
@@ -49,7 +49,7 @@
         "code": "14161",
         "parent_code": "365"
     },
-    "14164": {
+     {
         "name": "Giao Thanh",
         "type": "xa",
         "slug": "giao-thanh",
@@ -59,7 +59,7 @@
         "code": "14164",
         "parent_code": "365"
     },
-    "14167": {
+     {
         "name": "Hoành Sơn",
         "type": "xa",
         "slug": "hoanh-son",
@@ -69,7 +69,7 @@
         "code": "14167",
         "parent_code": "365"
     },
-    "14170": {
+     {
         "name": "Bình Hòa",
         "type": "xa",
         "slug": "binh-hoa",
@@ -79,7 +79,7 @@
         "code": "14170",
         "parent_code": "365"
     },
-    "14173": {
+     {
         "name": "Giao Tiến",
         "type": "xa",
         "slug": "giao-tien",
@@ -89,7 +89,7 @@
         "code": "14173",
         "parent_code": "365"
     },
-    "14176": {
+     {
         "name": "Giao Hà",
         "type": "xa",
         "slug": "giao-ha",
@@ -99,7 +99,7 @@
         "code": "14176",
         "parent_code": "365"
     },
-    "14179": {
+     {
         "name": "Giao Nhân",
         "type": "xa",
         "slug": "giao-nhan",
@@ -109,7 +109,7 @@
         "code": "14179",
         "parent_code": "365"
     },
-    "14182": {
+     {
         "name": "Giao An",
         "type": "xa",
         "slug": "giao-an",
@@ -119,7 +119,7 @@
         "code": "14182",
         "parent_code": "365"
     },
-    "14185": {
+     {
         "name": "Giao Lạc",
         "type": "xa",
         "slug": "giao-lac",
@@ -129,7 +129,7 @@
         "code": "14185",
         "parent_code": "365"
     },
-    "14188": {
+     {
         "name": "Giao Châu",
         "type": "xa",
         "slug": "giao-chau",
@@ -139,7 +139,7 @@
         "code": "14188",
         "parent_code": "365"
     },
-    "14191": {
+     {
         "name": "Giao Tân",
         "type": "xa",
         "slug": "giao-tan",
@@ -149,7 +149,7 @@
         "code": "14191",
         "parent_code": "365"
     },
-    "14194": {
+     {
         "name": "Giao Yến",
         "type": "xa",
         "slug": "giao-yen",
@@ -159,7 +159,7 @@
         "code": "14194",
         "parent_code": "365"
     },
-    "14197": {
+     {
         "name": "Giao Xuân",
         "type": "xa",
         "slug": "giao-xuan",
@@ -169,7 +169,7 @@
         "code": "14197",
         "parent_code": "365"
     },
-    "14200": {
+     {
         "name": "Giao Thịnh",
         "type": "xa",
         "slug": "giao-thinh",
@@ -179,7 +179,7 @@
         "code": "14200",
         "parent_code": "365"
     },
-    "14203": {
+     {
         "name": "Giao Hải",
         "type": "xa",
         "slug": "giao-hai",
@@ -189,7 +189,7 @@
         "code": "14203",
         "parent_code": "365"
     },
-    "14206": {
+     {
         "name": "Bạch Long",
         "type": "xa",
         "slug": "bach-long",
@@ -199,7 +199,7 @@
         "code": "14206",
         "parent_code": "365"
     },
-    "14209": {
+     {
         "name": "Giao Long",
         "type": "xa",
         "slug": "giao-long",
@@ -209,7 +209,7 @@
         "code": "14209",
         "parent_code": "365"
     },
-    "14212": {
+     {
         "name": "Giao Phong",
         "type": "xa",
         "slug": "giao-phong",
@@ -219,4 +219,4 @@
         "code": "14212",
         "parent_code": "365"
     }
-}
+]}

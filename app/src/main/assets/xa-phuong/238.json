@@ -1,5 +1,5 @@
 {
-    "08542": {
+    "xa":[ {
         "name": "Thanh Sơn",
         "type": "thi-tran",
         "slug": "thanh-son",
@@ -9,7 +9,7 @@
         "code": "08542",
         "parent_code": "238"
     },
-    "08563": {
+     {
         "name": "Sơn Hùng",
         "type": "xa",
         "slug": "son-hung",
@@ -19,7 +19,7 @@
         "code": "08563",
         "parent_code": "238"
     },
-    "08572": {
+     {
         "name": "Địch Quả",
         "type": "xa",
         "slug": "dich-qua",
@@ -29,7 +29,7 @@
         "code": "08572",
         "parent_code": "238"
     },
-    "08575": {
+     {
         "name": "Giáp Lai",
         "type": "xa",
         "slug": "giap-lai",
@@ -39,7 +39,7 @@
         "code": "08575",
         "parent_code": "238"
     },
-    "08581": {
+     {
         "name": "Thục Luyện",
         "type": "xa",
         "slug": "thuc-luyen",
@@ -49,7 +49,7 @@
         "code": "08581",
         "parent_code": "238"
     },
-    "08584": {
+     {
         "name": "Võ Miếu",
         "type": "xa",
         "slug": "vo-mieu",
@@ -59,7 +59,7 @@
         "code": "08584",
         "parent_code": "238"
     },
-    "08587": {
+     {
         "name": "Thạch Khoán",
         "type": "xa",
         "slug": "thach-khoan",
@@ -69,7 +69,7 @@
         "code": "08587",
         "parent_code": "238"
     },
-    "08602": {
+     {
         "name": "Cự Thắng",
         "type": "xa",
         "slug": "cu-thang",
@@ -79,7 +79,7 @@
         "code": "08602",
         "parent_code": "238"
     },
-    "08605": {
+     {
         "name": "Tất Thắng",
         "type": "xa",
         "slug": "tat-thang",
@@ -89,7 +89,7 @@
         "code": "08605",
         "parent_code": "238"
     },
-    "08611": {
+     {
         "name": "Văn Miếu",
         "type": "xa",
         "slug": "van-mieu",
@@ -99,7 +99,7 @@
         "code": "08611",
         "parent_code": "238"
     },
-    "08614": {
+     {
         "name": "Cự Đồng",
         "type": "xa",
         "slug": "cu-dong",
@@ -109,7 +109,7 @@
         "code": "08614",
         "parent_code": "238"
     },
-    "08623": {
+     {
         "name": "Thắng Sơn",
         "type": "xa",
         "slug": "thang-son",
@@ -119,7 +119,7 @@
         "code": "08623",
         "parent_code": "238"
     },
-    "08629": {
+     {
         "name": "Tân Minh",
         "type": "xa",
         "slug": "tan-minh",
@@ -129,7 +129,7 @@
         "code": "08629",
         "parent_code": "238"
     },
-    "08632": {
+     {
         "name": "Hương Cần",
         "type": "xa",
         "slug": "huong-can",
@@ -139,7 +139,7 @@
         "code": "08632",
         "parent_code": "238"
     },
-    "08635": {
+     {
         "name": "Khả Cửu",
         "type": "xa",
         "slug": "kha-cuu",
@@ -149,7 +149,7 @@
         "code": "08635",
         "parent_code": "238"
     },
-    "08638": {
+     {
         "name": "Đông Cửu",
         "type": "xa",
         "slug": "dong-cuu",
@@ -159,7 +159,7 @@
         "code": "08638",
         "parent_code": "238"
     },
-    "08641": {
+     {
         "name": "Tân Lập",
         "type": "xa",
         "slug": "tan-lap",
@@ -169,7 +169,7 @@
         "code": "08641",
         "parent_code": "238"
     },
-    "08644": {
+     {
         "name": "Yên Lãng",
         "type": "xa",
         "slug": "yen-lang",
@@ -179,7 +179,7 @@
         "code": "08644",
         "parent_code": "238"
     },
-    "08647": {
+     {
         "name": "Yên Lương",
         "type": "xa",
         "slug": "yen-luong",
@@ -189,7 +189,7 @@
         "code": "08647",
         "parent_code": "238"
     },
-    "08650": {
+     {
         "name": "Thượng Cửu",
         "type": "xa",
         "slug": "thuong-cuu",
@@ -199,7 +199,7 @@
         "code": "08650",
         "parent_code": "238"
     },
-    "08653": {
+     {
         "name": "Lương Nha",
         "type": "xa",
         "slug": "luong-nha",
@@ -209,7 +209,7 @@
         "code": "08653",
         "parent_code": "238"
     },
-    "08656": {
+     {
         "name": "Yên Sơn",
         "type": "xa",
         "slug": "yen-son",
@@ -219,7 +219,7 @@
         "code": "08656",
         "parent_code": "238"
     },
-    "08659": {
+     {
         "name": "Tinh Nhuệ",
         "type": "xa",
         "slug": "tinh-nhue",
@@ -229,4 +229,4 @@
         "code": "08659",
         "parent_code": "238"
     }
-}
+]}

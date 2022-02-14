@@ -1,5 +1,5 @@
 {
-    "11296": {
+    "xa":[ {
         "name": "Quán Toan",
         "type": "phuong",
         "slug": "quan-toan",
@@ -9,7 +9,7 @@
         "code": "11296",
         "parent_code": "303"
     },
-    "11299": {
+     {
         "name": "Hùng Vương",
         "type": "phuong",
         "slug": "hung-vuong",
@@ -19,7 +19,7 @@
         "code": "11299",
         "parent_code": "303"
     },
-    "11302": {
+     {
         "name": "Sở Dầu",
         "type": "phuong",
         "slug": "so-dau",
@@ -29,7 +29,7 @@
         "code": "11302",
         "parent_code": "303"
     },
-    "11305": {
+     {
         "name": "Thượng Lý",
         "type": "phuong",
         "slug": "thuong-ly",
@@ -39,7 +39,7 @@
         "code": "11305",
         "parent_code": "303"
     },
-    "11308": {
+     {
         "name": "Hạ Lý",
         "type": "phuong",
         "slug": "ha-ly",
@@ -49,7 +49,7 @@
         "code": "11308",
         "parent_code": "303"
     },
-    "11311": {
+     {
         "name": "Minh Khai",
         "type": "phuong",
         "slug": "minh-khai",
@@ -59,7 +59,7 @@
         "code": "11311",
         "parent_code": "303"
     },
-    "11314": {
+     {
         "name": "Trại Chuối",
         "type": "phuong",
         "slug": "trai-chuoi",
@@ -69,7 +69,7 @@
         "code": "11314",
         "parent_code": "303"
     },
-    "11320": {
+     {
         "name": "Hoàng Văn Thụ",
         "type": "phuong",
         "slug": "hoang-van-thu",
@@ -79,7 +79,7 @@
         "code": "11320",
         "parent_code": "303"
     },
-    "11323": {
+     {
         "name": "Phan Bội Châu",
         "type": "phuong",
         "slug": "phan-boi-chau",
@@ -89,4 +89,4 @@
         "code": "11323",
         "parent_code": "303"
     }
-}
+]}

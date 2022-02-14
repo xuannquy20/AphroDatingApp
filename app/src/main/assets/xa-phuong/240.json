@@ -1,5 +1,5 @@
 {
-    "08545": {
+    "xa":[ {
         "name": "Thu Cúc",
         "type": "xa",
         "slug": "thu-cuc",
@@ -9,7 +9,7 @@
         "code": "08545",
         "parent_code": "240"
     },
-    "08548": {
+     {
         "name": "Thạch Kiệt",
         "type": "xa",
         "slug": "thach-kiet",
@@ -19,7 +19,7 @@
         "code": "08548",
         "parent_code": "240"
     },
-    "08551": {
+     {
         "name": "Thu Ngạc",
         "type": "xa",
         "slug": "thu-ngac",
@@ -29,7 +29,7 @@
         "code": "08551",
         "parent_code": "240"
     },
-    "08554": {
+     {
         "name": "Kiệt Sơn",
         "type": "xa",
         "slug": "kiet-son",
@@ -39,7 +39,7 @@
         "code": "08554",
         "parent_code": "240"
     },
-    "08557": {
+     {
         "name": "Đồng Sơn",
         "type": "xa",
         "slug": "dong-son",
@@ -49,7 +49,7 @@
         "code": "08557",
         "parent_code": "240"
     },
-    "08560": {
+     {
         "name": "Lai Đồng",
         "type": "xa",
         "slug": "lai-dong",
@@ -59,7 +59,7 @@
         "code": "08560",
         "parent_code": "240"
     },
-    "08566": {
+     {
         "name": "Tân Phú",
         "type": "xa",
         "slug": "tan-phu",
@@ -69,7 +69,7 @@
         "code": "08566",
         "parent_code": "240"
     },
-    "08569": {
+     {
         "name": "Mỹ Thuận",
         "type": "xa",
         "slug": "my-thuan",
@@ -79,7 +79,7 @@
         "code": "08569",
         "parent_code": "240"
     },
-    "08578": {
+     {
         "name": "Tân Sơn",
         "type": "xa",
         "slug": "tan-son",
@@ -89,7 +89,7 @@
         "code": "08578",
         "parent_code": "240"
     },
-    "08590": {
+     {
         "name": "Xuân Đài",
         "type": "xa",
         "slug": "xuan-dai",
@@ -99,7 +99,7 @@
         "code": "08590",
         "parent_code": "240"
     },
-    "08593": {
+     {
         "name": "Minh Đài",
         "type": "xa",
         "slug": "minh-dai",
@@ -109,7 +109,7 @@
         "code": "08593",
         "parent_code": "240"
     },
-    "08596": {
+     {
         "name": "Văn Luông",
         "type": "xa",
         "slug": "van-luong",
@@ -119,7 +119,7 @@
         "code": "08596",
         "parent_code": "240"
     },
-    "08599": {
+     {
         "name": "Xuân Sơn",
         "type": "xa",
         "slug": "xuan-son",
@@ -129,7 +129,7 @@
         "code": "08599",
         "parent_code": "240"
     },
-    "08608": {
+     {
         "name": "Long Cốc",
         "type": "xa",
         "slug": "long-coc",
@@ -139,7 +139,7 @@
         "code": "08608",
         "parent_code": "240"
     },
-    "08617": {
+     {
         "name": "Kim Thượng",
         "type": "xa",
         "slug": "kim-thuong",
@@ -149,7 +149,7 @@
         "code": "08617",
         "parent_code": "240"
     },
-    "08620": {
+     {
         "name": "Tam Thanh",
         "type": "xa",
         "slug": "tam-thanh",
@@ -159,7 +159,7 @@
         "code": "08620",
         "parent_code": "240"
     },
-    "08626": {
+     {
         "name": "Vinh Tiền",
         "type": "xa",
         "slug": "vinh-tien",
@@ -169,4 +169,4 @@
         "code": "08626",
         "parent_code": "240"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "23059": {
+    "xa":[ {
         "name": "Ma Lâm",
         "type": "thi-tran",
         "slug": "ma-lam",
@@ -9,7 +9,7 @@
         "code": "23059",
         "parent_code": "597"
     },
-    "23062": {
+     {
         "name": "Phú Long",
         "type": "thi-tran",
         "slug": "phu-long",
@@ -19,7 +19,7 @@
         "code": "23062",
         "parent_code": "597"
     },
-    "23065": {
+     {
         "name": "La Dạ",
         "type": "xa",
         "slug": "la-da",
@@ -29,7 +29,7 @@
         "code": "23065",
         "parent_code": "597"
     },
-    "23068": {
+     {
         "name": "Đông Tiến",
         "type": "xa",
         "slug": "dong-tien",
@@ -39,7 +39,7 @@
         "code": "23068",
         "parent_code": "597"
     },
-    "23071": {
+     {
         "name": "Thuận Hòa",
         "type": "xa",
         "slug": "thuan-hoa",
@@ -49,7 +49,7 @@
         "code": "23071",
         "parent_code": "597"
     },
-    "23074": {
+     {
         "name": "Đông Giang",
         "type": "xa",
         "slug": "dong-giang",
@@ -59,7 +59,7 @@
         "code": "23074",
         "parent_code": "597"
     },
-    "23077": {
+     {
         "name": "Hàm Phú",
         "type": "xa",
         "slug": "ham-phu",
@@ -69,7 +69,7 @@
         "code": "23077",
         "parent_code": "597"
     },
-    "23080": {
+     {
         "name": "Hồng Liêm",
         "type": "xa",
         "slug": "hong-liem",
@@ -79,7 +79,7 @@
         "code": "23080",
         "parent_code": "597"
     },
-    "23083": {
+     {
         "name": "Thuận Minh",
         "type": "xa",
         "slug": "thuan-minh",
@@ -89,7 +89,7 @@
         "code": "23083",
         "parent_code": "597"
     },
-    "23086": {
+     {
         "name": "Hồng Sơn",
         "type": "xa",
         "slug": "hong-son",
@@ -99,7 +99,7 @@
         "code": "23086",
         "parent_code": "597"
     },
-    "23089": {
+     {
         "name": "Hàm Trí",
         "type": "xa",
         "slug": "ham-tri",
@@ -109,7 +109,7 @@
         "code": "23089",
         "parent_code": "597"
     },
-    "23092": {
+     {
         "name": "Hàm Đức",
         "type": "xa",
         "slug": "ham-duc",
@@ -119,7 +119,7 @@
         "code": "23092",
         "parent_code": "597"
     },
-    "23095": {
+     {
         "name": "Hàm Liêm",
         "type": "xa",
         "slug": "ham-liem",
@@ -129,7 +129,7 @@
         "code": "23095",
         "parent_code": "597"
     },
-    "23098": {
+     {
         "name": "Hàm Chính",
         "type": "xa",
         "slug": "ham-chinh",
@@ -139,7 +139,7 @@
         "code": "23098",
         "parent_code": "597"
     },
-    "23101": {
+     {
         "name": "Hàm Hiệp",
         "type": "xa",
         "slug": "ham-hiep",
@@ -149,7 +149,7 @@
         "code": "23101",
         "parent_code": "597"
     },
-    "23104": {
+     {
         "name": "Hàm Thắng",
         "type": "xa",
         "slug": "ham-thang",
@@ -159,7 +159,7 @@
         "code": "23104",
         "parent_code": "597"
     },
-    "23107": {
+     {
         "name": "Đa Mi",
         "type": "xa",
         "slug": "da-mi",
@@ -169,4 +169,4 @@
         "code": "23107",
         "parent_code": "597"
     }
-}
+]}

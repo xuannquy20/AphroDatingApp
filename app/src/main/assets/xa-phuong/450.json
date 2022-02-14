@@ -1,5 +1,5 @@
 {
-    "18853": {
+    "xa":[ {
         "name": "Hải Thành",
         "type": "phuong",
         "slug": "hai-thanh",
@@ -9,7 +9,7 @@
         "code": "18853",
         "parent_code": "450"
     },
-    "18856": {
+     {
         "name": "Đồng Phú",
         "type": "phuong",
         "slug": "dong-phu",
@@ -19,7 +19,7 @@
         "code": "18856",
         "parent_code": "450"
     },
-    "18859": {
+     {
         "name": "Bắc Lý",
         "type": "phuong",
         "slug": "bac-ly",
@@ -29,7 +29,7 @@
         "code": "18859",
         "parent_code": "450"
     },
-    "18865": {
+     {
         "name": "Nam Lý",
         "type": "phuong",
         "slug": "nam-ly",
@@ -39,7 +39,7 @@
         "code": "18865",
         "parent_code": "450"
     },
-    "18868": {
+     {
         "name": "Đồng Hải",
         "type": "phuong",
         "slug": "dong-hai",
@@ -49,7 +49,7 @@
         "code": "18868",
         "parent_code": "450"
     },
-    "18871": {
+     {
         "name": "Đồng Sơn",
         "type": "phuong",
         "slug": "dong-son",
@@ -59,7 +59,7 @@
         "code": "18871",
         "parent_code": "450"
     },
-    "18874": {
+     {
         "name": "Phú Hải",
         "type": "phuong",
         "slug": "phu-hai",
@@ -69,7 +69,7 @@
         "code": "18874",
         "parent_code": "450"
     },
-    "18877": {
+     {
         "name": "Bắc Nghĩa",
         "type": "phuong",
         "slug": "bac-nghia",
@@ -79,7 +79,7 @@
         "code": "18877",
         "parent_code": "450"
     },
-    "18880": {
+     {
         "name": "Đức Ninh Đông",
         "type": "phuong",
         "slug": "duc-ninh-dong",
@@ -89,7 +89,7 @@
         "code": "18880",
         "parent_code": "450"
     },
-    "18883": {
+     {
         "name": "Quang Phú",
         "type": "xa",
         "slug": "quang-phu",
@@ -99,7 +99,7 @@
         "code": "18883",
         "parent_code": "450"
     },
-    "18886": {
+     {
         "name": "Lộc Ninh",
         "type": "xa",
         "slug": "loc-ninh",
@@ -109,7 +109,7 @@
         "code": "18886",
         "parent_code": "450"
     },
-    "18889": {
+     {
         "name": "Bảo Ninh",
         "type": "xa",
         "slug": "bao-ninh",
@@ -119,7 +119,7 @@
         "code": "18889",
         "parent_code": "450"
     },
-    "18892": {
+     {
         "name": "Nghĩa Ninh",
         "type": "xa",
         "slug": "nghia-ninh",
@@ -129,7 +129,7 @@
         "code": "18892",
         "parent_code": "450"
     },
-    "18895": {
+     {
         "name": "Thuận Đức",
         "type": "xa",
         "slug": "thuan-duc",
@@ -139,7 +139,7 @@
         "code": "18895",
         "parent_code": "450"
     },
-    "18898": {
+     {
         "name": "Đức Ninh",
         "type": "xa",
         "slug": "duc-ninh",
@@ -149,4 +149,4 @@
         "code": "18898",
         "parent_code": "450"
     }
-}
+]}

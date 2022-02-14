@@ -1,5 +1,5 @@
 {
-    "03682": {
+    "xa":[ {
         "name": "Mường Chiên",
         "type": "xa",
         "slug": "muong-chien",
@@ -9,7 +9,7 @@
         "code": "03682",
         "parent_code": "118"
     },
-    "03685": {
+     {
         "name": "Cà Nàng",
         "type": "xa",
         "slug": "ca-nang",
@@ -19,7 +19,7 @@
         "code": "03685",
         "parent_code": "118"
     },
-    "03688": {
+     {
         "name": "Chiềng Khay",
         "type": "xa",
         "slug": "chieng-khay",
@@ -29,7 +29,7 @@
         "code": "03688",
         "parent_code": "118"
     },
-    "03694": {
+     {
         "name": "Mường Giôn",
         "type": "xa",
         "slug": "muong-gion",
@@ -39,7 +39,7 @@
         "code": "03694",
         "parent_code": "118"
     },
-    "03697": {
+     {
         "name": "Pá Ma Pha Khinh",
         "type": "xa",
         "slug": "pa-ma-pha-khinh",
@@ -49,7 +49,7 @@
         "code": "03697",
         "parent_code": "118"
     },
-    "03700": {
+     {
         "name": "Chiềng Ơn",
         "type": "xa",
         "slug": "chieng-on",
@@ -59,7 +59,7 @@
         "code": "03700",
         "parent_code": "118"
     },
-    "03703": {
+     {
         "name": "Mường Giàng",
         "type": "xa",
         "slug": "muong-giang",
@@ -69,7 +69,7 @@
         "code": "03703",
         "parent_code": "118"
     },
-    "03706": {
+     {
         "name": "Chiềng Bằng",
         "type": "xa",
         "slug": "chieng-bang",
@@ -79,7 +79,7 @@
         "code": "03706",
         "parent_code": "118"
     },
-    "03709": {
+     {
         "name": "Mường Sại",
         "type": "xa",
         "slug": "muong-sai",
@@ -89,7 +89,7 @@
         "code": "03709",
         "parent_code": "118"
     },
-    "03712": {
+     {
         "name": "Nậm ét",
         "type": "xa",
         "slug": "nam-et",
@@ -99,7 +99,7 @@
         "code": "03712",
         "parent_code": "118"
     },
-    "03718": {
+     {
         "name": "Chiềng Khoang",
         "type": "xa",
         "slug": "chieng-khoang",
@@ -109,4 +109,4 @@
         "code": "03718",
         "parent_code": "118"
     }
-}
+]}

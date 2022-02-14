@@ -1,5 +1,5 @@
 {
-    "18562": {
+    "xa":[ {
         "name": "Thạch Hà",
         "type": "thi-tran",
         "slug": "thach-ha",
@@ -9,7 +9,7 @@
         "code": "18562",
         "parent_code": "445"
     },
-    "18565": {
+     {
         "name": "Ngọc Sơn",
         "type": "xa",
         "slug": "ngoc-son",
@@ -19,7 +19,7 @@
         "code": "18565",
         "parent_code": "445"
     },
-    "18571": {
+     {
         "name": "Thạch Hải",
         "type": "xa",
         "slug": "thach-hai",
@@ -29,7 +29,7 @@
         "code": "18571",
         "parent_code": "445"
     },
-    "18586": {
+     {
         "name": "Thạch Kênh",
         "type": "xa",
         "slug": "thach-kenh",
@@ -39,7 +39,7 @@
         "code": "18586",
         "parent_code": "445"
     },
-    "18589": {
+     {
         "name": "Thạch Sơn",
         "type": "xa",
         "slug": "thach-son",
@@ -49,7 +49,7 @@
         "code": "18589",
         "parent_code": "445"
     },
-    "18592": {
+     {
         "name": "Thạch Liên",
         "type": "xa",
         "slug": "thach-lien",
@@ -59,7 +59,7 @@
         "code": "18592",
         "parent_code": "445"
     },
-    "18595": {
+     {
         "name": "Đỉnh Bàn",
         "type": "xa",
         "slug": "dinh-ban",
@@ -69,7 +69,7 @@
         "code": "18595",
         "parent_code": "445"
     },
-    "18601": {
+     {
         "name": "Việt Tiến",
         "type": "xa",
         "slug": "viet-tien",
@@ -79,7 +79,7 @@
         "code": "18601",
         "parent_code": "445"
     },
-    "18604": {
+     {
         "name": "Thạch Khê",
         "type": "xa",
         "slug": "thach-khe",
@@ -89,7 +89,7 @@
         "code": "18604",
         "parent_code": "445"
     },
-    "18607": {
+     {
         "name": "Thạch Long",
         "type": "xa",
         "slug": "thach-long",
@@ -99,7 +99,7 @@
         "code": "18607",
         "parent_code": "445"
     },
-    "18619": {
+     {
         "name": "Thạch Trị",
         "type": "xa",
         "slug": "thach-tri",
@@ -109,7 +109,7 @@
         "code": "18619",
         "parent_code": "445"
     },
-    "18622": {
+     {
         "name": "Thạch Lạc",
         "type": "xa",
         "slug": "thach-lac",
@@ -119,7 +119,7 @@
         "code": "18622",
         "parent_code": "445"
     },
-    "18625": {
+     {
         "name": "Thạch Ngọc",
         "type": "xa",
         "slug": "thach-ngoc",
@@ -129,7 +129,7 @@
         "code": "18625",
         "parent_code": "445"
     },
-    "18628": {
+     {
         "name": "Tượng Sơn",
         "type": "xa",
         "slug": "tuong-son",
@@ -139,7 +139,7 @@
         "code": "18628",
         "parent_code": "445"
     },
-    "18631": {
+     {
         "name": "Thạch Văn",
         "type": "xa",
         "slug": "thach-van",
@@ -149,7 +149,7 @@
         "code": "18631",
         "parent_code": "445"
     },
-    "18634": {
+     {
         "name": "Lưu Vĩnh Sơn",
         "type": "xa",
         "slug": "luu-vinh-son",
@@ -159,7 +159,7 @@
         "code": "18634",
         "parent_code": "445"
     },
-    "18637": {
+     {
         "name": "Thạch Thắng",
         "type": "xa",
         "slug": "thach-thang",
@@ -169,7 +169,7 @@
         "code": "18637",
         "parent_code": "445"
     },
-    "18643": {
+     {
         "name": "Thạch Đài",
         "type": "xa",
         "slug": "thach-dai",
@@ -179,7 +179,7 @@
         "code": "18643",
         "parent_code": "445"
     },
-    "18649": {
+     {
         "name": "Thạch Hội",
         "type": "xa",
         "slug": "thach-hoi",
@@ -189,7 +189,7 @@
         "code": "18649",
         "parent_code": "445"
     },
-    "18652": {
+     {
         "name": "Tân Lâm Hương",
         "type": "xa",
         "slug": "tan-lam-huong",
@@ -199,7 +199,7 @@
         "code": "18652",
         "parent_code": "445"
     },
-    "18658": {
+     {
         "name": "Thạch Xuân",
         "type": "xa",
         "slug": "thach-xuan",
@@ -209,7 +209,7 @@
         "code": "18658",
         "parent_code": "445"
     },
-    "18667": {
+     {
         "name": "Nam Điền",
         "type": "xa",
         "slug": "nam-dien",
@@ -219,4 +219,4 @@
         "code": "18667",
         "parent_code": "445"
     }
-}
+]}

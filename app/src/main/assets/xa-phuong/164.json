@@ -1,5 +1,5 @@
 {
-    "05431": {
+    "xa":[ {
         "name": "Quán Triều",
         "type": "phuong",
         "slug": "quan-trieu",
@@ -9,7 +9,7 @@
         "code": "05431",
         "parent_code": "164"
     },
-    "05434": {
+     {
         "name": "Quang Vinh",
         "type": "phuong",
         "slug": "quang-vinh",
@@ -19,7 +19,7 @@
         "code": "05434",
         "parent_code": "164"
     },
-    "05437": {
+     {
         "name": "Túc Duyên",
         "type": "phuong",
         "slug": "tuc-duyen",
@@ -29,7 +29,7 @@
         "code": "05437",
         "parent_code": "164"
     },
-    "05440": {
+     {
         "name": "Hoàng Văn Thụ",
         "type": "phuong",
         "slug": "hoang-van-thu",
@@ -39,7 +39,7 @@
         "code": "05440",
         "parent_code": "164"
     },
-    "05443": {
+     {
         "name": "Trưng Vương",
         "type": "phuong",
         "slug": "trung-vuong",
@@ -49,7 +49,7 @@
         "code": "05443",
         "parent_code": "164"
     },
-    "05446": {
+     {
         "name": "Quang Trung",
         "type": "phuong",
         "slug": "quang-trung",
@@ -59,7 +59,7 @@
         "code": "05446",
         "parent_code": "164"
     },
-    "05449": {
+     {
         "name": "Phan Đình Phùng",
         "type": "phuong",
         "slug": "phan-dinh-phung",
@@ -69,7 +69,7 @@
         "code": "05449",
         "parent_code": "164"
     },
-    "05452": {
+     {
         "name": "Tân Thịnh",
         "type": "phuong",
         "slug": "tan-thinh",
@@ -79,7 +79,7 @@
         "code": "05452",
         "parent_code": "164"
     },
-    "05455": {
+     {
         "name": "Thịnh Đán",
         "type": "phuong",
         "slug": "thinh-dan",
@@ -89,7 +89,7 @@
         "code": "05455",
         "parent_code": "164"
     },
-    "05458": {
+     {
         "name": "Đồng Quang",
         "type": "phuong",
         "slug": "dong-quang",
@@ -99,7 +99,7 @@
         "code": "05458",
         "parent_code": "164"
     },
-    "05461": {
+     {
         "name": "Gia Sàng",
         "type": "phuong",
         "slug": "gia-sang",
@@ -109,7 +109,7 @@
         "code": "05461",
         "parent_code": "164"
     },
-    "05464": {
+     {
         "name": "Tân Lập",
         "type": "phuong",
         "slug": "tan-lap",
@@ -119,7 +119,7 @@
         "code": "05464",
         "parent_code": "164"
     },
-    "05467": {
+     {
         "name": "Cam Giá",
         "type": "phuong",
         "slug": "cam-gia",
@@ -129,7 +129,7 @@
         "code": "05467",
         "parent_code": "164"
     },
-    "05470": {
+     {
         "name": "Phú Xá",
         "type": "phuong",
         "slug": "phu-xa",
@@ -139,7 +139,7 @@
         "code": "05470",
         "parent_code": "164"
     },
-    "05473": {
+     {
         "name": "Hương Sơn",
         "type": "phuong",
         "slug": "huong-son",
@@ -149,7 +149,7 @@
         "code": "05473",
         "parent_code": "164"
     },
-    "05476": {
+     {
         "name": "Trung Thành",
         "type": "phuong",
         "slug": "trung-thanh",
@@ -159,7 +159,7 @@
         "code": "05476",
         "parent_code": "164"
     },
-    "05479": {
+     {
         "name": "Tân Thành",
         "type": "phuong",
         "slug": "tan-thanh",
@@ -169,7 +169,7 @@
         "code": "05479",
         "parent_code": "164"
     },
-    "05482": {
+     {
         "name": "Tân Long",
         "type": "phuong",
         "slug": "tan-long",
@@ -179,7 +179,7 @@
         "code": "05482",
         "parent_code": "164"
     },
-    "05485": {
+     {
         "name": "Phúc Hà",
         "type": "xa",
         "slug": "phuc-ha",
@@ -189,7 +189,7 @@
         "code": "05485",
         "parent_code": "164"
     },
-    "05488": {
+     {
         "name": "Phúc Xuân",
         "type": "xa",
         "slug": "phuc-xuan",
@@ -199,7 +199,7 @@
         "code": "05488",
         "parent_code": "164"
     },
-    "05491": {
+     {
         "name": "Quyết Thắng",
         "type": "xa",
         "slug": "quyet-thang",
@@ -209,7 +209,7 @@
         "code": "05491",
         "parent_code": "164"
     },
-    "05494": {
+     {
         "name": "Phúc Trìu",
         "type": "xa",
         "slug": "phuc-triu",
@@ -219,7 +219,7 @@
         "code": "05494",
         "parent_code": "164"
     },
-    "05497": {
+     {
         "name": "Thịnh Đức",
         "type": "xa",
         "slug": "thinh-duc",
@@ -229,7 +229,7 @@
         "code": "05497",
         "parent_code": "164"
     },
-    "05500": {
+     {
         "name": "Tích Lương",
         "type": "phuong",
         "slug": "tich-luong",
@@ -239,7 +239,7 @@
         "code": "05500",
         "parent_code": "164"
     },
-    "05503": {
+     {
         "name": "Tân Cương",
         "type": "xa",
         "slug": "tan-cuong",
@@ -249,7 +249,7 @@
         "code": "05503",
         "parent_code": "164"
     },
-    "05653": {
+     {
         "name": "Sơn Cẩm",
         "type": "xa",
         "slug": "son-cam",
@@ -259,7 +259,7 @@
         "code": "05653",
         "parent_code": "164"
     },
-    "05659": {
+     {
         "name": "Chùa Hang",
         "type": "phuong",
         "slug": "chua-hang",
@@ -269,7 +269,7 @@
         "code": "05659",
         "parent_code": "164"
     },
-    "05695": {
+     {
         "name": "Cao Ngạn",
         "type": "xa",
         "slug": "cao-ngan",
@@ -279,7 +279,7 @@
         "code": "05695",
         "parent_code": "164"
     },
-    "05701": {
+     {
         "name": "Linh Sơn",
         "type": "xa",
         "slug": "linh-son",
@@ -289,7 +289,7 @@
         "code": "05701",
         "parent_code": "164"
     },
-    "05710": {
+     {
         "name": "Đồng Bẩm",
         "type": "phuong",
         "slug": "dong-bam",
@@ -299,7 +299,7 @@
         "code": "05710",
         "parent_code": "164"
     },
-    "05713": {
+     {
         "name": "Huống Thượng",
         "type": "xa",
         "slug": "huong-thuong",
@@ -309,7 +309,7 @@
         "code": "05713",
         "parent_code": "164"
     },
-    "05914": {
+     {
         "name": "Đồng Liên",
         "type": "xa",
         "slug": "dong-lien",
@@ -319,4 +319,4 @@
         "code": "05914",
         "parent_code": "164"
     }
-}
+]}

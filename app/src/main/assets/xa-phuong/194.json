@@ -1,5 +1,5 @@
 {
-    "06709": {
+    "xa":[ {
         "name": "Ka Long",
         "type": "phuong",
         "slug": "ka-long",
@@ -9,7 +9,7 @@
         "code": "06709",
         "parent_code": "194"
     },
-    "06712": {
+     {
         "name": "Trần Phú",
         "type": "phuong",
         "slug": "tran-phu",
@@ -19,7 +19,7 @@
         "code": "06712",
         "parent_code": "194"
     },
-    "06715": {
+     {
         "name": "Ninh Dương",
         "type": "phuong",
         "slug": "ninh-duong",
@@ -29,7 +29,7 @@
         "code": "06715",
         "parent_code": "194"
     },
-    "06718": {
+     {
         "name": "Hoà Lạc",
         "type": "phuong",
         "slug": "hoa-lac",
@@ -39,7 +39,7 @@
         "code": "06718",
         "parent_code": "194"
     },
-    "06721": {
+     {
         "name": "Trà Cổ",
         "type": "phuong",
         "slug": "tra-co",
@@ -49,7 +49,7 @@
         "code": "06721",
         "parent_code": "194"
     },
-    "06724": {
+     {
         "name": "Hải Sơn",
         "type": "xa",
         "slug": "hai-son",
@@ -59,7 +59,7 @@
         "code": "06724",
         "parent_code": "194"
     },
-    "06727": {
+     {
         "name": "Bắc Sơn",
         "type": "xa",
         "slug": "bac-son",
@@ -69,7 +69,7 @@
         "code": "06727",
         "parent_code": "194"
     },
-    "06730": {
+     {
         "name": "Hải Đông",
         "type": "xa",
         "slug": "hai-dong",
@@ -79,7 +79,7 @@
         "code": "06730",
         "parent_code": "194"
     },
-    "06733": {
+     {
         "name": "Hải Tiến",
         "type": "xa",
         "slug": "hai-tien",
@@ -89,7 +89,7 @@
         "code": "06733",
         "parent_code": "194"
     },
-    "06736": {
+     {
         "name": "Hải Yên",
         "type": "phuong",
         "slug": "hai-yen",
@@ -99,7 +99,7 @@
         "code": "06736",
         "parent_code": "194"
     },
-    "06739": {
+     {
         "name": "Quảng Nghĩa",
         "type": "xa",
         "slug": "quang-nghia",
@@ -109,7 +109,7 @@
         "code": "06739",
         "parent_code": "194"
     },
-    "06742": {
+     {
         "name": "Hải Hoà",
         "type": "phuong",
         "slug": "hai-hoa",
@@ -119,7 +119,7 @@
         "code": "06742",
         "parent_code": "194"
     },
-    "06745": {
+     {
         "name": "Hải Xuân",
         "type": "xa",
         "slug": "hai-xuan",
@@ -129,7 +129,7 @@
         "code": "06745",
         "parent_code": "194"
     },
-    "06748": {
+     {
         "name": "Vạn Ninh",
         "type": "xa",
         "slug": "van-ninh",
@@ -139,7 +139,7 @@
         "code": "06748",
         "parent_code": "194"
     },
-    "06751": {
+     {
         "name": "Bình Ngọc",
         "type": "phuong",
         "slug": "binh-ngoc",
@@ -149,7 +149,7 @@
         "code": "06751",
         "parent_code": "194"
     },
-    "06754": {
+     {
         "name": "Vĩnh Trung",
         "type": "xa",
         "slug": "vinh-trung",
@@ -159,7 +159,7 @@
         "code": "06754",
         "parent_code": "194"
     },
-    "06757": {
+     {
         "name": "Vĩnh Thực",
         "type": "xa",
         "slug": "vinh-thuc",
@@ -169,4 +169,4 @@
         "code": "06757",
         "parent_code": "194"
     }
-}
+]}

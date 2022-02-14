@@ -1,5 +1,5 @@
 {
-    "21400": {
+    "xa":[ {
         "name": "Mộ Đức",
         "type": "thi-tran",
         "slug": "mo-duc",
@@ -9,7 +9,7 @@
         "code": "21400",
         "parent_code": "533"
     },
-    "21403": {
+     {
         "name": "Đức Lợi",
         "type": "xa",
         "slug": "duc-loi",
@@ -19,7 +19,7 @@
         "code": "21403",
         "parent_code": "533"
     },
-    "21406": {
+     {
         "name": "Đức Thắng",
         "type": "xa",
         "slug": "duc-thang",
@@ -29,7 +29,7 @@
         "code": "21406",
         "parent_code": "533"
     },
-    "21409": {
+     {
         "name": "Đức Nhuận",
         "type": "xa",
         "slug": "duc-nhuan",
@@ -39,7 +39,7 @@
         "code": "21409",
         "parent_code": "533"
     },
-    "21412": {
+     {
         "name": "Đức Chánh",
         "type": "xa",
         "slug": "duc-chanh",
@@ -49,7 +49,7 @@
         "code": "21412",
         "parent_code": "533"
     },
-    "21415": {
+     {
         "name": "Đức Hiệp",
         "type": "xa",
         "slug": "duc-hiep",
@@ -59,7 +59,7 @@
         "code": "21415",
         "parent_code": "533"
     },
-    "21418": {
+     {
         "name": "Đức Minh",
         "type": "xa",
         "slug": "duc-minh",
@@ -69,7 +69,7 @@
         "code": "21418",
         "parent_code": "533"
     },
-    "21421": {
+     {
         "name": "Đức Thạnh",
         "type": "xa",
         "slug": "duc-thanh",
@@ -79,7 +79,7 @@
         "code": "21421",
         "parent_code": "533"
     },
-    "21424": {
+     {
         "name": "Đức Hòa",
         "type": "xa",
         "slug": "duc-hoa",
@@ -89,7 +89,7 @@
         "code": "21424",
         "parent_code": "533"
     },
-    "21427": {
+     {
         "name": "Đức Tân",
         "type": "xa",
         "slug": "duc-tan",
@@ -99,7 +99,7 @@
         "code": "21427",
         "parent_code": "533"
     },
-    "21430": {
+     {
         "name": "Đức Phú",
         "type": "xa",
         "slug": "duc-phu",
@@ -109,7 +109,7 @@
         "code": "21430",
         "parent_code": "533"
     },
-    "21433": {
+     {
         "name": "Đức Phong",
         "type": "xa",
         "slug": "duc-phong",
@@ -119,7 +119,7 @@
         "code": "21433",
         "parent_code": "533"
     },
-    "21436": {
+     {
         "name": "Đức Lân",
         "type": "xa",
         "slug": "duc-lan",
@@ -129,4 +129,4 @@
         "code": "21436",
         "parent_code": "533"
     }
-}
+]}

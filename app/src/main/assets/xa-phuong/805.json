@@ -1,5 +1,5 @@
 {
-    "28075": {
+    "xa":[ {
         "name": "Tân Trụ",
         "type": "thi-tran",
         "slug": "tan-tru",
@@ -9,7 +9,7 @@
         "code": "28075",
         "parent_code": "805"
     },
-    "28078": {
+     {
         "name": "Tân Bình",
         "type": "xa",
         "slug": "tan-binh",
@@ -19,7 +19,7 @@
         "code": "28078",
         "parent_code": "805"
     },
-    "28084": {
+     {
         "name": "Quê Mỹ Thạnh",
         "type": "xa",
         "slug": "que-my-thanh",
@@ -29,7 +29,7 @@
         "code": "28084",
         "parent_code": "805"
     },
-    "28087": {
+     {
         "name": "Lạc Tấn",
         "type": "xa",
         "slug": "lac-tan",
@@ -39,7 +39,7 @@
         "code": "28087",
         "parent_code": "805"
     },
-    "28090": {
+     {
         "name": "Bình Trinh Đông",
         "type": "xa",
         "slug": "binh-trinh-dong",
@@ -49,7 +49,7 @@
         "code": "28090",
         "parent_code": "805"
     },
-    "28093": {
+     {
         "name": "Tân Phước Tây",
         "type": "xa",
         "slug": "tan-phuoc-tay",
@@ -59,7 +59,7 @@
         "code": "28093",
         "parent_code": "805"
     },
-    "28096": {
+     {
         "name": "Bình Lãng",
         "type": "xa",
         "slug": "binh-lang",
@@ -69,7 +69,7 @@
         "code": "28096",
         "parent_code": "805"
     },
-    "28099": {
+     {
         "name": "Bình Tịnh",
         "type": "xa",
         "slug": "binh-tinh",
@@ -79,7 +79,7 @@
         "code": "28099",
         "parent_code": "805"
     },
-    "28102": {
+     {
         "name": "Đức Tân",
         "type": "xa",
         "slug": "duc-tan",
@@ -89,7 +89,7 @@
         "code": "28102",
         "parent_code": "805"
     },
-    "28105": {
+     {
         "name": "Nhựt Ninh",
         "type": "xa",
         "slug": "nhut-ninh",
@@ -99,4 +99,4 @@
         "code": "28105",
         "parent_code": "805"
     }
-}
+]}

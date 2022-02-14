@@ -1,5 +1,5 @@
 {
-    "21550": {
+    "xa":[ {
         "name": "Nhơn Bình",
         "type": "phuong",
         "slug": "nhon-binh",
@@ -9,7 +9,7 @@
         "code": "21550",
         "parent_code": "540"
     },
-    "21553": {
+     {
         "name": "Nhơn Phú",
         "type": "phuong",
         "slug": "nhon-phu",
@@ -19,7 +19,7 @@
         "code": "21553",
         "parent_code": "540"
     },
-    "21556": {
+     {
         "name": "Đống Đa",
         "type": "phuong",
         "slug": "dong-da",
@@ -29,7 +29,7 @@
         "code": "21556",
         "parent_code": "540"
     },
-    "21559": {
+     {
         "name": "Trần Quang Diệu",
         "type": "phuong",
         "slug": "tran-quang-dieu",
@@ -39,7 +39,7 @@
         "code": "21559",
         "parent_code": "540"
     },
-    "21562": {
+     {
         "name": "Hải Cảng",
         "type": "phuong",
         "slug": "hai-cang",
@@ -49,7 +49,7 @@
         "code": "21562",
         "parent_code": "540"
     },
-    "21565": {
+     {
         "name": "Quang Trung",
         "type": "phuong",
         "slug": "quang-trung",
@@ -59,7 +59,7 @@
         "code": "21565",
         "parent_code": "540"
     },
-    "21568": {
+     {
         "name": "Thị Nại",
         "type": "phuong",
         "slug": "thi-nai",
@@ -69,7 +69,7 @@
         "code": "21568",
         "parent_code": "540"
     },
-    "21571": {
+     {
         "name": "Lê Hồng Phong",
         "type": "phuong",
         "slug": "le-hong-phong",
@@ -79,7 +79,7 @@
         "code": "21571",
         "parent_code": "540"
     },
-    "21574": {
+     {
         "name": "Trần Hưng Đạo",
         "type": "phuong",
         "slug": "tran-hung-dao",
@@ -89,7 +89,7 @@
         "code": "21574",
         "parent_code": "540"
     },
-    "21577": {
+     {
         "name": "Ngô Mây",
         "type": "phuong",
         "slug": "ngo-may",
@@ -99,7 +99,7 @@
         "code": "21577",
         "parent_code": "540"
     },
-    "21580": {
+     {
         "name": "Lý Thường Kiệt",
         "type": "phuong",
         "slug": "ly-thuong-kiet",
@@ -109,7 +109,7 @@
         "code": "21580",
         "parent_code": "540"
     },
-    "21583": {
+     {
         "name": "Lê Lợi",
         "type": "phuong",
         "slug": "le-loi",
@@ -119,7 +119,7 @@
         "code": "21583",
         "parent_code": "540"
     },
-    "21586": {
+     {
         "name": "Trần Phú",
         "type": "phuong",
         "slug": "tran-phu",
@@ -129,7 +129,7 @@
         "code": "21586",
         "parent_code": "540"
     },
-    "21589": {
+     {
         "name": "Bùi Thị Xuân",
         "type": "phuong",
         "slug": "bui-thi-xuan",
@@ -139,7 +139,7 @@
         "code": "21589",
         "parent_code": "540"
     },
-    "21592": {
+     {
         "name": "Nguyễn Văn Cừ",
         "type": "phuong",
         "slug": "nguyen-van-cu",
@@ -149,7 +149,7 @@
         "code": "21592",
         "parent_code": "540"
     },
-    "21595": {
+     {
         "name": "Ghềnh Ráng",
         "type": "phuong",
         "slug": "ghenh-rang",
@@ -159,7 +159,7 @@
         "code": "21595",
         "parent_code": "540"
     },
-    "21598": {
+     {
         "name": "Nhơn Lý",
         "type": "xa",
         "slug": "nhon-ly",
@@ -169,7 +169,7 @@
         "code": "21598",
         "parent_code": "540"
     },
-    "21601": {
+     {
         "name": "Nhơn Hội",
         "type": "xa",
         "slug": "nhon-hoi",
@@ -179,7 +179,7 @@
         "code": "21601",
         "parent_code": "540"
     },
-    "21604": {
+     {
         "name": "Nhơn Hải",
         "type": "xa",
         "slug": "nhon-hai",
@@ -189,7 +189,7 @@
         "code": "21604",
         "parent_code": "540"
     },
-    "21607": {
+     {
         "name": "Nhơn Châu",
         "type": "xa",
         "slug": "nhon-chau",
@@ -199,7 +199,7 @@
         "code": "21607",
         "parent_code": "540"
     },
-    "21991": {
+     {
         "name": "Phước Mỹ",
         "type": "xa",
         "slug": "phuoc-my",
@@ -209,4 +209,4 @@
         "code": "21991",
         "parent_code": "540"
     }
-}
+]}

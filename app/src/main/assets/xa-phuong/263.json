@@ -1,5 +1,5 @@
 {
-    "09454": {
+    "xa":[ {
         "name": "Gia Bình",
         "type": "thi-tran",
         "slug": "gia-binh",
@@ -9,7 +9,7 @@
         "code": "09454",
         "parent_code": "263"
     },
-    "09457": {
+     {
         "name": "Vạn Ninh",
         "type": "xa",
         "slug": "van-ninh",
@@ -19,7 +19,7 @@
         "code": "09457",
         "parent_code": "263"
     },
-    "09460": {
+     {
         "name": "Thái Bảo",
         "type": "xa",
         "slug": "thai-bao",
@@ -29,7 +29,7 @@
         "code": "09460",
         "parent_code": "263"
     },
-    "09463": {
+     {
         "name": "Giang Sơn",
         "type": "xa",
         "slug": "giang-son",
@@ -39,7 +39,7 @@
         "code": "09463",
         "parent_code": "263"
     },
-    "09466": {
+     {
         "name": "Cao Đức",
         "type": "xa",
         "slug": "cao-duc",
@@ -49,7 +49,7 @@
         "code": "09466",
         "parent_code": "263"
     },
-    "09469": {
+     {
         "name": "Đại Lai",
         "type": "xa",
         "slug": "dai-lai",
@@ -59,7 +59,7 @@
         "code": "09469",
         "parent_code": "263"
     },
-    "09472": {
+     {
         "name": "Song Giang",
         "type": "xa",
         "slug": "song-giang",
@@ -69,7 +69,7 @@
         "code": "09472",
         "parent_code": "263"
     },
-    "09475": {
+     {
         "name": "Bình Dương",
         "type": "xa",
         "slug": "binh-duong",
@@ -79,7 +79,7 @@
         "code": "09475",
         "parent_code": "263"
     },
-    "09478": {
+     {
         "name": "Lãng Ngâm",
         "type": "xa",
         "slug": "lang-ngam",
@@ -89,7 +89,7 @@
         "code": "09478",
         "parent_code": "263"
     },
-    "09481": {
+     {
         "name": "Nhân Thắng",
         "type": "xa",
         "slug": "nhan-thang",
@@ -99,7 +99,7 @@
         "code": "09481",
         "parent_code": "263"
     },
-    "09484": {
+     {
         "name": "Xuân Lai",
         "type": "xa",
         "slug": "xuan-lai",
@@ -109,7 +109,7 @@
         "code": "09484",
         "parent_code": "263"
     },
-    "09487": {
+     {
         "name": "Đông Cứu",
         "type": "xa",
         "slug": "dong-cuu",
@@ -119,7 +119,7 @@
         "code": "09487",
         "parent_code": "263"
     },
-    "09490": {
+     {
         "name": "Đại Bái",
         "type": "xa",
         "slug": "dai-bai",
@@ -129,7 +129,7 @@
         "code": "09490",
         "parent_code": "263"
     },
-    "09493": {
+     {
         "name": "Quỳnh Phú",
         "type": "xa",
         "slug": "quynh-phu",
@@ -139,4 +139,4 @@
         "code": "09493",
         "parent_code": "263"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "18115": {
+    "xa":[ {
         "name": "Bắc Hồng",
         "type": "phuong",
         "slug": "bac-hong",
@@ -9,7 +9,7 @@
         "code": "18115",
         "parent_code": "437"
     },
-    "18118": {
+     {
         "name": "Nam Hồng",
         "type": "phuong",
         "slug": "nam-hong",
@@ -19,7 +19,7 @@
         "code": "18118",
         "parent_code": "437"
     },
-    "18121": {
+     {
         "name": "Trung Lương",
         "type": "phuong",
         "slug": "trung-luong",
@@ -29,7 +29,7 @@
         "code": "18121",
         "parent_code": "437"
     },
-    "18124": {
+     {
         "name": "Đức Thuận",
         "type": "phuong",
         "slug": "duc-thuan",
@@ -39,7 +39,7 @@
         "code": "18124",
         "parent_code": "437"
     },
-    "18127": {
+     {
         "name": "Đậu Liêu",
         "type": "phuong",
         "slug": "dau-lieu",
@@ -49,7 +49,7 @@
         "code": "18127",
         "parent_code": "437"
     },
-    "18130": {
+     {
         "name": "Thuận Lộc",
         "type": "xa",
         "slug": "thuan-loc",
@@ -59,4 +59,4 @@
         "code": "18130",
         "parent_code": "437"
     }
-}
+]}

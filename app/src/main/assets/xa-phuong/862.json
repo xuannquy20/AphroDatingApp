@@ -1,5 +1,5 @@
 {
-    "29821": {
+    "xa":[ {
         "name": "Trà Ôn",
         "type": "thi-tran",
         "slug": "tra-on",
@@ -9,7 +9,7 @@
         "code": "29821",
         "parent_code": "862"
     },
-    "29824": {
+     {
         "name": "Xuân Hiệp",
         "type": "xa",
         "slug": "xuan-hiep",
@@ -19,7 +19,7 @@
         "code": "29824",
         "parent_code": "862"
     },
-    "29827": {
+     {
         "name": "Nhơn Bình",
         "type": "xa",
         "slug": "nhon-binh",
@@ -29,7 +29,7 @@
         "code": "29827",
         "parent_code": "862"
     },
-    "29830": {
+     {
         "name": "Hòa Bình",
         "type": "xa",
         "slug": "hoa-binh",
@@ -39,7 +39,7 @@
         "code": "29830",
         "parent_code": "862"
     },
-    "29833": {
+     {
         "name": "Thới Hòa",
         "type": "xa",
         "slug": "thoi-hoa",
@@ -49,7 +49,7 @@
         "code": "29833",
         "parent_code": "862"
     },
-    "29836": {
+     {
         "name": "Trà Côn",
         "type": "xa",
         "slug": "tra-con",
@@ -59,7 +59,7 @@
         "code": "29836",
         "parent_code": "862"
     },
-    "29839": {
+     {
         "name": "Tân Mỹ",
         "type": "xa",
         "slug": "tan-my",
@@ -69,7 +69,7 @@
         "code": "29839",
         "parent_code": "862"
     },
-    "29842": {
+     {
         "name": "Hựu Thành",
         "type": "xa",
         "slug": "huu-thanh",
@@ -79,7 +79,7 @@
         "code": "29842",
         "parent_code": "862"
     },
-    "29845": {
+     {
         "name": "Vĩnh Xuân",
         "type": "xa",
         "slug": "vinh-xuan",
@@ -89,7 +89,7 @@
         "code": "29845",
         "parent_code": "862"
     },
-    "29848": {
+     {
         "name": "Thuận Thới",
         "type": "xa",
         "slug": "thuan-thoi",
@@ -99,7 +99,7 @@
         "code": "29848",
         "parent_code": "862"
     },
-    "29851": {
+     {
         "name": "Phú Thành",
         "type": "xa",
         "slug": "phu-thanh",
@@ -109,7 +109,7 @@
         "code": "29851",
         "parent_code": "862"
     },
-    "29854": {
+     {
         "name": "Thiện Mỹ",
         "type": "xa",
         "slug": "thien-my",
@@ -119,7 +119,7 @@
         "code": "29854",
         "parent_code": "862"
     },
-    "29857": {
+     {
         "name": "Lục Sỹ Thành",
         "type": "xa",
         "slug": "luc-sy-thanh",
@@ -129,7 +129,7 @@
         "code": "29857",
         "parent_code": "862"
     },
-    "29860": {
+     {
         "name": "Tích Thiện",
         "type": "xa",
         "slug": "tich-thien",
@@ -139,4 +139,4 @@
         "code": "29860",
         "parent_code": "862"
     }
-}
+]}

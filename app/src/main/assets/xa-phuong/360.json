@@ -1,5 +1,5 @@
 {
-    "13795": {
+    "xa":[ {
         "name": "Lâm",
         "type": "thi-tran",
         "slug": "lam",
@@ -9,7 +9,7 @@
         "code": "13795",
         "parent_code": "360"
     },
-    "13798": {
+     {
         "name": "Yên Trung",
         "type": "xa",
         "slug": "yen-trung",
@@ -19,7 +19,7 @@
         "code": "13798",
         "parent_code": "360"
     },
-    "13801": {
+     {
         "name": "Yên Thành",
         "type": "xa",
         "slug": "yen-thanh",
@@ -29,7 +29,7 @@
         "code": "13801",
         "parent_code": "360"
     },
-    "13804": {
+     {
         "name": "Yên Tân",
         "type": "xa",
         "slug": "yen-tan",
@@ -39,7 +39,7 @@
         "code": "13804",
         "parent_code": "360"
     },
-    "13807": {
+     {
         "name": "Yên Lợi",
         "type": "xa",
         "slug": "yen-loi",
@@ -49,7 +49,7 @@
         "code": "13807",
         "parent_code": "360"
     },
-    "13810": {
+     {
         "name": "Yên Thọ",
         "type": "xa",
         "slug": "yen-tho",
@@ -59,7 +59,7 @@
         "code": "13810",
         "parent_code": "360"
     },
-    "13813": {
+     {
         "name": "Yên Nghĩa",
         "type": "xa",
         "slug": "yen-nghia",
@@ -69,7 +69,7 @@
         "code": "13813",
         "parent_code": "360"
     },
-    "13816": {
+     {
         "name": "Yên Minh",
         "type": "xa",
         "slug": "yen-minh",
@@ -79,7 +79,7 @@
         "code": "13816",
         "parent_code": "360"
     },
-    "13819": {
+     {
         "name": "Yên Phương",
         "type": "xa",
         "slug": "yen-phuong",
@@ -89,7 +89,7 @@
         "code": "13819",
         "parent_code": "360"
     },
-    "13822": {
+     {
         "name": "Yên Chính",
         "type": "xa",
         "slug": "yen-chinh",
@@ -99,7 +99,7 @@
         "code": "13822",
         "parent_code": "360"
     },
-    "13825": {
+     {
         "name": "Yên Bình",
         "type": "xa",
         "slug": "yen-binh",
@@ -109,7 +109,7 @@
         "code": "13825",
         "parent_code": "360"
     },
-    "13828": {
+     {
         "name": "Yên Phú",
         "type": "xa",
         "slug": "yen-phu",
@@ -119,7 +119,7 @@
         "code": "13828",
         "parent_code": "360"
     },
-    "13831": {
+     {
         "name": "Yên Mỹ",
         "type": "xa",
         "slug": "yen-my",
@@ -129,7 +129,7 @@
         "code": "13831",
         "parent_code": "360"
     },
-    "13834": {
+     {
         "name": "Yên Dương",
         "type": "xa",
         "slug": "yen-duong",
@@ -139,7 +139,7 @@
         "code": "13834",
         "parent_code": "360"
     },
-    "13840": {
+     {
         "name": "Yên Hưng",
         "type": "xa",
         "slug": "yen-hung",
@@ -149,7 +149,7 @@
         "code": "13840",
         "parent_code": "360"
     },
-    "13843": {
+     {
         "name": "Yên Khánh",
         "type": "xa",
         "slug": "yen-khanh",
@@ -159,7 +159,7 @@
         "code": "13843",
         "parent_code": "360"
     },
-    "13846": {
+     {
         "name": "Yên Phong",
         "type": "xa",
         "slug": "yen-phong",
@@ -169,7 +169,7 @@
         "code": "13846",
         "parent_code": "360"
     },
-    "13849": {
+     {
         "name": "Yên Ninh",
         "type": "xa",
         "slug": "yen-ninh",
@@ -179,7 +179,7 @@
         "code": "13849",
         "parent_code": "360"
     },
-    "13852": {
+     {
         "name": "Yên Lương",
         "type": "xa",
         "slug": "yen-luong",
@@ -189,7 +189,7 @@
         "code": "13852",
         "parent_code": "360"
     },
-    "13855": {
+     {
         "name": "Yên Hồng",
         "type": "xa",
         "slug": "yen-hong",
@@ -199,7 +199,7 @@
         "code": "13855",
         "parent_code": "360"
     },
-    "13858": {
+     {
         "name": "Yên Quang",
         "type": "xa",
         "slug": "yen-quang",
@@ -209,7 +209,7 @@
         "code": "13858",
         "parent_code": "360"
     },
-    "13861": {
+     {
         "name": "Yên Tiến",
         "type": "xa",
         "slug": "yen-tien",
@@ -219,7 +219,7 @@
         "code": "13861",
         "parent_code": "360"
     },
-    "13864": {
+     {
         "name": "Yên Thắng",
         "type": "xa",
         "slug": "yen-thang",
@@ -229,7 +229,7 @@
         "code": "13864",
         "parent_code": "360"
     },
-    "13867": {
+     {
         "name": "Yên Phúc",
         "type": "xa",
         "slug": "yen-phuc",
@@ -239,7 +239,7 @@
         "code": "13867",
         "parent_code": "360"
     },
-    "13870": {
+     {
         "name": "Yên Cường",
         "type": "xa",
         "slug": "yen-cuong",
@@ -249,7 +249,7 @@
         "code": "13870",
         "parent_code": "360"
     },
-    "13873": {
+     {
         "name": "Yên Lộc",
         "type": "xa",
         "slug": "yen-loc",
@@ -259,7 +259,7 @@
         "code": "13873",
         "parent_code": "360"
     },
-    "13876": {
+     {
         "name": "Yên Bằng",
         "type": "xa",
         "slug": "yen-bang",
@@ -269,7 +269,7 @@
         "code": "13876",
         "parent_code": "360"
     },
-    "13879": {
+     {
         "name": "Yên Đồng",
         "type": "xa",
         "slug": "yen-dong",
@@ -279,7 +279,7 @@
         "code": "13879",
         "parent_code": "360"
     },
-    "13882": {
+     {
         "name": "Yên Khang",
         "type": "xa",
         "slug": "yen-khang",
@@ -289,7 +289,7 @@
         "code": "13882",
         "parent_code": "360"
     },
-    "13885": {
+     {
         "name": "Yên Nhân",
         "type": "xa",
         "slug": "yen-nhan",
@@ -299,7 +299,7 @@
         "code": "13885",
         "parent_code": "360"
     },
-    "13888": {
+     {
         "name": "Yên Trị",
         "type": "xa",
         "slug": "yen-tri",
@@ -309,4 +309,4 @@
         "code": "13888",
         "parent_code": "360"
     }
-}
+]}

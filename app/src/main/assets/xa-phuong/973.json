@@ -1,5 +1,5 @@
 {
-    "32233": {
+    "xa":[ {
         "name": "Tam Giang Tây",
         "type": "xa",
         "slug": "tam-giang-tay",
@@ -9,7 +9,7 @@
         "code": "32233",
         "parent_code": "973"
     },
-    "32236": {
+     {
         "name": "Tân Ân Tây",
         "type": "xa",
         "slug": "tan-an-tay",
@@ -19,7 +19,7 @@
         "code": "32236",
         "parent_code": "973"
     },
-    "32239": {
+     {
         "name": "Viên An Đông",
         "type": "xa",
         "slug": "vien-an-dong",
@@ -29,7 +29,7 @@
         "code": "32239",
         "parent_code": "973"
     },
-    "32242": {
+     {
         "name": "Viên An",
         "type": "xa",
         "slug": "vien-an",
@@ -39,7 +39,7 @@
         "code": "32242",
         "parent_code": "973"
     },
-    "32244": {
+     {
         "name": "Rạch Gốc",
         "type": "thi-tran",
         "slug": "rach-goc",
@@ -49,7 +49,7 @@
         "code": "32244",
         "parent_code": "973"
     },
-    "32245": {
+     {
         "name": "Tân Ân",
         "type": "xa",
         "slug": "tan-an",
@@ -59,7 +59,7 @@
         "code": "32245",
         "parent_code": "973"
     },
-    "32248": {
+     {
         "name": "Đất Mũi",
         "type": "xa",
         "slug": "dat-mui",
@@ -69,4 +69,4 @@
         "code": "32248",
         "parent_code": "973"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "29341": {
+    "xa":[ {
         "name": "Tiểu Cần",
         "type": "thi-tran",
         "slug": "tieu-can",
@@ -9,7 +9,7 @@
         "code": "29341",
         "parent_code": "846"
     },
-    "29344": {
+     {
         "name": "Cầu Quan",
         "type": "thi-tran",
         "slug": "cau-quan",
@@ -19,7 +19,7 @@
         "code": "29344",
         "parent_code": "846"
     },
-    "29347": {
+     {
         "name": "Phú Cần",
         "type": "xa",
         "slug": "phu-can",
@@ -29,7 +29,7 @@
         "code": "29347",
         "parent_code": "846"
     },
-    "29350": {
+     {
         "name": "Hiếu Tử",
         "type": "xa",
         "slug": "hieu-tu",
@@ -39,7 +39,7 @@
         "code": "29350",
         "parent_code": "846"
     },
-    "29353": {
+     {
         "name": "Hiếu Trung",
         "type": "xa",
         "slug": "hieu-trung",
@@ -49,7 +49,7 @@
         "code": "29353",
         "parent_code": "846"
     },
-    "29356": {
+     {
         "name": "Long Thới",
         "type": "xa",
         "slug": "long-thoi",
@@ -59,7 +59,7 @@
         "code": "29356",
         "parent_code": "846"
     },
-    "29359": {
+     {
         "name": "Hùng Hòa",
         "type": "xa",
         "slug": "hung-hoa",
@@ -69,7 +69,7 @@
         "code": "29359",
         "parent_code": "846"
     },
-    "29362": {
+     {
         "name": "Tân Hùng",
         "type": "xa",
         "slug": "tan-hung",
@@ -79,7 +79,7 @@
         "code": "29362",
         "parent_code": "846"
     },
-    "29365": {
+     {
         "name": "Tập Ngãi",
         "type": "xa",
         "slug": "tap-ngai",
@@ -89,7 +89,7 @@
         "code": "29365",
         "parent_code": "846"
     },
-    "29368": {
+     {
         "name": "Ngãi Hùng",
         "type": "xa",
         "slug": "ngai-hung",
@@ -99,7 +99,7 @@
         "code": "29368",
         "parent_code": "846"
     },
-    "29371": {
+     {
         "name": "Tân Hòa",
         "type": "xa",
         "slug": "tan-hoa",
@@ -109,4 +109,4 @@
         "code": "29371",
         "parent_code": "846"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "13567": {
+    "xa":[ {
         "name": "Hợp Lý",
         "type": "xa",
         "slug": "hop-ly",
@@ -9,7 +9,7 @@
         "code": "13567",
         "parent_code": "353"
     },
-    "13570": {
+     {
         "name": "Nguyên Lý",
         "type": "xa",
         "slug": "nguyen-ly",
@@ -19,7 +19,7 @@
         "code": "13570",
         "parent_code": "353"
     },
-    "13573": {
+     {
         "name": "Chính Lý",
         "type": "xa",
         "slug": "chinh-ly",
@@ -29,7 +29,7 @@
         "code": "13573",
         "parent_code": "353"
     },
-    "13576": {
+     {
         "name": "Chân Lý",
         "type": "xa",
         "slug": "chan-ly",
@@ -39,7 +39,7 @@
         "code": "13576",
         "parent_code": "353"
     },
-    "13579": {
+     {
         "name": "Đạo Lý",
         "type": "xa",
         "slug": "dao-ly",
@@ -49,7 +49,7 @@
         "code": "13579",
         "parent_code": "353"
     },
-    "13582": {
+     {
         "name": "Công Lý",
         "type": "xa",
         "slug": "cong-ly",
@@ -59,7 +59,7 @@
         "code": "13582",
         "parent_code": "353"
     },
-    "13585": {
+     {
         "name": "Văn Lý",
         "type": "xa",
         "slug": "van-ly",
@@ -69,7 +69,7 @@
         "code": "13585",
         "parent_code": "353"
     },
-    "13588": {
+     {
         "name": "Bắc Lý",
         "type": "xa",
         "slug": "bac-ly",
@@ -79,7 +79,7 @@
         "code": "13588",
         "parent_code": "353"
     },
-    "13591": {
+     {
         "name": "Đức Lý",
         "type": "xa",
         "slug": "duc-ly",
@@ -89,7 +89,7 @@
         "code": "13591",
         "parent_code": "353"
     },
-    "13594": {
+     {
         "name": "Trần Hưng Đạo",
         "type": "xa",
         "slug": "tran-hung-dao",
@@ -99,7 +99,7 @@
         "code": "13594",
         "parent_code": "353"
     },
-    "13597": {
+     {
         "name": "Vĩnh Trụ",
         "type": "thi-tran",
         "slug": "vinh-tru",
@@ -109,7 +109,7 @@
         "code": "13597",
         "parent_code": "353"
     },
-    "13600": {
+     {
         "name": "Nhân Thịnh",
         "type": "xa",
         "slug": "nhan-thinh",
@@ -119,7 +119,7 @@
         "code": "13600",
         "parent_code": "353"
     },
-    "13606": {
+     {
         "name": "Nhân Khang",
         "type": "xa",
         "slug": "nhan-khang",
@@ -129,7 +129,7 @@
         "code": "13606",
         "parent_code": "353"
     },
-    "13609": {
+     {
         "name": "Nhân Mỹ",
         "type": "xa",
         "slug": "nhan-my",
@@ -139,7 +139,7 @@
         "code": "13609",
         "parent_code": "353"
     },
-    "13612": {
+     {
         "name": "Nhân Nghĩa",
         "type": "xa",
         "slug": "nhan-nghia",
@@ -149,7 +149,7 @@
         "code": "13612",
         "parent_code": "353"
     },
-    "13615": {
+     {
         "name": "Nhân Chính",
         "type": "xa",
         "slug": "nhan-chinh",
@@ -159,7 +159,7 @@
         "code": "13615",
         "parent_code": "353"
     },
-    "13618": {
+     {
         "name": "Nhân Bình",
         "type": "xa",
         "slug": "nhan-binh",
@@ -169,7 +169,7 @@
         "code": "13618",
         "parent_code": "353"
     },
-    "13621": {
+     {
         "name": "Phú Phúc",
         "type": "xa",
         "slug": "phu-phuc",
@@ -179,7 +179,7 @@
         "code": "13621",
         "parent_code": "353"
     },
-    "13624": {
+     {
         "name": "Xuân Khê",
         "type": "xa",
         "slug": "xuan-khe",
@@ -189,7 +189,7 @@
         "code": "13624",
         "parent_code": "353"
     },
-    "13627": {
+     {
         "name": "Tiến Thắng",
         "type": "xa",
         "slug": "tien-thang",
@@ -199,7 +199,7 @@
         "code": "13627",
         "parent_code": "353"
     },
-    "13630": {
+     {
         "name": "Hòa Hậu",
         "type": "xa",
         "slug": "hoa-hau",
@@ -209,4 +209,4 @@
         "code": "13630",
         "parent_code": "353"
     }
-}
+]}

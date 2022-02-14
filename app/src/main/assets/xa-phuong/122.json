@@ -1,5 +1,5 @@
 {
-    "03898": {
+    "xa":[ {
         "name": "Phù Yên",
         "type": "thi-tran",
         "slug": "phu-yen",
@@ -9,7 +9,7 @@
         "code": "03898",
         "parent_code": "122"
     },
-    "03901": {
+     {
         "name": "Suối Tọ",
         "type": "xa",
         "slug": "suoi-to",
@@ -19,7 +19,7 @@
         "code": "03901",
         "parent_code": "122"
     },
-    "03904": {
+     {
         "name": "Mường Thải",
         "type": "xa",
         "slug": "muong-thai",
@@ -29,7 +29,7 @@
         "code": "03904",
         "parent_code": "122"
     },
-    "03907": {
+     {
         "name": "Mường Cơi",
         "type": "xa",
         "slug": "muong-coi",
@@ -39,7 +39,7 @@
         "code": "03907",
         "parent_code": "122"
     },
-    "03910": {
+     {
         "name": "Quang Huy",
         "type": "xa",
         "slug": "quang-huy",
@@ -49,7 +49,7 @@
         "code": "03910",
         "parent_code": "122"
     },
-    "03913": {
+     {
         "name": "Huy Bắc",
         "type": "xa",
         "slug": "huy-bac",
@@ -59,7 +59,7 @@
         "code": "03913",
         "parent_code": "122"
     },
-    "03916": {
+     {
         "name": "Huy Thượng",
         "type": "xa",
         "slug": "huy-thuong",
@@ -69,7 +69,7 @@
         "code": "03916",
         "parent_code": "122"
     },
-    "03919": {
+     {
         "name": "Tân Lang",
         "type": "xa",
         "slug": "tan-lang",
@@ -79,7 +79,7 @@
         "code": "03919",
         "parent_code": "122"
     },
-    "03922": {
+     {
         "name": "Gia Phù",
         "type": "xa",
         "slug": "gia-phu",
@@ -89,7 +89,7 @@
         "code": "03922",
         "parent_code": "122"
     },
-    "03925": {
+     {
         "name": "Tường Phù",
         "type": "xa",
         "slug": "tuong-phu",
@@ -99,7 +99,7 @@
         "code": "03925",
         "parent_code": "122"
     },
-    "03928": {
+     {
         "name": "Huy Hạ",
         "type": "xa",
         "slug": "huy-ha",
@@ -109,7 +109,7 @@
         "code": "03928",
         "parent_code": "122"
     },
-    "03931": {
+     {
         "name": "Huy Tân",
         "type": "xa",
         "slug": "huy-tan",
@@ -119,7 +119,7 @@
         "code": "03931",
         "parent_code": "122"
     },
-    "03934": {
+     {
         "name": "Mường Lang",
         "type": "xa",
         "slug": "muong-lang",
@@ -129,7 +129,7 @@
         "code": "03934",
         "parent_code": "122"
     },
-    "03937": {
+     {
         "name": "Suối Bau",
         "type": "xa",
         "slug": "suoi-bau",
@@ -139,7 +139,7 @@
         "code": "03937",
         "parent_code": "122"
     },
-    "03940": {
+     {
         "name": "Huy Tường",
         "type": "xa",
         "slug": "huy-tuong",
@@ -149,7 +149,7 @@
         "code": "03940",
         "parent_code": "122"
     },
-    "03943": {
+     {
         "name": "Mường Do",
         "type": "xa",
         "slug": "muong-do",
@@ -159,7 +159,7 @@
         "code": "03943",
         "parent_code": "122"
     },
-    "03946": {
+     {
         "name": "Sập Xa",
         "type": "xa",
         "slug": "sap-xa",
@@ -169,7 +169,7 @@
         "code": "03946",
         "parent_code": "122"
     },
-    "03949": {
+     {
         "name": "Tường Thượng",
         "type": "xa",
         "slug": "tuong-thuong",
@@ -179,7 +179,7 @@
         "code": "03949",
         "parent_code": "122"
     },
-    "03952": {
+     {
         "name": "Tường Tiến",
         "type": "xa",
         "slug": "tuong-tien",
@@ -189,7 +189,7 @@
         "code": "03952",
         "parent_code": "122"
     },
-    "03955": {
+     {
         "name": "Tường Phong",
         "type": "xa",
         "slug": "tuong-phong",
@@ -199,7 +199,7 @@
         "code": "03955",
         "parent_code": "122"
     },
-    "03958": {
+     {
         "name": "Tường Hạ",
         "type": "xa",
         "slug": "tuong-ha",
@@ -209,7 +209,7 @@
         "code": "03958",
         "parent_code": "122"
     },
-    "03961": {
+     {
         "name": "Kim Bon",
         "type": "xa",
         "slug": "kim-bon",
@@ -219,7 +219,7 @@
         "code": "03961",
         "parent_code": "122"
     },
-    "03964": {
+     {
         "name": "Mường Bang",
         "type": "xa",
         "slug": "muong-bang",
@@ -229,7 +229,7 @@
         "code": "03964",
         "parent_code": "122"
     },
-    "03967": {
+     {
         "name": "Đá Đỏ",
         "type": "xa",
         "slug": "da-do",
@@ -239,7 +239,7 @@
         "code": "03967",
         "parent_code": "122"
     },
-    "03970": {
+     {
         "name": "Tân Phong",
         "type": "xa",
         "slug": "tan-phong",
@@ -249,7 +249,7 @@
         "code": "03970",
         "parent_code": "122"
     },
-    "03973": {
+     {
         "name": "Nam Phong",
         "type": "xa",
         "slug": "nam-phong",
@@ -259,7 +259,7 @@
         "code": "03973",
         "parent_code": "122"
     },
-    "03976": {
+     {
         "name": "Bắc Phong",
         "type": "xa",
         "slug": "bac-phong",
@@ -269,4 +269,4 @@
         "code": "03976",
         "parent_code": "122"
     }
-}
+]}

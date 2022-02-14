@@ -1,5 +1,5 @@
 {
-    "29719": {
+    "xa":[ {
         "name": "Tam Bình",
         "type": "thi-tran",
         "slug": "tam-binh",
@@ -9,7 +9,7 @@
         "code": "29719",
         "parent_code": "860"
     },
-    "29722": {
+     {
         "name": "Tân Lộc",
         "type": "xa",
         "slug": "tan-loc",
@@ -19,7 +19,7 @@
         "code": "29722",
         "parent_code": "860"
     },
-    "29725": {
+     {
         "name": "Phú Thịnh",
         "type": "xa",
         "slug": "phu-thinh",
@@ -29,7 +29,7 @@
         "code": "29725",
         "parent_code": "860"
     },
-    "29728": {
+     {
         "name": "Hậu Lộc",
         "type": "xa",
         "slug": "hau-loc",
@@ -39,7 +39,7 @@
         "code": "29728",
         "parent_code": "860"
     },
-    "29731": {
+     {
         "name": "Hòa Thạnh",
         "type": "xa",
         "slug": "hoa-thanh",
@@ -49,7 +49,7 @@
         "code": "29731",
         "parent_code": "860"
     },
-    "29734": {
+     {
         "name": "Hoà Lộc",
         "type": "xa",
         "slug": "hoa-loc",
@@ -59,7 +59,7 @@
         "code": "29734",
         "parent_code": "860"
     },
-    "29737": {
+     {
         "name": "Phú Lộc",
         "type": "xa",
         "slug": "phu-loc",
@@ -69,7 +69,7 @@
         "code": "29737",
         "parent_code": "860"
     },
-    "29740": {
+     {
         "name": "Song Phú",
         "type": "xa",
         "slug": "song-phu",
@@ -79,7 +79,7 @@
         "code": "29740",
         "parent_code": "860"
     },
-    "29743": {
+     {
         "name": "Hòa Hiệp",
         "type": "xa",
         "slug": "hoa-hiep",
@@ -89,7 +89,7 @@
         "code": "29743",
         "parent_code": "860"
     },
-    "29746": {
+     {
         "name": "Mỹ Lộc",
         "type": "xa",
         "slug": "my-loc",
@@ -99,7 +99,7 @@
         "code": "29746",
         "parent_code": "860"
     },
-    "29749": {
+     {
         "name": "Tân Phú",
         "type": "xa",
         "slug": "tan-phu",
@@ -109,7 +109,7 @@
         "code": "29749",
         "parent_code": "860"
     },
-    "29752": {
+     {
         "name": "Long Phú",
         "type": "xa",
         "slug": "long-phu",
@@ -119,7 +119,7 @@
         "code": "29752",
         "parent_code": "860"
     },
-    "29755": {
+     {
         "name": "Mỹ Thạnh Trung",
         "type": "xa",
         "slug": "my-thanh-trung",
@@ -129,7 +129,7 @@
         "code": "29755",
         "parent_code": "860"
     },
-    "29758": {
+     {
         "name": "Tường Lộc",
         "type": "xa",
         "slug": "tuong-loc",
@@ -139,7 +139,7 @@
         "code": "29758",
         "parent_code": "860"
     },
-    "29761": {
+     {
         "name": "Loan Mỹ",
         "type": "xa",
         "slug": "loan-my",
@@ -149,7 +149,7 @@
         "code": "29761",
         "parent_code": "860"
     },
-    "29764": {
+     {
         "name": "Ngãi Tứ",
         "type": "xa",
         "slug": "ngai-tu",
@@ -159,7 +159,7 @@
         "code": "29764",
         "parent_code": "860"
     },
-    "29767": {
+     {
         "name": "Bình Ninh",
         "type": "xa",
         "slug": "binh-ninh",
@@ -169,4 +169,4 @@
         "code": "29767",
         "parent_code": "860"
     }
-}
+]}

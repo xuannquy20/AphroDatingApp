@@ -1,5 +1,5 @@
 {
-    "29902": {
+    "xa":[ {
         "name": "3",
         "type": "phuong",
         "slug": "3",
@@ -9,7 +9,7 @@
         "code": "29902",
         "parent_code": "867"
     },
-    "29905": {
+     {
         "name": "1",
         "type": "phuong",
         "slug": "1",
@@ -19,7 +19,7 @@
         "code": "29905",
         "parent_code": "867"
     },
-    "29908": {
+     {
         "name": "4",
         "type": "phuong",
         "slug": "4",
@@ -29,7 +29,7 @@
         "code": "29908",
         "parent_code": "867"
     },
-    "29911": {
+     {
         "name": "2",
         "type": "phuong",
         "slug": "2",
@@ -39,7 +39,7 @@
         "code": "29911",
         "parent_code": "867"
     },
-    "29914": {
+     {
         "name": "Tân Khánh Đông",
         "type": "xa",
         "slug": "tan-khanh-dong",
@@ -49,7 +49,7 @@
         "code": "29914",
         "parent_code": "867"
     },
-    "29917": {
+     {
         "name": "Tân Quy Đông",
         "type": "phuong",
         "slug": "tan-quy-dong",
@@ -59,7 +59,7 @@
         "code": "29917",
         "parent_code": "867"
     },
-    "29919": {
+     {
         "name": "An Hoà",
         "type": "phuong",
         "slug": "an-hoa",
@@ -69,7 +69,7 @@
         "code": "29919",
         "parent_code": "867"
     },
-    "29920": {
+     {
         "name": "Tân Quy Tây",
         "type": "xa",
         "slug": "tan-quy-tay",
@@ -79,7 +79,7 @@
         "code": "29920",
         "parent_code": "867"
     },
-    "29923": {
+     {
         "name": "Tân Phú Đông",
         "type": "xa",
         "slug": "tan-phu-dong",
@@ -89,4 +89,4 @@
         "code": "29923",
         "parent_code": "867"
     }
-}
+]}

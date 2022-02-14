@@ -1,5 +1,5 @@
 {
-    "07132": {
+    "xa":[ {
         "name": "Quảng Yên",
         "type": "phuong",
         "slug": "quang-yen",
@@ -9,7 +9,7 @@
         "code": "07132",
         "parent_code": "206"
     },
-    "07135": {
+     {
         "name": "Đông Mai",
         "type": "phuong",
         "slug": "dong-mai",
@@ -19,7 +19,7 @@
         "code": "07135",
         "parent_code": "206"
     },
-    "07138": {
+     {
         "name": "Minh Thành",
         "type": "phuong",
         "slug": "minh-thanh",
@@ -29,7 +29,7 @@
         "code": "07138",
         "parent_code": "206"
     },
-    "07144": {
+     {
         "name": "Sông Khoai",
         "type": "xa",
         "slug": "song-khoai",
@@ -39,7 +39,7 @@
         "code": "07144",
         "parent_code": "206"
     },
-    "07147": {
+     {
         "name": "Hiệp Hòa",
         "type": "xa",
         "slug": "hiep-hoa",
@@ -49,7 +49,7 @@
         "code": "07147",
         "parent_code": "206"
     },
-    "07150": {
+     {
         "name": "Cộng Hòa",
         "type": "phuong",
         "slug": "cong-hoa",
@@ -59,7 +59,7 @@
         "code": "07150",
         "parent_code": "206"
     },
-    "07153": {
+     {
         "name": "Tiền An",
         "type": "xa",
         "slug": "tien-an",
@@ -69,7 +69,7 @@
         "code": "07153",
         "parent_code": "206"
     },
-    "07156": {
+     {
         "name": "Hoàng Tân",
         "type": "xa",
         "slug": "hoang-tan",
@@ -79,7 +79,7 @@
         "code": "07156",
         "parent_code": "206"
     },
-    "07159": {
+     {
         "name": "Tân An",
         "type": "phuong",
         "slug": "tan-an",
@@ -89,7 +89,7 @@
         "code": "07159",
         "parent_code": "206"
     },
-    "07162": {
+     {
         "name": "Yên Giang",
         "type": "phuong",
         "slug": "yen-giang",
@@ -99,7 +99,7 @@
         "code": "07162",
         "parent_code": "206"
     },
-    "07165": {
+     {
         "name": "Nam Hoà",
         "type": "phuong",
         "slug": "nam-hoa",
@@ -109,7 +109,7 @@
         "code": "07165",
         "parent_code": "206"
     },
-    "07168": {
+     {
         "name": "Hà An",
         "type": "phuong",
         "slug": "ha-an",
@@ -119,7 +119,7 @@
         "code": "07168",
         "parent_code": "206"
     },
-    "07171": {
+     {
         "name": "Cẩm La",
         "type": "xa",
         "slug": "cam-la",
@@ -129,7 +129,7 @@
         "code": "07171",
         "parent_code": "206"
     },
-    "07174": {
+     {
         "name": "Phong Hải",
         "type": "phuong",
         "slug": "phong-hai",
@@ -139,7 +139,7 @@
         "code": "07174",
         "parent_code": "206"
     },
-    "07177": {
+     {
         "name": "Yên Hải",
         "type": "phuong",
         "slug": "yen-hai",
@@ -149,7 +149,7 @@
         "code": "07177",
         "parent_code": "206"
     },
-    "07180": {
+     {
         "name": "Liên Hòa",
         "type": "xa",
         "slug": "lien-hoa",
@@ -159,7 +159,7 @@
         "code": "07180",
         "parent_code": "206"
     },
-    "07183": {
+     {
         "name": "Phong Cốc",
         "type": "phuong",
         "slug": "phong-coc",
@@ -169,7 +169,7 @@
         "code": "07183",
         "parent_code": "206"
     },
-    "07186": {
+     {
         "name": "Liên Vị",
         "type": "xa",
         "slug": "lien-vi",
@@ -179,7 +179,7 @@
         "code": "07186",
         "parent_code": "206"
     },
-    "07189": {
+     {
         "name": "Tiền Phong",
         "type": "xa",
         "slug": "tien-phong",
@@ -189,4 +189,4 @@
         "code": "07189",
         "parent_code": "206"
     }
-}
+]}

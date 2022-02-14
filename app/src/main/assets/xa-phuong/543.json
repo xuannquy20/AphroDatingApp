@@ -1,5 +1,5 @@
 {
-    "21637": {
+    "xa":[ {
         "name": "Tam Quan",
         "type": "phuong",
         "slug": "tam-quan",
@@ -9,7 +9,7 @@
         "code": "21637",
         "parent_code": "543"
     },
-    "21640": {
+     {
         "name": "Bồng Sơn",
         "type": "phuong",
         "slug": "bong-son",
@@ -19,7 +19,7 @@
         "code": "21640",
         "parent_code": "543"
     },
-    "21643": {
+     {
         "name": "Hoài Sơn",
         "type": "xa",
         "slug": "hoai-son",
@@ -29,7 +29,7 @@
         "code": "21643",
         "parent_code": "543"
     },
-    "21646": {
+     {
         "name": "Hoài Châu Bắc",
         "type": "xa",
         "slug": "hoai-chau-bac",
@@ -39,7 +39,7 @@
         "code": "21646",
         "parent_code": "543"
     },
-    "21649": {
+     {
         "name": "Hoài Châu",
         "type": "xa",
         "slug": "hoai-chau",
@@ -49,7 +49,7 @@
         "code": "21649",
         "parent_code": "543"
     },
-    "21652": {
+     {
         "name": "Hoài Phú",
         "type": "xa",
         "slug": "hoai-phu",
@@ -59,7 +59,7 @@
         "code": "21652",
         "parent_code": "543"
     },
-    "21655": {
+     {
         "name": "Tam Quan Bắc",
         "type": "phuong",
         "slug": "tam-quan-bac",
@@ -69,7 +69,7 @@
         "code": "21655",
         "parent_code": "543"
     },
-    "21658": {
+     {
         "name": "Tam Quan Nam",
         "type": "phuong",
         "slug": "tam-quan-nam",
@@ -79,7 +79,7 @@
         "code": "21658",
         "parent_code": "543"
     },
-    "21661": {
+     {
         "name": "Hoài Hảo",
         "type": "phuong",
         "slug": "hoai-hao",
@@ -89,7 +89,7 @@
         "code": "21661",
         "parent_code": "543"
     },
-    "21664": {
+     {
         "name": "Hoài Thanh Tây",
         "type": "phuong",
         "slug": "hoai-thanh-tay",
@@ -99,7 +99,7 @@
         "code": "21664",
         "parent_code": "543"
     },
-    "21667": {
+     {
         "name": "Hoài Thanh",
         "type": "phuong",
         "slug": "hoai-thanh",
@@ -109,7 +109,7 @@
         "code": "21667",
         "parent_code": "543"
     },
-    "21670": {
+     {
         "name": "Hoài Hương",
         "type": "phuong",
         "slug": "hoai-huong",
@@ -119,7 +119,7 @@
         "code": "21670",
         "parent_code": "543"
     },
-    "21673": {
+     {
         "name": "Hoài Tân",
         "type": "phuong",
         "slug": "hoai-tan",
@@ -129,7 +129,7 @@
         "code": "21673",
         "parent_code": "543"
     },
-    "21676": {
+     {
         "name": "Hoài Hải",
         "type": "xa",
         "slug": "hoai-hai",
@@ -139,7 +139,7 @@
         "code": "21676",
         "parent_code": "543"
     },
-    "21679": {
+     {
         "name": "Hoài Xuân",
         "type": "phuong",
         "slug": "hoai-xuan",
@@ -149,7 +149,7 @@
         "code": "21679",
         "parent_code": "543"
     },
-    "21682": {
+     {
         "name": "Hoài Mỹ",
         "type": "xa",
         "slug": "hoai-my",
@@ -159,7 +159,7 @@
         "code": "21682",
         "parent_code": "543"
     },
-    "21685": {
+     {
         "name": "Hoài Đức",
         "type": "phuong",
         "slug": "hoai-duc",
@@ -169,4 +169,4 @@
         "code": "21685",
         "parent_code": "543"
     }
-}
+]}

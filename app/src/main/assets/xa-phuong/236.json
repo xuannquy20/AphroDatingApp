@@ -1,5 +1,5 @@
 {
-    "08434": {
+    "xa":[ {
         "name": "Hưng Hoá",
         "type": "thi-tran",
         "slug": "hung-hoa",
@@ -9,7 +9,7 @@
         "code": "08434",
         "parent_code": "236"
     },
-    "08440": {
+     {
         "name": "Hiền Quan",
         "type": "xa",
         "slug": "hien-quan",
@@ -19,7 +19,7 @@
         "code": "08440",
         "parent_code": "236"
     },
-    "08443": {
+     {
         "name": "Bắc Sơn",
         "type": "xa",
         "slug": "bac-son",
@@ -29,7 +29,7 @@
         "code": "08443",
         "parent_code": "236"
     },
-    "08446": {
+     {
         "name": "Thanh Uyên",
         "type": "xa",
         "slug": "thanh-uyen",
@@ -39,7 +39,7 @@
         "code": "08446",
         "parent_code": "236"
     },
-    "08461": {
+     {
         "name": "Lam Sơn",
         "type": "xa",
         "slug": "lam-son",
@@ -49,7 +49,7 @@
         "code": "08461",
         "parent_code": "236"
     },
-    "08467": {
+     {
         "name": "Vạn Xuân",
         "type": "xa",
         "slug": "van-xuan",
@@ -59,7 +59,7 @@
         "code": "08467",
         "parent_code": "236"
     },
-    "08470": {
+     {
         "name": "Quang Húc",
         "type": "xa",
         "slug": "quang-huc",
@@ -69,7 +69,7 @@
         "code": "08470",
         "parent_code": "236"
     },
-    "08473": {
+     {
         "name": "Hương Nộn",
         "type": "xa",
         "slug": "huong-non",
@@ -79,7 +79,7 @@
         "code": "08473",
         "parent_code": "236"
     },
-    "08476": {
+     {
         "name": "Tề Lễ",
         "type": "xa",
         "slug": "te-le",
@@ -89,7 +89,7 @@
         "code": "08476",
         "parent_code": "236"
     },
-    "08479": {
+     {
         "name": "Thọ Văn",
         "type": "xa",
         "slug": "tho-van",
@@ -99,7 +99,7 @@
         "code": "08479",
         "parent_code": "236"
     },
-    "08482": {
+     {
         "name": "Dị Nậu",
         "type": "xa",
         "slug": "di-nau",
@@ -109,7 +109,7 @@
         "code": "08482",
         "parent_code": "236"
     },
-    "08491": {
+     {
         "name": "Dân Quyền",
         "type": "xa",
         "slug": "dan-quyen",
@@ -119,4 +119,4 @@
         "code": "08491",
         "parent_code": "236"
     }
-}
+]}

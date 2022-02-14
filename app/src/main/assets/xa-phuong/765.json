@@ -1,5 +1,5 @@
 {
-    "26905": {
+    "xa":[ {
         "name": "13",
         "type": "phuong",
         "slug": "13",
@@ -9,7 +9,7 @@
         "code": "26905",
         "parent_code": "765"
     },
-    "26908": {
+     {
         "name": "11",
         "type": "phuong",
         "slug": "11",
@@ -19,7 +19,7 @@
         "code": "26908",
         "parent_code": "765"
     },
-    "26911": {
+     {
         "name": "27",
         "type": "phuong",
         "slug": "27",
@@ -29,7 +29,7 @@
         "code": "26911",
         "parent_code": "765"
     },
-    "26914": {
+     {
         "name": "26",
         "type": "phuong",
         "slug": "26",
@@ -39,7 +39,7 @@
         "code": "26914",
         "parent_code": "765"
     },
-    "26917": {
+     {
         "name": "12",
         "type": "phuong",
         "slug": "12",
@@ -49,7 +49,7 @@
         "code": "26917",
         "parent_code": "765"
     },
-    "26920": {
+     {
         "name": "25",
         "type": "phuong",
         "slug": "25",
@@ -59,7 +59,7 @@
         "code": "26920",
         "parent_code": "765"
     },
-    "26923": {
+     {
         "name": "05",
         "type": "phuong",
         "slug": "05",
@@ -69,7 +69,7 @@
         "code": "26923",
         "parent_code": "765"
     },
-    "26926": {
+     {
         "name": "07",
         "type": "phuong",
         "slug": "07",
@@ -79,7 +79,7 @@
         "code": "26926",
         "parent_code": "765"
     },
-    "26929": {
+     {
         "name": "24",
         "type": "phuong",
         "slug": "24",
@@ -89,7 +89,7 @@
         "code": "26929",
         "parent_code": "765"
     },
-    "26932": {
+     {
         "name": "06",
         "type": "phuong",
         "slug": "06",
@@ -99,7 +99,7 @@
         "code": "26932",
         "parent_code": "765"
     },
-    "26935": {
+     {
         "name": "14",
         "type": "phuong",
         "slug": "14",
@@ -109,7 +109,7 @@
         "code": "26935",
         "parent_code": "765"
     },
-    "26938": {
+     {
         "name": "15",
         "type": "phuong",
         "slug": "15",
@@ -119,7 +119,7 @@
         "code": "26938",
         "parent_code": "765"
     },
-    "26941": {
+     {
         "name": "02",
         "type": "phuong",
         "slug": "02",
@@ -129,7 +129,7 @@
         "code": "26941",
         "parent_code": "765"
     },
-    "26944": {
+     {
         "name": "01",
         "type": "phuong",
         "slug": "01",
@@ -139,7 +139,7 @@
         "code": "26944",
         "parent_code": "765"
     },
-    "26947": {
+     {
         "name": "03",
         "type": "phuong",
         "slug": "03",
@@ -149,7 +149,7 @@
         "code": "26947",
         "parent_code": "765"
     },
-    "26950": {
+     {
         "name": "17",
         "type": "phuong",
         "slug": "17",
@@ -159,7 +159,7 @@
         "code": "26950",
         "parent_code": "765"
     },
-    "26953": {
+     {
         "name": "21",
         "type": "phuong",
         "slug": "21",
@@ -169,7 +169,7 @@
         "code": "26953",
         "parent_code": "765"
     },
-    "26956": {
+     {
         "name": "22",
         "type": "phuong",
         "slug": "22",
@@ -179,7 +179,7 @@
         "code": "26956",
         "parent_code": "765"
     },
-    "26959": {
+     {
         "name": "19",
         "type": "phuong",
         "slug": "19",
@@ -189,7 +189,7 @@
         "code": "26959",
         "parent_code": "765"
     },
-    "26962": {
+     {
         "name": "28",
         "type": "phuong",
         "slug": "28",
@@ -199,4 +199,4 @@
         "code": "26962",
         "parent_code": "765"
     }
-}
+]}

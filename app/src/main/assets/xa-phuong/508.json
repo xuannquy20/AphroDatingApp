@@ -1,5 +1,5 @@
 {
-    "20599": {
+    "xa":[ {
         "name": "Nam Phước",
         "type": "thi-tran",
         "slug": "nam-phuoc",
@@ -9,7 +9,7 @@
         "code": "20599",
         "parent_code": "508"
     },
-    "20602": {
+     {
         "name": "Duy Thu",
         "type": "xa",
         "slug": "duy-thu",
@@ -19,7 +19,7 @@
         "code": "20602",
         "parent_code": "508"
     },
-    "20605": {
+     {
         "name": "Duy Phú",
         "type": "xa",
         "slug": "duy-phu",
@@ -29,7 +29,7 @@
         "code": "20605",
         "parent_code": "508"
     },
-    "20608": {
+     {
         "name": "Duy Tân",
         "type": "xa",
         "slug": "duy-tan",
@@ -39,7 +39,7 @@
         "code": "20608",
         "parent_code": "508"
     },
-    "20611": {
+     {
         "name": "Duy Hòa",
         "type": "xa",
         "slug": "duy-hoa",
@@ -49,7 +49,7 @@
         "code": "20611",
         "parent_code": "508"
     },
-    "20614": {
+     {
         "name": "Duy Châu",
         "type": "xa",
         "slug": "duy-chau",
@@ -59,7 +59,7 @@
         "code": "20614",
         "parent_code": "508"
     },
-    "20617": {
+     {
         "name": "Duy Trinh",
         "type": "xa",
         "slug": "duy-trinh",
@@ -69,7 +69,7 @@
         "code": "20617",
         "parent_code": "508"
     },
-    "20620": {
+     {
         "name": "Duy Sơn",
         "type": "xa",
         "slug": "duy-son",
@@ -79,7 +79,7 @@
         "code": "20620",
         "parent_code": "508"
     },
-    "20623": {
+     {
         "name": "Duy Trung",
         "type": "xa",
         "slug": "duy-trung",
@@ -89,7 +89,7 @@
         "code": "20623",
         "parent_code": "508"
     },
-    "20626": {
+     {
         "name": "Duy Phước",
         "type": "xa",
         "slug": "duy-phuoc",
@@ -99,7 +99,7 @@
         "code": "20626",
         "parent_code": "508"
     },
-    "20629": {
+     {
         "name": "Duy Thành",
         "type": "xa",
         "slug": "duy-thanh",
@@ -109,7 +109,7 @@
         "code": "20629",
         "parent_code": "508"
     },
-    "20632": {
+     {
         "name": "Duy Vinh",
         "type": "xa",
         "slug": "duy-vinh",
@@ -119,7 +119,7 @@
         "code": "20632",
         "parent_code": "508"
     },
-    "20635": {
+     {
         "name": "Duy Nghĩa",
         "type": "xa",
         "slug": "duy-nghia",
@@ -129,7 +129,7 @@
         "code": "20635",
         "parent_code": "508"
     },
-    "20638": {
+     {
         "name": "Duy Hải",
         "type": "xa",
         "slug": "duy-hai",
@@ -139,4 +139,4 @@
         "code": "20638",
         "parent_code": "508"
     }
-}
+]}

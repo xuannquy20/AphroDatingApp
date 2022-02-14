@@ -1,5 +1,5 @@
 {
-    "16279": {
+    "xa":[ {
         "name": "Nông Cống",
         "type": "thi-tran",
         "slug": "nong-cong",
@@ -9,7 +9,7 @@
         "code": "16279",
         "parent_code": "404"
     },
-    "16282": {
+     {
         "name": "Tân Phúc",
         "type": "xa",
         "slug": "tan-phuc",
@@ -19,7 +19,7 @@
         "code": "16282",
         "parent_code": "404"
     },
-    "16285": {
+     {
         "name": "Tân Thọ",
         "type": "xa",
         "slug": "tan-tho",
@@ -29,7 +29,7 @@
         "code": "16285",
         "parent_code": "404"
     },
-    "16288": {
+     {
         "name": "Hoàng Sơn",
         "type": "xa",
         "slug": "hoang-son",
@@ -39,7 +39,7 @@
         "code": "16288",
         "parent_code": "404"
     },
-    "16291": {
+     {
         "name": "Tân Khang",
         "type": "xa",
         "slug": "tan-khang",
@@ -49,7 +49,7 @@
         "code": "16291",
         "parent_code": "404"
     },
-    "16294": {
+     {
         "name": "Hoàng Giang",
         "type": "xa",
         "slug": "hoang-giang",
@@ -59,7 +59,7 @@
         "code": "16294",
         "parent_code": "404"
     },
-    "16297": {
+     {
         "name": "Trung Chính",
         "type": "xa",
         "slug": "trung-chinh",
@@ -69,7 +69,7 @@
         "code": "16297",
         "parent_code": "404"
     },
-    "16303": {
+     {
         "name": "Trung Thành",
         "type": "xa",
         "slug": "trung-thanh",
@@ -79,7 +79,7 @@
         "code": "16303",
         "parent_code": "404"
     },
-    "16309": {
+     {
         "name": "Tế Thắng",
         "type": "xa",
         "slug": "te-thang",
@@ -89,7 +89,7 @@
         "code": "16309",
         "parent_code": "404"
     },
-    "16315": {
+     {
         "name": "Tế Lợi",
         "type": "xa",
         "slug": "te-loi",
@@ -99,7 +99,7 @@
         "code": "16315",
         "parent_code": "404"
     },
-    "16318": {
+     {
         "name": "Tế Nông",
         "type": "xa",
         "slug": "te-nong",
@@ -109,7 +109,7 @@
         "code": "16318",
         "parent_code": "404"
     },
-    "16321": {
+     {
         "name": "Minh Nghĩa",
         "type": "xa",
         "slug": "minh-nghia",
@@ -119,7 +119,7 @@
         "code": "16321",
         "parent_code": "404"
     },
-    "16324": {
+     {
         "name": "Minh Khôi",
         "type": "xa",
         "slug": "minh-khoi",
@@ -129,7 +129,7 @@
         "code": "16324",
         "parent_code": "404"
     },
-    "16327": {
+     {
         "name": "Vạn Hòa",
         "type": "xa",
         "slug": "van-hoa",
@@ -139,7 +139,7 @@
         "code": "16327",
         "parent_code": "404"
     },
-    "16330": {
+     {
         "name": "Trường Trung",
         "type": "xa",
         "slug": "truong-trung",
@@ -149,7 +149,7 @@
         "code": "16330",
         "parent_code": "404"
     },
-    "16333": {
+     {
         "name": "Vạn Thắng",
         "type": "xa",
         "slug": "van-thang",
@@ -159,7 +159,7 @@
         "code": "16333",
         "parent_code": "404"
     },
-    "16336": {
+     {
         "name": "Trường Giang",
         "type": "xa",
         "slug": "truong-giang",
@@ -169,7 +169,7 @@
         "code": "16336",
         "parent_code": "404"
     },
-    "16339": {
+     {
         "name": "Vạn Thiện",
         "type": "xa",
         "slug": "van-thien",
@@ -179,7 +179,7 @@
         "code": "16339",
         "parent_code": "404"
     },
-    "16342": {
+     {
         "name": "Thăng Long",
         "type": "xa",
         "slug": "thang-long",
@@ -189,7 +189,7 @@
         "code": "16342",
         "parent_code": "404"
     },
-    "16345": {
+     {
         "name": "Trường Minh",
         "type": "xa",
         "slug": "truong-minh",
@@ -199,7 +199,7 @@
         "code": "16345",
         "parent_code": "404"
     },
-    "16348": {
+     {
         "name": "Trường Sơn",
         "type": "xa",
         "slug": "truong-son",
@@ -209,7 +209,7 @@
         "code": "16348",
         "parent_code": "404"
     },
-    "16351": {
+     {
         "name": "Thăng Bình",
         "type": "xa",
         "slug": "thang-binh",
@@ -219,7 +219,7 @@
         "code": "16351",
         "parent_code": "404"
     },
-    "16354": {
+     {
         "name": "Công Liêm",
         "type": "xa",
         "slug": "cong-liem",
@@ -229,7 +229,7 @@
         "code": "16354",
         "parent_code": "404"
     },
-    "16357": {
+     {
         "name": "Tượng Văn",
         "type": "xa",
         "slug": "tuong-van",
@@ -239,7 +239,7 @@
         "code": "16357",
         "parent_code": "404"
     },
-    "16360": {
+     {
         "name": "Thăng Thọ",
         "type": "xa",
         "slug": "thang-tho",
@@ -249,7 +249,7 @@
         "code": "16360",
         "parent_code": "404"
     },
-    "16363": {
+     {
         "name": "Tượng Lĩnh",
         "type": "xa",
         "slug": "tuong-linh",
@@ -259,7 +259,7 @@
         "code": "16363",
         "parent_code": "404"
     },
-    "16366": {
+     {
         "name": "Tượng Sơn",
         "type": "xa",
         "slug": "tuong-son",
@@ -269,7 +269,7 @@
         "code": "16366",
         "parent_code": "404"
     },
-    "16369": {
+     {
         "name": "Công Chính",
         "type": "xa",
         "slug": "cong-chinh",
@@ -279,7 +279,7 @@
         "code": "16369",
         "parent_code": "404"
     },
-    "16375": {
+     {
         "name": "Yên Mỹ",
         "type": "xa",
         "slug": "yen-my",
@@ -289,4 +289,4 @@
         "code": "16375",
         "parent_code": "404"
     }
-}
+]}

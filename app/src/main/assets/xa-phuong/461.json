@@ -1,5 +1,5 @@
 {
-    "19330": {
+    "xa":[ {
         "name": "Đông Giang",
         "type": "phuong",
         "slug": "dong-giang",
@@ -9,7 +9,7 @@
         "code": "19330",
         "parent_code": "461"
     },
-    "19333": {
+     {
         "name": "1",
         "type": "phuong",
         "slug": "1",
@@ -19,7 +19,7 @@
         "code": "19333",
         "parent_code": "461"
     },
-    "19336": {
+     {
         "name": "Đông Lễ",
         "type": "phuong",
         "slug": "dong-le",
@@ -29,7 +29,7 @@
         "code": "19336",
         "parent_code": "461"
     },
-    "19339": {
+     {
         "name": "Đông Thanh",
         "type": "phuong",
         "slug": "dong-thanh",
@@ -39,7 +39,7 @@
         "code": "19339",
         "parent_code": "461"
     },
-    "19342": {
+     {
         "name": "2",
         "type": "phuong",
         "slug": "2",
@@ -49,7 +49,7 @@
         "code": "19342",
         "parent_code": "461"
     },
-    "19345": {
+     {
         "name": "4",
         "type": "phuong",
         "slug": "4",
@@ -59,7 +59,7 @@
         "code": "19345",
         "parent_code": "461"
     },
-    "19348": {
+     {
         "name": "5",
         "type": "phuong",
         "slug": "5",
@@ -69,7 +69,7 @@
         "code": "19348",
         "parent_code": "461"
     },
-    "19351": {
+     {
         "name": "Đông Lương",
         "type": "phuong",
         "slug": "dong-luong",
@@ -79,7 +79,7 @@
         "code": "19351",
         "parent_code": "461"
     },
-    "19354": {
+     {
         "name": "3",
         "type": "phuong",
         "slug": "3",
@@ -89,4 +89,4 @@
         "code": "19354",
         "parent_code": "461"
     }
-}
+]}

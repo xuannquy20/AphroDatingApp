@@ -1,5 +1,5 @@
 {
-    "25630": {
+    "xa":[ {
         "name": "Long Hoa",
         "type": "phuong",
         "slug": "long-hoa",
@@ -9,7 +9,7 @@
         "code": "25630",
         "parent_code": "709"
     },
-    "25633": {
+     {
         "name": "Hiệp Tân",
         "type": "phuong",
         "slug": "hiep-tan",
@@ -19,7 +19,7 @@
         "code": "25633",
         "parent_code": "709"
     },
-    "25636": {
+     {
         "name": "Long Thành Bắc",
         "type": "phuong",
         "slug": "long-thanh-bac",
@@ -29,7 +29,7 @@
         "code": "25636",
         "parent_code": "709"
     },
-    "25639": {
+     {
         "name": "Trường Hòa",
         "type": "xa",
         "slug": "truong-hoa",
@@ -39,7 +39,7 @@
         "code": "25639",
         "parent_code": "709"
     },
-    "25642": {
+     {
         "name": "Trường Đông",
         "type": "xa",
         "slug": "truong-dong",
@@ -49,7 +49,7 @@
         "code": "25642",
         "parent_code": "709"
     },
-    "25645": {
+     {
         "name": "Long Thành Trung",
         "type": "phuong",
         "slug": "long-thanh-trung",
@@ -59,7 +59,7 @@
         "code": "25645",
         "parent_code": "709"
     },
-    "25648": {
+     {
         "name": "Trường Tây",
         "type": "xa",
         "slug": "truong-tay",
@@ -69,7 +69,7 @@
         "code": "25648",
         "parent_code": "709"
     },
-    "25651": {
+     {
         "name": "Long Thành Nam",
         "type": "xa",
         "slug": "long-thanh-nam",
@@ -79,4 +79,4 @@
         "code": "25651",
         "parent_code": "709"
     }
-}
+]}

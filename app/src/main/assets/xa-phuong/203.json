@@ -1,5 +1,5 @@
 {
-    "06994": {
+    "xa":[ {
         "name": "Cái Rồng",
         "type": "thi-tran",
         "slug": "cai-rong",
@@ -9,7 +9,7 @@
         "code": "06994",
         "parent_code": "203"
     },
-    "06997": {
+     {
         "name": "Đài Xuyên",
         "type": "xa",
         "slug": "dai-xuyen",
@@ -19,7 +19,7 @@
         "code": "06997",
         "parent_code": "203"
     },
-    "07000": {
+     {
         "name": "Bình Dân",
         "type": "xa",
         "slug": "binh-dan",
@@ -29,7 +29,7 @@
         "code": "07000",
         "parent_code": "203"
     },
-    "07003": {
+     {
         "name": "Vạn Yên",
         "type": "xa",
         "slug": "van-yen",
@@ -39,7 +39,7 @@
         "code": "07003",
         "parent_code": "203"
     },
-    "07006": {
+     {
         "name": "Minh Châu",
         "type": "xa",
         "slug": "minh-chau",
@@ -49,7 +49,7 @@
         "code": "07006",
         "parent_code": "203"
     },
-    "07009": {
+     {
         "name": "Đoàn Kết",
         "type": "xa",
         "slug": "doan-ket",
@@ -59,7 +59,7 @@
         "code": "07009",
         "parent_code": "203"
     },
-    "07012": {
+     {
         "name": "Hạ Long",
         "type": "xa",
         "slug": "ha-long",
@@ -69,7 +69,7 @@
         "code": "07012",
         "parent_code": "203"
     },
-    "07015": {
+     {
         "name": "Đông Xá",
         "type": "xa",
         "slug": "dong-xa",
@@ -79,7 +79,7 @@
         "code": "07015",
         "parent_code": "203"
     },
-    "07018": {
+     {
         "name": "Bản Sen",
         "type": "xa",
         "slug": "ban-sen",
@@ -89,7 +89,7 @@
         "code": "07018",
         "parent_code": "203"
     },
-    "07021": {
+     {
         "name": "Thắng Lợi",
         "type": "xa",
         "slug": "thang-loi",
@@ -99,7 +99,7 @@
         "code": "07021",
         "parent_code": "203"
     },
-    "07024": {
+     {
         "name": "Quan Lạn",
         "type": "xa",
         "slug": "quan-lan",
@@ -109,7 +109,7 @@
         "code": "07024",
         "parent_code": "203"
     },
-    "07027": {
+     {
         "name": "Ngọc Vừng",
         "type": "xa",
         "slug": "ngoc-vung",
@@ -119,4 +119,4 @@
         "code": "07027",
         "parent_code": "203"
     }
-}
+]}

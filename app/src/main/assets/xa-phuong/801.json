@@ -1,5 +1,5 @@
 {
-    "27898": {
+    "xa":[ {
         "name": "Đông Thành",
         "type": "thi-tran",
         "slug": "dong-thanh",
@@ -9,7 +9,7 @@
         "code": "27898",
         "parent_code": "801"
     },
-    "27901": {
+     {
         "name": "Mỹ Quý Đông",
         "type": "xa",
         "slug": "my-quy-dong",
@@ -19,7 +19,7 @@
         "code": "27901",
         "parent_code": "801"
     },
-    "27904": {
+     {
         "name": "Mỹ Thạnh Bắc",
         "type": "xa",
         "slug": "my-thanh-bac",
@@ -29,7 +29,7 @@
         "code": "27904",
         "parent_code": "801"
     },
-    "27907": {
+     {
         "name": "Mỹ Quý Tây",
         "type": "xa",
         "slug": "my-quy-tay",
@@ -39,7 +39,7 @@
         "code": "27907",
         "parent_code": "801"
     },
-    "27910": {
+     {
         "name": "Mỹ Thạnh Tây",
         "type": "xa",
         "slug": "my-thanh-tay",
@@ -49,7 +49,7 @@
         "code": "27910",
         "parent_code": "801"
     },
-    "27913": {
+     {
         "name": "Mỹ Thạnh Đông",
         "type": "xa",
         "slug": "my-thanh-dong",
@@ -59,7 +59,7 @@
         "code": "27913",
         "parent_code": "801"
     },
-    "27916": {
+     {
         "name": "Bình Thành",
         "type": "xa",
         "slug": "binh-thanh",
@@ -69,7 +69,7 @@
         "code": "27916",
         "parent_code": "801"
     },
-    "27919": {
+     {
         "name": "Bình Hòa Bắc",
         "type": "xa",
         "slug": "binh-hoa-bac",
@@ -79,7 +79,7 @@
         "code": "27919",
         "parent_code": "801"
     },
-    "27922": {
+     {
         "name": "Bình Hòa Hưng",
         "type": "xa",
         "slug": "binh-hoa-hung",
@@ -89,7 +89,7 @@
         "code": "27922",
         "parent_code": "801"
     },
-    "27925": {
+     {
         "name": "Bình Hòa Nam",
         "type": "xa",
         "slug": "binh-hoa-nam",
@@ -99,7 +99,7 @@
         "code": "27925",
         "parent_code": "801"
     },
-    "27928": {
+     {
         "name": "Mỹ Bình",
         "type": "xa",
         "slug": "my-binh",
@@ -109,4 +109,4 @@
         "code": "27928",
         "parent_code": "801"
     }
-}
+]}

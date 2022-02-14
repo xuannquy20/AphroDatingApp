@@ -1,5 +1,5 @@
 {
-    "29773": {
+    "xa":[ {
         "name": "Tân Hưng",
         "type": "xa",
         "slug": "tan-hung",
@@ -9,7 +9,7 @@
         "code": "29773",
         "parent_code": "863"
     },
-    "29776": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -19,7 +19,7 @@
         "code": "29776",
         "parent_code": "863"
     },
-    "29779": {
+     {
         "name": "Thành Trung",
         "type": "xa",
         "slug": "thanh-trung",
@@ -29,7 +29,7 @@
         "code": "29779",
         "parent_code": "863"
     },
-    "29782": {
+     {
         "name": "Tân An Thạnh",
         "type": "xa",
         "slug": "tan-an-thanh",
@@ -39,7 +39,7 @@
         "code": "29782",
         "parent_code": "863"
     },
-    "29785": {
+     {
         "name": "Tân Lược",
         "type": "xa",
         "slug": "tan-luoc",
@@ -49,7 +49,7 @@
         "code": "29785",
         "parent_code": "863"
     },
-    "29788": {
+     {
         "name": "Nguyễn Văn Thảnh",
         "type": "xa",
         "slug": "nguyen-van-thanh",
@@ -59,7 +59,7 @@
         "code": "29788",
         "parent_code": "863"
     },
-    "29791": {
+     {
         "name": "Thành Lợi",
         "type": "xa",
         "slug": "thanh-loi",
@@ -69,7 +69,7 @@
         "code": "29791",
         "parent_code": "863"
     },
-    "29794": {
+     {
         "name": "Mỹ Thuận",
         "type": "xa",
         "slug": "my-thuan",
@@ -79,7 +79,7 @@
         "code": "29794",
         "parent_code": "863"
     },
-    "29797": {
+     {
         "name": "Tân Bình",
         "type": "xa",
         "slug": "tan-binh",
@@ -89,7 +89,7 @@
         "code": "29797",
         "parent_code": "863"
     },
-    "29800": {
+     {
         "name": "Tân Quới",
         "type": "thi-tran",
         "slug": "tan-quoi",
@@ -99,4 +99,4 @@
         "code": "29800",
         "parent_code": "863"
     }
-}
+]}

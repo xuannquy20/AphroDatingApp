@@ -1,5 +1,5 @@
 {
-    "32128": {
+    "xa":[ {
         "name": "Cái Nước",
         "type": "thi-tran",
         "slug": "cai-nuoc",
@@ -9,7 +9,7 @@
         "code": "32128",
         "parent_code": "969"
     },
-    "32130": {
+     {
         "name": "Thạnh Phú",
         "type": "xa",
         "slug": "thanh-phu",
@@ -19,7 +19,7 @@
         "code": "32130",
         "parent_code": "969"
     },
-    "32131": {
+     {
         "name": "Lương Thế Trân",
         "type": "xa",
         "slug": "luong-the-tran",
@@ -29,7 +29,7 @@
         "code": "32131",
         "parent_code": "969"
     },
-    "32134": {
+     {
         "name": "Phú Hưng",
         "type": "xa",
         "slug": "phu-hung",
@@ -39,7 +39,7 @@
         "code": "32134",
         "parent_code": "969"
     },
-    "32137": {
+     {
         "name": "Tân Hưng",
         "type": "xa",
         "slug": "tan-hung",
@@ -49,7 +49,7 @@
         "code": "32137",
         "parent_code": "969"
     },
-    "32140": {
+     {
         "name": "Hưng Mỹ",
         "type": "xa",
         "slug": "hung-my",
@@ -59,7 +59,7 @@
         "code": "32140",
         "parent_code": "969"
     },
-    "32141": {
+     {
         "name": "Hoà Mỹ",
         "type": "xa",
         "slug": "hoa-my",
@@ -69,7 +69,7 @@
         "code": "32141",
         "parent_code": "969"
     },
-    "32142": {
+     {
         "name": "Đông Hưng",
         "type": "xa",
         "slug": "dong-hung",
@@ -79,7 +79,7 @@
         "code": "32142",
         "parent_code": "969"
     },
-    "32143": {
+     {
         "name": "Đông Thới",
         "type": "xa",
         "slug": "dong-thoi",
@@ -89,7 +89,7 @@
         "code": "32143",
         "parent_code": "969"
     },
-    "32146": {
+     {
         "name": "Tân Hưng Đông",
         "type": "xa",
         "slug": "tan-hung-dong",
@@ -99,7 +99,7 @@
         "code": "32146",
         "parent_code": "969"
     },
-    "32149": {
+     {
         "name": "Trần Thới",
         "type": "xa",
         "slug": "tran-thoi",
@@ -109,4 +109,4 @@
         "code": "32149",
         "parent_code": "969"
     }
-}
+]}

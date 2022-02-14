@@ -1,5 +1,5 @@
 {
-    "21439": {
+    "xa":[ {
         "name": "Nguyễn Nghiêm",
         "type": "phuong",
         "slug": "nguyen-nghiem",
@@ -9,7 +9,7 @@
         "code": "21439",
         "parent_code": "534"
     },
-    "21442": {
+     {
         "name": "Phổ An",
         "type": "xa",
         "slug": "pho-an",
@@ -19,7 +19,7 @@
         "code": "21442",
         "parent_code": "534"
     },
-    "21445": {
+     {
         "name": "Phổ Phong",
         "type": "xa",
         "slug": "pho-phong",
@@ -29,7 +29,7 @@
         "code": "21445",
         "parent_code": "534"
     },
-    "21448": {
+     {
         "name": "Phổ Thuận",
         "type": "xa",
         "slug": "pho-thuan",
@@ -39,7 +39,7 @@
         "code": "21448",
         "parent_code": "534"
     },
-    "21451": {
+     {
         "name": "Phổ Văn",
         "type": "phuong",
         "slug": "pho-van",
@@ -49,7 +49,7 @@
         "code": "21451",
         "parent_code": "534"
     },
-    "21454": {
+     {
         "name": "Phổ Quang",
         "type": "phuong",
         "slug": "pho-quang",
@@ -59,7 +59,7 @@
         "code": "21454",
         "parent_code": "534"
     },
-    "21457": {
+     {
         "name": "Phổ Nhơn",
         "type": "xa",
         "slug": "pho-nhon",
@@ -69,7 +69,7 @@
         "code": "21457",
         "parent_code": "534"
     },
-    "21460": {
+     {
         "name": "Phổ Ninh",
         "type": "phuong",
         "slug": "pho-ninh",
@@ -79,7 +79,7 @@
         "code": "21460",
         "parent_code": "534"
     },
-    "21463": {
+     {
         "name": "Phổ Minh",
         "type": "phuong",
         "slug": "pho-minh",
@@ -89,7 +89,7 @@
         "code": "21463",
         "parent_code": "534"
     },
-    "21466": {
+     {
         "name": "Phổ Vinh",
         "type": "phuong",
         "slug": "pho-vinh",
@@ -99,7 +99,7 @@
         "code": "21466",
         "parent_code": "534"
     },
-    "21469": {
+     {
         "name": "Phổ Hòa",
         "type": "phuong",
         "slug": "pho-hoa",
@@ -109,7 +109,7 @@
         "code": "21469",
         "parent_code": "534"
     },
-    "21472": {
+     {
         "name": "Phổ Cường",
         "type": "xa",
         "slug": "pho-cuong",
@@ -119,7 +119,7 @@
         "code": "21472",
         "parent_code": "534"
     },
-    "21475": {
+     {
         "name": "Phổ Khánh",
         "type": "xa",
         "slug": "pho-khanh",
@@ -129,7 +129,7 @@
         "code": "21475",
         "parent_code": "534"
     },
-    "21478": {
+     {
         "name": "Phổ Thạnh",
         "type": "phuong",
         "slug": "pho-thanh",
@@ -139,7 +139,7 @@
         "code": "21478",
         "parent_code": "534"
     },
-    "21481": {
+     {
         "name": "Phổ Châu",
         "type": "xa",
         "slug": "pho-chau",
@@ -149,4 +149,4 @@
         "code": "21481",
         "parent_code": "534"
     }
-}
+]}

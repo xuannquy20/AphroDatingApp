@@ -1,5 +1,5 @@
 {
-    "23764": {
+    "xa":[ {
         "name": "Ia Kha",
         "type": "thi-tran",
         "slug": "ia-kha",
@@ -9,7 +9,7 @@
         "code": "23764",
         "parent_code": "628"
     },
-    "23767": {
+     {
         "name": "Ia Sao",
         "type": "xa",
         "slug": "ia-sao",
@@ -19,7 +19,7 @@
         "code": "23767",
         "parent_code": "628"
     },
-    "23768": {
+     {
         "name": "Ia Yok",
         "type": "xa",
         "slug": "ia-yok",
@@ -29,7 +29,7 @@
         "code": "23768",
         "parent_code": "628"
     },
-    "23770": {
+     {
         "name": "Ia Hrung",
         "type": "xa",
         "slug": "ia-hrung",
@@ -39,7 +39,7 @@
         "code": "23770",
         "parent_code": "628"
     },
-    "23771": {
+     {
         "name": "Ia Bă",
         "type": "xa",
         "slug": "ia-ba",
@@ -49,7 +49,7 @@
         "code": "23771",
         "parent_code": "628"
     },
-    "23773": {
+     {
         "name": "Ia Khai",
         "type": "xa",
         "slug": "ia-khai",
@@ -59,7 +59,7 @@
         "code": "23773",
         "parent_code": "628"
     },
-    "23776": {
+     {
         "name": "Ia KRai",
         "type": "xa",
         "slug": "ia-krai",
@@ -69,7 +69,7 @@
         "code": "23776",
         "parent_code": "628"
     },
-    "23778": {
+     {
         "name": "Ia Grăng",
         "type": "xa",
         "slug": "ia-grang",
@@ -79,7 +79,7 @@
         "code": "23778",
         "parent_code": "628"
     },
-    "23779": {
+     {
         "name": "Ia Tô",
         "type": "xa",
         "slug": "ia-to",
@@ -89,7 +89,7 @@
         "code": "23779",
         "parent_code": "628"
     },
-    "23782": {
+     {
         "name": "Ia O",
         "type": "xa",
         "slug": "ia-o",
@@ -99,7 +99,7 @@
         "code": "23782",
         "parent_code": "628"
     },
-    "23785": {
+     {
         "name": "Ia Dêr",
         "type": "xa",
         "slug": "ia-der",
@@ -109,7 +109,7 @@
         "code": "23785",
         "parent_code": "628"
     },
-    "23788": {
+     {
         "name": "Ia Chia",
         "type": "xa",
         "slug": "ia-chia",
@@ -119,7 +119,7 @@
         "code": "23788",
         "parent_code": "628"
     },
-    "23791": {
+     {
         "name": "Ia Pếch",
         "type": "xa",
         "slug": "ia-pech",
@@ -129,4 +129,4 @@
         "code": "23791",
         "parent_code": "628"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "06895": {
+    "xa":[ {
         "name": "Đầm Hà",
         "type": "thi-tran",
         "slug": "dam-ha",
@@ -9,7 +9,7 @@
         "code": "06895",
         "parent_code": "200"
     },
-    "06898": {
+     {
         "name": "Quảng Lâm",
         "type": "xa",
         "slug": "quang-lam",
@@ -19,7 +19,7 @@
         "code": "06898",
         "parent_code": "200"
     },
-    "06901": {
+     {
         "name": "Quảng An",
         "type": "xa",
         "slug": "quang-an",
@@ -29,7 +29,7 @@
         "code": "06901",
         "parent_code": "200"
     },
-    "06904": {
+     {
         "name": "Tân Bình",
         "type": "xa",
         "slug": "tan-binh",
@@ -39,7 +39,7 @@
         "code": "06904",
         "parent_code": "200"
     },
-    "06910": {
+     {
         "name": "Dực Yên",
         "type": "xa",
         "slug": "duc-yen",
@@ -49,7 +49,7 @@
         "code": "06910",
         "parent_code": "200"
     },
-    "06913": {
+     {
         "name": "Quảng Tân",
         "type": "xa",
         "slug": "quang-tan",
@@ -59,7 +59,7 @@
         "code": "06913",
         "parent_code": "200"
     },
-    "06916": {
+     {
         "name": "Đầm Hà",
         "type": "xa",
         "slug": "dam-ha",
@@ -69,7 +69,7 @@
         "code": "06916",
         "parent_code": "200"
     },
-    "06917": {
+     {
         "name": "Tân Lập",
         "type": "xa",
         "slug": "tan-lap",
@@ -79,7 +79,7 @@
         "code": "06917",
         "parent_code": "200"
     },
-    "06919": {
+     {
         "name": "Đại Bình",
         "type": "xa",
         "slug": "dai-binh",
@@ -89,4 +89,4 @@
         "code": "06919",
         "parent_code": "200"
     }
-}
+]}

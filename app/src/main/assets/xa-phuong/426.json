@@ -1,5 +1,5 @@
 {
-    "17506": {
+    "xa":[ {
         "name": "Yên Thành",
         "type": "thi-tran",
         "slug": "yen-thanh",
@@ -9,7 +9,7 @@
         "code": "17506",
         "parent_code": "426"
     },
-    "17509": {
+     {
         "name": "Mã Thành",
         "type": "xa",
         "slug": "ma-thanh",
@@ -19,7 +19,7 @@
         "code": "17509",
         "parent_code": "426"
     },
-    "17510": {
+     {
         "name": "Tiến Thành",
         "type": "xa",
         "slug": "tien-thanh",
@@ -29,7 +29,7 @@
         "code": "17510",
         "parent_code": "426"
     },
-    "17512": {
+     {
         "name": "Lăng Thành",
         "type": "xa",
         "slug": "lang-thanh",
@@ -39,7 +39,7 @@
         "code": "17512",
         "parent_code": "426"
     },
-    "17515": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -49,7 +49,7 @@
         "code": "17515",
         "parent_code": "426"
     },
-    "17518": {
+     {
         "name": "Đức Thành",
         "type": "xa",
         "slug": "duc-thanh",
@@ -59,7 +59,7 @@
         "code": "17518",
         "parent_code": "426"
     },
-    "17521": {
+     {
         "name": "Kim Thành",
         "type": "xa",
         "slug": "kim-thanh",
@@ -69,7 +69,7 @@
         "code": "17521",
         "parent_code": "426"
     },
-    "17524": {
+     {
         "name": "Hậu Thành",
         "type": "xa",
         "slug": "hau-thanh",
@@ -79,7 +79,7 @@
         "code": "17524",
         "parent_code": "426"
     },
-    "17525": {
+     {
         "name": "Hùng Thành",
         "type": "xa",
         "slug": "hung-thanh",
@@ -89,7 +89,7 @@
         "code": "17525",
         "parent_code": "426"
     },
-    "17527": {
+     {
         "name": "Đô Thành",
         "type": "xa",
         "slug": "do-thanh",
@@ -99,7 +99,7 @@
         "code": "17527",
         "parent_code": "426"
     },
-    "17530": {
+     {
         "name": "Thọ Thành",
         "type": "xa",
         "slug": "tho-thanh",
@@ -109,7 +109,7 @@
         "code": "17530",
         "parent_code": "426"
     },
-    "17533": {
+     {
         "name": "Quang Thành",
         "type": "xa",
         "slug": "quang-thanh",
@@ -119,7 +119,7 @@
         "code": "17533",
         "parent_code": "426"
     },
-    "17536": {
+     {
         "name": "Tây Thành",
         "type": "xa",
         "slug": "tay-thanh",
@@ -129,7 +129,7 @@
         "code": "17536",
         "parent_code": "426"
     },
-    "17539": {
+     {
         "name": "Phúc Thành",
         "type": "xa",
         "slug": "phuc-thanh",
@@ -139,7 +139,7 @@
         "code": "17539",
         "parent_code": "426"
     },
-    "17542": {
+     {
         "name": "Hồng Thành",
         "type": "xa",
         "slug": "hong-thanh",
@@ -149,7 +149,7 @@
         "code": "17542",
         "parent_code": "426"
     },
-    "17545": {
+     {
         "name": "Đồng Thành",
         "type": "xa",
         "slug": "dong-thanh",
@@ -159,7 +159,7 @@
         "code": "17545",
         "parent_code": "426"
     },
-    "17548": {
+     {
         "name": "Phú Thành",
         "type": "xa",
         "slug": "phu-thanh",
@@ -169,7 +169,7 @@
         "code": "17548",
         "parent_code": "426"
     },
-    "17551": {
+     {
         "name": "Hoa Thành",
         "type": "xa",
         "slug": "hoa-thanh",
@@ -179,7 +179,7 @@
         "code": "17551",
         "parent_code": "426"
     },
-    "17554": {
+     {
         "name": "Tăng Thành",
         "type": "xa",
         "slug": "tang-thanh",
@@ -189,7 +189,7 @@
         "code": "17554",
         "parent_code": "426"
     },
-    "17557": {
+     {
         "name": "Văn Thành",
         "type": "xa",
         "slug": "van-thanh",
@@ -199,7 +199,7 @@
         "code": "17557",
         "parent_code": "426"
     },
-    "17560": {
+     {
         "name": "Thịnh Thành",
         "type": "xa",
         "slug": "thinh-thanh",
@@ -209,7 +209,7 @@
         "code": "17560",
         "parent_code": "426"
     },
-    "17563": {
+     {
         "name": "Hợp Thành",
         "type": "xa",
         "slug": "hop-thanh",
@@ -219,7 +219,7 @@
         "code": "17563",
         "parent_code": "426"
     },
-    "17566": {
+     {
         "name": "Xuân Thành",
         "type": "xa",
         "slug": "xuan-thanh",
@@ -229,7 +229,7 @@
         "code": "17566",
         "parent_code": "426"
     },
-    "17569": {
+     {
         "name": "Bắc Thành",
         "type": "xa",
         "slug": "bac-thanh",
@@ -239,7 +239,7 @@
         "code": "17569",
         "parent_code": "426"
     },
-    "17572": {
+     {
         "name": "Nhân Thành",
         "type": "xa",
         "slug": "nhan-thanh",
@@ -249,7 +249,7 @@
         "code": "17572",
         "parent_code": "426"
     },
-    "17575": {
+     {
         "name": "Trung Thành",
         "type": "xa",
         "slug": "trung-thanh",
@@ -259,7 +259,7 @@
         "code": "17575",
         "parent_code": "426"
     },
-    "17578": {
+     {
         "name": "Long Thành",
         "type": "xa",
         "slug": "long-thanh",
@@ -269,7 +269,7 @@
         "code": "17578",
         "parent_code": "426"
     },
-    "17581": {
+     {
         "name": "Minh Thành",
         "type": "xa",
         "slug": "minh-thanh",
@@ -279,7 +279,7 @@
         "code": "17581",
         "parent_code": "426"
     },
-    "17584": {
+     {
         "name": "Nam Thành",
         "type": "xa",
         "slug": "nam-thanh",
@@ -289,7 +289,7 @@
         "code": "17584",
         "parent_code": "426"
     },
-    "17587": {
+     {
         "name": "Vĩnh Thành",
         "type": "xa",
         "slug": "vinh-thanh",
@@ -299,7 +299,7 @@
         "code": "17587",
         "parent_code": "426"
     },
-    "17590": {
+     {
         "name": "Lý Thành",
         "type": "xa",
         "slug": "ly-thanh",
@@ -309,7 +309,7 @@
         "code": "17590",
         "parent_code": "426"
     },
-    "17593": {
+     {
         "name": "Khánh Thành",
         "type": "xa",
         "slug": "khanh-thanh",
@@ -319,7 +319,7 @@
         "code": "17593",
         "parent_code": "426"
     },
-    "17596": {
+     {
         "name": "Viên Thành",
         "type": "xa",
         "slug": "vien-thanh",
@@ -329,7 +329,7 @@
         "code": "17596",
         "parent_code": "426"
     },
-    "17599": {
+     {
         "name": "Đại Thành",
         "type": "xa",
         "slug": "dai-thanh",
@@ -339,7 +339,7 @@
         "code": "17599",
         "parent_code": "426"
     },
-    "17602": {
+     {
         "name": "Liên Thành",
         "type": "xa",
         "slug": "lien-thanh",
@@ -349,7 +349,7 @@
         "code": "17602",
         "parent_code": "426"
     },
-    "17605": {
+     {
         "name": "Bảo Thành",
         "type": "xa",
         "slug": "bao-thanh",
@@ -359,7 +359,7 @@
         "code": "17605",
         "parent_code": "426"
     },
-    "17608": {
+     {
         "name": "Mỹ Thành",
         "type": "xa",
         "slug": "my-thanh",
@@ -369,7 +369,7 @@
         "code": "17608",
         "parent_code": "426"
     },
-    "17611": {
+     {
         "name": "Công Thành",
         "type": "xa",
         "slug": "cong-thanh",
@@ -379,7 +379,7 @@
         "code": "17611",
         "parent_code": "426"
     },
-    "17614": {
+     {
         "name": "Sơn Thành",
         "type": "xa",
         "slug": "son-thanh",
@@ -389,4 +389,4 @@
         "code": "17614",
         "parent_code": "426"
     }
-}
+]}

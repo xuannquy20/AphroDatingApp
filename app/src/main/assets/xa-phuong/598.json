@@ -1,5 +1,5 @@
 {
-    "23110": {
+    "xa":[ {
         "name": "Thuận Nam",
         "type": "thi-tran",
         "slug": "thuan-nam",
@@ -9,7 +9,7 @@
         "code": "23110",
         "parent_code": "598"
     },
-    "23113": {
+     {
         "name": "Mỹ Thạnh",
         "type": "xa",
         "slug": "my-thanh",
@@ -19,7 +19,7 @@
         "code": "23113",
         "parent_code": "598"
     },
-    "23116": {
+     {
         "name": "Hàm Cần",
         "type": "xa",
         "slug": "ham-can",
@@ -29,7 +29,7 @@
         "code": "23116",
         "parent_code": "598"
     },
-    "23119": {
+     {
         "name": "Mương Mán",
         "type": "xa",
         "slug": "muong-man",
@@ -39,7 +39,7 @@
         "code": "23119",
         "parent_code": "598"
     },
-    "23122": {
+     {
         "name": "Hàm Thạnh",
         "type": "xa",
         "slug": "ham-thanh",
@@ -49,7 +49,7 @@
         "code": "23122",
         "parent_code": "598"
     },
-    "23125": {
+     {
         "name": "Hàm Kiệm",
         "type": "xa",
         "slug": "ham-kiem",
@@ -59,7 +59,7 @@
         "code": "23125",
         "parent_code": "598"
     },
-    "23128": {
+     {
         "name": "Hàm Cường",
         "type": "xa",
         "slug": "ham-cuong",
@@ -69,7 +69,7 @@
         "code": "23128",
         "parent_code": "598"
     },
-    "23131": {
+     {
         "name": "Hàm Mỹ",
         "type": "xa",
         "slug": "ham-my",
@@ -79,7 +79,7 @@
         "code": "23131",
         "parent_code": "598"
     },
-    "23134": {
+     {
         "name": "Tân Lập",
         "type": "xa",
         "slug": "tan-lap",
@@ -89,7 +89,7 @@
         "code": "23134",
         "parent_code": "598"
     },
-    "23137": {
+     {
         "name": "Hàm Minh",
         "type": "xa",
         "slug": "ham-minh",
@@ -99,7 +99,7 @@
         "code": "23137",
         "parent_code": "598"
     },
-    "23140": {
+     {
         "name": "Thuận Quí",
         "type": "xa",
         "slug": "thuan-qui",
@@ -109,7 +109,7 @@
         "code": "23140",
         "parent_code": "598"
     },
-    "23143": {
+     {
         "name": "Tân Thuận",
         "type": "xa",
         "slug": "tan-thuan",
@@ -119,7 +119,7 @@
         "code": "23143",
         "parent_code": "598"
     },
-    "23146": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -129,4 +129,4 @@
         "code": "23146",
         "parent_code": "598"
     }
-}
+]}

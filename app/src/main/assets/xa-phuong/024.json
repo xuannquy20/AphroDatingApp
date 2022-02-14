@@ -1,5 +1,5 @@
 {
-    "00688": {
+     "xa" : [{
         "name": "Quang Trung",
         "type": "phuong",
         "slug": "quang-trung",
@@ -9,7 +9,7 @@
         "code": "00688",
         "parent_code": "024"
     },
-    "00691": {
+     {
         "name": "Trần Phú",
         "type": "phuong",
         "slug": "tran-phu",
@@ -19,7 +19,7 @@
         "code": "00691",
         "parent_code": "024"
     },
-    "00692": {
+     {
         "name": "Ngọc Hà",
         "type": "phuong",
         "slug": "ngoc-ha",
@@ -29,7 +29,7 @@
         "code": "00692",
         "parent_code": "024"
     },
-    "00694": {
+     {
         "name": "Nguyễn Trãi",
         "type": "phuong",
         "slug": "nguyen-trai",
@@ -39,7 +39,7 @@
         "code": "00694",
         "parent_code": "024"
     },
-    "00697": {
+     {
         "name": "Minh Khai",
         "type": "phuong",
         "slug": "minh-khai",
@@ -49,7 +49,7 @@
         "code": "00697",
         "parent_code": "024"
     },
-    "00700": {
+     {
         "name": "Ngọc Đường",
         "type": "xa",
         "slug": "ngoc-duong",
@@ -59,7 +59,7 @@
         "code": "00700",
         "parent_code": "024"
     },
-    "00946": {
+     {
         "name": "Phương Độ",
         "type": "xa",
         "slug": "phuong-do",
@@ -69,7 +69,7 @@
         "code": "00946",
         "parent_code": "024"
     },
-    "00949": {
+     {
         "name": "Phương Thiện",
         "type": "xa",
         "slug": "phuong-thien",
@@ -79,4 +79,5 @@
         "code": "00949",
         "parent_code": "024"
     }
+]
 }

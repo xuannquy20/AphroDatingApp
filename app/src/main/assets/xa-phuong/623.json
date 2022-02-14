@@ -1,5 +1,5 @@
 {
-    "23614": {
+    "xa":[ {
         "name": "An Bình",
         "type": "phuong",
         "slug": "an-binh",
@@ -9,7 +9,7 @@
         "code": "23614",
         "parent_code": "623"
     },
-    "23617": {
+     {
         "name": "Tây Sơn",
         "type": "phuong",
         "slug": "tay-son",
@@ -19,7 +19,7 @@
         "code": "23617",
         "parent_code": "623"
     },
-    "23620": {
+     {
         "name": "An Phú",
         "type": "phuong",
         "slug": "an-phu",
@@ -29,7 +29,7 @@
         "code": "23620",
         "parent_code": "623"
     },
-    "23623": {
+     {
         "name": "An Tân",
         "type": "phuong",
         "slug": "an-tan",
@@ -39,7 +39,7 @@
         "code": "23623",
         "parent_code": "623"
     },
-    "23626": {
+     {
         "name": "Tú An",
         "type": "xa",
         "slug": "tu-an",
@@ -49,7 +49,7 @@
         "code": "23626",
         "parent_code": "623"
     },
-    "23627": {
+     {
         "name": "Xuân An",
         "type": "xa",
         "slug": "xuan-an",
@@ -59,7 +59,7 @@
         "code": "23627",
         "parent_code": "623"
     },
-    "23629": {
+     {
         "name": "Cửu An",
         "type": "xa",
         "slug": "cuu-an",
@@ -69,7 +69,7 @@
         "code": "23629",
         "parent_code": "623"
     },
-    "23630": {
+     {
         "name": "An Phước",
         "type": "phuong",
         "slug": "an-phuoc",
@@ -79,7 +79,7 @@
         "code": "23630",
         "parent_code": "623"
     },
-    "23632": {
+     {
         "name": "Song An",
         "type": "xa",
         "slug": "song-an",
@@ -89,7 +89,7 @@
         "code": "23632",
         "parent_code": "623"
     },
-    "23633": {
+     {
         "name": "Ngô Mây",
         "type": "phuong",
         "slug": "ngo-may",
@@ -99,7 +99,7 @@
         "code": "23633",
         "parent_code": "623"
     },
-    "23635": {
+     {
         "name": "Thành An",
         "type": "xa",
         "slug": "thanh-an",
@@ -109,4 +109,4 @@
         "code": "23635",
         "parent_code": "623"
     }
-}
+]}

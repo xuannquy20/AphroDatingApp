@@ -1,5 +1,5 @@
 {
-    "23230": {
+    "xa":[ {
         "name": "Tân Minh",
         "type": "thi-tran",
         "slug": "tan-minh",
@@ -9,7 +9,7 @@
         "code": "23230",
         "parent_code": "601"
     },
-    "23236": {
+     {
         "name": "Tân Nghĩa",
         "type": "thi-tran",
         "slug": "tan-nghia",
@@ -19,7 +19,7 @@
         "code": "23236",
         "parent_code": "601"
     },
-    "23239": {
+     {
         "name": "Sông Phan",
         "type": "xa",
         "slug": "song-phan",
@@ -29,7 +29,7 @@
         "code": "23239",
         "parent_code": "601"
     },
-    "23242": {
+     {
         "name": "Tân Phúc",
         "type": "xa",
         "slug": "tan-phuc",
@@ -39,7 +39,7 @@
         "code": "23242",
         "parent_code": "601"
     },
-    "23251": {
+     {
         "name": "Tân Đức",
         "type": "xa",
         "slug": "tan-duc",
@@ -49,7 +49,7 @@
         "code": "23251",
         "parent_code": "601"
     },
-    "23254": {
+     {
         "name": "Tân Thắng",
         "type": "xa",
         "slug": "tan-thang",
@@ -59,7 +59,7 @@
         "code": "23254",
         "parent_code": "601"
     },
-    "23255": {
+     {
         "name": "Thắng Hải",
         "type": "xa",
         "slug": "thang-hai",
@@ -69,7 +69,7 @@
         "code": "23255",
         "parent_code": "601"
     },
-    "23257": {
+     {
         "name": "Tân Hà",
         "type": "xa",
         "slug": "tan-ha",
@@ -79,7 +79,7 @@
         "code": "23257",
         "parent_code": "601"
     },
-    "23260": {
+     {
         "name": "Tân Xuân",
         "type": "xa",
         "slug": "tan-xuan",
@@ -89,7 +89,7 @@
         "code": "23260",
         "parent_code": "601"
     },
-    "23266": {
+     {
         "name": "Sơn Mỹ",
         "type": "xa",
         "slug": "son-my",
@@ -99,4 +99,4 @@
         "code": "23266",
         "parent_code": "601"
     }
-}
+]}

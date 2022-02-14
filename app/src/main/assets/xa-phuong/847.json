@@ -1,5 +1,5 @@
 {
-    "29374": {
+    "xa":[ {
         "name": "Châu Thành",
         "type": "thi-tran",
         "slug": "chau-thanh",
@@ -9,7 +9,7 @@
         "code": "29374",
         "parent_code": "847"
     },
-    "29377": {
+     {
         "name": "Đa Lộc",
         "type": "xa",
         "slug": "da-loc",
@@ -19,7 +19,7 @@
         "code": "29377",
         "parent_code": "847"
     },
-    "29380": {
+     {
         "name": "Mỹ Chánh",
         "type": "xa",
         "slug": "my-chanh",
@@ -29,7 +29,7 @@
         "code": "29380",
         "parent_code": "847"
     },
-    "29383": {
+     {
         "name": "Thanh Mỹ",
         "type": "xa",
         "slug": "thanh-my",
@@ -39,7 +39,7 @@
         "code": "29383",
         "parent_code": "847"
     },
-    "29386": {
+     {
         "name": "Lương Hoà A",
         "type": "xa",
         "slug": "luong-hoa-a",
@@ -49,7 +49,7 @@
         "code": "29386",
         "parent_code": "847"
     },
-    "29389": {
+     {
         "name": "Lương Hòa",
         "type": "xa",
         "slug": "luong-hoa",
@@ -59,7 +59,7 @@
         "code": "29389",
         "parent_code": "847"
     },
-    "29392": {
+     {
         "name": "Song Lộc",
         "type": "xa",
         "slug": "song-loc",
@@ -69,7 +69,7 @@
         "code": "29392",
         "parent_code": "847"
     },
-    "29395": {
+     {
         "name": "Nguyệt Hóa",
         "type": "xa",
         "slug": "nguyet-hoa",
@@ -79,7 +79,7 @@
         "code": "29395",
         "parent_code": "847"
     },
-    "29398": {
+     {
         "name": "Hòa Thuận",
         "type": "xa",
         "slug": "hoa-thuan",
@@ -89,7 +89,7 @@
         "code": "29398",
         "parent_code": "847"
     },
-    "29401": {
+     {
         "name": "Hòa Lợi",
         "type": "xa",
         "slug": "hoa-loi",
@@ -99,7 +99,7 @@
         "code": "29401",
         "parent_code": "847"
     },
-    "29404": {
+     {
         "name": "Phước Hảo",
         "type": "xa",
         "slug": "phuoc-hao",
@@ -109,7 +109,7 @@
         "code": "29404",
         "parent_code": "847"
     },
-    "29407": {
+     {
         "name": "Hưng Mỹ",
         "type": "xa",
         "slug": "hung-my",
@@ -119,7 +119,7 @@
         "code": "29407",
         "parent_code": "847"
     },
-    "29410": {
+     {
         "name": "Hòa Minh",
         "type": "xa",
         "slug": "hoa-minh",
@@ -129,7 +129,7 @@
         "code": "29410",
         "parent_code": "847"
     },
-    "29413": {
+     {
         "name": "Long Hòa",
         "type": "xa",
         "slug": "long-hoa",
@@ -139,4 +139,4 @@
         "code": "29413",
         "parent_code": "847"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "26299": {
+    "xa":[ {
         "name": "Gia Tân 1",
         "type": "xa",
         "slug": "gia-tan-1",
@@ -9,7 +9,7 @@
         "code": "26299",
         "parent_code": "738"
     },
-    "26302": {
+     {
         "name": "Gia Tân 2",
         "type": "xa",
         "slug": "gia-tan-2",
@@ -19,7 +19,7 @@
         "code": "26302",
         "parent_code": "738"
     },
-    "26305": {
+     {
         "name": "Gia Tân 3",
         "type": "xa",
         "slug": "gia-tan-3",
@@ -29,7 +29,7 @@
         "code": "26305",
         "parent_code": "738"
     },
-    "26308": {
+     {
         "name": "Gia Kiệm",
         "type": "xa",
         "slug": "gia-kiem",
@@ -39,7 +39,7 @@
         "code": "26308",
         "parent_code": "738"
     },
-    "26311": {
+     {
         "name": "Quang Trung",
         "type": "xa",
         "slug": "quang-trung",
@@ -49,7 +49,7 @@
         "code": "26311",
         "parent_code": "738"
     },
-    "26314": {
+     {
         "name": "Bàu Hàm 2",
         "type": "xa",
         "slug": "bau-ham-2",
@@ -59,7 +59,7 @@
         "code": "26314",
         "parent_code": "738"
     },
-    "26317": {
+     {
         "name": "Hưng Lộc",
         "type": "xa",
         "slug": "hung-loc",
@@ -69,7 +69,7 @@
         "code": "26317",
         "parent_code": "738"
     },
-    "26320": {
+     {
         "name": "Lộ 25",
         "type": "xa",
         "slug": "lo-25",
@@ -79,7 +79,7 @@
         "code": "26320",
         "parent_code": "738"
     },
-    "26323": {
+     {
         "name": "Xuân Thiện",
         "type": "xa",
         "slug": "xuan-thien",
@@ -89,7 +89,7 @@
         "code": "26323",
         "parent_code": "738"
     },
-    "26326": {
+     {
         "name": "Dầu Giây",
         "type": "thi-tran",
         "slug": "dau-giay",
@@ -99,4 +99,4 @@
         "code": "26326",
         "parent_code": "738"
     }
-}
+]}

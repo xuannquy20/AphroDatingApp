@@ -1,5 +1,5 @@
 {
-    "03055": {
+    "xa":[ {
         "name": "Khánh Yên",
         "type": "thi-tran",
         "slug": "khanh-yen",
@@ -9,7 +9,7 @@
         "code": "03055",
         "parent_code": "089"
     },
-    "03061": {
+     {
         "name": "Võ Lao",
         "type": "xa",
         "slug": "vo-lao",
@@ -19,7 +19,7 @@
         "code": "03061",
         "parent_code": "089"
     },
-    "03064": {
+     {
         "name": "Sơn Thuỷ",
         "type": "xa",
         "slug": "son-thuy",
@@ -29,7 +29,7 @@
         "code": "03064",
         "parent_code": "089"
     },
-    "03067": {
+     {
         "name": "Nậm Mả",
         "type": "xa",
         "slug": "nam-ma",
@@ -39,7 +39,7 @@
         "code": "03067",
         "parent_code": "089"
     },
-    "03070": {
+     {
         "name": "Tân Thượng",
         "type": "xa",
         "slug": "tan-thuong",
@@ -49,7 +49,7 @@
         "code": "03070",
         "parent_code": "089"
     },
-    "03073": {
+     {
         "name": "Nậm Rạng",
         "type": "xa",
         "slug": "nam-rang",
@@ -59,7 +59,7 @@
         "code": "03073",
         "parent_code": "089"
     },
-    "03076": {
+     {
         "name": "Nậm Chầy",
         "type": "xa",
         "slug": "nam-chay",
@@ -69,7 +69,7 @@
         "code": "03076",
         "parent_code": "089"
     },
-    "03079": {
+     {
         "name": "Tân An",
         "type": "xa",
         "slug": "tan-an",
@@ -79,7 +79,7 @@
         "code": "03079",
         "parent_code": "089"
     },
-    "03082": {
+     {
         "name": "Khánh Yên Thượng",
         "type": "xa",
         "slug": "khanh-yen-thuong",
@@ -89,7 +89,7 @@
         "code": "03082",
         "parent_code": "089"
     },
-    "03085": {
+     {
         "name": "Nậm Xé",
         "type": "xa",
         "slug": "nam-xe",
@@ -99,7 +99,7 @@
         "code": "03085",
         "parent_code": "089"
     },
-    "03088": {
+     {
         "name": "Dần Thàng",
         "type": "xa",
         "slug": "dan-thang",
@@ -109,7 +109,7 @@
         "code": "03088",
         "parent_code": "089"
     },
-    "03091": {
+     {
         "name": "Chiềng Ken",
         "type": "xa",
         "slug": "chieng-ken",
@@ -119,7 +119,7 @@
         "code": "03091",
         "parent_code": "089"
     },
-    "03094": {
+     {
         "name": "Làng Giàng",
         "type": "xa",
         "slug": "lang-giang",
@@ -129,7 +129,7 @@
         "code": "03094",
         "parent_code": "089"
     },
-    "03097": {
+     {
         "name": "Hoà Mạc",
         "type": "xa",
         "slug": "hoa-mac",
@@ -139,7 +139,7 @@
         "code": "03097",
         "parent_code": "089"
     },
-    "03100": {
+     {
         "name": "Khánh Yên Trung",
         "type": "xa",
         "slug": "khanh-yen-trung",
@@ -149,7 +149,7 @@
         "code": "03100",
         "parent_code": "089"
     },
-    "03103": {
+     {
         "name": "Khánh Yên Hạ",
         "type": "xa",
         "slug": "khanh-yen-ha",
@@ -159,7 +159,7 @@
         "code": "03103",
         "parent_code": "089"
     },
-    "03106": {
+     {
         "name": "Dương Quỳ",
         "type": "xa",
         "slug": "duong-quy",
@@ -169,7 +169,7 @@
         "code": "03106",
         "parent_code": "089"
     },
-    "03109": {
+     {
         "name": "Nậm Tha",
         "type": "xa",
         "slug": "nam-tha",
@@ -179,7 +179,7 @@
         "code": "03109",
         "parent_code": "089"
     },
-    "03112": {
+     {
         "name": "Minh Lương",
         "type": "xa",
         "slug": "minh-luong",
@@ -189,7 +189,7 @@
         "code": "03112",
         "parent_code": "089"
     },
-    "03115": {
+     {
         "name": "Thẩm Dương",
         "type": "xa",
         "slug": "tham-duong",
@@ -199,7 +199,7 @@
         "code": "03115",
         "parent_code": "089"
     },
-    "03118": {
+     {
         "name": "Liêm Phú",
         "type": "xa",
         "slug": "liem-phu",
@@ -209,7 +209,7 @@
         "code": "03118",
         "parent_code": "089"
     },
-    "03121": {
+     {
         "name": "Nậm Xây",
         "type": "xa",
         "slug": "nam-xay",
@@ -219,4 +219,4 @@
         "code": "03121",
         "parent_code": "089"
     }
-}
+]}

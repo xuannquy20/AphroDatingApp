@@ -1,5 +1,5 @@
 {
-    "03808": {
+    "xa":[ {
         "name": "Ít Ong",
         "type": "thi-tran",
         "slug": "it-ong",
@@ -9,7 +9,7 @@
         "code": "03808",
         "parent_code": "120"
     },
-    "03811": {
+     {
         "name": "Nậm Giôn",
         "type": "xa",
         "slug": "nam-gion",
@@ -19,7 +19,7 @@
         "code": "03811",
         "parent_code": "120"
     },
-    "03814": {
+     {
         "name": "Chiềng Lao",
         "type": "xa",
         "slug": "chieng-lao",
@@ -29,7 +29,7 @@
         "code": "03814",
         "parent_code": "120"
     },
-    "03817": {
+     {
         "name": "Hua Trai",
         "type": "xa",
         "slug": "hua-trai",
@@ -39,7 +39,7 @@
         "code": "03817",
         "parent_code": "120"
     },
-    "03820": {
+     {
         "name": "Ngọc Chiến",
         "type": "xa",
         "slug": "ngoc-chien",
@@ -49,7 +49,7 @@
         "code": "03820",
         "parent_code": "120"
     },
-    "03823": {
+     {
         "name": "Mường Trai",
         "type": "xa",
         "slug": "muong-trai",
@@ -59,7 +59,7 @@
         "code": "03823",
         "parent_code": "120"
     },
-    "03826": {
+     {
         "name": "Nậm Păm",
         "type": "xa",
         "slug": "nam-pam",
@@ -69,7 +69,7 @@
         "code": "03826",
         "parent_code": "120"
     },
-    "03829": {
+     {
         "name": "Chiềng Muôn",
         "type": "xa",
         "slug": "chieng-muon",
@@ -79,7 +79,7 @@
         "code": "03829",
         "parent_code": "120"
     },
-    "03832": {
+     {
         "name": "Chiềng Ân",
         "type": "xa",
         "slug": "chieng-an",
@@ -89,7 +89,7 @@
         "code": "03832",
         "parent_code": "120"
     },
-    "03835": {
+     {
         "name": "Pi Toong",
         "type": "xa",
         "slug": "pi-toong",
@@ -99,7 +99,7 @@
         "code": "03835",
         "parent_code": "120"
     },
-    "03838": {
+     {
         "name": "Chiềng Công",
         "type": "xa",
         "slug": "chieng-cong",
@@ -109,7 +109,7 @@
         "code": "03838",
         "parent_code": "120"
     },
-    "03841": {
+     {
         "name": "Tạ Bú",
         "type": "xa",
         "slug": "ta-bu",
@@ -119,7 +119,7 @@
         "code": "03841",
         "parent_code": "120"
     },
-    "03844": {
+     {
         "name": "Chiềng San",
         "type": "xa",
         "slug": "chieng-san",
@@ -129,7 +129,7 @@
         "code": "03844",
         "parent_code": "120"
     },
-    "03847": {
+     {
         "name": "Mường Bú",
         "type": "xa",
         "slug": "muong-bu",
@@ -139,7 +139,7 @@
         "code": "03847",
         "parent_code": "120"
     },
-    "03850": {
+     {
         "name": "Chiềng Hoa",
         "type": "xa",
         "slug": "chieng-hoa",
@@ -149,7 +149,7 @@
         "code": "03850",
         "parent_code": "120"
     },
-    "03853": {
+     {
         "name": "Mường Chùm",
         "type": "xa",
         "slug": "muong-chum",
@@ -159,4 +159,4 @@
         "code": "03853",
         "parent_code": "120"
     }
-}
+]}

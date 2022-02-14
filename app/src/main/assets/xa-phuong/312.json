@@ -1,5 +1,5 @@
 {
-    "11581": {
+    "xa":[ {
         "name": "An Dương",
         "type": "thi-tran",
         "slug": "an-duong",
@@ -9,7 +9,7 @@
         "code": "11581",
         "parent_code": "312"
     },
-    "11584": {
+     {
         "name": "Lê Thiện",
         "type": "xa",
         "slug": "le-thien",
@@ -19,7 +19,7 @@
         "code": "11584",
         "parent_code": "312"
     },
-    "11587": {
+     {
         "name": "Đại Bản",
         "type": "xa",
         "slug": "dai-ban",
@@ -29,7 +29,7 @@
         "code": "11587",
         "parent_code": "312"
     },
-    "11590": {
+     {
         "name": "An Hoà",
         "type": "xa",
         "slug": "an-hoa",
@@ -39,7 +39,7 @@
         "code": "11590",
         "parent_code": "312"
     },
-    "11593": {
+     {
         "name": "Hồng Phong",
         "type": "xa",
         "slug": "hong-phong",
@@ -49,7 +49,7 @@
         "code": "11593",
         "parent_code": "312"
     },
-    "11596": {
+     {
         "name": "Tân Tiến",
         "type": "xa",
         "slug": "tan-tien",
@@ -59,7 +59,7 @@
         "code": "11596",
         "parent_code": "312"
     },
-    "11599": {
+     {
         "name": "An Hưng",
         "type": "xa",
         "slug": "an-hung",
@@ -69,7 +69,7 @@
         "code": "11599",
         "parent_code": "312"
     },
-    "11602": {
+     {
         "name": "An Hồng",
         "type": "xa",
         "slug": "an-hong",
@@ -79,7 +79,7 @@
         "code": "11602",
         "parent_code": "312"
     },
-    "11605": {
+     {
         "name": "Bắc Sơn",
         "type": "xa",
         "slug": "bac-son",
@@ -89,7 +89,7 @@
         "code": "11605",
         "parent_code": "312"
     },
-    "11608": {
+     {
         "name": "Nam Sơn",
         "type": "xa",
         "slug": "nam-son",
@@ -99,7 +99,7 @@
         "code": "11608",
         "parent_code": "312"
     },
-    "11611": {
+     {
         "name": "Lê Lợi",
         "type": "xa",
         "slug": "le-loi",
@@ -109,7 +109,7 @@
         "code": "11611",
         "parent_code": "312"
     },
-    "11614": {
+     {
         "name": "Đặng Cương",
         "type": "xa",
         "slug": "dang-cuong",
@@ -119,7 +119,7 @@
         "code": "11614",
         "parent_code": "312"
     },
-    "11617": {
+     {
         "name": "Đồng Thái",
         "type": "xa",
         "slug": "dong-thai",
@@ -129,7 +129,7 @@
         "code": "11617",
         "parent_code": "312"
     },
-    "11620": {
+     {
         "name": "Quốc Tuấn",
         "type": "xa",
         "slug": "quoc-tuan",
@@ -139,7 +139,7 @@
         "code": "11620",
         "parent_code": "312"
     },
-    "11623": {
+     {
         "name": "An Đồng",
         "type": "xa",
         "slug": "an-dong",
@@ -149,7 +149,7 @@
         "code": "11623",
         "parent_code": "312"
     },
-    "11626": {
+     {
         "name": "Hồng Thái",
         "type": "xa",
         "slug": "hong-thai",
@@ -159,4 +159,4 @@
         "code": "11626",
         "parent_code": "312"
     }
-}
+]}

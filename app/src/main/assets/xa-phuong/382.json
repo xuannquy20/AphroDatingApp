@@ -1,5 +1,5 @@
 {
-    "14830": {
+    "xa":[ {
         "name": "Trung Sơn",
         "type": "phuong",
         "slug": "trung-son",
@@ -9,7 +9,7 @@
         "code": "14830",
         "parent_code": "382"
     },
-    "14833": {
+     {
         "name": "Bắc Sơn",
         "type": "phuong",
         "slug": "bac-son",
@@ -19,7 +19,7 @@
         "code": "14833",
         "parent_code": "382"
     },
-    "14836": {
+     {
         "name": "Trường Sơn",
         "type": "phuong",
         "slug": "truong-son",
@@ -29,7 +29,7 @@
         "code": "14836",
         "parent_code": "382"
     },
-    "14839": {
+     {
         "name": "Quảng Cư",
         "type": "phuong",
         "slug": "quang-cu",
@@ -39,7 +39,7 @@
         "code": "14839",
         "parent_code": "382"
     },
-    "14842": {
+     {
         "name": "Quảng Tiến",
         "type": "phuong",
         "slug": "quang-tien",
@@ -49,7 +49,7 @@
         "code": "14842",
         "parent_code": "382"
     },
-    "16513": {
+     {
         "name": "Quảng Minh",
         "type": "xa",
         "slug": "quang-minh",
@@ -59,7 +59,7 @@
         "code": "16513",
         "parent_code": "382"
     },
-    "16516": {
+     {
         "name": "Quảng Hùng",
         "type": "xa",
         "slug": "quang-hung",
@@ -69,7 +69,7 @@
         "code": "16516",
         "parent_code": "382"
     },
-    "16528": {
+     {
         "name": "Quảng Thọ",
         "type": "phuong",
         "slug": "quang-tho",
@@ -79,7 +79,7 @@
         "code": "16528",
         "parent_code": "382"
     },
-    "16531": {
+     {
         "name": "Quảng Châu",
         "type": "phuong",
         "slug": "quang-chau",
@@ -89,7 +89,7 @@
         "code": "16531",
         "parent_code": "382"
     },
-    "16534": {
+     {
         "name": "Quảng Vinh",
         "type": "phuong",
         "slug": "quang-vinh",
@@ -99,7 +99,7 @@
         "code": "16534",
         "parent_code": "382"
     },
-    "16537": {
+     {
         "name": "Quảng Đại",
         "type": "xa",
         "slug": "quang-dai",
@@ -109,4 +109,4 @@
         "code": "16537",
         "parent_code": "382"
     }
-}
+]}

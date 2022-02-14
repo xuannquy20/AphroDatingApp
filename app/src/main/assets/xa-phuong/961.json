@@ -1,5 +1,5 @@
 {
-    "31891": {
+    "xa":[ {
         "name": "Hòa Bình",
         "type": "thi-tran",
         "slug": "hoa-binh",
@@ -9,7 +9,7 @@
         "code": "31891",
         "parent_code": "961"
     },
-    "31915": {
+     {
         "name": "Minh Diệu",
         "type": "xa",
         "slug": "minh-dieu",
@@ -19,7 +19,7 @@
         "code": "31915",
         "parent_code": "961"
     },
-    "31918": {
+     {
         "name": "Vĩnh Bình",
         "type": "xa",
         "slug": "vinh-binh",
@@ -29,7 +29,7 @@
         "code": "31918",
         "parent_code": "961"
     },
-    "31924": {
+     {
         "name": "Vĩnh Mỹ B",
         "type": "xa",
         "slug": "vinh-my-b",
@@ -39,7 +39,7 @@
         "code": "31924",
         "parent_code": "961"
     },
-    "31927": {
+     {
         "name": "Vĩnh Hậu",
         "type": "xa",
         "slug": "vinh-hau",
@@ -49,7 +49,7 @@
         "code": "31927",
         "parent_code": "961"
     },
-    "31930": {
+     {
         "name": "Vĩnh Hậu A",
         "type": "xa",
         "slug": "vinh-hau-a",
@@ -59,7 +59,7 @@
         "code": "31930",
         "parent_code": "961"
     },
-    "31933": {
+     {
         "name": "Vĩnh Mỹ A",
         "type": "xa",
         "slug": "vinh-my-a",
@@ -69,7 +69,7 @@
         "code": "31933",
         "parent_code": "961"
     },
-    "31936": {
+     {
         "name": "Vĩnh Thịnh",
         "type": "xa",
         "slug": "vinh-thinh",
@@ -79,4 +79,4 @@
         "code": "31936",
         "parent_code": "961"
     }
-}
+]}

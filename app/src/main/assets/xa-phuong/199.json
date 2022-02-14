@@ -1,5 +1,5 @@
 {
-    "06862": {
+    "xa":[ {
         "name": "Tiên Yên",
         "type": "thi-tran",
         "slug": "tien-yen",
@@ -9,7 +9,7 @@
         "code": "06862",
         "parent_code": "199"
     },
-    "06865": {
+     {
         "name": "Hà Lâu",
         "type": "xa",
         "slug": "ha-lau",
@@ -19,7 +19,7 @@
         "code": "06865",
         "parent_code": "199"
     },
-    "06868": {
+     {
         "name": "Đại Dực",
         "type": "xa",
         "slug": "dai-duc",
@@ -29,7 +29,7 @@
         "code": "06868",
         "parent_code": "199"
     },
-    "06871": {
+     {
         "name": "Phong Dụ",
         "type": "xa",
         "slug": "phong-du",
@@ -39,7 +39,7 @@
         "code": "06871",
         "parent_code": "199"
     },
-    "06874": {
+     {
         "name": "Điền Xá",
         "type": "xa",
         "slug": "dien-xa",
@@ -49,7 +49,7 @@
         "code": "06874",
         "parent_code": "199"
     },
-    "06877": {
+     {
         "name": "Đông Ngũ",
         "type": "xa",
         "slug": "dong-ngu",
@@ -59,7 +59,7 @@
         "code": "06877",
         "parent_code": "199"
     },
-    "06880": {
+     {
         "name": "Yên Than",
         "type": "xa",
         "slug": "yen-than",
@@ -69,7 +69,7 @@
         "code": "06880",
         "parent_code": "199"
     },
-    "06883": {
+     {
         "name": "Đông Hải",
         "type": "xa",
         "slug": "dong-hai",
@@ -79,7 +79,7 @@
         "code": "06883",
         "parent_code": "199"
     },
-    "06886": {
+     {
         "name": "Hải Lạng",
         "type": "xa",
         "slug": "hai-lang",
@@ -89,7 +89,7 @@
         "code": "06886",
         "parent_code": "199"
     },
-    "06889": {
+     {
         "name": "Tiên Lãng",
         "type": "xa",
         "slug": "tien-lang",
@@ -99,7 +99,7 @@
         "code": "06889",
         "parent_code": "199"
     },
-    "06892": {
+     {
         "name": "Đồng Rui",
         "type": "xa",
         "slug": "dong-rui",
@@ -109,4 +109,4 @@
         "code": "06892",
         "parent_code": "199"
     }
-}
+]}

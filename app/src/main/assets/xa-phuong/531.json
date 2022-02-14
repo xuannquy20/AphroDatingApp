@@ -1,5 +1,5 @@
 {
-    "21349": {
+    "xa":[ {
         "name": "Long Sơn",
         "type": "xa",
         "slug": "long-son",
@@ -9,7 +9,7 @@
         "code": "21349",
         "parent_code": "531"
     },
-    "21352": {
+     {
         "name": "Long Mai",
         "type": "xa",
         "slug": "long-mai",
@@ -19,7 +19,7 @@
         "code": "21352",
         "parent_code": "531"
     },
-    "21355": {
+     {
         "name": "Thanh An",
         "type": "xa",
         "slug": "thanh-an",
@@ -29,7 +29,7 @@
         "code": "21355",
         "parent_code": "531"
     },
-    "21358": {
+     {
         "name": "Long Môn",
         "type": "xa",
         "slug": "long-mon",
@@ -39,7 +39,7 @@
         "code": "21358",
         "parent_code": "531"
     },
-    "21361": {
+     {
         "name": "Long Hiệp",
         "type": "xa",
         "slug": "long-hiep",
@@ -49,4 +49,4 @@
         "code": "21361",
         "parent_code": "531"
     }
-}
+]}

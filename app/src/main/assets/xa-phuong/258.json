@@ -1,5 +1,5 @@
 {
-    "09193": {
+    "xa":[ {
         "name": "Chờ",
         "type": "thi-tran",
         "slug": "cho",
@@ -9,7 +9,7 @@
         "code": "09193",
         "parent_code": "258"
     },
-    "09196": {
+     {
         "name": "Dũng Liệt",
         "type": "xa",
         "slug": "dung-liet",
@@ -19,7 +19,7 @@
         "code": "09196",
         "parent_code": "258"
     },
-    "09199": {
+     {
         "name": "Tam Đa",
         "type": "xa",
         "slug": "tam-da",
@@ -29,7 +29,7 @@
         "code": "09199",
         "parent_code": "258"
     },
-    "09202": {
+     {
         "name": "Tam Giang",
         "type": "xa",
         "slug": "tam-giang",
@@ -39,7 +39,7 @@
         "code": "09202",
         "parent_code": "258"
     },
-    "09205": {
+     {
         "name": "Yên Trung",
         "type": "xa",
         "slug": "yen-trung",
@@ -49,7 +49,7 @@
         "code": "09205",
         "parent_code": "258"
     },
-    "09208": {
+     {
         "name": "Thụy Hòa",
         "type": "xa",
         "slug": "thuy-hoa",
@@ -59,7 +59,7 @@
         "code": "09208",
         "parent_code": "258"
     },
-    "09211": {
+     {
         "name": "Hòa Tiến",
         "type": "xa",
         "slug": "hoa-tien",
@@ -69,7 +69,7 @@
         "code": "09211",
         "parent_code": "258"
     },
-    "09217": {
+     {
         "name": "Đông Tiến",
         "type": "xa",
         "slug": "dong-tien",
@@ -79,7 +79,7 @@
         "code": "09217",
         "parent_code": "258"
     },
-    "09220": {
+     {
         "name": "Yên Phụ",
         "type": "xa",
         "slug": "yen-phu",
@@ -89,7 +89,7 @@
         "code": "09220",
         "parent_code": "258"
     },
-    "09223": {
+     {
         "name": "Trung Nghĩa",
         "type": "xa",
         "slug": "trung-nghia",
@@ -99,7 +99,7 @@
         "code": "09223",
         "parent_code": "258"
     },
-    "09229": {
+     {
         "name": "Đông Phong",
         "type": "xa",
         "slug": "dong-phong",
@@ -109,7 +109,7 @@
         "code": "09229",
         "parent_code": "258"
     },
-    "09232": {
+     {
         "name": "Long Châu",
         "type": "xa",
         "slug": "long-chau",
@@ -119,7 +119,7 @@
         "code": "09232",
         "parent_code": "258"
     },
-    "09238": {
+     {
         "name": "Văn Môn",
         "type": "xa",
         "slug": "van-mon",
@@ -129,7 +129,7 @@
         "code": "09238",
         "parent_code": "258"
     },
-    "09241": {
+     {
         "name": "Đông Thọ",
         "type": "xa",
         "slug": "dong-tho",
@@ -139,4 +139,4 @@
         "code": "09241",
         "parent_code": "258"
     }
-}
+]}

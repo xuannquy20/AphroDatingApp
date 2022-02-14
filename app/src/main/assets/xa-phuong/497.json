@@ -1,5 +1,5 @@
 {
-    "20293": {
+    "xa":[ {
         "name": "Hòa Bắc",
         "type": "xa",
         "slug": "hoa-bac",
@@ -9,7 +9,7 @@
         "code": "20293",
         "parent_code": "497"
     },
-    "20296": {
+     {
         "name": "Hòa Liên",
         "type": "xa",
         "slug": "hoa-lien",
@@ -19,7 +19,7 @@
         "code": "20296",
         "parent_code": "497"
     },
-    "20299": {
+     {
         "name": "Hòa Ninh",
         "type": "xa",
         "slug": "hoa-ninh",
@@ -29,7 +29,7 @@
         "code": "20299",
         "parent_code": "497"
     },
-    "20302": {
+     {
         "name": "Hòa Sơn",
         "type": "xa",
         "slug": "hoa-son",
@@ -39,7 +39,7 @@
         "code": "20302",
         "parent_code": "497"
     },
-    "20308": {
+     {
         "name": "Hòa Nhơn",
         "type": "xa",
         "slug": "hoa-nhon",
@@ -49,7 +49,7 @@
         "code": "20308",
         "parent_code": "497"
     },
-    "20317": {
+     {
         "name": "Hòa Phú",
         "type": "xa",
         "slug": "hoa-phu",
@@ -59,7 +59,7 @@
         "code": "20317",
         "parent_code": "497"
     },
-    "20320": {
+     {
         "name": "Hòa Phong",
         "type": "xa",
         "slug": "hoa-phong",
@@ -69,7 +69,7 @@
         "code": "20320",
         "parent_code": "497"
     },
-    "20323": {
+     {
         "name": "Hòa Châu",
         "type": "xa",
         "slug": "hoa-chau",
@@ -79,7 +79,7 @@
         "code": "20323",
         "parent_code": "497"
     },
-    "20326": {
+     {
         "name": "Hòa Tiến",
         "type": "xa",
         "slug": "hoa-tien",
@@ -89,7 +89,7 @@
         "code": "20326",
         "parent_code": "497"
     },
-    "20329": {
+     {
         "name": "Hòa Phước",
         "type": "xa",
         "slug": "hoa-phuoc",
@@ -99,7 +99,7 @@
         "code": "20329",
         "parent_code": "497"
     },
-    "20332": {
+     {
         "name": "Hòa Khương",
         "type": "xa",
         "slug": "hoa-khuong",
@@ -109,4 +109,4 @@
         "code": "20332",
         "parent_code": "497"
     }
-}
+]}

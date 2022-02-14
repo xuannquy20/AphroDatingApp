@@ -1,5 +1,5 @@
 {
-    "23401": {
+    "xa":[ {
         "name": "Đắk Tô",
         "type": "thi-tran",
         "slug": "dak-to",
@@ -9,7 +9,7 @@
         "code": "23401",
         "parent_code": "612"
     },
-    "23427": {
+     {
         "name": "Đắk Rơ Nga",
         "type": "xa",
         "slug": "dak-ro-nga",
@@ -19,7 +19,7 @@
         "code": "23427",
         "parent_code": "612"
     },
-    "23428": {
+     {
         "name": "Ngọk Tụ",
         "type": "xa",
         "slug": "ngok-tu",
@@ -29,7 +29,7 @@
         "code": "23428",
         "parent_code": "612"
     },
-    "23430": {
+     {
         "name": "Đắk Trăm",
         "type": "xa",
         "slug": "dak-tram",
@@ -39,7 +39,7 @@
         "code": "23430",
         "parent_code": "612"
     },
-    "23431": {
+     {
         "name": "Văn Lem",
         "type": "xa",
         "slug": "van-lem",
@@ -49,7 +49,7 @@
         "code": "23431",
         "parent_code": "612"
     },
-    "23434": {
+     {
         "name": "Kon Đào",
         "type": "xa",
         "slug": "kon-dao",
@@ -59,7 +59,7 @@
         "code": "23434",
         "parent_code": "612"
     },
-    "23437": {
+     {
         "name": "Tân Cảnh",
         "type": "xa",
         "slug": "tan-canh",
@@ -69,7 +69,7 @@
         "code": "23437",
         "parent_code": "612"
     },
-    "23440": {
+     {
         "name": "Diên Bình",
         "type": "xa",
         "slug": "dien-binh",
@@ -79,7 +79,7 @@
         "code": "23440",
         "parent_code": "612"
     },
-    "23443": {
+     {
         "name": "Pô Kô",
         "type": "xa",
         "slug": "po-ko",
@@ -89,4 +89,4 @@
         "code": "23443",
         "parent_code": "612"
     }
-}
+]}

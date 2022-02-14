@@ -1,5 +1,5 @@
 {
-    "24814": {
+    "xa":[ {
         "name": "Lộc Phát",
         "type": "phuong",
         "slug": "loc-phat",
@@ -9,7 +9,7 @@
         "code": "24814",
         "parent_code": "673"
     },
-    "24817": {
+     {
         "name": "Lộc Tiến",
         "type": "phuong",
         "slug": "loc-tien",
@@ -19,7 +19,7 @@
         "code": "24817",
         "parent_code": "673"
     },
-    "24820": {
+     {
         "name": "2",
         "type": "phuong",
         "slug": "2",
@@ -29,7 +29,7 @@
         "code": "24820",
         "parent_code": "673"
     },
-    "24823": {
+     {
         "name": "1",
         "type": "phuong",
         "slug": "1",
@@ -39,7 +39,7 @@
         "code": "24823",
         "parent_code": "673"
     },
-    "24826": {
+     {
         "name": "B'lao",
         "type": "phuong",
         "slug": "b-lao",
@@ -49,7 +49,7 @@
         "code": "24826",
         "parent_code": "673"
     },
-    "24829": {
+     {
         "name": "Lộc Sơn",
         "type": "phuong",
         "slug": "loc-son",
@@ -59,7 +59,7 @@
         "code": "24829",
         "parent_code": "673"
     },
-    "24832": {
+     {
         "name": "Đạm Bri",
         "type": "xa",
         "slug": "dam-bri",
@@ -69,7 +69,7 @@
         "code": "24832",
         "parent_code": "673"
     },
-    "24835": {
+     {
         "name": "Lộc Thanh",
         "type": "xa",
         "slug": "loc-thanh",
@@ -79,7 +79,7 @@
         "code": "24835",
         "parent_code": "673"
     },
-    "24838": {
+     {
         "name": "Lộc Nga",
         "type": "xa",
         "slug": "loc-nga",
@@ -89,7 +89,7 @@
         "code": "24838",
         "parent_code": "673"
     },
-    "24841": {
+     {
         "name": "Lộc Châu",
         "type": "xa",
         "slug": "loc-chau",
@@ -99,7 +99,7 @@
         "code": "24841",
         "parent_code": "673"
     },
-    "24844": {
+     {
         "name": "Đại Lào",
         "type": "xa",
         "slug": "dai-lao",
@@ -109,4 +109,4 @@
         "code": "24844",
         "parent_code": "673"
     }
-}
+]}

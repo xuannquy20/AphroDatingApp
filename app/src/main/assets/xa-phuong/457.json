@@ -1,5 +1,5 @@
 {
-    "19246": {
+    "xa":[ {
         "name": "NT Lệ Ninh",
         "type": "thi-tran",
         "slug": "nt-le-ninh",
@@ -9,7 +9,7 @@
         "code": "19246",
         "parent_code": "457"
     },
-    "19249": {
+     {
         "name": "Kiến Giang",
         "type": "thi-tran",
         "slug": "kien-giang",
@@ -19,7 +19,7 @@
         "code": "19249",
         "parent_code": "457"
     },
-    "19252": {
+     {
         "name": "Hồng Thủy",
         "type": "xa",
         "slug": "hong-thuy",
@@ -29,7 +29,7 @@
         "code": "19252",
         "parent_code": "457"
     },
-    "19255": {
+     {
         "name": "Ngư Thủy Bắc",
         "type": "xa",
         "slug": "ngu-thuy-bac",
@@ -39,7 +39,7 @@
         "code": "19255",
         "parent_code": "457"
     },
-    "19258": {
+     {
         "name": "Hoa Thủy",
         "type": "xa",
         "slug": "hoa-thuy",
@@ -49,7 +49,7 @@
         "code": "19258",
         "parent_code": "457"
     },
-    "19261": {
+     {
         "name": "Thanh Thủy",
         "type": "xa",
         "slug": "thanh-thuy",
@@ -59,7 +59,7 @@
         "code": "19261",
         "parent_code": "457"
     },
-    "19264": {
+     {
         "name": "An Thủy",
         "type": "xa",
         "slug": "an-thuy",
@@ -69,7 +69,7 @@
         "code": "19264",
         "parent_code": "457"
     },
-    "19267": {
+     {
         "name": "Phong Thủy",
         "type": "xa",
         "slug": "phong-thuy",
@@ -79,7 +79,7 @@
         "code": "19267",
         "parent_code": "457"
     },
-    "19270": {
+     {
         "name": "Cam Thủy",
         "type": "xa",
         "slug": "cam-thuy",
@@ -89,7 +89,7 @@
         "code": "19270",
         "parent_code": "457"
     },
-    "19273": {
+     {
         "name": "Ngân Thủy",
         "type": "xa",
         "slug": "ngan-thuy",
@@ -99,7 +99,7 @@
         "code": "19273",
         "parent_code": "457"
     },
-    "19276": {
+     {
         "name": "Sơn Thủy",
         "type": "xa",
         "slug": "son-thuy",
@@ -109,7 +109,7 @@
         "code": "19276",
         "parent_code": "457"
     },
-    "19279": {
+     {
         "name": "Lộc Thủy",
         "type": "xa",
         "slug": "loc-thuy",
@@ -119,7 +119,7 @@
         "code": "19279",
         "parent_code": "457"
     },
-    "19285": {
+     {
         "name": "Liên Thủy",
         "type": "xa",
         "slug": "lien-thuy",
@@ -129,7 +129,7 @@
         "code": "19285",
         "parent_code": "457"
     },
-    "19288": {
+     {
         "name": "Hưng Thủy",
         "type": "xa",
         "slug": "hung-thuy",
@@ -139,7 +139,7 @@
         "code": "19288",
         "parent_code": "457"
     },
-    "19291": {
+     {
         "name": "Dương Thủy",
         "type": "xa",
         "slug": "duong-thuy",
@@ -149,7 +149,7 @@
         "code": "19291",
         "parent_code": "457"
     },
-    "19294": {
+     {
         "name": "Tân Thủy",
         "type": "xa",
         "slug": "tan-thuy",
@@ -159,7 +159,7 @@
         "code": "19294",
         "parent_code": "457"
     },
-    "19297": {
+     {
         "name": "Phú Thủy",
         "type": "xa",
         "slug": "phu-thuy",
@@ -169,7 +169,7 @@
         "code": "19297",
         "parent_code": "457"
     },
-    "19300": {
+     {
         "name": "Xuân Thủy",
         "type": "xa",
         "slug": "xuan-thuy",
@@ -179,7 +179,7 @@
         "code": "19300",
         "parent_code": "457"
     },
-    "19303": {
+     {
         "name": "Mỹ Thủy",
         "type": "xa",
         "slug": "my-thuy",
@@ -189,7 +189,7 @@
         "code": "19303",
         "parent_code": "457"
     },
-    "19306": {
+     {
         "name": "Ngư Thủy",
         "type": "xa",
         "slug": "ngu-thuy",
@@ -199,7 +199,7 @@
         "code": "19306",
         "parent_code": "457"
     },
-    "19309": {
+     {
         "name": "Mai Thủy",
         "type": "xa",
         "slug": "mai-thuy",
@@ -209,7 +209,7 @@
         "code": "19309",
         "parent_code": "457"
     },
-    "19312": {
+     {
         "name": "Sen Thủy",
         "type": "xa",
         "slug": "sen-thuy",
@@ -219,7 +219,7 @@
         "code": "19312",
         "parent_code": "457"
     },
-    "19315": {
+     {
         "name": "Thái Thủy",
         "type": "xa",
         "slug": "thai-thuy",
@@ -229,7 +229,7 @@
         "code": "19315",
         "parent_code": "457"
     },
-    "19318": {
+     {
         "name": "Kim Thủy",
         "type": "xa",
         "slug": "kim-thuy",
@@ -239,7 +239,7 @@
         "code": "19318",
         "parent_code": "457"
     },
-    "19321": {
+     {
         "name": "Trường Thủy",
         "type": "xa",
         "slug": "truong-thuy",
@@ -249,7 +249,7 @@
         "code": "19321",
         "parent_code": "457"
     },
-    "19327": {
+     {
         "name": "Lâm Thủy",
         "type": "xa",
         "slug": "lam-thuy",
@@ -259,4 +259,4 @@
         "code": "19327",
         "parent_code": "457"
     }
-}
+]}

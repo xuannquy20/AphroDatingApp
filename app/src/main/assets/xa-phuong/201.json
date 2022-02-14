@@ -1,5 +1,5 @@
 {
-    "06922": {
+    "xa":[ {
         "name": "Quảng Hà",
         "type": "thi-tran",
         "slug": "quang-ha",
@@ -9,7 +9,7 @@
         "code": "06922",
         "parent_code": "201"
     },
-    "06925": {
+     {
         "name": "Quảng Đức",
         "type": "xa",
         "slug": "quang-duc",
@@ -19,7 +19,7 @@
         "code": "06925",
         "parent_code": "201"
     },
-    "06928": {
+     {
         "name": "Quảng Sơn",
         "type": "xa",
         "slug": "quang-son",
@@ -29,7 +29,7 @@
         "code": "06928",
         "parent_code": "201"
     },
-    "06931": {
+     {
         "name": "Quảng Thành",
         "type": "xa",
         "slug": "quang-thanh",
@@ -39,7 +39,7 @@
         "code": "06931",
         "parent_code": "201"
     },
-    "06937": {
+     {
         "name": "Quảng Thịnh",
         "type": "xa",
         "slug": "quang-thinh",
@@ -49,7 +49,7 @@
         "code": "06937",
         "parent_code": "201"
     },
-    "06940": {
+     {
         "name": "Quảng Minh",
         "type": "xa",
         "slug": "quang-minh",
@@ -59,7 +59,7 @@
         "code": "06940",
         "parent_code": "201"
     },
-    "06943": {
+     {
         "name": "Quảng Chính",
         "type": "xa",
         "slug": "quang-chinh",
@@ -69,7 +69,7 @@
         "code": "06943",
         "parent_code": "201"
     },
-    "06946": {
+     {
         "name": "Quảng Long",
         "type": "xa",
         "slug": "quang-long",
@@ -79,7 +79,7 @@
         "code": "06946",
         "parent_code": "201"
     },
-    "06949": {
+     {
         "name": "Đường Hoa",
         "type": "xa",
         "slug": "duong-hoa",
@@ -89,7 +89,7 @@
         "code": "06949",
         "parent_code": "201"
     },
-    "06952": {
+     {
         "name": "Quảng Phong",
         "type": "xa",
         "slug": "quang-phong",
@@ -99,7 +99,7 @@
         "code": "06952",
         "parent_code": "201"
     },
-    "06967": {
+     {
         "name": "Cái Chiên",
         "type": "xa",
         "slug": "cai-chien",
@@ -109,4 +109,4 @@
         "code": "06967",
         "parent_code": "201"
     }
-}
+]}

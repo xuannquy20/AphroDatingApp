@@ -1,5 +1,5 @@
 {
-    "31441": {
+    "xa":[ {
         "name": "Nàng Mau",
         "type": "thi-tran",
         "slug": "nang-mau",
@@ -9,7 +9,7 @@
         "code": "31441",
         "parent_code": "935"
     },
-    "31444": {
+     {
         "name": "Vị Trung",
         "type": "xa",
         "slug": "vi-trung",
@@ -19,7 +19,7 @@
         "code": "31444",
         "parent_code": "935"
     },
-    "31447": {
+     {
         "name": "Vị Thuỷ",
         "type": "xa",
         "slug": "vi-thuy",
@@ -29,7 +29,7 @@
         "code": "31447",
         "parent_code": "935"
     },
-    "31450": {
+     {
         "name": "Vị Thắng",
         "type": "xa",
         "slug": "vi-thang",
@@ -39,7 +39,7 @@
         "code": "31450",
         "parent_code": "935"
     },
-    "31453": {
+     {
         "name": "Vĩnh Thuận Tây",
         "type": "xa",
         "slug": "vinh-thuan-tay",
@@ -49,7 +49,7 @@
         "code": "31453",
         "parent_code": "935"
     },
-    "31456": {
+     {
         "name": "Vĩnh Trung",
         "type": "xa",
         "slug": "vinh-trung",
@@ -59,7 +59,7 @@
         "code": "31456",
         "parent_code": "935"
     },
-    "31459": {
+     {
         "name": "Vĩnh Tường",
         "type": "xa",
         "slug": "vinh-tuong",
@@ -69,7 +69,7 @@
         "code": "31459",
         "parent_code": "935"
     },
-    "31462": {
+     {
         "name": "Vị Đông",
         "type": "xa",
         "slug": "vi-dong",
@@ -79,7 +79,7 @@
         "code": "31462",
         "parent_code": "935"
     },
-    "31465": {
+     {
         "name": "Vị Thanh",
         "type": "xa",
         "slug": "vi-thanh",
@@ -89,7 +89,7 @@
         "code": "31465",
         "parent_code": "935"
     },
-    "31468": {
+     {
         "name": "Vị Bình",
         "type": "xa",
         "slug": "vi-binh",
@@ -99,4 +99,4 @@
         "code": "31468",
         "parent_code": "935"
     }
-}
+]}

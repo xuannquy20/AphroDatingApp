@@ -1,5 +1,5 @@
 {
-    "00640": {
+     "xa" : [{
         "name": "Văn Điển",
         "type": "thi-tran",
         "slug": "van-dien",
@@ -9,7 +9,7 @@
         "code": "00640",
         "parent_code": "020"
     },
-    "00643": {
+     {
         "name": "Tân Triều",
         "type": "xa",
         "slug": "tan-trieu",
@@ -19,7 +19,7 @@
         "code": "00643",
         "parent_code": "020"
     },
-    "00646": {
+     {
         "name": "Thanh Liệt",
         "type": "xa",
         "slug": "thanh-liet",
@@ -29,7 +29,7 @@
         "code": "00646",
         "parent_code": "020"
     },
-    "00649": {
+     {
         "name": "Tả Thanh Oai",
         "type": "xa",
         "slug": "ta-thanh-oai",
@@ -39,7 +39,7 @@
         "code": "00649",
         "parent_code": "020"
     },
-    "00652": {
+     {
         "name": "Hữu Hoà",
         "type": "xa",
         "slug": "huu-hoa",
@@ -49,7 +49,7 @@
         "code": "00652",
         "parent_code": "020"
     },
-    "00655": {
+     {
         "name": "Tam Hiệp",
         "type": "xa",
         "slug": "tam-hiep",
@@ -59,7 +59,7 @@
         "code": "00655",
         "parent_code": "020"
     },
-    "00658": {
+     {
         "name": "Tứ Hiệp",
         "type": "xa",
         "slug": "tu-hiep",
@@ -69,7 +69,7 @@
         "code": "00658",
         "parent_code": "020"
     },
-    "00661": {
+     {
         "name": "Yên Mỹ",
         "type": "xa",
         "slug": "yen-my",
@@ -79,7 +79,7 @@
         "code": "00661",
         "parent_code": "020"
     },
-    "00664": {
+     {
         "name": "Vĩnh Quỳnh",
         "type": "xa",
         "slug": "vinh-quynh",
@@ -89,7 +89,7 @@
         "code": "00664",
         "parent_code": "020"
     },
-    "00667": {
+     {
         "name": "Ngũ Hiệp",
         "type": "xa",
         "slug": "ngu-hiep",
@@ -99,7 +99,7 @@
         "code": "00667",
         "parent_code": "020"
     },
-    "00670": {
+     {
         "name": "Duyên Hà",
         "type": "xa",
         "slug": "duyen-ha",
@@ -109,7 +109,7 @@
         "code": "00670",
         "parent_code": "020"
     },
-    "00673": {
+     {
         "name": "Ngọc Hồi",
         "type": "xa",
         "slug": "ngoc-hoi",
@@ -119,7 +119,7 @@
         "code": "00673",
         "parent_code": "020"
     },
-    "00676": {
+     {
         "name": "Vạn Phúc",
         "type": "xa",
         "slug": "van-phuc",
@@ -129,7 +129,7 @@
         "code": "00676",
         "parent_code": "020"
     },
-    "00679": {
+     {
         "name": "Đại áng",
         "type": "xa",
         "slug": "dai-ang",
@@ -139,7 +139,7 @@
         "code": "00679",
         "parent_code": "020"
     },
-    "00682": {
+     {
         "name": "Liên Ninh",
         "type": "xa",
         "slug": "lien-ninh",
@@ -149,7 +149,7 @@
         "code": "00682",
         "parent_code": "020"
     },
-    "00685": {
+     {
         "name": "Đông Mỹ",
         "type": "xa",
         "slug": "dong-my",
@@ -159,4 +159,5 @@
         "code": "00685",
         "parent_code": "020"
     }
+]
 }

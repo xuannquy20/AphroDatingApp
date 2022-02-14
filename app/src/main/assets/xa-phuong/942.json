@@ -1,5 +1,5 @@
 {
-    "31569": {
+    "xa":[ {
         "name": "Châu Thành",
         "type": "thi-tran",
         "slug": "chau-thanh",
@@ -9,7 +9,7 @@
         "code": "31569",
         "parent_code": "942"
     },
-    "31570": {
+     {
         "name": "Hồ Đắc Kiện",
         "type": "xa",
         "slug": "ho-dac-kien",
@@ -19,7 +19,7 @@
         "code": "31570",
         "parent_code": "942"
     },
-    "31573": {
+     {
         "name": "Phú Tâm",
         "type": "xa",
         "slug": "phu-tam",
@@ -29,7 +29,7 @@
         "code": "31573",
         "parent_code": "942"
     },
-    "31576": {
+     {
         "name": "Thuận Hòa",
         "type": "xa",
         "slug": "thuan-hoa",
@@ -39,7 +39,7 @@
         "code": "31576",
         "parent_code": "942"
     },
-    "31582": {
+     {
         "name": "Phú Tân",
         "type": "xa",
         "slug": "phu-tan",
@@ -49,7 +49,7 @@
         "code": "31582",
         "parent_code": "942"
     },
-    "31585": {
+     {
         "name": "Thiện Mỹ",
         "type": "xa",
         "slug": "thien-my",
@@ -59,7 +59,7 @@
         "code": "31585",
         "parent_code": "942"
     },
-    "31594": {
+     {
         "name": "An Hiệp",
         "type": "xa",
         "slug": "an-hiep",
@@ -69,7 +69,7 @@
         "code": "31594",
         "parent_code": "942"
     },
-    "31600": {
+     {
         "name": "An Ninh",
         "type": "xa",
         "slug": "an-ninh",
@@ -79,4 +79,4 @@
         "code": "31600",
         "parent_code": "942"
     }
-}
+]}

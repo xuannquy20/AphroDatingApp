@@ -1,5 +1,5 @@
 {
-    "25741": {
+    "xa":[ {
         "name": "Hiệp Thành",
         "type": "phuong",
         "slug": "hiep-thanh",
@@ -9,7 +9,7 @@
         "code": "25741",
         "parent_code": "718"
     },
-    "25744": {
+     {
         "name": "Phú Lợi",
         "type": "phuong",
         "slug": "phu-loi",
@@ -19,7 +19,7 @@
         "code": "25744",
         "parent_code": "718"
     },
-    "25747": {
+     {
         "name": "Phú Cường",
         "type": "phuong",
         "slug": "phu-cuong",
@@ -29,7 +29,7 @@
         "code": "25747",
         "parent_code": "718"
     },
-    "25750": {
+     {
         "name": "Phú Hòa",
         "type": "phuong",
         "slug": "phu-hoa",
@@ -39,7 +39,7 @@
         "code": "25750",
         "parent_code": "718"
     },
-    "25753": {
+     {
         "name": "Phú Thọ",
         "type": "phuong",
         "slug": "phu-tho",
@@ -49,7 +49,7 @@
         "code": "25753",
         "parent_code": "718"
     },
-    "25756": {
+     {
         "name": "Chánh Nghĩa",
         "type": "phuong",
         "slug": "chanh-nghia",
@@ -59,7 +59,7 @@
         "code": "25756",
         "parent_code": "718"
     },
-    "25759": {
+     {
         "name": "Định Hoà",
         "type": "phuong",
         "slug": "dinh-hoa",
@@ -69,7 +69,7 @@
         "code": "25759",
         "parent_code": "718"
     },
-    "25760": {
+     {
         "name": "Hoà Phú",
         "type": "phuong",
         "slug": "hoa-phu",
@@ -79,7 +79,7 @@
         "code": "25760",
         "parent_code": "718"
     },
-    "25762": {
+     {
         "name": "Phú Mỹ",
         "type": "phuong",
         "slug": "phu-my",
@@ -89,7 +89,7 @@
         "code": "25762",
         "parent_code": "718"
     },
-    "25763": {
+     {
         "name": "Phú Tân",
         "type": "phuong",
         "slug": "phu-tan",
@@ -99,7 +99,7 @@
         "code": "25763",
         "parent_code": "718"
     },
-    "25765": {
+     {
         "name": "Tân An",
         "type": "phuong",
         "slug": "tan-an",
@@ -109,7 +109,7 @@
         "code": "25765",
         "parent_code": "718"
     },
-    "25768": {
+     {
         "name": "Hiệp An",
         "type": "phuong",
         "slug": "hiep-an",
@@ -119,7 +119,7 @@
         "code": "25768",
         "parent_code": "718"
     },
-    "25771": {
+     {
         "name": "Tương Bình Hiệp",
         "type": "phuong",
         "slug": "tuong-binh-hiep",
@@ -129,7 +129,7 @@
         "code": "25771",
         "parent_code": "718"
     },
-    "25774": {
+     {
         "name": "Chánh Mỹ",
         "type": "phuong",
         "slug": "chanh-my",
@@ -139,4 +139,4 @@
         "code": "25774",
         "parent_code": "718"
     }
-}
+]}

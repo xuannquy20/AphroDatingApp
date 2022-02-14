@@ -1,5 +1,5 @@
 {
-    "03253": {
+    "xa":[ {
         "name": "Tuần Giáo",
         "type": "thi-tran",
         "slug": "tuan-giao",
@@ -9,7 +9,7 @@
         "code": "03253",
         "parent_code": "099"
     },
-    "03259": {
+     {
         "name": "Phình Sáng",
         "type": "xa",
         "slug": "phinh-sang",
@@ -19,7 +19,7 @@
         "code": "03259",
         "parent_code": "099"
     },
-    "03260": {
+     {
         "name": "Rạng Đông",
         "type": "xa",
         "slug": "rang-dong",
@@ -29,7 +29,7 @@
         "code": "03260",
         "parent_code": "099"
     },
-    "03262": {
+     {
         "name": "Mùn Chung",
         "type": "xa",
         "slug": "mun-chung",
@@ -39,7 +39,7 @@
         "code": "03262",
         "parent_code": "099"
     },
-    "03263": {
+     {
         "name": "Nà Tòng",
         "type": "xa",
         "slug": "na-tong",
@@ -49,7 +49,7 @@
         "code": "03263",
         "parent_code": "099"
     },
-    "03265": {
+     {
         "name": "Ta Ma",
         "type": "xa",
         "slug": "ta-ma",
@@ -59,7 +59,7 @@
         "code": "03265",
         "parent_code": "099"
     },
-    "03268": {
+     {
         "name": "Mường Mùn",
         "type": "xa",
         "slug": "muong-mun",
@@ -69,7 +69,7 @@
         "code": "03268",
         "parent_code": "099"
     },
-    "03269": {
+     {
         "name": "Pú Xi",
         "type": "xa",
         "slug": "pu-xi",
@@ -79,7 +79,7 @@
         "code": "03269",
         "parent_code": "099"
     },
-    "03271": {
+     {
         "name": "Pú Nhung",
         "type": "xa",
         "slug": "pu-nhung",
@@ -89,7 +89,7 @@
         "code": "03271",
         "parent_code": "099"
     },
-    "03274": {
+     {
         "name": "Quài Nưa",
         "type": "xa",
         "slug": "quai-nua",
@@ -99,7 +99,7 @@
         "code": "03274",
         "parent_code": "099"
     },
-    "03277": {
+     {
         "name": "Mường Thín",
         "type": "xa",
         "slug": "muong-thin",
@@ -109,7 +109,7 @@
         "code": "03277",
         "parent_code": "099"
     },
-    "03280": {
+     {
         "name": "Tỏa Tình",
         "type": "xa",
         "slug": "toa-tinh",
@@ -119,7 +119,7 @@
         "code": "03280",
         "parent_code": "099"
     },
-    "03283": {
+     {
         "name": "Nà Sáy",
         "type": "xa",
         "slug": "na-say",
@@ -129,7 +129,7 @@
         "code": "03283",
         "parent_code": "099"
     },
-    "03284": {
+     {
         "name": "Mường Khong",
         "type": "xa",
         "slug": "muong-khong",
@@ -139,7 +139,7 @@
         "code": "03284",
         "parent_code": "099"
     },
-    "03289": {
+     {
         "name": "Quài Cang",
         "type": "xa",
         "slug": "quai-cang",
@@ -149,7 +149,7 @@
         "code": "03289",
         "parent_code": "099"
     },
-    "03295": {
+     {
         "name": "Quài Tở",
         "type": "xa",
         "slug": "quai-to",
@@ -159,7 +159,7 @@
         "code": "03295",
         "parent_code": "099"
     },
-    "03298": {
+     {
         "name": "Chiềng Sinh",
         "type": "xa",
         "slug": "chieng-sinh",
@@ -169,7 +169,7 @@
         "code": "03298",
         "parent_code": "099"
     },
-    "03299": {
+     {
         "name": "Chiềng Đông",
         "type": "xa",
         "slug": "chieng-dong",
@@ -179,7 +179,7 @@
         "code": "03299",
         "parent_code": "099"
     },
-    "03304": {
+     {
         "name": "Tênh Phông",
         "type": "xa",
         "slug": "tenh-phong",
@@ -189,4 +189,4 @@
         "code": "03304",
         "parent_code": "099"
     }
-}
+]}

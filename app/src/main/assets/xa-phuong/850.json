@@ -1,5 +1,5 @@
 {
-    "29497": {
+    "xa":[ {
         "name": "Đôn Xuân",
         "type": "xa",
         "slug": "don-xuan",
@@ -9,7 +9,7 @@
         "code": "29497",
         "parent_code": "850"
     },
-    "29500": {
+     {
         "name": "Đôn Châu",
         "type": "xa",
         "slug": "don-chau",
@@ -19,7 +19,7 @@
         "code": "29500",
         "parent_code": "850"
     },
-    "29513": {
+     {
         "name": "Long Thành",
         "type": "thi-tran",
         "slug": "long-thanh",
@@ -29,7 +29,7 @@
         "code": "29513",
         "parent_code": "850"
     },
-    "29521": {
+     {
         "name": "Long Khánh",
         "type": "xa",
         "slug": "long-khanh",
@@ -39,7 +39,7 @@
         "code": "29521",
         "parent_code": "850"
     },
-    "29530": {
+     {
         "name": "Ngũ Lạc",
         "type": "xa",
         "slug": "ngu-lac",
@@ -49,7 +49,7 @@
         "code": "29530",
         "parent_code": "850"
     },
-    "29533": {
+     {
         "name": "Long Vĩnh",
         "type": "xa",
         "slug": "long-vinh",
@@ -59,7 +59,7 @@
         "code": "29533",
         "parent_code": "850"
     },
-    "29536": {
+     {
         "name": "Đông Hải",
         "type": "xa",
         "slug": "dong-hai",
@@ -69,4 +69,4 @@
         "code": "29536",
         "parent_code": "850"
     }
-}
+]}

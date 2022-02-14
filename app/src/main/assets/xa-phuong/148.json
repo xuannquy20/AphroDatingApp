@@ -1,5 +1,5 @@
 {
-    "04789": {
+    "xa":[ {
         "name": "Thái Bình",
         "type": "phuong",
         "slug": "thai-binh",
@@ -9,7 +9,7 @@
         "code": "04789",
         "parent_code": "148"
     },
-    "04792": {
+     {
         "name": "Tân Hòa",
         "type": "phuong",
         "slug": "tan-hoa",
@@ -19,7 +19,7 @@
         "code": "04792",
         "parent_code": "148"
     },
-    "04795": {
+     {
         "name": "Thịnh Lang",
         "type": "phuong",
         "slug": "thinh-lang",
@@ -29,7 +29,7 @@
         "code": "04795",
         "parent_code": "148"
     },
-    "04798": {
+     {
         "name": "Hữu Nghị",
         "type": "phuong",
         "slug": "huu-nghi",
@@ -39,7 +39,7 @@
         "code": "04798",
         "parent_code": "148"
     },
-    "04801": {
+     {
         "name": "Tân Thịnh",
         "type": "phuong",
         "slug": "tan-thinh",
@@ -49,7 +49,7 @@
         "code": "04801",
         "parent_code": "148"
     },
-    "04804": {
+     {
         "name": "Đồng Tiến",
         "type": "phuong",
         "slug": "dong-tien",
@@ -59,7 +59,7 @@
         "code": "04804",
         "parent_code": "148"
     },
-    "04807": {
+     {
         "name": "Phương Lâm",
         "type": "phuong",
         "slug": "phuong-lam",
@@ -69,7 +69,7 @@
         "code": "04807",
         "parent_code": "148"
     },
-    "04813": {
+     {
         "name": "Yên Mông",
         "type": "xa",
         "slug": "yen-mong",
@@ -79,7 +79,7 @@
         "code": "04813",
         "parent_code": "148"
     },
-    "04816": {
+     {
         "name": "Quỳnh Lâm",
         "type": "phuong",
         "slug": "quynh-lam",
@@ -89,7 +89,7 @@
         "code": "04816",
         "parent_code": "148"
     },
-    "04819": {
+     {
         "name": "Dân Chủ",
         "type": "phuong",
         "slug": "dan-chu",
@@ -99,7 +99,7 @@
         "code": "04819",
         "parent_code": "148"
     },
-    "04825": {
+     {
         "name": "Hòa Bình",
         "type": "xa",
         "slug": "hoa-binh",
@@ -109,7 +109,7 @@
         "code": "04825",
         "parent_code": "148"
     },
-    "04828": {
+     {
         "name": "Thống Nhất",
         "type": "phuong",
         "slug": "thong-nhat",
@@ -119,7 +119,7 @@
         "code": "04828",
         "parent_code": "148"
     },
-    "04894": {
+     {
         "name": "Kỳ Sơn",
         "type": "phuong",
         "slug": "ky-son",
@@ -129,7 +129,7 @@
         "code": "04894",
         "parent_code": "148"
     },
-    "04897": {
+     {
         "name": "Thịnh Minh",
         "type": "xa",
         "slug": "thinh-minh",
@@ -139,7 +139,7 @@
         "code": "04897",
         "parent_code": "148"
     },
-    "04903": {
+     {
         "name": "Hợp Thành",
         "type": "xa",
         "slug": "hop-thanh",
@@ -149,7 +149,7 @@
         "code": "04903",
         "parent_code": "148"
     },
-    "04906": {
+     {
         "name": "Quang Tiến",
         "type": "xa",
         "slug": "quang-tien",
@@ -159,7 +159,7 @@
         "code": "04906",
         "parent_code": "148"
     },
-    "04912": {
+     {
         "name": "Mông Hóa",
         "type": "xa",
         "slug": "mong-hoa",
@@ -169,7 +169,7 @@
         "code": "04912",
         "parent_code": "148"
     },
-    "04918": {
+     {
         "name": "Trung Minh",
         "type": "phuong",
         "slug": "trung-minh",
@@ -179,7 +179,7 @@
         "code": "04918",
         "parent_code": "148"
     },
-    "04921": {
+     {
         "name": "Độc Lập",
         "type": "xa",
         "slug": "doc-lap",
@@ -189,4 +189,4 @@
         "code": "04921",
         "parent_code": "148"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "03595": {
+    "xa":[ {
         "name": "Than Uyên",
         "type": "thi-tran",
         "slug": "than-uyen",
@@ -9,7 +9,7 @@
         "code": "03595",
         "parent_code": "110"
     },
-    "03618": {
+     {
         "name": "Phúc Than",
         "type": "xa",
         "slug": "phuc-than",
@@ -19,7 +19,7 @@
         "code": "03618",
         "parent_code": "110"
     },
-    "03619": {
+     {
         "name": "Mường Than",
         "type": "xa",
         "slug": "muong-than",
@@ -29,7 +29,7 @@
         "code": "03619",
         "parent_code": "110"
     },
-    "03625": {
+     {
         "name": "Mường Mít",
         "type": "xa",
         "slug": "muong-mit",
@@ -39,7 +39,7 @@
         "code": "03625",
         "parent_code": "110"
     },
-    "03628": {
+     {
         "name": "Pha Mu",
         "type": "xa",
         "slug": "pha-mu",
@@ -49,7 +49,7 @@
         "code": "03628",
         "parent_code": "110"
     },
-    "03631": {
+     {
         "name": "Mường Cang",
         "type": "xa",
         "slug": "muong-cang",
@@ -59,7 +59,7 @@
         "code": "03631",
         "parent_code": "110"
     },
-    "03632": {
+     {
         "name": "Hua Nà",
         "type": "xa",
         "slug": "hua-na",
@@ -69,7 +69,7 @@
         "code": "03632",
         "parent_code": "110"
     },
-    "03634": {
+     {
         "name": "Tà Hừa",
         "type": "xa",
         "slug": "ta-hua",
@@ -79,7 +79,7 @@
         "code": "03634",
         "parent_code": "110"
     },
-    "03637": {
+     {
         "name": "Mường Kim",
         "type": "xa",
         "slug": "muong-kim",
@@ -89,7 +89,7 @@
         "code": "03637",
         "parent_code": "110"
     },
-    "03638": {
+     {
         "name": "Tà Mung",
         "type": "xa",
         "slug": "ta-mung",
@@ -99,7 +99,7 @@
         "code": "03638",
         "parent_code": "110"
     },
-    "03640": {
+     {
         "name": "Tà Gia",
         "type": "xa",
         "slug": "ta-gia",
@@ -109,7 +109,7 @@
         "code": "03640",
         "parent_code": "110"
     },
-    "03643": {
+     {
         "name": "Khoen On",
         "type": "xa",
         "slug": "khoen-on",
@@ -119,4 +119,4 @@
         "code": "03643",
         "parent_code": "110"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "25195": {
+    "xa":[ {
         "name": "Tân Phú",
         "type": "phuong",
         "slug": "tan-phu",
@@ -9,7 +9,7 @@
         "code": "25195",
         "parent_code": "689"
     },
-    "25198": {
+     {
         "name": "Tân Đồng",
         "type": "phuong",
         "slug": "tan-dong",
@@ -19,7 +19,7 @@
         "code": "25198",
         "parent_code": "689"
     },
-    "25201": {
+     {
         "name": "Tân Bình",
         "type": "phuong",
         "slug": "tan-binh",
@@ -29,7 +29,7 @@
         "code": "25201",
         "parent_code": "689"
     },
-    "25204": {
+     {
         "name": "Tân Xuân",
         "type": "phuong",
         "slug": "tan-xuan",
@@ -39,7 +39,7 @@
         "code": "25204",
         "parent_code": "689"
     },
-    "25205": {
+     {
         "name": "Tân Thiện",
         "type": "phuong",
         "slug": "tan-thien",
@@ -49,7 +49,7 @@
         "code": "25205",
         "parent_code": "689"
     },
-    "25207": {
+     {
         "name": "Tân Thành",
         "type": "xa",
         "slug": "tan-thanh",
@@ -59,7 +59,7 @@
         "code": "25207",
         "parent_code": "689"
     },
-    "25210": {
+     {
         "name": "Tiến Thành",
         "type": "phuong",
         "slug": "tien-thanh",
@@ -69,7 +69,7 @@
         "code": "25210",
         "parent_code": "689"
     },
-    "25213": {
+     {
         "name": "Tiến Hưng",
         "type": "xa",
         "slug": "tien-hung",
@@ -79,4 +79,4 @@
         "code": "25213",
         "parent_code": "689"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "21145": {
+    "xa":[ {
         "name": "Trà Thanh",
         "type": "xa",
         "slug": "tra-thanh",
@@ -9,7 +9,7 @@
         "code": "21145",
         "parent_code": "526"
     },
-    "21148": {
+     {
         "name": "Trà Khê",
         "type": "xa",
         "slug": "tra-khe",
@@ -19,7 +19,7 @@
         "code": "21148",
         "parent_code": "526"
     },
-    "21151": {
+     {
         "name": "Trà Quân",
         "type": "xa",
         "slug": "tra-quan",
@@ -29,7 +29,7 @@
         "code": "21151",
         "parent_code": "526"
     },
-    "21154": {
+     {
         "name": "Trà Phong",
         "type": "xa",
         "slug": "tra-phong",
@@ -39,7 +39,7 @@
         "code": "21154",
         "parent_code": "526"
     },
-    "21157": {
+     {
         "name": "Trà Lãnh",
         "type": "xa",
         "slug": "tra-lanh",
@@ -49,7 +49,7 @@
         "code": "21157",
         "parent_code": "526"
     },
-    "21160": {
+     {
         "name": "Trà Nham",
         "type": "xa",
         "slug": "tra-nham",
@@ -59,7 +59,7 @@
         "code": "21160",
         "parent_code": "526"
     },
-    "21163": {
+     {
         "name": "Trà Xinh",
         "type": "xa",
         "slug": "tra-xinh",
@@ -69,7 +69,7 @@
         "code": "21163",
         "parent_code": "526"
     },
-    "21166": {
+     {
         "name": "Trà Thọ",
         "type": "xa",
         "slug": "tra-tho",
@@ -79,7 +79,7 @@
         "code": "21166",
         "parent_code": "526"
     },
-    "21169": {
+     {
         "name": "Trà Trung",
         "type": "xa",
         "slug": "tra-trung",
@@ -89,4 +89,4 @@
         "code": "21169",
         "parent_code": "526"
     }
-}
+]}

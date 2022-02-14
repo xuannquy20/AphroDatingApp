@@ -1,5 +1,5 @@
 {
-    "01363": {
+     "xa" :[{
         "name": "Thông Nông",
         "type": "thi-tran",
         "slug": "thong-nong",
@@ -9,7 +9,7 @@
         "code": "01363",
         "parent_code": "045"
     },
-    "01366": {
+     {
         "name": "Cần Yên",
         "type": "xa",
         "slug": "can-yen",
@@ -19,7 +19,7 @@
         "code": "01366",
         "parent_code": "045"
     },
-    "01367": {
+     {
         "name": "Cần Nông",
         "type": "xa",
         "slug": "can-nong",
@@ -29,7 +29,7 @@
         "code": "01367",
         "parent_code": "045"
     },
-    "01372": {
+     {
         "name": "Lương Thông",
         "type": "xa",
         "slug": "luong-thong",
@@ -39,7 +39,7 @@
         "code": "01372",
         "parent_code": "045"
     },
-    "01375": {
+     {
         "name": "Đa Thông",
         "type": "xa",
         "slug": "da-thong",
@@ -49,7 +49,7 @@
         "code": "01375",
         "parent_code": "045"
     },
-    "01378": {
+     {
         "name": "Ngọc Động",
         "type": "xa",
         "slug": "ngoc-dong",
@@ -59,7 +59,7 @@
         "code": "01378",
         "parent_code": "045"
     },
-    "01381": {
+     {
         "name": "Yên Sơn",
         "type": "xa",
         "slug": "yen-son",
@@ -69,7 +69,7 @@
         "code": "01381",
         "parent_code": "045"
     },
-    "01384": {
+     {
         "name": "Lương Can",
         "type": "xa",
         "slug": "luong-can",
@@ -79,7 +79,7 @@
         "code": "01384",
         "parent_code": "045"
     },
-    "01387": {
+     {
         "name": "Thanh Long",
         "type": "xa",
         "slug": "thanh-long",
@@ -89,7 +89,7 @@
         "code": "01387",
         "parent_code": "045"
     },
-    "01392": {
+     {
         "name": "Xuân Hòa",
         "type": "thi-tran",
         "slug": "xuan-hoa",
@@ -99,7 +99,7 @@
         "code": "01392",
         "parent_code": "045"
     },
-    "01393": {
+     {
         "name": "Lũng Nặm",
         "type": "xa",
         "slug": "lung-nam",
@@ -109,7 +109,7 @@
         "code": "01393",
         "parent_code": "045"
     },
-    "01399": {
+     {
         "name": "Trường Hà",
         "type": "xa",
         "slug": "truong-ha",
@@ -119,7 +119,7 @@
         "code": "01399",
         "parent_code": "045"
     },
-    "01402": {
+     {
         "name": "Cải Viên",
         "type": "xa",
         "slug": "cai-vien",
@@ -129,7 +129,7 @@
         "code": "01402",
         "parent_code": "045"
     },
-    "01411": {
+     {
         "name": "Nội Thôn",
         "type": "xa",
         "slug": "noi-thon",
@@ -139,7 +139,7 @@
         "code": "01411",
         "parent_code": "045"
     },
-    "01414": {
+     {
         "name": "Tổng Cọt",
         "type": "xa",
         "slug": "tong-cot",
@@ -149,7 +149,7 @@
         "code": "01414",
         "parent_code": "045"
     },
-    "01417": {
+     {
         "name": "Sóc Hà",
         "type": "xa",
         "slug": "soc-ha",
@@ -159,7 +159,7 @@
         "code": "01417",
         "parent_code": "045"
     },
-    "01420": {
+     {
         "name": "Thượng Thôn",
         "type": "xa",
         "slug": "thuong-thon",
@@ -169,7 +169,7 @@
         "code": "01420",
         "parent_code": "045"
     },
-    "01429": {
+     {
         "name": "Hồng Sỹ",
         "type": "xa",
         "slug": "hong-sy",
@@ -179,7 +179,7 @@
         "code": "01429",
         "parent_code": "045"
     },
-    "01432": {
+     {
         "name": "Quý Quân",
         "type": "xa",
         "slug": "quy-quan",
@@ -189,7 +189,7 @@
         "code": "01432",
         "parent_code": "045"
     },
-    "01435": {
+     {
         "name": "Mã Ba",
         "type": "xa",
         "slug": "ma-ba",
@@ -199,7 +199,7 @@
         "code": "01435",
         "parent_code": "045"
     },
-    "01438": {
+     {
         "name": "Ngọc Đào",
         "type": "xa",
         "slug": "ngoc-dao",
@@ -209,4 +209,5 @@
         "code": "01438",
         "parent_code": "045"
     }
+]
 }

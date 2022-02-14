@@ -1,5 +1,5 @@
 {
-    "14362": {
+    "xa":[ {
         "name": "Bắc Sơn",
         "type": "phuong",
         "slug": "bac-son",
@@ -9,7 +9,7 @@
         "code": "14362",
         "parent_code": "370"
     },
-    "14365": {
+     {
         "name": "Trung Sơn",
         "type": "phuong",
         "slug": "trung-son",
@@ -19,7 +19,7 @@
         "code": "14365",
         "parent_code": "370"
     },
-    "14368": {
+     {
         "name": "Nam Sơn",
         "type": "phuong",
         "slug": "nam-son",
@@ -29,7 +29,7 @@
         "code": "14368",
         "parent_code": "370"
     },
-    "14369": {
+     {
         "name": "Tây Sơn",
         "type": "phuong",
         "slug": "tay-son",
@@ -39,7 +39,7 @@
         "code": "14369",
         "parent_code": "370"
     },
-    "14371": {
+     {
         "name": "Yên Sơn",
         "type": "xa",
         "slug": "yen-son",
@@ -49,7 +49,7 @@
         "code": "14371",
         "parent_code": "370"
     },
-    "14374": {
+     {
         "name": "Yên Bình",
         "type": "phuong",
         "slug": "yen-binh",
@@ -59,7 +59,7 @@
         "code": "14374",
         "parent_code": "370"
     },
-    "14375": {
+     {
         "name": "Tân Bình",
         "type": "phuong",
         "slug": "tan-binh",
@@ -69,7 +69,7 @@
         "code": "14375",
         "parent_code": "370"
     },
-    "14377": {
+     {
         "name": "Quang Sơn",
         "type": "xa",
         "slug": "quang-son",
@@ -79,7 +79,7 @@
         "code": "14377",
         "parent_code": "370"
     },
-    "14380": {
+     {
         "name": "Đông Sơn",
         "type": "xa",
         "slug": "dong-son",
@@ -89,4 +89,4 @@
         "code": "14380",
         "parent_code": "370"
     }
-}
+]}

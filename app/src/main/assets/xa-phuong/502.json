@@ -1,5 +1,5 @@
 {
-    "20335": {
+    "xa":[ {
         "name": "Tân Thạnh",
         "type": "phuong",
         "slug": "tan-thanh",
@@ -9,7 +9,7 @@
         "code": "20335",
         "parent_code": "502"
     },
-    "20338": {
+     {
         "name": "Phước Hòa",
         "type": "phuong",
         "slug": "phuoc-hoa",
@@ -19,7 +19,7 @@
         "code": "20338",
         "parent_code": "502"
     },
-    "20341": {
+     {
         "name": "An Mỹ",
         "type": "phuong",
         "slug": "an-my",
@@ -29,7 +29,7 @@
         "code": "20341",
         "parent_code": "502"
     },
-    "20344": {
+     {
         "name": "Hòa Hương",
         "type": "phuong",
         "slug": "hoa-huong",
@@ -39,7 +39,7 @@
         "code": "20344",
         "parent_code": "502"
     },
-    "20347": {
+     {
         "name": "An Xuân",
         "type": "phuong",
         "slug": "an-xuan",
@@ -49,7 +49,7 @@
         "code": "20347",
         "parent_code": "502"
     },
-    "20350": {
+     {
         "name": "An Sơn",
         "type": "phuong",
         "slug": "an-son",
@@ -59,7 +59,7 @@
         "code": "20350",
         "parent_code": "502"
     },
-    "20353": {
+     {
         "name": "Trường Xuân",
         "type": "phuong",
         "slug": "truong-xuan",
@@ -69,7 +69,7 @@
         "code": "20353",
         "parent_code": "502"
     },
-    "20356": {
+     {
         "name": "An Phú",
         "type": "phuong",
         "slug": "an-phu",
@@ -79,7 +79,7 @@
         "code": "20356",
         "parent_code": "502"
     },
-    "20359": {
+     {
         "name": "Tam Thanh",
         "type": "xa",
         "slug": "tam-thanh",
@@ -89,7 +89,7 @@
         "code": "20359",
         "parent_code": "502"
     },
-    "20362": {
+     {
         "name": "Tam Thăng",
         "type": "xa",
         "slug": "tam-thang",
@@ -99,7 +99,7 @@
         "code": "20362",
         "parent_code": "502"
     },
-    "20371": {
+     {
         "name": "Tam Phú",
         "type": "xa",
         "slug": "tam-phu",
@@ -109,7 +109,7 @@
         "code": "20371",
         "parent_code": "502"
     },
-    "20375": {
+     {
         "name": "Hoà Thuận",
         "type": "phuong",
         "slug": "hoa-thuan",
@@ -119,7 +119,7 @@
         "code": "20375",
         "parent_code": "502"
     },
-    "20389": {
+     {
         "name": "Tam Ngọc",
         "type": "xa",
         "slug": "tam-ngoc",
@@ -129,4 +129,4 @@
         "code": "20389",
         "parent_code": "502"
     }
-}
+]}

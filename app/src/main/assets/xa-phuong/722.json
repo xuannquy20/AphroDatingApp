@@ -1,5 +1,5 @@
 {
-    "25858": {
+    "xa":[ {
         "name": "Phước Vĩnh",
         "type": "thi-tran",
         "slug": "phuoc-vinh",
@@ -9,7 +9,7 @@
         "code": "25858",
         "parent_code": "722"
     },
-    "25861": {
+     {
         "name": "An Linh",
         "type": "xa",
         "slug": "an-linh",
@@ -19,7 +19,7 @@
         "code": "25861",
         "parent_code": "722"
     },
-    "25864": {
+     {
         "name": "Phước Sang",
         "type": "xa",
         "slug": "phuoc-sang",
@@ -29,7 +29,7 @@
         "code": "25864",
         "parent_code": "722"
     },
-    "25865": {
+     {
         "name": "An Thái",
         "type": "xa",
         "slug": "an-thai",
@@ -39,7 +39,7 @@
         "code": "25865",
         "parent_code": "722"
     },
-    "25867": {
+     {
         "name": "An Long",
         "type": "xa",
         "slug": "an-long",
@@ -49,7 +49,7 @@
         "code": "25867",
         "parent_code": "722"
     },
-    "25870": {
+     {
         "name": "An Bình",
         "type": "xa",
         "slug": "an-binh",
@@ -59,7 +59,7 @@
         "code": "25870",
         "parent_code": "722"
     },
-    "25873": {
+     {
         "name": "Tân Hiệp",
         "type": "xa",
         "slug": "tan-hiep",
@@ -69,7 +69,7 @@
         "code": "25873",
         "parent_code": "722"
     },
-    "25876": {
+     {
         "name": "Tam Lập",
         "type": "xa",
         "slug": "tam-lap",
@@ -79,7 +79,7 @@
         "code": "25876",
         "parent_code": "722"
     },
-    "25879": {
+     {
         "name": "Tân Long",
         "type": "xa",
         "slug": "tan-long",
@@ -89,7 +89,7 @@
         "code": "25879",
         "parent_code": "722"
     },
-    "25882": {
+     {
         "name": "Vĩnh Hoà",
         "type": "xa",
         "slug": "vinh-hoa",
@@ -99,7 +99,7 @@
         "code": "25882",
         "parent_code": "722"
     },
-    "25885": {
+     {
         "name": "Phước Hoà",
         "type": "xa",
         "slug": "phuoc-hoa",
@@ -109,4 +109,4 @@
         "code": "25885",
         "parent_code": "722"
     }
-}
+]}

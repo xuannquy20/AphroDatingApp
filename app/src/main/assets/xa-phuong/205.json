@@ -1,5 +1,5 @@
 {
-    "07069": {
+    "xa":[ {
         "name": "Mạo Khê",
         "type": "phuong",
         "slug": "mao-khe",
@@ -9,7 +9,7 @@
         "code": "07069",
         "parent_code": "205"
     },
-    "07072": {
+     {
         "name": "Đông Triều",
         "type": "phuong",
         "slug": "dong-trieu",
@@ -19,7 +19,7 @@
         "code": "07072",
         "parent_code": "205"
     },
-    "07075": {
+     {
         "name": "An Sinh",
         "type": "xa",
         "slug": "an-sinh",
@@ -29,7 +29,7 @@
         "code": "07075",
         "parent_code": "205"
     },
-    "07078": {
+     {
         "name": "Tràng Lương",
         "type": "xa",
         "slug": "trang-luong",
@@ -39,7 +39,7 @@
         "code": "07078",
         "parent_code": "205"
     },
-    "07081": {
+     {
         "name": "Bình Khê",
         "type": "xa",
         "slug": "binh-khe",
@@ -49,7 +49,7 @@
         "code": "07081",
         "parent_code": "205"
     },
-    "07084": {
+     {
         "name": "Việt Dân",
         "type": "xa",
         "slug": "viet-dan",
@@ -59,7 +59,7 @@
         "code": "07084",
         "parent_code": "205"
     },
-    "07087": {
+     {
         "name": "Tân Việt",
         "type": "xa",
         "slug": "tan-viet",
@@ -69,7 +69,7 @@
         "code": "07087",
         "parent_code": "205"
     },
-    "07090": {
+     {
         "name": "Bình Dương",
         "type": "xa",
         "slug": "binh-duong",
@@ -79,7 +79,7 @@
         "code": "07090",
         "parent_code": "205"
     },
-    "07093": {
+     {
         "name": "Đức Chính",
         "type": "phuong",
         "slug": "duc-chinh",
@@ -89,7 +89,7 @@
         "code": "07093",
         "parent_code": "205"
     },
-    "07096": {
+     {
         "name": "Tràng An",
         "type": "phuong",
         "slug": "trang-an",
@@ -99,7 +99,7 @@
         "code": "07096",
         "parent_code": "205"
     },
-    "07099": {
+     {
         "name": "Nguyễn Huệ",
         "type": "xa",
         "slug": "nguyen-hue",
@@ -109,7 +109,7 @@
         "code": "07099",
         "parent_code": "205"
     },
-    "07102": {
+     {
         "name": "Thủy An",
         "type": "xa",
         "slug": "thuy-an",
@@ -119,7 +119,7 @@
         "code": "07102",
         "parent_code": "205"
     },
-    "07105": {
+     {
         "name": "Xuân Sơn",
         "type": "phuong",
         "slug": "xuan-son",
@@ -129,7 +129,7 @@
         "code": "07105",
         "parent_code": "205"
     },
-    "07108": {
+     {
         "name": "Hồng Thái Tây",
         "type": "xa",
         "slug": "hong-thai-tay",
@@ -139,7 +139,7 @@
         "code": "07108",
         "parent_code": "205"
     },
-    "07111": {
+     {
         "name": "Hồng Thái Đông",
         "type": "xa",
         "slug": "hong-thai-dong",
@@ -149,7 +149,7 @@
         "code": "07111",
         "parent_code": "205"
     },
-    "07114": {
+     {
         "name": "Hoàng Quế",
         "type": "phuong",
         "slug": "hoang-que",
@@ -159,7 +159,7 @@
         "code": "07114",
         "parent_code": "205"
     },
-    "07117": {
+     {
         "name": "Yên Thọ",
         "type": "phuong",
         "slug": "yen-tho",
@@ -169,7 +169,7 @@
         "code": "07117",
         "parent_code": "205"
     },
-    "07120": {
+     {
         "name": "Hồng Phong",
         "type": "phuong",
         "slug": "hong-phong",
@@ -179,7 +179,7 @@
         "code": "07120",
         "parent_code": "205"
     },
-    "07123": {
+     {
         "name": "Kim Sơn",
         "type": "phuong",
         "slug": "kim-son",
@@ -189,7 +189,7 @@
         "code": "07123",
         "parent_code": "205"
     },
-    "07126": {
+     {
         "name": "Hưng Đạo",
         "type": "phuong",
         "slug": "hung-dao",
@@ -199,7 +199,7 @@
         "code": "07126",
         "parent_code": "205"
     },
-    "07129": {
+     {
         "name": "Yên Đức",
         "type": "xa",
         "slug": "yen-duc",
@@ -209,4 +209,4 @@
         "code": "07129",
         "parent_code": "205"
     }
-}
+]}

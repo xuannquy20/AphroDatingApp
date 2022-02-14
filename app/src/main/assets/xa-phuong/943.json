@@ -1,5 +1,5 @@
 {
-    "31528": {
+    "xa":[ {
         "name": "Kế Sách",
         "type": "thi-tran",
         "slug": "ke-sach",
@@ -9,7 +9,7 @@
         "code": "31528",
         "parent_code": "943"
     },
-    "31531": {
+     {
         "name": "An Lạc Thôn",
         "type": "thi-tran",
         "slug": "an-lac-thon",
@@ -19,7 +19,7 @@
         "code": "31531",
         "parent_code": "943"
     },
-    "31534": {
+     {
         "name": "Xuân Hòa",
         "type": "xa",
         "slug": "xuan-hoa",
@@ -29,7 +29,7 @@
         "code": "31534",
         "parent_code": "943"
     },
-    "31537": {
+     {
         "name": "Phong Nẫm",
         "type": "xa",
         "slug": "phong-nam",
@@ -39,7 +39,7 @@
         "code": "31537",
         "parent_code": "943"
     },
-    "31540": {
+     {
         "name": "An Lạc Tây",
         "type": "xa",
         "slug": "an-lac-tay",
@@ -49,7 +49,7 @@
         "code": "31540",
         "parent_code": "943"
     },
-    "31543": {
+     {
         "name": "Trinh Phú",
         "type": "xa",
         "slug": "trinh-phu",
@@ -59,7 +59,7 @@
         "code": "31543",
         "parent_code": "943"
     },
-    "31546": {
+     {
         "name": "Ba Trinh",
         "type": "xa",
         "slug": "ba-trinh",
@@ -69,7 +69,7 @@
         "code": "31546",
         "parent_code": "943"
     },
-    "31549": {
+     {
         "name": "Thới An Hội",
         "type": "xa",
         "slug": "thoi-an-hoi",
@@ -79,7 +79,7 @@
         "code": "31549",
         "parent_code": "943"
     },
-    "31552": {
+     {
         "name": "Nhơn Mỹ",
         "type": "xa",
         "slug": "nhon-my",
@@ -89,7 +89,7 @@
         "code": "31552",
         "parent_code": "943"
     },
-    "31555": {
+     {
         "name": "Kế Thành",
         "type": "xa",
         "slug": "ke-thanh",
@@ -99,7 +99,7 @@
         "code": "31555",
         "parent_code": "943"
     },
-    "31558": {
+     {
         "name": "Kế An",
         "type": "xa",
         "slug": "ke-an",
@@ -109,7 +109,7 @@
         "code": "31558",
         "parent_code": "943"
     },
-    "31561": {
+     {
         "name": "Đại Hải",
         "type": "xa",
         "slug": "dai-hai",
@@ -119,7 +119,7 @@
         "code": "31561",
         "parent_code": "943"
     },
-    "31564": {
+     {
         "name": "An Mỹ",
         "type": "xa",
         "slug": "an-my",
@@ -129,4 +129,4 @@
         "code": "31564",
         "parent_code": "943"
     }
-}
+]}

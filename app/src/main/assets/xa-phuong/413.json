@@ -1,5 +1,5 @@
 {
-    "16717": {
+    "xa":[ {
         "name": "Nghi Thuỷ",
         "type": "phuong",
         "slug": "nghi-thuy",
@@ -9,7 +9,7 @@
         "code": "16717",
         "parent_code": "413"
     },
-    "16720": {
+     {
         "name": "Nghi Tân",
         "type": "phuong",
         "slug": "nghi-tan",
@@ -19,7 +19,7 @@
         "code": "16720",
         "parent_code": "413"
     },
-    "16723": {
+     {
         "name": "Thu Thuỷ",
         "type": "phuong",
         "slug": "thu-thuy",
@@ -29,7 +29,7 @@
         "code": "16723",
         "parent_code": "413"
     },
-    "16726": {
+     {
         "name": "Nghi Hòa",
         "type": "phuong",
         "slug": "nghi-hoa",
@@ -39,7 +39,7 @@
         "code": "16726",
         "parent_code": "413"
     },
-    "16729": {
+     {
         "name": "Nghi Hải",
         "type": "phuong",
         "slug": "nghi-hai",
@@ -49,7 +49,7 @@
         "code": "16729",
         "parent_code": "413"
     },
-    "16732": {
+     {
         "name": "Nghi Hương",
         "type": "phuong",
         "slug": "nghi-huong",
@@ -59,7 +59,7 @@
         "code": "16732",
         "parent_code": "413"
     },
-    "16735": {
+     {
         "name": "Nghi Thu",
         "type": "phuong",
         "slug": "nghi-thu",
@@ -69,4 +69,4 @@
         "code": "16735",
         "parent_code": "413"
     }
-}
+]}

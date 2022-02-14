@@ -1,5 +1,5 @@
 {
-    "24305": {
+    "xa":[ {
         "name": "An Lạc",
         "type": "phuong",
         "slug": "an-lac",
@@ -9,7 +9,7 @@
         "code": "24305",
         "parent_code": "644"
     },
-    "24308": {
+     {
         "name": "An Bình",
         "type": "phuong",
         "slug": "an-binh",
@@ -19,7 +19,7 @@
         "code": "24308",
         "parent_code": "644"
     },
-    "24311": {
+     {
         "name": "Thiện An",
         "type": "phuong",
         "slug": "thien-an",
@@ -29,7 +29,7 @@
         "code": "24311",
         "parent_code": "644"
     },
-    "24318": {
+     {
         "name": "Đạt Hiếu",
         "type": "phuong",
         "slug": "dat-hieu",
@@ -39,7 +39,7 @@
         "code": "24318",
         "parent_code": "644"
     },
-    "24322": {
+     {
         "name": "Đoàn Kết",
         "type": "phuong",
         "slug": "doan-ket",
@@ -49,7 +49,7 @@
         "code": "24322",
         "parent_code": "644"
     },
-    "24325": {
+     {
         "name": "Ea Blang",
         "type": "xa",
         "slug": "ea-blang",
@@ -59,7 +59,7 @@
         "code": "24325",
         "parent_code": "644"
     },
-    "24328": {
+     {
         "name": "Ea Drông",
         "type": "xa",
         "slug": "ea-drong",
@@ -69,7 +69,7 @@
         "code": "24328",
         "parent_code": "644"
     },
-    "24331": {
+     {
         "name": "Thống Nhất",
         "type": "phuong",
         "slug": "thong-nhat",
@@ -79,7 +79,7 @@
         "code": "24331",
         "parent_code": "644"
     },
-    "24332": {
+     {
         "name": "Bình Tân",
         "type": "phuong",
         "slug": "binh-tan",
@@ -89,7 +89,7 @@
         "code": "24332",
         "parent_code": "644"
     },
-    "24334": {
+     {
         "name": "Ea Siên",
         "type": "xa",
         "slug": "ea-sien",
@@ -99,7 +99,7 @@
         "code": "24334",
         "parent_code": "644"
     },
-    "24337": {
+     {
         "name": "Bình Thuận",
         "type": "xa",
         "slug": "binh-thuan",
@@ -109,7 +109,7 @@
         "code": "24337",
         "parent_code": "644"
     },
-    "24340": {
+     {
         "name": "Cư Bao",
         "type": "xa",
         "slug": "cu-bao",
@@ -119,4 +119,4 @@
         "code": "24340",
         "parent_code": "644"
     }
-}
+]}

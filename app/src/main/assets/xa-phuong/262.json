@@ -1,5 +1,5 @@
 {
-    "09400": {
+    "xa":[ {
         "name": "Hồ",
         "type": "thi-tran",
         "slug": "ho",
@@ -9,7 +9,7 @@
         "code": "09400",
         "parent_code": "262"
     },
-    "09403": {
+     {
         "name": "Hoài Thượng",
         "type": "xa",
         "slug": "hoai-thuong",
@@ -19,7 +19,7 @@
         "code": "09403",
         "parent_code": "262"
     },
-    "09406": {
+     {
         "name": "Đại Đồng Thành",
         "type": "xa",
         "slug": "dai-dong-thanh",
@@ -29,7 +29,7 @@
         "code": "09406",
         "parent_code": "262"
     },
-    "09409": {
+     {
         "name": "Mão Điền",
         "type": "xa",
         "slug": "mao-dien",
@@ -39,7 +39,7 @@
         "code": "09409",
         "parent_code": "262"
     },
-    "09412": {
+     {
         "name": "Song Hồ",
         "type": "xa",
         "slug": "song-ho",
@@ -49,7 +49,7 @@
         "code": "09412",
         "parent_code": "262"
     },
-    "09415": {
+     {
         "name": "Đình Tổ",
         "type": "xa",
         "slug": "dinh-to",
@@ -59,7 +59,7 @@
         "code": "09415",
         "parent_code": "262"
     },
-    "09418": {
+     {
         "name": "An Bình",
         "type": "xa",
         "slug": "an-binh",
@@ -69,7 +69,7 @@
         "code": "09418",
         "parent_code": "262"
     },
-    "09421": {
+     {
         "name": "Trí Quả",
         "type": "xa",
         "slug": "tri-qua",
@@ -79,7 +79,7 @@
         "code": "09421",
         "parent_code": "262"
     },
-    "09424": {
+     {
         "name": "Gia Đông",
         "type": "xa",
         "slug": "gia-dong",
@@ -89,7 +89,7 @@
         "code": "09424",
         "parent_code": "262"
     },
-    "09427": {
+     {
         "name": "Thanh Khương",
         "type": "xa",
         "slug": "thanh-khuong",
@@ -99,7 +99,7 @@
         "code": "09427",
         "parent_code": "262"
     },
-    "09430": {
+     {
         "name": "Trạm Lộ",
         "type": "xa",
         "slug": "tram-lo",
@@ -109,7 +109,7 @@
         "code": "09430",
         "parent_code": "262"
     },
-    "09433": {
+     {
         "name": "Xuân Lâm",
         "type": "xa",
         "slug": "xuan-lam",
@@ -119,7 +119,7 @@
         "code": "09433",
         "parent_code": "262"
     },
-    "09436": {
+     {
         "name": "Hà Mãn",
         "type": "xa",
         "slug": "ha-man",
@@ -129,7 +129,7 @@
         "code": "09436",
         "parent_code": "262"
     },
-    "09439": {
+     {
         "name": "Ngũ Thái",
         "type": "xa",
         "slug": "ngu-thai",
@@ -139,7 +139,7 @@
         "code": "09439",
         "parent_code": "262"
     },
-    "09442": {
+     {
         "name": "Nguyệt Đức",
         "type": "xa",
         "slug": "nguyet-duc",
@@ -149,7 +149,7 @@
         "code": "09442",
         "parent_code": "262"
     },
-    "09445": {
+     {
         "name": "Ninh Xá",
         "type": "xa",
         "slug": "ninh-xa",
@@ -159,7 +159,7 @@
         "code": "09445",
         "parent_code": "262"
     },
-    "09448": {
+     {
         "name": "Nghĩa Đạo",
         "type": "xa",
         "slug": "nghia-dao",
@@ -169,7 +169,7 @@
         "code": "09448",
         "parent_code": "262"
     },
-    "09451": {
+     {
         "name": "Song Liễu",
         "type": "xa",
         "slug": "song-lieu",
@@ -179,4 +179,4 @@
         "code": "09451",
         "parent_code": "262"
     }
-}
+]}

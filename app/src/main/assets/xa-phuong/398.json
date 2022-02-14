@@ -1,5 +1,5 @@
 {
-    "15772": {
+    "xa":[ {
         "name": "Thiệu Hóa",
         "type": "thi-tran",
         "slug": "thieu-hoa",
@@ -9,7 +9,7 @@
         "code": "15772",
         "parent_code": "398"
     },
-    "15775": {
+     {
         "name": "Thiệu Ngọc",
         "type": "xa",
         "slug": "thieu-ngoc",
@@ -19,7 +19,7 @@
         "code": "15775",
         "parent_code": "398"
     },
-    "15778": {
+     {
         "name": "Thiệu Vũ",
         "type": "xa",
         "slug": "thieu-vu",
@@ -29,7 +29,7 @@
         "code": "15778",
         "parent_code": "398"
     },
-    "15781": {
+     {
         "name": "Thiệu Phúc",
         "type": "xa",
         "slug": "thieu-phuc",
@@ -39,7 +39,7 @@
         "code": "15781",
         "parent_code": "398"
     },
-    "15784": {
+     {
         "name": "Thiệu Tiến",
         "type": "xa",
         "slug": "thieu-tien",
@@ -49,7 +49,7 @@
         "code": "15784",
         "parent_code": "398"
     },
-    "15787": {
+     {
         "name": "Thiệu Công",
         "type": "xa",
         "slug": "thieu-cong",
@@ -59,7 +59,7 @@
         "code": "15787",
         "parent_code": "398"
     },
-    "15790": {
+     {
         "name": "Thiệu Phú",
         "type": "xa",
         "slug": "thieu-phu",
@@ -69,7 +69,7 @@
         "code": "15790",
         "parent_code": "398"
     },
-    "15793": {
+     {
         "name": "Thiệu Long",
         "type": "xa",
         "slug": "thieu-long",
@@ -79,7 +79,7 @@
         "code": "15793",
         "parent_code": "398"
     },
-    "15796": {
+     {
         "name": "Thiệu Giang",
         "type": "xa",
         "slug": "thieu-giang",
@@ -89,7 +89,7 @@
         "code": "15796",
         "parent_code": "398"
     },
-    "15799": {
+     {
         "name": "Thiệu Duy",
         "type": "xa",
         "slug": "thieu-duy",
@@ -99,7 +99,7 @@
         "code": "15799",
         "parent_code": "398"
     },
-    "15802": {
+     {
         "name": "Thiệu Nguyên",
         "type": "xa",
         "slug": "thieu-nguyen",
@@ -109,7 +109,7 @@
         "code": "15802",
         "parent_code": "398"
     },
-    "15805": {
+     {
         "name": "Thiệu Hợp",
         "type": "xa",
         "slug": "thieu-hop",
@@ -119,7 +119,7 @@
         "code": "15805",
         "parent_code": "398"
     },
-    "15808": {
+     {
         "name": "Thiệu Thịnh",
         "type": "xa",
         "slug": "thieu-thinh",
@@ -129,7 +129,7 @@
         "code": "15808",
         "parent_code": "398"
     },
-    "15811": {
+     {
         "name": "Thiệu Quang",
         "type": "xa",
         "slug": "thieu-quang",
@@ -139,7 +139,7 @@
         "code": "15811",
         "parent_code": "398"
     },
-    "15814": {
+     {
         "name": "Thiệu Thành",
         "type": "xa",
         "slug": "thieu-thanh",
@@ -149,7 +149,7 @@
         "code": "15814",
         "parent_code": "398"
     },
-    "15817": {
+     {
         "name": "Thiệu Toán",
         "type": "xa",
         "slug": "thieu-toan",
@@ -159,7 +159,7 @@
         "code": "15817",
         "parent_code": "398"
     },
-    "15820": {
+     {
         "name": "Thiệu Chính",
         "type": "xa",
         "slug": "thieu-chinh",
@@ -169,7 +169,7 @@
         "code": "15820",
         "parent_code": "398"
     },
-    "15823": {
+     {
         "name": "Thiệu Hòa",
         "type": "xa",
         "slug": "thieu-hoa",
@@ -179,7 +179,7 @@
         "code": "15823",
         "parent_code": "398"
     },
-    "15829": {
+     {
         "name": "Minh Tâm",
         "type": "xa",
         "slug": "minh-tam",
@@ -189,7 +189,7 @@
         "code": "15829",
         "parent_code": "398"
     },
-    "15832": {
+     {
         "name": "Thiệu Viên",
         "type": "xa",
         "slug": "thieu-vien",
@@ -199,7 +199,7 @@
         "code": "15832",
         "parent_code": "398"
     },
-    "15835": {
+     {
         "name": "Thiệu Lý",
         "type": "xa",
         "slug": "thieu-ly",
@@ -209,7 +209,7 @@
         "code": "15835",
         "parent_code": "398"
     },
-    "15838": {
+     {
         "name": "Thiệu Vận",
         "type": "xa",
         "slug": "thieu-van",
@@ -219,7 +219,7 @@
         "code": "15838",
         "parent_code": "398"
     },
-    "15841": {
+     {
         "name": "Thiệu Trung",
         "type": "xa",
         "slug": "thieu-trung",
@@ -229,7 +229,7 @@
         "code": "15841",
         "parent_code": "398"
     },
-    "15847": {
+     {
         "name": "Tân Châu",
         "type": "xa",
         "slug": "tan-chau",
@@ -239,7 +239,7 @@
         "code": "15847",
         "parent_code": "398"
     },
-    "15853": {
+     {
         "name": "Thiệu Giao",
         "type": "xa",
         "slug": "thieu-giao",
@@ -249,4 +249,4 @@
         "code": "15853",
         "parent_code": "398"
     }
-}
+]}

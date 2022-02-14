@@ -1,5 +1,5 @@
 {
-    "05536": {
+    "xa":[ {
         "name": "Chợ Chu",
         "type": "thi-tran",
         "slug": "cho-chu",
@@ -9,7 +9,7 @@
         "code": "05536",
         "parent_code": "167"
     },
-    "05539": {
+     {
         "name": "Linh Thông",
         "type": "xa",
         "slug": "linh-thong",
@@ -19,7 +19,7 @@
         "code": "05539",
         "parent_code": "167"
     },
-    "05542": {
+     {
         "name": "Lam Vỹ",
         "type": "xa",
         "slug": "lam-vy",
@@ -29,7 +29,7 @@
         "code": "05542",
         "parent_code": "167"
     },
-    "05545": {
+     {
         "name": "Quy Kỳ",
         "type": "xa",
         "slug": "quy-ky",
@@ -39,7 +39,7 @@
         "code": "05545",
         "parent_code": "167"
     },
-    "05548": {
+     {
         "name": "Tân Thịnh",
         "type": "xa",
         "slug": "tan-thinh",
@@ -49,7 +49,7 @@
         "code": "05548",
         "parent_code": "167"
     },
-    "05551": {
+     {
         "name": "Kim Phượng",
         "type": "xa",
         "slug": "kim-phuong",
@@ -59,7 +59,7 @@
         "code": "05551",
         "parent_code": "167"
     },
-    "05554": {
+     {
         "name": "Bảo Linh",
         "type": "xa",
         "slug": "bao-linh",
@@ -69,7 +69,7 @@
         "code": "05554",
         "parent_code": "167"
     },
-    "05560": {
+     {
         "name": "Phúc Chu",
         "type": "xa",
         "slug": "phuc-chu",
@@ -79,7 +79,7 @@
         "code": "05560",
         "parent_code": "167"
     },
-    "05563": {
+     {
         "name": "Tân Dương",
         "type": "xa",
         "slug": "tan-duong",
@@ -89,7 +89,7 @@
         "code": "05563",
         "parent_code": "167"
     },
-    "05566": {
+     {
         "name": "Phượng Tiến",
         "type": "xa",
         "slug": "phuong-tien",
@@ -99,7 +99,7 @@
         "code": "05566",
         "parent_code": "167"
     },
-    "05569": {
+     {
         "name": "Bảo Cường",
         "type": "xa",
         "slug": "bao-cuong",
@@ -109,7 +109,7 @@
         "code": "05569",
         "parent_code": "167"
     },
-    "05572": {
+     {
         "name": "Đồng Thịnh",
         "type": "xa",
         "slug": "dong-thinh",
@@ -119,7 +119,7 @@
         "code": "05572",
         "parent_code": "167"
     },
-    "05575": {
+     {
         "name": "Định Biên",
         "type": "xa",
         "slug": "dinh-bien",
@@ -129,7 +129,7 @@
         "code": "05575",
         "parent_code": "167"
     },
-    "05578": {
+     {
         "name": "Thanh Định",
         "type": "xa",
         "slug": "thanh-dinh",
@@ -139,7 +139,7 @@
         "code": "05578",
         "parent_code": "167"
     },
-    "05581": {
+     {
         "name": "Trung Hội",
         "type": "xa",
         "slug": "trung-hoi",
@@ -149,7 +149,7 @@
         "code": "05581",
         "parent_code": "167"
     },
-    "05584": {
+     {
         "name": "Trung Lương",
         "type": "xa",
         "slug": "trung-luong",
@@ -159,7 +159,7 @@
         "code": "05584",
         "parent_code": "167"
     },
-    "05587": {
+     {
         "name": "Bình Yên",
         "type": "xa",
         "slug": "binh-yen",
@@ -169,7 +169,7 @@
         "code": "05587",
         "parent_code": "167"
     },
-    "05590": {
+     {
         "name": "Điềm Mặc",
         "type": "xa",
         "slug": "diem-mac",
@@ -179,7 +179,7 @@
         "code": "05590",
         "parent_code": "167"
     },
-    "05593": {
+     {
         "name": "Phú Tiến",
         "type": "xa",
         "slug": "phu-tien",
@@ -189,7 +189,7 @@
         "code": "05593",
         "parent_code": "167"
     },
-    "05596": {
+     {
         "name": "Bộc Nhiêu",
         "type": "xa",
         "slug": "boc-nhieu",
@@ -199,7 +199,7 @@
         "code": "05596",
         "parent_code": "167"
     },
-    "05599": {
+     {
         "name": "Sơn Phú",
         "type": "xa",
         "slug": "son-phu",
@@ -209,7 +209,7 @@
         "code": "05599",
         "parent_code": "167"
     },
-    "05602": {
+     {
         "name": "Phú Đình",
         "type": "xa",
         "slug": "phu-dinh",
@@ -219,7 +219,7 @@
         "code": "05602",
         "parent_code": "167"
     },
-    "05605": {
+     {
         "name": "Bình Thành",
         "type": "xa",
         "slug": "binh-thanh",
@@ -229,4 +229,4 @@
         "code": "05605",
         "parent_code": "167"
     }
-}
+]}

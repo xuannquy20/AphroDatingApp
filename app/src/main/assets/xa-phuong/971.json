@@ -1,5 +1,5 @@
 {
-    "32191": {
+    "xa":[ {
         "name": "Năm Căn",
         "type": "thi-tran",
         "slug": "nam-can",
@@ -9,7 +9,7 @@
         "code": "32191",
         "parent_code": "971"
     },
-    "32194": {
+     {
         "name": "Hàm Rồng",
         "type": "xa",
         "slug": "ham-rong",
@@ -19,7 +19,7 @@
         "code": "32194",
         "parent_code": "971"
     },
-    "32197": {
+     {
         "name": "Hiệp Tùng",
         "type": "xa",
         "slug": "hiep-tung",
@@ -29,7 +29,7 @@
         "code": "32197",
         "parent_code": "971"
     },
-    "32200": {
+     {
         "name": "Đất Mới",
         "type": "xa",
         "slug": "dat-moi",
@@ -39,7 +39,7 @@
         "code": "32200",
         "parent_code": "971"
     },
-    "32201": {
+     {
         "name": "Lâm Hải",
         "type": "xa",
         "slug": "lam-hai",
@@ -49,7 +49,7 @@
         "code": "32201",
         "parent_code": "971"
     },
-    "32203": {
+     {
         "name": "Hàng Vịnh",
         "type": "xa",
         "slug": "hang-vinh",
@@ -59,7 +59,7 @@
         "code": "32203",
         "parent_code": "971"
     },
-    "32206": {
+     {
         "name": "Tam Giang",
         "type": "xa",
         "slug": "tam-giang",
@@ -69,7 +69,7 @@
         "code": "32206",
         "parent_code": "971"
     },
-    "32209": {
+     {
         "name": "Tam Giang Đông",
         "type": "xa",
         "slug": "tam-giang-dong",
@@ -79,4 +79,4 @@
         "code": "32209",
         "parent_code": "971"
     }
-}
+]}

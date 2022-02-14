@@ -1,5 +1,5 @@
 {
-    "22165": {
+    "xa":[ {
         "name": "Củng Sơn",
         "type": "thi-tran",
         "slug": "cung-son",
@@ -9,7 +9,7 @@
         "code": "22165",
         "parent_code": "560"
     },
-    "22168": {
+     {
         "name": "Phước Tân",
         "type": "xa",
         "slug": "phuoc-tan",
@@ -19,7 +19,7 @@
         "code": "22168",
         "parent_code": "560"
     },
-    "22171": {
+     {
         "name": "Sơn Hội",
         "type": "xa",
         "slug": "son-hoi",
@@ -29,7 +29,7 @@
         "code": "22171",
         "parent_code": "560"
     },
-    "22174": {
+     {
         "name": "Sơn Định",
         "type": "xa",
         "slug": "son-dinh",
@@ -39,7 +39,7 @@
         "code": "22174",
         "parent_code": "560"
     },
-    "22177": {
+     {
         "name": "Sơn Long",
         "type": "xa",
         "slug": "son-long",
@@ -49,7 +49,7 @@
         "code": "22177",
         "parent_code": "560"
     },
-    "22180": {
+     {
         "name": "Cà Lúi",
         "type": "xa",
         "slug": "ca-lui",
@@ -59,7 +59,7 @@
         "code": "22180",
         "parent_code": "560"
     },
-    "22183": {
+     {
         "name": "Sơn Phước",
         "type": "xa",
         "slug": "son-phuoc",
@@ -69,7 +69,7 @@
         "code": "22183",
         "parent_code": "560"
     },
-    "22186": {
+     {
         "name": "Sơn Xuân",
         "type": "xa",
         "slug": "son-xuan",
@@ -79,7 +79,7 @@
         "code": "22186",
         "parent_code": "560"
     },
-    "22189": {
+     {
         "name": "Sơn Nguyên",
         "type": "xa",
         "slug": "son-nguyen",
@@ -89,7 +89,7 @@
         "code": "22189",
         "parent_code": "560"
     },
-    "22192": {
+     {
         "name": "Eachà Rang",
         "type": "xa",
         "slug": "eacha-rang",
@@ -99,7 +99,7 @@
         "code": "22192",
         "parent_code": "560"
     },
-    "22195": {
+     {
         "name": "Krông Pa",
         "type": "xa",
         "slug": "krong-pa",
@@ -109,7 +109,7 @@
         "code": "22195",
         "parent_code": "560"
     },
-    "22198": {
+     {
         "name": "Suối Bạc",
         "type": "xa",
         "slug": "suoi-bac",
@@ -119,7 +119,7 @@
         "code": "22198",
         "parent_code": "560"
     },
-    "22201": {
+     {
         "name": "Sơn Hà",
         "type": "xa",
         "slug": "son-ha",
@@ -129,7 +129,7 @@
         "code": "22201",
         "parent_code": "560"
     },
-    "22204": {
+     {
         "name": "Suối Trai",
         "type": "xa",
         "slug": "suoi-trai",
@@ -139,4 +139,4 @@
         "code": "22204",
         "parent_code": "560"
     }
-}
+]}

@@ -1,5 +1,5 @@
 {
-    "16777": {
+    "xa":[ {
         "name": "Tân Lạc",
         "type": "thi-tran",
         "slug": "tan-lac",
@@ -9,7 +9,7 @@
         "code": "16777",
         "parent_code": "416"
     },
-    "16780": {
+     {
         "name": "Châu Bính",
         "type": "xa",
         "slug": "chau-binh",
@@ -19,7 +19,7 @@
         "code": "16780",
         "parent_code": "416"
     },
-    "16783": {
+     {
         "name": "Châu Thuận",
         "type": "xa",
         "slug": "chau-thuan",
@@ -29,7 +29,7 @@
         "code": "16783",
         "parent_code": "416"
     },
-    "16786": {
+     {
         "name": "Châu Hội",
         "type": "xa",
         "slug": "chau-hoi",
@@ -39,7 +39,7 @@
         "code": "16786",
         "parent_code": "416"
     },
-    "16789": {
+     {
         "name": "Châu Nga",
         "type": "xa",
         "slug": "chau-nga",
@@ -49,7 +49,7 @@
         "code": "16789",
         "parent_code": "416"
     },
-    "16792": {
+     {
         "name": "Châu Tiến",
         "type": "xa",
         "slug": "chau-tien",
@@ -59,7 +59,7 @@
         "code": "16792",
         "parent_code": "416"
     },
-    "16795": {
+     {
         "name": "Châu Hạnh",
         "type": "xa",
         "slug": "chau-hanh",
@@ -69,7 +69,7 @@
         "code": "16795",
         "parent_code": "416"
     },
-    "16798": {
+     {
         "name": "Châu Thắng",
         "type": "xa",
         "slug": "chau-thang",
@@ -79,7 +79,7 @@
         "code": "16798",
         "parent_code": "416"
     },
-    "16801": {
+     {
         "name": "Châu Phong",
         "type": "xa",
         "slug": "chau-phong",
@@ -89,7 +89,7 @@
         "code": "16801",
         "parent_code": "416"
     },
-    "16804": {
+     {
         "name": "Châu Bình",
         "type": "xa",
         "slug": "chau-binh",
@@ -99,7 +99,7 @@
         "code": "16804",
         "parent_code": "416"
     },
-    "16807": {
+     {
         "name": "Châu Hoàn",
         "type": "xa",
         "slug": "chau-hoan",
@@ -109,7 +109,7 @@
         "code": "16807",
         "parent_code": "416"
     },
-    "16810": {
+     {
         "name": "Diên Lãm",
         "type": "xa",
         "slug": "dien-lam",
@@ -119,4 +119,4 @@
         "code": "16810",
         "parent_code": "416"
     }
-}
+]}

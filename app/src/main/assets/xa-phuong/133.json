@@ -1,5 +1,5 @@
 {
-    "04282": {
+    "xa":[ {
         "name": "Pú Trạng",
         "type": "phuong",
         "slug": "pu-trang",
@@ -9,7 +9,7 @@
         "code": "04282",
         "parent_code": "133"
     },
-    "04285": {
+     {
         "name": "Trung Tâm",
         "type": "phuong",
         "slug": "trung-tam",
@@ -19,7 +19,7 @@
         "code": "04285",
         "parent_code": "133"
     },
-    "04288": {
+     {
         "name": "Tân An",
         "type": "phuong",
         "slug": "tan-an",
@@ -29,7 +29,7 @@
         "code": "04288",
         "parent_code": "133"
     },
-    "04291": {
+     {
         "name": "Cầu Thia",
         "type": "phuong",
         "slug": "cau-thia",
@@ -39,7 +39,7 @@
         "code": "04291",
         "parent_code": "133"
     },
-    "04294": {
+     {
         "name": "Nghĩa Lợi",
         "type": "xa",
         "slug": "nghia-loi",
@@ -49,7 +49,7 @@
         "code": "04294",
         "parent_code": "133"
     },
-    "04297": {
+     {
         "name": "Nghĩa Phúc",
         "type": "xa",
         "slug": "nghia-phuc",
@@ -59,7 +59,7 @@
         "code": "04297",
         "parent_code": "133"
     },
-    "04300": {
+     {
         "name": "Nghĩa An",
         "type": "xa",
         "slug": "nghia-an",
@@ -69,7 +69,7 @@
         "code": "04300",
         "parent_code": "133"
     },
-    "04624": {
+     {
         "name": "Nghĩa Lộ",
         "type": "xa",
         "slug": "nghia-lo",
@@ -79,7 +79,7 @@
         "code": "04624",
         "parent_code": "133"
     },
-    "04660": {
+     {
         "name": "Sơn A",
         "type": "xa",
         "slug": "son-a",
@@ -89,7 +89,7 @@
         "code": "04660",
         "parent_code": "133"
     },
-    "04663": {
+     {
         "name": "Phù Nham",
         "type": "xa",
         "slug": "phu-nham",
@@ -99,7 +99,7 @@
         "code": "04663",
         "parent_code": "133"
     },
-    "04675": {
+     {
         "name": "Thanh Lương",
         "type": "xa",
         "slug": "thanh-luong",
@@ -109,7 +109,7 @@
         "code": "04675",
         "parent_code": "133"
     },
-    "04678": {
+     {
         "name": "Hạnh Sơn",
         "type": "xa",
         "slug": "hanh-son",
@@ -119,7 +119,7 @@
         "code": "04678",
         "parent_code": "133"
     },
-    "04681": {
+     {
         "name": "Phúc Sơn",
         "type": "xa",
         "slug": "phuc-son",
@@ -129,7 +129,7 @@
         "code": "04681",
         "parent_code": "133"
     },
-    "04684": {
+     {
         "name": "Thạch Lương",
         "type": "xa",
         "slug": "thach-luong",
@@ -139,4 +139,4 @@
         "code": "04684",
         "parent_code": "133"
     }
-}
+]}

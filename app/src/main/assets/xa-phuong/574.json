@@ -1,5 +1,5 @@
 {
-    "22651": {
+    "xa":[ {
         "name": "Diên Khánh",
         "type": "thi-tran",
         "slug": "dien-khanh",
@@ -9,7 +9,7 @@
         "code": "22651",
         "parent_code": "574"
     },
-    "22654": {
+     {
         "name": "Diên Lâm",
         "type": "xa",
         "slug": "dien-lam",
@@ -19,7 +19,7 @@
         "code": "22654",
         "parent_code": "574"
     },
-    "22657": {
+     {
         "name": "Diên Điền",
         "type": "xa",
         "slug": "dien-dien",
@@ -29,7 +29,7 @@
         "code": "22657",
         "parent_code": "574"
     },
-    "22660": {
+     {
         "name": "Diên Xuân",
         "type": "xa",
         "slug": "dien-xuan",
@@ -39,7 +39,7 @@
         "code": "22660",
         "parent_code": "574"
     },
-    "22663": {
+     {
         "name": "Diên Sơn",
         "type": "xa",
         "slug": "dien-son",
@@ -49,7 +49,7 @@
         "code": "22663",
         "parent_code": "574"
     },
-    "22666": {
+     {
         "name": "Diên Đồng",
         "type": "xa",
         "slug": "dien-dong",
@@ -59,7 +59,7 @@
         "code": "22666",
         "parent_code": "574"
     },
-    "22669": {
+     {
         "name": "Diên Phú",
         "type": "xa",
         "slug": "dien-phu",
@@ -69,7 +69,7 @@
         "code": "22669",
         "parent_code": "574"
     },
-    "22672": {
+     {
         "name": "Diên Thọ",
         "type": "xa",
         "slug": "dien-tho",
@@ -79,7 +79,7 @@
         "code": "22672",
         "parent_code": "574"
     },
-    "22675": {
+     {
         "name": "Diên Phước",
         "type": "xa",
         "slug": "dien-phuoc",
@@ -89,7 +89,7 @@
         "code": "22675",
         "parent_code": "574"
     },
-    "22678": {
+     {
         "name": "Diên Lạc",
         "type": "xa",
         "slug": "dien-lac",
@@ -99,7 +99,7 @@
         "code": "22678",
         "parent_code": "574"
     },
-    "22681": {
+     {
         "name": "Diên Tân",
         "type": "xa",
         "slug": "dien-tan",
@@ -109,7 +109,7 @@
         "code": "22681",
         "parent_code": "574"
     },
-    "22684": {
+     {
         "name": "Diên Hòa",
         "type": "xa",
         "slug": "dien-hoa",
@@ -119,7 +119,7 @@
         "code": "22684",
         "parent_code": "574"
     },
-    "22687": {
+     {
         "name": "Diên Thạnh",
         "type": "xa",
         "slug": "dien-thanh",
@@ -129,7 +129,7 @@
         "code": "22687",
         "parent_code": "574"
     },
-    "22690": {
+     {
         "name": "Diên Toàn",
         "type": "xa",
         "slug": "dien-toan",
@@ -139,7 +139,7 @@
         "code": "22690",
         "parent_code": "574"
     },
-    "22693": {
+     {
         "name": "Diên An",
         "type": "xa",
         "slug": "dien-an",
@@ -149,7 +149,7 @@
         "code": "22693",
         "parent_code": "574"
     },
-    "22696": {
+     {
         "name": "Bình Lộc",
         "type": "xa",
         "slug": "binh-loc",
@@ -159,7 +159,7 @@
         "code": "22696",
         "parent_code": "574"
     },
-    "22702": {
+     {
         "name": "Suối Hiệp",
         "type": "xa",
         "slug": "suoi-hiep",
@@ -169,7 +169,7 @@
         "code": "22702",
         "parent_code": "574"
     },
-    "22705": {
+     {
         "name": "Suối Tiên",
         "type": "xa",
         "slug": "suoi-tien",
@@ -179,4 +179,4 @@
         "code": "22705",
         "parent_code": "574"
     }
-}
+]}
