@@ -9,6 +9,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
@@ -21,12 +22,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
 
+import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 
@@ -34,6 +41,7 @@ public class RegisterImageActivity extends AppCompatActivity {
     private TextView txtInfo;
     private ImageView selectImage;
     private Button btnNext;
+    private Uri uri;
 
     protected void bindingView() {
         txtInfo = findViewById(R.id.txtInfo);
@@ -54,30 +62,29 @@ public class RegisterImageActivity extends AppCompatActivity {
         });
 
         btnNext.setOnClickListener(v -> {
+            String fileName = uri.getPath();
+            int index = fileName.lastIndexOf('.');
+            UserDAO.CURRENT_USER.setImage(UserDAO.CURRENT_USER_ID + fileName.substring(index));
             DatabaseReference ref = InternetDAO.database.getReference().child("user/"+UserDAO.CURRENT_USER_ID+"/profile");
             ref.setValue(UserDAO.CURRENT_USER);
-            Intent i = new Intent(this, RegisterSuccessActivity.class);
-            startActivity(i);
+
+            StorageReference upImage = InternetDAO.storage.getReference().child(UserDAO.CURRENT_USER_ID);
+            upImage.putFile(uri).addOnSuccessListener(task -> {
+                Intent i = new Intent(RegisterImageActivity.this, RegisterSuccessActivity.class);
+                startActivity(i);
+            });
         });
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        Uri selectedImage = null;
         if (resultCode == Activity.RESULT_OK) {
             if (data != null) {
-                selectedImage = data.getData();
-                UserDAO.CURRENT_USER.setImage(selectedImage.getEncodedPath().substring(5));
-                InputStream in;
-                try {
-                    in = getContentResolver().openInputStream(selectedImage);
-                    final Bitmap selected_img = BitmapFactory.decodeStream(in);
-                    selectImage.setImageBitmap(selected_img);
-                } catch (FileNotFoundException e) {}
+                uri = data.getData();
+                selectImage.setImageURI(uri);
             }
         }
-
         btnNext.setEnabled(true);
     }
 
