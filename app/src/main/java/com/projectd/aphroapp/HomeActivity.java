@@ -29,6 +29,7 @@ import android.widget.Toast;
 import com.facebook.AccessToken;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.tabs.TabLayout;
 
 import java.security.MessageDigest;
@@ -73,6 +74,10 @@ public class HomeActivity extends AppCompatActivity {
         viewPager.setAdapter(viewPaperAdapter);
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_option_home);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_option_chat);
+
+        BadgeDrawable badgeDrawable =  tabLayout.getTabAt(1).getOrCreateBadge();
+        badgeDrawable.setVisible(true);
+        badgeDrawable.setNumber(2);
     }
 
     private class ViewPaperAdapter extends FragmentPagerAdapter {

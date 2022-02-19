@@ -26,17 +26,14 @@ public class ChatListFragment extends Fragment {
     DatabaseReference ref = InternetDAO.database.child("user/male");
 
     protected void getData(Context context){
-        ref.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DataSnapshot> task) {
-                for(DataSnapshot ds : task.getResult().getChildren()){
-                    User u = ds.child("profile").getValue(User.class);
-                    words.add(u);
-                }
-                ChatListAdapter adapter = new ChatListAdapter(context, words);
-                recyclerView.setAdapter(adapter);
-                recyclerView.setLayoutManager(new LinearLayoutManager(context));
+        ref.get().addOnCompleteListener(task -> {
+            for(DataSnapshot ds : task.getResult().getChildren()){
+                User u = ds.child("profile").getValue(User.class);
+                words.add(u);
             }
+            ChatListAdapter adapter = new ChatListAdapter(context, words);
+            recyclerView.setAdapter(adapter);
+            recyclerView.setLayoutManager(new LinearLayoutManager(context));
         });
     }
 
