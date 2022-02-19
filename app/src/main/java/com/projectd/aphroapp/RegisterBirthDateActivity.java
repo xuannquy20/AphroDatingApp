@@ -186,9 +186,9 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
 
             btnNext.setOnClickListener(v -> {
                 Intent date = new Intent(this, RegisterAddressActivity.class);
-                UserDAO.CURRENT_USER.setDay(selectDay.getSelectedItem().toString());
-                UserDAO.CURRENT_USER.setMonth(selectMonth.getSelectedItem().toString());
-                UserDAO.CURRENT_USER.setYear(selectYear.getSelectedItem().toString());
+                UserDAO.CURRENT_USER.setDay(Integer.parseInt(selectDay.getSelectedItem().toString()));
+                UserDAO.CURRENT_USER.setMonth(Integer.parseInt(selectMonth.getSelectedItem().toString()));
+                UserDAO.CURRENT_USER.setYear(Integer.parseInt(selectYear.getSelectedItem().toString()));
                 startActivity(date);
             });
     }

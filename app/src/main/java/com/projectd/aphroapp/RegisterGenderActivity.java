@@ -17,7 +17,7 @@ public class RegisterGenderActivity extends AppCompatActivity {
     private TextView txtInfo;
     private RadioGroup selectGender;
     private Button btnNext;
-    private String selectGenderId;
+    private boolean selectGenderId;
     private boolean genderFinding = false;
 
     protected void bindingView(){
@@ -34,10 +34,10 @@ public class RegisterGenderActivity extends AppCompatActivity {
     protected void bindingAction(){
             selectGender.setOnCheckedChangeListener((group, checkedId) -> {
                 if(selectGender.getCheckedRadioButtonId() == R.id.male){
-                    selectGenderId = "nam";
+                    selectGenderId = true;
                 }
                 else {
-                    selectGenderId = "nu";
+                    selectGenderId = false;
                 }
                 btnNext.setEnabled(true);
             });

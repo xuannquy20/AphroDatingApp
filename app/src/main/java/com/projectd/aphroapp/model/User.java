@@ -3,55 +3,41 @@ package com.projectd.aphroapp.model;
 import java.io.Serializable;
 
 public class User implements Serializable {
-    private String id, name, gender, day, month, year, city, district, ward, description, genderFinding, image;
+    private String id, name, city, district, ward, description, image;
+    private boolean gender, genderFinding;
+    private int day, month, year;
 
     public User(){}
 
-    public User(String id, String name, String gender, String day, String month, String year, String city, String district, String ward, String description, String genderFinding, String image) {
+    public User(String id, String name, String city, String district, String ward, String description, String image, boolean gender, boolean genderFinding, int day, int month, int year) {
         this.id = id;
         this.name = name;
-        this.gender = gender;
-        this.day = day;
-        this.month = month;
-        this.year = year;
         this.city = city;
         this.district = district;
         this.ward = ward;
         this.description = description;
-        this.genderFinding = genderFinding;
         this.image = image;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
         this.gender = gender;
-    }
-
-    public String getDay() {
-        return day;
-    }
-
-    public void setDay(String day) {
+        this.genderFinding = genderFinding;
         this.day = day;
-    }
-
-    public String getMonth() {
-        return month;
-    }
-
-    public void setMonth(String month) {
         this.month = month;
-    }
-
-    public String getYear() {
-        return year;
-    }
-
-    public void setYear(String year) {
         this.year = year;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getCity() {
@@ -86,14 +72,6 @@ public class User implements Serializable {
         this.description = description;
     }
 
-    public String getGenderFinding() {
-        return genderFinding;
-    }
-
-    public void setGenderFinding(String genderFinding) {
-        this.genderFinding = genderFinding;
-    }
-
     public String getImage() {
         return image;
     }
@@ -102,37 +80,43 @@ public class User implements Serializable {
         this.image = image;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public boolean isGender() {
+        return gender;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setGender(boolean gender) {
+        this.gender = gender;
     }
 
-    public String getId() {
-        return id;
+    public boolean isGenderFinding() {
+        return genderFinding;
     }
 
-    public String getName() {
-        return name;
+    public void setGenderFinding(boolean genderFinding) {
+        this.genderFinding = genderFinding;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", gender='" + gender + '\'' +
-                ", day='" + day + '\'' +
-                ", month='" + month + '\'' +
-                ", year='" + year + '\'' +
-                ", city='" + city + '\'' +
-                ", district='" + district + '\'' +
-                ", ward='" + ward + '\'' +
-                ", description='" + description + '\'' +
-                ", genderFinding='" + genderFinding + '\'' +
-                ", image='" + image + '\'' +
-                '}';
+    public int getDay() {
+        return day;
+    }
+
+    public void setDay(int day) {
+        this.day = day;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public void setMonth(int month) {
+        this.month = month;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
 }

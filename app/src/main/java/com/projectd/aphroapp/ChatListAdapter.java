@@ -10,6 +10,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.firebase.database.DataSnapshot;
 import com.projectd.aphroapp.model.User;
 import java.util.LinkedList;
 
@@ -32,7 +35,7 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
     }
 
     public ChatListAdapter(Context context, LinkedList<User> wordList) {
-        mInflater = LayoutInflater.from(context);
+        mInflater = LayoutInflater.from((Context) context);
         this.wordList = wordList;
     }
 

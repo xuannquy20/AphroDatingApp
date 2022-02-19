@@ -17,6 +17,7 @@ import com.projectd.aphroapp.dao.UserDAO;
 
 public class RegisterSuccessActivity extends AppCompatActivity {
     Intent i = new Intent();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,23 +28,17 @@ public class RegisterSuccessActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         TextView t = findViewById(R.id.notification);
-        t.setText("Vui lòng chờ");
-        DatabaseReference ref = InternetDAO.database.getReference().child("user");
         Handler h = new Handler();
-        ref.get().addOnCompleteListener(task -> {
-            if (task.getResult().hasChild(UserDAO.CURRENT_USER_ID)) {
-                t.setText("Thành công");
-                i = new Intent(RegisterSuccessActivity.this, HomeActivity.class);
-            } else {
-                t.setText("Lỗi mạng");
-                i = new Intent(RegisterSuccessActivity.this, LoginActivity.class);
+        Intent i = getIntent();
+        t.setText(i.getStringExtra("warning"));
+
+        Intent home = new Intent(this, HomeActivity.class);
+        home.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        h.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                startActivity(home);
             }
-            h.postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    startActivity(i);
-                }
-            }, 2000);
-        });
+        }, 2000);
     }
 }

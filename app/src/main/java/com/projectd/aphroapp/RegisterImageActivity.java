@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.ValueAnimator;
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -62,18 +63,50 @@ public class RegisterImageActivity extends AppCompatActivity {
         });
 
         btnNext.setOnClickListener(v -> {
-            String fileName = uri.getPath();
-            int index = fileName.lastIndexOf('.');
-            UserDAO.CURRENT_USER.setImage(UserDAO.CURRENT_USER_ID + fileName.substring(index));
-            DatabaseReference ref = InternetDAO.database.getReference().child("user/"+UserDAO.CURRENT_USER_ID+"/profile");
-            ref.setValue(UserDAO.CURRENT_USER);
-
-            StorageReference upImage = InternetDAO.storage.getReference().child(UserDAO.CURRENT_USER_ID);
-            upImage.putFile(uri).addOnSuccessListener(task -> {
-                Intent i = new Intent(RegisterImageActivity.this, RegisterSuccessActivity.class);
-                startActivity(i);
-            });
-        });
+                    LoadingDialog loading = new LoadingDialog(this);
+                    loading.show();
+                    String fileName = uri.getPath();
+                    int index = fileName.lastIndexOf('.');
+                    UserDAO.CURRENT_USER.setImage(UserDAO.CURRENT_USER_ID + fileName.substring(index));
+                    String gender = "";
+                    if (UserDAO.CURRENT_USER.isGender()) {
+                        gender = "male";
+                    } else {
+                        gender = "female";
+                    }
+                    DatabaseReference refCount = InternetDAO.database.child("total_user");
+                    DatabaseReference refSavePeople = InternetDAO.database.child("data_user");
+                    final int[] count = {0};
+                    String finalGender = gender;
+                    refCount.child(gender).get().addOnCompleteListener(task -> count[0] = task.getResult().getValue(Integer.class)).addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
+                        @Override
+                        public void onSuccess(DataSnapshot dataSnapshot) {
+                            DatabaseReference ref = InternetDAO.database.child("user/" + finalGender + "/" + count[0] + "/profile");
+                            ref.setValue(UserDAO.CURRENT_USER).addOnSuccessListener(unused -> {
+                                StorageReference upImage = InternetDAO.storage.child(UserDAO.CURRENT_USER_ID);
+                                upImage.putFile(uri).addOnSuccessListener(task -> {
+                                    refCount.child(finalGender).setValue(count[0] + 1).addOnSuccessListener(unused1 -> {
+                                        refSavePeople.child(UserDAO.CURRENT_USER_ID).child("order_number").setValue(count[0]);
+                                        refSavePeople.child(UserDAO.CURRENT_USER_ID).child("gender").setValue(finalGender).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                            @Override
+                                            public void onSuccess(Void unused) {
+                                                Intent i = new Intent(RegisterImageActivity.this, RegisterSuccessActivity.class);
+                                                i.putExtra("warning", "Success");
+                                                startActivity(i);
+                                            }
+                                        });
+                                    });
+                                }).addOnFailureListener(new OnFailureListener() {
+                                    @Override
+                                    public void onFailure(@NonNull Exception e) {
+                                        Toast.makeText(RegisterImageActivity.this, "Loi mang, vui long thu lai", Toast.LENGTH_LONG).show();
+                                    }
+                                });
+                            });
+                        }
+                    });
+                }
+        );
     }
 
     @Override
@@ -95,14 +128,14 @@ public class RegisterImageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register_image);
         bindingView();
         bindingAciton();
+        animationIntro(txtInfo, -500, 800, true);
+        animationIntro(selectImage, 1200, 800, false);
+        animationIntro(btnNext, -1200, 1000, false);
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        animationIntro(txtInfo, -500, 800, true);
-        animationIntro(selectImage, 1200, 800, false);
-        animationIntro(btnNext, -1200, 1000, false);
     }
 
     private void animationIntro(View view, float infoNum1, int timeMove, boolean thing) {

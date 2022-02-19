@@ -14,6 +14,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.projectd.aphroapp.dao.UserDAO;
+import com.projectd.aphroapp.model.User;
 
 public class RegisterNameActivity extends AppCompatActivity {
     private TextView txtInfo, bannerName;

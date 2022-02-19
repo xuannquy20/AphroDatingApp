@@ -2,6 +2,7 @@ package com.projectd.aphroapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.animation.ValueAnimator;
 import android.content.Intent;
 import android.os.Bundle;
@@ -26,17 +27,17 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
+import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
 import com.projectd.aphroapp.model.User;
 
 import java.util.Arrays;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class LoginActivity extends AppCompatActivity {
     private LinearLayout layoutMain;
@@ -46,10 +47,10 @@ public class LoginActivity extends AppCompatActivity {
     private CallbackManager callbackManager;
     private TextView ruleLink;
     private LinearLayout layoutLogo;
-    final FirebaseDatabase database = FirebaseDatabase.getInstance();
-    DatabaseReference ref = database.getReference().child("user");
+    private boolean checkLogin = false;
+    DatabaseReference ref = InternetDAO.database.child("data_user");
 
-    public void bindingView(){
+    public void bindingView() {
         layoutMain = findViewById(R.id.LayoutLogin);
         btnGoogleSignIn = findViewById(R.id.btnGoogleSignIn);
         btnFacebookSignIn = findViewById(R.id.btnFacebookSignIn);
@@ -60,9 +61,9 @@ public class LoginActivity extends AppCompatActivity {
         ruleLink.setText(content);
     }
 
-    public void bindingActionListener(){
+    public void bindingActionListener() {
         btnFacebookSignIn.setOnClickListener(view -> LoginManager.getInstance().logInWithReadPermissions(LoginActivity.this, Arrays.asList("public_profile")));
-        ruleLink.setOnClickListener(view -> startActivity(new Intent(LoginActivity.this, RegisterNameActivity.class)));
+        ruleLink.setOnClickListener(view -> startActivity(new Intent(LoginActivity.this, HomeActivity.class)));
         btnGoogleSignIn.setOnClickListener(view -> signInGoogle());
     }
 
@@ -83,16 +84,31 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onSuccess(LoginResult loginResult) {
                         UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
-                        if(checkData()){
-                            ref.get().addOnCompleteListener(task -> UserDAO.CURRENT_USER = task.getResult().getValue(User.class));
-                            Intent i = new Intent(LoginActivity.this, HomeActivity.class);
-                            startActivity(i);
-                        }
-                        else{
-                            Intent i = new Intent(LoginActivity.this, RegisterNameActivity.class);
-                            startActivity(i);
-                        }
+                        UserDAO.CURRENT_USER = new User();
+                        UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
+
+                        ref.get().addOnCompleteListener(task -> {
+                            if (task.getResult().hasChild(UserDAO.CURRENT_USER_ID)) {
+                                DatabaseReference refUser = FirebaseDatabase.getInstance().getReference().child("user");
+                                UserDAO.ORDER_NUMBER = task.getResult().child(UserDAO.CURRENT_USER_ID + "/order_number").getValue(Integer.class);
+                                UserDAO.GENDER = task.getResult().child(UserDAO.CURRENT_USER_ID + "/gender").getValue(String.class);
+                                refUser.get().addOnCompleteListener(task1 -> UserDAO.CURRENT_USER = task1.getResult().child(UserDAO.GENDER + "/" + UserDAO.ORDER_NUMBER + "/profile").getValue(User.class)).addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
+                                    @Override
+                                    public void onSuccess(DataSnapshot dataSnapshot) {
+                                        Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+                                        startActivity(i);
+                                        finish();
+                                    }
+                                });
+                            }
+                            else{
+                                Intent i = new Intent(LoginActivity.this, RegisterNameActivity.class);
+                                startActivity(i);
+                                finish();
+                            }
+                        });
                     }
+
                     @Override
                     public void onCancel() {
                         Toast.makeText(LoginActivity.this, "Huỷ đăng nhập", Toast.LENGTH_SHORT).show();
@@ -106,33 +122,28 @@ public class LoginActivity extends AppCompatActivity {
         bindingActionListener();
     }
 
-    protected boolean checkData(){
-        boolean check = false;
-        ref.get().addOnCompleteListener(task -> {
-            if(task.getResult().hasChild(UserDAO.CURRENT_USER_ID)){
-                Intent i = new Intent(LoginActivity.this, HomeActivity.class);
-                startActivity(i);
-            }
-        });
-        return check;
-    }
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == 1){
+        if (requestCode == 1) {
             GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(LoginActivity.this);
             UserDAO.CURRENT_USER_ID = account.getId();
-            if(checkData()){
+            UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
+            ref.get().addOnCompleteListener(task -> {
+                if (task.getResult().hasChild(UserDAO.CURRENT_USER_ID)) {
+                    checkLogin = true;
+                } else {
+                    checkLogin = false;
+                }
+            });
+            if (checkLogin) {
                 Intent i = new Intent(LoginActivity.this, HomeActivity.class);
                 startActivity(i);
-            }
-            else{
+            } else {
                 Intent i = new Intent(LoginActivity.this, RegisterNameActivity.class);
                 startActivity(i);
             }
-        }
-        else {
+        } else {
             callbackManager.onActivityResult(requestCode, resultCode, data);
 
         }
@@ -151,7 +162,7 @@ public class LoginActivity extends AppCompatActivity {
         startActivityForResult(signInIntent, 1);
     }
 
-    private void animationIntro(View view, int positionFirst, int positionLast){
+    private void animationIntro(View view, int positionFirst, int positionLast) {
         ValueAnimator move = ValueAnimator.ofFloat(positionFirst, positionLast);
         move.setInterpolator(new AccelerateDecelerateInterpolator());
         move.setDuration(1000);
