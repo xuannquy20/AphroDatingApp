@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable-anydpi/ic_option_account.xml" value="0.1105" />
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable-anydpi/ic_option_chat.xml" value="0.155" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable-anydpi/ic_option_home.xml" value="0.1105" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.118" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable/back_button.xml" value="0.1725" />
