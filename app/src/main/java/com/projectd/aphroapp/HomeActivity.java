@@ -9,6 +9,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -23,12 +24,15 @@ import android.se.omapi.Session;
 import android.text.TextPaint;
 import android.util.Base64;
 import android.util.Log;
+import android.view.View;
+import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.facebook.AccessToken;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.tabs.TabLayout;
 
@@ -40,13 +44,15 @@ public class HomeActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private TabLayout tabLayout;
     private TextView logoAphro;
+    private AppBarLayout appBarLayout;
 
     private HomeFragment homeFragment;
     private ChatListFragment chatListFragment;
 
-    protected void bindingView(){
+    protected void bindingView() {
         viewPager = findViewById(R.id.view_paper);
         tabLayout = findViewById(R.id.layout_menu);
+        appBarLayout = findViewById(R.id.appBarLayout);
         homeFragment = new HomeFragment();
         chatListFragment = new ChatListFragment();
         logoAphro = findViewById(R.id.logo_aphro);
@@ -75,9 +81,26 @@ public class HomeActivity extends AppCompatActivity {
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_home);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_chat);
 
-        BadgeDrawable badgeDrawable =  tabLayout.getTabAt(1).getOrCreateBadge();
+        BadgeDrawable badgeDrawable = tabLayout.getTabAt(1).getOrCreateBadge();
         badgeDrawable.setVisible(true);
         badgeDrawable.setNumber(2);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        animationIntro(appBarLayout, -1000f, 0);
+    }
+
+    private void animationIntro(View view, float infoNum1, float infoNum2) {
+        ValueAnimator move = ValueAnimator.ofFloat(infoNum1, infoNum2);
+        move.setInterpolator(new AccelerateDecelerateInterpolator());
+        move.setDuration(1000);
+        move.addUpdateListener(animation -> {
+            float progress = (float) animation.getAnimatedValue();
+            view.setTranslationY(progress);
+        });
+        move.start();
     }
 
     private class ViewPaperAdapter extends FragmentPagerAdapter {
@@ -88,7 +111,7 @@ public class HomeActivity extends AppCompatActivity {
             super(fm, behavior);
         }
 
-        public void addFragment(Fragment fragment, String title){
+        public void addFragment(Fragment fragment, String title) {
             listFragment.add(fragment);
             fragmentTitle.add(title);
         }
