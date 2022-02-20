@@ -95,29 +95,52 @@
                         </androidx.cardview.widget.CardView>
                     </RelativeLayout>
 
-                    <TextView
-                        android:id="@+id/textView16"
+                    <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
-                        android:gravity="center_vertical"
-                        android:paddingLeft="15dp"
-                        android:paddingTop="15dp"
-                        android:text="Hoa, 21"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:layout_weight="4">
 
-                    <TextView
-                        android:id="@+id/textView17"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="2"
-                        android:gravity="top"
-                        android:paddingLeft="15dp"
-                        android:paddingBottom="15dp"
-                        android:text="Hải Phòng"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/ic_infomation"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="15dp"
+                            android:text="Hoa, 21"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toTopOf="@+id/textView17"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="top"
+                            android:paddingLeft="15dp"
+                            android:paddingBottom="15dp"
+                            android:text="Hải Phòng"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
                 </LinearLayout>
             </RelativeLayout>
 

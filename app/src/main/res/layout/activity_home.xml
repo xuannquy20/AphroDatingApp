@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f0f0f0"
     android:padding="10dp"
     tools:context=".HomeActivity">
 
@@ -11,7 +12,7 @@
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FFFFFF">
+        android:backgroundTint="#f0f0f0">
 
         <TextView
             android:id="@+id/logo_aphro"
@@ -25,32 +26,33 @@
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/layout_menu"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="#f0f0f0">
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/option_match"
-                android:icon="@drawable/ic_home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:icon="@drawable/ic_home"
                 android:text="Test">
 
             </com.google.android.material.tabs.TabItem>
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/option_chat"
-                android:icon="@drawable/ic_chat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
+                android:icon="@drawable/ic_chat"
                 android:text="Test">
 
             </com.google.android.material.tabs.TabItem>
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/option_profile"
-                android:icon="@drawable/ic_home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:icon="@drawable/ic_home"
                 android:text="Test">
 
             </com.google.android.material.tabs.TabItem>
@@ -61,6 +63,7 @@
         android:id="@+id/view_paper"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#f0f0f0"
         android:paddingTop="20dp"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
 
