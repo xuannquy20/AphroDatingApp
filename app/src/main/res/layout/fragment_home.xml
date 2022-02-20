@@ -15,59 +15,107 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="95"
-                android:background="@drawable/background_shadow_home"
-                android:orientation="vertical">
+                android:layout_weight="95">
 
-                <RelativeLayout
+                <LinearLayout
+                    android:id="@+id/layout_infomation"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="96">
+                    android:layout_height="match_parent"
+                    android:background="@drawable/background_infomation_match"
+                    android:elevation="1dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
 
-                    <androidx.cardview.widget.CardView
+                    <TextView
+                        android:id="@+id/textView13"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        app:cardCornerRadius="30dp"
-                        app:cardElevation="0dp"
-                        app:cardPreventCornerOverlap="false">
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Hoa, 21"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
 
-                        <ImageView
-                            android:id="@+id/image_show"
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Phúc Xá, Ba Đình, Hà Nội"
+                        android:textSize="24sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Mọi người thường cho trẻ em kẹo khi chúng nó đòi đồ ngọt. Còn nếu anh hỏi em, thì em sẽ nói có em cũng ngọt nè"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_main_match"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="95"
+                    android:background="@drawable/background_shadow_home"
+                    android:elevation="5dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="96">
+
+                        <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/test"
-                            tools:src="@drawable/test" />
-                    </androidx.cardview.widget.CardView>
-                </RelativeLayout>
+                            app:cardCornerRadius="30dp"
+                            app:cardElevation="0dp"
+                            app:cardPreventCornerOverlap="false">
 
-                <TextView
-                    android:id="@+id/textView16"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2"
-                    android:gravity="center_vertical"
-                    android:paddingLeft="10dp"
-                    android:paddingTop="10dp"
-                    android:text="Hoa, 21"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
+                            <ImageView
+                                android:id="@+id/image_show"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="top"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/test"
+                                tools:src="@drawable/test" />
+                        </androidx.cardview.widget.CardView>
+                    </RelativeLayout>
 
-                <TextView
-                    android:id="@+id/textView17"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="2"
-                    android:gravity="top"
-                    android:paddingLeft="10dp"
-                    android:paddingBottom="10dp"
-                    android:text="Hải Phòng"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="Hoa, 21"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="top"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="Hải Phòng"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -76,7 +124,7 @@
                 android:padding="20dp">
 
                 <ImageView
-                    android:id="@+id/imageView9"
+                    android:id="@+id/button_skip"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="30dp"
@@ -88,7 +136,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:id="@+id/imageView10"
+                    android:id="@+id/button_like"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginRight="30dp"
