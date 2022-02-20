@@ -29,7 +29,7 @@
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/option_match"
-                android:icon="@drawable/ic_option_home"
+                android:icon="@drawable/ic_home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Test">
@@ -38,7 +38,7 @@
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/option_chat"
-                android:icon="@drawable/ic_option_home"
+                android:icon="@drawable/ic_chat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FFFFFF"
@@ -48,7 +48,7 @@
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/option_profile"
-                android:icon="@drawable/ic_option_home"
+                android:icon="@drawable/ic_home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Test">

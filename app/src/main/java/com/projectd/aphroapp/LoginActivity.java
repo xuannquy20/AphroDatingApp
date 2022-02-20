@@ -84,7 +84,6 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onSuccess(LoginResult loginResult) {
                         UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
-                        UserDAO.CURRENT_USER = new User();
                         UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
 
                         ref.get().addOnCompleteListener(task -> {
@@ -100,8 +99,7 @@ public class LoginActivity extends AppCompatActivity {
                                         finish();
                                     }
                                 });
-                            }
-                            else{
+                            } else {
                                 Intent i = new Intent(LoginActivity.this, RegisterNameActivity.class);
                                 startActivity(i);
                                 finish();
@@ -131,18 +129,23 @@ public class LoginActivity extends AppCompatActivity {
             UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
             ref.get().addOnCompleteListener(task -> {
                 if (task.getResult().hasChild(UserDAO.CURRENT_USER_ID)) {
-                    checkLogin = true;
+                    DatabaseReference refUser = FirebaseDatabase.getInstance().getReference().child("user");
+                    UserDAO.ORDER_NUMBER = task.getResult().child(UserDAO.CURRENT_USER_ID + "/order_number").getValue(Integer.class);
+                    UserDAO.GENDER = task.getResult().child(UserDAO.CURRENT_USER_ID + "/gender").getValue(String.class);
+                    refUser.get().addOnCompleteListener(task1 -> UserDAO.CURRENT_USER = task1.getResult().child(UserDAO.GENDER + "/" + UserDAO.ORDER_NUMBER + "/profile").getValue(User.class)).addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
+                        @Override
+                        public void onSuccess(DataSnapshot dataSnapshot) {
+                            Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+                            startActivity(i);
+                            finish();
+                        }
+                    });
                 } else {
-                    checkLogin = false;
+                    Intent i = new Intent(LoginActivity.this, RegisterNameActivity.class);
+                    startActivity(i);
+                    finish();
                 }
             });
-            if (checkLogin) {
-                Intent i = new Intent(LoginActivity.this, HomeActivity.class);
-                startActivity(i);
-            } else {
-                Intent i = new Intent(LoginActivity.this, RegisterNameActivity.class);
-                startActivity(i);
-            }
         } else {
             callbackManager.onActivityResult(requestCode, resultCode, data);
 

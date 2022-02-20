@@ -72,8 +72,8 @@ public class HomeActivity extends AppCompatActivity {
         viewPaperAdapter.addFragment(homeFragment, "");
         viewPaperAdapter.addFragment(chatListFragment, "");
         viewPager.setAdapter(viewPaperAdapter);
-        tabLayout.getTabAt(0).setIcon(R.drawable.ic_option_home);
-        tabLayout.getTabAt(1).setIcon(R.drawable.ic_option_chat);
+        tabLayout.getTabAt(0).setIcon(R.drawable.ic_home);
+        tabLayout.getTabAt(1).setIcon(R.drawable.ic_chat);
 
         BadgeDrawable badgeDrawable =  tabLayout.getTabAt(1).getOrCreateBadge();
         badgeDrawable.setVisible(true);

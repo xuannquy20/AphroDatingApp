@@ -2,6 +2,7 @@ package com.projectd.aphroapp;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.ValueAnimator;
@@ -14,6 +15,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
@@ -65,9 +67,7 @@ public class RegisterImageActivity extends AppCompatActivity {
         btnNext.setOnClickListener(v -> {
                     LoadingDialog loading = new LoadingDialog(this);
                     loading.show();
-                    String fileName = uri.getPath();
-                    int index = fileName.lastIndexOf('.');
-                    UserDAO.CURRENT_USER.setImage(UserDAO.CURRENT_USER_ID + fileName.substring(index));
+                    UserDAO.CURRENT_USER.setImage(UserDAO.CURRENT_USER_ID);
                     String gender = "";
                     if (UserDAO.CURRENT_USER.isGender()) {
                         gender = "male";
@@ -78,32 +78,44 @@ public class RegisterImageActivity extends AppCompatActivity {
                     DatabaseReference refSavePeople = InternetDAO.database.child("data_user");
                     final int[] count = {0};
                     String finalGender = gender;
-                    refCount.child(gender).get().addOnCompleteListener(task -> count[0] = task.getResult().getValue(Integer.class)).addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
-                        @Override
-                        public void onSuccess(DataSnapshot dataSnapshot) {
-                            DatabaseReference ref = InternetDAO.database.child("user/" + finalGender + "/" + count[0] + "/profile");
-                            ref.setValue(UserDAO.CURRENT_USER).addOnSuccessListener(unused -> {
-                                StorageReference upImage = InternetDAO.storage.child(UserDAO.CURRENT_USER_ID);
-                                upImage.putFile(uri).addOnSuccessListener(task -> {
-                                    refCount.child(finalGender).setValue(count[0] + 1).addOnSuccessListener(unused1 -> {
-                                        refSavePeople.child(UserDAO.CURRENT_USER_ID).child("order_number").setValue(count[0]);
-                                        refSavePeople.child(UserDAO.CURRENT_USER_ID).child("gender").setValue(finalGender).addOnSuccessListener(new OnSuccessListener<Void>() {
-                                            @Override
-                                            public void onSuccess(Void unused) {
-                                                Intent i = new Intent(RegisterImageActivity.this, RegisterSuccessActivity.class);
-                                                i.putExtra("warning", "Success");
-                                                startActivity(i);
-                                            }
-                                        });
+                    refCount.child(gender).get().addOnCompleteListener(task -> count[0] = task.getResult().getValue(Integer.class)).addOnSuccessListener(dataSnapshot -> {
+                        DatabaseReference ref = InternetDAO.database.child("user/" + finalGender + "/" + count[0] + "/profile");
+                        ref.setValue(UserDAO.CURRENT_USER).addOnSuccessListener(unused -> {
+                            StorageReference upImage = InternetDAO.storage.child(UserDAO.CURRENT_USER_ID);
+                            upImage.putFile(uri).addOnSuccessListener(task -> {
+                                refCount.child(finalGender).setValue(count[0] + 1).addOnSuccessListener(unused1 -> {
+                                    refSavePeople.child(UserDAO.CURRENT_USER_ID).child("order_number").setValue(count[0]);
+                                    refSavePeople.child(UserDAO.CURRENT_USER_ID).child("gender").setValue(finalGender).addOnSuccessListener(unused2 -> {
+                                        loading.cancel();
+                                        StorageReference storeRef = InternetDAO.storage.child(UserDAO.CURRENT_USER.getImage());
+                                        try {
+                                            File localFile = File.createTempFile(UserDAO.CURRENT_USER.getImage(), "png");
+                                            storeRef.getFile(localFile).addOnSuccessListener(taskSnapshot -> {
+                                                UserDAO.imageBitmap = BitmapFactory.decodeFile(localFile.getAbsolutePath());
+                                            });
+                                        } catch (Exception e) {}
+                                        AlertDialog.Builder builder = new AlertDialog.Builder(RegisterImageActivity.this);
+                                        builder.setMessage("Chúc bạn tìm được một nửa của mình với Aphro!")
+                                                .setTitle("Hồ sơ đã hoàn thành")
+                                                .create().show();
+                                        new Handler().postDelayed(() -> {
+                                            Intent i = new Intent(RegisterImageActivity.this, HomeActivity.class);
+                                            startActivity(i);
+                                        }, 2000);
                                     });
-                                }).addOnFailureListener(new OnFailureListener() {
-                                    @Override
-                                    public void onFailure(@NonNull Exception e) {
-                                        Toast.makeText(RegisterImageActivity.this, "Loi mang, vui long thu lai", Toast.LENGTH_LONG).show();
-                                    }
                                 });
+                            }).addOnFailureListener(e -> {
+                                loading.cancel();
+                                AlertDialog.Builder builder = new AlertDialog.Builder(RegisterImageActivity.this);
+                                builder.setMessage("Đã xảy ra lỗi trong quá trình tạo tài khoản, vui lòng kiểm tra lại đường truyền mạng!")
+                                        .setTitle("Lỗi không xác định")
+                                        .create().show();
+                                new Handler().postDelayed(() -> {
+                                    Intent i = new Intent(RegisterImageActivity.this, RegisterNameActivity.class);
+                                    startActivity(i);
+                                }, 2000);
                             });
-                        }
+                        });
                     });
                 }
         );

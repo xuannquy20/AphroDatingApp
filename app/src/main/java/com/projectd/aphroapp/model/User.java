@@ -2,7 +2,7 @@ package com.projectd.aphroapp.model;
 
 import java.io.Serializable;
 
-public class User implements Serializable {
+public class User{
     private String id, name, city, district, ward, description, image;
     private boolean gender, genderFinding;
     private int day, month, year;

@@ -15,9 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AphroApp">
         <activity
-            android:name=".RegisterSuccessActivity"
-            android:exported="false" />
-        <activity
             android:name=".RegisterDescriptionActivity"
             android:exported="false" />
         <activity

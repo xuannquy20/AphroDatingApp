@@ -35,9 +35,9 @@
                         app:cardPreventCornerOverlap="false">
 
                         <ImageView
-                            android:id="@+id/imageView8"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/image_show"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
                             android:scaleType="centerCrop"
                             android:src="@drawable/test"
                             tools:src="@drawable/test" />
@@ -49,9 +49,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
+                    android:gravity="center_vertical"
                     android:paddingLeft="10dp"
-                    android:paddingTop="20dp"
-                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
                     android:text="Hoa, 21"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -61,9 +61,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
+                    android:gravity="top"
                     android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingBottom="20dp"
+                    android:paddingBottom="10dp"
                     android:text="Hải Phòng"
                     android:textSize="18sp"
                     android:textStyle="bold" />
