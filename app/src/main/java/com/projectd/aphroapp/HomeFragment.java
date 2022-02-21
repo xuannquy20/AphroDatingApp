@@ -61,6 +61,12 @@ public class HomeFragment extends Fragment {
     }
 
     @Override
+    public void onPause() {
+        checkInformation = false;
+        super.onPause();
+    }
+
+    @Override
     public void onStart() {
         super.onStart();
         new Handler().postDelayed(() -> animationIntro(tutorialCheckInfomation, 0, 1, 1, 300), 2000);
