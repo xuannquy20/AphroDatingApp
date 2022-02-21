@@ -20,48 +20,54 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="95">
 
-                <LinearLayout
-                    android:id="@+id/layout_infomation"
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/background_infomation_match"
-                    android:elevation="1dp"
-                    android:gravity="center_vertical"
-                    android:orientation="vertical">
+                    android:layout_height="match_parent">
 
-                    <TextView
-                        android:id="@+id/textView13"
+                    <LinearLayout
+                        android:id="@+id/layout_infomation"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="15dp"
-                        android:paddingTop="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingBottom="5dp"
-                        android:text="Hoa, 21"
-                        android:textSize="30sp"
-                        android:textStyle="bold" />
+                        android:layout_height="match_parent"
+                        android:background="@drawable/background_infomation_match"
+                        android:elevation="1dp"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textView14"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingBottom="5dp"
-                        android:text="Phúc Xá, Ba Đình, Hà Nội"
-                        android:textSize="24sp"
-                        android:textStyle="italic" />
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:text="&quot;Mọi người thường cho trẻ em kẹo khi chúng nó đòi đồ ngọt. Còn nếu anh hỏi em, thì em sẽ nói có em cũng ngọt nè&quot;"
+                            android:textSize="20sp" />
 
-                    <TextView
-                        android:id="@+id/textView15"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingLeft="15dp"
-                        android:paddingRight="15dp"
-                        android:paddingBottom="15dp"
-                        android:text="Mọi người thường cho trẻ em kẹo khi chúng nó đòi đồ ngọt. Còn nếu anh hỏi em, thì em sẽ nói có em cũng ngọt nè"
-                        android:textSize="20sp" />
-                </LinearLayout>
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingBottom="5dp"
+                            android:text="Hoa, 21"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingBottom="5dp"
+                            android:text="Phúc Xá, Ba Đình, Hà Nội"
+                            android:textSize="16sp"
+                            android:textStyle="italic" />
+
+                    </LinearLayout>
+                </RelativeLayout>
 
                 <LinearLayout
                     android:id="@+id/layout_main_match"
@@ -100,12 +106,23 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="4">
 
-                        <ImageView
-                            android:id="@+id/imageView"
+                        <TextView
+                            android:id="@+id/txt_tutorial_infomation"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:alpha="0"
+                            android:text="Nhấn để xem thông tin"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/imageView"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
                             android:layout_marginRight="15dp"
-                            android:src="@drawable/ic_infomation"
+                            android:src="@drawable/ic_electric"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />

@@ -73,6 +73,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         bindingView();
+        animationIntro(appBarLayout, -1000f, 0);
         tabLayout.setupWithViewPager(viewPager);
         ViewPaperAdapter viewPaperAdapter = new ViewPaperAdapter(getSupportFragmentManager(), 0);
         viewPaperAdapter.addFragment(homeFragment, "");
@@ -89,7 +90,6 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        animationIntro(appBarLayout, -1000f, 0);
     }
 
     private void animationIntro(View view, float infoNum1, float infoNum2) {

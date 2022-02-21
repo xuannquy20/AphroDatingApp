@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.ValueAnimator;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.text.SpannableString;
 import android.text.style.UnderlineSpan;
@@ -27,15 +28,20 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.storage.FileDownloadTask;
+import com.google.firebase.storage.StorageReference;
 import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
 import com.projectd.aphroapp.model.User;
 
+import java.io.File;
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -49,6 +55,7 @@ public class LoginActivity extends AppCompatActivity {
     private LinearLayout layoutLogo;
     private boolean checkLogin = false;
     DatabaseReference ref = InternetDAO.database.child("data_user");
+    DatabaseReference refUser = FirebaseDatabase.getInstance().getReference().child("user");
 
     public void bindingView() {
         layoutMain = findViewById(R.id.LayoutLogin);
@@ -85,26 +92,8 @@ public class LoginActivity extends AppCompatActivity {
                     public void onSuccess(LoginResult loginResult) {
                         UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
                         UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
-
-                        ref.get().addOnCompleteListener(task -> {
-                            if (task.getResult().hasChild(UserDAO.CURRENT_USER_ID)) {
-                                DatabaseReference refUser = FirebaseDatabase.getInstance().getReference().child("user");
-                                UserDAO.ORDER_NUMBER = task.getResult().child(UserDAO.CURRENT_USER_ID + "/order_number").getValue(Integer.class);
-                                UserDAO.GENDER = task.getResult().child(UserDAO.CURRENT_USER_ID + "/gender").getValue(String.class);
-                                refUser.get().addOnCompleteListener(task1 -> UserDAO.CURRENT_USER = task1.getResult().child(UserDAO.GENDER + "/" + UserDAO.ORDER_NUMBER + "/profile").getValue(User.class)).addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
-                                    @Override
-                                    public void onSuccess(DataSnapshot dataSnapshot) {
-                                        Intent i = new Intent(LoginActivity.this, HomeActivity.class);
-                                        startActivity(i);
-                                        finish();
-                                    }
-                                });
-                            } else {
-                                Intent i = new Intent(LoginActivity.this, RegisterNameActivity.class);
-                                startActivity(i);
-                                finish();
-                            }
-                        });
+                        getData();
+                        new LoadingDialog(LoginActivity.this).show();
                     }
 
                     @Override
@@ -120,6 +109,38 @@ public class LoginActivity extends AppCompatActivity {
         bindingActionListener();
     }
 
+    private void getData() {
+        ref.get().addOnCompleteListener(task -> {
+            if (task.getResult().hasChild(UserDAO.CURRENT_USER_ID)) {
+                UserDAO.GENDER = task.getResult().child(UserDAO.CURRENT_USER_ID + "/gender").getValue(String.class);
+                UserDAO.ORDER_NUMBER = task.getResult().child(UserDAO.CURRENT_USER_ID + "/order_number").getValue(Integer.class);
+            } else {
+                Intent i = new Intent(LoginActivity.this, RegisterNameActivity.class);
+                startActivity(i);
+                finish();
+            }
+        }).addOnSuccessListener(dataSnapshot -> refUser.get().addOnCompleteListener(task -> {
+            if (UserDAO.ORDER_NUMBER != -1) {
+                UserDAO.CURRENT_USER = task.getResult().child(UserDAO.GENDER + "/" + UserDAO.ORDER_NUMBER + "/profile").getValue(User.class);
+            }
+        }).addOnSuccessListener(dataSnapshot1 -> {
+            if (UserDAO.ORDER_NUMBER != -1) {
+                StorageReference storeRef = InternetDAO.storage.child(UserDAO.CURRENT_USER.getImage());
+                try {
+                    File localFile = File.createTempFile(UserDAO.CURRENT_USER.getImage(), "png");
+                    storeRef.getFile(localFile).addOnSuccessListener(taskSnapshot -> {
+                        UserDAO.imageBitmap = BitmapFactory.decodeFile(localFile.getAbsolutePath());
+                    }).addOnSuccessListener(taskSnapshot -> {
+                        Intent i = new Intent(LoginActivity.this, HomeActivity.class);
+                        startActivity(i);
+                        finish();
+                    });
+                } catch (Exception e) {
+                }
+            }
+        }));
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -127,28 +148,9 @@ public class LoginActivity extends AppCompatActivity {
             GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(LoginActivity.this);
             UserDAO.CURRENT_USER_ID = account.getId();
             UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
-            ref.get().addOnCompleteListener(task -> {
-                if (task.getResult().hasChild(UserDAO.CURRENT_USER_ID)) {
-                    DatabaseReference refUser = FirebaseDatabase.getInstance().getReference().child("user");
-                    UserDAO.ORDER_NUMBER = task.getResult().child(UserDAO.CURRENT_USER_ID + "/order_number").getValue(Integer.class);
-                    UserDAO.GENDER = task.getResult().child(UserDAO.CURRENT_USER_ID + "/gender").getValue(String.class);
-                    refUser.get().addOnCompleteListener(task1 -> UserDAO.CURRENT_USER = task1.getResult().child(UserDAO.GENDER + "/" + UserDAO.ORDER_NUMBER + "/profile").getValue(User.class)).addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
-                        @Override
-                        public void onSuccess(DataSnapshot dataSnapshot) {
-                            Intent i = new Intent(LoginActivity.this, HomeActivity.class);
-                            startActivity(i);
-                            finish();
-                        }
-                    });
-                } else {
-                    Intent i = new Intent(LoginActivity.this, RegisterNameActivity.class);
-                    startActivity(i);
-                    finish();
-                }
-            });
+            getData();
         } else {
             callbackManager.onActivityResult(requestCode, resultCode, data);
-
         }
     }
 

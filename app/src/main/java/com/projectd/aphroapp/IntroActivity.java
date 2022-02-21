@@ -71,7 +71,6 @@ public class IntroActivity extends AppCompatActivity {
                                 });
                             } catch (Exception e) {}
                         });
-
                     }
                 });
             }

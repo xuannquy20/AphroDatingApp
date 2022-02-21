@@ -10,4 +10,5 @@ public class UserDAO {
     public static int ORDER_NUMBER = -1;
     public static String GENDER = "";
     public static Bitmap imageBitmap = null;
+
 }

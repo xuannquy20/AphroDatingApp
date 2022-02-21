@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.storage.FileDownloadTask;
@@ -29,6 +30,7 @@ public class HomeFragment extends Fragment {
     private ImageView imageShow, btnSkip, btnLike;
     private LinearLayout layoutMain, layoutInfomation;
     private boolean checkInformation = false;
+    private TextView tutorialCheckInfomation;
 
     private void bindingView() {
         imageShow = getView().findViewById(R.id.image_show);
@@ -36,22 +38,33 @@ public class HomeFragment extends Fragment {
         btnSkip = getView().findViewById(R.id.button_skip);
         layoutMain = getView().findViewById(R.id.layout_main_match);
         layoutInfomation = getView().findViewById(R.id.layout_infomation);
+        tutorialCheckInfomation = getView().findViewById(R.id.txt_tutorial_infomation);
     }
 
     private void bindingAction(){
-        layoutMain.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(!checkInformation){
-                    animationIntro(layoutMain, 1, 0, 1, 500);
-                    checkInformation = true;
-                }
-                else{
-                    animationIntro(layoutMain, 0, 1, 1, 500);
-                    checkInformation = false;
-                }
+        layoutMain.setOnClickListener(v -> {
+            if(!checkInformation){
+                animationIntro(layoutMain, 1, 0, 1, 300);
+                checkInformation = true;
             }
+            else{
+                animationIntro(layoutMain, 0, 1, 1, 300);
+                checkInformation = false;
+            }
+            tutorialCheckInfomation.setVisibility(View.GONE);
         });
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        checkInformation = false;
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        new Handler().postDelayed(() -> animationIntro(tutorialCheckInfomation, 0, 1, 1, 300), 2000);
     }
 
     @Override
@@ -61,8 +74,8 @@ public class HomeFragment extends Fragment {
     }
 
     @Override
-    public void onStart() {
-        super.onStart();
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
         bindingView();
         bindingAction();
         imageShow.setImageBitmap(UserDAO.imageBitmap);
@@ -81,7 +94,7 @@ public class HomeFragment extends Fragment {
             float progress = (float) animation.getAnimatedValue();
             if (thing == 0) {
                 view.setTranslationX(progress);
-            }else {
+            }else if(thing == 1){
                 view.setAlpha(progress);
             }
         });
