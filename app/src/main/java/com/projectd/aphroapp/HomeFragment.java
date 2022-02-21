@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.os.Handler;
@@ -16,6 +17,7 @@ import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -27,8 +29,10 @@ import com.projectd.aphroapp.dao.UserDAO;
 import java.io.File;
 
 public class HomeFragment extends Fragment {
-    private ImageView imageShow, btnSkip, btnLike;
-    private LinearLayout layoutMain, layoutInfomation;
+    private ImageView imageShow, imageHide;
+    private CardView btnSkip, btnLike;
+    private LinearLayout layoutMain;
+    private RelativeLayout layoutInfomation;
     private boolean checkInformation = false;
     private TextView tutorialCheckInfomation;
 
@@ -38,6 +42,7 @@ public class HomeFragment extends Fragment {
         btnSkip = getView().findViewById(R.id.button_skip);
         layoutMain = getView().findViewById(R.id.layout_main_match);
         layoutInfomation = getView().findViewById(R.id.layout_infomation);
+        imageHide = getView().findViewById(R.id.image_hide_infomation);
         tutorialCheckInfomation = getView().findViewById(R.id.txt_tutorial_infomation);
     }
 
@@ -53,12 +58,6 @@ public class HomeFragment extends Fragment {
             }
             tutorialCheckInfomation.setVisibility(View.GONE);
         });
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-        checkInformation = false;
     }
 
     @Override
@@ -79,6 +78,7 @@ public class HomeFragment extends Fragment {
         bindingView();
         bindingAction();
         imageShow.setImageBitmap(UserDAO.imageBitmap);
+        imageHide.setImageBitmap(UserDAO.imageBitmap);
         layoutInfomation.setVisibility(View.GONE);
         animationIntro(layoutMain, 0, 1, 1, 1000);
         new Handler().postDelayed(() -> layoutInfomation.setVisibility(View.VISIBLE),1000);

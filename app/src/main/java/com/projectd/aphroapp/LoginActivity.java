@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.animation.ValueAnimator;
 import android.content.Intent;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.text.SpannableString;
 import android.text.style.UnderlineSpan;
@@ -93,7 +95,9 @@ public class LoginActivity extends AppCompatActivity {
                         UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
                         UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
                         getData();
-                        new LoadingDialog(LoginActivity.this).show();
+                        LoadingDialog loadingDialog = new LoadingDialog(LoginActivity.this);
+                        loadingDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                        loadingDialog.show();
                     }
 
                     @Override
@@ -149,6 +153,9 @@ public class LoginActivity extends AppCompatActivity {
             UserDAO.CURRENT_USER_ID = account.getId();
             UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
             getData();
+            LoadingDialog loadingDialog = new LoadingDialog(this);
+            loadingDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+            loadingDialog.show();
         } else {
             callbackManager.onActivityResult(requestCode, resultCode, data);
         }

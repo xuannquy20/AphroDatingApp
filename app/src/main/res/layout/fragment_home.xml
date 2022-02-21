@@ -13,7 +13,11 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -21,15 +25,37 @@
                 android:layout_weight="95">
 
                 <RelativeLayout
+                    android:id="@+id/layout_infomation"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
                     <LinearLayout
-                        android:id="@+id/layout_infomation"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@drawable/background_infomation_match"
-                        android:elevation="1dp"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:cardCornerRadius="20dp">
+
+                            <ImageView
+                                android:id="@+id/image_hide_infomation"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:elevation="1dp"
+                                android:scaleType="centerCrop" />
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.9"
+                        android:background="@drawable/background_infomation_match"
+                        android:elevation="5dp"
                         android:gravity="center_vertical"
                         android:orientation="vertical">
 
@@ -40,6 +66,7 @@
                             android:paddingLeft="15dp"
                             android:paddingRight="15dp"
                             android:text="&quot;Mọi người thường cho trẻ em kẹo khi chúng nó đòi đồ ngọt. Còn nếu anh hỏi em, thì em sẽ nói có em cũng ngọt nè&quot;"
+                            android:textColor="#000000"
                             android:textSize="20sp" />
 
                         <TextView
@@ -51,6 +78,7 @@
                             android:paddingRight="15dp"
                             android:paddingBottom="5dp"
                             android:text="Hoa, 21"
+                            android:textColor="#000000"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -63,6 +91,7 @@
                             android:paddingRight="15dp"
                             android:paddingBottom="5dp"
                             android:text="Phúc Xá, Ba Đình, Hà Nội"
+                            android:textColor="#000000"
                             android:textSize="16sp"
                             android:textStyle="italic" />
 
@@ -86,7 +115,7 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            app:cardCornerRadius="30dp"
+                            app:cardCornerRadius="20dp"
                             app:cardElevation="0dp"
                             app:cardPreventCornerOverlap="false">
 
@@ -95,9 +124,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="top"
-                                android:scaleType="centerCrop"
-                                android:src="@drawable/test"
-                                tools:src="@drawable/test" />
+                                android:scaleType="centerCrop" />
                         </androidx.cardview.widget.CardView>
                     </RelativeLayout>
 
@@ -165,30 +192,49 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="5"
-                android:padding="20dp">
+                android:padding="5dp">
 
-                <ImageView
+                <androidx.cardview.widget.CardView
                     android:id="@+id/button_skip"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_marginLeft="30dp"
-                    android:padding="3dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/logo_facebook"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="100dp"
+                    app:cardElevation="5dp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
 
-                <ImageView
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/button_skip" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
                     android:id="@+id/button_like"
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    android:layout_marginRight="30dp"
-                    android:padding="3dp"
-                    android:src="@drawable/logo_google"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="100dp"
+                    app:cardElevation="5dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/button_like" />
+                </androidx.cardview.widget.CardView>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>

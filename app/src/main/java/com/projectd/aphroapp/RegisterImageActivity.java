@@ -11,7 +11,9 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.ColorDrawable;
 import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
@@ -66,6 +68,7 @@ public class RegisterImageActivity extends AppCompatActivity {
 
         btnNext.setOnClickListener(v -> {
                     LoadingDialog loading = new LoadingDialog(this);
+                    loading.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     loading.show();
                     UserDAO.CURRENT_USER.setImage(UserDAO.CURRENT_USER_ID);
                     String gender = "";
@@ -93,7 +96,8 @@ public class RegisterImageActivity extends AppCompatActivity {
                                             storeRef.getFile(localFile).addOnSuccessListener(taskSnapshot -> {
                                                 UserDAO.imageBitmap = BitmapFactory.decodeFile(localFile.getAbsolutePath());
                                             });
-                                        } catch (Exception e) {}
+                                        } catch (Exception e) {
+                                        }
                                         AlertDialog.Builder builder = new AlertDialog.Builder(RegisterImageActivity.this);
                                         builder.setMessage("Chúc bạn tìm được một nửa của mình với Aphro!")
                                                 .setTitle("Hồ sơ đã hoàn thành")

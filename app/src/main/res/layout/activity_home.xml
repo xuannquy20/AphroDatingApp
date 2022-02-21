@@ -27,14 +27,16 @@
             android:id="@+id/layout_menu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:tabIndicatorColor="@android:color/transparent"
+            app:tabIndicatorHeight="0dp"
+            app:tabRippleColor="@android:color/transparent"
             android:background="#f0f0f0">
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/option_match"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:icon="@drawable/ic_home"
-                android:text="Test">
+                android:icon="@drawable/ic_home">
 
             </com.google.android.material.tabs.TabItem>
 
@@ -42,9 +44,7 @@
                 android:id="@+id/option_chat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#FFFFFF"
-                android:icon="@drawable/ic_chat"
-                android:text="Test">
+                android:icon="@drawable/ic_chat">
 
             </com.google.android.material.tabs.TabItem>
 
@@ -52,8 +52,7 @@
                 android:id="@+id/option_profile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:icon="@drawable/ic_home"
-                android:text="Test">
+                android:icon="@drawable/ic_profile">
 
             </com.google.android.material.tabs.TabItem>
         </com.google.android.material.tabs.TabLayout>

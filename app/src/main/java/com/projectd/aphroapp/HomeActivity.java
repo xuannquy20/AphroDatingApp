@@ -48,6 +48,7 @@ public class HomeActivity extends AppCompatActivity {
 
     private HomeFragment homeFragment;
     private ChatListFragment chatListFragment;
+    private ProfileFragment profileFragment;
 
     protected void bindingView() {
         viewPager = findViewById(R.id.view_paper);
@@ -55,6 +56,7 @@ public class HomeActivity extends AppCompatActivity {
         appBarLayout = findViewById(R.id.appBarLayout);
         homeFragment = new HomeFragment();
         chatListFragment = new ChatListFragment();
+        profileFragment = new ProfileFragment();
         logoAphro = findViewById(R.id.logo_aphro);
 
         TextPaint paint = logoAphro.getPaint();
@@ -78,9 +80,11 @@ public class HomeActivity extends AppCompatActivity {
         ViewPaperAdapter viewPaperAdapter = new ViewPaperAdapter(getSupportFragmentManager(), 0);
         viewPaperAdapter.addFragment(homeFragment, "");
         viewPaperAdapter.addFragment(chatListFragment, "");
+        viewPaperAdapter.addFragment(profileFragment, "");
         viewPager.setAdapter(viewPaperAdapter);
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_home);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_chat);
+        tabLayout.getTabAt(2).setIcon(R.drawable.ic_profile);
 
         BadgeDrawable badgeDrawable = tabLayout.getTabAt(1).getOrCreateBadge();
         badgeDrawable.setVisible(true);
@@ -115,6 +119,7 @@ public class HomeActivity extends AppCompatActivity {
             listFragment.add(fragment);
             fragmentTitle.add(title);
         }
+
 
         @NonNull
         @Override
