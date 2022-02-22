@@ -23,21 +23,21 @@
     </item>
     <item>
         <shape>
-            <padding android:top="0dp" android:right="0dp" android:bottom="2dp" android:left="0dp" />
+            <padding android:top="0dp" android:right="0dp" android:bottom="1dp" android:left="0dp" />
             <solid android:color="#30CCCCCC" />
             <corners android:radius="20dp" />
         </shape>
     </item>
     <item>
         <shape>
-            <padding android:top="0dp" android:right="0dp" android:bottom="2dp" android:left="0dp" />
+            <padding android:top="0dp" android:right="0dp" android:bottom="1dp" android:left="0dp" />
             <solid android:color="#40CCCCCC" />
             <corners android:radius="20dp" />
         </shape>
     </item>
     <item>
         <shape>
-            <padding android:top="0dp" android:right="0dp" android:bottom="2dp" android:left="0dp" />
+            <padding android:top="0dp" android:right="0dp" android:bottom="1dp" android:left="0dp" />
             <solid android:color="#50CCCCCC" />
             <corners android:radius="20dp" />
         </shape>
@@ -50,7 +50,7 @@
             <corners android:radius="20dp" />
         </shape>
     </item>
-2
+
     <!-- Background -->
     <item>
         <shape>

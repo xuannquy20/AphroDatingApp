@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f0f0f0"
-    android:padding="10dp"
+    android:paddingLeft="9.4dp"
+    android:paddingRight="9.4dp"
     tools:context=".HomeActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -17,20 +18,21 @@
         <TextView
             android:id="@+id/logo_aphro"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
+            android:layout_height="wrap_content"
             android:fontFamily="@font/rocksalt"
             android:gravity="center"
+            android:paddingTop="5dp"
             android:text="APHRO"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/layout_menu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#f0f0f0"
             app:tabIndicatorColor="@android:color/transparent"
             app:tabIndicatorHeight="0dp"
-            app:tabRippleColor="@android:color/transparent"
-            android:background="#f0f0f0">
+            app:tabRippleColor="@android:color/transparent">
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/option_match"
@@ -61,9 +63,9 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_paper"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="#f0f0f0"
-        android:paddingTop="20dp"
+        android:paddingTop="8dp"
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

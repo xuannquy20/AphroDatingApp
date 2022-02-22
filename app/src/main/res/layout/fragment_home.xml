@@ -193,14 +193,13 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="5">
+                android:layout_weight="1">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/button_skip"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_marginLeft="50dp"
-                    android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     app:cardCornerRadius="100dp"
                     app:cardElevation="5dp"
@@ -212,15 +211,13 @@
                         android:id="@+id/imageView3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/button_skip" />
+                        android:src="@drawable/skip" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/button_like"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:layout_marginTop="10dp"
                     android:layout_marginRight="50dp"
                     android:layout_marginBottom="10dp"
                     app:cardCornerRadius="100dp"
@@ -234,7 +231,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/button_like" />
+                        android:src="@drawable/heart" />
                 </androidx.cardview.widget.CardView>
 
             </androidx.constraintlayout.widget.ConstraintLayout>

@@ -60,8 +60,8 @@ public class IntroActivity extends AppCompatActivity {
                     UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
                 }
                 refCheck.get().addOnCompleteListener(task -> {
-                    UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
                     if (task.getResult().hasChild(UserDAO.CURRENT_USER_ID)) {
+                        UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
                         UserDAO.ORDER_NUMBER = task.getResult().child(UserDAO.CURRENT_USER_ID + "/order_number").getValue(Integer.class);
                         UserDAO.GENDER = task.getResult().child(UserDAO.CURRENT_USER_ID + "/gender").getValue(String.class);
                         refUser.get().addOnCompleteListener(task1 -> UserDAO.CURRENT_USER = task1.getResult().child(UserDAO.GENDER + "/" + UserDAO.ORDER_NUMBER + "/profile").getValue(User.class))
@@ -72,8 +72,7 @@ public class IntroActivity extends AppCompatActivity {
                                         storeRef.getFile(localFile).addOnSuccessListener(taskSnapshot -> {
                                             UserDAO.imageBitmap = BitmapFactory.decodeFile(localFile.getAbsolutePath());
                                         });
-                                    } catch (Exception e) {
-                                    }
+                                    } catch (Exception e) {}
                                 });
                     }
                 });
@@ -112,7 +111,7 @@ public class IntroActivity extends AppCompatActivity {
             animationIntro(imgLogo, imgLogo.getScaleY(), 10f, 1);
             animationIntro(imgLogo, 1f, 0f, 2);
             handler.postDelayed(() -> {
-                if (UserDAO.CURRENT_USER_ID != null && UserDAO.imageBitmap == null) {
+                if (UserDAO.CURRENT_USER.getId() != null && UserDAO.imageBitmap == null) {
                     LoadingDialog loadingDialog = new LoadingDialog(this);
                     loadingDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     loadingDialog.show();
@@ -122,6 +121,7 @@ public class IntroActivity extends AppCompatActivity {
                             Handler handler1 = new Handler();
                             handler1.postDelayed(() -> System.exit(0), 1800);
                         } else {
+                            loadingDialog.cancel();
                             nextActivity();
                         }
                     }, 5000);
@@ -140,7 +140,6 @@ public class IntroActivity extends AppCompatActivity {
     private void animationIntro(View view, float infoNum1, float infoNum2, int thing) {
         ValueAnimator move = ValueAnimator.ofFloat(infoNum1, infoNum2);
         move.setInterpolator(new AccelerateDecelerateInterpolator());
-
         move.setDuration(1000);
         move.addUpdateListener(animation -> {
             float progress = (float) animation.getAnimatedValue();

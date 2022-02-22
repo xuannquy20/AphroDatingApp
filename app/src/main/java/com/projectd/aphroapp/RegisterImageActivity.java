@@ -90,14 +90,6 @@ public class RegisterImageActivity extends AppCompatActivity {
                                     refSavePeople.child(UserDAO.CURRENT_USER_ID).child("order_number").setValue(count[0]);
                                     refSavePeople.child(UserDAO.CURRENT_USER_ID).child("gender").setValue(finalGender).addOnSuccessListener(unused2 -> {
                                         loading.cancel();
-                                        StorageReference storeRef = InternetDAO.storage.child(UserDAO.CURRENT_USER.getImage());
-                                        try {
-                                            File localFile = File.createTempFile(UserDAO.CURRENT_USER.getImage(), "png");
-                                            storeRef.getFile(localFile).addOnSuccessListener(taskSnapshot -> {
-                                                UserDAO.imageBitmap = BitmapFactory.decodeFile(localFile.getAbsolutePath());
-                                            });
-                                        } catch (Exception e) {
-                                        }
                                         AlertDialog.Builder builder = new AlertDialog.Builder(RegisterImageActivity.this);
                                         builder.setMessage("Chúc bạn tìm được một nửa của mình với Aphro!")
                                                 .setTitle("Hồ sơ đã hoàn thành")
@@ -132,6 +124,8 @@ public class RegisterImageActivity extends AppCompatActivity {
             if (data != null) {
                 uri = data.getData();
                 selectImage.setImageURI(uri);
+                selectImage.buildDrawingCache();
+                UserDAO.imageBitmap = selectImage.getDrawingCache();
             }
         }
         btnNext.setEnabled(true);

@@ -86,7 +86,7 @@ public class HomeFragment extends Fragment {
         imageShow.setImageBitmap(UserDAO.imageBitmap);
         imageHide.setImageBitmap(UserDAO.imageBitmap);
         layoutInfomation.setVisibility(View.GONE);
-        animationIntro(layoutMain, 0, 1, 1, 1000);
+        animationIntro(layoutMain, 0, 1, 1, 500);
         new Handler().postDelayed(() -> layoutInfomation.setVisibility(View.VISIBLE),1000);
         animationIntro(btnSkip, -500f, 0, 0, 1000);
         animationIntro(btnLike, 500f, 0, 0, 1000);
