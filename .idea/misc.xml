@@ -30,6 +30,8 @@
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable/logo_google.xml" value="0.2046875" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable/ripple_button.xml" value="0.2703125" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable/ripple_button_background.xml" value="0.1725" />
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable/tab_selected.xml" value="0.1555" />
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable/tabitem_select.xml" value="0.1555" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable/text_checked_radio.xml" value="0.1735" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/drawable/unchecked_radio.xml" value="0.1735" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/font/aclonica.xml" value="0.16197916666666667" />
@@ -38,7 +40,7 @@
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_chat_box.xml" value="0.24818840579710144" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_chat_item.xml" value="0.24818840579710144" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_chat_list.xml" value="0.2" />
-        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_intro.xml" value="0.24365942028985507" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/ProjectAndroid/AphroApp/app/src/main/res/layout/activity_main.xml" value="0.176" />

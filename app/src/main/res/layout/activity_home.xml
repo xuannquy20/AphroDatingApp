@@ -30,8 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#f0f0f0"
-            app:tabIndicatorColor="@android:color/transparent"
             app:tabIndicatorHeight="0dp"
+            app:tabIconTint="@color/tab_selected"
             app:tabRippleColor="@android:color/transparent">
 
             <com.google.android.material.tabs.TabItem
