@@ -1,6 +1,7 @@
 package com.projectd.aphroapp;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.ValueAnimator;
@@ -24,7 +25,9 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.StorageReference;
@@ -76,8 +79,7 @@ public class IntroActivity extends AppCompatActivity {
                                         storeRef.getFile(localFile).addOnSuccessListener(taskSnapshot -> {
                                             UserDAO.imageBitmap = BitmapFactory.decodeFile(localFile.getAbsolutePath());
                                         });
-                                    } catch (Exception e) {
-                                    }
+                                    } catch (Exception e) {}
                                 }).addOnSuccessListener(dataSnapshot -> refTotalUser.get().addOnCompleteListener(task1 -> {
                             String gender = "";
                             if (UserDAO.CURRENT_USER.isGenderFinding()) {
