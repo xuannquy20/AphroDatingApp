@@ -83,8 +83,8 @@ public class HomeFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         bindingView();
         bindingAction();
-        imageShow.setImageBitmap(UserDAO.imageBitmap);
-        imageHide.setImageBitmap(UserDAO.imageBitmap);
+        imageShow.setImageBitmap(UserDAO.imageUserFound.get(0));
+        imageHide.setImageBitmap(UserDAO.imageUserFound.get(0));
         layoutInfomation.setVisibility(View.GONE);
         animationIntro(layoutMain, 0, 1, 1, 500);
         new Handler().postDelayed(() -> layoutInfomation.setVisibility(View.VISIBLE),1000);
