@@ -73,11 +73,15 @@
         <activity
             android:name=".LoginActivity"
             android:exported="false"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IntroLogin"
+            />
         <activity
             android:name=".IntroActivity"
             android:exported="true"
-            android:screenOrientation="portrait">
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IntroLogin"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

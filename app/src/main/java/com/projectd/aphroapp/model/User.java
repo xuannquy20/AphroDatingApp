@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class User{
     private String id, name, city, district, ward, description, image;
     private boolean gender, genderFinding;
-    private int day, month, year;
+    private int day, month, year, orderNumber;
 
     public User(){}
 
@@ -22,6 +22,14 @@ public class User{
         this.day = day;
         this.month = month;
         this.year = year;
+    }
+
+    public int getOrderNumber() {
+        return orderNumber;
+    }
+
+    public void setOrderNumber(int orderNumber) {
+        this.orderNumber = orderNumber;
     }
 
     public String getId() {

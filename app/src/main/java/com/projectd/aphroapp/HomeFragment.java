@@ -13,14 +13,17 @@ import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.os.Handler;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
+import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -37,18 +40,16 @@ import com.projectd.aphroapp.dao.UserDAO;
 import com.projectd.aphroapp.model.User;
 
 import java.io.File;
+import java.util.Calendar;
 import java.util.Random;
 
 public class HomeFragment extends Fragment {
-    private ImageView imageShow, imageHide;
+    private ImageView imageShow, imageHide, imageCheckInfomation, imageWarning;
     private CardView btnSkip, btnLike;
     private LinearLayout layoutMain;
     private RelativeLayout layoutInfomation;
     private boolean checkInformation = false;
-    private TextView tutorialCheckInfomation;
-    DatabaseReference refCheck = FirebaseDatabase.getInstance().getReference().child("data_user");
-    DatabaseReference refUser = FirebaseDatabase.getInstance().getReference().child("user");
-    DatabaseReference refTotalUser = FirebaseDatabase.getInstance().getReference().child("total_user");
+    private TextView tutorialCheckInfomation, nameUser, nameUserHide, cityUser, addressUserHide, descriptionUser;
 
     private void bindingView() {
         imageShow = getView().findViewById(R.id.image_show);
@@ -58,15 +59,21 @@ public class HomeFragment extends Fragment {
         layoutInfomation = getView().findViewById(R.id.layout_infomation);
         imageHide = getView().findViewById(R.id.image_hide_infomation);
         tutorialCheckInfomation = getView().findViewById(R.id.txt_tutorial_infomation);
+        nameUser = getView().findViewById(R.id.user_name_found);
+        nameUserHide = getView().findViewById(R.id.user_name_found_hide);
+        cityUser = getView().findViewById(R.id.user_city_found);
+        addressUserHide = getView().findViewById(R.id.user_address_found_hide);
+        descriptionUser = getView().findViewById(R.id.user_description_found_hide);
+        imageCheckInfomation = getView().findViewById(R.id.image_icon_check_infomation);
+        imageWarning = getView().findViewById(R.id.image_warning);
     }
 
-    private void bindingAction(){
+    private void bindingAction() {
         layoutMain.setOnClickListener(v -> {
-            if(!checkInformation){
+            if (!checkInformation) {
                 animationIntro(layoutMain, 1, 0, 1, 300);
                 checkInformation = true;
-            }
-            else{
+            } else {
                 animationIntro(layoutMain, 0, 1, 1, 300);
                 checkInformation = false;
             }
@@ -76,120 +83,131 @@ public class HomeFragment extends Fragment {
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                imageShow.setImageBitmap(UserDAO.imageUserFound.get(1));
-                UserDAO.userFound.remove(0);
-                UserDAO.imageUserFound.remove(0);
-                getData();
+                clickReact(false);
             }
         });
 
         btnLike.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                imageShow.setImageBitmap(UserDAO.imageUserFound.get(1));
-                UserDAO.userFound.remove(0);
-                UserDAO.imageUserFound.remove(0);
-                getData();
+                clickReact(true);
             }
         });
     }
 
-    private void getData() {
-        refTotalUser.get().addOnCompleteListener(task1 -> {
-            String gender = "";
-            if (UserDAO.CURRENT_USER.isGenderFinding()) {
-                gender += "male";
+    private void clickReact(boolean isLike) {
+        btnLike.setEnabled(false);
+        btnSkip.setEnabled(false);
+        clickAnimation(isLike);
+    }
+
+    private void clickAnimation(boolean isLike) {
+        //Animation
+        animationIntro(btnLike, 1f, 0.2f, 1, 500);
+        animationIntro(btnSkip, 1f, 0.2f, 1, 500);
+
+        View view = null;
+        if (isLike) {
+            imageWarning.setImageResource(R.drawable.ic_heart);
+            view = btnLike;
+        } else {
+            imageWarning.setImageResource(R.drawable.ic_skip);
+            view = btnSkip;
+        }
+        animationIntro(view, 1, 1.2f, 2, 200);
+        animationIntro(view, 1, 1.2f, 3, 200);
+        View finalView = view;
+        new Handler().postDelayed(() -> {
+            animationIntro(finalView, 1.2f, 1, 2, 200);
+            animationIntro(finalView, 1.2f, 1, 3, 200);
+        }, 200);
+
+        imageWarning.setVisibility(View.VISIBLE);
+        animationIntro(imageWarning, 0f, 1f, 2, 300);
+        animationIntro(imageWarning, 0f, 1f, 3, 300);
+        animationIntro(imageWarning, 800f, 0f, 4, 300);
+        new Handler().postDelayed(() -> {
+            animationIntro(imageWarning, 1f, 0f, 2, 300);
+            animationIntro(imageWarning, 1f, 0f, 3, 300);
+            animationIntro(imageWarning, 0f, 800f, 4, 300);
+            if (isLike) {
+                animationIntro(imageShow, 0, 40, 5, 300);
+                animationIntro(imageShow, 0f, 1500f, 0, 300);
             } else {
-                gender += "female";
+                animationIntro(imageShow, 0, -40, 5, 300);
+                animationIntro(imageShow, 0f, -1500f, 0, 300);
             }
-            UserDAO.maxGenderFinding = task1.getResult().child(gender).getValue(Integer.class);
-        }).addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
-            @Override
-            public void onSuccess(DataSnapshot dataSnapshot) {
-                String gender = "";
-                if (UserDAO.CURRENT_USER.isGenderFinding()) {
-                    gender += "male";
-                } else {
-                    gender += "female";
-                }
-                boolean loop = true;
-                while (loop) {
-                    Random rd = new Random();
-                    int orderNumberFound = rd.nextInt(UserDAO.maxGenderFinding);
-                    if ((UserDAO.CURRENT_USER.isGenderFinding() == UserDAO.CURRENT_USER.isGender()) && orderNumberFound == UserDAO.ORDER_NUMBER) {
-                        continue;
-                    } else if (UserDAO.givedLike.size() == 0) {
-                        loop = false;
-                    } else {
-                        for (int i = 0; i < UserDAO.givedLike.size(); i++) {
-                            if (orderNumberFound == UserDAO.givedLike.get(i).getOrderNumber()) {
-                                break;
-                            } else if (i == UserDAO.givedLike.size() - 1) {
-                                loop = false;
-                            }
+            animationIntro(imageShow, 1f, 0f, 1, 300);
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    if (UserDAO.imageUserFound.size() > 1) {
+                        imageShow.setImageBitmap(UserDAO.imageUserFound.get(1));
+                        imageHide.setImageBitmap(UserDAO.imageUserFound.get(1));
+                        int age = Calendar.getInstance().get(Calendar.YEAR) - UserDAO.userFound.get(1).getYear();
+                        if (UserDAO.userFound.get(1).getMonth() < Calendar.getInstance().get(Calendar.MONTH)) {
+                            age--;
+                        } else if (UserDAO.userFound.get(1).getMonth() == Calendar.getInstance().get(Calendar.MONTH) && UserDAO.userFound.get(1).getDay() < Calendar.getInstance().get(Calendar.DAY_OF_MONTH)) {
+                            age--;
                         }
+                        String nameAge = UserDAO.userFound.get(1).getName() + ", " + age;
+                        nameUser.setText(nameAge);
+                        nameUserHide.setText(nameAge);
+                        cityUser.setText(UserDAO.userFound.get(1).getCity().substring(3));
+                        String address = UserDAO.userFound.get(1).getWard().substring(6) + ", " + UserDAO.userFound.get(1).getDistrict().substring(4) + ", " + cityUser.getText().toString();
+                        addressUserHide.setText(address);
+                        descriptionUser.setText(UserDAO.userFound.get(1).getDescription());
                     }
-                    if (loop == false) {
-                        String finalGender = gender;
-                        refUser.child(gender + "/" + orderNumberFound).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-                            @Override
-                            public void onComplete(@NonNull Task<DataSnapshot> task) {
-                                if (UserDAO.userFound.size() < 3) {
-                                    UserDAO.userFound.add(task.getResult().child("profile").getValue(User.class));
-                                }
-                            }
-                        }).addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
-                            @Override
-                            public void onSuccess(DataSnapshot dataSnapshot) {
-                                refUser.child(finalGender + "/" + orderNumberFound + "/profile/image").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-                                    @Override
-                                    public void onComplete(@NonNull Task<DataSnapshot> task) {
-                                        if (UserDAO.imageUserFound.size() < 3) {
-                                            String image = task.getResult().getValue(String.class);
-                                            StorageReference storeRef = InternetDAO.storage.child(image);
-                                            try {
-                                                File localFile = File.createTempFile(image, "png");
-                                                storeRef.getFile(localFile).addOnSuccessListener(taskSnapshot -> {
-                                                    UserDAO.imageUserFound.add(BitmapFactory.decodeFile(localFile.getAbsolutePath()));
-                                                });
-                                            } catch (Exception e) {
-                                            }
-                                        }
-                                    }
-                                });
-                            }
-                        });
+                    if (UserDAO.imageUserFound.size() > 0) {
+                        UserDAO.userFound.remove(0);
+                        UserDAO.imageUserFound.remove(0);
                     }
+                    if (UserDAO.listCanFind.size() > 0) {
+                        UserDAO.findRandomUser(1);
+                    }
+                    if (UserDAO.userFound.size() == 0) {
+                        imageShow.setImageResource(R.drawable.empty_match);
+                        nameUser.setText("");
+                        cityUser.setText("");
+                        layoutMain.setEnabled(false);
+                        tutorialCheckInfomation.setVisibility(View.GONE);
+                        imageCheckInfomation.setVisibility(View.GONE);
+                    }
+                    if (!isLike) {
+                        animationIntro(imageShow, -40, 0, 5, 300);
+                        animationIntro(imageShow, -1500f, 0f, 0, 300);
+                    } else {
+                        animationIntro(imageShow, 40, 0, 5, 300);
+                        animationIntro(imageShow, 1500f, 0f, 0, 300);
+                    }
+                    animationIntro(imageShow, 0f, 1f, 1, 500);
+                    animationEnableButton();
                 }
+            }, 300);
+        }, 1500);
+    }
+
+    private void animationEnableButton() {
+        try {
+            if ((UserDAO.imageUserFound.size() == 2) || (UserDAO.imageUserFound.size() == 1 && UserDAO.listCanFind.size() == 0)) {
+                btnLike.setEnabled(true);
+                btnSkip.setEnabled(true);
+                animationIntro(btnLike, 0.2f, 1f, 1, 500);
+                animationIntro(btnSkip, 0.2f, 1f, 1, 500);
+            } else if (UserDAO.imageUserFound.size() == 0) {
+                return;
+            } else {
+                Thread.sleep(100);
+                animationEnableButton();
             }
-        });
+        } catch (Exception e) {
+        }
     }
 
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
-        String gender = "";
-        if(UserDAO.CURRENT_USER.isGenderFinding()){
-            gender+="male";
-        }
-        else{
-            gender+="female";
-        }
-        refTotalUser.child(gender).addChildEventListener(new ChildEventListener() {
-            @Override
-            public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {}
-            @Override
-            public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-                UserDAO.maxGenderFinding = snapshot.getValue(Integer.class);
-            }
-            @Override
-            public void onChildRemoved(@NonNull DataSnapshot snapshot) {}
-            @Override
-            public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {}
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {}
-        });
-        getData();
+        UserDAO.findRandomUser(1);
     }
 
     @Override
@@ -215,13 +233,41 @@ public class HomeFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         bindingView();
         bindingAction();
-        imageShow.setImageBitmap(UserDAO.imageUserFound.get(0));
-        imageHide.setImageBitmap(UserDAO.imageUserFound.get(0));
+        if (UserDAO.imageUserFound.size() > 0) {
+            imageShow.setImageBitmap(UserDAO.imageUserFound.get(0));
+            imageHide.setImageBitmap(UserDAO.imageUserFound.get(0));
+            int age = Calendar.getInstance().get(Calendar.YEAR) - UserDAO.userFound.get(0).getYear();
+            if (UserDAO.userFound.get(0).getMonth() < Calendar.getInstance().get(Calendar.MONTH)) {
+                age--;
+            } else if (UserDAO.userFound.get(0).getMonth() == Calendar.getInstance().get(Calendar.MONTH) && UserDAO.userFound.get(0).getDay() < Calendar.getInstance().get(Calendar.DAY_OF_MONTH)) {
+                age--;
+            }
+            String nameAge = UserDAO.userFound.get(0).getName() + ", " + age;
+            nameUser.setText(nameAge);
+            nameUserHide.setText(nameAge);
+            cityUser.setText(UserDAO.userFound.get(0).getCity().substring(3));
+            String address = UserDAO.userFound.get(0).getWard().substring(6) + ", " + UserDAO.userFound.get(0).getDistrict().substring(4) + ", " + cityUser.getText().toString();
+            addressUserHide.setText(address);
+            descriptionUser.setText(UserDAO.userFound.get(0).getDescription());
+        } else {
+            imageShow.setImageResource(R.drawable.empty_match);
+            layoutMain.setEnabled(false);
+            nameUser.setText("");
+            cityUser.setText("");
+            tutorialCheckInfomation.setVisibility(View.GONE);
+            imageCheckInfomation.setVisibility(View.GONE);
+        }
         layoutInfomation.setVisibility(View.GONE);
         animationIntro(layoutMain, 0, 1, 1, 500);
-        new Handler().postDelayed(() -> layoutInfomation.setVisibility(View.VISIBLE),1000);
+        new Handler().postDelayed(() -> layoutInfomation.setVisibility(View.VISIBLE), 1000);
         animationIntro(btnSkip, -500f, 0, 0, 1000);
         animationIntro(btnLike, 500f, 0, 0, 1000);
+        if (UserDAO.imageUserFound.size() == 0) {
+            btnLike.setEnabled(false);
+            btnSkip.setEnabled(false);
+            btnLike.setAlpha(0.2f);
+            btnSkip.setAlpha(0.2f);
+        }
     }
 
     private void animationIntro(View view, float infoNum1, float infoNum2, int thing, int time) {
@@ -232,8 +278,17 @@ public class HomeFragment extends Fragment {
             float progress = (float) animation.getAnimatedValue();
             if (thing == 0) {
                 view.setTranslationX(progress);
-            }else if(thing == 1){
+            } else if (thing == 1) {
                 view.setAlpha(progress);
+            } else if (thing == 2) {
+                view.setScaleX(progress);
+            } else if (thing == 3) {
+                view.setScaleY(progress);
+            } else if (thing == 4) {
+                view.setTranslationY(progress);
+            }
+            else if(thing == 5){
+                view.setRotation(progress);
             }
         });
         move.start();

@@ -51,9 +51,6 @@ public class RegisterImageActivity extends AppCompatActivity {
     private ImageView selectImage;
     private Button btnNext;
     private Uri uri;
-    DatabaseReference refCheck = FirebaseDatabase.getInstance().getReference().child("data_user");
-    DatabaseReference refUser = FirebaseDatabase.getInstance().getReference().child("user");
-    DatabaseReference refTotalUser = FirebaseDatabase.getInstance().getReference().child("total_user");
 
     protected void bindingView() {
         txtInfo = findViewById(R.id.txtInfo);
@@ -96,114 +93,52 @@ public class RegisterImageActivity extends AppCompatActivity {
                                 refCount.child(finalGender).setValue(count[0] + 1).addOnSuccessListener(unused1 -> {
                                     refSavePeople.child(UserDAO.CURRENT_USER_ID).child("order_number").setValue(count[0]);
                                     refSavePeople.child(UserDAO.CURRENT_USER_ID).child("gender").setValue(finalGender).addOnSuccessListener(unused2 -> {
+                                        UserDAO.findRandomUser(0);
+                                        new Thread(new Runnable() {
+                                            @Override
+                                            public void run() {
+                                                while(true) {
+                                                    try {
+                                                        if (UserDAO.imageUserFound.size() > 0) {
+                                                            loading.cancel();
+                                                            AlertDialog.Builder builder = new AlertDialog.Builder(RegisterImageActivity.this);
+                                                            builder.setMessage("Chúc bạn tìm được một nửa của mình với Aphro!")
+                                                                    .setTitle("Hồ sơ đã hoàn thành")
+                                                                    .create().show();
+                                                            new Handler().postDelayed(new Runnable() {
+                                                                @Override
+                                                                public void run() {
+                                                                    Intent i = new Intent(RegisterImageActivity.this, HomeActivity.class);
+                                                                    startActivity(i);
+                                                                    finish();
+                                                                }
+                                                            }, 2000);
+                                                            break;
+                                                        }
+                                                        Thread.sleep(100);
+                                                    } catch (Exception e) {
+                                                    }
+                                                }
+                                            }
+                                        });
+                                    }).addOnFailureListener(e -> {
                                         loading.cancel();
                                         AlertDialog.Builder builder = new AlertDialog.Builder(RegisterImageActivity.this);
-                                        builder.setMessage("Chúc bạn tìm được một nửa của mình với Aphro!")
-                                                .setTitle("Hồ sơ đã hoàn thành")
+                                        builder.setMessage("Đã xảy ra lỗi trong quá trình tạo tài khoản, vui lòng kiểm tra lại đường truyền mạng!")
+                                                .setTitle("Lỗi không xác định")
                                                 .create().show();
-                                        getData();
                                         new Handler().postDelayed(() -> {
-                                            loading.show();
-                                            if(UserDAO.imageUserFound.size() > 0){
-                                                Intent i = new Intent(this, HomeActivity.class);
-                                                startActivity(i);
-                                            }
-                                            else{
-                                                Toast.makeText(this, "Mạng yếu, quay lại sau", Toast.LENGTH_LONG).show();
-                                                Handler handler1 = new Handler();
-                                                handler1.postDelayed(() -> System.exit(0), 1800);
-                                            }
-                                        }, 10000);
+                                            Intent i = new Intent(RegisterImageActivity.this, RegisterNameActivity.class);
+                                            startActivity(i);
+                                        }, 2000);
                                     });
                                 });
-                            }).addOnFailureListener(e -> {
-                                loading.cancel();
-                                AlertDialog.Builder builder = new AlertDialog.Builder(RegisterImageActivity.this);
-                                builder.setMessage("Đã xảy ra lỗi trong quá trình tạo tài khoản, vui lòng kiểm tra lại đường truyền mạng!")
-                                        .setTitle("Lỗi không xác định")
-                                        .create().show();
-                                new Handler().postDelayed(() -> {
-                                    Intent i = new Intent(RegisterImageActivity.this, RegisterNameActivity.class);
-                                    startActivity(i);
-                                }, 2000);
                             });
                         });
                     });
                 }
         );
     }
-
-    private void getData() {
-        refTotalUser.get().addOnCompleteListener(task1 -> {
-            String gender = "";
-            if (UserDAO.CURRENT_USER.isGenderFinding()) {
-                gender += "male";
-            } else {
-                gender += "female";
-            }
-            UserDAO.maxGenderFinding = task1.getResult().child(gender).getValue(Integer.class);
-        }).addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
-            @Override
-            public void onSuccess(DataSnapshot dataSnapshot) {
-                String gender = "";
-                if (UserDAO.CURRENT_USER.isGenderFinding()) {
-                    gender += "male";
-                } else {
-                    gender += "female";
-                }
-                boolean loop = true;
-                while (loop) {
-                    Random rd = new Random();
-                    int orderNumberFound = rd.nextInt(UserDAO.maxGenderFinding);
-                    if ((UserDAO.CURRENT_USER.isGenderFinding() == UserDAO.CURRENT_USER.isGender()) && orderNumberFound == UserDAO.ORDER_NUMBER) {
-                        continue;
-                    } else if (UserDAO.givedLike.size() == 0) {
-                        loop = false;
-                    } else {
-                        for (int i = 0; i < UserDAO.givedLike.size(); i++) {
-                            if (orderNumberFound == UserDAO.givedLike.get(i).getOrderNumber()) {
-                                break;
-                            } else if (i == UserDAO.givedLike.size() - 1) {
-                                loop = false;
-                            }
-                        }
-                    }
-                    if (loop == false) {
-                        String finalGender = gender;
-                        refUser.child(gender + "/" + orderNumberFound).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-                            @Override
-                            public void onComplete(@NonNull Task<DataSnapshot> task) {
-                                if (UserDAO.userFound.size() < 1) {
-                                    UserDAO.userFound.add(task.getResult().child("profile").getValue(User.class));
-                                }
-                            }
-                        }).addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
-                            @Override
-                            public void onSuccess(DataSnapshot dataSnapshot) {
-                                refUser.child(finalGender + "/" + orderNumberFound + "/profile/image").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-                                    @Override
-                                    public void onComplete(@NonNull Task<DataSnapshot> task) {
-                                        if (UserDAO.imageUserFound.size() < 1) {
-                                            String image = task.getResult().getValue(String.class);
-                                            StorageReference storeRef = InternetDAO.storage.child(image);
-                                            try {
-                                                File localFile = File.createTempFile(image, "png");
-                                                storeRef.getFile(localFile).addOnSuccessListener(taskSnapshot -> {
-                                                    UserDAO.imageUserFound.add(BitmapFactory.decodeFile(localFile.getAbsolutePath()));
-                                                });
-                                            } catch (Exception e) {
-                                            }
-                                        }
-                                    }
-                                });
-                            }
-                        });
-                    }
-                }
-            }
-        });
-    }
-
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
