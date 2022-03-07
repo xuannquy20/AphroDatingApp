@@ -1,41 +1,27 @@
 package com.projectd.aphroapp;
 
+import android.app.Activity;
 import android.content.Context;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseReference;
-import com.projectd.aphroapp.dao.InternetDAO;
-import com.projectd.aphroapp.model.User;
+import com.projectd.aphroapp.dao.UserDAO;
+import com.projectd.aphroapp.model.ChatBox;
 
-import java.util.LinkedList;
 
 public class ChatListFragment extends Fragment {
     RecyclerView recyclerView;
-    LinkedList words = new LinkedList();
-    DatabaseReference ref = InternetDAO.database.child("user/male");
-
-    protected void getData(Context context){
-        ref.get().addOnCompleteListener(task -> {
-            for(DataSnapshot ds : task.getResult().getChildren()){
-                User u = ds.child("profile").getValue(User.class);
-                words.add(u);
-            }
-            ChatListAdapter adapter = new ChatListAdapter(context, words);
-            recyclerView.setAdapter(adapter);
-            recyclerView.setLayoutManager(new LinearLayoutManager(context));
-        });
-    }
+    public static ChatListAdapter adapter;
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -45,14 +31,38 @@ public class ChatListFragment extends Fragment {
     }
 
     @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        recyclerView = getView().findViewById(R.id.chat_list);
+        if (adapter == null) {
+            adapter = new ChatListAdapter(getActivity(), UserDAO.listChat);
+        }
+        if (recyclerView.getAdapter() == null && UserDAO.listChat.size() > 0) {
+            recyclerView.setAdapter(adapter);
+            recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        }
+    }
+
+//    public static void swapItems(int itemAIndex) {
+//        ChatBox item = ChatListAdapter.wordList.get(itemAIndex);
+//        ChatListAdapter.wordList.remove(item);
+//        ChatListAdapter.wordList.push(item);
+//
+//        for(int i = 0; i<ChatListAdapter.wordList.size(); i++){
+//            adapter.notifyItemChanged(i);
+//        }
+//    }
+
+
+    @Override
     public void onStart() {
         super.onStart();
-        recyclerView = getView().findViewById(R.id.chat_list);
+
     }
 
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
-        getData(context);
     }
+
 }

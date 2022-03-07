@@ -1,13 +1,21 @@
 package com.projectd.aphroapp.model;
 
-import java.io.Serializable;
+
 
 public class User{
     private String id, name, city, district, ward, description, image;
     private boolean gender, genderFinding;
-    private int day, month, year, orderNumber;
+    private int day, month, year, orderNumber, age;
 
     public User(){}
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     public User(String id, String name, String city, String district, String ward, String description, String image, boolean gender, boolean genderFinding, int day, int month, int year) {
         this.id = id;

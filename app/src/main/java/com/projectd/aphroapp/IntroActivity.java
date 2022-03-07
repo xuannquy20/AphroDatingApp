@@ -63,6 +63,7 @@ public class IntroActivity extends AppCompatActivity {
                 } else {
                     UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
                 }
+                UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
                 UserDAO.getDataUser();
             }
         } else {
@@ -81,8 +82,13 @@ public class IntroActivity extends AppCompatActivity {
             Intent i = new Intent(IntroActivity.this, RegisterNameActivity.class);
             startActivity(i);
             finish();
-        } else {
+        } else if(UserDAO.CURRENT_USER.getAge() >= 18){
             Intent i = new Intent(IntroActivity.this, HomeActivity.class);
+            startActivity(i);
+            finish();
+        }
+        else{
+            Intent i = new Intent(IntroActivity.this, AccountUnder18Activity.class);
             startActivity(i);
             finish();
         }
@@ -91,8 +97,8 @@ public class IntroActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        animationIntro(imgLogo, 0f, 0.8f, 0);
-        animationIntro(imgLogo, 0f, 0.8f, 1);
+        animationIntro(imgLogo, 0f, 1f, 0);
+        animationIntro(imgLogo, 0f, 1f, 1);
         Handler handler = new Handler();
         handler.postDelayed(() -> {
             animationIntro(imgLogo, imgLogo.getScaleX(), 10f, 0);
@@ -109,13 +115,13 @@ public class IntroActivity extends AppCompatActivity {
                         public void run() {
                             while (true) {
                                 try {
-                                    if (UserDAO.CURRENT_USER.getId() != null && UserDAO.imageUserFound.size() == 0) {
-                                        Toast.makeText(IntroActivity.this, "Mạng yếu, vui lòng chờ", Toast.LENGTH_LONG).show();
+                                    if (UserDAO.CURRENT_USER.getId() != null && !UserDAO.getDataComplete) {
+                                        Thread.sleep(100);
                                     } else {
+                                        loadingDialog.cancel();
                                         nextActivity();
                                         break;
                                     }
-                                    Thread.sleep(100);
                                 } catch (Exception e) {}
                             }
                         }

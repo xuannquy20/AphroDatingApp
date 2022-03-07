@@ -2,6 +2,7 @@ package com.projectd.aphroapp;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
@@ -33,15 +34,21 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FileDownloadTask;
 import com.google.firebase.storage.StorageReference;
 import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
+import com.projectd.aphroapp.model.ChatBox;
+import com.projectd.aphroapp.model.ReactUser;
 import com.projectd.aphroapp.model.User;
 
 import java.io.File;
 import java.util.Calendar;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Random;
+import java.util.UUID;
 
 public class HomeFragment extends Fragment {
     private ImageView imageShow, imageHide, imageCheckInfomation, imageWarning;
@@ -90,6 +97,7 @@ public class HomeFragment extends Fragment {
         btnLike.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                saveLikeToDatabase(UserDAO.userFound.get(0), UserDAO.CURRENT_USER_ID);
                 clickReact(true);
             }
         });
@@ -142,6 +150,7 @@ public class HomeFragment extends Fragment {
                 @Override
                 public void run() {
                     if (UserDAO.imageUserFound.size() > 1) {
+                        imageShow.setScaleType(ImageView.ScaleType.CENTER_CROP);
                         imageShow.setImageBitmap(UserDAO.imageUserFound.get(1));
                         imageHide.setImageBitmap(UserDAO.imageUserFound.get(1));
                         int age = Calendar.getInstance().get(Calendar.YEAR) - UserDAO.userFound.get(1).getYear();
@@ -166,6 +175,7 @@ public class HomeFragment extends Fragment {
                         UserDAO.findRandomUser(1);
                     }
                     if (UserDAO.userFound.size() == 0) {
+                        imageShow.setScaleType(ImageView.ScaleType.FIT_CENTER);
                         imageShow.setImageResource(R.drawable.empty_match);
                         nameUser.setText("");
                         cityUser.setText("");
@@ -184,7 +194,87 @@ public class HomeFragment extends Fragment {
                     animationEnableButton();
                 }
             }, 300);
-        }, 1500);
+        }, 1000);
+    }
+
+    private void saveLikeToDatabase(User userFound, String id) {
+        DatabaseReference giveUser = UserDAO.refCheck.child(id + "/react/give/" + UserDAO.GENDER_FINDING);
+        ReactUser newAdd = new ReactUser(userFound.getOrderNumber(), UserDAO.CURRENT_USER.isGenderFinding());
+        UserDAO.givedLike.add(newAdd);
+        final long[] count = {0};
+        giveUser.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                count[0] = snapshot.getChildrenCount();
+                giveUser.child(count[0] + "").setValue(newAdd);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+            }
+        });
+
+        String[] idWhoTake = {""};
+        DatabaseReference userTake = UserDAO.refUser.child(UserDAO.GENDER_FINDING + "/" + userFound.getOrderNumber() + "/profile");
+        userTake.get().addOnCompleteListener(task -> {
+            idWhoTake[0] = task.getResult().child("id").getValue(String.class);
+            int[] size = {-1};
+            DatabaseReference saveTake = UserDAO.refCheck.child(idWhoTake[0] + "/react/take/" + UserDAO.GENDER);
+            saveTake.get().addOnCompleteListener(task1 -> {
+                size[0] = (int) task1.getResult().getChildrenCount();
+                ReactUser ru = new ReactUser(UserDAO.CURRENT_USER.getOrderNumber(), UserDAO.CURRENT_USER.isGender());
+                saveTake.child(size[0] + "").setValue(ru);
+            });
+        });
+
+        if (checkIsMatch(userFound)) {
+            UUID uuid = UUID.randomUUID();
+            UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                @Override
+                public void onComplete(@NonNull Task<DataSnapshot> task) {
+                    long size = task.getResult().getChildrenCount();
+                    ChatBox chatBox = new ChatBox();
+                    chatBox.setIdRoom(uuid.toString());
+                    chatBox.setIdUser(userFound.getId());
+                    chatBox.setNameUser(userFound.getName());
+                    chatBox.setReaded(false);
+                    UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + size + "/idRoom").setValue(uuid.toString());
+                    UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + size + "/idUser").setValue(userFound.getId());
+                    UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + size + "/nameUser").setValue(userFound.getName());
+                    UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + size + "/readed").setValue(false);
+                    UserDAO.listChat.add(chatBox);
+                    Collections.sort(UserDAO.listChat, (o1, o2) -> Boolean.compare(o2.isReaded(), o1.isReaded()));
+                    if(ChatListFragment.adapter != null){
+                        ChatListFragment.adapter.notifyItemInserted(UserDAO.listChat.size() - 1);
+                    }
+                    UserDAO.refCheck.child(userFound.getId() + "/chat_room").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                        @Override
+                        public void onComplete(@NonNull Task<DataSnapshot> task) {
+                            long size = task.getResult().getChildrenCount();
+                            UserDAO.refCheck.child(userFound.getId() + "/chat_room/" + size + "/idRoom").setValue(uuid.toString());
+                            UserDAO.refCheck.child(userFound.getId() + "/chat_room/" + size + "/idUser").setValue(UserDAO.CURRENT_USER_ID);
+                            UserDAO.refCheck.child(userFound.getId() + "/chat_room/" + size + "/nameUser").setValue(UserDAO.CURRENT_USER.getName());
+                            UserDAO.refCheck.child(userFound.getId() + "/chat_room/" + size + "/readed").setValue(false);
+                        }
+                    }).addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
+                        @Override
+                        public void onSuccess(DataSnapshot dataSnapshot) {
+                            Intent i = new Intent(getActivity(), MatchSuccessActivity.class);
+                            startActivity(i);
+                        }
+                    });
+                }
+            });
+        }
+    }
+
+    private boolean checkIsMatch(User userFound) {
+        for (int i = 0; i < UserDAO.takedLike.size(); i++) {
+            if (userFound.getOrderNumber() == UserDAO.takedLike.get(i).getOrderNumber()) {
+                return true;
+            }
+        }
+        return false;
     }
 
     private void animationEnableButton() {
@@ -234,6 +324,7 @@ public class HomeFragment extends Fragment {
         bindingView();
         bindingAction();
         if (UserDAO.imageUserFound.size() > 0) {
+            imageShow.setScaleType(ImageView.ScaleType.CENTER_CROP);
             imageShow.setImageBitmap(UserDAO.imageUserFound.get(0));
             imageHide.setImageBitmap(UserDAO.imageUserFound.get(0));
             int age = Calendar.getInstance().get(Calendar.YEAR) - UserDAO.userFound.get(0).getYear();
@@ -250,6 +341,7 @@ public class HomeFragment extends Fragment {
             addressUserHide.setText(address);
             descriptionUser.setText(UserDAO.userFound.get(0).getDescription());
         } else {
+            imageShow.setScaleType(ImageView.ScaleType.FIT_CENTER);
             imageShow.setImageResource(R.drawable.empty_match);
             layoutMain.setEnabled(false);
             nameUser.setText("");
@@ -286,8 +378,7 @@ public class HomeFragment extends Fragment {
                 view.setScaleY(progress);
             } else if (thing == 4) {
                 view.setTranslationY(progress);
-            }
-            else if(thing == 5){
+            } else if (thing == 5) {
                 view.setRotation(progress);
             }
         });

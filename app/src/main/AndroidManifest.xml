@@ -3,9 +3,6 @@
     package="com.projectd.aphroapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -15,27 +12,56 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AphroApp">
         <activity
+            android:name=".ChatActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Register"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AccountUnder18Activity"
+            android:exported="false"
+            android:theme="@style/Theme.Register"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RegisterSuccessActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Register"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MatchSuccessActivity"
+            android:exported="false"
+            android:theme="@style/Theme.IntroLogin"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name=".RegisterDescriptionActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Register"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".RegisterImageActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Register"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".RegisterAddressActivity"
             android:exported="false"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Register" />
         <activity
             android:name=".RegisterBirthDateActivity"
             android:exported="false"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Register" />
         <activity
             android:name=".RegisterGenderActivity"
             android:exported="false"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Register" />
         <activity
             android:name=".RegisterNameActivity"
             android:exported="false"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Register" />
         <activity
             android:name=".RuleActivity"
             android:exported="false"
@@ -74,14 +100,12 @@
             android:name=".LoginActivity"
             android:exported="false"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.IntroLogin"
-            />
+            android:theme="@style/Theme.IntroLogin" />
         <activity
             android:name=".IntroActivity"
             android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.IntroLogin"
-            >
+            android:theme="@style/Theme.IntroLogin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

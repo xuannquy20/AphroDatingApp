@@ -76,7 +76,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void bindingActionListener() {
         btnFacebookSignIn.setOnClickListener(view -> LoginManager.getInstance().logInWithReadPermissions(LoginActivity.this, Arrays.asList("public_profile")));
-        ruleLink.setOnClickListener(view -> startActivity(new Intent(LoginActivity.this, HomeActivity.class)));
+        ruleLink.setOnClickListener(view -> startActivity(new Intent(LoginActivity.this, RegisterSuccessActivity.class)));
         btnGoogleSignIn.setOnClickListener(view -> signInGoogle());
     }
 
@@ -84,6 +84,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
         bindingView();
         GoogleSignInOptions googleSignIn = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail().build();
@@ -98,10 +99,24 @@ public class LoginActivity extends AppCompatActivity {
                     public void onSuccess(LoginResult loginResult) {
                         UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
                         UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
-                        UserDAO.findRandomUser(0);
+                        UserDAO.getDataUser();
                         LoadingDialog loadingDialog = new LoadingDialog(LoginActivity.this);
                         loadingDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                         loadingDialog.show();
+                        new Thread(() -> {
+                            while (true) {
+                                try {
+                                    if (UserDAO.getDataComplete) {
+                                        loadingDialog.cancel();
+                                        nextActivity();
+                                        break;
+                                    } else {
+                                        Thread.sleep(100);
+                                    }
+                                } catch (Exception e) {
+                                }
+                            }
+                        }).start();
                     }
 
                     @Override
@@ -119,15 +134,16 @@ public class LoginActivity extends AppCompatActivity {
 
     private void nextActivity() {
         if (UserDAO.ORDER_NUMBER == -1) {
-            Intent i = new Intent(this, LoginActivity.class);
-            startActivity(i);
-            finish();
-        } else if (UserDAO.ORDER_NUMBER == -1) {
             Intent i = new Intent(this, RegisterNameActivity.class);
             startActivity(i);
             finish();
-        } else {
+        } else if(UserDAO.CURRENT_USER.getAge() >= 18){
             Intent i = new Intent(this, HomeActivity.class);
+            startActivity(i);
+            finish();
+        }
+        else{
+            Intent i = new Intent(this, AccountUnder18Activity.class);
             startActivity(i);
             finish();
         }
@@ -140,27 +156,24 @@ public class LoginActivity extends AppCompatActivity {
             GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(LoginActivity.this);
             UserDAO.CURRENT_USER_ID = account.getId();
             UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
-            UserDAO.findRandomUser(0);
+            UserDAO.getDataUser();
             LoadingDialog loadingDialog = new LoadingDialog(this);
             loadingDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
             loadingDialog.show();
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    if (UserDAO.CURRENT_USER.getId() != null && (UserDAO.imageBitmap == null || UserDAO.imageUserFound.size() < 1)) {
-                        if (UserDAO.imageUserFound.size() < 1) {
-                            Toast.makeText(LoginActivity.this, "Mạng yếu, thử lại sau", Toast.LENGTH_LONG).show();
-                            Handler handler1 = new Handler();
-                            handler1.postDelayed(() -> System.exit(0), 1800);
-                        } else {
+            new Thread(() -> {
+                while (true) {
+                    try {
+                        if (UserDAO.getDataComplete) {
                             loadingDialog.cancel();
                             nextActivity();
+                            break;
+                        } else {
+                            Thread.sleep(100);
                         }
-                    } else {
-                        nextActivity();
+                    } catch (Exception e) {
                     }
                 }
-            }, 10000);
+            }).start();
 
         } else {
             callbackManager.onActivityResult(requestCode, resultCode, data);

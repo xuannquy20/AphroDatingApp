@@ -4,12 +4,18 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.animation.ValueAnimator;
+import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -35,6 +41,11 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.tabs.TabLayout;
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.projectd.aphroapp.dao.UserDAO;
+import com.projectd.aphroapp.model.ReactUser;
 
 import java.security.MessageDigest;
 import java.util.ArrayList;
@@ -86,14 +97,64 @@ public class HomeActivity extends AppCompatActivity {
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_chat);
         tabLayout.getTabAt(2).setIcon(R.drawable.ic_profile);
 
-        BadgeDrawable badgeDrawable = tabLayout.getTabAt(1).getOrCreateBadge();
-        badgeDrawable.setVisible(true);
-        badgeDrawable.setNumber(2);
-    }
+//        BadgeDrawable badgeDrawable = tabLayout.getTabAt(1).getOrCreateBadge();
+//        badgeDrawable.setVisible(true);
 
-    @Override
-    protected void onStart() {
-        super.onStart();
+        ChildEventListener eventGetNewTake = new ChildEventListener() {
+            @Override
+            public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+                ReactUser newTake = snapshot.getValue(ReactUser.class);
+                UserDAO.takedLike.add(newTake);
+                for(int i = 0; i < UserDAO.givedLike.size(); i++){
+                    if(UserDAO.givedLike.get(i).getOrderNumber() == newTake.getOrderNumber()){
+//                        Intent intent = new Intent(this, MainActivity.class);
+//                        intent.putExtra("key1", "value1");
+//                        PendingIntent pending = PendingIntent.getActivity(
+//                                this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                        NotificationCompat.Builder builder = new NotificationCompat.Builder(HomeActivity.this, "New Match");
+                        Notification notification = builder
+                                .setContentTitle("Gắn kết mới")
+                                .setContentText("Bạn có thêm người gắn kết mới, kiểm tra ngay")
+                                .setPriority(NotificationCompat.PRIORITY_MAX)
+                                //.setContentIntent(pending)
+                                .setAutoCancel(true)
+                                .setStyle(new NotificationCompat.BigTextStyle()
+                                        .bigText("Bạn có thêm người gắn kết mới, kiểm tra ngay"))
+                                .build();
+                        NotificationManagerCompat manager = NotificationManagerCompat.from(HomeActivity.this);
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                            NotificationChannel notificationChannel =
+                                    new NotificationChannel("New Match", "Channel Notify ver 8+",
+                                            NotificationManager.IMPORTANCE_DEFAULT);
+                            manager.createNotificationChannel(notificationChannel);
+                        }
+                        manager.notify(newTake.getOrderNumber(), notification);
+                        break;
+                    }
+                }
+            }
+
+            @Override
+            public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+
+            }
+
+            @Override
+            public void onChildRemoved(@NonNull DataSnapshot snapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        };
+        UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/react/take" + UserDAO.GENDER_FINDING).addChildEventListener(eventGetNewTake);
     }
 
     private void animationIntro(View view, float infoNum1, float infoNum2) {

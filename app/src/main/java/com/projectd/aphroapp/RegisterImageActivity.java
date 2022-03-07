@@ -16,6 +16,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
 import android.media.Image;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
@@ -44,6 +45,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
+import java.util.Calendar;
 import java.util.Random;
 
 public class RegisterImageActivity extends AppCompatActivity {
@@ -70,74 +72,72 @@ public class RegisterImageActivity extends AppCompatActivity {
             }
         });
 
-        btnNext.setOnClickListener(v -> {
-                    LoadingDialog loading = new LoadingDialog(this);
-                    loading.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-                    loading.show();
-                    UserDAO.CURRENT_USER.setImage(UserDAO.CURRENT_USER_ID);
-                    String gender = "";
-                    if (UserDAO.CURRENT_USER.isGender()) {
-                        gender = "male";
-                    } else {
-                        gender = "female";
-                    }
-                    DatabaseReference refCount = InternetDAO.database.child("total_user");
-                    DatabaseReference refSavePeople = InternetDAO.database.child("data_user");
-                    final int[] count = {0};
-                    String finalGender = gender;
-                    refCount.child(gender).get().addOnCompleteListener(task -> count[0] = task.getResult().getValue(Integer.class)).addOnSuccessListener(dataSnapshot -> {
-                        DatabaseReference ref = InternetDAO.database.child("user/" + finalGender + "/" + count[0] + "/profile");
-                        ref.setValue(UserDAO.CURRENT_USER).addOnSuccessListener(unused -> {
-                            StorageReference upImage = InternetDAO.storage.child(UserDAO.CURRENT_USER_ID);
-                            upImage.putFile(uri).addOnSuccessListener(task -> {
-                                refCount.child(finalGender).setValue(count[0] + 1).addOnSuccessListener(unused1 -> {
-                                    refSavePeople.child(UserDAO.CURRENT_USER_ID).child("order_number").setValue(count[0]);
-                                    refSavePeople.child(UserDAO.CURRENT_USER_ID).child("gender").setValue(finalGender).addOnSuccessListener(unused2 -> {
-                                        UserDAO.findRandomUser(0);
-                                        new Thread(new Runnable() {
-                                            @Override
-                                            public void run() {
-                                                while(true) {
-                                                    try {
-                                                        if (UserDAO.imageUserFound.size() > 0) {
-                                                            loading.cancel();
-                                                            AlertDialog.Builder builder = new AlertDialog.Builder(RegisterImageActivity.this);
-                                                            builder.setMessage("Chúc bạn tìm được một nửa của mình với Aphro!")
-                                                                    .setTitle("Hồ sơ đã hoàn thành")
-                                                                    .create().show();
-                                                            new Handler().postDelayed(new Runnable() {
-                                                                @Override
-                                                                public void run() {
-                                                                    Intent i = new Intent(RegisterImageActivity.this, HomeActivity.class);
-                                                                    startActivity(i);
-                                                                    finish();
-                                                                }
-                                                            }, 2000);
-                                                            break;
-                                                        }
-                                                        Thread.sleep(100);
-                                                    } catch (Exception e) {
-                                                    }
-                                                }
-                                            }
-                                        });
-                                    }).addOnFailureListener(e -> {
-                                        loading.cancel();
-                                        AlertDialog.Builder builder = new AlertDialog.Builder(RegisterImageActivity.this);
-                                        builder.setMessage("Đã xảy ra lỗi trong quá trình tạo tài khoản, vui lòng kiểm tra lại đường truyền mạng!")
-                                                .setTitle("Lỗi không xác định")
-                                                .create().show();
-                                        new Handler().postDelayed(() -> {
-                                            Intent i = new Intent(RegisterImageActivity.this, RegisterNameActivity.class);
-                                            startActivity(i);
-                                        }, 2000);
-                                    });
-                                });
-                            });
-                        });
-                    });
+        btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LoadingDialog loadingDialog = new LoadingDialog(RegisterImageActivity.this);
+                loadingDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                loadingDialog.show();
+
+                UserDAO.CURRENT_USER.setImage(UserDAO.CURRENT_USER_ID);
+                String gender = "";
+                if (UserDAO.CURRENT_USER.isGender()) {
+                    gender = "male";
+                } else {
+                    gender = "female";
                 }
-        );
+                DatabaseReference refCount = InternetDAO.database.child("total_user");
+                DatabaseReference refSavePeople = InternetDAO.database.child("data_user");
+                final int[] count = {0};
+                String finalGender = gender;
+                refCount.child(gender).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<DataSnapshot> task) {
+                        count[0] = task.getResult().getValue(Integer.class);
+                    }
+                }).addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
+                    @Override
+                    public void onSuccess(DataSnapshot dataSnapshot) {
+                        DatabaseReference ref = InternetDAO.database.child("user/" + finalGender + "/" + count[0] + "/profile");
+                        UserDAO.CURRENT_USER.setOrderNumber(count[0]);
+                        UserDAO.ORDER_NUMBER = count[0];
+                        ref.setValue(UserDAO.CURRENT_USER);
+                        StorageReference upImage = InternetDAO.storage.child(UserDAO.CURRENT_USER_ID);
+                        upImage.putFile(uri);
+                        refCount.child(finalGender).setValue(count[0] + 1);
+                        refSavePeople.child(UserDAO.CURRENT_USER_ID).child("order_number").setValue(count[0]);
+                        refSavePeople.child(UserDAO.CURRENT_USER_ID).child("gender").setValue(finalGender).addOnSuccessListener(new OnSuccessListener<Void>() {
+                            @Override
+                            public void onSuccess(Void unused) {
+                                UserDAO.getOrderNumberCanFind();
+                                new Thread(() -> {
+                                    try{
+                                        while(true){
+                                            if (UserDAO.getDataComplete) {
+                                                loadingDialog.cancel();
+                                                Intent i;
+                                                if (UserDAO.age >= 18) {
+                                                    i = new Intent(RegisterImageActivity.this, RegisterSuccessActivity.class);
+                                                } else {
+                                                    i = new Intent(RegisterImageActivity.this, AccountUnder18Activity.class);
+                                                }
+                                                startActivity(i);
+                                                finish();
+                                                break;
+                                            }
+                                            else{
+                                                Thread.sleep(100);
+                                            }
+                                        }
+                                    }
+                                    catch (Exception e){e.printStackTrace();}
+                                }).start();
+                            }
+                        });
+                    }
+                });
+            }
+        });
     }
 
     @Override
@@ -159,6 +159,7 @@ public class RegisterImageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_image);
+
         bindingView();
         bindingAciton();
         animationIntro(txtInfo, -500, 800, true);

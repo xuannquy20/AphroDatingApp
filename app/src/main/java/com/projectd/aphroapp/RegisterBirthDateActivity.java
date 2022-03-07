@@ -189,6 +189,14 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
                 UserDAO.CURRENT_USER.setDay(Integer.parseInt(selectDay.getSelectedItem().toString()));
                 UserDAO.CURRENT_USER.setMonth(Integer.parseInt(selectMonth.getSelectedItem().toString()));
                 UserDAO.CURRENT_USER.setYear(Integer.parseInt(selectYear.getSelectedItem().toString()));
+                int age = Calendar.getInstance().get(Calendar.YEAR) - UserDAO.CURRENT_USER.getYear();
+                if (UserDAO.CURRENT_USER.getMonth() < Calendar.getInstance().get(Calendar.MONTH)) {
+                    age--;
+                } else if (UserDAO.CURRENT_USER.getMonth() == Calendar.getInstance().get(Calendar.MONTH) && UserDAO.CURRENT_USER.getDay() < Calendar.getInstance().get(Calendar.DAY_OF_MONTH)) {
+                    age--;
+                }
+                UserDAO.CURRENT_USER.setAge(age);
+                UserDAO.age = age;
                 startActivity(date);
             });
     }
@@ -197,6 +205,7 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_birth_date);
+
         bindingView();
         bindingAction();
         addDataSpinner(selectDay, listDay);

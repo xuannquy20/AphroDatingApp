@@ -125,6 +125,7 @@ public class RegisterAddressActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_address);
+
         bindingView();
         getDataAdapter("tinh-thanhpho/tinh_tp.json", "city", listCity, city, true);
         getDataAdapter("quan-huyen/01.json", "huyen", listDistrict, district, false);

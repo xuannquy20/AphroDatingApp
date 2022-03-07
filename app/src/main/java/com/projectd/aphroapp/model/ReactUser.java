@@ -9,6 +9,9 @@ public class ReactUser {
         this.gender = gender;
     }
 
+    public ReactUser() {
+    }
+
     public int getOrderNumber() {
         return orderNumber;
     }
