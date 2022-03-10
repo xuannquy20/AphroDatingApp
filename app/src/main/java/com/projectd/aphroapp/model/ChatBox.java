@@ -11,9 +11,18 @@ public class ChatBox implements Serializable {
     private String idUser;
     private String nameUser;
     private boolean readed;
+    private boolean first;
     private ArrayList<Messenger> messengers = new ArrayList<>();
 
     public ChatBox() {
+    }
+
+    public boolean isFirst() {
+        return first;
+    }
+
+    public void setFirst(boolean first) {
+        this.first = first;
     }
 
     public ChatBox(String idRoom, String idUser, String nameUser, boolean readed) {
@@ -61,5 +70,16 @@ public class ChatBox implements Serializable {
 
     public void setReaded(boolean readed) {
         this.readed = readed;
+    }
+
+    @Override
+    public String toString() {
+        return "ChatBox{" +
+                "idRoom='" + idRoom + '\'' +
+                ", idUser='" + idUser + '\'' +
+                ", nameUser='" + nameUser + '\'' +
+                ", readed=" + readed +
+                ", first=" + first +
+                '}';
     }
 }

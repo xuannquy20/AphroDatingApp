@@ -15,12 +15,17 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
 import com.projectd.aphroapp.dao.UserDAO;
 import com.projectd.aphroapp.model.ChatBox;
+import com.projectd.aphroapp.model.User;
 
 
 public class ChatListFragment extends Fragment {
-    RecyclerView recyclerView;
+    public static RecyclerView recyclerView;
     public static ChatListAdapter adapter;
 
     @Override
@@ -34,25 +39,28 @@ public class ChatListFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         recyclerView = getView().findViewById(R.id.chat_list);
-        if (adapter == null) {
-            adapter = new ChatListAdapter(getActivity(), UserDAO.listChat);
-        }
-        if (recyclerView.getAdapter() == null && UserDAO.listChat.size() > 0) {
-            recyclerView.setAdapter(adapter);
-            recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        }
+        adapter = new ChatListAdapter(getActivity(), UserDAO.listChat);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
+
     }
 
-//    public static void swapItems(int itemAIndex) {
-//        ChatBox item = ChatListAdapter.wordList.get(itemAIndex);
-//        ChatListAdapter.wordList.remove(item);
-//        ChatListAdapter.wordList.push(item);
-//
-//        for(int i = 0; i<ChatListAdapter.wordList.size(); i++){
-//            adapter.notifyItemChanged(i);
-//        }
-//    }
+    public static void swapItems(int itemAIndex) {
+        ChatBox item = UserDAO.listChat.get(itemAIndex);
+        UserDAO.listChat.remove(itemAIndex);
+        UserDAO.listChat.push(item);
 
+        for (int i = 0; i < UserDAO.listChat.size(); i++) {
+            ChatListFragment.adapter.notifyItemChanged(i);
+        }
+
+        for (int i = 0; i < UserDAO.listChat.size(); i++) {
+            UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + i + "/idRoom").setValue(UserDAO.listChat.get(i).getIdRoom());
+            UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + i + "/idUser").setValue(UserDAO.listChat.get(i).getIdUser());
+            UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + i + "/nameUser").setValue(UserDAO.listChat.get(i).getNameUser());
+            UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + i + "/readed").setValue(UserDAO.listChat.get(i).isReaded());
+        }
+    }
 
     @Override
     public void onStart() {

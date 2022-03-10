@@ -12,7 +12,9 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
 import android.os.Message;
+import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -33,6 +35,7 @@ import com.google.firebase.storage.FileDownloadTask;
 import com.google.firebase.storage.StorageReference;
 import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
+import com.projectd.aphroapp.model.ChatBox;
 import com.projectd.aphroapp.model.Messenger;
 
 import java.io.File;
@@ -48,14 +51,15 @@ import java.util.List;
 import java.util.Objects;
 
 public class ChatActivity extends AppCompatActivity {
-    private RecyclerView recyclerView;
-    private MessengerAdapter adapter;
-    private ArrayList<Messenger> messengers;
-    private String idUser, idRoom, nameUser;
+    public static RecyclerView recyclerView;
+    public static MessengerAdapter adapter;
+    public static String idUser, idRoom, nameUser;
     private ImageView avtUser;
     private TextView nameTextUser;
     private Button btnBack, btnSend;
     private EditText boxTyping;
+    private int position;
+    private boolean first;
     private DatabaseReference chatbox = FirebaseDatabase.getInstance().getReference().child("chat_box");
 
     private void bindingView() {
@@ -83,57 +87,19 @@ public class ChatActivity extends AppCompatActivity {
         });
     }
 
-    private void getNewMess(String idRoom) {
-        final int[] size = {messengers.size()};
-        ChildEventListener getOtherNewMess = new ChildEventListener() {
-            @Override
-            public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-                if(size[0] > 0){
-                    size[0]--;
-                }
-                else{
-                    if(!snapshot.child("idUser").getValue(String.class).equals(UserDAO.CURRENT_USER_ID)) {
-                        messengers.add(0, snapshot.getValue(Messenger.class));
-                        adapter.notifyItemInserted(0);
-                    }
-                }
-            }
-
-            @Override
-            public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-
-            }
-
-            @Override
-            public void onChildRemoved(@NonNull DataSnapshot snapshot) {
-
-            }
-
-            @Override
-            public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
-            }
-        };
-
-        chatbox.child(idRoom).addChildEventListener(getOtherNewMess);
-    }
-
     private void addNewMess(String text) {
         Messenger messenger = new Messenger(UserDAO.CURRENT_USER_ID, text, Calendar.getInstance().getTime());
         chatbox.child(idRoom).get().addOnCompleteListener(task -> {
             long size = task.getResult().getChildrenCount();
             chatbox.child(idRoom + "/" + size).setValue(messenger);
         });
-        this.messengers.add(0, messenger);
+        UserDAO.listChat.get(position).getMessengers().add(0, messenger);
         adapter.notifyItemInserted(0);
+        recyclerView.scrollToPosition(0);
         boxTyping.setText("");
+        ChatListFragment.swapItems(position);
+        position = 0;
     }
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -146,7 +112,8 @@ public class ChatActivity extends AppCompatActivity {
             idRoom = i.getStringExtra("idRoom");
             idUser = i.getStringExtra("idUser");
             nameUser = i.getStringExtra("nameUser");
-            messengers = (ArrayList<Messenger>) i.getSerializableExtra("list");
+            position = i.getIntExtra("position", -1);
+            first = Boolean.parseBoolean(i.getStringExtra("first"));
             nameTextUser.setText(nameUser);
             try {
                 File dir = new File(this.getFilesDir(), "image");
@@ -162,17 +129,19 @@ public class ChatActivity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        getNewMess(idRoom);
-    }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        adapter = new MessengerAdapter(ChatActivity.this, messengers);
+        adapter = new MessengerAdapter(ChatActivity.this, UserDAO.listChat.get(position).getMessengers());
         recyclerView.setAdapter(adapter);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(ChatActivity.this);
         linearLayoutManager.setReverseLayout(true);
         recyclerView.setLayoutManager(linearLayoutManager);
-        recyclerView.scrollToPosition(messengers.size());
+
+        new Handler().postDelayed(() -> recyclerView.scrollToPosition(0), 200);
+    }
+
+    @Override
+    protected void onDestroy() {
+        idRoom = "";
+        super.onDestroy();
     }
 }

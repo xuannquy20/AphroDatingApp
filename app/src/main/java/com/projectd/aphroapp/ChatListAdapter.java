@@ -18,16 +18,21 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.StorageReference;
 import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
 import com.projectd.aphroapp.model.ChatBox;
+import com.projectd.aphroapp.model.Messenger;
 import com.projectd.aphroapp.model.User;
 
 import java.io.ByteArrayOutputStream;
@@ -49,6 +54,8 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
     private LinkedList<ChatBox> wordList;
     private LayoutInflater mInflater;
     private Context context;
+    private static boolean first = true;
+    private DatabaseReference chatbox = FirebaseDatabase.getInstance().getReference().child("chat_box");
 
     public class WordViewHolder extends RecyclerView.ViewHolder {
         private LinearLayout layoutChatList;
@@ -118,7 +125,15 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
         }
 
         if (mCurrent.getMessengers().size() > 0) {
-            holder.lastText.setText(mCurrent.getMessengers().get(0).getText());
+            String text = mCurrent.getMessengers().get(0).getText();
+            if(text.length() > 25){
+                text = text.substring(0, 22) + "...";
+            }
+            holder.lastText.setText(text);
+
+            Calendar check = Calendar.getInstance();
+            check.setTime(mCurrent.getMessengers().get(0).getDate());
+
             int day = mCurrent.getMessengers().get(0).getDate().getDate();
             int month = mCurrent.getMessengers().get(0).getDate().getMonth();
             int year = mCurrent.getMessengers().get(0).getDate().getYear();
@@ -127,11 +142,15 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
             if (day == calendar.getDate() && month == calendar.getMonth() && year == calendar.getYear()) {
                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
                 holder.timeLastText.setText(simpleDateFormat.format(mCurrent.getMessengers().get(0).getDate()));
-            } else if (year == calendar.getYear()) {
-                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd:MM");
+            } else if(Calendar.getInstance().get(Calendar.WEEK_OF_MONTH) == check.get(Calendar.WEEK_OF_MONTH)) {
+                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("E HH:mm");
+                holder.timeLastText.setText(simpleDateFormat.format(mCurrent.getMessengers().get(0).getDate()));
+            }
+            else if (year == calendar.getYear()) {
+                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM, HH:mm");
                 holder.timeLastText.setText(simpleDateFormat.format(mCurrent.getMessengers().get(0).getDate()));
             } else {
-                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM:yyyy");
+                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy, HH:mm");
                 holder.timeLastText.setText(simpleDateFormat.format(mCurrent.getMessengers().get(0).getDate()));
             }
         } else {
@@ -159,9 +178,59 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
             i.putExtra("idUser", mCurrent.getIdUser());
             i.putExtra("nameUser", mCurrent.getNameUser());
             i.putExtra("position", finalPosition);
+            i.putExtra("first", mCurrent.isFirst() + "");
             i.putExtra("list", mCurrent.getMessengers());
             v.getContext().startActivity(i);
         });
+        final int[] size = {UserDAO.listChat.get(finalPosition).getMessengers().size()};
+
+        if(mCurrent.isFirst()){
+            chatbox.child(mCurrent.getIdRoom()).addChildEventListener(new ChildEventListener() {
+                @Override
+                public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+                    int finalPosition = -1;
+                    for(int i = 0; i < UserDAO.listChat.size(); i++){
+                        if(UserDAO.listChat.get(i).getIdRoom().equals(mCurrent.getIdRoom())){
+                            finalPosition = i;
+                            break;
+                        }
+                    }
+                    if (size[0] > 0) {
+                        size[0]--;
+                    } else {
+                        if (!snapshot.child("idUser").getValue(String.class).equals(UserDAO.CURRENT_USER_ID)) {
+                            UserDAO.listChat.get(finalPosition).getMessengers().add(0, snapshot.getValue(Messenger.class));
+                            ChatListFragment.swapItems(finalPosition);
+                            if(ChatActivity.idRoom.equals(mCurrent.getIdRoom())){
+                                ChatActivity.adapter.notifyItemInserted(0);
+                                ChatActivity.recyclerView.scrollToPosition(0);
+                            }
+                        }
+                    }
+                }
+
+                @Override
+                public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+
+                }
+
+                @Override
+                public void onChildRemoved(@NonNull DataSnapshot snapshot) {
+
+                }
+
+                @Override
+                public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+
+                }
+            });
+        }
+        UserDAO.listChat.get(position).setFirst(false);
     }
 
 

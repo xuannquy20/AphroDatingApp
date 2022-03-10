@@ -8,8 +8,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
-import java.net.InetAddress;
-
 public class InternetDAO {
     public static final DatabaseReference database = FirebaseDatabase.getInstance().getReference();
     public static final StorageReference storage = FirebaseStorage.getInstance().getReference();

@@ -9,6 +9,7 @@ import androidx.core.app.NotificationManagerCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.viewpager.widget.ViewPager;
 
 import android.animation.ValueAnimator;
@@ -26,6 +27,7 @@ import android.graphics.LinearGradient;
 import android.graphics.Shader;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.se.omapi.Session;
 import android.text.TextPaint;
 import android.util.Base64;
@@ -38,13 +40,18 @@ import android.widget.Toast;
 import com.facebook.AccessToken;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.tabs.TabLayout;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 import com.projectd.aphroapp.dao.UserDAO;
+import com.projectd.aphroapp.model.ChatBox;
 import com.projectd.aphroapp.model.ReactUser;
 
 import java.security.MessageDigest;
@@ -56,6 +63,9 @@ public class HomeActivity extends AppCompatActivity {
     private TabLayout tabLayout;
     private TextView logoAphro;
     private AppBarLayout appBarLayout;
+    private DatabaseReference dataUser = FirebaseDatabase.getInstance().getReference().child("data_user");
+
+    public static boolean first = true;
 
     private HomeFragment homeFragment;
     private ChatListFragment chatListFragment;
@@ -100,61 +110,62 @@ public class HomeActivity extends AppCompatActivity {
 //        BadgeDrawable badgeDrawable = tabLayout.getTabAt(1).getOrCreateBadge();
 //        badgeDrawable.setVisible(true);
 
-        ChildEventListener eventGetNewTake = new ChildEventListener() {
-            @Override
-            public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-                ReactUser newTake = snapshot.getValue(ReactUser.class);
-                UserDAO.takedLike.add(newTake);
-                for(int i = 0; i < UserDAO.givedLike.size(); i++){
-                    if(UserDAO.givedLike.get(i).getOrderNumber() == newTake.getOrderNumber()){
-//                        Intent intent = new Intent(this, MainActivity.class);
-//                        intent.putExtra("key1", "value1");
-//                        PendingIntent pending = PendingIntent.getActivity(
-//                                this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-                        NotificationCompat.Builder builder = new NotificationCompat.Builder(HomeActivity.this, "New Match");
-                        Notification notification = builder
-                                .setContentTitle("Gắn kết mới")
-                                .setContentText("Bạn có thêm người gắn kết mới, kiểm tra ngay")
-                                .setPriority(NotificationCompat.PRIORITY_MAX)
-                                //.setContentIntent(pending)
-                                .setAutoCancel(true)
-                                .setStyle(new NotificationCompat.BigTextStyle()
-                                        .bigText("Bạn có thêm người gắn kết mới, kiểm tra ngay"))
-                                .build();
-                        NotificationManagerCompat manager = NotificationManagerCompat.from(HomeActivity.this);
-                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                            NotificationChannel notificationChannel =
-                                    new NotificationChannel("New Match", "Channel Notify ver 8+",
-                                            NotificationManager.IMPORTANCE_DEFAULT);
-                            manager.createNotificationChannel(notificationChannel);
-                        }
-                        manager.notify(newTake.getOrderNumber(), notification);
-                        break;
+        if (first) {
+            final int[] size = {UserDAO.listChat.size()};
+            dataUser.child(UserDAO.CURRENT_USER_ID + "/chat_room").addChildEventListener(new ChildEventListener() {
+                @Override
+                public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+                    if (size[0] > 0) {
+                        size[0]--;
+                    } else {
+                        dataUser.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + snapshot.getKey()).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                                ChatBox chatBox = new ChatBox();
+                                chatBox.setIdUser(task.getResult().child("idUser").getValue(String.class));
+                                chatBox.setIdRoom(task.getResult().child("idRoom").getValue(String.class));
+                                chatBox.setNameUser(task.getResult().child("nameUser").getValue(String.class));
+                                chatBox.setReaded(false);
+                                chatBox.setFirst(true);
+                                UserDAO.listChat.add(0, chatBox);
+                                if (UserDAO.listChat.size() == 1) {
+                                    ChatListFragment.adapter.notifyDataSetChanged();
+                                } else {
+                                    ChatListFragment.adapter.notifyItemInserted(0);
+                                }
+                            }
+                        });
                     }
                 }
-            }
 
-            @Override
-            public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+                @Override
+                public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
 
-            }
+                }
 
-            @Override
-            public void onChildRemoved(@NonNull DataSnapshot snapshot) {
+                @Override
+                public void onChildRemoved(@NonNull DataSnapshot snapshot) {
 
-            }
+                }
 
-            @Override
-            public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+                @Override
+                public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
 
-            }
+                }
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
 
-            }
-        };
-        UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/react/take" + UserDAO.GENDER_FINDING).addChildEventListener(eventGetNewTake);
+                }
+            });
+        }
+        this.first = false;
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/isOnline").setValue(true);
     }
 
     private void animationIntro(View view, float infoNum1, float infoNum2) {
@@ -198,5 +209,11 @@ public class HomeActivity extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             return fragmentTitle.get(position);
         }
+    }
+
+    @Override
+    protected void onDestroy() {
+        UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/isOnline").setValue(false);
+        super.onDestroy();
     }
 }

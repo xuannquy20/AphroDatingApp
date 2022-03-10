@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.os.Handler;
 import android.util.Log;
@@ -242,11 +243,7 @@ public class HomeFragment extends Fragment {
                     UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + size + "/idUser").setValue(userFound.getId());
                     UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + size + "/nameUser").setValue(userFound.getName());
                     UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + size + "/readed").setValue(false);
-                    UserDAO.listChat.add(chatBox);
-                    Collections.sort(UserDAO.listChat, (o1, o2) -> Boolean.compare(o2.isReaded(), o1.isReaded()));
-                    if(ChatListFragment.adapter != null){
-                        ChatListFragment.adapter.notifyItemInserted(UserDAO.listChat.size() - 1);
-                    }
+                    //UserDAO.listChat.add(chatBox);
                     UserDAO.refCheck.child(userFound.getId() + "/chat_room").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                         @Override
                         public void onComplete(@NonNull Task<DataSnapshot> task) {

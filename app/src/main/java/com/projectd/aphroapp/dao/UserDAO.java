@@ -89,6 +89,7 @@ public class UserDAO {
                                     chatBox.setIdUser(ds.child("idUser").getValue(String.class));
                                     chatBox.setNameUser(ds.child("nameUser").getValue(String.class));
                                     chatBox.setReaded(ds.child("readed").getValue(Boolean.class));
+                                    chatBox.setFirst(true);
                                     refChatBox.child(chatBox.getIdRoom()).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                                         @Override
                                         public void onComplete(@NonNull Task<DataSnapshot> task) {
@@ -99,7 +100,7 @@ public class UserDAO {
                                                 ms.setDate(ds.child("date").getValue(Date.class));
                                                 chatBox.getMessengers().add(0, ms);
                                             }
-                                            listChat.push(chatBox);
+                                            listChat.add(chatBox);
                                         }
                                     });
 

@@ -90,51 +90,43 @@ public class RegisterImageActivity extends AppCompatActivity {
                 DatabaseReference refSavePeople = InternetDAO.database.child("data_user");
                 final int[] count = {0};
                 String finalGender = gender;
-                refCount.child(gender).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-                    @Override
-                    public void onComplete(@NonNull Task<DataSnapshot> task) {
-                        count[0] = task.getResult().getValue(Integer.class);
-                    }
-                }).addOnSuccessListener(new OnSuccessListener<DataSnapshot>() {
-                    @Override
-                    public void onSuccess(DataSnapshot dataSnapshot) {
-                        DatabaseReference ref = InternetDAO.database.child("user/" + finalGender + "/" + count[0] + "/profile");
-                        UserDAO.CURRENT_USER.setOrderNumber(count[0]);
-                        UserDAO.ORDER_NUMBER = count[0];
-                        ref.setValue(UserDAO.CURRENT_USER);
-                        StorageReference upImage = InternetDAO.storage.child(UserDAO.CURRENT_USER_ID);
-                        upImage.putFile(uri);
-                        refCount.child(finalGender).setValue(count[0] + 1);
-                        refSavePeople.child(UserDAO.CURRENT_USER_ID).child("order_number").setValue(count[0]);
-                        refSavePeople.child(UserDAO.CURRENT_USER_ID).child("gender").setValue(finalGender).addOnSuccessListener(new OnSuccessListener<Void>() {
-                            @Override
-                            public void onSuccess(Void unused) {
-                                UserDAO.getOrderNumberCanFind();
-                                new Thread(() -> {
-                                    try{
-                                        while(true){
-                                            if (UserDAO.getDataComplete) {
-                                                loadingDialog.cancel();
-                                                Intent i;
-                                                if (UserDAO.age >= 18) {
-                                                    i = new Intent(RegisterImageActivity.this, RegisterSuccessActivity.class);
-                                                } else {
-                                                    i = new Intent(RegisterImageActivity.this, AccountUnder18Activity.class);
-                                                }
-                                                startActivity(i);
-                                                finish();
-                                                break;
+                refCount.child(gender).get().addOnCompleteListener(task -> count[0] = task.getResult().getValue(Integer.class)).addOnSuccessListener(dataSnapshot -> {
+                    DatabaseReference ref = InternetDAO.database.child("user/" + finalGender + "/" + count[0] + "/profile");
+                    UserDAO.CURRENT_USER.setOrderNumber(count[0]);
+                    UserDAO.ORDER_NUMBER = count[0];
+                    ref.setValue(UserDAO.CURRENT_USER);
+                    StorageReference upImage = InternetDAO.storage.child(UserDAO.CURRENT_USER_ID);
+                    upImage.putFile(uri);
+                    refCount.child(finalGender).setValue(count[0] + 1);
+                    refSavePeople.child(UserDAO.CURRENT_USER_ID).child("order_number").setValue(count[0]);
+                    refSavePeople.child(UserDAO.CURRENT_USER_ID).child("gender").setValue(finalGender).addOnSuccessListener(new OnSuccessListener<Void>() {
+                        @Override
+                        public void onSuccess(Void unused) {
+                            UserDAO.getOrderNumberCanFind();
+                            new Thread(() -> {
+                                try{
+                                    while(true){
+                                        if (UserDAO.getDataComplete) {
+                                            loadingDialog.cancel();
+                                            Intent i;
+                                            if (UserDAO.age >= 18) {
+                                                i = new Intent(RegisterImageActivity.this, RegisterSuccessActivity.class);
+                                            } else {
+                                                i = new Intent(RegisterImageActivity.this, AccountUnder18Activity.class);
                                             }
-                                            else{
-                                                Thread.sleep(100);
-                                            }
+                                            startActivity(i);
+                                            finish();
+                                            break;
+                                        }
+                                        else{
+                                            Thread.sleep(100);
                                         }
                                     }
-                                    catch (Exception e){e.printStackTrace();}
-                                }).start();
-                            }
-                        });
-                    }
+                                }
+                                catch (Exception e){e.printStackTrace();}
+                            }).start();
+                        }
+                    });
                 });
             }
         });

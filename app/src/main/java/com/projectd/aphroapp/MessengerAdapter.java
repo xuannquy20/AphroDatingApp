@@ -41,8 +41,11 @@ public class MessengerAdapter extends RecyclerView.Adapter<MessengerAdapter.Word
     @Override
     public void onBindViewHolder(@NonNull MessengerAdapter.WordViewHolder holder, int position) {
         Messenger messenger = messengerList.get(position);
-
         Date now = Calendar.getInstance().getTime();
+
+        Calendar check = Calendar.getInstance();
+        check.setTime(messenger.getDate());
+
         int day = messenger.getDate().getDate();
         int month = messenger.getDate().getMonth();
         int year = messenger.getDate().getYear();
@@ -50,10 +53,14 @@ public class MessengerAdapter extends RecyclerView.Adapter<MessengerAdapter.Word
         SimpleDateFormat simpleDateFormat;
         if (day == now.getDate() && month == now.getMonth() && year == now.getYear()) {
             simpleDateFormat = new SimpleDateFormat("HH:mm");
-        } else if (year == now.getYear()) {
-            simpleDateFormat = new SimpleDateFormat("dd:MM");
-        } else {
-            simpleDateFormat = new SimpleDateFormat("MM:yyyy");
+        } else if (check.get(Calendar.WEEK_OF_MONTH) == Calendar.getInstance().get(Calendar.WEEK_OF_MONTH)) {
+            simpleDateFormat = new SimpleDateFormat("E HH:mm");
+        }
+        else if(year == now.getYear()){
+            simpleDateFormat = new SimpleDateFormat("dd-MM HH:mm");
+        }
+        else {
+            simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm");
         }
 
         if (messenger.getIdUser().equals(UserDAO.CURRENT_USER_ID)) {
@@ -65,7 +72,6 @@ public class MessengerAdapter extends RecyclerView.Adapter<MessengerAdapter.Word
             holder.timeOtherSend.setText(simpleDateFormat.format(messenger.getDate()));
             holder.layoutUserSend.setVisibility(View.GONE);
         }
-
         setFadeAnimation(holder.constraintLayout);
     }
 
