@@ -112,6 +112,7 @@ public class HomeFragment extends Fragment {
 
     private void clickAnimation(boolean isLike) {
         //Animation
+        layoutMain.setAlpha(1);
         animationIntro(btnLike, 1f, 0.2f, 1, 500);
         animationIntro(btnSkip, 1f, 0.2f, 1, 500);
 
@@ -123,6 +124,7 @@ public class HomeFragment extends Fragment {
             imageWarning.setImageResource(R.drawable.ic_skip);
             view = btnSkip;
         }
+
         animationIntro(view, 1, 1.2f, 2, 200);
         animationIntro(view, 1, 1.2f, 3, 200);
         View finalView = view;
