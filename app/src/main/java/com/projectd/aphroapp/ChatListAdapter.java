@@ -201,7 +201,7 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
                         if (!snapshot.child("idUser").getValue(String.class).equals(UserDAO.CURRENT_USER_ID)) {
                             UserDAO.listChat.get(finalPosition).getMessengers().add(0, snapshot.getValue(Messenger.class));
                             ChatListFragment.swapItems(finalPosition);
-                            if(ChatActivity.idRoom.equals(mCurrent.getIdRoom())){
+                            if(mCurrent.getIdRoom().equals(ChatActivity.idRoom)){
                                 ChatActivity.adapter.notifyItemInserted(0);
                                 ChatActivity.recyclerView.scrollToPosition(0);
                             }
