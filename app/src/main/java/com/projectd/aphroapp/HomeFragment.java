@@ -88,19 +88,11 @@ public class HomeFragment extends Fragment {
             tutorialCheckInfomation.setVisibility(View.GONE);
         });
 
-        btnSkip.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                clickReact(false);
-            }
-        });
+        btnSkip.setOnClickListener(v -> clickReact(false));
 
-        btnLike.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                saveLikeToDatabase(UserDAO.userFound.get(0), UserDAO.CURRENT_USER_ID);
-                clickReact(true);
-            }
+        btnLike.setOnClickListener(v -> {
+            saveLikeToDatabase(UserDAO.userFound.get(0), UserDAO.CURRENT_USER_ID);
+            clickReact(true);
         });
     }
 
@@ -112,7 +104,9 @@ public class HomeFragment extends Fragment {
 
     private void clickAnimation(boolean isLike) {
         //Animation
-        layoutMain.setAlpha(1);
+        if(layoutMain.getAlpha()==0) {
+            animationIntro(layoutMain, 0, 1, 1, 300);
+        }
         animationIntro(btnLike, 1f, 0.2f, 1, 500);
         animationIntro(btnSkip, 1f, 0.2f, 1, 500);
 
