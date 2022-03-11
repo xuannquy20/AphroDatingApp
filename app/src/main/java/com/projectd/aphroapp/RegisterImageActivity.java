@@ -114,6 +114,7 @@ public class RegisterImageActivity extends AppCompatActivity {
                                             } else {
                                                 i = new Intent(RegisterImageActivity.this, AccountUnder18Activity.class);
                                             }
+                                            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                                             startActivity(i);
                                             finish();
                                             break;

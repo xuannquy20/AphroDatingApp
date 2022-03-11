@@ -156,10 +156,6 @@ public class UserDAO {
                                     reactUser.setOrderNumber(task.getResult().child("orderNumber").getValue(Integer.class));
                                     reactUser.setGender(task.getResult().child("gender").getValue(Boolean.class));
                                     takedLike.add(reactUser);
-
-                                    for (int i = 0; i < givedLike.size(); i++) {
-
-                                    }
                                 }
                             });
                         }
@@ -194,47 +190,47 @@ public class UserDAO {
                             reactUser.setGender(ds.child("gender").getValue(Boolean.class));
                             givedLike.add(reactUser);
                         }
+                        if (CURRENT_USER.isGenderFinding()) {
+                            GENDER_FINDING = "male";
+                        } else {
+                            GENDER_FINDING = "female";
+                        }
+
+                        if (CURRENT_USER.isGender()) {
+                            GENDER = "male";
+                        } else {
+                            GENDER = "female";
+                        }
+                        refTotalUser.child(GENDER_FINDING).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                                int max = task.getResult().getValue(Integer.class);
+                                max--;
+                                if (givedLike.size() > 0) {
+                                    for (int i = 0; i < givedLike.size(); i++) {
+                                        if ((max == ORDER_NUMBER && CURRENT_USER.isGender() == CURRENT_USER.isGenderFinding()) || max == givedLike.get(i).getOrderNumber()) {
+                                            i = 0;
+                                            max--;
+                                        } else if (i == givedLike.size() - 1 && max >= 0) {
+                                            listCanFind.add(max);
+                                            max--;
+                                            if (max >= 0) {
+                                                i = 0;
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    for (int i = 0; i <= max; i++) {
+                                        if (!(i == ORDER_NUMBER && (CURRENT_USER.isGender() == CURRENT_USER.isGenderFinding() || !CURRENT_USER.isGender() == !CURRENT_USER.isGenderFinding()))) {
+                                            listCanFind.add(i);
+                                        }
+                                    }
+                                }
+                                findRandomUser(0);
+                            }
+                        });
                     }
                 });
-            }
-        });
-        if (CURRENT_USER.isGenderFinding()) {
-            GENDER_FINDING = "male";
-        } else {
-            GENDER_FINDING = "female";
-        }
-
-        if (CURRENT_USER.isGender()) {
-            GENDER = "male";
-        } else {
-            GENDER = "female";
-        }
-        refTotalUser.child(GENDER_FINDING).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DataSnapshot> task) {
-                int max = task.getResult().getValue(Integer.class);
-                max--;
-                if (givedLike.size() > 0) {
-                    for (int i = 0; i < givedLike.size(); i++) {
-                        if ((max == ORDER_NUMBER && CURRENT_USER.isGender() == CURRENT_USER.isGenderFinding()) || max == givedLike.get(i).getOrderNumber()) {
-                            i = 0;
-                            max--;
-                        } else if (i == givedLike.size() - 1 && max >= 0) {
-                            listCanFind.add(max);
-                            max--;
-                            if (max >= 0) {
-                                i = 0;
-                            }
-                        }
-                    }
-                } else {
-                    for (int i = 0; i <= max; i++) {
-                        if (!(i == ORDER_NUMBER && (CURRENT_USER.isGender() == CURRENT_USER.isGenderFinding() || !CURRENT_USER.isGender() == !CURRENT_USER.isGenderFinding()))) {
-                            listCanFind.add(i);
-                        }
-                    }
-                }
-                findRandomUser(0);
             }
         });
     }
