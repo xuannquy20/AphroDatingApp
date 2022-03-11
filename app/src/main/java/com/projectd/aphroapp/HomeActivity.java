@@ -62,7 +62,7 @@ public class HomeActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private TabLayout tabLayout;
     private TextView logoAphro;
-    private static int idNotity = 0;
+    public static int idNotity = 0;
     private AppBarLayout appBarLayout;
     private DatabaseReference dataUser = FirebaseDatabase.getInstance().getReference().child("data_user");
 

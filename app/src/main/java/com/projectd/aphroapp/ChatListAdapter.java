@@ -54,7 +54,6 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
     private LinkedList<ChatBox> wordList;
     private LayoutInflater mInflater;
     private Context context;
-    private static boolean first = true;
     private DatabaseReference chatbox = FirebaseDatabase.getInstance().getReference().child("chat_box");
 
     public class WordViewHolder extends RecyclerView.ViewHolder {
