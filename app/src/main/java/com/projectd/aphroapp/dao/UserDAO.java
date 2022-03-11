@@ -64,65 +64,70 @@ public class UserDAO {
     public static DatabaseReference refChatBox = FirebaseDatabase.getInstance().getReference().child("chat_box");
 
     public static void getDataUser(Context context) {
-        refCheck.get().addOnCompleteListener(task -> {
-            if (task.getResult().hasChild(CURRENT_USER_ID)) {
-                CURRENT_USER.setId(CURRENT_USER_ID);
-                ORDER_NUMBER = task.getResult().child(CURRENT_USER_ID + "/order_number").getValue(Integer.class);
-                GENDER = task.getResult().child(CURRENT_USER_ID + "/gender").getValue(String.class);
-            }
-            if (ORDER_NUMBER != -1) {
-                refUser.child(GENDER + "/" + ORDER_NUMBER + "/profile").get().addOnCompleteListener(task1 -> {
-                    CURRENT_USER = task1.getResult().getValue(User.class);
-                    StorageReference storeRef = InternetDAO.storage.child(CURRENT_USER_ID);
-                    try {
-                        File localFile = File.createTempFile(CURRENT_USER_ID, "png");
-                        storeRef.getFile(localFile);
-                        imageBitmap = BitmapFactory.decodeFile(localFile.getAbsolutePath());
-                    } catch (Exception e) {
-                    }
-                    if (CURRENT_USER.isGenderFinding()) {
-                        GENDER_FINDING += "male";
-                    } else {
-                        GENDER_FINDING += "female";
-                    }
-                    refCheck.child(CURRENT_USER_ID + "/chat_room").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-                        @Override
-                        public void onComplete(@NonNull Task<DataSnapshot> task) {
-                            if (task.getResult().getChildrenCount() > 0) {
-                                for (DataSnapshot ds : task.getResult().getChildren()) {
-                                    ChatBox chatBox = new ChatBox();
-                                    chatBox.setIdRoom(ds.child("idRoom").getValue(String.class));
-                                    chatBox.setIdUser(ds.child("idUser").getValue(String.class));
-                                    chatBox.setNameUser(ds.child("nameUser").getValue(String.class));
-                                    chatBox.setReaded(ds.child("readed").getValue(Boolean.class));
-                                    chatBox.setFirst(true);
-                                    refChatBox.child(chatBox.getIdRoom()).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-                                        @Override
-                                        public void onComplete(@NonNull Task<DataSnapshot> task) {
-                                            for(DataSnapshot ds : task.getResult().getChildren()){
-                                                Messenger ms = new Messenger();
-                                                ms.setIdUser(ds.child("idUser").getValue(String.class));
-                                                ms.setText(ds.child("text").getValue(String.class));
-                                                ms.setDate(ds.child("date").getValue(Date.class));
-                                                chatBox.getMessengers().add(0, ms);
-                                            }
-                                            listChat.add(chatBox);
-                                        }
-                                    });
-                                }
-                            }
+        try {
+            refCheck.get().addOnCompleteListener(task -> {
+                if (task.getResult().hasChild(CURRENT_USER_ID)) {
+                    CURRENT_USER.setId(CURRENT_USER_ID);
+                    ORDER_NUMBER = task.getResult().child(CURRENT_USER_ID + "/order_number").getValue(Integer.class);
+                    GENDER = task.getResult().child(CURRENT_USER_ID + "/gender").getValue(String.class);
+                }
+                if (ORDER_NUMBER != -1) {
+                    refUser.child(GENDER + "/" + ORDER_NUMBER + "/profile").get().addOnCompleteListener(task1 -> {
+                        CURRENT_USER = task1.getResult().getValue(User.class);
+                        StorageReference storeRef = InternetDAO.storage.child(CURRENT_USER_ID);
+                        try {
+                            File localFile = File.createTempFile(CURRENT_USER_ID, "png");
+                            storeRef.getFile(localFile);
+                            imageBitmap = BitmapFactory.decodeFile(localFile.getAbsolutePath());
+                        } catch (Exception e) {
                         }
+                        if (CURRENT_USER.isGenderFinding()) {
+                            GENDER_FINDING += "male";
+                        } else {
+                            GENDER_FINDING += "female";
+                        }
+                        refCheck.child(CURRENT_USER_ID + "/chat_room").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                            @Override
+                            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                                if (task.getResult().getChildrenCount() > 0) {
+                                    for (DataSnapshot ds : task.getResult().getChildren()) {
+                                        ChatBox chatBox = new ChatBox();
+                                        chatBox.setIdRoom(ds.child("idRoom").getValue(String.class));
+                                        chatBox.setIdUser(ds.child("idUser").getValue(String.class));
+                                        chatBox.setNameUser(ds.child("nameUser").getValue(String.class));
+                                        chatBox.setReaded(ds.child("readed").getValue(Boolean.class));
+                                        chatBox.setFirst(true);
+                                        refChatBox.child(chatBox.getIdRoom()).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                                            @Override
+                                            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                                                for (DataSnapshot ds : task.getResult().getChildren()) {
+                                                    Messenger ms = new Messenger();
+                                                    ms.setIdUser(ds.child("idUser").getValue(String.class));
+                                                    ms.setText(ds.child("text").getValue(String.class));
+                                                    ms.setDate(ds.child("date").getValue(Date.class));
+                                                    chatBox.getMessengers().add(0, ms);
+                                                }
+                                                listChat.add(chatBox);
+                                            }
+                                        });
+                                    }
+                                }
+                                getOrderNumberCanFind();
+                            }
+                        });
                     });
-                });
-            } else {
-                findRandomUser(0);
-            }
-        }).addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(@NonNull Exception e) {
-                Toast.makeText(context, "Lỗi mạng", Toast.LENGTH_LONG).show();
-            }
-        });
+                } else {
+                    findRandomUser(0);
+                }
+            }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                    Toast.makeText(context, "Lỗi mạng", Toast.LENGTH_LONG).show();
+                }
+            });
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public static void getOrderNumberCanFind() {
@@ -184,7 +189,6 @@ public class UserDAO {
                             reactUser.setGender(ds.child("gender").getValue(Boolean.class));
                             givedLike.add(reactUser);
                         }
-                        getOrderNumberCanFind();
                     }
                 });
             }
@@ -229,6 +233,7 @@ public class UserDAO {
             }
         });
     }
+
 
     public static void findRandomUser(int position) {
         if (listCanFind.size() > 0) {

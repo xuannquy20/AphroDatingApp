@@ -23,7 +23,6 @@ import java.util.concurrent.Executor;
 
 public class ProfileFragment extends Fragment {
     Button signOut;
-    GoogleSignInClient mGoogleSignInClient;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -53,7 +52,7 @@ public class ProfileFragment extends Fragment {
     }
 
     private void signOut() {
-        mGoogleSignInClient.signOut()
+        IntroActivity.mGoogleSignInClient.signOut()
                 .addOnCompleteListener(getActivity(), new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {

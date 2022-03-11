@@ -30,31 +30,18 @@ import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
-import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DataSnapshot;
+
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.storage.FileDownloadTask;
-import com.google.firebase.storage.StorageReference;
-import com.projectd.aphroapp.dao.InternetDAO;
-import com.projectd.aphroapp.dao.UserDAO;
-import com.projectd.aphroapp.model.ReactUser;
-import com.projectd.aphroapp.model.User;
 
-import java.io.File;
+import com.projectd.aphroapp.dao.UserDAO;
+
 import java.util.Arrays;
-import java.util.Random;
-import java.util.concurrent.atomic.AtomicBoolean;
+
 
 public class LoginActivity extends AppCompatActivity {
     private LinearLayout layoutMain;
-    private GoogleSignInClient mGoogleSignInClient;
     private Button btnGoogleSignIn;
     private Button btnFacebookSignIn;
     private CallbackManager callbackManager;
@@ -85,11 +72,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
         bindingView();
-        GoogleSignInOptions googleSignIn = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestEmail().build();
-        mGoogleSignInClient = GoogleSignIn.getClient(this, googleSignIn);
 
         FacebookSdk.sdkInitialize(getApplicationContext());
         AppEventsLogger.activateApp(this);
@@ -192,7 +175,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void signInGoogle() {
-        Intent signInIntent = mGoogleSignInClient.getSignInIntent();
+        Intent signInIntent = IntroActivity.mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, 1);
     }
 

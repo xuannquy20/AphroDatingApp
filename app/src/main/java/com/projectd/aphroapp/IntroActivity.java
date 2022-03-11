@@ -22,6 +22,8 @@ import android.widget.Toast;
 import com.facebook.AccessToken;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -43,6 +45,7 @@ import java.util.Random;
 public class IntroActivity extends AppCompatActivity {
     private TextView imgLogo;
     private boolean login = false;
+    public static GoogleSignInClient mGoogleSignInClient;
 
 
     @Override
@@ -50,6 +53,9 @@ public class IntroActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
         imgLogo = findViewById(R.id.logoView);
+        GoogleSignInOptions googleSignIn = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail().build();
+        mGoogleSignInClient = GoogleSignIn.getClient(this, googleSignIn);
         checkAccount();
     }
 

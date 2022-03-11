@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".ProfileFragment">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button_sign_out"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
