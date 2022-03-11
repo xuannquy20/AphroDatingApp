@@ -165,7 +165,6 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/isOnline").setValue(true);
     }
 
     private void animationIntro(View view, float infoNum1, float infoNum2) {
@@ -213,7 +212,6 @@ public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
-        UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/isOnline").setValue(false);
         super.onDestroy();
     }
 }

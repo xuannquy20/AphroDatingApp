@@ -61,10 +61,11 @@ public class IntroActivity extends AppCompatActivity {
                 if (account != null) {
                     UserDAO.CURRENT_USER_ID = account.getId();
                 } else {
+                    UserDAO.isGoogle = false;
                     UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
                 }
                 UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
-                UserDAO.getDataUser();
+                UserDAO.getDataUser(this);
             }
         } else {
             Toast.makeText(IntroActivity.this, "Không có kết nối mạng, thử lại sau", Toast.LENGTH_LONG).show();

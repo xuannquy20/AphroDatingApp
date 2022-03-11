@@ -100,7 +100,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onSuccess(LoginResult loginResult) {
                         UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
                         UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
-                        UserDAO.getDataUser();
+                        UserDAO.getDataUser(LoginActivity.this);
                         LoadingDialog loadingDialog = new LoadingDialog(LoginActivity.this);
                         loadingDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                         loadingDialog.show();
@@ -108,6 +108,7 @@ public class LoginActivity extends AppCompatActivity {
                             while (true) {
                                 try {
                                     if (UserDAO.getDataComplete) {
+                                        UserDAO.isGoogle = false;
                                         loadingDialog.cancel();
                                         nextActivity();
                                         break;
@@ -157,7 +158,7 @@ public class LoginActivity extends AppCompatActivity {
             GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(LoginActivity.this);
             UserDAO.CURRENT_USER_ID = account.getId();
             UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
-            UserDAO.getDataUser();
+            UserDAO.getDataUser(this);
             LoadingDialog loadingDialog = new LoadingDialog(this);
             loadingDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
             loadingDialog.show();

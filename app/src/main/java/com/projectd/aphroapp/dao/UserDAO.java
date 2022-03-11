@@ -1,17 +1,22 @@
 package com.projectd.aphroapp.dao;
 
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.util.Log;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.StorageReference;
@@ -51,13 +56,14 @@ public class UserDAO {
     public static List<Bitmap> imageUserFound = new ArrayList<>();
 
     public static boolean getDataComplete = false;
+    public static boolean isGoogle = true;
 
     public static DatabaseReference refCheck = FirebaseDatabase.getInstance().getReference().child("data_user");
     public static DatabaseReference refUser = FirebaseDatabase.getInstance().getReference().child("user");
     public static DatabaseReference refTotalUser = FirebaseDatabase.getInstance().getReference().child("total_user");
     public static DatabaseReference refChatBox = FirebaseDatabase.getInstance().getReference().child("chat_box");
 
-    public static void getDataUser() {
+    public static void getDataUser(Context context) {
         refCheck.get().addOnCompleteListener(task -> {
             if (task.getResult().hasChild(CURRENT_USER_ID)) {
                 CURRENT_USER.setId(CURRENT_USER_ID);
@@ -103,42 +109,86 @@ public class UserDAO {
                                             listChat.add(chatBox);
                                         }
                                     });
-
                                 }
                             }
-                            refCheck.child(CURRENT_USER_ID + "/react/take/" + GENDER_FINDING).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-                                @Override
-                                public void onComplete(@NonNull Task<DataSnapshot> task) {
-                                    for (DataSnapshot ds : task.getResult().getChildren()) {
-                                        ReactUser reactUser = new ReactUser();
-                                        reactUser.setOrderNumber(ds.child("orderNumber").getValue(Integer.class));
-                                        reactUser.setGender(ds.child("gender").getValue(Boolean.class));
-                                        takedLike.add(reactUser);
-                                    }
-                                    refCheck.child(CURRENT_USER_ID + "/react/give/" + GENDER_FINDING).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-                                        @Override
-                                        public void onComplete(@NonNull Task<DataSnapshot> task) {
-                                            for (DataSnapshot ds : task.getResult().getChildren()) {
-                                                ReactUser reactUser = new ReactUser();
-                                                reactUser.setOrderNumber(ds.child("orderNumber").getValue(Integer.class));
-                                                reactUser.setGender(ds.child("gender").getValue(Boolean.class));
-                                                givedLike.add(reactUser);
-                                            }
-                                            getOrderNumberCanFind();
-                                        }
-                                    });
-                                }
-                            });
                         }
                     });
                 });
             } else {
                 findRandomUser(0);
             }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Toast.makeText(context, "Lỗi mạng", Toast.LENGTH_LONG).show();
+            }
         });
     }
 
     public static void getOrderNumberCanFind() {
+        refCheck.child(CURRENT_USER_ID + "/react/take/" + GENDER_FINDING).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                for (DataSnapshot ds : task.getResult().getChildren()) {
+                    ReactUser reactUser = new ReactUser();
+                    reactUser.setOrderNumber(ds.child("orderNumber").getValue(Integer.class));
+                    reactUser.setGender(ds.child("gender").getValue(Boolean.class));
+                    takedLike.add(reactUser);
+                }
+                final int[] size = {takedLike.size()};
+                refCheck.child(CURRENT_USER_ID + "/react/take/" + GENDER_FINDING).addChildEventListener(new ChildEventListener() {
+                    @Override
+                    public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+                        if(size[0] > 0){
+                            size[0]--;
+                        }
+                        else{
+                            refCheck.child(CURRENT_USER_ID + "/react/take/" + GENDER_FINDING+ "/" + snapshot.getKey()).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                                @Override
+                                public void onComplete(@NonNull Task<DataSnapshot> task) {
+                                    ReactUser reactUser = new ReactUser();
+                                    reactUser.setOrderNumber(task.getResult().child("orderNumber").getValue(Integer.class));
+                                    reactUser.setGender(task.getResult().child("gender").getValue(Boolean.class));
+                                    takedLike.add(reactUser);
+                                }
+                            });
+                        }
+                    }
+
+                    @Override
+                    public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+
+                    }
+
+                    @Override
+                    public void onChildRemoved(@NonNull DataSnapshot snapshot) {
+
+                    }
+
+                    @Override
+                    public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
+
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+
+                    }
+                });
+                refCheck.child(CURRENT_USER_ID + "/react/give/" + GENDER_FINDING).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<DataSnapshot> task) {
+                        for (DataSnapshot ds : task.getResult().getChildren()) {
+                            ReactUser reactUser = new ReactUser();
+                            reactUser.setOrderNumber(ds.child("orderNumber").getValue(Integer.class));
+                            reactUser.setGender(ds.child("gender").getValue(Boolean.class));
+                            givedLike.add(reactUser);
+                        }
+                        getOrderNumberCanFind();
+                    }
+                });
+            }
+        });
         if (CURRENT_USER.isGenderFinding()) {
             GENDER_FINDING = "male";
         } else {
