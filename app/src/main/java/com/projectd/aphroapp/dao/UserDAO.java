@@ -20,6 +20,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.StorageReference;
+import com.projectd.aphroapp.HomeFragment;
 import com.projectd.aphroapp.model.ChatBox;
 import com.projectd.aphroapp.model.Messenger;
 import com.projectd.aphroapp.model.ReactUser;
@@ -155,6 +156,10 @@ public class UserDAO {
                                     reactUser.setOrderNumber(task.getResult().child("orderNumber").getValue(Integer.class));
                                     reactUser.setGender(task.getResult().child("gender").getValue(Boolean.class));
                                     takedLike.add(reactUser);
+
+                                    for (int i = 0; i < givedLike.size(); i++) {
+
+                                    }
                                 }
                             });
                         }

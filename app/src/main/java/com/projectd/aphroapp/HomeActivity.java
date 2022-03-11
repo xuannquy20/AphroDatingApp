@@ -62,6 +62,7 @@ public class HomeActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private TabLayout tabLayout;
     private TextView logoAphro;
+    private static int idNotity = 0;
     private AppBarLayout appBarLayout;
     private DatabaseReference dataUser = FirebaseDatabase.getInstance().getReference().child("data_user");
 
@@ -133,6 +134,39 @@ public class HomeActivity extends AppCompatActivity {
                                 } else {
                                     ChatListFragment.adapter.notifyItemInserted(0);
                                 }
+                                Intent i = new Intent(HomeActivity.this, ChatActivity.class);
+                                i.putExtra("idRoom", chatBox.getIdRoom());
+                                i.putExtra("idUser", chatBox.getIdUser());
+                                i.putExtra("nameUser", chatBox.getNameUser());
+                                i.putExtra("position", 0);
+                                i.putExtra("first", chatBox.isFirst() + "");
+                                i.putExtra("list", chatBox.getMessengers());
+                                PendingIntent pending = PendingIntent.getActivity(
+                                        HomeActivity.this, 0, i, PendingIntent.FLAG_UPDATE_CURRENT);
+
+                                final String NOTIFICATION_CHANNEL_ID = chatBox.getIdRoom();
+                                NotificationCompat.Builder builder = new NotificationCompat.Builder(HomeActivity.this, NOTIFICATION_CHANNEL_ID);
+                                Notification notification = builder
+                                        .setSmallIcon(R.drawable.love)
+                                        .setContentTitle("Gắn kết mới")
+                                        .setContentText("Bạn vừa có lượt gắn kết mới, trò chuyện ngay")
+                                        .setPriority(NotificationCompat.PRIORITY_MAX)
+                                        .setContentIntent(pending)
+                                        .setAutoCancel(true)
+                                        .setStyle(new NotificationCompat.BigTextStyle()
+                                                .bigText("Bạn vừa có lượt gắn kết mới, trò chuyện ngay"))
+                                        .build();
+
+                                NotificationManagerCompat manager = NotificationManagerCompat.from(HomeActivity.this);
+                                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                                    NotificationChannel notificationChannel =
+                                            new NotificationChannel(NOTIFICATION_CHANNEL_ID, "Channel Notify ver 8+",
+                                                    NotificationManager.IMPORTANCE_DEFAULT);
+                                    manager.createNotificationChannel(notificationChannel);
+                                }
+
+                                manager.notify(idNotity, notification);
+                                idNotity++;
                             }
                         });
                     }
