@@ -38,25 +38,25 @@ public class IntroActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
 
-//        if (!UserDAO.nowLangFirst.equals("vi")) {
-//            notVn = true;
-//            TranslatorOptions options =
-//                    new TranslatorOptions.Builder()
-//                            .setSourceLanguage(TranslateLanguage.VIETNAMESE)
-//                            .setTargetLanguage(UserDAO.nowLangFirst)
-//                            .build();
-//            Translator translator = Translation.getClient(options);
-//            DownloadConditions conditions = new DownloadConditions.Builder().requireWifi().build();
-//            translator.downloadModelIfNeeded(conditions).addOnSuccessListener(new OnSuccessListener<Void>() {
-//                @Override
-//                public void onSuccess(Void unused) {
-//                    AllWord.translate();
-//                    downloadLang = true;
-//                }
-//            });
-//        } else {
-//            downloadLang = true;
-//        }
+        if (!UserDAO.nowLangFirst.equals("vi")) {
+            notVn = true;
+            TranslatorOptions options =
+                    new TranslatorOptions.Builder()
+                            .setSourceLanguage(TranslateLanguage.VIETNAMESE)
+                            .setTargetLanguage(UserDAO.nowLangFirst)
+                            .build();
+            Translator translator = Translation.getClient(options);
+            DownloadConditions conditions = new DownloadConditions.Builder().requireWifi().build();
+            translator.downloadModelIfNeeded(conditions).addOnSuccessListener(new OnSuccessListener<Void>() {
+                @Override
+                public void onSuccess(Void unused) {
+                    AllWord.translate();
+                    downloadLang = true;
+                }
+            });
+        } else {
+            downloadLang = true;
+        }
 
         imgLogo = findViewById(R.id.logoView);
         GoogleSignInOptions googleSignIn = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
