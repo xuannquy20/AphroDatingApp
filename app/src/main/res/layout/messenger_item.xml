@@ -29,10 +29,19 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="100dp"
                 android:background="@drawable/background_orther_send"
+                android:clickable="true"
                 android:padding="10dp"
                 android:text="TextView"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/warning_translate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Đã dịch"
+                android:textSize="10sp" />
         </LinearLayout>
 
         <LinearLayout

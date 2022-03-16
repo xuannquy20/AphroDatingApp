@@ -17,6 +17,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.projectd.aphroapp.dao.UserDAO;
+import com.projectd.aphroapp.language.AllWord;
 import com.projectd.aphroapp.model.User;
 
 import org.json.JSONArray;
@@ -27,7 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RegisterAddressActivity extends AppCompatActivity {
-    private TextView txtInfo;
+    private TextView txtInfo, bannerCity, bannerDis, bannerWards;
     private Spinner city, district, ward;
     private CardView selectAddress;
     private Button btnNext;
@@ -37,11 +38,20 @@ public class RegisterAddressActivity extends AppCompatActivity {
 
     protected void bindingView(){
         txtInfo = findViewById(R.id.txtInfo);
+        bannerCity = findViewById(R.id.bannerCity);
+        bannerDis = findViewById(R.id.bannerDis);
+        bannerWards = findViewById(R.id.bannerWards);
         selectAddress = findViewById(R.id.layout_description);
         btnNext = findViewById(R.id.btnNext);
         city = findViewById(R.id.city);
         district = findViewById(R.id.district);
         ward = findViewById(R.id.ward);
+
+        txtInfo.setText(AllWord.yourAddress);
+        bannerCity.setText(AllWord.city);
+        bannerDis.setText(AllWord.district);
+        bannerWards.setText(AllWord.wards);
+        btnNext.setText(AllWord.next);
     }
 
     protected void getDataAdapter(String path, String name, List<String> list, Spinner spinner, boolean city){

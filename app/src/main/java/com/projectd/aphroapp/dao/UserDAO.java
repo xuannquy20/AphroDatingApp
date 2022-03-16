@@ -35,6 +35,7 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Random;
 
 public class UserDAO {
@@ -45,6 +46,8 @@ public class UserDAO {
     public static String GENDER_FINDING = "";
     public static Bitmap imageBitmap = null;
     public static int age = -1;
+
+    public static String nowLangFirst = Locale.getDefault().getLanguage();
 
     public static List<ReactUser> takedLike = new ArrayList<>();
     public static List<ReactUser> givedLike = new ArrayList<>();
@@ -118,7 +121,7 @@ public class UserDAO {
                         });
                     });
                 } else {
-                    findRandomUser(0);
+                    getOrderNumberCanFind();
                 }
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
@@ -205,22 +208,33 @@ public class UserDAO {
                             @Override
                             public void onComplete(@NonNull Task<DataSnapshot> task) {
                                 int max = task.getResult().getValue(Integer.class);
-                                max--;
+                                Log.i("checkMax", max + "");
                                 if (givedLike.size() > 0) {
-                                    for (int i = 0; i < givedLike.size(); i++) {
-                                        if ((max == ORDER_NUMBER && CURRENT_USER.isGender() == CURRENT_USER.isGenderFinding()) || max == givedLike.get(i).getOrderNumber()) {
-                                            i = 0;
-                                            max--;
-                                        } else if (i == givedLike.size() - 1 && max >= 0) {
-                                            listCanFind.add(max);
-                                            max--;
-                                            if (max >= 0) {
-                                                i = 0;
+//                                    for (int i = 0; i < givedLike.size(); i++) {
+//                                        if ((max == ORDER_NUMBER && (CURRENT_USER.isGender() == CURRENT_USER.isGenderFinding() || !CURRENT_USER.isGender() == !CURRENT_USER.isGenderFinding())) || max == givedLike.get(i).getOrderNumber()) {
+//                                            i = 0;
+//                                            max--;
+//                                        } else if (i == givedLike.size() - 1 && max >= 0) {
+//                                            listCanFind.add(max);
+//                                            max--;
+//                                            if (max >= 0) {
+//                                                i = 0;
+//                                            }
+//                                        }
+//                                    }
+
+                                    for(int i = 0; i<max; i++){
+                                        for(int j = 0; j<givedLike.size(); j++){
+                                            if(i==givedLike.get(j).getOrderNumber()){
+                                                break;
+                                            }
+                                            else if(j==givedLike.size() - 1){
+                                                listCanFind.add(i);
                                             }
                                         }
                                     }
                                 } else {
-                                    for (int i = 0; i <= max; i++) {
+                                    for (int i = 0; i < max; i++) {
                                         if (!(i == ORDER_NUMBER && (CURRENT_USER.isGender() == CURRENT_USER.isGenderFinding() || !CURRENT_USER.isGender() == !CURRENT_USER.isGenderFinding()))) {
                                             listCanFind.add(i);
                                         }
@@ -234,7 +248,6 @@ public class UserDAO {
             }
         });
     }
-
 
     public static void findRandomUser(int position) {
         if (listCanFind.size() > 0) {

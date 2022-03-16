@@ -51,7 +51,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/textView9"
+                android:id="@+id/bannerCity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
@@ -74,7 +74,7 @@
             </RelativeLayout>
 
             <TextView
-                android:id="@+id/textView8"
+                android:id="@+id/bannerDis"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
@@ -97,7 +97,7 @@
             </RelativeLayout>
 
             <TextView
-                android:id="@+id/textView7"
+                android:id="@+id/bannerWards"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"

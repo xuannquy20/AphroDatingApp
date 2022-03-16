@@ -1,52 +1,29 @@
 package com.projectd.aphroapp;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.ValueAnimator;
 import android.app.Activity;
-import android.app.ProgressDialog;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Color;
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.ColorDrawable;
-import android.media.Image;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.UploadTask;
+import com.projectd.aphroapp.language.AllWord;
 import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
-import com.projectd.aphroapp.model.ReactUser;
-import com.projectd.aphroapp.model.User;
 
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.InputStream;
-import java.util.Calendar;
-import java.util.Random;
+import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class RegisterImageActivity extends AppCompatActivity {
     private TextView txtInfo;
@@ -58,6 +35,9 @@ public class RegisterImageActivity extends AppCompatActivity {
         txtInfo = findViewById(R.id.txtInfo);
         selectImage = findViewById(R.id.select_image);
         btnNext = findViewById(R.id.btnNext);
+
+        txtInfo.setText(AllWord.yourAvatar);
+        btnNext.setText(AllWord.completed);
     }
 
     protected void bindingAciton() {
@@ -76,7 +56,6 @@ public class RegisterImageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 LoadingDialog loadingDialog = new LoadingDialog(RegisterImageActivity.this);
-                loadingDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 loadingDialog.show();
 
                 UserDAO.CURRENT_USER.setImage(UserDAO.CURRENT_USER_ID);

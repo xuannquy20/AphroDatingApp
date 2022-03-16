@@ -149,6 +149,7 @@
                             android:layout_marginRight="5dp"
                             android:alpha="0"
                             android:text="Nhấn để xem thông tin"
+                            android:textSize="10sp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toStartOf="@+id/image_icon_check_infomation"
                             app:layout_constraintTop_toTopOf="parent" />

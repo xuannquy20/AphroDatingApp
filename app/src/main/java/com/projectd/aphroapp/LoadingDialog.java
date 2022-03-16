@@ -2,13 +2,14 @@ package com.projectd.aphroapp;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 
 public class LoadingDialog extends Dialog {
     public LoadingDialog(@NonNull Context context) {
@@ -19,6 +20,7 @@ public class LoadingDialog extends Dialog {
         setTitle(null);
         setCancelable(false);
         setOnCancelListener(null);
+        getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
         View view = LayoutInflater.from(context).inflate(R.layout.loading_dialog, null);
         setContentView(view);
     }

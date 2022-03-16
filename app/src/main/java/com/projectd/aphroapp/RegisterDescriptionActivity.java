@@ -10,13 +10,13 @@ import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.projectd.aphroapp.dao.UserDAO;
+import com.projectd.aphroapp.language.AllWord;
 
 public class RegisterDescriptionActivity extends AppCompatActivity {
-    private TextView txtInfo;
+    private TextView txtInfo, selfDesc;
     private CardView layoutDescription;
     private Button btnNext;
     private EditText description;
@@ -24,8 +24,16 @@ public class RegisterDescriptionActivity extends AppCompatActivity {
     protected void bindingView(){
         txtInfo = findViewById(R.id.txtInfo);
         layoutDescription = findViewById(R.id.layout_description);
+        selfDesc = findViewById(R.id.bannerCity);
         btnNext = findViewById(R.id.btnNext);
         description = findViewById(R.id.description);
+
+        if(IntroActivity.notVn){
+            txtInfo.setText(AllWord.yourDescription);
+            selfDesc.setText(AllWord.selfDescription);
+            description.setHint(AllWord.hintDescription);
+            btnNext.setText(AllWord.next);
+        }
     }
 
     protected void bindingAction(){

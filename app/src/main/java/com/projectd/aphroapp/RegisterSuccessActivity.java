@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.projectd.aphroapp.language.AllWord;
+
 public class RegisterSuccessActivity extends AppCompatActivity {
     private TextView titleSuccess, textSuccess;
     private ImageView imageSuccess;
@@ -25,10 +27,14 @@ public class RegisterSuccessActivity extends AppCompatActivity {
         btnNext = findViewById(R.id.btn_next_success);
         buttonNext = findViewById(R.id.button_next_success);
 
+        titleSuccess.setText(AllWord.profileCompleted);
+        textSuccess.setText(AllWord.goodLuck);
+        buttonNext.setText(AllWord.next);
+
         buttonNext.setOnClickListener(v -> {
             Intent i = new Intent(RegisterSuccessActivity.this, HomeActivity.class);
             startActivity(i);
-            finish();
+            finishAffinity();
         });
     }
 

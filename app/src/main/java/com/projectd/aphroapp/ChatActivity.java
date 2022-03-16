@@ -18,11 +18,14 @@ import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.ChildEventListener;
@@ -59,7 +62,6 @@ public class ChatActivity extends AppCompatActivity {
     private Button btnBack, btnSend;
     private EditText boxTyping;
     private int position;
-    private boolean first;
     private DatabaseReference chatbox = FirebaseDatabase.getInstance().getReference().child("chat_box");
 
     private void bindingView() {
@@ -75,6 +77,7 @@ public class ChatActivity extends AppCompatActivity {
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                idRoom = "";
                 onBackPressed();
             }
         });
@@ -113,7 +116,6 @@ public class ChatActivity extends AppCompatActivity {
             idUser = i.getStringExtra("idUser");
             nameUser = i.getStringExtra("nameUser");
             position = i.getIntExtra("position", -1);
-            first = Boolean.parseBoolean(i.getStringExtra("first"));
             nameTextUser.setText(nameUser);
             try {
                 File dir = new File(this.getFilesDir(), "image");
@@ -135,8 +137,8 @@ public class ChatActivity extends AppCompatActivity {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(ChatActivity.this);
         linearLayoutManager.setReverseLayout(true);
         recyclerView.setLayoutManager(linearLayoutManager);
-
         new Handler().postDelayed(() -> recyclerView.scrollToPosition(0), 200);
+
     }
 
     @Override

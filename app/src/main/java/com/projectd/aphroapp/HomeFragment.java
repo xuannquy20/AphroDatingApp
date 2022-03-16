@@ -316,7 +316,7 @@ public class HomeFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         bindingView();
         bindingAction();
-        if (UserDAO.imageUserFound.size() > 0) {
+        if (UserDAO.userFound.size() > 0) {
             imageShow.setScaleType(ImageView.ScaleType.CENTER_CROP);
             imageShow.setImageBitmap(UserDAO.imageUserFound.get(0));
             imageHide.setImageBitmap(UserDAO.imageUserFound.get(0));

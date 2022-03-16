@@ -22,6 +22,8 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -125,7 +127,7 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
 
         if (mCurrent.getMessengers().size() > 0) {
             String text = mCurrent.getMessengers().get(0).getText();
-            if(text.length() > 25){
+            if (text.length() > 25) {
                 text = text.substring(0, 22) + "...";
             }
             holder.lastText.setText(text);
@@ -141,11 +143,10 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
             if (day == calendar.getDate() && month == calendar.getMonth() && year == calendar.getYear()) {
                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
                 holder.timeLastText.setText(simpleDateFormat.format(mCurrent.getMessengers().get(0).getDate()));
-            } else if(Calendar.getInstance().get(Calendar.WEEK_OF_MONTH) == check.get(Calendar.WEEK_OF_MONTH)) {
+            } else if (Calendar.getInstance().get(Calendar.WEEK_OF_MONTH) == check.get(Calendar.WEEK_OF_MONTH)) {
                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat("E HH:mm");
                 holder.timeLastText.setText(simpleDateFormat.format(mCurrent.getMessengers().get(0).getDate()));
-            }
-            else if (year == calendar.getYear()) {
+            } else if (year == calendar.getYear()) {
                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM, HH:mm");
                 holder.timeLastText.setText(simpleDateFormat.format(mCurrent.getMessengers().get(0).getDate()));
             } else {
@@ -183,13 +184,13 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
         });
         final int[] size = {UserDAO.listChat.get(finalPosition).getMessengers().size()};
 
-        if(mCurrent.isFirst()){
+        if (mCurrent.isFirst()) {
             chatbox.child(mCurrent.getIdRoom()).addChildEventListener(new ChildEventListener() {
                 @Override
                 public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
                     int finalPosition = -1;
-                    for(int i = 0; i < UserDAO.listChat.size(); i++){
-                        if(UserDAO.listChat.get(i).getIdRoom().equals(mCurrent.getIdRoom())){
+                    for (int i = 0; i < UserDAO.listChat.size(); i++) {
+                        if (UserDAO.listChat.get(i).getIdRoom().equals(mCurrent.getIdRoom())) {
                             finalPosition = i;
                             break;
                         }
@@ -200,7 +201,7 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
                         if (!snapshot.child("idUser").getValue(String.class).equals(UserDAO.CURRENT_USER_ID)) {
                             UserDAO.listChat.get(finalPosition).getMessengers().add(0, snapshot.getValue(Messenger.class));
                             ChatListFragment.swapItems(finalPosition);
-                            if(mCurrent.getIdRoom().equals(ChatActivity.idRoom)){
+                            if (mCurrent.getIdRoom().equals(ChatActivity.idRoom)) {
                                 ChatActivity.adapter.notifyItemInserted(0);
                                 ChatActivity.recyclerView.scrollToPosition(0);
                             }

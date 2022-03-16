@@ -13,8 +13,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.projectd.aphroapp.language.AllWord;
 import com.projectd.aphroapp.dao.UserDAO;
-import com.projectd.aphroapp.model.User;
 
 public class RegisterNameActivity extends AppCompatActivity {
     private TextView txtInfo, bannerName;
@@ -61,6 +61,13 @@ public class RegisterNameActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register_name);
         UserDAO.getDataComplete = false;
         bindingView();
+        if(IntroActivity.notVn){
+            txtInfo.setText(AllWord.yourName);
+            inputName.setHint(AllWord.yourName);
+            bannerName.setText(AllWord.warningYourName);
+            btnNext.setText(AllWord.next);
+        }
+
         bindingAction();
     }
 

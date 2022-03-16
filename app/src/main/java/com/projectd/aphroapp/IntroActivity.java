@@ -1,19 +1,11 @@
 package com.projectd.aphroapp;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.ValueAnimator;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.TextView;
@@ -24,34 +16,48 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.storage.StorageReference;
+import com.google.mlkit.common.model.DownloadConditions;
+import com.google.mlkit.nl.translate.TranslateLanguage;
+import com.google.mlkit.nl.translate.Translation;
+import com.google.mlkit.nl.translate.Translator;
+import com.google.mlkit.nl.translate.TranslatorOptions;
+import com.projectd.aphroapp.language.AllWord;
 import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
-import com.projectd.aphroapp.model.ReactUser;
-import com.projectd.aphroapp.model.User;
-
-import java.io.File;
-import java.util.List;
-import java.util.Random;
 
 public class IntroActivity extends AppCompatActivity {
     private TextView imgLogo;
     private boolean login = false;
     public static GoogleSignInClient mGoogleSignInClient;
-
+    boolean downloadLang = false;
+    public static boolean notVn = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
+
+//        if (!UserDAO.nowLangFirst.equals("vi")) {
+//            notVn = true;
+//            TranslatorOptions options =
+//                    new TranslatorOptions.Builder()
+//                            .setSourceLanguage(TranslateLanguage.VIETNAMESE)
+//                            .setTargetLanguage(UserDAO.nowLangFirst)
+//                            .build();
+//            Translator translator = Translation.getClient(options);
+//            DownloadConditions conditions = new DownloadConditions.Builder().requireWifi().build();
+//            translator.downloadModelIfNeeded(conditions).addOnSuccessListener(new OnSuccessListener<Void>() {
+//                @Override
+//                public void onSuccess(Void unused) {
+//                    AllWord.translate();
+//                    downloadLang = true;
+//                }
+//            });
+//        } else {
+//            downloadLang = true;
+//        }
+
         imgLogo = findViewById(R.id.logoView);
         GoogleSignInOptions googleSignIn = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail().build();
@@ -85,16 +91,15 @@ public class IntroActivity extends AppCompatActivity {
             Intent i = new Intent(IntroActivity.this, LoginActivity.class);
             startActivity(i);
             finish();
-        } else if (UserDAO.ORDER_NUMBER == -1 && login) {
+        } else if (UserDAO.ORDER_NUMBER == -1) {
             Intent i = new Intent(IntroActivity.this, RegisterNameActivity.class);
             startActivity(i);
             finish();
-        } else if(UserDAO.CURRENT_USER.getAge() >= 18){
+        } else if (UserDAO.CURRENT_USER.getAge() >= 18) {
             Intent i = new Intent(IntroActivity.this, HomeActivity.class);
             startActivity(i);
             finish();
-        }
-        else{
+        } else{
             Intent i = new Intent(IntroActivity.this, AccountUnder18Activity.class);
             startActivity(i);
             finish();
@@ -115,21 +120,22 @@ public class IntroActivity extends AppCompatActivity {
                 @Override
                 public void run() {
                     LoadingDialog loadingDialog = new LoadingDialog(IntroActivity.this);
-                    loadingDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                     loadingDialog.show();
+
                     new Thread(new Runnable() {
                         @Override
                         public void run() {
                             while (true) {
                                 try {
-                                    if (UserDAO.CURRENT_USER.getId() != null && !UserDAO.getDataComplete) {
+                                    if ((UserDAO.CURRENT_USER.getId() != null && !UserDAO.getDataComplete) || (notVn && !AllWord.complete)) {
                                         Thread.sleep(100);
                                     } else {
                                         loadingDialog.cancel();
                                         nextActivity();
                                         break;
                                     }
-                                } catch (Exception e) {}
+                                } catch (Exception e) {
+                                }
                             }
                         }
                     }).start();

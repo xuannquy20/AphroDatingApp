@@ -14,13 +14,14 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.projectd.aphroapp.dao.UserDAO;
+import com.projectd.aphroapp.language.AllWord;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
 public class RegisterBirthDateActivity extends AppCompatActivity {
-    private TextView txtInfo;
+    private TextView txtInfo, bannerDay, bannerMonth, bannerYear, warningAge;
     private LinearLayout selectBirthDate;
     private Spinner selectDay, selectMonth, selectYear;
     private Button btnNext;
@@ -33,6 +34,17 @@ public class RegisterBirthDateActivity extends AppCompatActivity {
         selectMonth = findViewById(R.id.month);
         selectYear = findViewById(R.id.year);
         btnNext = findViewById(R.id.btnNext);
+        bannerDay = findViewById(R.id.textView11);
+        bannerMonth = findViewById(R.id.textView10);
+        bannerYear = findViewById(R.id.textView12);
+        warningAge = findViewById(R.id.textView6);
+
+        txtInfo.setText(AllWord.yourBirthDate);
+        bannerDay.setText(AllWord.day);
+        bannerMonth.setText(AllWord.month);
+        bannerYear.setText(AllWord.year);
+        warningAge.setText(AllWord.warningBirthDate);
+        btnNext.setText(AllWord.next);
 
         listYear = addListData(1950, 2022);
         listMonth = addListData(1, 12);

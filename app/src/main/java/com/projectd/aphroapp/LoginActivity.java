@@ -1,18 +1,14 @@
 package com.projectd.aphroapp;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.ValueAnimator;
 import android.content.Intent;
-import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.os.Handler;
 import android.text.SpannableString;
 import android.text.style.UnderlineSpan;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
@@ -30,11 +26,11 @@ import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import com.projectd.aphroapp.language.AllWord;
 import com.projectd.aphroapp.dao.UserDAO;
 
 import java.util.Arrays;
@@ -84,9 +80,10 @@ public class LoginActivity extends AppCompatActivity {
                         UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
                         UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
                         UserDAO.getDataUser(LoginActivity.this);
+
                         LoadingDialog loadingDialog = new LoadingDialog(LoginActivity.this);
-                        loadingDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                         loadingDialog.show();
+
                         new Thread(() -> {
                             while (true) {
                                 try {
@@ -142,9 +139,10 @@ public class LoginActivity extends AppCompatActivity {
             UserDAO.CURRENT_USER_ID = account.getId();
             UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
             UserDAO.getDataUser(this);
-            LoadingDialog loadingDialog = new LoadingDialog(this);
-            loadingDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+
+            LoadingDialog loadingDialog = new LoadingDialog(LoginActivity.this);
             loadingDialog.show();
+
             new Thread(() -> {
                 while (true) {
                     try {
@@ -172,6 +170,11 @@ public class LoginActivity extends AppCompatActivity {
         animationIntro(layoutMain, 1000, 0);
         animationIntro(layoutLogo, -1000, 0);
 
+        if(IntroActivity.notVn){
+            btnGoogleSignIn.setText(AllWord.loginByGoogle);
+            btnFacebookSignIn.setText(AllWord.loginByFaceBook);
+            ruleLink.setText(AllWord.rule);
+        }
     }
 
     private void signInGoogle() {
