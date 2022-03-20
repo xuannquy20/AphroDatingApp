@@ -6,10 +6,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
@@ -93,9 +95,8 @@ public class RegisterImageActivity extends AppCompatActivity {
                                             } else {
                                                 i = new Intent(RegisterImageActivity.this, AccountUnder18Activity.class);
                                             }
-                                            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                                             startActivity(i);
-                                            finish();
+                                            finishAffinity();
                                             break;
                                         }
                                         else{
@@ -117,10 +118,13 @@ public class RegisterImageActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == Activity.RESULT_OK) {
             if (data != null) {
-                uri = data.getData();
-                selectImage.setImageURI(uri);
-                selectImage.buildDrawingCache();
-                UserDAO.imageBitmap = selectImage.getDrawingCache();
+                try {
+                    uri = data.getData();
+                    UserDAO.imageUser = MediaStore.Images.Media.getBitmap(this.getContentResolver(), uri);
+                    selectImage.setImageURI(uri);
+                    selectImage.buildDrawingCache();
+                }
+                catch (Exception e){}
             }
         }
         btnNext.setEnabled(true);

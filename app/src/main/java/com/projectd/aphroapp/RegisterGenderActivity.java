@@ -15,6 +15,8 @@ import android.widget.TextView;
 import com.projectd.aphroapp.language.AllWord;
 import com.projectd.aphroapp.dao.UserDAO;
 
+import java.util.Locale;
+
 public class RegisterGenderActivity extends AppCompatActivity {
     private TextView txtInfo;
     private RadioGroup selectGender;
@@ -31,8 +33,8 @@ public class RegisterGenderActivity extends AppCompatActivity {
         btnNext = findViewById(R.id.btnNext);
 
         txtInfo.setText(AllWord.yourGender);
-        male.setText(AllWord.male);
-        female.setText(AllWord.female);
+        male.setText(AllWord.male.toUpperCase(Locale.ROOT));
+        female.setText(AllWord.female.toUpperCase(Locale.ROOT));
         btnNext.setText(AllWord.next);
     }
 
@@ -63,13 +65,12 @@ public class RegisterGenderActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_gender);
-
         bindingView();
         bindingAction();
 
         Intent genderCheck = getIntent();
         if (genderCheck.getBooleanExtra("genderFinding", false) == true) {
-            txtInfo.setText("Giới tính bạn quan tâm");
+            txtInfo.setText(AllWord.yourGenderFinding);
             genderFinding = true;
         }
     }

@@ -15,6 +15,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.os.Handler;
+import android.os.Parcelable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,6 +28,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
@@ -40,11 +42,15 @@ import com.google.firebase.storage.FileDownloadTask;
 import com.google.firebase.storage.StorageReference;
 import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
+import com.projectd.aphroapp.language.AllWord;
 import com.projectd.aphroapp.model.ChatBox;
 import com.projectd.aphroapp.model.ReactUser;
 import com.projectd.aphroapp.model.User;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
 import java.util.Calendar;
 import java.util.Collection;
 import java.util.Collections;
@@ -52,7 +58,8 @@ import java.util.Random;
 import java.util.UUID;
 
 public class HomeFragment extends Fragment {
-    private ImageView imageShow, imageHide, imageCheckInfomation, imageWarning;
+    private ImageView imageShow, imageHide, imageCheckInfomation;
+    private LottieAnimationView imageWarning;
     private CardView btnSkip, btnLike;
     private LinearLayout layoutMain;
     private RelativeLayout layoutInfomation;
@@ -104,21 +111,21 @@ public class HomeFragment extends Fragment {
 
     private void clickAnimation(boolean isLike) {
         //Animation
-        if(layoutMain.getAlpha()==0) {
+        if (layoutMain.getAlpha() == 0) {
             animationIntro(layoutMain, 0, 1, 1, 300);
         }
         animationIntro(btnLike, 1f, 0.2f, 1, 500);
         animationIntro(btnSkip, 1f, 0.2f, 1, 500);
-
         View view = null;
         if (isLike) {
-            imageWarning.setImageResource(R.drawable.ic_heart);
+            imageWarning.setAnimation(R.raw.heart_beat);
+            imageWarning.setSpeed(2f);
             view = btnLike;
         } else {
-            imageWarning.setImageResource(R.drawable.ic_skip);
+            imageWarning.setAnimation(R.raw.x_mark);
+            imageWarning.setSpeed(1f);
             view = btnSkip;
         }
-
         animationIntro(view, 1, 1.2f, 2, 200);
         animationIntro(view, 1, 1.2f, 3, 200);
         View finalView = view;
@@ -128,13 +135,11 @@ public class HomeFragment extends Fragment {
         }, 200);
 
         imageWarning.setVisibility(View.VISIBLE);
-        animationIntro(imageWarning, 0f, 1f, 2, 300);
-        animationIntro(imageWarning, 0f, 1f, 3, 300);
-        animationIntro(imageWarning, 800f, 0f, 4, 300);
+        animationIntro(imageWarning, 0f, 1f, 1, 300);
+        imageWarning.playAnimation();
         new Handler().postDelayed(() -> {
-            animationIntro(imageWarning, 1f, 0f, 2, 300);
-            animationIntro(imageWarning, 1f, 0f, 3, 300);
-            animationIntro(imageWarning, 0f, 800f, 4, 300);
+            animationIntro(imageWarning, 1f, 0f, 1, 300);
+
             if (isLike) {
                 animationIntro(imageShow, 0, 40, 5, 300);
                 animationIntro(imageShow, 0f, 1500f, 0, 300);
@@ -163,6 +168,26 @@ public class HomeFragment extends Fragment {
                         String address = UserDAO.userFound.get(1).getWard().substring(6) + ", " + UserDAO.userFound.get(1).getDistrict().substring(4) + ", " + cityUser.getText().toString();
                         addressUserHide.setText(address);
                         descriptionUser.setText(UserDAO.userFound.get(1).getDescription());
+                        File dir = new File(getActivity().getFilesDir(), "image");
+                        if (!dir.exists()) {
+                            dir.mkdir();
+                        }
+                        File file = new File(dir, UserDAO.userFound.get(1).getId() + ".png");
+                        if (file.exists()) {
+                            file.delete();
+                        }
+                        try {
+                            Bitmap imageBox = UserDAO.imageUserFound.get(1);
+                            ByteArrayOutputStream stream = new ByteArrayOutputStream();
+                            imageBox.compress(Bitmap.CompressFormat.PNG, 100, stream);
+                            byte[] byteArray = stream.toByteArray();
+                            FileOutputStream fileOut = new FileOutputStream(file);
+                            ObjectOutputStream objectOut = new ObjectOutputStream(fileOut);
+                            objectOut.writeObject(byteArray);
+                            objectOut.flush();
+                            objectOut.close();
+                        } catch (Exception e) {
+                        }
                     }
                     if (UserDAO.imageUserFound.size() > 0) {
                         UserDAO.userFound.remove(0);
@@ -253,6 +278,9 @@ public class HomeFragment extends Fragment {
                         @Override
                         public void onSuccess(DataSnapshot dataSnapshot) {
                             Intent i = new Intent(getActivity(), MatchSuccessActivity.class);
+                            i.putExtra("idRoom", uuid.toString());
+                            i.putExtra("idUser", userFound.getId());
+                            i.putExtra("nameUser", userFound.getName());
                             startActivity(i);
                         }
                     });
@@ -316,6 +344,7 @@ public class HomeFragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         bindingView();
         bindingAction();
+        tutorialCheckInfomation.setText(AllWord.clickToViewProfile);
         if (UserDAO.userFound.size() > 0) {
             imageShow.setScaleType(ImageView.ScaleType.CENTER_CROP);
             imageShow.setImageBitmap(UserDAO.imageUserFound.get(0));

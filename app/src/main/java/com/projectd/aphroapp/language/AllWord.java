@@ -27,10 +27,11 @@ public class AllWord {
     public static String warningBirthDate = "Tuổi của bạn sẽ được hiển thị công khai";
     public static String yourDescription = "Mô tả về bạn";
     public static String selfDescription = "Mô tả bản thân";
-    public static String hintDescription = "Hãy viết gì đó về bản thân...";
+    public static String hintDescription = "Hãy viết gì đó về bản thân";
     public static String yourGender = "Giới tính của bạn";
-    public static String male = "Nam";
-    public static String female = "Nữ";
+    public static String yourGenderFinding = "Giới tính bạn quan tâm";
+    public static String male = "NAM";
+    public static String female = "NỮ";
     public static String yourAvatar = "Ảnh đại diện của bạn";
     public static String profileCompleted = "Hồ sơ đã hoàn thành";
     public static String goodLuck = "Chúc bạn sẽ sớm tìm được một nửa của mình với";
@@ -51,6 +52,18 @@ public class AllWord {
     public static String messageDialog = "Aphro cần khởi động lại để cập nhật dữ liệu";
     public static String okButtonDialog = "Đồng ý";
     public static String cancelButtonDialog = "Huỷ";
+
+    //Profile fragment
+    public static String editProfile = "Chỉnh sửa thông tin";
+    public static String logOut = "Đăng xuất";
+
+    //Notification
+    public static String titleNotification = "Gắn kết mới";
+    public static String messageNotification = "Bạn vừa có lượt gắn kết mới, trò chuyện ngay";
+
+    //Edit Profile Activity
+    public static String titleEdit = "Thay đổi thông tin";
+    public static String messageEdit = "Bạn có chắc chắn muốn đổi thông tin?";
 
     public static boolean complete = false;
 
@@ -183,6 +196,12 @@ public class AllWord {
                 female = s;
             }
         });
+        translator.translate(yourGenderFinding).addOnSuccessListener(new OnSuccessListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                yourGenderFinding = s;
+            }
+        });
         translator.translate(yourAvatar).addOnSuccessListener(new OnSuccessListener<String>() {
             @Override
             public void onSuccess(String s) {
@@ -271,6 +290,42 @@ public class AllWord {
             @Override
             public void onSuccess(String s) {
                 cancelButtonDialog = s;
+            }
+        });
+        translator.translate(editProfile).addOnSuccessListener(new OnSuccessListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                editProfile = s;
+            }
+        });
+        translator.translate(logOut).addOnSuccessListener(new OnSuccessListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                logOut = s;
+            }
+        });
+        translator.translate(titleNotification).addOnSuccessListener(new OnSuccessListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                titleNotification = s;
+            }
+        });
+        translator.translate(messageNotification).addOnSuccessListener(new OnSuccessListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                messageNotification = s;
+            }
+        });
+        translator.translate(titleEdit).addOnSuccessListener(new OnSuccessListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                titleEdit = s;
+            }
+        });
+        translator.translate(messageEdit).addOnSuccessListener(new OnSuccessListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                messageEdit = s;
                 complete = true;
             }
         });

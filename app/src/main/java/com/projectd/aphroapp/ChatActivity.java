@@ -1,57 +1,30 @@
 package com.projectd.aphroapp;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.Handler;
-import android.os.Message;
-import android.os.Parcelable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.storage.FileDownloadTask;
-import com.google.firebase.storage.StorageReference;
-import com.projectd.aphroapp.dao.InternetDAO;
+import com.projectd.aphroapp.adapter.MessengerAdapter;
 import com.projectd.aphroapp.dao.UserDAO;
-import com.projectd.aphroapp.model.ChatBox;
 import com.projectd.aphroapp.model.Messenger;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
-import java.sql.Timestamp;
-import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Objects;
 
 public class ChatActivity extends AppCompatActivity {
     public static RecyclerView recyclerView;
@@ -61,7 +34,7 @@ public class ChatActivity extends AppCompatActivity {
     private TextView nameTextUser;
     private Button btnBack, btnSend;
     private EditText boxTyping;
-    private int position;
+    public static int position;
     private DatabaseReference chatbox = FirebaseDatabase.getInstance().getReference().child("chat_box");
 
     private void bindingView() {
@@ -115,7 +88,11 @@ public class ChatActivity extends AppCompatActivity {
             idRoom = i.getStringExtra("idRoom");
             idUser = i.getStringExtra("idUser");
             nameUser = i.getStringExtra("nameUser");
-            position = i.getIntExtra("position", -1);
+            for(int j = 0; j<UserDAO.listChat.size(); j++){
+                if(idRoom.equals(UserDAO.listChat.get(j).getIdRoom())){
+                    position = j;
+                }
+            }
             nameTextUser.setText(nameUser);
             try {
                 File dir = new File(this.getFilesDir(), "image");

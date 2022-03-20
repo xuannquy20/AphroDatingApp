@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void bindingActionListener() {
         btnFacebookSignIn.setOnClickListener(view -> LoginManager.getInstance().logInWithReadPermissions(LoginActivity.this, Arrays.asList("public_profile")));
-        ruleLink.setOnClickListener(view -> startActivity(new Intent(LoginActivity.this, RegisterSuccessActivity.class)));
+        ruleLink.setOnClickListener(view -> startActivity(new Intent(LoginActivity.this, MatchSuccessActivity.class)));
         btnGoogleSignIn.setOnClickListener(view -> signInGoogle());
     }
 

@@ -66,23 +66,27 @@ public class IntroActivity extends AppCompatActivity {
     }
 
     public void checkAccount() {
-        if (InternetDAO.isNetworkAvailable(IntroActivity.this)) {
-            GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(IntroActivity.this);
-            if (account != null || isFacebookLoggedIn()) {
-                login = true;
-                if (account != null) {
-                    UserDAO.CURRENT_USER_ID = account.getId();
-                } else {
-                    UserDAO.isGoogle = false;
-                    UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
+        try {
+            if (InternetDAO.isNetworkAvailable(IntroActivity.this)) {
+                GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(IntroActivity.this);
+                if (account != null || isFacebookLoggedIn()) {
+                    login = true;
+                    if (account != null) {
+                        UserDAO.CURRENT_USER_ID = account.getId();
+                    } else {
+                        UserDAO.isGoogle = false;
+                        UserDAO.CURRENT_USER_ID = AccessToken.getCurrentAccessToken().getUserId();
+                    }
+                    UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
+                    UserDAO.getDataUser(this);
                 }
-                UserDAO.CURRENT_USER.setId(UserDAO.CURRENT_USER_ID);
-                UserDAO.getDataUser(this);
+            } else {
+                Toast.makeText(IntroActivity.this, "Không có kết nối mạng, thử lại sau", Toast.LENGTH_LONG).show();
+                Handler handler = new Handler();
+                handler.postDelayed(() -> System.exit(0), 1800);
             }
-        } else {
-            Toast.makeText(IntroActivity.this, "Không có kết nối mạng, thử lại sau", Toast.LENGTH_LONG).show();
-            Handler handler = new Handler();
-            handler.postDelayed(() -> System.exit(0), 1800);
+        } catch (Exception e) {
+            Toast.makeText(this, "Mạng yếu", Toast.LENGTH_LONG).show();
         }
     }
 
@@ -99,7 +103,7 @@ public class IntroActivity extends AppCompatActivity {
             Intent i = new Intent(IntroActivity.this, HomeActivity.class);
             startActivity(i);
             finish();
-        } else{
+        } else {
             Intent i = new Intent(IntroActivity.this, AccountUnder18Activity.class);
             startActivity(i);
             finish();

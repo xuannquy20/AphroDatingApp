@@ -1,13 +1,11 @@
 package com.projectd.aphroapp;
 
-import android.app.Activity;
 import android.content.Context;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -15,18 +13,15 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.database.DataSnapshot;
+import com.projectd.aphroapp.adapter.ChatListAdapter;
 import com.projectd.aphroapp.dao.UserDAO;
 import com.projectd.aphroapp.model.ChatBox;
-import com.projectd.aphroapp.model.User;
 
 
 public class ChatListFragment extends Fragment {
     public static RecyclerView recyclerView;
     public static ChatListAdapter adapter;
+    public static ImageView emptyImage;
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -40,9 +35,10 @@ public class ChatListFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         recyclerView = getView().findViewById(R.id.chat_list);
         adapter = new ChatListAdapter(getActivity(), UserDAO.listChat);
+        emptyImage = getView().findViewById(R.id.image_empty_chat);
+
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-
     }
 
     public static void swapItems(int itemAIndex) {
@@ -65,7 +61,17 @@ public class ChatListFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-
+        if(UserDAO.listChat.size() > 0){
+            recyclerView.setVisibility(View.VISIBLE);
+        }
+        else{
+            if(UserDAO.CURRENT_USER.isGender()){
+                emptyImage.setImageResource(R.drawable.male_empty);
+            }
+            else{
+                emptyImage.setImageResource(R.drawable.female_empty);
+            }
+        }
     }
 
     @Override

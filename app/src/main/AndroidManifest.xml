@@ -13,36 +13,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AphroApp">
         <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".ChatActivity"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.Register"
-            android:windowSoftInputMode="adjustPan"
-            android:screenOrientation="portrait"/>
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".AccountUnder18Activity"
             android:exported="false"
-            android:theme="@style/Theme.Register"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Register" />
         <activity
             android:name=".RegisterSuccessActivity"
             android:exported="false"
-            android:theme="@style/Theme.Register"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Register" />
         <activity
             android:name=".MatchSuccessActivity"
             android:exported="false"
-            android:theme="@style/Theme.IntroLogin"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.IntroLogin" />
         <activity
             android:name=".RegisterDescriptionActivity"
             android:exported="false"
-            android:theme="@style/Theme.Register"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Register" />
         <activity
             android:name=".RegisterImageActivity"
             android:exported="false"
-            android:theme="@style/Theme.Register"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Register" />
         <activity
             android:name=".RegisterAddressActivity"
             android:exported="false"

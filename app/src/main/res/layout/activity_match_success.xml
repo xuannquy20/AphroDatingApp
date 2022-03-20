@@ -46,8 +46,7 @@
                 android:id="@+id/image_user_right"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/test" />
+                android:scaleType="centerCrop" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -65,8 +64,7 @@
                 android:id="@+id/image_user_left"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/test" />
+                android:scaleType="centerCrop" />
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
@@ -85,7 +83,20 @@
                 android:id="@+id/imageView"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                app:srcCompat="@drawable/heart" />
+                android:layout_gravity="center"
+                android:elevation="11dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/background_login" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/heart_animation"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:elevation="12dp"
+                app:lottie_autoPlay="false"
+                app:lottie_rawRes="@raw/heart_pul"
+                app:lottie_speed="1" />
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 

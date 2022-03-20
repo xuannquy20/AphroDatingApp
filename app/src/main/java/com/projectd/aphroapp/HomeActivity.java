@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.viewpager.widget.ViewPager;
 
 import android.animation.ValueAnimator;
+import android.annotation.SuppressLint;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -22,6 +23,8 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.LinearGradient;
 import android.graphics.Shader;
@@ -50,10 +53,19 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.storage.StorageReference;
+import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
+import com.projectd.aphroapp.language.AllWord;
 import com.projectd.aphroapp.model.ChatBox;
 import com.projectd.aphroapp.model.ReactUser;
 
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.List;
@@ -92,11 +104,36 @@ public class HomeActivity extends AppCompatActivity {
         logoAphro.getPaint().setShader(textShader);
     }
 
+    @SuppressLint("WrongThread")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         bindingView();
+
+        try {
+            File dir = new File(this.getFilesDir(), "image");
+            if (!dir.exists()) {
+                dir.mkdir();
+            }
+            File file = new File(dir, UserDAO.CURRENT_USER_ID + ".png");
+            if (!file.exists()) {
+                try {
+                    Bitmap imageBox = UserDAO.imageUser;
+                    ByteArrayOutputStream stream = new ByteArrayOutputStream();
+                    imageBox.compress(Bitmap.CompressFormat.PNG, 100, stream);
+                    byte[] byteArray = stream.toByteArray();
+                    FileOutputStream fileOut = new FileOutputStream(file);
+                    ObjectOutputStream objectOut = new ObjectOutputStream(fileOut);
+                    objectOut.writeObject(byteArray);
+                    objectOut.flush();
+                    objectOut.close();
+                } catch (Exception e) {
+                }
+            }
+        } catch (Exception e) {
+        }
+
         animationIntro(appBarLayout, -1000f, 0);
         tabLayout.setupWithViewPager(viewPager);
         ViewPaperAdapter viewPaperAdapter = new ViewPaperAdapter(getSupportFragmentManager(), 0);
@@ -108,8 +145,32 @@ public class HomeActivity extends AppCompatActivity {
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_chat);
         tabLayout.getTabAt(2).setIcon(R.drawable.ic_profile);
 
-//        BadgeDrawable badgeDrawable = tabLayout.getTabAt(1).getOrCreateBadge();
-//        badgeDrawable.setVisible(true);
+        BadgeDrawable badgeDrawable = tabLayout.getTabAt(1).getOrCreateBadge();
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    while (true) {
+                        int size = 0;
+                        for (int i = 0; i < UserDAO.listChat.size(); i++) {
+                            if (!UserDAO.listChat.get(i).isReaded()) {
+                                ++size;
+                            }
+                        }
+                        if (size == 0 && badgeDrawable.isVisible()) {
+                            badgeDrawable.setVisible(false);
+                        } else if (size != badgeDrawable.getNumber()) {
+                            badgeDrawable.setVisible(true);
+                            badgeDrawable.setNumber(size);
+                        }
+                        Thread.sleep(100);
+                    }
+                } catch (Exception e) {
+                }
+            }
+        }).start();
+
 
         if (first) {
             final int[] size = {UserDAO.listChat.size()};
@@ -119,6 +180,9 @@ public class HomeActivity extends AppCompatActivity {
                     if (size[0] > 0) {
                         size[0]--;
                     } else {
+                        if (!"".equals(ChatActivity.idRoom) && ChatActivity.idRoom != null) {
+                            ChatActivity.position++;
+                        }
                         dataUser.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + snapshot.getKey()).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                             @Override
                             public void onComplete(@NonNull Task<DataSnapshot> task) {
@@ -148,13 +212,13 @@ public class HomeActivity extends AppCompatActivity {
                                 NotificationCompat.Builder builder = new NotificationCompat.Builder(HomeActivity.this, NOTIFICATION_CHANNEL_ID);
                                 Notification notification = builder
                                         .setSmallIcon(R.drawable.love)
-                                        .setContentTitle("Gắn kết mới")
-                                        .setContentText("Bạn vừa có lượt gắn kết mới, trò chuyện ngay")
-                                        .setPriority(NotificationCompat.PRIORITY_MAX)
+                                        .setContentTitle(AllWord.titleNotification)
+                                        .setContentText(AllWord.messageNotification)
+                                        .setPriority(NotificationCompat.PRIORITY_HIGH)
                                         .setContentIntent(pending)
                                         .setAutoCancel(true)
                                         .setStyle(new NotificationCompat.BigTextStyle()
-                                                .bigText("Bạn vừa có lượt gắn kết mới, trò chuyện ngay"))
+                                                .bigText(AllWord.messageNotification))
                                         .build();
 
                                 NotificationManagerCompat manager = NotificationManagerCompat.from(HomeActivity.this);
@@ -167,6 +231,10 @@ public class HomeActivity extends AppCompatActivity {
 
                                 manager.notify(idNotity, notification);
                                 idNotity++;
+
+                                if (ChatListFragment.recyclerView != null) {
+                                    ChatListFragment.recyclerView.setVisibility(View.VISIBLE);
+                                }
                             }
                         });
                     }
@@ -224,7 +292,6 @@ public class HomeActivity extends AppCompatActivity {
             listFragment.add(fragment);
             fragmentTitle.add(title);
         }
-
 
         @NonNull
         @Override

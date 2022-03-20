@@ -19,6 +19,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.storage.FileDownloadTask;
 import com.google.firebase.storage.StorageReference;
 import com.projectd.aphroapp.HomeFragment;
 import com.projectd.aphroapp.model.ChatBox;
@@ -44,7 +45,7 @@ public class UserDAO {
     public static int ORDER_NUMBER = -1;
     public static String GENDER = "";
     public static String GENDER_FINDING = "";
-    public static Bitmap imageBitmap = null;
+    public static Bitmap imageUser;
     public static int age = -1;
 
     public static String nowLangFirst = Locale.getDefault().getLanguage();
@@ -62,6 +63,8 @@ public class UserDAO {
     public static boolean getDataComplete = false;
     public static boolean isGoogle = true;
 
+    public static String dir = "";
+
     public static DatabaseReference refCheck = FirebaseDatabase.getInstance().getReference().child("data_user");
     public static DatabaseReference refUser = FirebaseDatabase.getInstance().getReference().child("user");
     public static DatabaseReference refTotalUser = FirebaseDatabase.getInstance().getReference().child("total_user");
@@ -78,47 +81,53 @@ public class UserDAO {
                 if (ORDER_NUMBER != -1) {
                     refUser.child(GENDER + "/" + ORDER_NUMBER + "/profile").get().addOnCompleteListener(task1 -> {
                         CURRENT_USER = task1.getResult().getValue(User.class);
-                        StorageReference storeRef = InternetDAO.storage.child(CURRENT_USER_ID);
-                        try {
-                            File localFile = File.createTempFile(CURRENT_USER_ID, "png");
-                            storeRef.getFile(localFile);
-                            imageBitmap = BitmapFactory.decodeFile(localFile.getAbsolutePath());
-                        } catch (Exception e) {
-                        }
+
                         if (CURRENT_USER.isGenderFinding()) {
                             GENDER_FINDING += "male";
                         } else {
                             GENDER_FINDING += "female";
                         }
-                        refCheck.child(CURRENT_USER_ID + "/chat_room").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-                            @Override
-                            public void onComplete(@NonNull Task<DataSnapshot> task) {
-                                if (task.getResult().getChildrenCount() > 0) {
-                                    for (DataSnapshot ds : task.getResult().getChildren()) {
-                                        ChatBox chatBox = new ChatBox();
-                                        chatBox.setIdRoom(ds.child("idRoom").getValue(String.class));
-                                        chatBox.setIdUser(ds.child("idUser").getValue(String.class));
-                                        chatBox.setNameUser(ds.child("nameUser").getValue(String.class));
-                                        chatBox.setReaded(ds.child("readed").getValue(Boolean.class));
-                                        chatBox.setFirst(true);
-                                        refChatBox.child(chatBox.getIdRoom()).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-                                            @Override
-                                            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                        StorageReference storeRef = InternetDAO.storage.child(CURRENT_USER_ID);
+                        try {
+                            File localFile = File.createTempFile(CURRENT_USER_ID, "png");
+                            storeRef.getFile(localFile).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                                @Override
+                                public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                                    imageUser = BitmapFactory.decodeFile(localFile.getAbsolutePath());
+                                    refCheck.child(CURRENT_USER_ID + "/chat_room").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<DataSnapshot> task) {
+                                            if (task.getResult().getChildrenCount() > 0) {
                                                 for (DataSnapshot ds : task.getResult().getChildren()) {
-                                                    Messenger ms = new Messenger();
-                                                    ms.setIdUser(ds.child("idUser").getValue(String.class));
-                                                    ms.setText(ds.child("text").getValue(String.class));
-                                                    ms.setDate(ds.child("date").getValue(Date.class));
-                                                    chatBox.getMessengers().add(0, ms);
+                                                    ChatBox chatBox = new ChatBox();
+                                                    chatBox.setIdRoom(ds.child("idRoom").getValue(String.class));
+                                                    chatBox.setIdUser(ds.child("idUser").getValue(String.class));
+                                                    chatBox.setNameUser(ds.child("nameUser").getValue(String.class));
+                                                    chatBox.setReaded(ds.child("readed").getValue(Boolean.class));
+                                                    chatBox.setFirst(true);
+                                                    refChatBox.child(chatBox.getIdRoom()).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                                                        @Override
+                                                        public void onComplete(@NonNull Task<DataSnapshot> task) {
+                                                            for (DataSnapshot ds : task.getResult().getChildren()) {
+                                                                Messenger ms = new Messenger();
+                                                                ms.setIdUser(ds.child("idUser").getValue(String.class));
+                                                                ms.setText(ds.child("text").getValue(String.class));
+                                                                ms.setDate(ds.child("date").getValue(Date.class));
+                                                                chatBox.getMessengers().add(0, ms);
+                                                            }
+                                                            listChat.add(chatBox);
+                                                        }
+                                                    });
                                                 }
-                                                listChat.add(chatBox);
                                             }
-                                        });
-                                    }
+                                            getOrderNumberCanFind();
+                                        }
+                                    });
                                 }
-                                getOrderNumberCanFind();
-                            }
-                        });
+                            });
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
                     });
                 } else {
                     getOrderNumberCanFind();
@@ -148,11 +157,10 @@ public class UserDAO {
                 refCheck.child(CURRENT_USER_ID + "/react/take/" + GENDER_FINDING).addChildEventListener(new ChildEventListener() {
                     @Override
                     public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-                        if(size[0] > 0){
+                        if (size[0] > 0) {
                             size[0]--;
-                        }
-                        else{
-                            refCheck.child(CURRENT_USER_ID + "/react/take/" + GENDER_FINDING+ "/" + snapshot.getKey()).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                        } else {
+                            refCheck.child(CURRENT_USER_ID + "/react/take/" + GENDER_FINDING + "/" + snapshot.getKey()).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                                 @Override
                                 public void onComplete(@NonNull Task<DataSnapshot> task) {
                                     ReactUser reactUser = new ReactUser();
@@ -210,25 +218,12 @@ public class UserDAO {
                                 int max = task.getResult().getValue(Integer.class);
                                 Log.i("checkMax", max + "");
                                 if (givedLike.size() > 0) {
-//                                    for (int i = 0; i < givedLike.size(); i++) {
-//                                        if ((max == ORDER_NUMBER && (CURRENT_USER.isGender() == CURRENT_USER.isGenderFinding() || !CURRENT_USER.isGender() == !CURRENT_USER.isGenderFinding())) || max == givedLike.get(i).getOrderNumber()) {
-//                                            i = 0;
-//                                            max--;
-//                                        } else if (i == givedLike.size() - 1 && max >= 0) {
-//                                            listCanFind.add(max);
-//                                            max--;
-//                                            if (max >= 0) {
-//                                                i = 0;
-//                                            }
-//                                        }
-//                                    }
 
-                                    for(int i = 0; i<max; i++){
-                                        for(int j = 0; j<givedLike.size(); j++){
-                                            if(i==givedLike.get(j).getOrderNumber()){
+                                    for (int i = 0; i < max; i++) {
+                                        for (int j = 0; j < givedLike.size(); j++) {
+                                            if (i == givedLike.get(j).getOrderNumber()) {
                                                 break;
-                                            }
-                                            else if(j==givedLike.size() - 1){
+                                            } else if (j == givedLike.size() - 1) {
                                                 listCanFind.add(i);
                                             }
                                         }

@@ -1,4 +1,4 @@
-package com.projectd.aphroapp;
+package com.projectd.aphroapp.adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -7,50 +7,41 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.os.Parcelable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.StorageReference;
+import com.projectd.aphroapp.ChatActivity;
+import com.projectd.aphroapp.ChatListFragment;
+import com.projectd.aphroapp.R;
 import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
 import com.projectd.aphroapp.model.ChatBox;
 import com.projectd.aphroapp.model.Messenger;
-import com.projectd.aphroapp.model.User;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Date;
 import java.util.LinkedList;
-import java.util.List;
 
 public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordViewHolder> {
     private LinkedList<ChatBox> wordList;
@@ -88,7 +79,6 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
 
     @Override
     public void onBindViewHolder(@NonNull WordViewHolder holder, @SuppressLint("RecyclerView") int position) {
-        int finalPosition = position;
         ChatBox mCurrent = wordList.get(position);
         holder.nameUser.setText(mCurrent.getNameUser());
         try {
@@ -159,7 +149,7 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
         }
 
         if (!mCurrent.isReaded()) {
-            holder.lastText.setTextColor(Color.BLACK);
+            holder.lastText.setTypeface(Typeface.DEFAULT_BOLD);
         }
 
         holder.layoutChatList.setOnClickListener(v -> {
@@ -177,12 +167,12 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
             i.putExtra("idRoom", mCurrent.getIdRoom());
             i.putExtra("idUser", mCurrent.getIdUser());
             i.putExtra("nameUser", mCurrent.getNameUser());
-            i.putExtra("position", finalPosition);
+
             i.putExtra("first", mCurrent.isFirst() + "");
             i.putExtra("list", mCurrent.getMessengers());
             v.getContext().startActivity(i);
         });
-        final int[] size = {UserDAO.listChat.get(finalPosition).getMessengers().size()};
+        final int[] size = {UserDAO.listChat.get(position).getMessengers().size()};
 
         if (mCurrent.isFirst()) {
             chatbox.child(mCurrent.getIdRoom()).addChildEventListener(new ChildEventListener() {
@@ -202,8 +192,12 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
                             UserDAO.listChat.get(finalPosition).getMessengers().add(0, snapshot.getValue(Messenger.class));
                             ChatListFragment.swapItems(finalPosition);
                             if (mCurrent.getIdRoom().equals(ChatActivity.idRoom)) {
+                                UserDAO.listChat.get(finalPosition).setReaded(true);
                                 ChatActivity.adapter.notifyItemInserted(0);
                                 ChatActivity.recyclerView.scrollToPosition(0);
+                            }
+                            else{
+                                UserDAO.listChat.get(finalPosition).setReaded(false);
                             }
                         }
                     }

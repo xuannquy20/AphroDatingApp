@@ -1,4 +1,4 @@
-package com.projectd.aphroapp;
+package com.projectd.aphroapp.adapter;
 
 import android.content.Context;
 import android.util.Log;
@@ -18,14 +18,14 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.mlkit.common.model.DownloadConditions;
-import com.google.mlkit.common.model.RemoteModelManager;
 import com.google.mlkit.nl.languageid.LanguageIdentification;
 import com.google.mlkit.nl.languageid.LanguageIdentifier;
 import com.google.mlkit.nl.translate.TranslateLanguage;
-import com.google.mlkit.nl.translate.TranslateRemoteModel;
 import com.google.mlkit.nl.translate.Translation;
 import com.google.mlkit.nl.translate.Translator;
 import com.google.mlkit.nl.translate.TranslatorOptions;
+import com.projectd.aphroapp.ChatActivity;
+import com.projectd.aphroapp.R;
 import com.projectd.aphroapp.dao.UserDAO;
 import com.projectd.aphroapp.model.Messenger;
 
@@ -33,10 +33,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Locale;
-import java.util.Set;
 
 public class MessengerAdapter extends RecyclerView.Adapter<MessengerAdapter.WordViewHolder> {
     private LayoutInflater mInflater;
@@ -130,14 +127,6 @@ public class MessengerAdapter extends RecyclerView.Adapter<MessengerAdapter.Word
                                         longClickToTranslate(holder.ortherSend, holder.warningTranslate, translator, messenger);
 
                                     }
-                                }
-                            })
-                    .addOnFailureListener(
-                            new OnFailureListener() {
-                                @Override
-                                public void onFailure(@NonNull Exception e) {
-                                    // Model couldn’t be loaded or other internal error.
-                                    // ...
                                 }
                             });
         }

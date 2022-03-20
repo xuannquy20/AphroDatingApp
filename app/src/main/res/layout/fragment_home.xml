@@ -238,7 +238,7 @@
                     app:layout_constraintTop_toTopOf="parent">
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/heart_animation"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="-5dp"
@@ -249,13 +249,13 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
 
-        <ImageView
+        <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/image_warning"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
             android:elevation="10dp"
-            android:src="@drawable/ic_heart"
             android:visibility="gone"
+            android:scaleType="centerCrop"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
