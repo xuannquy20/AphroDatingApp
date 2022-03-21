@@ -211,7 +211,7 @@ public class HomeActivity extends AppCompatActivity {
                                 final String NOTIFICATION_CHANNEL_ID = chatBox.getIdRoom();
                                 NotificationCompat.Builder builder = new NotificationCompat.Builder(HomeActivity.this, NOTIFICATION_CHANNEL_ID);
                                 Notification notification = builder
-                                        .setSmallIcon(R.drawable.love)
+                                        .setSmallIcon(R.drawable.logo)
                                         .setContentTitle(AllWord.titleNotification)
                                         .setContentText(AllWord.messageNotification)
                                         .setPriority(NotificationCompat.PRIORITY_HIGH)
