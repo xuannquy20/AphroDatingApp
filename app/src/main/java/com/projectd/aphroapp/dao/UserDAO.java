@@ -216,7 +216,6 @@ public class UserDAO {
                                 int max = task.getResult().getValue(Integer.class);
                                 Log.i("checkMax", max + "");
                                 if (givedLike.size() > 0) {
-
                                     for (int i = 0; i < max; i++) {
                                         for (int j = 0; j < givedLike.size(); j++) {
                                             if (i == givedLike.get(j).getOrderNumber()) {

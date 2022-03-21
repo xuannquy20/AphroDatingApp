@@ -13,6 +13,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.core.app.NotificationManagerCompat;
 import androidx.fragment.app.Fragment;
 
 import android.os.Handler;
@@ -136,6 +137,7 @@ public class ProfileFragment extends Fragment {
                     LoadingDialog loadingDialog = new LoadingDialog(getActivity());
                     loadingDialog.show();
                     new Handler().postDelayed(() -> {
+                        NotificationManagerCompat.from(getActivity()).cancelAll();
                         loadingDialog.cancel();
                         System.exit(0);
                     }, 1000);
