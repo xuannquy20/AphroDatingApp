@@ -43,9 +43,6 @@ public class LoginActivity extends AppCompatActivity {
     private CallbackManager callbackManager;
     private TextView ruleLink;
     private LinearLayout layoutLogo;
-    DatabaseReference refCheck = FirebaseDatabase.getInstance().getReference().child("data_user");
-    DatabaseReference refUser = FirebaseDatabase.getInstance().getReference().child("user");
-    DatabaseReference refTotalUser = FirebaseDatabase.getInstance().getReference().child("total_user");
 
     public void bindingView() {
         layoutMain = findViewById(R.id.LayoutLogin);

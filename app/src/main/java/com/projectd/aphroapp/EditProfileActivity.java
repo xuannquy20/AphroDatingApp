@@ -2,6 +2,7 @@ package com.projectd.aphroapp;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.NotificationManagerCompat;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -145,6 +146,7 @@ public class EditProfileActivity extends AppCompatActivity {
                                 upImage.putFile(uri).addOnSuccessListener(taskSnapshot -> UserDAO.refUser.child(UserDAO.GENDER + "/" + UserDAO.ORDER_NUMBER + "/profile").setValue(UserDAO.CURRENT_USER).addOnSuccessListener(new OnSuccessListener<Void>() {
                                     @Override
                                     public void onSuccess(Void unused) {
+                                        NotificationManagerCompat.from(EditProfileActivity.this).cancelAll();
                                         loadingDialog.cancel();
                                         new SweetAlertDialog(EditProfileActivity.this, SweetAlertDialog.WARNING_TYPE)
                                                 .setTitleText(AllWord.titleDialog)
@@ -157,6 +159,7 @@ public class EditProfileActivity extends AppCompatActivity {
                                 UserDAO.refUser.child(UserDAO.GENDER + "/" + UserDAO.ORDER_NUMBER + "/profile").setValue(UserDAO.CURRENT_USER).addOnSuccessListener(new OnSuccessListener<Void>() {
                                     @Override
                                     public void onSuccess(Void unused) {
+                                        NotificationManagerCompat.from(EditProfileActivity.this).cancelAll();
                                         loadingDialog.cancel();
                                         new SweetAlertDialog(EditProfileActivity.this, SweetAlertDialog.WARNING_TYPE)
                                                 .setTitleText(AllWord.titleDialog)
