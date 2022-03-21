@@ -53,14 +53,10 @@ public class LoginActivity extends AppCompatActivity {
         btnFacebookSignIn = findViewById(R.id.btnFacebookSignIn);
         ruleLink = findViewById(R.id.textView3);
         layoutLogo = findViewById(R.id.layoutLogo);
-        SpannableString content = new SpannableString("Điều khoản và dịch vụ");
-        content.setSpan(new UnderlineSpan(), 0, content.length(), 0);
-        ruleLink.setText(content);
     }
 
     public void bindingActionListener() {
         btnFacebookSignIn.setOnClickListener(view -> LoginManager.getInstance().logInWithReadPermissions(LoginActivity.this, Arrays.asList("public_profile")));
-        ruleLink.setOnClickListener(view -> startActivity(new Intent(LoginActivity.this, MatchSuccessActivity.class)));
         btnGoogleSignIn.setOnClickListener(view -> signInGoogle());
     }
 
