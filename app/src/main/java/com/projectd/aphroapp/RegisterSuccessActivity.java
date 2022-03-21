@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.projectd.aphroapp.dao.UserDAO;
 import com.projectd.aphroapp.language.AllWord;
 
 public class RegisterSuccessActivity extends AppCompatActivity {
@@ -32,9 +33,28 @@ public class RegisterSuccessActivity extends AppCompatActivity {
         buttonNext.setText(AllWord.next);
 
         buttonNext.setOnClickListener(v -> {
-            Intent i = new Intent(RegisterSuccessActivity.this, HomeActivity.class);
-            startActivity(i);
-            finishAffinity();
+            LoadingDialog loadingDialog = new LoadingDialog(this);
+            loadingDialog.show();
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try{
+                        while(true){
+                            if(UserDAO.getDataComplete){
+                                loadingDialog.cancel();
+                                Intent i = new Intent(RegisterSuccessActivity.this, HomeActivity.class);
+                                startActivity(i);
+                                finishAffinity();
+                                break;
+                            }
+                            else{
+                                Thread.sleep(100);
+                            }
+                        }
+                    }
+                    catch (Exception e){}
+                }
+            }).start();
         });
     }
 
