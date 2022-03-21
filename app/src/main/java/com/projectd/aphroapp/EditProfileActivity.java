@@ -207,7 +207,7 @@ public class EditProfileActivity extends AppCompatActivity {
         titleName.setText(AllWord.yourName);
         editName.setHint(AllWord.yourName);
 
-        titleGender.setText(AllWord.yourGender);
+        titleGender.setText(AllWord.yourGenderFinding);
         titleDescription.setText(AllWord.yourDescription);
 
         editDescription.setHint(AllWord.hintDescription);

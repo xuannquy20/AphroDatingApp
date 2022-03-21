@@ -63,8 +63,6 @@ public class UserDAO {
     public static boolean getDataComplete = false;
     public static boolean isGoogle = true;
 
-    public static String dir = "";
-
     public static DatabaseReference refCheck = FirebaseDatabase.getInstance().getReference().child("data_user");
     public static DatabaseReference refUser = FirebaseDatabase.getInstance().getReference().child("user");
     public static DatabaseReference refTotalUser = FirebaseDatabase.getInstance().getReference().child("total_user");
@@ -224,7 +222,9 @@ public class UserDAO {
                                             if (i == givedLike.get(j).getOrderNumber()) {
                                                 break;
                                             } else if (j == givedLike.size() - 1) {
-                                                listCanFind.add(i);
+                                                if (!(i == ORDER_NUMBER && (CURRENT_USER.isGender() == CURRENT_USER.isGenderFinding() || !CURRENT_USER.isGender() == !CURRENT_USER.isGenderFinding()))) {
+                                                    listCanFind.add(i);
+                                                }
                                             }
                                         }
                                     }
