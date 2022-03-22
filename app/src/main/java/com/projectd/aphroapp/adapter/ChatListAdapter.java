@@ -31,6 +31,7 @@ import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
 import com.projectd.aphroapp.model.ChatBox;
 import com.projectd.aphroapp.model.Messenger;
+import com.projectd.aphroapp.model.User;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -151,13 +152,17 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
         if (!mCurrent.isReaded()) {
             holder.lastText.setTypeface(Typeface.DEFAULT_BOLD);
         }
+        else{
+            holder.lastText.setTypeface(Typeface.DEFAULT);
+        }
 
         holder.layoutChatList.setOnClickListener(v -> {
             UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room").get().addOnCompleteListener(task -> {
                 for (DataSnapshot ds : task.getResult().getChildren()) {
                     if (ds.child("idRoom").getValue(String.class).equals(mCurrent.getIdRoom())) {
                         UserDAO.refCheck.child(UserDAO.CURRENT_USER_ID + "/chat_room/" + ds.getKey() + "/readed").setValue(true);
-                        wordList.get(position).setReaded(true);
+                        UserDAO.listChat.get(position).setReaded(true);
+                        ChatListFragment.adapter.notifyDataSetChanged();
                         holder.lastText.setTextColor(Color.parseColor("#737373"));
                         break;
                     }
@@ -193,6 +198,7 @@ public class ChatListAdapter extends RecyclerView.Adapter<ChatListAdapter.WordVi
                             ChatListFragment.swapItems(finalPosition);
                             if (mCurrent.getIdRoom().equals(ChatActivity.idRoom)) {
                                 UserDAO.listChat.get(finalPosition).setReaded(true);
+                                ChatListFragment.adapter.notifyDataSetChanged();
                                 ChatActivity.adapter.notifyItemInserted(0);
                                 ChatActivity.recyclerView.scrollToPosition(0);
                             }
