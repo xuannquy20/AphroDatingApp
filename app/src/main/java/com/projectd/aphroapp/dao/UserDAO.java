@@ -80,11 +80,6 @@ public class UserDAO {
                     refUser.child(GENDER + "/" + ORDER_NUMBER + "/profile").get().addOnCompleteListener(task1 -> {
                         CURRENT_USER = task1.getResult().getValue(User.class);
 
-                        if (CURRENT_USER.isGenderFinding()) {
-                            GENDER_FINDING += "male";
-                        } else {
-                            GENDER_FINDING += "female";
-                        }
                         StorageReference storeRef = InternetDAO.storage.child(CURRENT_USER_ID);
                         try {
                             File localFile = File.createTempFile(CURRENT_USER_ID, "png");
@@ -128,7 +123,7 @@ public class UserDAO {
                         }
                     });
                 } else {
-                    getOrderNumberCanFind();
+                    getDataComplete = true;
                 }
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
@@ -142,6 +137,13 @@ public class UserDAO {
     }
 
     public static void getOrderNumberCanFind() {
+        if (CURRENT_USER.isGenderFinding()) {
+            GENDER_FINDING = "male";
+        } else {
+            GENDER_FINDING = "female";
+        }
+        Log.i("checkget", GENDER_FINDING);
+
         refCheck.child(CURRENT_USER_ID + "/react/take/" + GENDER_FINDING).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DataSnapshot> task) {
@@ -210,6 +212,7 @@ public class UserDAO {
                         } else {
                             GENDER = "female";
                         }
+
                         refTotalUser.child(GENDER_FINDING).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                             @Override
                             public void onComplete(@NonNull Task<DataSnapshot> task) {
@@ -248,7 +251,9 @@ public class UserDAO {
             Random rd = new Random();
             randomPosition = rd.nextInt(listCanFind.size());
             int orderNumberRandom = listCanFind.get(randomPosition);
+            Log.i("checkget", orderNumberRandom + "");
             listCanFind.remove(randomPosition);
+            Log.i("checkget", GENDER_FINDING);
             refUser.child(GENDER_FINDING + "/" + orderNumberRandom + "/profile").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                 @Override
                 public void onComplete(@NonNull Task<DataSnapshot> task) {

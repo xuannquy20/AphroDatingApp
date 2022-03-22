@@ -87,7 +87,7 @@ public class RegisterImageActivity extends AppCompatActivity {
                             new Thread(() -> {
                                 try{
                                     while(true){
-                                        if (UserDAO.getDataComplete) {
+                                        if (UserDAO.userFound.size() > 0 && UserDAO.imageUserFound.size() > 0) {
                                             loadingDialog.cancel();
                                             Intent i;
                                             if (UserDAO.age >= 18) {

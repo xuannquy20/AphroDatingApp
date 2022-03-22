@@ -40,7 +40,7 @@ public class RegisterSuccessActivity extends AppCompatActivity {
                 public void run() {
                     try{
                         while(true){
-                            if(UserDAO.getDataComplete){
+                            if(UserDAO.userFound.size() > 0 && UserDAO.imageUserFound.size() > 0){
                                 loadingDialog.cancel();
                                 Intent i = new Intent(RegisterSuccessActivity.this, HomeActivity.class);
                                 startActivity(i);
