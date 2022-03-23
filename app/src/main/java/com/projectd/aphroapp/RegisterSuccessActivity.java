@@ -6,6 +6,7 @@ import androidx.cardview.widget.CardView;
 import android.animation.ValueAnimator;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
@@ -40,8 +41,9 @@ public class RegisterSuccessActivity extends AppCompatActivity {
                 public void run() {
                     try{
                         while(true){
-                            if(UserDAO.userFound.size() > 0 && UserDAO.imageUserFound.size() > 0){
+                            if(UserDAO.getDataComplete){
                                 loadingDialog.cancel();
+                                Log.i("checkregis", "done");
                                 Intent i = new Intent(RegisterSuccessActivity.this, HomeActivity.class);
                                 startActivity(i);
                                 finishAffinity();
@@ -49,6 +51,7 @@ public class RegisterSuccessActivity extends AppCompatActivity {
                             }
                             else{
                                 Thread.sleep(100);
+                                Log.i("checkregis", "wait");
                             }
                         }
                     }

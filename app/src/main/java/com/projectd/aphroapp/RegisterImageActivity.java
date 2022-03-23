@@ -21,6 +21,7 @@ import android.widget.TextView;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.storage.StorageReference;
+import com.google.firebase.storage.UploadTask;
 import com.projectd.aphroapp.language.AllWord;
 import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
@@ -77,35 +78,39 @@ public class RegisterImageActivity extends AppCompatActivity {
                     UserDAO.ORDER_NUMBER = count[0];
                     ref.setValue(UserDAO.CURRENT_USER);
                     StorageReference upImage = InternetDAO.storage.child(UserDAO.CURRENT_USER_ID);
-                    upImage.putFile(uri);
-                    refCount.child(finalGender).setValue(count[0] + 1);
-                    refSavePeople.child(UserDAO.CURRENT_USER_ID).child("order_number").setValue(count[0]);
-                    refSavePeople.child(UserDAO.CURRENT_USER_ID).child("gender").setValue(finalGender).addOnSuccessListener(new OnSuccessListener<Void>() {
+                    upImage.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                         @Override
-                        public void onSuccess(Void unused) {
-                            UserDAO.getOrderNumberCanFind();
-                            new Thread(() -> {
-                                try{
-                                    while(true){
-                                        if (UserDAO.userFound.size() > 0 && UserDAO.imageUserFound.size() > 0) {
-                                            loadingDialog.cancel();
-                                            Intent i;
-                                            if (UserDAO.age >= 18) {
-                                                i = new Intent(RegisterImageActivity.this, RegisterSuccessActivity.class);
-                                            } else {
-                                                i = new Intent(RegisterImageActivity.this, AccountUnder18Activity.class);
+                        public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                            refCount.child(finalGender).setValue(count[0] + 1);
+                            refSavePeople.child(UserDAO.CURRENT_USER_ID).child("order_number").setValue(count[0]);
+                            refSavePeople.child(UserDAO.CURRENT_USER_ID).child("gender").setValue(finalGender).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                @Override
+                                public void onSuccess(Void unused) {
+                                    UserDAO.getOrderNumberCanFind();
+                                    new Thread(() -> {
+                                        try {
+                                            while (true) {
+                                                if (UserDAO.getDataComplete) {
+                                                    loadingDialog.cancel();
+                                                    Intent i;
+                                                    if (UserDAO.age >= 18) {
+                                                        i = new Intent(RegisterImageActivity.this, RegisterSuccessActivity.class);
+                                                    } else {
+                                                        i = new Intent(RegisterImageActivity.this, AccountUnder18Activity.class);
+                                                    }
+                                                    startActivity(i);
+                                                    finishAffinity();
+                                                    break;
+                                                } else {
+                                                    Thread.sleep(100);
+                                                }
                                             }
-                                            startActivity(i);
-                                            finishAffinity();
-                                            break;
+                                        } catch (Exception e) {
+                                            e.printStackTrace();
                                         }
-                                        else{
-                                            Thread.sleep(100);
-                                        }
-                                    }
+                                    }).start();
                                 }
-                                catch (Exception e){e.printStackTrace();}
-                            }).start();
+                            });
                         }
                     });
                 });
@@ -123,8 +128,8 @@ public class RegisterImageActivity extends AppCompatActivity {
                     UserDAO.imageUser = MediaStore.Images.Media.getBitmap(this.getContentResolver(), uri);
                     selectImage.setImageURI(uri);
                     selectImage.buildDrawingCache();
+                } catch (Exception e) {
                 }
-                catch (Exception e){}
             }
         }
         btnNext.setEnabled(true);

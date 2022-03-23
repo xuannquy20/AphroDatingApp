@@ -137,6 +137,7 @@ public class UserDAO {
     }
 
     public static void getOrderNumberCanFind() {
+        getDataComplete = false;
         if (CURRENT_USER.isGenderFinding()) {
             GENDER_FINDING = "male";
         } else {
