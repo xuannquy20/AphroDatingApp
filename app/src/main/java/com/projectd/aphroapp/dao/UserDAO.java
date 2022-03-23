@@ -249,6 +249,8 @@ public class UserDAO {
 
     public static void findRandomUser(int position) {
         if (listCanFind.size() > 0) {
+            Log.i("checksizerandom", listCanFind.get(0).toString());
+
             Random rd = new Random();
             randomPosition = rd.nextInt(listCanFind.size());
             int orderNumberRandom = listCanFind.get(randomPosition);
@@ -264,6 +266,8 @@ public class UserDAO {
                         File localFile = File.createTempFile(userFound.get(position).getImage(), "png");
                         storeRef.getFile(localFile).addOnSuccessListener(taskSnapshot -> {
                             imageUserFound.add(BitmapFactory.decodeFile(localFile.getAbsolutePath()));
+                            Log.i("checknewdata", userFound.size() + "");
+                            Log.i("checknewdata", imageUserFound.size() + "");
                             getDataComplete = true;
                         });
                     } catch (Exception e) {

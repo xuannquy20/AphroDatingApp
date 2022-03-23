@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -161,7 +162,9 @@ public class HomeFragment extends Fragment {
                         } else if (UserDAO.userFound.get(1).getMonth() == Calendar.getInstance().get(Calendar.MONTH) && UserDAO.userFound.get(1).getDay() < Calendar.getInstance().get(Calendar.DAY_OF_MONTH)) {
                             age--;
                         }
+                        Log.i("age", age +"");
                         String nameAge = UserDAO.userFound.get(1).getName() + ", " + age;
+                        Log.i("nameAge", nameAge +"");
                         nameUser.setText(nameAge);
                         nameUserHide.setText(nameAge);
                         cityUser.setText(UserDAO.userFound.get(1).getCity().substring(3));
@@ -187,6 +190,7 @@ public class HomeFragment extends Fragment {
                             objectOut.flush();
                             objectOut.close();
                         } catch (Exception e) {
+                            Log.i("errorbitmap", "errorbitmap");
                         }
                     }
                     if (UserDAO.imageUserFound.size() > 0) {
@@ -213,7 +217,7 @@ public class HomeFragment extends Fragment {
                         animationIntro(imageShow, 1500f, 0f, 0, 300);
                     }
                     animationIntro(imageShow, 0f, 1f, 1, 500);
-                    animationEnableButton();
+                    new animationEnableButton().execute();
                 }
             }, 300);
         }, 1000);
@@ -298,20 +302,61 @@ public class HomeFragment extends Fragment {
         return false;
     }
 
-    private void animationEnableButton() {
-        try {
-            if ((UserDAO.imageUserFound.size() == 2) || (UserDAO.imageUserFound.size() == 1 && UserDAO.listCanFind.size() == 0)) {
+//    private void animationEnableButton() {
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                try {
+//                    while(true) {
+//                        if (UserDAO.imageUserFound.size() == 2 || (UserDAO.imageUserFound.size() == 1 && UserDAO.listCanFind.size() == 0)) {
+//                            btnLike.setEnabled(true);
+//                            btnSkip.setEnabled(true);
+//                            animationIntro(btnLike, 0.2f, 1f, 1, 500);
+//                            animationIntro(btnSkip, 0.2f, 1f, 1, 500);
+//                            break;
+//                        } else if (UserDAO.imageUserFound.size() == 0) {
+//                            return;
+//                        } else {
+//                            Thread.sleep(100);
+//                            Log.i("checksizeimage", UserDAO.imageUserFound.size() + "");
+//                        }
+//                    }
+//                } catch (Exception e) {
+//                    Log.i("error", "loi lap");
+//                }
+//            }
+//        }).start();
+//    }
+
+    class animationEnableButton extends AsyncTask<Void,Void,Void>{
+        @Override
+        protected Void doInBackground(Void... voids) {
+            try {
+                while(true) {
+                    if (UserDAO.imageUserFound.size() == 2 || (UserDAO.imageUserFound.size() == 1 && UserDAO.listCanFind.size() == 0)) {
+                        break;
+                    } else if (UserDAO.imageUserFound.size() == 0) {
+                        break;
+                    } else {
+                        Thread.sleep(100);
+                        Log.i("checksizeimage", UserDAO.imageUserFound.size() + "");
+                    }
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void unused) {
+            super.onPostExecute(unused);
+            if (UserDAO.imageUserFound.size() == 2 || (UserDAO.imageUserFound.size() == 1 && UserDAO.listCanFind.size() == 0)) {
                 btnLike.setEnabled(true);
                 btnSkip.setEnabled(true);
                 animationIntro(btnLike, 0.2f, 1f, 1, 500);
                 animationIntro(btnSkip, 0.2f, 1f, 1, 500);
-            } else if (UserDAO.imageUserFound.size() == 0) {
-                return;
-            } else {
-                Thread.sleep(100);
-                animationEnableButton();
             }
-        } catch (Exception e) {
         }
     }
 
