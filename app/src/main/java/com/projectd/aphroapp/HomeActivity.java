@@ -145,34 +145,32 @@ public class HomeActivity extends AppCompatActivity {
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_chat);
         tabLayout.getTabAt(2).setIcon(R.drawable.ic_profile);
 
-        BadgeDrawable badgeDrawable = tabLayout.getTabAt(1).getOrCreateBadge();
-
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    while (true) {
-                        int size = 0;
-                        for (int i = 0; i < UserDAO.listChat.size(); i++) {
-                            if (!UserDAO.listChat.get(i).isReaded()) {
-                                ++size;
-                            }
-                        }
-                        if (size == 0 && badgeDrawable.isVisible()) {
-                            badgeDrawable.setVisible(false);
-                        } else if (size != badgeDrawable.getNumber()) {
-                            badgeDrawable.setVisible(true);
-                            badgeDrawable.setNumber(size);
-                        }
-                        Thread.sleep(100);
-                    }
-                } catch (Exception e) {
-                }
-            }
-        }).start();
-
-
         if (first) {
+            BadgeDrawable badgeDrawable = tabLayout.getTabAt(1).getOrCreateBadge();
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        while (true) {
+                            int size = 0;
+                            for (int i = 0; i < UserDAO.listChat.size(); i++) {
+                                if (!UserDAO.listChat.get(i).isReaded()) {
+                                    ++size;
+                                }
+                            }
+                            if (size == 0 && badgeDrawable.isVisible()) {
+                                badgeDrawable.setVisible(false);
+                            } else if (size != badgeDrawable.getNumber()) {
+                                badgeDrawable.setVisible(true);
+                                badgeDrawable.setNumber(size);
+                            }
+                            Thread.sleep(100);
+                        }
+                    } catch (Exception e) {
+                    }
+                }
+            }).start();
+
             final int[] size = {UserDAO.listChat.size()};
             dataUser.child(UserDAO.CURRENT_USER_ID + "/chat_room").addChildEventListener(new ChildEventListener() {
                 @Override

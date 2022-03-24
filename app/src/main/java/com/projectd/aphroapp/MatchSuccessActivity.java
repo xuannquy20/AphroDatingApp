@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
@@ -60,6 +61,7 @@ public class MatchSuccessActivity extends AppCompatActivity {
             }
         }
         ArrayList<Messenger> messengerList = UserDAO.listChat.get(position).getMessengers();
+        Log.i("checkdatachat", UserDAO.listChat.get(position).getIdRoom());
 
         try {
             File dir = new File(getFilesDir(), "image");

@@ -171,6 +171,7 @@ public class HomeFragment extends Fragment {
                         String address = UserDAO.userFound.get(1).getWard().substring(6) + ", " + UserDAO.userFound.get(1).getDistrict().substring(4) + ", " + cityUser.getText().toString();
                         addressUserHide.setText(address);
                         descriptionUser.setText(UserDAO.userFound.get(1).getDescription());
+
                         File dir = new File(getActivity().getFilesDir(), "image");
                         if (!dir.exists()) {
                             dir.mkdir();
@@ -301,32 +302,6 @@ public class HomeFragment extends Fragment {
         }
         return false;
     }
-
-//    private void animationEnableButton() {
-//        new Thread(new Runnable() {
-//            @Override
-//            public void run() {
-//                try {
-//                    while(true) {
-//                        if (UserDAO.imageUserFound.size() == 2 || (UserDAO.imageUserFound.size() == 1 && UserDAO.listCanFind.size() == 0)) {
-//                            btnLike.setEnabled(true);
-//                            btnSkip.setEnabled(true);
-//                            animationIntro(btnLike, 0.2f, 1f, 1, 500);
-//                            animationIntro(btnSkip, 0.2f, 1f, 1, 500);
-//                            break;
-//                        } else if (UserDAO.imageUserFound.size() == 0) {
-//                            return;
-//                        } else {
-//                            Thread.sleep(100);
-//                            Log.i("checksizeimage", UserDAO.imageUserFound.size() + "");
-//                        }
-//                    }
-//                } catch (Exception e) {
-//                    Log.i("error", "loi lap");
-//                }
-//            }
-//        }).start();
-//    }
 
     class animationEnableButton extends AsyncTask<Void,Void,Void>{
         @Override

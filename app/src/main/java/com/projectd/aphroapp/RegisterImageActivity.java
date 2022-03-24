@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -25,6 +26,11 @@ import com.google.firebase.storage.UploadTask;
 import com.projectd.aphroapp.language.AllWord;
 import com.projectd.aphroapp.dao.InternetDAO;
 import com.projectd.aphroapp.dao.UserDAO;
+
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 
@@ -126,6 +132,31 @@ public class RegisterImageActivity extends AppCompatActivity {
                 try {
                     uri = data.getData();
                     UserDAO.imageUser = MediaStore.Images.Media.getBitmap(this.getContentResolver(), uri);
+
+                    try {
+                        File dir = new File(this.getFilesDir(), "image");
+                        if (!dir.exists()) {
+                            dir.mkdir();
+                        }
+                        File file = new File(dir, UserDAO.CURRENT_USER_ID + ".png");
+                        if (file.exists()) {
+                            file.delete();
+                        }
+                        try {
+                            Bitmap imageBox = UserDAO.imageUser;
+                            ByteArrayOutputStream stream = new ByteArrayOutputStream();
+                            imageBox.compress(Bitmap.CompressFormat.PNG, 100, stream);
+                            byte[] byteArray = stream.toByteArray();
+                            FileOutputStream fileOut = new FileOutputStream(file);
+                            ObjectOutputStream objectOut = new ObjectOutputStream(fileOut);
+                            objectOut.writeObject(byteArray);
+                            objectOut.flush();
+                            objectOut.close();
+                        } catch (Exception e) {
+                        }
+                    } catch (Exception e) {
+                    }
+
                     selectImage.setImageURI(uri);
                     selectImage.buildDrawingCache();
                 } catch (Exception e) {
